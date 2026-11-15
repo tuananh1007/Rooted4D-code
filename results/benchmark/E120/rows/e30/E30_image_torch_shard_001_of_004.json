@@ -1,0 +1,365 @@
+{
+  "shard": "1/4",
+  "rows": [
+    {
+      "arm": "point_lm",
+      "sample": "sample-04595194ac6631f1",
+      "seconds": 2.7076609134674072,
+      "rotation_deg": 2.590731472664102,
+      "translation_mm": 3.890093417499836,
+      "phase_map_cycles": 0.029845528790398035
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-04595194ac6631f1",
+      "seconds": 65.89745354652405,
+      "rotation_deg": 15.48846457772568,
+      "translation_mm": 8.825636368111796,
+      "phase_map_cycles": 0.05607050235625394
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-04595194ac6631f1",
+      "seconds": 56.484670877456665,
+      "rotation_deg": 70.96571775928983,
+      "translation_mm": 3.8870501847658003,
+      "phase_map_cycles": 0.12509090080748947
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-1fdc05c124193ab4",
+      "seconds": 2.663165330886841,
+      "rotation_deg": 1.1041215483106173,
+      "translation_mm": 4.915825197502488,
+      "phase_map_cycles": 0.01979064358855981
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-1fdc05c124193ab4",
+      "seconds": 54.76600217819214,
+      "rotation_deg": 145.8758355836599,
+      "translation_mm": 21.695539765946688,
+      "phase_map_cycles": 0.13085039038866292
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-1fdc05c124193ab4",
+      "seconds": 53.997005462646484,
+      "rotation_deg": 41.285528394843475,
+      "translation_mm": 4.891061520849493,
+      "phase_map_cycles": 0.021288010747943786
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-2d2ced6b94d54b1e",
+      "seconds": 2.786200523376465,
+      "rotation_deg": 0.6151621363166259,
+      "translation_mm": 1.1293057942625246,
+      "phase_map_cycles": 0.020135785755669933
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-2d2ced6b94d54b1e",
+      "seconds": 61.79430651664734,
+      "rotation_deg": 159.0750198585815,
+      "translation_mm": 14.148089719825105,
+      "phase_map_cycles": 0.42876287544364194
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-2d2ced6b94d54b1e",
+      "seconds": 58.90509915351868,
+      "rotation_deg": 176.9486221001856,
+      "translation_mm": 1.4638254471527028,
+      "phase_map_cycles": 0.14158353359678766
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-31a5d135b7df96c7",
+      "seconds": 2.769529342651367,
+      "rotation_deg": 2.16808142472916,
+      "translation_mm": 2.8131166597522803,
+      "phase_map_cycles": 0.014432024747715433
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-31a5d135b7df96c7",
+      "seconds": 56.714797258377075,
+      "rotation_deg": 153.42615198532184,
+      "translation_mm": 15.312994206201244,
+      "phase_map_cycles": 0.4809019445647821
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-31a5d135b7df96c7",
+      "seconds": 54.83134078979492,
+      "rotation_deg": 61.54477419890663,
+      "translation_mm": 2.8074406755045103,
+      "phase_map_cycles": 0.31597396990246324
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-521522c681de7414",
+      "seconds": 2.7749135494232178,
+      "rotation_deg": 1.679565578406571,
+      "translation_mm": 5.129404428443068,
+      "phase_map_cycles": 0.014900405929896637
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-521522c681de7414",
+      "seconds": 70.37526273727417,
+      "rotation_deg": 164.19723496821172,
+      "translation_mm": 15.16980084336769,
+      "phase_map_cycles": 0.18441394832124447
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-521522c681de7414",
+      "seconds": 56.07262659072876,
+      "rotation_deg": 110.45548733485667,
+      "translation_mm": 5.133986433710437,
+      "phase_map_cycles": 0.2802627417370687
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-66fc7a9456bbb0f4",
+      "seconds": 2.63041615486145,
+      "rotation_deg": 1.5784343913490717,
+      "translation_mm": 5.82080425582348,
+      "phase_map_cycles": 0.031120569087986993
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-66fc7a9456bbb0f4",
+      "seconds": 67.83739614486694,
+      "rotation_deg": 160.73120889449515,
+      "translation_mm": 4.451056464887267,
+      "phase_map_cycles": 0.2874299557788852
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-66fc7a9456bbb0f4",
+      "seconds": 54.717443227767944,
+      "rotation_deg": 156.54476180339617,
+      "translation_mm": 5.825236516294401,
+      "phase_map_cycles": 0.35053257534495497
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-6f3aa5eafbe55b34",
+      "seconds": 2.6760470867156982,
+      "rotation_deg": 0.6735524705567305,
+      "translation_mm": 2.7080317401630314,
+      "phase_map_cycles": 0.007708696156143585
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-6f3aa5eafbe55b34",
+      "seconds": 43.5092453956604,
+      "rotation_deg": 91.3958172272841,
+      "translation_mm": 19.067010069303716,
+      "phase_map_cycles": 0.09288878531025913
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-6f3aa5eafbe55b34",
+      "seconds": 61.080646991729736,
+      "rotation_deg": 0.9934230858379914,
+      "translation_mm": 0.8154974499856743,
+      "phase_map_cycles": 0.17379121536238024
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-85ebb86d2c62c245",
+      "seconds": 2.7486982345581055,
+      "rotation_deg": 1.993557506014956,
+      "translation_mm": 6.280756287859242,
+      "phase_map_cycles": 0.017866101146790436
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-85ebb86d2c62c245",
+      "seconds": 61.304343461990356,
+      "rotation_deg": 117.70835100563427,
+      "translation_mm": 12.017944898417673,
+      "phase_map_cycles": 0.22815045337181616
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-85ebb86d2c62c245",
+      "seconds": 56.35266733169556,
+      "rotation_deg": 178.82838559537885,
+      "translation_mm": 6.468713213480969,
+      "phase_map_cycles": 0.027740282376318315
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-94ebdaa43c84a9b0",
+      "seconds": 2.8108510971069336,
+      "rotation_deg": 1.0625667316690008,
+      "translation_mm": 1.6345030418927442,
+      "phase_map_cycles": 0.006351862527281926
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-94ebdaa43c84a9b0",
+      "seconds": 60.24696660041809,
+      "rotation_deg": 127.63928449700538,
+      "translation_mm": 8.58804760272242,
+      "phase_map_cycles": 0.1444014922801929
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-94ebdaa43c84a9b0",
+      "seconds": 59.66878318786621,
+      "rotation_deg": 2.123714472868657,
+      "translation_mm": 2.6982259403168922,
+      "phase_map_cycles": 0.03444787273557315
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-b0a5362d9ad0a167",
+      "seconds": 2.702817916870117,
+      "rotation_deg": 1.068262001159869,
+      "translation_mm": 6.048096080013955,
+      "phase_map_cycles": 0.013788036015774274
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-b0a5362d9ad0a167",
+      "seconds": 58.470983028411865,
+      "rotation_deg": 95.1340979811499,
+      "translation_mm": 12.432907667552538,
+      "phase_map_cycles": 0.31724808957252754
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-b0a5362d9ad0a167",
+      "seconds": 55.60919713973999,
+      "rotation_deg": 162.51983193124278,
+      "translation_mm": 6.041108756855748,
+      "phase_map_cycles": 0.021724992604031546
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-bfd2bd0432e2e759",
+      "seconds": 2.8577892780303955,
+      "rotation_deg": 2.766224089277318,
+      "translation_mm": 4.304551049632044,
+      "phase_map_cycles": 0.023997887197325207
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-bfd2bd0432e2e759",
+      "seconds": 50.69836378097534,
+      "rotation_deg": 152.13791248607967,
+      "translation_mm": 9.906188209558588,
+      "phase_map_cycles": 0.060402611330054534
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-bfd2bd0432e2e759",
+      "seconds": 57.553648471832275,
+      "rotation_deg": 4.035647933830596,
+      "translation_mm": 6.158422744999225,
+      "phase_map_cycles": 0.03965791869644841
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-cc83409fcf619709",
+      "seconds": 2.7706785202026367,
+      "rotation_deg": 2.3999460029639446,
+      "translation_mm": 1.1000061491701068,
+      "phase_map_cycles": 0.009585816805500913
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-cc83409fcf619709",
+      "seconds": 38.678422927856445,
+      "rotation_deg": 163.6433482163975,
+      "translation_mm": 18.778326152399426,
+      "phase_map_cycles": 0.053520077480602724
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-cc83409fcf619709",
+      "seconds": 59.10243201255798,
+      "rotation_deg": 2.7999029455204107,
+      "translation_mm": 3.7750400179040824,
+      "phase_map_cycles": 0.04318207205998434
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-d649adef410dd353",
+      "seconds": 2.734006404876709,
+      "rotation_deg": 1.2785226970014485,
+      "translation_mm": 0.7171219745715108,
+      "phase_map_cycles": 0.0037556550094439145
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-d649adef410dd353",
+      "seconds": 58.76050591468811,
+      "rotation_deg": 2.36254467321175,
+      "translation_mm": 7.910424709276895,
+      "phase_map_cycles": 0.42572163704552546
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-d649adef410dd353",
+      "seconds": 58.34437704086304,
+      "rotation_deg": 172.3796939794454,
+      "translation_mm": 2.431810166794607,
+      "phase_map_cycles": 0.04863925957972243
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-dfa5b5c7aa6898e1",
+      "seconds": 2.7619946002960205,
+      "rotation_deg": 1.8171920268126758,
+      "translation_mm": 1.9610931416493067,
+      "phase_map_cycles": 0.007415140043635027
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-dfa5b5c7aa6898e1",
+      "seconds": 57.62952184677124,
+      "rotation_deg": 65.04578507086262,
+      "translation_mm": 10.069713350128422,
+      "phase_map_cycles": 0.3574106747935861
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-dfa5b5c7aa6898e1",
+      "seconds": 60.512864112854004,
+      "rotation_deg": 2.185755422499076,
+      "translation_mm": 3.6209273975246425,
+      "phase_map_cycles": 0.022359247784137615
+    },
+    {
+      "arm": "point_lm",
+      "sample": "sample-efb59a8a9814f2b3",
+      "seconds": 2.7642362117767334,
+      "rotation_deg": 2.586288851123049,
+      "translation_mm": 3.395441944383921,
+      "phase_map_cycles": 0.0034610255181200533
+    },
+    {
+      "arm": "image_lbfgs",
+      "sample": "sample-efb59a8a9814f2b3",
+      "seconds": 60.47608685493469,
+      "rotation_deg": 145.90222242473925,
+      "translation_mm": 14.447049683987707,
+      "phase_map_cycles": 0.3503782314758399
+    },
+    {
+      "arm": "image_from_point",
+      "sample": "sample-efb59a8a9814f2b3",
+      "seconds": 58.22020149230957,
+      "rotation_deg": 158.76995075019244,
+      "translation_mm": 2.1992408792251132,
+      "phase_map_cycles": 0.06115694931969301
+    }
+  ]
+}

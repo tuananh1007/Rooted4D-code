@@ -1,0 +1,73 @@
+{
+  "dataset_key": "mnms2",
+  "title": "M&Ms-2 multi-disease multi-view multi-centre RV segmentation",
+  "filed_utc": "2026-08-31",
+  "local_root": "data/raw/mnms2",
+  "source_archive": {
+    "path_at_filing": "datasets/MnM2.rar",
+    "sha256": "934076fe388f0747c80b7f0fdf5ebc57cd480ab737be8228639480e61515362b",
+    "size_bytes": 9824397247
+  },
+  "extracted": {
+    "n_files": 3602,
+    "n_nifti": 3600,
+    "subjects": 360,
+    "per_subject": "SA and LA, each CINE plus ED and ES with _gt labels, ten files",
+    "note": "Short-axis AND long-axis with ground truth, which ACDC does not provide."
+  },
+  "cohort": {
+    "disease": {
+      "NOR": 75,
+      "LV": 60,
+      "HCM": 60,
+      "ARR": 35,
+      "FALL": 35,
+      "CIA": 35,
+      "RV": 30,
+      "TRI": 30
+    },
+    "vendor": {
+      "GE MEDICAL SYSTEMS": 53,
+      "Philips Medical Systems": 88,
+      "SIEMENS": 219
+    },
+    "field_strength": {
+      "1.5": 343,
+      "3": 17
+    },
+    "split_note": "160 training, 40 validation, 160 testing, included sequentially per the readme."
+  },
+  "layout_validation": {
+    "tool": "python -m rooted4d.data.cli validate mnms2 --root data/raw/mnms2",
+    "matched_files": 3600,
+    "minimum_matches": 100,
+    "passed": true
+  },
+  "gotcha": "dataset_information.csv carries about 1.05 million trailing blank rows, a spreadsheet artifact. Reading it without filtering on SUBJECT_CODE reports a million subjects and swamps every category count.",
+  "role": [
+    "multi-centre and multi-vendor domain shift for the CMR component",
+    "long-axis geometry, which the plane selector repeatedly favoured and which ACDC cannot supply"
+  ],
+  "license": {
+    "name": "M&Ms Dataset Research Use Agreement",
+    "source": "https://www.ub.edu/mnms-2/documents/data_use_agreement.pdf",
+    "retrieved_utc": "2026-08-31",
+    "research_use_only": true,
+    "sale_prohibited": true,
+    "non_academic_use": "requires case-by-case approval from the M&Ms organizers",
+    "key_clauses": {
+      "5_no_distribution": "YOU MAY NOT DISTRIBUTE, PUBLISH, OR REPRODUCE A COPY of any portion or all of the M&Ms Dataset to others without specific prior written permission from M&Ms organizers.",
+      "6_no_derivatives_except_clause_2": "You must not modify, reverse engineer, decompile, or create derivative works from the M&Ms Dataset with the exception of works in agreement with the clause number 2.",
+      "2_models_and_code_encouraged": "any computational model or algorithm that have used the M&Ms Dataset and is publicly referenced (e.g. in a publication etc..) is suggested to be shared including the code and model weights and must give appropriate credit by citing the M&Ms article but not in any way that suggests that the M&Ms organizers endorses you or your use.",
+      "7_research_use_only": "Not for diagnosis or provision of patient care.",
+      "9_no_reidentification": "Re-identification is strictly prohibited and must be reported.",
+      "10_termination": "Violation may require returning all copies and retaining none."
+    },
+    "consequences_for_this_project": [
+      "Clause 6 forbids derivative works of the data, and clause 2's exception covers models and algorithms rather than datasets. Fitted meshes or a derived benchmark built from M&Ms-2 are therefore data derivatives and cannot be released, matching the position already forced by MVSeg2023.",
+      "Clause 2 is more permissive than assumed for the software side: sharing code and model weights is explicitly suggested, not merely tolerated, so releasing the method and any trained weights is encouraged provided the M&Ms article is cited and no endorsement is implied.",
+      "Clause 1 restricts use to research and requires approval for non-academic use; this project is academic, so the default permission applies.",
+      "Clause 7 rules out any diagnostic or patient-care framing of results, which aligns with the claim boundaries already in force."
+    ]
+  }
+}

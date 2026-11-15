@@ -1,0 +1,17 @@
+fitting shape space from train split...
+per_frame nodes  4 (rows  4)  w  0.03   3.249 +/- 0.132  (134 s)
+per_frame nodes  4 (rows  4)  w  0.10   3.232 +/- 0.135  (266 s)
+per_frame nodes  4 (rows  4)  w  0.30   3.259 +/- 0.135  (404 s)
+per_frame nodes  4 (rows  4)  w  1.00   3.536 +/- 0.134  (545 s)
+periodic: best order2_w0.03 (2.799) -> chosen order2_w1.0
+per_frame: best nodes6_w0.1 (2.958) -> chosen nodes6_w0.3
+test arms: {'periodic': ('periodic', 2, 1.0), 'per_frame': ('per_frame', 6, 0.3)}
+  test 10/60  90s
+  test 20/60  181s
+  test 30/60  269s
+  test 40/60  359s
+  test 50/60  449s
+  test 60/60  540s
+periodic   cmr  1.796  tee  3.114  rot  1.979  trans  2.766  phase 0.0209
+per_frame  cmr  1.949  tee  3.293  rot  1.961  trans  2.749  phase 0.0292
+done

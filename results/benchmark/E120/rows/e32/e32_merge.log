@@ -1,0 +1,21 @@
+fitting shape space...
+
+warm-started image fit, by number of landmarks with known identity
+   landmarks   rotation deg   translation mm   phase cycles
+           0        114.705            4.774         0.1810
+           2          2.773            3.192         0.0462
+           4          1.894            3.079         0.0340
+           8          1.495            2.612         0.0331
+   point ref          2.168            3.596              -
+
+median difference from no landmarks:
+   2 landmarks rotation_deg        -112.4454  p=0.0000 *
+   2 landmarks translation_mm        -1.3788  p=0.0138 *
+   2 landmarks phase_map_cycles      -0.1154  p=0.0000 *
+   4 landmarks rotation_deg        -112.6271  p=0.0000 *
+   4 landmarks translation_mm        -1.3891  p=0.0032 *
+   4 landmarks phase_map_cycles      -0.1218  p=0.0000 *
+   8 landmarks rotation_deg        -113.1668  p=0.0000 *
+   8 landmarks translation_mm        -2.0467  p=0.0038 *
+   8 landmarks phase_map_cycles      -0.1359  p=0.0000 *
+done

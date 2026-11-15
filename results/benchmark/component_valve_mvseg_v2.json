@@ -1,0 +1,939 @@
+{
+  "component": "valve_from_MVSeg2023",
+  "n_cases": 40,
+  "summary": {
+    "anterior_symmetric_mm": {
+      "n": 40,
+      "median": 0.5798539104898498,
+      "mean": 0.574910610175343,
+      "p95": 0.66703984991669,
+      "max": 0.700386795740786
+    },
+    "posterior_symmetric_mm": {
+      "n": 40,
+      "median": 0.5771188153091715,
+      "mean": 0.5977567031798378,
+      "p95": 0.7439715650411631,
+      "max": 0.9825367074533289
+    },
+    "anterior_hausdorff_mm": {
+      "n": 40,
+      "median": 3.6531991649696787,
+      "mean": 3.721661544083427,
+      "p95": 4.87776876578331,
+      "max": 5.42142665216107
+    },
+    "posterior_hausdorff_mm": {
+      "n": 40,
+      "median": 5.29119673316595,
+      "mean": 5.934905804280307,
+      "p95": 7.52026878085584,
+      "max": 19.905566876128926
+    },
+    "annulus_diameter_mm": {
+      "n": 40,
+      "median": 44.4891760474093,
+      "mean": 44.65577127844426,
+      "p95": 57.085059476218,
+      "max": 63.34961294998923
+    },
+    "anterior_span_mm": {
+      "n": 40,
+      "median": 16.438671389559474,
+      "mean": 16.75031167518719,
+      "p95": 22.189254198060926,
+      "max": 23.66371993389132
+    },
+    "posterior_span_mm": {
+      "n": 40,
+      "median": 16.74529449493981,
+      "mean": 18.2662146263509,
+      "p95": 26.536594094343407,
+      "max": 32.626984669708605
+    }
+  },
+  "rows": [
+    {
+      "case": "test_001",
+      "annulus_diameter_mm": 63.34961294998923,
+      "anterior_span_mm": 22.018954446534515,
+      "posterior_span_mm": 29.946464543773075,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9755502465917401,
+        "p95_points_to_surface_mm": 1.979208041794168,
+        "mean_surface_to_points_mm": 0.18827586965391205,
+        "p95_surface_to_points_mm": 0.28574037354873666,
+        "symmetric_mean_mm": 0.581913058122826,
+        "hausdorff_mm": 4.231505071707401
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9039153484335458,
+        "p95_points_to_surface_mm": 1.9582681436064158,
+        "mean_surface_to_points_mm": 0.18410213208019283,
+        "p95_surface_to_points_mm": 0.28715967442070783,
+        "symmetric_mean_mm": 0.5440087402568693,
+        "hausdorff_mm": 5.7391415133501935
+      }
+    },
+    {
+      "case": "test_002",
+      "annulus_diameter_mm": 42.309802169661914,
+      "anterior_span_mm": 11.294419418556796,
+      "posterior_span_mm": 16.157787042090714,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8346101697612642,
+        "p95_points_to_surface_mm": 1.698555212829759,
+        "mean_surface_to_points_mm": 0.18105992533411586,
+        "p95_surface_to_points_mm": 0.2783966370925736,
+        "symmetric_mean_mm": 0.50783504754769,
+        "hausdorff_mm": 2.7659590891897636
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8483865573813641,
+        "p95_points_to_surface_mm": 1.914739785783657,
+        "mean_surface_to_points_mm": 0.18294768056170915,
+        "p95_surface_to_points_mm": 0.27964013724406145,
+        "symmetric_mean_mm": 0.5156671189715366,
+        "hausdorff_mm": 4.412440757534758
+      }
+    },
+    {
+      "case": "test_003",
+      "annulus_diameter_mm": 51.84502117395343,
+      "anterior_span_mm": 20.815689542535004,
+      "posterior_span_mm": 26.357127228583963,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9414793675783698,
+        "p95_points_to_surface_mm": 1.93231847735043,
+        "mean_surface_to_points_mm": 0.18716488846047685,
+        "p95_surface_to_points_mm": 0.2883028298142355,
+        "symmetric_mean_mm": 0.5643221280194233,
+        "hausdorff_mm": 4.038689187223431
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9434190358488881,
+        "p95_points_to_surface_mm": 2.0384320398415077,
+        "mean_surface_to_points_mm": 0.19258806453249566,
+        "p95_surface_to_points_mm": 0.2952058861424719,
+        "symmetric_mean_mm": 0.5680035501906919,
+        "hausdorff_mm": 5.622812396821692
+      }
+    },
+    {
+      "case": "test_004",
+      "annulus_diameter_mm": 44.6111308909432,
+      "anterior_span_mm": 15.799840287359416,
+      "posterior_span_mm": 14.854806875605338,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9084469978530949,
+        "p95_points_to_surface_mm": 1.8073124226412756,
+        "mean_surface_to_points_mm": 0.20142930309909676,
+        "p95_surface_to_points_mm": 0.30527911015510123,
+        "symmetric_mean_mm": 0.5549381504760958,
+        "hausdorff_mm": 3.237408106979711
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8627018340489547,
+        "p95_points_to_surface_mm": 2.0153679007852707,
+        "mean_surface_to_points_mm": 0.20697203314918036,
+        "p95_surface_to_points_mm": 0.31509902723558014,
+        "symmetric_mean_mm": 0.5348369335990676,
+        "hausdorff_mm": 5.2446584494631905
+      }
+    },
+    {
+      "case": "test_005",
+      "annulus_diameter_mm": 42.337801410341825,
+      "anterior_span_mm": 9.136699541548182,
+      "posterior_span_mm": 16.84503402393812,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8452629366451605,
+        "p95_points_to_surface_mm": 1.7230826901220846,
+        "mean_surface_to_points_mm": 0.16999590651040214,
+        "p95_surface_to_points_mm": 0.26364752294722354,
+        "symmetric_mean_mm": 0.5076294215777813,
+        "hausdorff_mm": 2.7237322785578986
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.013986564168295,
+        "p95_points_to_surface_mm": 2.46053549243387,
+        "mean_surface_to_points_mm": 0.17074832546576316,
+        "p95_surface_to_points_mm": 0.2632310057393753,
+        "symmetric_mean_mm": 0.5923674448170291,
+        "hausdorff_mm": 6.010531807448495
+      }
+    },
+    {
+      "case": "test_006",
+      "annulus_diameter_mm": 47.448651749310216,
+      "anterior_span_mm": 21.73305553025098,
+      "posterior_span_mm": 16.216018775265788,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.091607625755564,
+        "p95_points_to_surface_mm": 2.3714332520500476,
+        "mean_surface_to_points_mm": 0.24094715641282377,
+        "p95_surface_to_points_mm": 0.36768302764583605,
+        "symmetric_mean_mm": 0.6662773910841939,
+        "hausdorff_mm": 4.236066795800223
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.3430188567932708,
+        "p95_points_to_surface_mm": 3.542987142535779,
+        "mean_surface_to_points_mm": 0.30256009341976753,
+        "p95_surface_to_points_mm": 0.40822573241398563,
+        "symmetric_mean_mm": 0.8227894751065192,
+        "hausdorff_mm": 6.383259693857665
+      }
+    },
+    {
+      "case": "test_007",
+      "annulus_diameter_mm": 53.892292951811655,
+      "anterior_span_mm": 21.23356528649704,
+      "posterior_span_mm": 21.46289317029502,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0515698891266005,
+        "p95_points_to_surface_mm": 2.240907121572993,
+        "mean_surface_to_points_mm": 0.2554992382233911,
+        "p95_surface_to_points_mm": 0.37718837720346127,
+        "symmetric_mean_mm": 0.6535345636749958,
+        "hausdorff_mm": 3.842262479720382
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.1748429492283723,
+        "p95_points_to_surface_mm": 2.707950790829494,
+        "mean_surface_to_points_mm": 0.28413344694930454,
+        "p95_surface_to_points_mm": 0.4114806230919665,
+        "symmetric_mean_mm": 0.7294881980888384,
+        "hausdorff_mm": 5.333818162964724
+      }
+    },
+    {
+      "case": "test_008",
+      "annulus_diameter_mm": 47.97476345970251,
+      "anterior_span_mm": 16.174695536953834,
+      "posterior_span_mm": 15.815488631396912,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0076794112016594,
+        "p95_points_to_surface_mm": 2.170681615334071,
+        "mean_surface_to_points_mm": 0.20746235528180396,
+        "p95_surface_to_points_mm": 0.31211884700491876,
+        "symmetric_mean_mm": 0.6075708832417317,
+        "hausdorff_mm": 4.810948761024395
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.046277810167435,
+        "p95_points_to_surface_mm": 2.3875550348374377,
+        "mean_surface_to_points_mm": 0.21058610073509768,
+        "p95_surface_to_points_mm": 0.3129886700263373,
+        "symmetric_mean_mm": 0.6284319554512664,
+        "hausdorff_mm": 5.584196252767324
+      }
+    },
+    {
+      "case": "test_009",
+      "annulus_diameter_mm": 31.07993337670358,
+      "anterior_span_mm": 14.8589282877744,
+      "posterior_span_mm": 12.114733783385091,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8907942450219658,
+        "p95_points_to_surface_mm": 1.7447755711670585,
+        "mean_surface_to_points_mm": 0.15283970205799954,
+        "p95_surface_to_points_mm": 0.24374058779503982,
+        "symmetric_mean_mm": 0.5218169735399827,
+        "hausdorff_mm": 3.4730458594070157
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8556680842249645,
+        "p95_points_to_surface_mm": 1.8297740205610398,
+        "mean_surface_to_points_mm": 0.17360628616769275,
+        "p95_surface_to_points_mm": 0.25526867511815104,
+        "symmetric_mean_mm": 0.5146371851963286,
+        "hausdorff_mm": 4.191604775701441
+      }
+    },
+    {
+      "case": "test_010",
+      "annulus_diameter_mm": 44.84870268993859,
+      "anterior_span_mm": 16.13415588441204,
+      "posterior_span_mm": 16.313515988169897,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9581543589632223,
+        "p95_points_to_surface_mm": 1.9480151795268437,
+        "mean_surface_to_points_mm": 0.2190356789004092,
+        "p95_surface_to_points_mm": 0.3194787769306807,
+        "symmetric_mean_mm": 0.5885950189318158,
+        "hausdorff_mm": 3.3855087190575857
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0820295853888893,
+        "p95_points_to_surface_mm": 2.4507504246433656,
+        "mean_surface_to_points_mm": 0.22564615502157645,
+        "p95_surface_to_points_mm": 0.3339503920619041,
+        "symmetric_mean_mm": 0.6538378702052329,
+        "hausdorff_mm": 6.460810578255499
+      }
+    },
+    {
+      "case": "test_011",
+      "annulus_diameter_mm": 40.346473716707656,
+      "anterior_span_mm": 15.768421763603918,
+      "posterior_span_mm": 16.358907329614155,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9728617094576082,
+        "p95_points_to_surface_mm": 1.9320161118704156,
+        "mean_surface_to_points_mm": 0.18272781625613896,
+        "p95_surface_to_points_mm": 0.28251303485545043,
+        "symmetric_mean_mm": 0.5777947628568736,
+        "hausdorff_mm": 3.3715123443023898
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9135689337748464,
+        "p95_points_to_surface_mm": 1.9555888551313003,
+        "mean_surface_to_points_mm": 0.20242314501073236,
+        "p95_surface_to_points_mm": 0.293177522119466,
+        "symmetric_mean_mm": 0.5579960393927894,
+        "hausdorff_mm": 4.527997062756431
+      }
+    },
+    {
+      "case": "test_012",
+      "annulus_diameter_mm": 38.19098968649734,
+      "anterior_span_mm": 13.552050290052081,
+      "posterior_span_mm": 13.012203964855951,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8776067392409694,
+        "p95_points_to_surface_mm": 1.793566467927014,
+        "mean_surface_to_points_mm": 0.18904826478746814,
+        "p95_surface_to_points_mm": 0.2960005153171215,
+        "symmetric_mean_mm": 0.5333275020142187,
+        "hausdorff_mm": 3.3287551241018387
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8622191738844001,
+        "p95_points_to_surface_mm": 1.8280339228551357,
+        "mean_surface_to_points_mm": 0.18814607546060383,
+        "p95_surface_to_points_mm": 0.2953982932981861,
+        "symmetric_mean_mm": 0.525182624672502,
+        "hausdorff_mm": 4.517704605201059
+      }
+    },
+    {
+      "case": "test_013",
+      "annulus_diameter_mm": 56.30655646637098,
+      "anterior_span_mm": 23.66371993389132,
+      "posterior_span_mm": 25.20395601114667,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.089620313803509,
+        "p95_points_to_surface_mm": 2.3465122395246145,
+        "mean_surface_to_points_mm": 0.311153277678063,
+        "p95_surface_to_points_mm": 0.4797266535128192,
+        "symmetric_mean_mm": 0.700386795740786,
+        "hausdorff_mm": 4.657725131984721
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0513825185537835,
+        "p95_points_to_surface_mm": 2.4091299047042156,
+        "mean_surface_to_points_mm": 0.9136908963528741,
+        "p95_surface_to_points_mm": 3.498683259144115,
+        "symmetric_mean_mm": 0.9825367074533289,
+        "hausdorff_mm": 18.908215074018763
+      }
+    },
+    {
+      "case": "test_014",
+      "annulus_diameter_mm": 39.941058854768315,
+      "anterior_span_mm": 12.504219932716289,
+      "posterior_span_mm": 19.22616452055307,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.980532639763841,
+        "p95_points_to_surface_mm": 2.0083552264754716,
+        "mean_surface_to_points_mm": 0.19387181063920325,
+        "p95_surface_to_points_mm": 0.29334049856287386,
+        "symmetric_mean_mm": 0.5872022252015221,
+        "hausdorff_mm": 4.76936365167993
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8784760794582974,
+        "p95_points_to_surface_mm": 1.9351674991260106,
+        "mean_surface_to_points_mm": 0.260209339118415,
+        "p95_surface_to_points_mm": 0.31835903152762224,
+        "symmetric_mean_mm": 0.5693427092883562,
+        "hausdorff_mm": 4.966321697524228
+      }
+    },
+    {
+      "case": "test_015",
+      "annulus_diameter_mm": 37.32949683608251,
+      "anterior_span_mm": 15.003836732529257,
+      "posterior_span_mm": 14.92957429179723,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9252818442407595,
+        "p95_points_to_surface_mm": 1.8966891832510369,
+        "mean_surface_to_points_mm": 0.1442865503528124,
+        "p95_surface_to_points_mm": 0.21985501830421264,
+        "symmetric_mean_mm": 0.534784197296786,
+        "hausdorff_mm": 3.162225512617137
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8934700992768747,
+        "p95_points_to_surface_mm": 1.9596153569373609,
+        "mean_surface_to_points_mm": 0.17286713905007772,
+        "p95_surface_to_points_mm": 0.24879906865094278,
+        "symmetric_mean_mm": 0.5331686191634762,
+        "hausdorff_mm": 4.506494862854297
+      }
+    },
+    {
+      "case": "test_016",
+      "annulus_diameter_mm": 38.18676978734135,
+      "anterior_span_mm": 10.55350379449842,
+      "posterior_span_mm": 13.399018229205154,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8469888856047814,
+        "p95_points_to_surface_mm": 1.8032823262390727,
+        "mean_surface_to_points_mm": 0.13292639951155855,
+        "p95_surface_to_points_mm": 0.20094028860150284,
+        "symmetric_mean_mm": 0.48995764255817,
+        "hausdorff_mm": 3.6831063189497883
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9751687419222513,
+        "p95_points_to_surface_mm": 2.311066275349452,
+        "mean_surface_to_points_mm": 0.1329014977743038,
+        "p95_surface_to_points_mm": 0.19864041344610056,
+        "symmetric_mean_mm": 0.5540351198482776,
+        "hausdorff_mm": 6.070903594325743
+      }
+    },
+    {
+      "case": "test_017",
+      "annulus_diameter_mm": 39.23867069276549,
+      "anterior_span_mm": 15.265713507308432,
+      "posterior_span_mm": 13.629703238382344,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.826302891081884,
+        "p95_points_to_surface_mm": 1.6961344804913538,
+        "mean_surface_to_points_mm": 0.15534411637680506,
+        "p95_surface_to_points_mm": 0.2371711963391237,
+        "symmetric_mean_mm": 0.4908235037293446,
+        "hausdorff_mm": 2.9749673986783374
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.04629838217413,
+        "p95_points_to_surface_mm": 2.2131032044675134,
+        "mean_surface_to_points_mm": 0.17077874497699058,
+        "p95_surface_to_points_mm": 0.24843877420048655,
+        "symmetric_mean_mm": 0.6085385635755604,
+        "hausdorff_mm": 5.027353215820889
+      }
+    },
+    {
+      "case": "test_018",
+      "annulus_diameter_mm": 37.46783903563063,
+      "anterior_span_mm": 9.797422909564759,
+      "posterior_span_mm": 14.222698917425415,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8266098824416211,
+        "p95_points_to_surface_mm": 1.7357562068707129,
+        "mean_surface_to_points_mm": 0.19278753266080415,
+        "p95_surface_to_points_mm": 0.30193744173972376,
+        "symmetric_mean_mm": 0.5096987075512126,
+        "hausdorff_mm": 3.0952613462452208
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8275414273519377,
+        "p95_points_to_surface_mm": 1.7947543120447491,
+        "mean_surface_to_points_mm": 0.2106249025558217,
+        "p95_surface_to_points_mm": 0.308809427271308,
+        "symmetric_mean_mm": 0.5190831649538797,
+        "hausdorff_mm": 4.585319261274227
+      }
+    },
+    {
+      "case": "test_019",
+      "annulus_diameter_mm": 56.95859205034771,
+      "anterior_span_mm": 20.49543449082451,
+      "posterior_span_mm": 21.8522508300017,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.034750028261148,
+        "p95_points_to_surface_mm": 2.111215215684407,
+        "mean_surface_to_points_mm": 0.19829711436880565,
+        "p95_surface_to_points_mm": 0.30592694643499646,
+        "symmetric_mean_mm": 0.6165235713149768,
+        "hausdorff_mm": 3.7173092787450797
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0297189372665656,
+        "p95_points_to_surface_mm": 2.3459277211233416,
+        "mean_surface_to_points_mm": 0.20799336308967786,
+        "p95_surface_to_points_mm": 0.3148733425421645,
+        "symmetric_mean_mm": 0.6188561501781218,
+        "hausdorff_mm": 6.813884212092541
+      }
+    },
+    {
+      "case": "test_020",
+      "annulus_diameter_mm": 48.65354873221318,
+      "anterior_span_mm": 17.008131442834536,
+      "posterior_span_mm": 18.16389376135209,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.893179318960834,
+        "p95_points_to_surface_mm": 1.7821468066321628,
+        "mean_surface_to_points_mm": 0.2190341736262396,
+        "p95_surface_to_points_mm": 0.32837735357329756,
+        "symmetric_mean_mm": 0.5561067462935368,
+        "hausdorff_mm": 3.833229156886652
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0042612119342837,
+        "p95_points_to_surface_mm": 2.2633213631497737,
+        "mean_surface_to_points_mm": 0.23381309890867139,
+        "p95_surface_to_points_mm": 0.34302333823606984,
+        "symmetric_mean_mm": 0.6190371554214775,
+        "hausdorff_mm": 5.2485753033671765
+      }
+    },
+    {
+      "case": "test_021",
+      "annulus_diameter_mm": 47.00620432398786,
+      "anterior_span_mm": 15.335147300476327,
+      "posterior_span_mm": 17.081588163006586,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0110662006038076,
+        "p95_points_to_surface_mm": 2.0975276290612164,
+        "mean_surface_to_points_mm": 0.2517554693219346,
+        "p95_surface_to_points_mm": 0.3809753164045306,
+        "symmetric_mean_mm": 0.6314108349628711,
+        "hausdorff_mm": 3.9123140169528643
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0215888066875856,
+        "p95_points_to_surface_mm": 2.7430080209027516,
+        "mean_surface_to_points_mm": 0.25707257937631856,
+        "p95_surface_to_points_mm": 0.38455365408278164,
+        "symmetric_mean_mm": 0.639330693031952,
+        "hausdorff_mm": 6.92090318647888
+      }
+    },
+    {
+      "case": "test_022",
+      "annulus_diameter_mm": 47.75435603364645,
+      "anterior_span_mm": 18.751402296165914,
+      "posterior_span_mm": 18.286185859737916,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9968272086075861,
+        "p95_points_to_surface_mm": 2.027259464833743,
+        "mean_surface_to_points_mm": 0.19302451059295403,
+        "p95_surface_to_points_mm": 0.29932242270126086,
+        "symmetric_mean_mm": 0.5949258596002701,
+        "hausdorff_mm": 3.8854491240166853
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9487314149106439,
+        "p95_points_to_surface_mm": 2.067303015469723,
+        "mean_surface_to_points_mm": 0.20737631371905166,
+        "p95_surface_to_points_mm": 0.3135213136536156,
+        "symmetric_mean_mm": 0.5780538643148478,
+        "hausdorff_mm": 6.20109192658103
+      }
+    },
+    {
+      "case": "test_023",
+      "annulus_diameter_mm": 35.6743885243653,
+      "anterior_span_mm": 19.974646279343844,
+      "posterior_span_mm": 15.710403465711966,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9521166617255683,
+        "p95_points_to_surface_mm": 1.9020179835730078,
+        "mean_surface_to_points_mm": 0.18554980177542768,
+        "p95_surface_to_points_mm": 0.2794699003539198,
+        "symmetric_mean_mm": 0.568833231750498,
+        "hausdorff_mm": 3.152659838046787
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9412031533300322,
+        "p95_points_to_surface_mm": 1.992694935636123,
+        "mean_surface_to_points_mm": 0.2145161608900252,
+        "p95_surface_to_points_mm": 0.2947324872765977,
+        "symmetric_mean_mm": 0.5778596571100287,
+        "hausdorff_mm": 4.365796437642582
+      }
+    },
+    {
+      "case": "test_024",
+      "annulus_diameter_mm": 49.271703413006136,
+      "anterior_span_mm": 22.16452346886056,
+      "posterior_span_mm": 24.216220781158434,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.028928907244345,
+        "p95_points_to_surface_mm": 2.161859032646724,
+        "mean_surface_to_points_mm": 0.20836256714890092,
+        "p95_surface_to_points_mm": 0.31703300151833047,
+        "symmetric_mean_mm": 0.618645737196623,
+        "hausdorff_mm": 4.64404081763563
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8719928049552849,
+        "p95_points_to_surface_mm": 1.9214219157784387,
+        "mean_surface_to_points_mm": 0.3624519737344893,
+        "p95_surface_to_points_mm": 1.5545511713382527,
+        "symmetric_mean_mm": 0.617222389344887,
+        "hausdorff_mm": 5.919378408124541
+      }
+    },
+    {
+      "case": "test_025",
+      "annulus_diameter_mm": 53.886856626023814,
+      "anterior_span_mm": 18.711024493508937,
+      "posterior_span_mm": 21.882348907465882,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.100732329729288,
+        "p95_points_to_surface_mm": 2.4840991052859964,
+        "mean_surface_to_points_mm": 0.26232080573894273,
+        "p95_surface_to_points_mm": 0.3812044507009145,
+        "symmetric_mean_mm": 0.6815265677341154,
+        "hausdorff_mm": 5.42142665216107
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.158347256388112,
+        "p95_points_to_surface_mm": 2.6415224260029047,
+        "mean_surface_to_points_mm": 0.32129925158207195,
+        "p95_surface_to_points_mm": 0.42604726493034184,
+        "symmetric_mean_mm": 0.739823253985092,
+        "hausdorff_mm": 19.905566876128926
+      }
+    },
+    {
+      "case": "test_026",
+      "annulus_diameter_mm": 44.36722120387541,
+      "anterior_span_mm": 16.702647242165114,
+      "posterior_span_mm": 18.0544406314404,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9292235506419684,
+        "p95_points_to_surface_mm": 1.851311303239018,
+        "mean_surface_to_points_mm": 0.1696149135031332,
+        "p95_surface_to_points_mm": 0.2546179510637792,
+        "symmetric_mean_mm": 0.5494192320725508,
+        "hausdorff_mm": 3.100055330410076
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9708457845682563,
+        "p95_points_to_surface_mm": 2.153198841949067,
+        "mean_surface_to_points_mm": 0.19590808040284927,
+        "p95_surface_to_points_mm": 0.266244084247119,
+        "symmetric_mean_mm": 0.5833769324855528,
+        "hausdorff_mm": 5.667387316911803
+      }
+    },
+    {
+      "case": "test_027",
+      "annulus_diameter_mm": 38.16936720431007,
+      "anterior_span_mm": 15.35226847380573,
+      "posterior_span_mm": 14.551719210613317,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8217918687699594,
+        "p95_points_to_surface_mm": 1.7337447553806011,
+        "mean_surface_to_points_mm": 0.17313891493714695,
+        "p95_surface_to_points_mm": 0.2615808842220933,
+        "symmetric_mean_mm": 0.49746539185355315,
+        "hausdorff_mm": 3.0036034100087563
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9345179635222614,
+        "p95_points_to_surface_mm": 2.0834298605237223,
+        "mean_surface_to_points_mm": 0.18397452749035767,
+        "p95_surface_to_points_mm": 0.2671389789766854,
+        "symmetric_mean_mm": 0.5592462455063095,
+        "hausdorff_mm": 4.202252167782487
+      }
+    },
+    {
+      "case": "test_028",
+      "annulus_diameter_mm": 37.53240933179398,
+      "anterior_span_mm": 16.116517295923924,
+      "posterior_span_mm": 20.135937446438508,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.934138838603305,
+        "p95_points_to_surface_mm": 1.789133259172796,
+        "mean_surface_to_points_mm": 0.15539242501119457,
+        "p95_surface_to_points_mm": 0.2447578438049559,
+        "symmetric_mean_mm": 0.5447656318072498,
+        "hausdorff_mm": 2.8917261814014394
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9072616545530464,
+        "p95_points_to_surface_mm": 1.8218037628097616,
+        "mean_surface_to_points_mm": 0.15589357234961346,
+        "p95_surface_to_points_mm": 0.2437408501219387,
+        "symmetric_mean_mm": 0.5315776134513299,
+        "hausdorff_mm": 3.512263781228685
+      }
+    },
+    {
+      "case": "test_029",
+      "annulus_diameter_mm": 59.48794056775366,
+      "anterior_span_mm": 22.659138052867927,
+      "posterior_span_mm": 32.626984669708605,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.948796395685466,
+        "p95_points_to_surface_mm": 2.002041471679372,
+        "mean_surface_to_points_mm": 0.2606544973056431,
+        "p95_surface_to_points_mm": 0.39201997745953954,
+        "symmetric_mean_mm": 0.6047254464955546,
+        "hausdorff_mm": 4.3967649940957605
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.903589151241132,
+        "p95_points_to_surface_mm": 1.9833654878723066,
+        "mean_surface_to_points_mm": 0.2915940051780687,
+        "p95_surface_to_points_mm": 0.42332958409001775,
+        "symmetric_mean_mm": 0.5975915782096004,
+        "hausdorff_mm": 6.490123651779837
+      }
+    },
+    {
+      "case": "test_030",
+      "annulus_diameter_mm": 36.138872625488375,
+      "anterior_span_mm": 12.76738458248972,
+      "posterior_span_mm": 14.523094833339933,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9581283946605382,
+        "p95_points_to_surface_mm": 1.944556872346894,
+        "mean_surface_to_points_mm": 0.18080230222774699,
+        "p95_surface_to_points_mm": 0.2790573501155331,
+        "symmetric_mean_mm": 0.5694653484441426,
+        "hausdorff_mm": 3.4186597009413684
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8892901814639608,
+        "p95_points_to_surface_mm": 1.9213022357805956,
+        "mean_surface_to_points_mm": 0.1804918546945185,
+        "p95_surface_to_points_mm": 0.2792443245800239,
+        "symmetric_mean_mm": 0.5348910180792397,
+        "hausdorff_mm": 4.140677513465489
+      }
+    },
+    {
+      "case": "test_031",
+      "annulus_diameter_mm": 34.35324746434711,
+      "anterior_span_mm": 11.0871595412311,
+      "posterior_span_mm": 13.461525365169042,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8813060525265939,
+        "p95_points_to_surface_mm": 1.7508321230757293,
+        "mean_surface_to_points_mm": 0.15590732132681492,
+        "p95_surface_to_points_mm": 0.2449645487807077,
+        "symmetric_mean_mm": 0.5186066869267044,
+        "hausdorff_mm": 3.064902816082506
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9576134788594987,
+        "p95_points_to_surface_mm": 2.0471450385009473,
+        "mean_surface_to_points_mm": 0.16533091796496283,
+        "p95_surface_to_points_mm": 0.24801327156822023,
+        "symmetric_mean_mm": 0.5614721984122307,
+        "hausdorff_mm": 4.6716936190010605
+      }
+    },
+    {
+      "case": "test_032",
+      "annulus_diameter_mm": 39.838622448943816,
+      "anterior_span_mm": 13.12715306953674,
+      "posterior_span_mm": 16.6455549659415,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8215660784285828,
+        "p95_points_to_surface_mm": 1.7204427068118007,
+        "mean_surface_to_points_mm": 0.13964537722427844,
+        "p95_surface_to_points_mm": 0.20894388020634896,
+        "symmetric_mean_mm": 0.48060572782643063,
+        "hausdorff_mm": 3.108516444671208
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8035015626602932,
+        "p95_points_to_surface_mm": 1.70587279982813,
+        "mean_surface_to_points_mm": 0.19210114044320042,
+        "p95_surface_to_points_mm": 0.4883316790558904,
+        "symmetric_mean_mm": 0.49780135155174676,
+        "hausdorff_mm": 3.635137991420603
+      }
+    },
+    {
+      "case": "test_033",
+      "annulus_diameter_mm": 55.59283836651897,
+      "anterior_span_mm": 16.93814501000241,
+      "posterior_span_mm": 23.882677021341046,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9633841689728317,
+        "p95_points_to_surface_mm": 1.9761973579904362,
+        "mean_surface_to_points_mm": 0.209365961571338,
+        "p95_surface_to_points_mm": 0.3203075798186415,
+        "symmetric_mean_mm": 0.5863750652720848,
+        "hausdorff_mm": 3.6232920109895685
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 1.0848318551797014,
+        "p95_points_to_surface_mm": 2.2351230366883597,
+        "mean_surface_to_points_mm": 0.2173482117787019,
+        "p95_surface_to_points_mm": 0.3273703207514305,
+        "symmetric_mean_mm": 0.6510900334792016,
+        "hausdorff_mm": 5.994922000015854
+      }
+    },
+    {
+      "case": "test_034",
+      "annulus_diameter_mm": 51.883535581003194,
+      "anterior_span_mm": 17.173575740686847,
+      "posterior_span_mm": 21.86881428117269,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9671799027622405,
+        "p95_points_to_surface_mm": 2.062572366115482,
+        "mean_surface_to_points_mm": 0.22448935287389285,
+        "p95_surface_to_points_mm": 0.3479589914022521,
+        "symmetric_mean_mm": 0.5958346278180667,
+        "hausdorff_mm": 4.106803103101933
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9308348598952032,
+        "p95_points_to_surface_mm": 1.9312342667105098,
+        "mean_surface_to_points_mm": 0.22192108712142516,
+        "p95_surface_to_points_mm": 0.3507460444148931,
+        "symmetric_mean_mm": 0.5763779735083142,
+        "hausdorff_mm": 5.462291611460009
+      }
+    },
+    {
+      "case": "test_035",
+      "annulus_diameter_mm": 29.829496501162975,
+      "anterior_span_mm": 12.097354323800294,
+      "posterior_span_mm": 10.96943115514815,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.8245372877948296,
+        "p95_points_to_surface_mm": 1.6691081042424936,
+        "mean_surface_to_points_mm": 0.135522749827233,
+        "p95_surface_to_points_mm": 0.20062387718932106,
+        "symmetric_mean_mm": 0.4800300188110313,
+        "hausdorff_mm": 2.4354921434169836
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9167119778340269,
+        "p95_points_to_surface_mm": 1.9709918950529195,
+        "mean_surface_to_points_mm": 0.13267580871908993,
+        "p95_surface_to_points_mm": 0.19920718528582054,
+        "symmetric_mean_mm": 0.5246938932765585,
+        "hausdorff_mm": 3.7807454223344417
+      }
+    },
+    {
+      "case": "test_036",
+      "annulus_diameter_mm": 45.917443293367725,
+      "anterior_span_mm": 22.1474311783555,
+      "posterior_span_mm": 16.944086911568405,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0240821872108263,
+        "p95_points_to_surface_mm": 2.0840755772841715,
+        "mean_surface_to_points_mm": 0.21494476593379028,
+        "p95_surface_to_points_mm": 0.3255736115781734,
+        "symmetric_mean_mm": 0.6195134765723083,
+        "hausdorff_mm": 3.5707460099912263
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9546084214789333,
+        "p95_points_to_surface_mm": 2.073544474253182,
+        "mean_surface_to_points_mm": 0.23907757466262844,
+        "p95_surface_to_points_mm": 0.3476543089135822,
+        "symmetric_mean_mm": 0.5968429980707809,
+        "hausdorff_mm": 5.21714819396622
+      }
+    },
+    {
+      "case": "test_037",
+      "annulus_diameter_mm": 41.44062353315863,
+      "anterior_span_mm": 18.34423591003645,
+      "posterior_span_mm": 15.98815211813943,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0692974427010051,
+        "p95_points_to_surface_mm": 2.1767340356763594,
+        "mean_surface_to_points_mm": 0.21747280070247857,
+        "p95_surface_to_points_mm": 0.3333900144506152,
+        "symmetric_mean_mm": 0.6433851217017419,
+        "hausdorff_mm": 3.7470013000118993
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9359872169484651,
+        "p95_points_to_surface_mm": 2.00492252403564,
+        "mean_surface_to_points_mm": 0.21979870794803202,
+        "p95_surface_to_points_mm": 0.3383184836831867,
+        "symmetric_mean_mm": 0.5778929624482485,
+        "hausdorff_mm": 5.001971981331837
+      }
+    },
+    {
+      "case": "test_038",
+      "annulus_diameter_mm": 46.437437936544654,
+      "anterior_span_mm": 21.85261920219698,
+      "posterior_span_mm": 20.910870732549437,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.0736355607831636,
+        "p95_points_to_surface_mm": 2.2147085053612336,
+        "mean_surface_to_points_mm": 0.22113096352893602,
+        "p95_surface_to_points_mm": 0.3493364217929243,
+        "symmetric_mean_mm": 0.6473832621560498,
+        "hausdorff_mm": 4.87499903010234
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9678900415673105,
+        "p95_points_to_surface_mm": 2.1571269379335245,
+        "mean_surface_to_points_mm": 0.27824179990709647,
+        "p95_surface_to_points_mm": 0.3827565815928457,
+        "symmetric_mean_mm": 0.6230659207372035,
+        "hausdorff_mm": 4.249694732343857
+      }
+    },
+    {
+      "case": "test_039",
+      "annulus_diameter_mm": 48.9748024768812,
+      "anterior_span_mm": 19.144484090618732,
+      "posterior_span_mm": 21.018192792308913,
+      "anterior": {
+        "mean_points_to_surface_mm": 0.9741319039175754,
+        "p95_points_to_surface_mm": 2.1024697306641587,
+        "mean_surface_to_points_mm": 0.22146757027543526,
+        "p95_surface_to_points_mm": 0.3424303136786897,
+        "symmetric_mean_mm": 0.5977997370965054,
+        "hausdorff_mm": 4.239033482718327
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.9244085259990229,
+        "p95_points_to_surface_mm": 1.953410021071994,
+        "mean_surface_to_points_mm": 0.2246558781720804,
+        "p95_surface_to_points_mm": 0.34919278850981794,
+        "symmetric_mean_mm": 0.5745322020855517,
+        "hausdorff_mm": 5.715417874653026
+      }
+    },
+    {
+      "case": "test_040",
+      "annulus_diameter_mm": 40.35577500050992,
+      "anterior_span_mm": 16.753150895168947,
+      "posterior_span_mm": 15.808114585238256,
+      "anterior": {
+        "mean_points_to_surface_mm": 1.034963338493216,
+        "p95_points_to_surface_mm": 2.083021878350176,
+        "mean_surface_to_points_mm": 0.19437488178958523,
+        "p95_surface_to_points_mm": 0.30459796578512,
+        "symmetric_mean_mm": 0.6146691101414006,
+        "hausdorff_mm": 4.930393743721746
+      },
+      "posterior": {
+        "mean_points_to_surface_mm": 0.8630427785116891,
+        "p95_points_to_surface_mm": 1.9079938133881174,
+        "mean_surface_to_points_mm": 0.2883172660356804,
+        "p95_surface_to_points_mm": 0.33202975370645726,
+        "symmetric_mean_mm": 0.5756800222736848,
+        "hausdorff_mm": 6.185724201160745
+      }
+    }
+  ],
+  "wall_seconds": 504.3944249153137,
+  "note": "free-edge row taken from the deepest decile of each sector"
+}

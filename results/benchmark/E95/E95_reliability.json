@@ -1,0 +1,421 @@
+{
+  "experiment": "E95",
+  "preregistration": "Docs/E95_RELIABILITY_FLAGS_PREREGISTRATION_2026-09-28.md",
+  "benchmarks": {
+    "v4": {
+      "samples": 60,
+      "signals": {
+        "alpha": {
+          "rotation_deg": {
+            "spearman": {
+              "rho": -0.21550430675187557,
+              "lower": -0.47435212681370714,
+              "upper": 0.06440874528293686,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": false
+          },
+          "translation_mm": {
+            "spearman": {
+              "rho": -0.10530702973048071,
+              "lower": -0.38299162390927405,
+              "upper": 0.19542611403756208,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "phase_map_cycles": {
+            "spearman": {
+              "rho": 0.17721589330369553,
+              "lower": -0.06129966598839212,
+              "upper": 0.3831390973287234,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "chance": 0.1,
+              "chance_tail_probability": 1.0
+            },
+            "useful_flag": false
+          },
+          "heldout_cmr_mm": {
+            "spearman": {
+              "rho": -0.2671297582661851,
+              "lower": -0.520647405333266,
+              "upper": 0.015516702269058665,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_tee_mm": {
+            "spearman": {
+              "rho": -0.05857182550708532,
+              "lower": -0.3072133787759241,
+              "upper": 0.1945862992780361,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": false
+          }
+        },
+        "cost": {
+          "rotation_deg": {
+            "spearman": {
+              "rho": 0.32753542650736317,
+              "lower": 0.06250286703029079,
+              "upper": 0.5695319948842062,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "translation_mm": {
+            "spearman": {
+              "rho": 0.0685190330647402,
+              "lower": -0.16526783392118588,
+              "upper": 0.296104205508359,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": false
+          },
+          "phase_map_cycles": {
+            "spearman": {
+              "rho": 0.17938316198944154,
+              "lower": -0.06644990576536365,
+              "upper": 0.4104039813274461,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_cmr_mm": {
+            "spearman": {
+              "rho": 0.6258960822450682,
+              "lower": 0.42221217584191867,
+              "upper": 0.7708090925118289,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": true
+          },
+          "heldout_tee_mm": {
+            "spearman": {
+              "rho": 0.22106140594609616,
+              "lower": -0.08432106535046566,
+              "upper": 0.47717118848269097,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          }
+        },
+        "laplace_rotation_deg": {
+          "rotation_deg": {
+            "spearman": {
+              "rho": 0.38649624895804396,
+              "lower": 0.17432241134533674,
+              "upper": 0.5767118655423886,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 4,
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.00043524410622752623
+            },
+            "useful_flag": true
+          }
+        },
+        "laplace_translation_mm": {
+          "translation_mm": {
+            "spearman": {
+              "rho": 0.32881355932203393,
+              "lower": 0.07540225928316276,
+              "upper": 0.5519585679912474,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 4,
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.00043524410622752623
+            },
+            "useful_flag": true
+          }
+        },
+        "laplace_phase_cycles": {
+          "phase_map_cycles": {
+            "spearman": {
+              "rho": 0.06085023617671577,
+              "lower": -0.19017640275898312,
+              "upper": 0.2996728778570195,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "chance": 0.1,
+              "chance_tail_probability": 1.0
+            },
+            "useful_flag": false
+          }
+        }
+      }
+    },
+    "v3": {
+      "samples": 60,
+      "signals": {
+        "alpha": {
+          "rotation_deg": {
+            "spearman": {
+              "rho": -0.08385662684078912,
+              "lower": -0.37677308295852646,
+              "upper": 0.24972277004993124,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "translation_mm": {
+            "spearman": {
+              "rho": 0.00022228396776882473,
+              "lower": -0.3305932228776589,
+              "upper": 0.30135500685280797,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "chance": 0.1,
+              "chance_tail_probability": 1.0
+            },
+            "useful_flag": false
+          },
+          "phase_map_cycles": {
+            "spearman": {
+              "rho": 0.11064184495693251,
+              "lower": -0.17965346595078635,
+              "upper": 0.39610420196515933,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_cmr_mm": {
+            "spearman": {
+              "rho": 0.13876076687968886,
+              "lower": -0.11894479718206308,
+              "upper": 0.3885842590117422,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_tee_mm": {
+            "spearman": {
+              "rho": 0.09430397332592388,
+              "lower": -0.20415231166994252,
+              "upper": 0.37090161707603075,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": false
+          }
+        },
+        "cost": {
+          "rotation_deg": {
+            "spearman": {
+              "rho": 0.1647124201166991,
+              "lower": -0.15658033349519265,
+              "upper": 0.46331637175319723,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "chance": 0.1,
+              "chance_tail_probability": 0.10509846823636851
+            },
+            "useful_flag": false
+          },
+          "translation_mm": {
+            "spearman": {
+              "rho": 0.3179772158933038,
+              "lower": -0.005788729511202407,
+              "upper": 0.5768229819254086,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 4,
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.00043524410622752623
+            },
+            "useful_flag": false
+          },
+          "phase_map_cycles": {
+            "spearman": {
+              "rho": 0.10564045568213394,
+              "lower": -0.20008093392183443,
+              "upper": 0.3905677584124779,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_cmr_mm": {
+            "spearman": {
+              "rho": 0.4895248680188943,
+              "lower": 0.22532880533087887,
+              "upper": 0.6808103123764112,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          },
+          "heldout_tee_mm": {
+            "spearman": {
+              "rho": 0.3163100861350376,
+              "lower": 0.003337960117947032,
+              "upper": 0.547782479810944,
+              "samples": 60
+            },
+            "flag": {
+              "flagged": 6,
+              "hits": 1,
+              "precision": 0.16666666666666666,
+              "recall": 0.16666666666666666,
+              "chance": 0.1,
+              "chance_tail_probability": 0.4841155875715536
+            },
+            "useful_flag": false
+          }
+        }
+      }
+    }
+  }
+}

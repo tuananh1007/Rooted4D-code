@@ -1,0 +1,22 @@
+  val 10/60  53s
+  val 20/60  101s
+  val 30/60  150s
+  val 40/60  201s
+  val 50/60  256s
+  val 60/60  308s
+  test 10/60  49s
+  test 20/60  100s
+  test 30/60  153s
+  test 40/60  205s
+  test 50/60  255s
+  test 60/60  308s
+cached fits to results/benchmark/E15_measurements.npz
+phase_offset_cycles    target 0.80  half-width   0.1189  coverage 0.900  (n_cal 60, need 4)
+pose_translation_mm    target 0.80  half-width   3.5890  coverage 0.900  (n_cal 60, need 4)
+pose_rotation_deg      target 0.80  half-width   2.1098  coverage 0.900  (n_cal 60, need 4)
+annulus_diameter_mm    target 0.80  half-width   0.7488  coverage 0.717  (n_cal 60, need 4)
+phase_offset_cycles    target 0.90  half-width   0.1646  coverage 0.967  (n_cal 60, need 9)
+pose_translation_mm    target 0.90  half-width   4.5916  coverage 0.933  (n_cal 60, need 9)
+pose_rotation_deg      target 0.90  half-width   2.8762  coverage 1.000  (n_cal 60, need 9)
+annulus_diameter_mm    target 0.90  half-width   0.9687  coverage 0.833  (n_cal 60, need 9)
+done

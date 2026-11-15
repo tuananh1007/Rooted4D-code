@@ -1,0 +1,15 @@
+  25/134  89s
+  50/134  178s
+  75/134  268s
+  100/134  357s
+  125/134  446s
+
+quantity                                     median      p95      max
+centroid_shift_mm                              8.15    30.08    63.71
+surface_distance_raw_mm                        4.43    16.01    50.65
+surface_distance_after_translation_mm          1.64     2.80     3.51
+surface_distance_after_rigid_mm                1.19     1.55     1.89
+icp_rotation_deg                               5.58    13.10    17.61
+
+n = 268 subject-phase pairs over 134 subjects
+done

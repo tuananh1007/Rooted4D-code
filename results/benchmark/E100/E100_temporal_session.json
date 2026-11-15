@@ -1,0 +1,1112 @@
+{
+  "experiment": "E100",
+  "preregistration": "Docs/E100_ORIENTED_REBUILD_PREREGISTRATION_2026-09-29.md",
+  "statistics": "each study's own; E62's are identity-averaged, sum of modality medians, 20000 identity resamples, seed 20260910",
+  "E65": {
+    "periodic": {
+      "setting": 2,
+      "motion_weight": 0.03,
+      "score": 2.62372204095243,
+      "grid": {
+        "S/periodic/k=2/wh=0.03": 2.62372204095243,
+        "S/periodic/k=2/wh=0.1": 2.629245658350974,
+        "S/periodic/k=2/wh=0.3": 2.6529462927961696,
+        "S/periodic/k=2/wh=1": 2.8382925175949207,
+        "S/periodic/k=3/wh=0.03": 2.6268219554863887,
+        "S/periodic/k=3/wh=0.1": 2.634721280763193,
+        "S/periodic/k=3/wh=0.3": 2.663304062347648,
+        "S/periodic/k=3/wh=1": 2.911370763387019,
+        "S/periodic/k=4/wh=0.03": 2.62934032925755,
+        "S/periodic/k=4/wh=0.1": 2.6371093601068027,
+        "S/periodic/k=4/wh=0.3": 2.6894054378392833,
+        "S/periodic/k=4/wh=1": 2.996051757883886,
+        "S/periodic/k=6/wh=0.03": 2.6446550707966967,
+        "S/periodic/k=6/wh=0.1": 2.6618193101903627,
+        "S/periodic/k=6/wh=0.3": 2.819199268860202,
+        "S/periodic/k=6/wh=1": 3.5339169071841146
+      }
+    },
+    "per_frame": {
+      "setting": 8,
+      "motion_weight": 0.03,
+      "score": 2.7011558239347284,
+      "grid": {
+        "S/per_frame/n=4/wh=0.03": 4.048754259507421,
+        "S/per_frame/n=4/wh=0.1": 4.027381920189741,
+        "S/per_frame/n=4/wh=0.3": 4.115985168259496,
+        "S/per_frame/n=4/wh=1": 4.668839907991086,
+        "S/per_frame/n=6/wh=0.03": 2.8953270358678433,
+        "S/per_frame/n=6/wh=0.1": 2.9162163765484186,
+        "S/per_frame/n=6/wh=0.3": 3.241424166230778,
+        "S/per_frame/n=6/wh=1": 4.285496457003472,
+        "S/per_frame/n=8/wh=0.03": 2.7011558239347284,
+        "S/per_frame/n=8/wh=0.1": 2.83134107295473,
+        "S/per_frame/n=8/wh=0.3": 3.1830466780902857,
+        "S/per_frame/n=8/wh=1": 4.437017623018784,
+        "S/per_frame/n=12/wh=0.03": 2.747167961606845,
+        "S/per_frame/n=12/wh=0.1": 3.030080999605467,
+        "S/per_frame/n=12/wh=0.3": 3.566374316284593,
+        "S/per_frame/n=12/wh=1": 5.048695100231653,
+        "S/per_frame/n=16/wh=0.03": 2.8877024636020048,
+        "S/per_frame/n=16/wh=0.1": 3.2577180756012987,
+        "S/per_frame/n=16/wh=0.3": 4.099641984006386,
+        "S/per_frame/n=16/wh=1": 5.621924120626018
+      }
+    }
+  },
+  "E66": {
+    "medians": {
+      "S/periodic": {
+        "heldout_cmr_mm": 0.857858533898801,
+        "heldout_tee_mm": 1.6150648863074655,
+        "rotation_deg": 0.4148883323156265,
+        "translation_mm": 1.011965790237097,
+        "phase_error_cycles": 0.003854123761684314,
+        "phase_map_cycles": 0.003571942013260082,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.585252191635913,
+        "heldout_tee_p95_mm": 3.847047333025743,
+        "seconds": 18.088,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/per_frame": {
+        "heldout_cmr_mm": 0.9301663960351773,
+        "heldout_tee_mm": 1.6512237676772261,
+        "rotation_deg": 0.42527491631111447,
+        "translation_mm": 1.040774325955161,
+        "phase_error_cycles": 0.01494283353193615,
+        "phase_map_cycles": 0.009807775096207477,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.734113638803883,
+        "heldout_tee_p95_mm": 3.8905821451660243,
+        "seconds": 26.345,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/fixed_warp": {
+        "heldout_cmr_mm": 0.9050001948806032,
+        "heldout_tee_mm": 1.8671928401981144,
+        "rotation_deg": 0.4124076352427553,
+        "translation_mm": 1.1220690418103954,
+        "phase_error_cycles": 0.021383658785394666,
+        "phase_map_cycles": 0.02353364403073388,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.6571826331691204,
+        "heldout_tee_p95_mm": 4.266915844055466,
+        "seconds": 1.4945,
+        "failures": 0,
+        "samples": 60
+      }
+    },
+    "periodic_minus_per_frame": {
+      "sum": {
+        "observed": -0.1539604561677197,
+        "lower": -0.21518514958259782,
+        "upper": -0.07078234966646901
+      },
+      "cmr": {
+        "observed": -0.06419610768840822,
+        "lower": -0.09662792688872701,
+        "upper": -0.03593483200388059
+      },
+      "tee": {
+        "observed": -0.08976434847931158,
+        "lower": -0.13150255693692214,
+        "upper": -0.026915225128697484
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          30,
+          0
+        ],
+        "tee_better_worse": [
+          30,
+          0
+        ],
+        "tee_p90": [
+          2.1979698035929616,
+          2.218023064527954
+        ],
+        "cmr_p90": [
+          0.9834338890698644,
+          1.058372215152006
+        ],
+        "tee_max": [
+          2.400661261394192,
+          2.4354685583893207
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          0.40192627859505203,
+          0.4297428236511455
+        ],
+        "translation_mm_medians": [
+          1.0086413459503156,
+          1.0286474472409495
+        ],
+        "phase_map_cycles_medians": [
+          0.003963490897172989,
+          0.009689606260083458
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          18.0815,
+          26.60975
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.02781654505609349,
+          "lower": -0.05184622436814729,
+          "upper": 0.038734185756695516
+        },
+        "translation_mm": {
+          "observed": -0.02000610129063385,
+          "lower": -0.15139122046889053,
+          "upper": 0.07558372578559536
+        },
+        "phase_map_cycles": {
+          "observed": -0.005726115362910469,
+          "lower": -0.008136883448017496,
+          "upper": -0.004462606487190719
+        },
+        "phase_error_cycles": {
+          "observed": -0.013179845425993,
+          "lower": -0.017419143569285533,
+          "upper": -0.006638151428384947
+        }
+      }
+    },
+    "periodic_minus_fixed_warp": {
+      "sum": {
+        "observed": -0.23285722622851868,
+        "lower": -0.31935128260469625,
+        "upper": -0.16239042983311888
+      },
+      "cmr": {
+        "observed": -0.039096858130290735,
+        "lower": -0.06259760401741976,
+        "upper": -0.021959655267708378
+      },
+      "tee": {
+        "observed": -0.19376036809822783,
+        "lower": -0.2731888564059126,
+        "upper": -0.123586810171878
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          29,
+          1
+        ],
+        "tee_better_worse": [
+          30,
+          0
+        ],
+        "tee_p90": [
+          2.1979698035929616,
+          2.2774301713519702
+        ],
+        "cmr_p90": [
+          0.9834338890698644,
+          1.0191300156940406
+        ],
+        "tee_max": [
+          2.400661261394192,
+          2.5620530066663463
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          0.40192627859505203,
+          0.4224438637199063
+        ],
+        "translation_mm_medians": [
+          1.0086413459503156,
+          1.196696059312816
+        ],
+        "phase_map_cycles_medians": [
+          0.003963490897172989,
+          0.026180959524490413
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          18.0815,
+          1.5015
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.020517585124854243,
+          "lower": -0.05937882147154183,
+          "upper": 0.0385057499721716
+        },
+        "translation_mm": {
+          "observed": -0.18805471336250035,
+          "lower": -0.3986676555515576,
+          "upper": 0.09549845775577413
+        },
+        "phase_map_cycles": {
+          "observed": -0.022217468627317424,
+          "lower": -0.028101603164223204,
+          "upper": -0.019131342634217702
+        },
+        "phase_error_cycles": {
+          "observed": -0.0237798276888717,
+          "lower": -0.03131494621073369,
+          "upper": -0.014146176810282393
+        }
+      }
+    }
+  },
+  "E67": {
+    "medians": {
+      "S/frozen": {
+        "heldout_cmr_mm": 1.1134094627656737,
+        "heldout_tee_mm": 1.6569370869927695,
+        "rotation_deg": 1.772961650929131,
+        "translation_mm": 3.344937625970763,
+        "phase_error_cycles": 0.008790093646719954,
+        "phase_map_cycles": 0.007817129042038212,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.9595000298069334,
+        "heldout_tee_p95_mm": 3.8332130869108676,
+        "seconds": 22.686,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/oscillatory": {
+        "heldout_cmr_mm": 1.1275247781054833,
+        "heldout_tee_mm": 1.735399906296562,
+        "rotation_deg": 2.292165091899135,
+        "translation_mm": 3.2848356984740255,
+        "phase_error_cycles": 0.01100856863850802,
+        "phase_map_cycles": 0.008613479004242447,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.9925706076045577,
+        "heldout_tee_p95_mm": 3.8453927949811906,
+        "seconds": 21.65,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/no_session": {
+        "heldout_cmr_mm": 1.152314746149254,
+        "heldout_tee_mm": 1.761383256627101,
+        "rotation_deg": 2.2710782925220308,
+        "translation_mm": 3.2684240371756266,
+        "phase_error_cycles": 0.011096662020507186,
+        "phase_map_cycles": 0.00880391698090989,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 2.0811194243960687,
+        "heldout_tee_p95_mm": 3.8403911972205695,
+        "seconds": 20.5165,
+        "failures": 0,
+        "samples": 60
+      }
+    },
+    "frozen_minus_no_session": {
+      "sum": {
+        "observed": -0.12443494651455378,
+        "lower": -0.2175441659263262,
+        "upper": -0.071094408999587
+      },
+      "cmr": {
+        "observed": -0.06377101239240845,
+        "lower": -0.12760901426604643,
+        "upper": -0.030665266979621242
+      },
+      "tee": {
+        "observed": -0.06066393412214488,
+        "lower": -0.1300638550603943,
+        "upper": -0.02510701490642875
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          30,
+          0
+        ],
+        "tee_better_worse": [
+          30,
+          0
+        ],
+        "tee_p90": [
+          2.2208423795829773,
+          2.312120289895448
+        ],
+        "cmr_p90": [
+          1.333512653178026,
+          1.4050183313858158
+        ],
+        "tee_max": [
+          2.4076757296487807,
+          2.463382097151324
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.1185683124105084,
+          2.5650231784173148
+        ],
+        "translation_mm_medians": [
+          3.623029540961566,
+          3.576733174852719
+        ],
+        "phase_map_cycles_medians": [
+          0.007687290255497303,
+          0.0097309494050931
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          22.47275,
+          20.615
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.4464548660068064,
+          "lower": -0.6708872104006058,
+          "upper": -0.2805408609415913
+        },
+        "translation_mm": {
+          "observed": 0.04629636610884713,
+          "lower": -0.49489295677093015,
+          "upper": 0.4115864500152595
+        },
+        "phase_map_cycles": {
+          "observed": -0.0020436591495957973,
+          "lower": -0.0033621031972743826,
+          "upper": 0.00015796416978831884
+        },
+        "phase_error_cycles": {
+          "observed": -0.0010928355897510955,
+          "lower": -0.0037232517465596647,
+          "upper": 0.0010396945190570134
+        }
+      }
+    },
+    "frozen_minus_oscillatory": {
+      "sum": {
+        "observed": -0.10131901296349533,
+        "lower": -0.1714629356992598,
+        "upper": -0.039879723953574586
+      },
+      "cmr": {
+        "observed": -0.048865384049044724,
+        "lower": -0.07482758406089363,
+        "upper": -0.01420879466402969
+      },
+      "tee": {
+        "observed": -0.0524536289144506,
+        "lower": -0.11912971111121506,
+        "upper": -0.008184067092674274
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          29,
+          1
+        ],
+        "tee_better_worse": [
+          28,
+          2
+        ],
+        "tee_p90": [
+          2.2208423795829773,
+          2.304146391354743
+        ],
+        "cmr_p90": [
+          1.333512653178026,
+          1.4008252564586152
+        ],
+        "tee_max": [
+          2.4076757296487807,
+          2.444653024503988
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.1185683124105084,
+          2.5453947637426646
+        ],
+        "translation_mm_medians": [
+          3.623029540961566,
+          3.585067933795978
+        ],
+        "phase_map_cycles_medians": [
+          0.007687290255497303,
+          0.00901314331792337
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          22.47275,
+          21.9805
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.42682645133215624,
+          "lower": -0.6452189398701442,
+          "upper": -0.27975103626494047
+        },
+        "translation_mm": {
+          "observed": 0.03796160716558816,
+          "lower": -0.49200498738906284,
+          "upper": 0.3399517520191879
+        },
+        "phase_map_cycles": {
+          "observed": -0.0013258530624260662,
+          "lower": -0.002862056568370734,
+          "upper": 0.0003802422618732204
+        },
+        "phase_error_cycles": {
+          "observed": -0.000936213078745099,
+          "lower": -0.00324805251550557,
+          "upper": 0.00153298731455552
+        }
+      }
+    },
+    "oscillatory_minus_no_session": {
+      "sum": {
+        "observed": -0.023115933551058454,
+        "lower": -0.0874114777495736,
+        "upper": -0.00952045353455011
+      },
+      "cmr": {
+        "observed": -0.01490562834336373,
+        "lower": -0.06020049191688592,
+        "upper": -0.0008982074736163526
+      },
+      "tee": {
+        "observed": -0.00821030520769428,
+        "lower": -0.05547112242076224,
+        "upper": -0.003867722331904133
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          28,
+          2
+        ],
+        "tee_better_worse": [
+          30,
+          0
+        ],
+        "tee_p90": [
+          2.304146391354743,
+          2.312120289895448
+        ],
+        "cmr_p90": [
+          1.4008252564586152,
+          1.4050183313858158
+        ],
+        "tee_max": [
+          2.444653024503988,
+          2.463382097151324
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.5453947637426646,
+          2.5650231784173148
+        ],
+        "translation_mm_medians": [
+          3.585067933795978,
+          3.576733174852719
+        ],
+        "phase_map_cycles_medians": [
+          0.00901314331792337,
+          0.0097309494050931
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          21.9805,
+          20.615
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.019628414674650152,
+          "lower": -0.056130190517269085,
+          "upper": 0.04685283195452605
+        },
+        "translation_mm": {
+          "observed": 0.008334758943258969,
+          "lower": -0.19495332168408064,
+          "upper": 0.12812538897751002
+        },
+        "phase_map_cycles": {
+          "observed": -0.0007178060871697312,
+          "lower": -0.001075269061237616,
+          "upper": 0.000200979805697242
+        },
+        "phase_error_cycles": {
+          "observed": -0.00015662251100599656,
+          "lower": -0.0021806523972366376,
+          "upper": 0.0007462413544684077
+        }
+      }
+    },
+    "reproduction_of_chain_test": {
+      "heldout_cmr_mm": {
+        "rerun": 1.1134094627656737,
+        "e64": 1.1134094627656737,
+        "difference": 0.0
+      },
+      "heldout_tee_mm": {
+        "rerun": 1.6569370869927695,
+        "e64": 1.6569370869927695,
+        "difference": 0.0
+      },
+      "rotation_deg": {
+        "rerun": 1.772961650929131,
+        "e64": 1.772961650929131,
+        "difference": 0.0
+      },
+      "translation_mm": {
+        "rerun": 3.344937625970763,
+        "e64": 3.344937625970763,
+        "difference": 0.0
+      },
+      "passed": true
+    }
+  },
+  "E68": {
+    "arms": {
+      "frozen": 0.5,
+      "session_prior_1": 1.0
+    },
+    "levels": {
+      "full": {
+        "medians": {
+          "full/frozen": {
+            "heldout_cmr_mm": 1.1134094627656737,
+            "heldout_tee_mm": 1.6569370869927695,
+            "translation_mm": 3.344937625970763,
+            "rotation_deg": 1.772961650929131,
+            "failures": 0
+          },
+          "full/session_prior_1": {
+            "heldout_cmr_mm": 1.1152088828081124,
+            "heldout_tee_mm": 1.6638042487383593,
+            "translation_mm": 3.2024063329961416,
+            "rotation_deg": 1.8199997538202437,
+            "failures": 0
+          }
+        },
+        "frozen_minus_session_prior_1": {
+          "sum": {
+            "observed": -0.007572585643777607,
+            "lower": -0.01906224223333499,
+            "upper": -0.002059584053624164
+          },
+          "cmr": {
+            "observed": -0.0035226489634154756,
+            "lower": -0.010904399363804718,
+            "upper": -0.0008173597618235107
+          },
+          "tee": {
+            "observed": -0.004049936680361688,
+            "lower": -0.012103415475845702,
+            "upper": 0.0011639736743314089
+          },
+          "descriptive": {
+            "identities": 30,
+            "cmr_better_worse": [
+              28,
+              2
+            ],
+            "tee_better_worse": [
+              26,
+              4
+            ],
+            "tee_p90": [
+              2.2208423795829773,
+              2.225779332136285
+            ],
+            "cmr_p90": [
+              1.333512653178026,
+              1.3381665421665585
+            ],
+            "tee_max": [
+              2.4076757296487807,
+              2.40508628893666
+            ],
+            "failures": [
+              0,
+              0
+            ],
+            "rotation_deg_medians": [
+              2.1185683124105084,
+              2.1455586097697115
+            ],
+            "translation_mm_medians": [
+              3.623029540961566,
+              3.488875346652886
+            ],
+            "phase_map_cycles_medians": [
+              0.007687290255497303,
+              0.007775321292119303
+            ],
+            "attachment_residual_mm_medians": [
+              NaN,
+              NaN
+            ],
+            "seconds_medians": [
+              NaN,
+              NaN
+            ]
+          },
+          "descriptive_intervals": {
+            "translation_mm": {
+              "observed": 0.13415419430867992,
+              "lower": -0.12364055452374156,
+              "upper": 0.24578296575747194
+            },
+            "rotation_deg": {
+              "observed": -0.026990297359203108,
+              "lower": -0.08478456041950677,
+              "upper": 0.022246746147375873
+            }
+          }
+        },
+        "zero_starts": 0,
+        "visible": {
+          "visible_cmr_frames": 16.0,
+          "visible_tee_vertices": 116.0
+        }
+      },
+      "half": {
+        "medians": {
+          "half/frozen": {
+            "heldout_cmr_mm": 1.465837907749411,
+            "heldout_tee_mm": 1.8166282530095184,
+            "translation_mm": 3.2277914479055836,
+            "rotation_deg": 1.6948095091732935,
+            "failures": 0
+          },
+          "half/session_prior_1": {
+            "heldout_cmr_mm": 1.4703786696557348,
+            "heldout_tee_mm": 1.8294390196624208,
+            "translation_mm": 3.2144908443088918,
+            "rotation_deg": 1.8073580667666942,
+            "failures": 0
+          }
+        },
+        "frozen_minus_session_prior_1": {
+          "sum": {
+            "observed": -0.028455411348182302,
+            "lower": -0.030715463294663792,
+            "upper": -0.0037357330969118863
+          },
+          "cmr": {
+            "observed": -0.013248020740171285,
+            "lower": -0.016017443673971066,
+            "upper": -0.0009985817415454346
+          },
+          "tee": {
+            "observed": -0.015207390608011018,
+            "lower": -0.018552661334767517,
+            "upper": 0.0017791345448878726
+          },
+          "descriptive": {
+            "identities": 30,
+            "cmr_better_worse": [
+              28,
+              2
+            ],
+            "tee_better_worse": [
+              27,
+              3
+            ],
+            "tee_p90": [
+              2.4511637826921806,
+              2.465523039319465
+            ],
+            "cmr_p90": [
+              2.507088440615423,
+              2.5173972877714785
+            ],
+            "tee_max": [
+              2.864331730419373,
+              2.86038968336255
+            ],
+            "failures": [
+              0,
+              0
+            ],
+            "rotation_deg_medians": [
+              2.148827190789625,
+              2.2277328930386915
+            ],
+            "translation_mm_medians": [
+              3.5444620659497925,
+              3.506516022558369
+            ],
+            "phase_map_cycles_medians": [
+              0.02871857640528583,
+              0.02884848483640176
+            ],
+            "attachment_residual_mm_medians": [
+              NaN,
+              NaN
+            ],
+            "seconds_medians": [
+              NaN,
+              NaN
+            ]
+          },
+          "descriptive_intervals": {
+            "translation_mm": {
+              "observed": 0.0379460433914236,
+              "lower": -0.21850728206690784,
+              "upper": 0.29175122153890065
+            },
+            "rotation_deg": {
+              "observed": -0.07890570224906668,
+              "lower": -0.1375258281984284,
+              "upper": -0.0070267216958934675
+            }
+          }
+        },
+        "zero_starts": 0,
+        "visible": {
+          "visible_cmr_frames": 8.0,
+          "visible_tee_vertices": 58.0
+        }
+      },
+      "quarter": {
+        "medians": {
+          "quarter/frozen": {
+            "heldout_cmr_mm": 2.4710415432627775,
+            "heldout_tee_mm": 2.2252171721615372,
+            "translation_mm": 3.2387823050908207,
+            "rotation_deg": 2.0614369842176545,
+            "failures": 0
+          },
+          "quarter/session_prior_1": {
+            "heldout_cmr_mm": 2.469034593716855,
+            "heldout_tee_mm": 2.244569122646369,
+            "translation_mm": 3.1237923044727944,
+            "rotation_deg": 2.102290992832276,
+            "failures": 0
+          }
+        },
+        "frozen_minus_session_prior_1": {
+          "sum": {
+            "observed": -0.018055972613121973,
+            "lower": -0.04667773043497725,
+            "upper": -0.004298922242107928
+          },
+          "cmr": {
+            "observed": -0.013115743410800018,
+            "lower": -0.022579576515006305,
+            "upper": 0.0016189637796641954
+          },
+          "tee": {
+            "observed": -0.004940229202321955,
+            "lower": -0.041636252411913155,
+            "upper": -0.0015283040665114989
+          },
+          "descriptive": {
+            "identities": 30,
+            "cmr_better_worse": [
+              19,
+              11
+            ],
+            "tee_better_worse": [
+              29,
+              1
+            ],
+            "tee_p90": [
+              2.8565017386082356,
+              2.8687061450563407
+            ],
+            "cmr_p90": [
+              3.5600856644136005,
+              3.5653735504885202
+            ],
+            "tee_max": [
+              3.8649574690684423,
+              3.8655662878707977
+            ],
+            "failures": [
+              0,
+              0
+            ],
+            "rotation_deg_medians": [
+              2.5148636355335308,
+              2.5760701589763277
+            ],
+            "translation_mm_medians": [
+              3.7920151113741314,
+              3.6682246189230625
+            ],
+            "phase_map_cycles_medians": [
+              0.05817019900947954,
+              0.05832274476125035
+            ],
+            "attachment_residual_mm_medians": [
+              NaN,
+              NaN
+            ],
+            "seconds_medians": [
+              NaN,
+              NaN
+            ]
+          },
+          "descriptive_intervals": {
+            "translation_mm": {
+              "observed": 0.12379049245106888,
+              "lower": -0.07217983338159062,
+              "upper": 0.211424419414171
+            },
+            "rotation_deg": {
+              "observed": -0.06120652344279698,
+              "lower": -0.13360741318235414,
+              "upper": 0.0013120110063340462
+            }
+          }
+        },
+        "zero_starts": 0,
+        "visible": {
+          "visible_cmr_frames": 4.0,
+          "visible_tee_vertices": 29.0
+        }
+      },
+      "eighth": {
+        "medians": {
+          "eighth/frozen": {
+            "heldout_cmr_mm": 3.1012436803184382,
+            "heldout_tee_mm": 3.7066850858623868,
+            "translation_mm": 3.871940261636126,
+            "rotation_deg": 2.335291188352304,
+            "failures": 0
+          },
+          "eighth/session_prior_1": {
+            "heldout_cmr_mm": 3.0967243445562413,
+            "heldout_tee_mm": 3.7028035611335905,
+            "translation_mm": 4.05841546978593,
+            "rotation_deg": 2.3708775806461926,
+            "failures": 0
+          }
+        },
+        "frozen_minus_session_prior_1": {
+          "sum": {
+            "observed": -0.015570063143546697,
+            "lower": -0.040799821877745134,
+            "upper": 0.0031109208394379806
+          },
+          "cmr": {
+            "observed": -0.0013894194984822583,
+            "lower": -0.010535952493508915,
+            "upper": 0.009057360656477442
+          },
+          "tee": {
+            "observed": -0.014180643645063995,
+            "lower": -0.038344311088318594,
+            "upper": 0.0019158601611874992
+          },
+          "descriptive": {
+            "identities": 30,
+            "cmr_better_worse": [
+              23,
+              7
+            ],
+            "tee_better_worse": [
+              25,
+              5
+            ],
+            "tee_p90": [
+              4.5739421600325505,
+              4.562474356051587
+            ],
+            "cmr_p90": [
+              4.2518494752495615,
+              4.257479060240073
+            ],
+            "tee_max": [
+              6.485354018451954,
+              6.491815216523359
+            ],
+            "failures": [
+              0,
+              0
+            ],
+            "rotation_deg_medians": [
+              2.548799358800652,
+              2.622554950117637
+            ],
+            "translation_mm_medians": [
+              3.7262011121607372,
+              3.8125469597702573
+            ],
+            "phase_map_cycles_medians": [
+              0.07779271403002361,
+              0.07832456031552922
+            ],
+            "attachment_residual_mm_medians": [
+              NaN,
+              NaN
+            ],
+            "seconds_medians": [
+              NaN,
+              NaN
+            ]
+          },
+          "descriptive_intervals": {
+            "translation_mm": {
+              "observed": -0.08634584760952002,
+              "lower": -0.17117785576683175,
+              "upper": 0.05465185847053
+            },
+            "rotation_deg": {
+              "observed": -0.07375559131698495,
+              "lower": -0.16480472221777775,
+              "upper": -0.012552363637972075
+            }
+          }
+        },
+        "zero_starts": 60,
+        "visible": {
+          "visible_cmr_frames": 2.0,
+          "visible_tee_vertices": 14.0
+        }
+      },
+      "eighth_noisy": {
+        "medians": {
+          "eighth_noisy/frozen": {
+            "heldout_cmr_mm": 3.4273145965777942,
+            "heldout_tee_mm": 3.4866112184183082,
+            "translation_mm": 3.9164969939716325,
+            "rotation_deg": 2.436999047009964,
+            "failures": 0
+          },
+          "eighth_noisy/session_prior_1": {
+            "heldout_cmr_mm": 3.4276312332412933,
+            "heldout_tee_mm": 3.5144027331430543,
+            "translation_mm": 3.965079870742483,
+            "rotation_deg": 2.468896351964635,
+            "failures": 0
+          }
+        },
+        "frozen_minus_session_prior_1": {
+          "sum": {
+            "observed": -0.028752391856192716,
+            "lower": -0.04848515174542278,
+            "upper": 0.004493051929167713
+          },
+          "cmr": {
+            "observed": -0.005217193851934088,
+            "lower": -0.02078638164156743,
+            "upper": 0.01472616527160664
+          },
+          "tee": {
+            "observed": -0.023535198004259072,
+            "lower": -0.036247690996533244,
+            "upper": -0.0025689273418794123
+          },
+          "descriptive": {
+            "identities": 30,
+            "cmr_better_worse": [
+              21,
+              9
+            ],
+            "tee_better_worse": [
+              26,
+              4
+            ],
+            "tee_p90": [
+              4.969309046120258,
+              4.98933371609105
+            ],
+            "cmr_p90": [
+              4.572325295002998,
+              4.580537784202923
+            ],
+            "tee_max": [
+              7.928892451008197,
+              7.916822456872197
+            ],
+            "failures": [
+              0,
+              0
+            ],
+            "rotation_deg_medians": [
+              2.821719630014309,
+              2.9443781285368837
+            ],
+            "translation_mm_medians": [
+              4.2688497138334975,
+              4.46284311702548
+            ],
+            "phase_map_cycles_medians": [
+              0.07211285854211233,
+              0.07218776208432039
+            ],
+            "attachment_residual_mm_medians": [
+              NaN,
+              NaN
+            ],
+            "seconds_medians": [
+              NaN,
+              NaN
+            ]
+          },
+          "descriptive_intervals": {
+            "translation_mm": {
+              "observed": -0.19399340319198277,
+              "lower": -0.36509001414982034,
+              "upper": 0.10012555151206692
+            },
+            "rotation_deg": {
+              "observed": -0.12265849852257471,
+              "lower": -0.21623064417222082,
+              "upper": 0.021137739396946742
+            }
+          }
+        },
+        "zero_starts": 60,
+        "visible": {
+          "visible_cmr_frames": 2.0,
+          "visible_tee_vertices": 14.0
+        }
+      }
+    },
+    "reproduction_of_chain_test": {
+      "differences": {
+        "heldout_cmr_mm": 0.0,
+        "heldout_tee_mm": 0.0
+      },
+      "passed": true
+    }
+  }
+}

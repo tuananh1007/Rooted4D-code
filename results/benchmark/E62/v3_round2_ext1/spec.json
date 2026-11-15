@@ -1,0 +1,48 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E62",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E62_PREREGISTRATION_2026-09-24.md",
+  "round": "round2-extension",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/l=1",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/l=1",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1.0
+    }
+  ]
+}

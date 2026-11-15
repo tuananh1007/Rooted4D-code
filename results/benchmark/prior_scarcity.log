@@ -1,0 +1,36 @@
+fitting shape space...
+  1/20  34s
+  2/20  70s
+  3/20  108s
+  4/20  143s
+  5/20  179s
+  6/20  212s
+  7/20  246s
+  8/20  281s
+  9/20  312s
+  10/20  346s
+  11/20  380s
+  12/20  413s
+  13/20  449s
+  14/20  483s
+  15/20  519s
+  16/20  552s
+  17/20  587s
+  18/20  623s
+  19/20  654s
+  20/20  689s
+
+level           frames  tee vx    evid cmr    unif cmr      diff (p)
+full                16      28      1.9635      1.9823  -0.0015 (0.661)
+half                 8      14      3.3791      3.3562  -0.0095 (0.231)
+quarter              4       7      5.6551      5.8132  -0.0321 (0.094)
+eighth               2       6      8.3549      8.3922  -0.0439 (0.013) *
+eighth_noisy         2       6      8.4252      8.4499  -0.0499 (0.007) *
+
+translation, evidence-aware minus uniform:
+  full             -0.0114 mm  p=0.3991
+  half             -0.0358 mm  p=0.0415 *
+  quarter          -0.0628 mm  p=0.1484
+  eighth            0.0933 mm  p=0.1603
+  eighth_noisy      0.0685 mm  p=0.1879
+done

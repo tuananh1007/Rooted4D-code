@@ -1,0 +1,5 @@
+fitting ACDC chambers from data/raw/acdc
+  150 chamber donors
+fitting MVSeg2023 valves from data/raw/mvseg2023
+  175 valve donors
+wrote data/derived/donors_v2/donors.json with 325 donors

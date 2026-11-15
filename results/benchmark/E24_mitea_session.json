@@ -1,0 +1,2537 @@
+{
+  "experiment": "E24_mitea_between_session_geometry",
+  "supersedes": "volume and EF agreement, which MITEA cannot support",
+  "why_volumes_are_not_usable": "Both scans of a subject are labelled against a common CMR reference, so cavity volumes agree to about a tenth of a percent while three to five percent of voxels disagree. Volume and EF repeatability from this dataset measure its construction, not acquisition variability.",
+  "n_observations": 268,
+  "overall": {
+    "centroid_shift_mm": {
+      "n": 268,
+      "median": 8.15381928077698,
+      "mean": 11.163570265611407,
+      "p95": 30.081798676251704,
+      "max": 63.712998759122925
+    },
+    "surface_distance_raw_mm": {
+      "n": 268,
+      "median": 4.433716050344076,
+      "mean": 6.29331282945275,
+      "p95": 16.007038464992874,
+      "max": 50.64626681726075
+    },
+    "surface_distance_after_translation_mm": {
+      "n": 268,
+      "median": 1.6365023442397424,
+      "mean": 1.724288160957144,
+      "p95": 2.797636372055001,
+      "max": 3.512922162184231
+    },
+    "surface_distance_after_rigid_mm": {
+      "n": 268,
+      "median": 1.190281966284774,
+      "mean": 1.185903754132852,
+      "p95": 1.5537988040703363,
+      "max": 1.8947478333381698
+    },
+    "icp_rotation_deg": {
+      "n": 268,
+      "median": 5.581950874017105,
+      "mean": 6.171091165167302,
+      "p95": 13.102033588315987,
+      "max": 17.61495436107718
+    }
+  },
+  "by_phase": {
+    "ED": {
+      "centroid_shift_mm": {
+        "n": 134,
+        "median": 8.053452751213282,
+        "mean": 11.157231123117286,
+        "p95": 30.860364408415258,
+        "max": 62.35717647103659
+      },
+      "surface_distance_raw_mm": {
+        "n": 134,
+        "median": 4.433716050344076,
+        "mean": 6.315701139476816,
+        "p95": 16.441278381254342,
+        "max": 41.97228002742085
+      },
+      "surface_distance_after_translation_mm": {
+        "n": 134,
+        "median": 1.7749358537416415,
+        "mean": 1.8854007557041523,
+        "p95": 2.919113212386958,
+        "max": 3.512922162184231
+      },
+      "surface_distance_after_rigid_mm": {
+        "n": 134,
+        "median": 1.3241494080018887,
+        "mean": 1.3479454016403676,
+        "p95": 1.659487981264444,
+        "max": 1.8947478333381698
+      },
+      "icp_rotation_deg": {
+        "n": 134,
+        "median": 5.174765475315487,
+        "mean": 5.755074584834693,
+        "p95": 11.868344047594958,
+        "max": 16.239357022116586
+      }
+    },
+    "ES": {
+      "centroid_shift_mm": {
+        "n": 134,
+        "median": 8.21006404636193,
+        "mean": 11.169909408105529,
+        "p95": 28.650085864012176,
+        "max": 63.712998759122925
+      },
+      "surface_distance_raw_mm": {
+        "n": 134,
+        "median": 4.477518812124181,
+        "mean": 6.270924519428686,
+        "p95": 14.404425129925876,
+        "max": 50.64626681726075
+      },
+      "surface_distance_after_translation_mm": {
+        "n": 134,
+        "median": 1.4393503885579058,
+        "mean": 1.5631755662101359,
+        "p95": 2.6789962153988043,
+        "max": 3.1577848452098145
+      },
+      "surface_distance_after_rigid_mm": {
+        "n": 134,
+        "median": 0.9970435718562398,
+        "mean": 1.0238621066253366,
+        "p95": 1.3625932874455793,
+        "max": 1.5007524036553934
+      },
+      "icp_rotation_deg": {
+        "n": 134,
+        "median": 5.8851123504034275,
+        "mean": 6.58710774549991,
+        "p95": 13.381921290216498,
+        "max": 17.61495436107718
+      }
+    }
+  },
+  "benchmark_comparison": {
+    "semisynthetic_session_displacement_mm": 0.2,
+    "semisynthetic_tee_representation_floor_mm": 2.2
+  },
+  "rows": [
+    {
+      "subject": "001",
+      "phase": "ED",
+      "centroid_shift_mm": 14.5381508920495,
+      "surface_distance_raw_mm": 8.086899911859094,
+      "surface_distance_after_translation_mm": 1.9254598406475183,
+      "surface_distance_after_rigid_mm": 1.4712189351479,
+      "icp_rotation_deg": 5.292255786511444
+    },
+    {
+      "subject": "001",
+      "phase": "ES",
+      "centroid_shift_mm": 15.03861390421337,
+      "surface_distance_raw_mm": 8.09318833574434,
+      "surface_distance_after_translation_mm": 1.5475807078422403,
+      "surface_distance_after_rigid_mm": 1.0933614890512138,
+      "icp_rotation_deg": 4.359978439673992
+    },
+    {
+      "subject": "002",
+      "phase": "ED",
+      "centroid_shift_mm": 4.005168880334515,
+      "surface_distance_raw_mm": 2.769596995374866,
+      "surface_distance_after_translation_mm": 1.2034072831922002,
+      "surface_distance_after_rigid_mm": 1.1620527938181078,
+      "icp_rotation_deg": 1.4866195776357856
+    },
+    {
+      "subject": "002",
+      "phase": "ES",
+      "centroid_shift_mm": 5.932692744445823,
+      "surface_distance_raw_mm": 3.243191242853105,
+      "surface_distance_after_translation_mm": 0.8383706426677346,
+      "surface_distance_after_rigid_mm": 0.8977393653679369,
+      "icp_rotation_deg": 0.8544360886366225
+    },
+    {
+      "subject": "003",
+      "phase": "ED",
+      "centroid_shift_mm": 5.365075850349181,
+      "surface_distance_raw_mm": 2.559908758279059,
+      "surface_distance_after_translation_mm": 1.455737274425648,
+      "surface_distance_after_rigid_mm": 1.1922250274833281,
+      "icp_rotation_deg": 4.996135590073853
+    },
+    {
+      "subject": "003",
+      "phase": "ES",
+      "centroid_shift_mm": 10.484470100105206,
+      "surface_distance_raw_mm": 3.32794329482761,
+      "surface_distance_after_translation_mm": 1.223020473351351,
+      "surface_distance_after_rigid_mm": 0.9129668242894962,
+      "icp_rotation_deg": 5.790403821345575
+    },
+    {
+      "subject": "004",
+      "phase": "ED",
+      "centroid_shift_mm": 13.885454887759346,
+      "surface_distance_raw_mm": 7.424342245093744,
+      "surface_distance_after_translation_mm": 2.4651110949004797,
+      "surface_distance_after_rigid_mm": 1.4033616653282937,
+      "icp_rotation_deg": 9.245178832604559
+    },
+    {
+      "subject": "004",
+      "phase": "ES",
+      "centroid_shift_mm": 12.967266438228235,
+      "surface_distance_raw_mm": 6.359479131541232,
+      "surface_distance_after_translation_mm": 2.006447891828583,
+      "surface_distance_after_rigid_mm": 1.0843951457317418,
+      "icp_rotation_deg": 11.051723229295556
+    },
+    {
+      "subject": "005",
+      "phase": "ED",
+      "centroid_shift_mm": 5.141937129137222,
+      "surface_distance_raw_mm": 2.758308755391372,
+      "surface_distance_after_translation_mm": 1.7022598850964434,
+      "surface_distance_after_rigid_mm": 1.4392772995496315,
+      "icp_rotation_deg": 2.6738867694523103
+    },
+    {
+      "subject": "005",
+      "phase": "ES",
+      "centroid_shift_mm": 7.616579788855365,
+      "surface_distance_raw_mm": 4.668471703080703,
+      "surface_distance_after_translation_mm": 1.468140551427217,
+      "surface_distance_after_rigid_mm": 1.3025131301782773,
+      "icp_rotation_deg": 2.900015044851097
+    },
+    {
+      "subject": "006",
+      "phase": "ED",
+      "centroid_shift_mm": 12.812969735389208,
+      "surface_distance_raw_mm": 7.237075303411588,
+      "surface_distance_after_translation_mm": 1.5600837275648591,
+      "surface_distance_after_rigid_mm": 1.2801403045369923,
+      "icp_rotation_deg": 3.397978735228302
+    },
+    {
+      "subject": "006",
+      "phase": "ES",
+      "centroid_shift_mm": 11.69864173996281,
+      "surface_distance_raw_mm": 6.524474262332993,
+      "surface_distance_after_translation_mm": 1.2824630270428636,
+      "surface_distance_after_rigid_mm": 0.9482318179587925,
+      "icp_rotation_deg": 4.387307758548933
+    },
+    {
+      "subject": "007",
+      "phase": "ED",
+      "centroid_shift_mm": 12.854438399245605,
+      "surface_distance_raw_mm": 6.9924213240878395,
+      "surface_distance_after_translation_mm": 2.1296444321498806,
+      "surface_distance_after_rigid_mm": 1.1572871124007316,
+      "icp_rotation_deg": 9.702302629826312
+    },
+    {
+      "subject": "007",
+      "phase": "ES",
+      "centroid_shift_mm": 13.598678818179364,
+      "surface_distance_raw_mm": 7.307359336198691,
+      "surface_distance_after_translation_mm": 1.9455236947552443,
+      "surface_distance_after_rigid_mm": 0.821163599753943,
+      "icp_rotation_deg": 11.461951323518457
+    },
+    {
+      "subject": "008",
+      "phase": "ED",
+      "centroid_shift_mm": 3.612794796276146,
+      "surface_distance_raw_mm": 2.2218928497593904,
+      "surface_distance_after_translation_mm": 1.3708470480057584,
+      "surface_distance_after_rigid_mm": 1.19179891775484,
+      "icp_rotation_deg": 2.9448664700716036
+    },
+    {
+      "subject": "008",
+      "phase": "ES",
+      "centroid_shift_mm": 5.583675893172881,
+      "surface_distance_raw_mm": 3.1598433449842527,
+      "surface_distance_after_translation_mm": 1.0196238473779562,
+      "surface_distance_after_rigid_mm": 0.8850970987353006,
+      "icp_rotation_deg": 3.165439883805523
+    },
+    {
+      "subject": "009",
+      "phase": "ED",
+      "centroid_shift_mm": 7.803556635278556,
+      "surface_distance_raw_mm": 4.42908218287284,
+      "surface_distance_after_translation_mm": 1.6189431190444243,
+      "surface_distance_after_rigid_mm": 1.2123083185167383,
+      "icp_rotation_deg": 5.230475527107642
+    },
+    {
+      "subject": "009",
+      "phase": "ES",
+      "centroid_shift_mm": 8.446104995795402,
+      "surface_distance_raw_mm": 4.3392618746381135,
+      "surface_distance_after_translation_mm": 1.4237779957181456,
+      "surface_distance_after_rigid_mm": 0.9585328976854892,
+      "icp_rotation_deg": 5.699846899027806
+    },
+    {
+      "subject": "010",
+      "phase": "ED",
+      "centroid_shift_mm": 12.382288583295082,
+      "surface_distance_raw_mm": 7.485174819450118,
+      "surface_distance_after_translation_mm": 1.662873436885512,
+      "surface_distance_after_rigid_mm": 1.4366423301625744,
+      "icp_rotation_deg": 2.8403720735636284
+    },
+    {
+      "subject": "010",
+      "phase": "ES",
+      "centroid_shift_mm": 15.948811371384386,
+      "surface_distance_raw_mm": 8.340514333878756,
+      "surface_distance_after_translation_mm": 1.2592943479190337,
+      "surface_distance_after_rigid_mm": 1.0852055747722409,
+      "icp_rotation_deg": 3.286910646531504
+    },
+    {
+      "subject": "011",
+      "phase": "ED",
+      "centroid_shift_mm": 21.854489424372282,
+      "surface_distance_raw_mm": 11.446137364413627,
+      "surface_distance_after_translation_mm": 1.9161828251551714,
+      "surface_distance_after_rigid_mm": 1.6534574464873106,
+      "icp_rotation_deg": 4.334339182537973
+    },
+    {
+      "subject": "011",
+      "phase": "ES",
+      "centroid_shift_mm": 18.840850995642423,
+      "surface_distance_raw_mm": 9.24772933285571,
+      "surface_distance_after_translation_mm": 1.3903557530624382,
+      "surface_distance_after_rigid_mm": 1.3209512573149809,
+      "icp_rotation_deg": 2.7036959388744184
+    },
+    {
+      "subject": "012",
+      "phase": "ED",
+      "centroid_shift_mm": 17.928386149344277,
+      "surface_distance_raw_mm": 9.377041409652186,
+      "surface_distance_after_translation_mm": 2.476598887802221,
+      "surface_distance_after_rigid_mm": 1.2491920561887377,
+      "icp_rotation_deg": 11.630959566330517
+    },
+    {
+      "subject": "012",
+      "phase": "ES",
+      "centroid_shift_mm": 20.542054249757978,
+      "surface_distance_raw_mm": 10.293568997197854,
+      "surface_distance_after_translation_mm": 2.332771918164565,
+      "surface_distance_after_rigid_mm": 1.0246941119854278,
+      "icp_rotation_deg": 12.668999734540751
+    },
+    {
+      "subject": "013",
+      "phase": "ED",
+      "centroid_shift_mm": 3.0198168686196825,
+      "surface_distance_raw_mm": 1.914750123769716,
+      "surface_distance_after_translation_mm": 1.458145466571676,
+      "surface_distance_after_rigid_mm": 1.1640017501742186,
+      "icp_rotation_deg": 4.197651214548275
+    },
+    {
+      "subject": "013",
+      "phase": "ES",
+      "centroid_shift_mm": 4.557085050775328,
+      "surface_distance_raw_mm": 2.6479991611511275,
+      "surface_distance_after_translation_mm": 1.18837702514065,
+      "surface_distance_after_rigid_mm": 0.9071459470574705,
+      "icp_rotation_deg": 4.856806537413139
+    },
+    {
+      "subject": "014",
+      "phase": "ED",
+      "centroid_shift_mm": 3.1244868506684407,
+      "surface_distance_raw_mm": 2.463522064665845,
+      "surface_distance_after_translation_mm": 1.6369306642627075,
+      "surface_distance_after_rigid_mm": 1.432750083147803,
+      "icp_rotation_deg": 2.6040309934263393
+    },
+    {
+      "subject": "014",
+      "phase": "ES",
+      "centroid_shift_mm": 4.212200204168839,
+      "surface_distance_raw_mm": 2.4282653030050643,
+      "surface_distance_after_translation_mm": 1.4375274527887951,
+      "surface_distance_after_rigid_mm": 1.2761089537186776,
+      "icp_rotation_deg": 3.2901227648398566
+    },
+    {
+      "subject": "015",
+      "phase": "ED",
+      "centroid_shift_mm": 13.698433037395194,
+      "surface_distance_raw_mm": 7.858127381381601,
+      "surface_distance_after_translation_mm": 1.588633778715053,
+      "surface_distance_after_rigid_mm": 1.1738823004258299,
+      "icp_rotation_deg": 4.87284766075041
+    },
+    {
+      "subject": "015",
+      "phase": "ES",
+      "centroid_shift_mm": 13.629099098619841,
+      "surface_distance_raw_mm": 7.242343761404266,
+      "surface_distance_after_translation_mm": 1.2017375420857261,
+      "surface_distance_after_rigid_mm": 0.8569485764446543,
+      "icp_rotation_deg": 5.79649087181035
+    },
+    {
+      "subject": "016",
+      "phase": "ED",
+      "centroid_shift_mm": 5.0009637631160695,
+      "surface_distance_raw_mm": 3.2012184525281757,
+      "surface_distance_after_translation_mm": 1.5929952118219162,
+      "surface_distance_after_rigid_mm": 1.2844627394392076,
+      "icp_rotation_deg": 3.7897264098362693
+    },
+    {
+      "subject": "016",
+      "phase": "ES",
+      "centroid_shift_mm": 7.631449508448572,
+      "surface_distance_raw_mm": 3.8783129811265713,
+      "surface_distance_after_translation_mm": 1.2466218324732603,
+      "surface_distance_after_rigid_mm": 0.9348689085776177,
+      "icp_rotation_deg": 4.199346567513688
+    },
+    {
+      "subject": "017",
+      "phase": "ED",
+      "centroid_shift_mm": 8.037438258549798,
+      "surface_distance_raw_mm": 4.456487134311313,
+      "surface_distance_after_translation_mm": 1.5428878402485375,
+      "surface_distance_after_rigid_mm": 1.1551367386243931,
+      "icp_rotation_deg": 5.119055423523333
+    },
+    {
+      "subject": "017",
+      "phase": "ES",
+      "centroid_shift_mm": 7.2141749465895275,
+      "surface_distance_raw_mm": 3.8409625708050865,
+      "surface_distance_after_translation_mm": 1.280218312777163,
+      "surface_distance_after_rigid_mm": 0.8401501770229451,
+      "icp_rotation_deg": 6.01180653522644
+    },
+    {
+      "subject": "018",
+      "phase": "ED",
+      "centroid_shift_mm": 61.96670096753578,
+      "surface_distance_raw_mm": 37.963998795914705,
+      "surface_distance_after_translation_mm": 1.8859801663210884,
+      "surface_distance_after_rigid_mm": 1.4615503460566237,
+      "icp_rotation_deg": 6.782856923644237
+    },
+    {
+      "subject": "018",
+      "phase": "ES",
+      "centroid_shift_mm": 56.80152070358681,
+      "surface_distance_raw_mm": 38.46070361627418,
+      "surface_distance_after_translation_mm": 1.6962570597265532,
+      "surface_distance_after_rigid_mm": 1.1333441851668222,
+      "icp_rotation_deg": 11.403629480859163
+    },
+    {
+      "subject": "019",
+      "phase": "ED",
+      "centroid_shift_mm": 12.38058891006401,
+      "surface_distance_raw_mm": 6.864268923595995,
+      "surface_distance_after_translation_mm": 1.4404415417555696,
+      "surface_distance_after_rigid_mm": 1.2669779312783298,
+      "icp_rotation_deg": 3.2271591425634116
+    },
+    {
+      "subject": "019",
+      "phase": "ES",
+      "centroid_shift_mm": 9.180658852173956,
+      "surface_distance_raw_mm": 5.278611792398452,
+      "surface_distance_after_translation_mm": 1.2559948410083108,
+      "surface_distance_after_rigid_mm": 1.0415928256678137,
+      "icp_rotation_deg": 3.032337818011275
+    },
+    {
+      "subject": "020",
+      "phase": "ED",
+      "centroid_shift_mm": 13.016057350826328,
+      "surface_distance_raw_mm": 6.6722991347198715,
+      "surface_distance_after_translation_mm": 1.887606780226334,
+      "surface_distance_after_rigid_mm": 1.2494093175716996,
+      "icp_rotation_deg": 6.469463983017457
+    },
+    {
+      "subject": "020",
+      "phase": "ES",
+      "centroid_shift_mm": 14.05413666647653,
+      "surface_distance_raw_mm": 7.2507700539792905,
+      "surface_distance_after_translation_mm": 1.5972145601024106,
+      "surface_distance_after_rigid_mm": 0.8957786898499023,
+      "icp_rotation_deg": 7.84982449202565
+    },
+    {
+      "subject": "021",
+      "phase": "ED",
+      "centroid_shift_mm": 14.201420013505686,
+      "surface_distance_raw_mm": 7.325146121504143,
+      "surface_distance_after_translation_mm": 2.1372259298750693,
+      "surface_distance_after_rigid_mm": 1.3080669141140477,
+      "icp_rotation_deg": 10.088555684541088
+    },
+    {
+      "subject": "021",
+      "phase": "ES",
+      "centroid_shift_mm": 17.36049770715114,
+      "surface_distance_raw_mm": 9.116610835709572,
+      "surface_distance_after_translation_mm": 1.7571585423298497,
+      "surface_distance_after_rigid_mm": 0.9350535064284868,
+      "icp_rotation_deg": 12.280984436745907
+    },
+    {
+      "subject": "022",
+      "phase": "ED",
+      "centroid_shift_mm": 5.713877408555416,
+      "surface_distance_raw_mm": 3.874882053807334,
+      "surface_distance_after_translation_mm": 2.1453096166768817,
+      "surface_distance_after_rigid_mm": 1.3641848283022007,
+      "icp_rotation_deg": 5.62903105714459
+    },
+    {
+      "subject": "022",
+      "phase": "ES",
+      "centroid_shift_mm": 8.70484816639556,
+      "surface_distance_raw_mm": 4.686280256287581,
+      "surface_distance_after_translation_mm": 1.7626293008247207,
+      "surface_distance_after_rigid_mm": 1.0723881575340801,
+      "icp_rotation_deg": 6.35036945100437
+    },
+    {
+      "subject": "023",
+      "phase": "ED",
+      "centroid_shift_mm": 8.276673583028394,
+      "surface_distance_raw_mm": 4.666518494409555,
+      "surface_distance_after_translation_mm": 2.1905742374556727,
+      "surface_distance_after_rigid_mm": 1.360390090087503,
+      "icp_rotation_deg": 8.72608951494972
+    },
+    {
+      "subject": "023",
+      "phase": "ES",
+      "centroid_shift_mm": 7.922749128932463,
+      "surface_distance_raw_mm": 4.3531204557222445,
+      "surface_distance_after_translation_mm": 1.8451121648918458,
+      "surface_distance_after_rigid_mm": 1.012700743502632,
+      "icp_rotation_deg": 8.80598764632786
+    },
+    {
+      "subject": "024",
+      "phase": "ED",
+      "centroid_shift_mm": 1.1620873633251387,
+      "surface_distance_raw_mm": 1.94522998581908,
+      "surface_distance_after_translation_mm": 2.017403199612507,
+      "surface_distance_after_rigid_mm": 1.3671137611121162,
+      "icp_rotation_deg": 6.202958099077152
+    },
+    {
+      "subject": "024",
+      "phase": "ES",
+      "centroid_shift_mm": 3.142906756491504,
+      "surface_distance_raw_mm": 1.9830808087082734,
+      "surface_distance_after_translation_mm": 1.6429985139932448,
+      "surface_distance_after_rigid_mm": 1.0756313939151227,
+      "icp_rotation_deg": 6.541667097885503
+    },
+    {
+      "subject": "025",
+      "phase": "ED",
+      "centroid_shift_mm": 11.63122633603181,
+      "surface_distance_raw_mm": 6.660035292422224,
+      "surface_distance_after_translation_mm": 2.0869269883268986,
+      "surface_distance_after_rigid_mm": 1.6993624593904022,
+      "icp_rotation_deg": 5.919815386891107
+    },
+    {
+      "subject": "025",
+      "phase": "ES",
+      "centroid_shift_mm": 10.258695917123186,
+      "surface_distance_raw_mm": 5.4758802400351945,
+      "surface_distance_after_translation_mm": 1.633190708993662,
+      "surface_distance_after_rigid_mm": 1.3556455238327567,
+      "icp_rotation_deg": 6.810339537647963
+    },
+    {
+      "subject": "026",
+      "phase": "ED",
+      "centroid_shift_mm": 9.461907029769415,
+      "surface_distance_raw_mm": 5.330240538188114,
+      "surface_distance_after_translation_mm": 1.635506161376941,
+      "surface_distance_after_rigid_mm": 1.2905087912791033,
+      "icp_rotation_deg": 3.7682747629030824
+    },
+    {
+      "subject": "026",
+      "phase": "ES",
+      "centroid_shift_mm": 9.792187195923086,
+      "surface_distance_raw_mm": 4.966796326760045,
+      "surface_distance_after_translation_mm": 1.2975264837539688,
+      "surface_distance_after_rigid_mm": 0.9471913566020417,
+      "icp_rotation_deg": 4.493353204551268
+    },
+    {
+      "subject": "027",
+      "phase": "ED",
+      "centroid_shift_mm": 34.585726512536915,
+      "surface_distance_raw_mm": 17.704351857320518,
+      "surface_distance_after_translation_mm": 1.5243625686665463,
+      "surface_distance_after_rigid_mm": 1.420344390509189,
+      "icp_rotation_deg": 1.6989288146376558
+    },
+    {
+      "subject": "027",
+      "phase": "ES",
+      "centroid_shift_mm": 28.04045550557266,
+      "surface_distance_raw_mm": 13.907101324397189,
+      "surface_distance_after_translation_mm": 1.2586374002660576,
+      "surface_distance_after_rigid_mm": 1.2150623413678991,
+      "icp_rotation_deg": 1.1503374668956967
+    },
+    {
+      "subject": "028",
+      "phase": "ED",
+      "centroid_shift_mm": 13.413049914169413,
+      "surface_distance_raw_mm": 7.313413326854873,
+      "surface_distance_after_translation_mm": 2.621833094705451,
+      "surface_distance_after_rigid_mm": 1.6064271762024416,
+      "icp_rotation_deg": 7.91494838537919
+    },
+    {
+      "subject": "028",
+      "phase": "ES",
+      "centroid_shift_mm": 13.296301494776655,
+      "surface_distance_raw_mm": 6.75971498481839,
+      "surface_distance_after_translation_mm": 2.245821680317973,
+      "surface_distance_after_rigid_mm": 1.2010734665072946,
+      "icp_rotation_deg": 8.689018071412118
+    },
+    {
+      "subject": "029",
+      "phase": "ED",
+      "centroid_shift_mm": 16.424065995970672,
+      "surface_distance_raw_mm": 9.22468702329859,
+      "surface_distance_after_translation_mm": 3.327702153289985,
+      "surface_distance_after_rigid_mm": 1.5557779460201004,
+      "icp_rotation_deg": 14.018523804396105
+    },
+    {
+      "subject": "029",
+      "phase": "ES",
+      "centroid_shift_mm": 17.7218222313621,
+      "surface_distance_raw_mm": 9.129245428211279,
+      "surface_distance_after_translation_mm": 2.714480175953469,
+      "surface_distance_after_rigid_mm": 1.0993087256973877,
+      "icp_rotation_deg": 14.124827904401352
+    },
+    {
+      "subject": "030",
+      "phase": "ED",
+      "centroid_shift_mm": 4.504484467727681,
+      "surface_distance_raw_mm": 2.760841632533176,
+      "surface_distance_after_translation_mm": 1.439960678194517,
+      "surface_distance_after_rigid_mm": 1.1673436744135488,
+      "icp_rotation_deg": 3.460589226028906
+    },
+    {
+      "subject": "030",
+      "phase": "ES",
+      "centroid_shift_mm": 4.188203834581126,
+      "surface_distance_raw_mm": 2.4005748275577834,
+      "surface_distance_after_translation_mm": 1.1465475147895519,
+      "surface_distance_after_rigid_mm": 0.8630796190007543,
+      "icp_rotation_deg": 3.847082383521938
+    },
+    {
+      "subject": "031",
+      "phase": "ED",
+      "centroid_shift_mm": 11.359767363815163,
+      "surface_distance_raw_mm": 6.151233634256977,
+      "surface_distance_after_translation_mm": 1.383731178631655,
+      "surface_distance_after_rigid_mm": 1.349717107103695,
+      "icp_rotation_deg": 1.3750732340105478
+    },
+    {
+      "subject": "031",
+      "phase": "ES",
+      "centroid_shift_mm": 10.435083815667221,
+      "surface_distance_raw_mm": 5.370538413086702,
+      "surface_distance_after_translation_mm": 1.0760793953337147,
+      "surface_distance_after_rigid_mm": 1.0396554085224063,
+      "icp_rotation_deg": 1.3290356322737842
+    },
+    {
+      "subject": "032",
+      "phase": "ED",
+      "centroid_shift_mm": 62.35717647103659,
+      "surface_distance_raw_mm": 41.97228002742085,
+      "surface_distance_after_translation_mm": 2.983763753177287,
+      "surface_distance_after_rigid_mm": 1.2734012959647099,
+      "icp_rotation_deg": 14.735558685719846
+    },
+    {
+      "subject": "032",
+      "phase": "ES",
+      "centroid_shift_mm": 63.712998759122925,
+      "surface_distance_raw_mm": 50.64626681726075,
+      "surface_distance_after_translation_mm": 3.1577848452098145,
+      "surface_distance_after_rigid_mm": 1.0812894016328183,
+      "icp_rotation_deg": 16.043520197536996
+    },
+    {
+      "subject": "033",
+      "phase": "ED",
+      "centroid_shift_mm": 2.9226487986071774,
+      "surface_distance_raw_mm": 2.3432695420963263,
+      "surface_distance_after_translation_mm": 1.414142060939662,
+      "surface_distance_after_rigid_mm": 1.2626636032421923,
+      "icp_rotation_deg": 2.656052943004167
+    },
+    {
+      "subject": "033",
+      "phase": "ES",
+      "centroid_shift_mm": 5.66671137080406,
+      "surface_distance_raw_mm": 3.373425731497777,
+      "surface_distance_after_translation_mm": 1.0850340015943685,
+      "surface_distance_after_rigid_mm": 0.987590152086246,
+      "icp_rotation_deg": 2.7367358526577035
+    },
+    {
+      "subject": "034",
+      "phase": "ED",
+      "centroid_shift_mm": 6.175806149807492,
+      "surface_distance_raw_mm": 3.3539013048644604,
+      "surface_distance_after_translation_mm": 1.7396817075831326,
+      "surface_distance_after_rigid_mm": 1.3406868846004578,
+      "icp_rotation_deg": 4.641846646897846
+    },
+    {
+      "subject": "034",
+      "phase": "ES",
+      "centroid_shift_mm": 5.671905358871913,
+      "surface_distance_raw_mm": 3.1584454319546014,
+      "surface_distance_after_translation_mm": 1.4345034749431145,
+      "surface_distance_after_rigid_mm": 0.979346725586929,
+      "icp_rotation_deg": 5.7115013985461
+    },
+    {
+      "subject": "035",
+      "phase": "ED",
+      "centroid_shift_mm": 4.512744388950018,
+      "surface_distance_raw_mm": 2.5546011879366484,
+      "surface_distance_after_translation_mm": 1.771095822754673,
+      "surface_distance_after_rigid_mm": 1.2425940130415065,
+      "icp_rotation_deg": 6.027197427817927
+    },
+    {
+      "subject": "035",
+      "phase": "ES",
+      "centroid_shift_mm": 5.586942648712261,
+      "surface_distance_raw_mm": 3.12808825067415,
+      "surface_distance_after_translation_mm": 1.209656513616191,
+      "surface_distance_after_rigid_mm": 0.8901868452685819,
+      "icp_rotation_deg": 6.3561532154454925
+    },
+    {
+      "subject": "036",
+      "phase": "ED",
+      "centroid_shift_mm": 6.304220947904664,
+      "surface_distance_raw_mm": 4.04311008578836,
+      "surface_distance_after_translation_mm": 1.5271690360070271,
+      "surface_distance_after_rigid_mm": 1.4103268678237568,
+      "icp_rotation_deg": 2.273410584811254
+    },
+    {
+      "subject": "036",
+      "phase": "ES",
+      "centroid_shift_mm": 5.212206503967397,
+      "surface_distance_raw_mm": 2.8297255285374696,
+      "surface_distance_after_translation_mm": 1.1133633263855631,
+      "surface_distance_after_rigid_mm": 1.015878286162017,
+      "icp_rotation_deg": 1.686628950225255
+    },
+    {
+      "subject": "037",
+      "phase": "ED",
+      "centroid_shift_mm": 7.800151670320262,
+      "surface_distance_raw_mm": 4.351469487581234,
+      "surface_distance_after_translation_mm": 1.6515488378372059,
+      "surface_distance_after_rigid_mm": 1.155991454091018,
+      "icp_rotation_deg": 6.00485839597525
+    },
+    {
+      "subject": "037",
+      "phase": "ES",
+      "centroid_shift_mm": 8.245372326341602,
+      "surface_distance_raw_mm": 3.7714304168858965,
+      "surface_distance_after_translation_mm": 1.4741665708270704,
+      "surface_distance_after_rigid_mm": 0.9858363461785433,
+      "icp_rotation_deg": 6.616157493227297
+    },
+    {
+      "subject": "038",
+      "phase": "ED",
+      "centroid_shift_mm": 17.30899425385543,
+      "surface_distance_raw_mm": 7.688828352985743,
+      "surface_distance_after_translation_mm": 1.9994386713212577,
+      "surface_distance_after_rigid_mm": 1.5724288269958686,
+      "icp_rotation_deg": 6.323805417404662
+    },
+    {
+      "subject": "038",
+      "phase": "ES",
+      "centroid_shift_mm": 17.857867397872575,
+      "surface_distance_raw_mm": 7.979436730754971,
+      "surface_distance_after_translation_mm": 1.6730329579317305,
+      "surface_distance_after_rigid_mm": 1.5007524036553934,
+      "icp_rotation_deg": 7.549294649978316
+    },
+    {
+      "subject": "039",
+      "phase": "ED",
+      "centroid_shift_mm": 2.378760147639948,
+      "surface_distance_raw_mm": 2.073299258867566,
+      "surface_distance_after_translation_mm": 1.633420709143723,
+      "surface_distance_after_rigid_mm": 1.2265327231354624,
+      "icp_rotation_deg": 4.222912060413133
+    },
+    {
+      "subject": "039",
+      "phase": "ES",
+      "centroid_shift_mm": 6.030537607875437,
+      "surface_distance_raw_mm": 3.5417859900534996,
+      "surface_distance_after_translation_mm": 1.3301307703441299,
+      "surface_distance_after_rigid_mm": 0.9357758161498632,
+      "icp_rotation_deg": 4.631156738726407
+    },
+    {
+      "subject": "040",
+      "phase": "ED",
+      "centroid_shift_mm": 7.526665365219842,
+      "surface_distance_raw_mm": 4.192187356488384,
+      "surface_distance_after_translation_mm": 1.8126964839945234,
+      "surface_distance_after_rigid_mm": 1.2685326227001057,
+      "icp_rotation_deg": 5.764295842902468
+    },
+    {
+      "subject": "040",
+      "phase": "ES",
+      "centroid_shift_mm": 6.507816604668578,
+      "surface_distance_raw_mm": 3.637147037172298,
+      "surface_distance_after_translation_mm": 1.6219621818175303,
+      "surface_distance_after_rigid_mm": 0.9082939222247068,
+      "icp_rotation_deg": 7.689541382417676
+    },
+    {
+      "subject": "041",
+      "phase": "ED",
+      "centroid_shift_mm": 6.172744984202727,
+      "surface_distance_raw_mm": 3.9797801951969074,
+      "surface_distance_after_translation_mm": 1.8746363742759085,
+      "surface_distance_after_rigid_mm": 1.3784567261671712,
+      "icp_rotation_deg": 4.274559341301287
+    },
+    {
+      "subject": "041",
+      "phase": "ES",
+      "centroid_shift_mm": 5.749616668961502,
+      "surface_distance_raw_mm": 3.3464814379815913,
+      "surface_distance_after_translation_mm": 1.4273591341968228,
+      "surface_distance_after_rigid_mm": 1.0320890049539906,
+      "icp_rotation_deg": 4.3767810116848045
+    },
+    {
+      "subject": "042",
+      "phase": "ED",
+      "centroid_shift_mm": 2.800713537654285,
+      "surface_distance_raw_mm": 2.7691162371905786,
+      "surface_distance_after_translation_mm": 2.3950689121727065,
+      "surface_distance_after_rigid_mm": 1.2974739888146318,
+      "icp_rotation_deg": 10.39437372674078
+    },
+    {
+      "subject": "042",
+      "phase": "ES",
+      "centroid_shift_mm": 5.161774981534943,
+      "surface_distance_raw_mm": 3.4333709455612493,
+      "surface_distance_after_translation_mm": 2.090225283429867,
+      "surface_distance_after_rigid_mm": 0.9178596650088515,
+      "icp_rotation_deg": 12.059933576812874
+    },
+    {
+      "subject": "043",
+      "phase": "ED",
+      "centroid_shift_mm": 4.047239335645962,
+      "surface_distance_raw_mm": 2.7577636339151237,
+      "surface_distance_after_translation_mm": 1.432217013047209,
+      "surface_distance_after_rigid_mm": 1.3459291261262936,
+      "icp_rotation_deg": 1.7120444760273883
+    },
+    {
+      "subject": "043",
+      "phase": "ES",
+      "centroid_shift_mm": 5.414377201488642,
+      "surface_distance_raw_mm": 3.2033050888151076,
+      "surface_distance_after_translation_mm": 1.1419656775762848,
+      "surface_distance_after_rigid_mm": 1.097845789407011,
+      "icp_rotation_deg": 2.081326221428328
+    },
+    {
+      "subject": "044",
+      "phase": "ED",
+      "centroid_shift_mm": 3.9536230068128644,
+      "surface_distance_raw_mm": 2.3512374414855275,
+      "surface_distance_after_translation_mm": 1.3670460724911595,
+      "surface_distance_after_rigid_mm": 1.3238466392585533,
+      "icp_rotation_deg": 2.7187286318537494
+    },
+    {
+      "subject": "044",
+      "phase": "ES",
+      "centroid_shift_mm": 2.519869869655976,
+      "surface_distance_raw_mm": 1.8169651114973338,
+      "surface_distance_after_translation_mm": 1.0336226984903214,
+      "surface_distance_after_rigid_mm": 0.9553945996996663,
+      "icp_rotation_deg": 2.262278184805681
+    },
+    {
+      "subject": "045",
+      "phase": "ED",
+      "centroid_shift_mm": 13.789138821550834,
+      "surface_distance_raw_mm": 7.180365805057127,
+      "surface_distance_after_translation_mm": 2.2660142725545906,
+      "surface_distance_after_rigid_mm": 1.5501232547350603,
+      "icp_rotation_deg": 7.542897666610474
+    },
+    {
+      "subject": "045",
+      "phase": "ES",
+      "centroid_shift_mm": 13.12245166117978,
+      "surface_distance_raw_mm": 6.765997789328072,
+      "surface_distance_after_translation_mm": 1.4477947278616292,
+      "surface_distance_after_rigid_mm": 1.0588278701882043,
+      "icp_rotation_deg": 8.243849937689665
+    },
+    {
+      "subject": "046",
+      "phase": "ED",
+      "centroid_shift_mm": 12.335129015944663,
+      "surface_distance_raw_mm": 6.523633693418764,
+      "surface_distance_after_translation_mm": 1.4560795905779775,
+      "surface_distance_after_rigid_mm": 1.2303743110083372,
+      "icp_rotation_deg": 1.895428391914699
+    },
+    {
+      "subject": "046",
+      "phase": "ES",
+      "centroid_shift_mm": 12.480189056260317,
+      "surface_distance_raw_mm": 6.0356291865216045,
+      "surface_distance_after_translation_mm": 1.1364830257146084,
+      "surface_distance_after_rigid_mm": 0.9465268219489864,
+      "icp_rotation_deg": 2.1598780412565586
+    },
+    {
+      "subject": "047",
+      "phase": "ED",
+      "centroid_shift_mm": 3.8846843681308254,
+      "surface_distance_raw_mm": 2.3563021593987914,
+      "surface_distance_after_translation_mm": 1.6953540183175513,
+      "surface_distance_after_rigid_mm": 1.1141899840095029,
+      "icp_rotation_deg": 5.4541009246736
+    },
+    {
+      "subject": "047",
+      "phase": "ES",
+      "centroid_shift_mm": 3.5443480416008866,
+      "surface_distance_raw_mm": 2.0226551385981666,
+      "surface_distance_after_translation_mm": 1.2862061873600386,
+      "surface_distance_after_rigid_mm": 0.7754610453637838,
+      "icp_rotation_deg": 5.8269209765177346
+    },
+    {
+      "subject": "048",
+      "phase": "ED",
+      "centroid_shift_mm": 12.018203992277718,
+      "surface_distance_raw_mm": 6.724550907929759,
+      "surface_distance_after_translation_mm": 1.8781127832608213,
+      "surface_distance_after_rigid_mm": 1.3960090943651067,
+      "icp_rotation_deg": 5.314145378507733
+    },
+    {
+      "subject": "048",
+      "phase": "ES",
+      "centroid_shift_mm": 9.522543063698901,
+      "surface_distance_raw_mm": 5.187348361572834,
+      "surface_distance_after_translation_mm": 1.5018840602050187,
+      "surface_distance_after_rigid_mm": 1.0142031204061475,
+      "icp_rotation_deg": 5.9433037242891205
+    },
+    {
+      "subject": "049",
+      "phase": "ED",
+      "centroid_shift_mm": 21.221531560186705,
+      "surface_distance_raw_mm": 11.649858281304741,
+      "surface_distance_after_translation_mm": 2.53338416586623,
+      "surface_distance_after_rigid_mm": 1.151299916183248,
+      "icp_rotation_deg": 11.113983313515284
+    },
+    {
+      "subject": "049",
+      "phase": "ES",
+      "centroid_shift_mm": 20.899269533646397,
+      "surface_distance_raw_mm": 10.932972765425376,
+      "surface_distance_after_translation_mm": 2.0109495976833935,
+      "surface_distance_after_rigid_mm": 0.809187383217947,
+      "icp_rotation_deg": 11.77664507964916
+    },
+    {
+      "subject": "050",
+      "phase": "ED",
+      "centroid_shift_mm": 15.804281561652841,
+      "surface_distance_raw_mm": 8.802882520397244,
+      "surface_distance_after_translation_mm": 1.738121333866222,
+      "surface_distance_after_rigid_mm": 1.3888586016093194,
+      "icp_rotation_deg": 5.010597818386249
+    },
+    {
+      "subject": "050",
+      "phase": "ES",
+      "centroid_shift_mm": 14.09875585432984,
+      "surface_distance_raw_mm": 7.735089086093964,
+      "surface_distance_after_translation_mm": 1.3852338908959156,
+      "surface_distance_after_rigid_mm": 1.0324786020061387,
+      "icp_rotation_deg": 6.195793220890772
+    },
+    {
+      "subject": "051",
+      "phase": "ED",
+      "centroid_shift_mm": 1.6986655468337444,
+      "surface_distance_raw_mm": 1.6671554230985803,
+      "surface_distance_after_translation_mm": 1.4082691649136336,
+      "surface_distance_after_rigid_mm": 1.3045295122401126,
+      "icp_rotation_deg": 1.9318377314911968
+    },
+    {
+      "subject": "051",
+      "phase": "ES",
+      "centroid_shift_mm": 2.607032059641762,
+      "surface_distance_raw_mm": 1.695418362549942,
+      "surface_distance_after_translation_mm": 1.093200860903053,
+      "surface_distance_after_rigid_mm": 0.9649246468748002,
+      "icp_rotation_deg": 2.3220138155875887
+    },
+    {
+      "subject": "052",
+      "phase": "ED",
+      "centroid_shift_mm": 4.8065128149210254,
+      "surface_distance_raw_mm": 3.549810256830953,
+      "surface_distance_after_translation_mm": 2.426415192959043,
+      "surface_distance_after_rigid_mm": 1.3409037171543714,
+      "icp_rotation_deg": 8.453035845550218
+    },
+    {
+      "subject": "052",
+      "phase": "ES",
+      "centroid_shift_mm": 5.853522126036604,
+      "surface_distance_raw_mm": 3.308030218478517,
+      "surface_distance_after_translation_mm": 2.1097826914373234,
+      "surface_distance_after_rigid_mm": 1.000249318451128,
+      "icp_rotation_deg": 9.850033495524508
+    },
+    {
+      "subject": "053",
+      "phase": "ED",
+      "centroid_shift_mm": 26.80565397075774,
+      "surface_distance_raw_mm": 14.309815736810362,
+      "surface_distance_after_translation_mm": 2.825443199596923,
+      "surface_distance_after_rigid_mm": 1.750963832328656,
+      "icp_rotation_deg": 11.437109659831263
+    },
+    {
+      "subject": "053",
+      "phase": "ES",
+      "centroid_shift_mm": 26.425640957221827,
+      "surface_distance_raw_mm": 13.515257139979342,
+      "surface_distance_after_translation_mm": 2.7459951209057216,
+      "surface_distance_after_rigid_mm": 1.444314301287891,
+      "icp_rotation_deg": 13.468678882827886
+    },
+    {
+      "subject": "054",
+      "phase": "ED",
+      "centroid_shift_mm": 2.634361402693262,
+      "surface_distance_raw_mm": 1.9711072907082015,
+      "surface_distance_after_translation_mm": 1.7725081577488848,
+      "surface_distance_after_rigid_mm": 1.4369016944300874,
+      "icp_rotation_deg": 4.4557612255859995
+    },
+    {
+      "subject": "054",
+      "phase": "ES",
+      "centroid_shift_mm": 4.155476463656124,
+      "surface_distance_raw_mm": 2.7894191542644737,
+      "surface_distance_after_translation_mm": 1.5513979096742,
+      "surface_distance_after_rigid_mm": 1.096532766838743,
+      "icp_rotation_deg": 5.70853270584707
+    },
+    {
+      "subject": "055",
+      "phase": "ED",
+      "centroid_shift_mm": 4.547309692554484,
+      "surface_distance_raw_mm": 2.954573493813264,
+      "surface_distance_after_translation_mm": 2.124485732030684,
+      "surface_distance_after_rigid_mm": 1.3609764615772877,
+      "icp_rotation_deg": 7.750957434112338
+    },
+    {
+      "subject": "055",
+      "phase": "ES",
+      "centroid_shift_mm": 9.600956960636777,
+      "surface_distance_raw_mm": 5.374204883375688,
+      "surface_distance_after_translation_mm": 1.9880853805866594,
+      "surface_distance_after_rigid_mm": 1.0552552738240686,
+      "icp_rotation_deg": 8.79145341058294
+    },
+    {
+      "subject": "056",
+      "phase": "ED",
+      "centroid_shift_mm": 11.124565120488976,
+      "surface_distance_raw_mm": 6.14638744739768,
+      "surface_distance_after_translation_mm": 2.6612860257029207,
+      "surface_distance_after_rigid_mm": 1.670687545850549,
+      "icp_rotation_deg": 9.525612425227754
+    },
+    {
+      "subject": "056",
+      "phase": "ES",
+      "centroid_shift_mm": 2.5664088216806076,
+      "surface_distance_raw_mm": 3.003684011732493,
+      "surface_distance_after_translation_mm": 2.6598894674078313,
+      "surface_distance_after_rigid_mm": 1.2673042174588873,
+      "icp_rotation_deg": 11.571622004898249
+    },
+    {
+      "subject": "057",
+      "phase": "ED",
+      "centroid_shift_mm": 5.048454496179992,
+      "surface_distance_raw_mm": 2.519845596084993,
+      "surface_distance_after_translation_mm": 1.4594441758480068,
+      "surface_distance_after_rigid_mm": 1.1047441151992161,
+      "icp_rotation_deg": 4.192357812783162
+    },
+    {
+      "subject": "057",
+      "phase": "ES",
+      "centroid_shift_mm": 3.0391864700935924,
+      "surface_distance_raw_mm": 1.894341999376941,
+      "surface_distance_after_translation_mm": 1.0245726837248221,
+      "surface_distance_after_rigid_mm": 0.7721927915225535,
+      "icp_rotation_deg": 3.7126870197213613
+    },
+    {
+      "subject": "058",
+      "phase": "ED",
+      "centroid_shift_mm": 4.906987279380298,
+      "surface_distance_raw_mm": 2.9223603973766177,
+      "surface_distance_after_translation_mm": 1.9570463963939886,
+      "surface_distance_after_rigid_mm": 1.5299331701791739,
+      "icp_rotation_deg": 5.25929392557457
+    },
+    {
+      "subject": "058",
+      "phase": "ES",
+      "centroid_shift_mm": 3.80857980880013,
+      "surface_distance_raw_mm": 2.522192913276804,
+      "surface_distance_after_translation_mm": 1.6360740242167773,
+      "surface_distance_after_rigid_mm": 1.1743189801788816,
+      "icp_rotation_deg": 7.372260813032757
+    },
+    {
+      "subject": "059",
+      "phase": "ED",
+      "centroid_shift_mm": 6.543052082935007,
+      "surface_distance_raw_mm": 3.8006656975225415,
+      "surface_distance_after_translation_mm": 1.4205775595916004,
+      "surface_distance_after_rigid_mm": 1.1899333683806839,
+      "icp_rotation_deg": 3.044623443438258
+    },
+    {
+      "subject": "059",
+      "phase": "ES",
+      "centroid_shift_mm": 5.316200282156418,
+      "surface_distance_raw_mm": 2.7634351963175474,
+      "surface_distance_after_translation_mm": 1.0857074480300737,
+      "surface_distance_after_rigid_mm": 0.841688569305409,
+      "icp_rotation_deg": 3.8255664572108814
+    },
+    {
+      "subject": "060",
+      "phase": "ED",
+      "centroid_shift_mm": 1.1918164959422222,
+      "surface_distance_raw_mm": 1.6961225388574261,
+      "surface_distance_after_translation_mm": 1.6788014061127483,
+      "surface_distance_after_rigid_mm": 1.3206010477608694,
+      "icp_rotation_deg": 4.220784783418266
+    },
+    {
+      "subject": "060",
+      "phase": "ES",
+      "centroid_shift_mm": 4.11597041777512,
+      "surface_distance_raw_mm": 2.1203091099659135,
+      "surface_distance_after_translation_mm": 1.3447631025784372,
+      "surface_distance_after_rigid_mm": 0.9436117677000124,
+      "icp_rotation_deg": 5.023026482487891
+    },
+    {
+      "subject": "061",
+      "phase": "ED",
+      "centroid_shift_mm": 5.111957558509266,
+      "surface_distance_raw_mm": 2.8755867194767863,
+      "surface_distance_after_translation_mm": 1.7600582377493583,
+      "surface_distance_after_rigid_mm": 1.249756879729617,
+      "icp_rotation_deg": 5.840500572574906
+    },
+    {
+      "subject": "061",
+      "phase": "ES",
+      "centroid_shift_mm": 6.334694448827023,
+      "surface_distance_raw_mm": 3.4046309040228726,
+      "surface_distance_after_translation_mm": 1.4411733243270164,
+      "surface_distance_after_rigid_mm": 0.7579215280110425,
+      "icp_rotation_deg": 7.675003600262059
+    },
+    {
+      "subject": "062",
+      "phase": "ED",
+      "centroid_shift_mm": 8.635915645720493,
+      "surface_distance_raw_mm": 4.675351774368509,
+      "surface_distance_after_translation_mm": 1.4381867951161373,
+      "surface_distance_after_rigid_mm": 1.234949914239753,
+      "icp_rotation_deg": 3.714121563484405
+    },
+    {
+      "subject": "062",
+      "phase": "ES",
+      "centroid_shift_mm": 4.616853907153662,
+      "surface_distance_raw_mm": 2.5937529541591493,
+      "surface_distance_after_translation_mm": 1.2899567499269464,
+      "surface_distance_after_rigid_mm": 0.9222880174546648,
+      "icp_rotation_deg": 6.576634286561591
+    },
+    {
+      "subject": "063",
+      "phase": "ED",
+      "centroid_shift_mm": 6.352367810509713,
+      "surface_distance_raw_mm": 3.7681322394052605,
+      "surface_distance_after_translation_mm": 1.7920722729666085,
+      "surface_distance_after_rigid_mm": 1.317512870216508,
+      "icp_rotation_deg": 2.9271181160349022
+    },
+    {
+      "subject": "063",
+      "phase": "ES",
+      "centroid_shift_mm": 8.174755766382258,
+      "surface_distance_raw_mm": 4.0038612342902855,
+      "surface_distance_after_translation_mm": 1.2121116369982763,
+      "surface_distance_after_rigid_mm": 1.0247518566370588,
+      "icp_rotation_deg": 2.6968778942567853
+    },
+    {
+      "subject": "064",
+      "phase": "ED",
+      "centroid_shift_mm": 6.281597185429835,
+      "surface_distance_raw_mm": 3.65112272518087,
+      "surface_distance_after_translation_mm": 2.119345617129239,
+      "surface_distance_after_rigid_mm": 1.4293413595854254,
+      "icp_rotation_deg": 7.589161701558257
+    },
+    {
+      "subject": "064",
+      "phase": "ES",
+      "centroid_shift_mm": 5.860873941657501,
+      "surface_distance_raw_mm": 3.6059944649827376,
+      "surface_distance_after_translation_mm": 2.0140293216236826,
+      "surface_distance_after_rigid_mm": 1.1235946500317788,
+      "icp_rotation_deg": 9.533100788411577
+    },
+    {
+      "subject": "065",
+      "phase": "ED",
+      "centroid_shift_mm": 12.404385482562208,
+      "surface_distance_raw_mm": 7.055001989702848,
+      "surface_distance_after_translation_mm": 3.512922162184231,
+      "surface_distance_after_rigid_mm": 1.4907486610755982,
+      "icp_rotation_deg": 16.239357022116586
+    },
+    {
+      "subject": "065",
+      "phase": "ES",
+      "centroid_shift_mm": 8.38083628285388,
+      "surface_distance_raw_mm": 5.309545798374966,
+      "surface_distance_after_translation_mm": 3.0260024215496455,
+      "surface_distance_after_rigid_mm": 1.0777149958067636,
+      "icp_rotation_deg": 17.61495436107718
+    },
+    {
+      "subject": "066",
+      "phase": "ED",
+      "centroid_shift_mm": 20.21375620709817,
+      "surface_distance_raw_mm": 11.38127737712568,
+      "surface_distance_after_translation_mm": 2.8893629780417758,
+      "surface_distance_after_rigid_mm": 1.5410431803555817,
+      "icp_rotation_deg": 9.530728400973723
+    },
+    {
+      "subject": "066",
+      "phase": "ES",
+      "centroid_shift_mm": 22.528804268313927,
+      "surface_distance_raw_mm": 12.59508048773517,
+      "surface_distance_after_translation_mm": 2.5178178314823794,
+      "surface_distance_after_rigid_mm": 1.2550437230542624,
+      "icp_rotation_deg": 10.688507023304439
+    },
+    {
+      "subject": "067",
+      "phase": "ED",
+      "centroid_shift_mm": 5.675379994326368,
+      "surface_distance_raw_mm": 3.289850690999815,
+      "surface_distance_after_translation_mm": 1.837294015686496,
+      "surface_distance_after_rigid_mm": 1.6014729794878046,
+      "icp_rotation_deg": 2.6992691224929333
+    },
+    {
+      "subject": "067",
+      "phase": "ES",
+      "centroid_shift_mm": 1.8618943471636542,
+      "surface_distance_raw_mm": 1.8483490450652695,
+      "surface_distance_after_translation_mm": 1.8393863316975783,
+      "surface_distance_after_rigid_mm": 1.484756136884815,
+      "icp_rotation_deg": 3.0312139400102502
+    },
+    {
+      "subject": "068",
+      "phase": "ED",
+      "centroid_shift_mm": 3.294180905779164,
+      "surface_distance_raw_mm": 2.4910684051500316,
+      "surface_distance_after_translation_mm": 1.5348834784391725,
+      "surface_distance_after_rigid_mm": 1.258287841428768,
+      "icp_rotation_deg": 3.893501267368875
+    },
+    {
+      "subject": "068",
+      "phase": "ES",
+      "centroid_shift_mm": 2.8189260366316717,
+      "surface_distance_raw_mm": 1.9340554077225522,
+      "surface_distance_after_translation_mm": 1.191279320360635,
+      "surface_distance_after_rigid_mm": 0.9925610435083931,
+      "icp_rotation_deg": 4.748737000039769
+    },
+    {
+      "subject": "069",
+      "phase": "ED",
+      "centroid_shift_mm": 9.018026205328972,
+      "surface_distance_raw_mm": 5.196423324951196,
+      "surface_distance_after_translation_mm": 2.062721197196434,
+      "surface_distance_after_rigid_mm": 1.466842388585127,
+      "icp_rotation_deg": 6.880521673141303
+    },
+    {
+      "subject": "069",
+      "phase": "ES",
+      "centroid_shift_mm": 9.65167400195427,
+      "surface_distance_raw_mm": 4.803928256011794,
+      "surface_distance_after_translation_mm": 1.6472712060312027,
+      "surface_distance_after_rigid_mm": 1.076806802559431,
+      "icp_rotation_deg": 7.231248962839156
+    },
+    {
+      "subject": "070",
+      "phase": "ED",
+      "centroid_shift_mm": 3.0429087662958287,
+      "surface_distance_raw_mm": 2.5431569024162295,
+      "surface_distance_after_translation_mm": 1.818927977111925,
+      "surface_distance_after_rigid_mm": 1.396670373547856,
+      "icp_rotation_deg": 4.085730268243997
+    },
+    {
+      "subject": "070",
+      "phase": "ES",
+      "centroid_shift_mm": 2.599509461417668,
+      "surface_distance_raw_mm": 2.134891245338708,
+      "surface_distance_after_translation_mm": 1.5574092158482573,
+      "surface_distance_after_rigid_mm": 1.130783707697725,
+      "icp_rotation_deg": 4.23866684571749
+    },
+    {
+      "subject": "071",
+      "phase": "ED",
+      "centroid_shift_mm": 3.3801216072798317,
+      "surface_distance_raw_mm": 1.803688327638468,
+      "surface_distance_after_translation_mm": 1.3197710790836723,
+      "surface_distance_after_rigid_mm": 1.190630564188864,
+      "icp_rotation_deg": 3.007465780289256
+    },
+    {
+      "subject": "071",
+      "phase": "ES",
+      "centroid_shift_mm": 2.958193665059814,
+      "surface_distance_raw_mm": 1.559638572042239,
+      "surface_distance_after_translation_mm": 1.07070466928081,
+      "surface_distance_after_rigid_mm": 0.9275169438163542,
+      "icp_rotation_deg": 3.0006796525007013
+    },
+    {
+      "subject": "072",
+      "phase": "ED",
+      "centroid_shift_mm": 30.863022270672072,
+      "surface_distance_raw_mm": 16.568711958083306,
+      "surface_distance_after_translation_mm": 1.4126599732071428,
+      "surface_distance_after_rigid_mm": 1.0849594129412712,
+      "icp_rotation_deg": 4.7271591040475585
+    },
+    {
+      "subject": "072",
+      "phase": "ES",
+      "centroid_shift_mm": 29.78225652968559,
+      "surface_distance_raw_mm": 17.825374961167014,
+      "surface_distance_after_translation_mm": 1.2149914193692308,
+      "surface_distance_after_rigid_mm": 0.842747928576588,
+      "icp_rotation_deg": 5.553339341981561
+    },
+    {
+      "subject": "073",
+      "phase": "ED",
+      "centroid_shift_mm": 7.833823638556084,
+      "surface_distance_raw_mm": 3.6491172393122477,
+      "surface_distance_after_translation_mm": 2.2476336733202364,
+      "surface_distance_after_rigid_mm": 1.8947478333381698,
+      "icp_rotation_deg": 8.056268378828957
+    },
+    {
+      "subject": "073",
+      "phase": "ES",
+      "centroid_shift_mm": 3.0977650782459225,
+      "surface_distance_raw_mm": 2.530164282963675,
+      "surface_distance_after_translation_mm": 1.9616856543687666,
+      "surface_distance_after_rigid_mm": 1.3986378008000275,
+      "icp_rotation_deg": 9.664472296550608
+    },
+    {
+      "subject": "074",
+      "phase": "ED",
+      "centroid_shift_mm": 1.3896056418998808,
+      "surface_distance_raw_mm": 1.8060837127689484,
+      "surface_distance_after_translation_mm": 1.4764679802229104,
+      "surface_distance_after_rigid_mm": 1.3548687820729137,
+      "icp_rotation_deg": 0.5325089969288205
+    },
+    {
+      "subject": "074",
+      "phase": "ES",
+      "centroid_shift_mm": 3.729352136765842,
+      "surface_distance_raw_mm": 2.2417700061537014,
+      "surface_distance_after_translation_mm": 1.0627960515282497,
+      "surface_distance_after_rigid_mm": 1.0235322865763843,
+      "icp_rotation_deg": 1.1045616649690815
+    },
+    {
+      "subject": "075",
+      "phase": "ED",
+      "centroid_shift_mm": 11.129263407791194,
+      "surface_distance_raw_mm": 5.958792188811343,
+      "surface_distance_after_translation_mm": 2.168931776701508,
+      "surface_distance_after_rigid_mm": 1.230447538252069,
+      "icp_rotation_deg": 10.053417397685553
+    },
+    {
+      "subject": "075",
+      "phase": "ES",
+      "centroid_shift_mm": 6.748763110378083,
+      "surface_distance_raw_mm": 3.778427685975318,
+      "surface_distance_after_translation_mm": 1.9644602981482295,
+      "surface_distance_after_rigid_mm": 0.9894217318181047,
+      "icp_rotation_deg": 10.892475266883904
+    },
+    {
+      "subject": "076",
+      "phase": "ED",
+      "centroid_shift_mm": 5.292045698971239,
+      "surface_distance_raw_mm": 3.5905615378108537,
+      "surface_distance_after_translation_mm": 1.8614868073789435,
+      "surface_distance_after_rigid_mm": 1.3465483519387575,
+      "icp_rotation_deg": 5.963440435584445
+    },
+    {
+      "subject": "076",
+      "phase": "ES",
+      "centroid_shift_mm": 9.058491406409791,
+      "surface_distance_raw_mm": 4.327660001985354,
+      "surface_distance_after_translation_mm": 1.813292356897675,
+      "surface_distance_after_rigid_mm": 1.007957446139557,
+      "icp_rotation_deg": 8.206792795511795
+    },
+    {
+      "subject": "077",
+      "phase": "ED",
+      "centroid_shift_mm": 12.540870751267635,
+      "surface_distance_raw_mm": 6.832824221124317,
+      "surface_distance_after_translation_mm": 1.534849157927094,
+      "surface_distance_after_rigid_mm": 1.2134935041646162,
+      "icp_rotation_deg": 4.81952222038463
+    },
+    {
+      "subject": "077",
+      "phase": "ES",
+      "centroid_shift_mm": 13.415436607132847,
+      "surface_distance_raw_mm": 6.824075404312084,
+      "surface_distance_after_translation_mm": 1.1198448430031007,
+      "surface_distance_after_rigid_mm": 0.8721085554986672,
+      "icp_rotation_deg": 5.811171255155953
+    },
+    {
+      "subject": "078",
+      "phase": "ED",
+      "centroid_shift_mm": 13.571529411234383,
+      "surface_distance_raw_mm": 6.71813870718192,
+      "surface_distance_after_translation_mm": 2.0724181192779163,
+      "surface_distance_after_rigid_mm": 1.1883814354703093,
+      "icp_rotation_deg": 11.348826020465797
+    },
+    {
+      "subject": "078",
+      "phase": "ES",
+      "centroid_shift_mm": 9.947645679254968,
+      "surface_distance_raw_mm": 5.006704406165196,
+      "surface_distance_after_translation_mm": 1.625456644479682,
+      "surface_distance_after_rigid_mm": 0.7745120442389616,
+      "icp_rotation_deg": 12.405747787261124
+    },
+    {
+      "subject": "079",
+      "phase": "ED",
+      "centroid_shift_mm": 6.346095568142677,
+      "surface_distance_raw_mm": 3.2790534962887445,
+      "surface_distance_after_translation_mm": 1.355744286331587,
+      "surface_distance_after_rigid_mm": 1.3005737314084684,
+      "icp_rotation_deg": 1.8837531722013034
+    },
+    {
+      "subject": "079",
+      "phase": "ES",
+      "centroid_shift_mm": 9.711884760436568,
+      "surface_distance_raw_mm": 4.741899151015083,
+      "surface_distance_after_translation_mm": 1.088176536052789,
+      "surface_distance_after_rigid_mm": 1.0042973182455588,
+      "icp_rotation_deg": 1.7522185956412297
+    },
+    {
+      "subject": "080",
+      "phase": "ED",
+      "centroid_shift_mm": 27.164482225140976,
+      "surface_distance_raw_mm": 14.06383457275852,
+      "surface_distance_after_translation_mm": 1.7200070520006117,
+      "surface_distance_after_rigid_mm": 1.4087563590640348,
+      "icp_rotation_deg": 5.626764224097446
+    },
+    {
+      "subject": "080",
+      "phase": "ES",
+      "centroid_shift_mm": 25.088169189480524,
+      "surface_distance_raw_mm": 12.016177257326266,
+      "surface_distance_after_translation_mm": 1.2412352460399632,
+      "surface_distance_after_rigid_mm": 0.9709645000016802,
+      "icp_rotation_deg": 9.9822112838767
+    },
+    {
+      "subject": "081",
+      "phase": "ED",
+      "centroid_shift_mm": 12.175372841929724,
+      "surface_distance_raw_mm": 6.548475115474005,
+      "surface_distance_after_translation_mm": 2.5207504461977868,
+      "surface_distance_after_rigid_mm": 1.2337292030748594,
+      "icp_rotation_deg": 11.619740834807935
+    },
+    {
+      "subject": "081",
+      "phase": "ES",
+      "centroid_shift_mm": 11.956412451902116,
+      "surface_distance_raw_mm": 6.338447569081895,
+      "surface_distance_after_translation_mm": 1.9581548105012208,
+      "surface_distance_after_rigid_mm": 0.8747240360338127,
+      "icp_rotation_deg": 12.424301662870938
+    },
+    {
+      "subject": "082",
+      "phase": "ED",
+      "centroid_shift_mm": 2.549940767939517,
+      "surface_distance_raw_mm": 2.429824073372961,
+      "surface_distance_after_translation_mm": 1.9784027729275837,
+      "surface_distance_after_rigid_mm": 1.1876295992368229,
+      "icp_rotation_deg": 8.662255565060466
+    },
+    {
+      "subject": "082",
+      "phase": "ES",
+      "centroid_shift_mm": 2.7750975766628425,
+      "surface_distance_raw_mm": 2.2497270180339197,
+      "surface_distance_after_translation_mm": 1.6937626788979765,
+      "surface_distance_after_rigid_mm": 0.7996140677760268,
+      "icp_rotation_deg": 10.000925608127098
+    },
+    {
+      "subject": "083",
+      "phase": "ED",
+      "centroid_shift_mm": 14.425021644351181,
+      "surface_distance_raw_mm": 7.650614139349972,
+      "surface_distance_after_translation_mm": 1.8826177877142611,
+      "surface_distance_after_rigid_mm": 1.2884828566105666,
+      "icp_rotation_deg": 5.232718815241562
+    },
+    {
+      "subject": "083",
+      "phase": "ES",
+      "centroid_shift_mm": 14.289928167769071,
+      "surface_distance_raw_mm": 7.647773900297344,
+      "surface_distance_after_translation_mm": 1.4768588625170551,
+      "surface_distance_after_rigid_mm": 0.9323977728491585,
+      "icp_rotation_deg": 5.985474899725328
+    },
+    {
+      "subject": "084",
+      "phase": "ED",
+      "centroid_shift_mm": 3.560866725953119,
+      "surface_distance_raw_mm": 2.3740731538170934,
+      "surface_distance_after_translation_mm": 1.4849154768501658,
+      "surface_distance_after_rigid_mm": 1.3147259148801562,
+      "icp_rotation_deg": 1.876543798520633
+    },
+    {
+      "subject": "084",
+      "phase": "ES",
+      "centroid_shift_mm": 2.7969504250165054,
+      "surface_distance_raw_mm": 1.9057163436007527,
+      "surface_distance_after_translation_mm": 1.0512466924936308,
+      "surface_distance_after_rigid_mm": 0.9501341351081931,
+      "icp_rotation_deg": 2.3553785000397567
+    },
+    {
+      "subject": "085",
+      "phase": "ED",
+      "centroid_shift_mm": 4.735267747445754,
+      "surface_distance_raw_mm": 2.1891439108063615,
+      "surface_distance_after_translation_mm": 1.377210931769015,
+      "surface_distance_after_rigid_mm": 1.2152764221992527,
+      "icp_rotation_deg": 3.119393594958819
+    },
+    {
+      "subject": "085",
+      "phase": "ES",
+      "centroid_shift_mm": 3.838739876574083,
+      "surface_distance_raw_mm": 2.0578772664841614,
+      "surface_distance_after_translation_mm": 1.1271544012465813,
+      "surface_distance_after_rigid_mm": 0.9395095848025132,
+      "icp_rotation_deg": 3.281101244088607
+    },
+    {
+      "subject": "086",
+      "phase": "ED",
+      "centroid_shift_mm": 34.55465778617986,
+      "surface_distance_raw_mm": 18.38007490858702,
+      "surface_distance_after_translation_mm": 2.9743636475994415,
+      "surface_distance_after_rigid_mm": 1.6221192634556623,
+      "icp_rotation_deg": 12.309200941371788
+    },
+    {
+      "subject": "086",
+      "phase": "ES",
+      "centroid_shift_mm": 33.83507034069827,
+      "surface_distance_raw_mm": 18.662639678869297,
+      "surface_distance_after_translation_mm": 2.4082897669347236,
+      "surface_distance_after_rigid_mm": 1.37549627701225,
+      "icp_rotation_deg": 12.35971590939591
+    },
+    {
+      "subject": "087",
+      "phase": "ED",
+      "centroid_shift_mm": 9.211927416127416,
+      "surface_distance_raw_mm": 4.438286368633543,
+      "surface_distance_after_translation_mm": 1.5383127157177519,
+      "surface_distance_after_rigid_mm": 1.2390679159768014,
+      "icp_rotation_deg": 3.9294731229668187
+    },
+    {
+      "subject": "087",
+      "phase": "ES",
+      "centroid_shift_mm": 7.252809287441662,
+      "surface_distance_raw_mm": 2.8001680745677993,
+      "surface_distance_after_translation_mm": 1.2864723177758461,
+      "surface_distance_after_rigid_mm": 0.9938378252613516,
+      "icp_rotation_deg": 4.625180777625908
+    },
+    {
+      "subject": "088",
+      "phase": "ED",
+      "centroid_shift_mm": 9.085048702125926,
+      "surface_distance_raw_mm": 4.983523750526882,
+      "surface_distance_after_translation_mm": 2.078005111230404,
+      "surface_distance_after_rigid_mm": 1.4065801167009433,
+      "icp_rotation_deg": 5.8261111510291705
+    },
+    {
+      "subject": "088",
+      "phase": "ES",
+      "centroid_shift_mm": 12.147234562648409,
+      "surface_distance_raw_mm": 6.385263806768348,
+      "surface_distance_after_translation_mm": 1.8217142632371939,
+      "surface_distance_after_rigid_mm": 1.0465314941640593,
+      "icp_rotation_deg": 8.175505053088497
+    },
+    {
+      "subject": "089",
+      "phase": "ED",
+      "centroid_shift_mm": 5.775399317796121,
+      "surface_distance_raw_mm": 3.5332508410296013,
+      "surface_distance_after_translation_mm": 1.5781984913531821,
+      "surface_distance_after_rigid_mm": 1.3244521767452242,
+      "icp_rotation_deg": 3.75089151372766
+    },
+    {
+      "subject": "089",
+      "phase": "ES",
+      "centroid_shift_mm": 8.412505367606018,
+      "surface_distance_raw_mm": 4.577389713939892,
+      "surface_distance_after_translation_mm": 1.3670690184653926,
+      "surface_distance_after_rigid_mm": 1.022593228565805,
+      "icp_rotation_deg": 4.3744841672664725
+    },
+    {
+      "subject": "090",
+      "phase": "ED",
+      "centroid_shift_mm": 7.334804635435081,
+      "surface_distance_raw_mm": 4.041085040261608,
+      "surface_distance_after_translation_mm": 1.5514929289227752,
+      "surface_distance_after_rigid_mm": 1.3139812360229457,
+      "icp_rotation_deg": 3.1625086892847687
+    },
+    {
+      "subject": "090",
+      "phase": "ES",
+      "centroid_shift_mm": 8.055918251819588,
+      "surface_distance_raw_mm": 4.624882870894471,
+      "surface_distance_after_translation_mm": 1.260458045321941,
+      "surface_distance_after_rigid_mm": 0.980816712939512,
+      "icp_rotation_deg": 4.25598861382941
+    },
+    {
+      "subject": "091",
+      "phase": "ED",
+      "centroid_shift_mm": 5.777307885165896,
+      "surface_distance_raw_mm": 3.2448434711855167,
+      "surface_distance_after_translation_mm": 1.8188318744508358,
+      "surface_distance_after_rigid_mm": 1.3224201703535754,
+      "icp_rotation_deg": 6.799732468565116
+    },
+    {
+      "subject": "091",
+      "phase": "ES",
+      "centroid_shift_mm": 3.5490651839604137,
+      "surface_distance_raw_mm": 2.7294165658521434,
+      "surface_distance_after_translation_mm": 1.8137184663809465,
+      "surface_distance_after_rigid_mm": 1.0545803941096812,
+      "icp_rotation_deg": 8.66989956198419
+    },
+    {
+      "subject": "092",
+      "phase": "ED",
+      "centroid_shift_mm": 7.21826045526206,
+      "surface_distance_raw_mm": 4.607151571821039,
+      "surface_distance_after_translation_mm": 1.8309241870267794,
+      "surface_distance_after_rigid_mm": 1.4342765603223966,
+      "icp_rotation_deg": 5.428799166925879
+    },
+    {
+      "subject": "092",
+      "phase": "ES",
+      "centroid_shift_mm": 7.931217520658481,
+      "surface_distance_raw_mm": 4.757923608461267,
+      "surface_distance_after_translation_mm": 1.6480894959308312,
+      "surface_distance_after_rigid_mm": 1.2340837437964853,
+      "icp_rotation_deg": 6.913786561923009
+    },
+    {
+      "subject": "093",
+      "phase": "ED",
+      "centroid_shift_mm": 17.798041456295127,
+      "surface_distance_raw_mm": 10.263005807963424,
+      "surface_distance_after_translation_mm": 2.327822792968525,
+      "surface_distance_after_rigid_mm": 1.5134068412219226,
+      "icp_rotation_deg": 8.570266050233242
+    },
+    {
+      "subject": "093",
+      "phase": "ES",
+      "centroid_shift_mm": 18.053525652348345,
+      "surface_distance_raw_mm": 9.819761550368465,
+      "surface_distance_after_translation_mm": 1.9602351658314006,
+      "surface_distance_after_rigid_mm": 1.0903240280484734,
+      "icp_rotation_deg": 8.999671852027438
+    },
+    {
+      "subject": "094",
+      "phase": "ED",
+      "centroid_shift_mm": 6.045857742289344,
+      "surface_distance_raw_mm": 3.4693563039526314,
+      "surface_distance_after_translation_mm": 1.72144374677378,
+      "surface_distance_after_rigid_mm": 1.3258734860502175,
+      "icp_rotation_deg": 5.463248757636234
+    },
+    {
+      "subject": "094",
+      "phase": "ES",
+      "centroid_shift_mm": 6.656645269202806,
+      "surface_distance_raw_mm": 3.9732797527884034,
+      "surface_distance_after_translation_mm": 1.421677657089166,
+      "surface_distance_after_rigid_mm": 1.0490874964725863,
+      "icp_rotation_deg": 5.399100500239087
+    },
+    {
+      "subject": "095",
+      "phase": "ED",
+      "centroid_shift_mm": 6.3988076264254135,
+      "surface_distance_raw_mm": 3.2334120389608563,
+      "surface_distance_after_translation_mm": 1.4002075660897115,
+      "surface_distance_after_rigid_mm": 1.1771778015439935,
+      "icp_rotation_deg": 2.514996443767172
+    },
+    {
+      "subject": "095",
+      "phase": "ES",
+      "centroid_shift_mm": 5.444742329991382,
+      "surface_distance_raw_mm": 3.102404469184732,
+      "surface_distance_after_translation_mm": 0.990155205359515,
+      "surface_distance_after_rigid_mm": 0.8577382953257691,
+      "icp_rotation_deg": 2.575923428238773
+    },
+    {
+      "subject": "096",
+      "phase": "ED",
+      "centroid_shift_mm": 6.815108509774443,
+      "surface_distance_raw_mm": 3.0011268397568513,
+      "surface_distance_after_translation_mm": 1.4951438694691084,
+      "surface_distance_after_rigid_mm": 1.2182550460825026,
+      "icp_rotation_deg": 3.808044190745582
+    },
+    {
+      "subject": "096",
+      "phase": "ES",
+      "centroid_shift_mm": 8.132882795171703,
+      "surface_distance_raw_mm": 4.37764791030847,
+      "surface_distance_after_translation_mm": 1.143568800243441,
+      "surface_distance_after_rigid_mm": 0.8683684872763339,
+      "icp_rotation_deg": 4.227177112204968
+    },
+    {
+      "subject": "097",
+      "phase": "ED",
+      "centroid_shift_mm": 4.988884428406816,
+      "surface_distance_raw_mm": 2.9091257662982626,
+      "surface_distance_after_translation_mm": 1.7985597753436964,
+      "surface_distance_after_rigid_mm": 1.4816424979456961,
+      "icp_rotation_deg": 3.377189938746565
+    },
+    {
+      "subject": "097",
+      "phase": "ES",
+      "centroid_shift_mm": 5.308576803626382,
+      "surface_distance_raw_mm": 2.9212817378645983,
+      "surface_distance_after_translation_mm": 1.2969318253272482,
+      "surface_distance_after_rigid_mm": 1.12512408289781,
+      "icp_rotation_deg": 3.2217525179016313
+    },
+    {
+      "subject": "098",
+      "phase": "ED",
+      "centroid_shift_mm": 4.3248069182334605,
+      "surface_distance_raw_mm": 2.502814836360331,
+      "surface_distance_after_translation_mm": 1.8740065172031286,
+      "surface_distance_after_rigid_mm": 1.4325020708770837,
+      "icp_rotation_deg": 5.098850535401758
+    },
+    {
+      "subject": "098",
+      "phase": "ES",
+      "centroid_shift_mm": 6.742753680804308,
+      "surface_distance_raw_mm": 3.3972189936271175,
+      "surface_distance_after_translation_mm": 1.662231369472563,
+      "surface_distance_after_rigid_mm": 1.1987684410886363,
+      "icp_rotation_deg": 7.738855721515371
+    },
+    {
+      "subject": "099",
+      "phase": "ED",
+      "centroid_shift_mm": 3.7737275577338654,
+      "surface_distance_raw_mm": 2.4619988109994537,
+      "surface_distance_after_translation_mm": 1.1725331814715578,
+      "surface_distance_after_rigid_mm": 1.1179126984365841,
+      "icp_rotation_deg": 2.0178223569560716
+    },
+    {
+      "subject": "099",
+      "phase": "ES",
+      "centroid_shift_mm": 4.471780048258182,
+      "surface_distance_raw_mm": 2.6575963072821653,
+      "surface_distance_after_translation_mm": 0.875804952971146,
+      "surface_distance_after_rigid_mm": 0.7856985003846054,
+      "icp_rotation_deg": 2.597716355013393
+    },
+    {
+      "subject": "100",
+      "phase": "ED",
+      "centroid_shift_mm": 20.74644956227451,
+      "surface_distance_raw_mm": 10.36660508550986,
+      "surface_distance_after_translation_mm": 1.7472312037814177,
+      "surface_distance_after_rigid_mm": 1.4525464472154956,
+      "icp_rotation_deg": 3.848319453843222
+    },
+    {
+      "subject": "100",
+      "phase": "ES",
+      "centroid_shift_mm": 17.933736561018176,
+      "surface_distance_raw_mm": 8.936869857492955,
+      "surface_distance_after_translation_mm": 1.4578744247261688,
+      "surface_distance_after_rigid_mm": 1.2771251511675765,
+      "icp_rotation_deg": 2.934614105207873
+    },
+    {
+      "subject": "101",
+      "phase": "ED",
+      "centroid_shift_mm": 24.21168074132814,
+      "surface_distance_raw_mm": 13.42740372816312,
+      "surface_distance_after_translation_mm": 2.3444299104002306,
+      "surface_distance_after_rigid_mm": 1.3405946869853798,
+      "icp_rotation_deg": 8.879123029441361
+    },
+    {
+      "subject": "101",
+      "phase": "ES",
+      "centroid_shift_mm": 24.106833537401805,
+      "surface_distance_raw_mm": 12.699397753799406,
+      "surface_distance_after_translation_mm": 1.9654063306949965,
+      "surface_distance_after_rigid_mm": 1.0160561231831262,
+      "icp_rotation_deg": 9.49883807074157
+    },
+    {
+      "subject": "102",
+      "phase": "ED",
+      "centroid_shift_mm": 3.3021643569029115,
+      "surface_distance_raw_mm": 1.9847169206285762,
+      "surface_distance_after_translation_mm": 1.6622073748823039,
+      "surface_distance_after_rigid_mm": 1.191174567378296,
+      "icp_rotation_deg": 5.52542815044033
+    },
+    {
+      "subject": "102",
+      "phase": "ES",
+      "centroid_shift_mm": 3.1261688757967008,
+      "surface_distance_raw_mm": 1.9820860791096835,
+      "surface_distance_after_translation_mm": 1.3302789620395918,
+      "surface_distance_after_rigid_mm": 0.9523404839082661,
+      "icp_rotation_deg": 5.777027863380161
+    },
+    {
+      "subject": "103",
+      "phase": "ED",
+      "centroid_shift_mm": 5.098550711721912,
+      "surface_distance_raw_mm": 3.3780766072908657,
+      "surface_distance_after_translation_mm": 1.564642258203368,
+      "surface_distance_after_rigid_mm": 1.380781378105283,
+      "icp_rotation_deg": 1.7895602021945036
+    },
+    {
+      "subject": "103",
+      "phase": "ES",
+      "centroid_shift_mm": 5.067768045204908,
+      "surface_distance_raw_mm": 3.0597914317877253,
+      "surface_distance_after_translation_mm": 1.1216608321654968,
+      "surface_distance_after_rigid_mm": 1.01709684888889,
+      "icp_rotation_deg": 1.6845048467660262
+    },
+    {
+      "subject": "104",
+      "phase": "ED",
+      "centroid_shift_mm": 21.317229091980966,
+      "surface_distance_raw_mm": 11.708117305290349,
+      "surface_distance_after_translation_mm": 2.356760749009954,
+      "surface_distance_after_rigid_mm": 1.367165885773971,
+      "icp_rotation_deg": 7.99750419830231
+    },
+    {
+      "subject": "104",
+      "phase": "ES",
+      "centroid_shift_mm": 24.633880402405136,
+      "surface_distance_raw_mm": 13.186565084112685,
+      "surface_distance_after_translation_mm": 1.9362171546666427,
+      "surface_distance_after_rigid_mm": 0.8720366512364223,
+      "icp_rotation_deg": 10.961994394325973
+    },
+    {
+      "subject": "105",
+      "phase": "ED",
+      "centroid_shift_mm": 6.035071538929755,
+      "surface_distance_raw_mm": 3.659655497479427,
+      "surface_distance_after_translation_mm": 1.7338790850332169,
+      "surface_distance_after_rigid_mm": 1.2953157137834481,
+      "icp_rotation_deg": 5.357206926908954
+    },
+    {
+      "subject": "105",
+      "phase": "ES",
+      "centroid_shift_mm": 4.506753687522762,
+      "surface_distance_raw_mm": 2.8672174723359594,
+      "surface_distance_after_translation_mm": 1.4219159668136636,
+      "surface_distance_after_rigid_mm": 0.9817991749877837,
+      "icp_rotation_deg": 5.73165169157332
+    },
+    {
+      "subject": "106",
+      "phase": "ED",
+      "centroid_shift_mm": 15.42690904620884,
+      "surface_distance_raw_mm": 8.101886725647631,
+      "surface_distance_after_translation_mm": 1.2206524411173936,
+      "surface_distance_after_rigid_mm": 1.166396561224882,
+      "icp_rotation_deg": 1.5221148718359514
+    },
+    {
+      "subject": "106",
+      "phase": "ES",
+      "centroid_shift_mm": 12.424888158852784,
+      "surface_distance_raw_mm": 6.137618191045679,
+      "surface_distance_after_translation_mm": 0.9365548046106944,
+      "surface_distance_after_rigid_mm": 0.8745335249662832,
+      "icp_rotation_deg": 1.5720017994542124
+    },
+    {
+      "subject": "107",
+      "phase": "ED",
+      "centroid_shift_mm": 14.257234357335923,
+      "surface_distance_raw_mm": 8.280713365285202,
+      "surface_distance_after_translation_mm": 2.122727068285548,
+      "surface_distance_after_rigid_mm": 1.6998742079037386,
+      "icp_rotation_deg": 4.795439895581729
+    },
+    {
+      "subject": "107",
+      "phase": "ES",
+      "centroid_shift_mm": 16.33547883105971,
+      "surface_distance_raw_mm": 8.701672788939705,
+      "surface_distance_after_translation_mm": 2.1393045685181447,
+      "surface_distance_after_rigid_mm": 1.2721676714143548,
+      "icp_rotation_deg": 7.506311542615483
+    },
+    {
+      "subject": "108",
+      "phase": "ED",
+      "centroid_shift_mm": 13.385881200727887,
+      "surface_distance_raw_mm": 7.152248223042346,
+      "surface_distance_after_translation_mm": 3.5112813049349416,
+      "surface_distance_after_rigid_mm": 1.8841800324994087,
+      "icp_rotation_deg": 13.847362364902049
+    },
+    {
+      "subject": "108",
+      "phase": "ES",
+      "centroid_shift_mm": 13.048668063829345,
+      "surface_distance_raw_mm": 7.484044611948985,
+      "surface_distance_after_translation_mm": 3.0830346930612142,
+      "surface_distance_after_rigid_mm": 1.4070898302960377,
+      "icp_rotation_deg": 15.625500822127334
+    },
+    {
+      "subject": "109",
+      "phase": "ED",
+      "centroid_shift_mm": 6.084126744241941,
+      "surface_distance_raw_mm": 3.529461340914129,
+      "surface_distance_after_translation_mm": 1.6898249993141403,
+      "surface_distance_after_rigid_mm": 1.2810088571408418,
+      "icp_rotation_deg": 4.204793787818236
+    },
+    {
+      "subject": "109",
+      "phase": "ES",
+      "centroid_shift_mm": 6.011434823733846,
+      "surface_distance_raw_mm": 3.090751421102578,
+      "surface_distance_after_translation_mm": 1.3890878812683312,
+      "surface_distance_after_rigid_mm": 0.9470998016352795,
+      "icp_rotation_deg": 5.012188581082208
+    },
+    {
+      "subject": "110",
+      "phase": "ED",
+      "centroid_shift_mm": 33.67958196415151,
+      "surface_distance_raw_mm": 17.53952222700115,
+      "surface_distance_after_translation_mm": 1.999391689476507,
+      "surface_distance_after_rigid_mm": 1.2046787984523752,
+      "icp_rotation_deg": 10.38272588142339
+    },
+    {
+      "subject": "110",
+      "phase": "ES",
+      "centroid_shift_mm": 38.10925026814356,
+      "surface_distance_raw_mm": 24.171255957353395,
+      "surface_distance_after_translation_mm": 1.8976408749839475,
+      "surface_distance_after_rigid_mm": 0.9512862339642036,
+      "icp_rotation_deg": 13.335205663425752
+    },
+    {
+      "subject": "111",
+      "phase": "ED",
+      "centroid_shift_mm": 8.89525652468774,
+      "surface_distance_raw_mm": 4.978255923030015,
+      "surface_distance_after_translation_mm": 1.856568005349882,
+      "surface_distance_after_rigid_mm": 1.2799258638803903,
+      "icp_rotation_deg": 5.777468533003003
+    },
+    {
+      "subject": "111",
+      "phase": "ES",
+      "centroid_shift_mm": 5.25409457090373,
+      "surface_distance_raw_mm": 3.0030425976037884,
+      "surface_distance_after_translation_mm": 1.5328486153387602,
+      "surface_distance_after_rigid_mm": 0.9777172212097387,
+      "icp_rotation_deg": 6.309321987057407
+    },
+    {
+      "subject": "112",
+      "phase": "ED",
+      "centroid_shift_mm": 19.35512344367764,
+      "surface_distance_raw_mm": 9.944840615695753,
+      "surface_distance_after_translation_mm": 1.7504544579703651,
+      "surface_distance_after_rigid_mm": 1.25366424171746,
+      "icp_rotation_deg": 6.677688400213683
+    },
+    {
+      "subject": "112",
+      "phase": "ES",
+      "centroid_shift_mm": 16.156843191663395,
+      "surface_distance_raw_mm": 8.165577535256492,
+      "surface_distance_after_translation_mm": 1.383760107152098,
+      "surface_distance_after_rigid_mm": 0.8488850758098254,
+      "icp_rotation_deg": 8.310637711910696
+    },
+    {
+      "subject": "113",
+      "phase": "ED",
+      "centroid_shift_mm": 12.753138399625406,
+      "surface_distance_raw_mm": 6.850428850758799,
+      "surface_distance_after_translation_mm": 1.5773158105215443,
+      "surface_distance_after_rigid_mm": 1.0534845156365291,
+      "icp_rotation_deg": 6.537472320471408
+    },
+    {
+      "subject": "113",
+      "phase": "ES",
+      "centroid_shift_mm": 10.874514227311492,
+      "surface_distance_raw_mm": 5.374446251460777,
+      "surface_distance_after_translation_mm": 1.2340870404515902,
+      "surface_distance_after_rigid_mm": 0.7010648450454106,
+      "icp_rotation_deg": 6.860238121184833
+    },
+    {
+      "subject": "114",
+      "phase": "ED",
+      "centroid_shift_mm": 8.489729823734084,
+      "surface_distance_raw_mm": 4.411032857870696,
+      "surface_distance_after_translation_mm": 1.7120036832791579,
+      "surface_distance_after_rigid_mm": 1.342144440885788,
+      "icp_rotation_deg": 4.275802571327398
+    },
+    {
+      "subject": "114",
+      "phase": "ES",
+      "centroid_shift_mm": 7.624650329031491,
+      "surface_distance_raw_mm": 3.8726899694844565,
+      "surface_distance_after_translation_mm": 1.311714387789447,
+      "surface_distance_after_rigid_mm": 1.0242197449461965,
+      "icp_rotation_deg": 4.17082115614791
+    },
+    {
+      "subject": "115",
+      "phase": "ED",
+      "centroid_shift_mm": 8.288189930256177,
+      "surface_distance_raw_mm": 4.725621115147883,
+      "surface_distance_after_translation_mm": 2.1500521270932675,
+      "surface_distance_after_rigid_mm": 1.483759065072516,
+      "icp_rotation_deg": 6.760720326182405
+    },
+    {
+      "subject": "115",
+      "phase": "ES",
+      "centroid_shift_mm": 6.99439066681294,
+      "surface_distance_raw_mm": 3.6469540776933758,
+      "surface_distance_after_translation_mm": 1.8369658509060278,
+      "surface_distance_after_rigid_mm": 1.0846343782644219,
+      "icp_rotation_deg": 8.154325063348033
+    },
+    {
+      "subject": "116",
+      "phase": "ED",
+      "centroid_shift_mm": 8.069467243876767,
+      "surface_distance_raw_mm": 4.236549817393014,
+      "surface_distance_after_translation_mm": 1.7773635497343983,
+      "surface_distance_after_rigid_mm": 1.3986702846601868,
+      "icp_rotation_deg": 4.6777566509036275
+    },
+    {
+      "subject": "116",
+      "phase": "ES",
+      "centroid_shift_mm": 11.755442354926506,
+      "surface_distance_raw_mm": 6.319712695912465,
+      "surface_distance_after_translation_mm": 1.4542346602722673,
+      "surface_distance_after_rigid_mm": 0.9761495607753362,
+      "icp_rotation_deg": 5.8171664322837175
+    },
+    {
+      "subject": "117",
+      "phase": "ED",
+      "centroid_shift_mm": 3.541481226831495,
+      "surface_distance_raw_mm": 1.9805557480649827,
+      "surface_distance_after_translation_mm": 1.5057694924194267,
+      "surface_distance_after_rigid_mm": 1.2175780015750801,
+      "icp_rotation_deg": 3.0476421997544425
+    },
+    {
+      "subject": "117",
+      "phase": "ES",
+      "centroid_shift_mm": 4.209141024009526,
+      "surface_distance_raw_mm": 2.374716099590541,
+      "surface_distance_after_translation_mm": 1.0209876464798748,
+      "surface_distance_after_rigid_mm": 0.8777122267708934,
+      "icp_rotation_deg": 2.729385233803709
+    },
+    {
+      "subject": "118",
+      "phase": "ED",
+      "centroid_shift_mm": 6.604513487002658,
+      "surface_distance_raw_mm": 3.451601704710928,
+      "surface_distance_after_translation_mm": 1.6531962400072855,
+      "surface_distance_after_rigid_mm": 1.338638449061163,
+      "icp_rotation_deg": 3.5227836076378747
+    },
+    {
+      "subject": "118",
+      "phase": "ES",
+      "centroid_shift_mm": 12.36776241039583,
+      "surface_distance_raw_mm": 6.342921733598856,
+      "surface_distance_after_translation_mm": 1.2317284992294666,
+      "surface_distance_after_rigid_mm": 0.9129696898202637,
+      "icp_rotation_deg": 5.591389530565444
+    },
+    {
+      "subject": "119",
+      "phase": "ED",
+      "centroid_shift_mm": 7.5628600515942335,
+      "surface_distance_raw_mm": 4.429145732054609,
+      "surface_distance_after_translation_mm": 1.6904746203583738,
+      "surface_distance_after_rigid_mm": 1.4061188376541796,
+      "icp_rotation_deg": 5.106669784468891
+    },
+    {
+      "subject": "119",
+      "phase": "ES",
+      "centroid_shift_mm": 9.522965966546339,
+      "surface_distance_raw_mm": 5.435021935962126,
+      "surface_distance_after_translation_mm": 1.5367274630163792,
+      "surface_distance_after_rigid_mm": 1.0755600949818889,
+      "icp_rotation_deg": 7.785102177489659
+    },
+    {
+      "subject": "120",
+      "phase": "ED",
+      "centroid_shift_mm": 14.868897739913338,
+      "surface_distance_raw_mm": 7.631167633537989,
+      "surface_distance_after_translation_mm": 1.6035149035701766,
+      "surface_distance_after_rigid_mm": 1.4089974530801828,
+      "icp_rotation_deg": 3.2064628741011165
+    },
+    {
+      "subject": "120",
+      "phase": "ES",
+      "centroid_shift_mm": 7.646525307615227,
+      "surface_distance_raw_mm": 3.9583469369397863,
+      "surface_distance_after_translation_mm": 1.3191145988760304,
+      "surface_distance_after_rigid_mm": 1.0868079428758786,
+      "icp_rotation_deg": 4.657117715618778
+    },
+    {
+      "subject": "121",
+      "phase": "ED",
+      "centroid_shift_mm": 19.312137340025302,
+      "surface_distance_raw_mm": 9.974552397501764,
+      "surface_distance_after_translation_mm": 3.4731510434739317,
+      "surface_distance_after_rigid_mm": 1.5290319194483808,
+      "icp_rotation_deg": 14.717195069224662
+    },
+    {
+      "subject": "121",
+      "phase": "ES",
+      "centroid_shift_mm": 15.277085763979992,
+      "surface_distance_raw_mm": 7.333608739047444,
+      "surface_distance_after_translation_mm": 2.9782256579916253,
+      "surface_distance_after_rigid_mm": 1.1351238351680855,
+      "icp_rotation_deg": 16.411693979364884
+    },
+    {
+      "subject": "122",
+      "phase": "ED",
+      "centroid_shift_mm": 8.389968371811653,
+      "surface_distance_raw_mm": 4.469456546393669,
+      "surface_distance_after_translation_mm": 1.849443639453686,
+      "surface_distance_after_rigid_mm": 1.2014825705357146,
+      "icp_rotation_deg": 6.748779189609241
+    },
+    {
+      "subject": "122",
+      "phase": "ES",
+      "centroid_shift_mm": 9.400510335082883,
+      "surface_distance_raw_mm": 4.602975791149213,
+      "surface_distance_after_translation_mm": 1.5899806354424084,
+      "surface_distance_after_rigid_mm": 0.8426261009393733,
+      "icp_rotation_deg": 7.983106584697498
+    },
+    {
+      "subject": "123",
+      "phase": "ED",
+      "centroid_shift_mm": 9.225583368004438,
+      "surface_distance_raw_mm": 4.833235009005644,
+      "surface_distance_after_translation_mm": 1.7941249977776597,
+      "surface_distance_after_rigid_mm": 1.386878547868398,
+      "icp_rotation_deg": 3.2226099243876676
+    },
+    {
+      "subject": "123",
+      "phase": "ES",
+      "centroid_shift_mm": 6.845631669904526,
+      "surface_distance_raw_mm": 3.600026114402047,
+      "surface_distance_after_translation_mm": 1.3783634371576987,
+      "surface_distance_after_rigid_mm": 1.0692944067921393,
+      "icp_rotation_deg": 3.6195080483629667
+    },
+    {
+      "subject": "124",
+      "phase": "ED",
+      "centroid_shift_mm": 10.233153844245669,
+      "surface_distance_raw_mm": 5.445514140399126,
+      "surface_distance_after_translation_mm": 1.6299333997302754,
+      "surface_distance_after_rigid_mm": 1.497130661998904,
+      "icp_rotation_deg": 2.5481270667292866
+    },
+    {
+      "subject": "124",
+      "phase": "ES",
+      "centroid_shift_mm": 7.355899531668436,
+      "surface_distance_raw_mm": 3.645927069693595,
+      "surface_distance_after_translation_mm": 1.247725601693689,
+      "surface_distance_after_rigid_mm": 1.1691758771350187,
+      "icp_rotation_deg": 2.620994326540551
+    },
+    {
+      "subject": "125",
+      "phase": "ED",
+      "centroid_shift_mm": 10.665485035383991,
+      "surface_distance_raw_mm": 6.164023659765987,
+      "surface_distance_after_translation_mm": 1.6440781039198618,
+      "surface_distance_after_rigid_mm": 1.2587981735595402,
+      "icp_rotation_deg": 5.2765772262342345
+    },
+    {
+      "subject": "125",
+      "phase": "ES",
+      "centroid_shift_mm": 12.02541759441226,
+      "surface_distance_raw_mm": 6.334509417636568,
+      "surface_distance_after_translation_mm": 1.2857800078231718,
+      "surface_distance_after_rigid_mm": 0.9649520123548472,
+      "icp_rotation_deg": 5.572512217468765
+    },
+    {
+      "subject": "126",
+      "phase": "ED",
+      "centroid_shift_mm": 30.858933251815436,
+      "surface_distance_raw_mm": 16.372660301423366,
+      "surface_distance_after_translation_mm": 3.5018240550995965,
+      "surface_distance_after_rigid_mm": 1.7735710306829162,
+      "icp_rotation_deg": 13.981958254913609
+    },
+    {
+      "subject": "126",
+      "phase": "ES",
+      "centroid_shift_mm": 30.243090601325783,
+      "surface_distance_raw_mm": 15.328026483050603,
+      "surface_distance_after_translation_mm": 2.958369442287511,
+      "surface_distance_after_rigid_mm": 1.2593924374879315,
+      "icp_rotation_deg": 15.623635907392327
+    },
+    {
+      "subject": "127",
+      "phase": "ED",
+      "centroid_shift_mm": 7.743598047419561,
+      "surface_distance_raw_mm": 4.139330088525359,
+      "surface_distance_after_translation_mm": 1.8009794910514565,
+      "surface_distance_after_rigid_mm": 1.3852320158222873,
+      "icp_rotation_deg": 4.549404387303097
+    },
+    {
+      "subject": "127",
+      "phase": "ES",
+      "centroid_shift_mm": 8.721563575414686,
+      "surface_distance_raw_mm": 4.60397343327978,
+      "surface_distance_after_translation_mm": 1.4179466851504776,
+      "surface_distance_after_rigid_mm": 0.960629042335627,
+      "icp_rotation_deg": 6.109402257861304
+    },
+    {
+      "subject": "128",
+      "phase": "ED",
+      "centroid_shift_mm": 8.893076534023526,
+      "surface_distance_raw_mm": 5.024115202043561,
+      "surface_distance_after_translation_mm": 2.326819487047593,
+      "surface_distance_after_rigid_mm": 1.4300346424391384,
+      "icp_rotation_deg": 8.886178994482844
+    },
+    {
+      "subject": "128",
+      "phase": "ES",
+      "centroid_shift_mm": 11.904525532754352,
+      "surface_distance_raw_mm": 6.16576906582659,
+      "surface_distance_after_translation_mm": 1.9524244201674161,
+      "surface_distance_after_rigid_mm": 1.122934499324217,
+      "icp_rotation_deg": 8.156511369006218
+    },
+    {
+      "subject": "129",
+      "phase": "ED",
+      "centroid_shift_mm": 5.746896289302597,
+      "surface_distance_raw_mm": 3.8451423871512134,
+      "surface_distance_after_translation_mm": 1.8400371793280772,
+      "surface_distance_after_rigid_mm": 1.1796935159039295,
+      "icp_rotation_deg": 6.632438117535678
+    },
+    {
+      "subject": "129",
+      "phase": "ES",
+      "centroid_shift_mm": 7.745380321197919,
+      "surface_distance_raw_mm": 4.664227486690841,
+      "surface_distance_after_translation_mm": 1.4816990795479197,
+      "surface_distance_after_rigid_mm": 0.8273598813080975,
+      "icp_rotation_deg": 6.892554784942527
+    },
+    {
+      "subject": "130",
+      "phase": "ED",
+      "centroid_shift_mm": 54.74896032766284,
+      "surface_distance_raw_mm": 34.673700998747826,
+      "surface_distance_after_translation_mm": 1.890478945722185,
+      "surface_distance_after_rigid_mm": 1.2430713387239136,
+      "icp_rotation_deg": 7.195851373311166
+    },
+    {
+      "subject": "130",
+      "phase": "ES",
+      "centroid_shift_mm": 56.673840119758964,
+      "surface_distance_raw_mm": 40.94368193710386,
+      "surface_distance_after_translation_mm": 1.6084822819335949,
+      "surface_distance_after_rigid_mm": 0.9388534996188296,
+      "icp_rotation_deg": 7.875574963141198
+    },
+    {
+      "subject": "131",
+      "phase": "ED",
+      "centroid_shift_mm": 10.701463264432574,
+      "surface_distance_raw_mm": 6.222260052083197,
+      "surface_distance_after_translation_mm": 2.1153290562036475,
+      "surface_distance_after_rigid_mm": 1.609417696877403,
+      "icp_rotation_deg": 4.394719827125382
+    },
+    {
+      "subject": "131",
+      "phase": "ES",
+      "centroid_shift_mm": 12.736675289886282,
+      "surface_distance_raw_mm": 6.2294602307490505,
+      "surface_distance_after_translation_mm": 1.8460123120316718,
+      "surface_distance_after_rigid_mm": 1.4427528525253397,
+      "icp_rotation_deg": 4.339988829699629
+    },
+    {
+      "subject": "132",
+      "phase": "ED",
+      "centroid_shift_mm": 14.096971691820904,
+      "surface_distance_raw_mm": 7.855530267608694,
+      "surface_distance_after_translation_mm": 2.086213806552003,
+      "surface_distance_after_rigid_mm": 1.238203391646595,
+      "icp_rotation_deg": 8.675620017472768
+    },
+    {
+      "subject": "132",
+      "phase": "ES",
+      "centroid_shift_mm": 12.469502052608197,
+      "surface_distance_raw_mm": 6.90260176199183,
+      "surface_distance_after_translation_mm": 1.6054727619669849,
+      "surface_distance_after_rigid_mm": 0.9366122457343351,
+      "icp_rotation_deg": 8.573346081546466
+    },
+    {
+      "subject": "133",
+      "phase": "ED",
+      "centroid_shift_mm": 3.2125089011549823,
+      "surface_distance_raw_mm": 1.8718807796099965,
+      "surface_distance_after_translation_mm": 1.195855035333208,
+      "surface_distance_after_rigid_mm": 1.156501673500057,
+      "icp_rotation_deg": 0.9974632463400439
+    },
+    {
+      "subject": "133",
+      "phase": "ES",
+      "centroid_shift_mm": 3.549168623776554,
+      "surface_distance_raw_mm": 1.9014433417606693,
+      "surface_distance_after_translation_mm": 0.9517775313940513,
+      "surface_distance_after_rigid_mm": 0.898741084959155,
+      "icp_rotation_deg": 1.5055962303281456
+    },
+    {
+      "subject": "134",
+      "phase": "ED",
+      "centroid_shift_mm": 7.3909302580933645,
+      "surface_distance_raw_mm": 3.8405637266310144,
+      "surface_distance_after_translation_mm": 1.9916288490754401,
+      "surface_distance_after_rigid_mm": 1.453127560685821,
+      "icp_rotation_deg": 5.632979844268779
+    },
+    {
+      "subject": "134",
+      "phase": "ES",
+      "centroid_shift_mm": 6.7526954499666205,
+      "surface_distance_raw_mm": 3.550757416369638,
+      "surface_distance_after_translation_mm": 1.6371168052405896,
+      "surface_distance_after_rigid_mm": 1.1345773608633212,
+      "icp_rotation_deg": 5.9847614660819
+    }
+  ]
+}

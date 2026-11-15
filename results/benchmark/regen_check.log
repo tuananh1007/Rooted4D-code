@@ -1,0 +1,40 @@
+{
+  "audit": {
+    "errors": [],
+    "passed": true,
+    "statistics": {
+      "arrays_verified": true,
+      "checksums_verified": true,
+      "splits": {
+        "test": {
+          "identities": 30,
+          "samples": 60,
+          "source_people": 60,
+          "valve_donors": 30,
+          "whole_heart_donors": 30
+        },
+        "train": {
+          "identities": 90,
+          "samples": 180,
+          "source_people": 180,
+          "valve_donors": 90,
+          "whole_heart_donors": 90
+        },
+        "val": {
+          "identities": 30,
+          "samples": 60,
+          "source_people": 60,
+          "valve_donors": 30,
+          "whole_heart_donors": 30
+        }
+      },
+      "total_samples": 300
+    },
+    "warnings": []
+  },
+  "fingerprint": "2e5692c89ca8b19ac69014ba08f92273a4bbe405549e747f5269be461024a45d",
+  "root": "/media/tuananh/Data/Workspace/Rooted4D_ws/data/derived/semisynthetic-real-v2-replica"
+}
+{
+  "identical": true
+}

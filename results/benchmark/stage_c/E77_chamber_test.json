@@ -1,0 +1,1483 @@
+{
+  "preregistration": "Docs/E76_E77_CHAMBER_PREREGISTRATION_2026-09-26.md",
+  "checkpoint": "/work/nvme/bhio/avu2/Rooted4D/results/21900728/E31_segmenter.pt",
+  "training_frames": 180,
+  "ranks": {
+    "S": 24,
+    "G": 24
+  },
+  "residual_scales": {
+    "S": 0.9393112994062215,
+    "G": 0.4983845333104949
+  },
+  "scales": {
+    "S": [
+      113.9091439787318,
+      47.340047622149086,
+      43.5179882386807,
+      36.22556644498158,
+      27.0637757799299,
+      22.560635818565316,
+      20.63719156118825,
+      16.15858658039052,
+      14.404705459178404,
+      13.176854796957322,
+      11.21076571545316,
+      10.60437260880694,
+      10.293848544907037,
+      6.969344006177131,
+      6.085080247902384,
+      3.5904455342278547,
+      3.2019016469388437,
+      1.9278097007639519,
+      1.7642218735303465,
+      1.2788266244561541,
+      1.1416465148183934,
+      0.6614007876633803,
+      0.6090446585621522,
+      0.4661709915092151
+    ],
+    "G": [
+      113.91002267198301,
+      47.346219743610526,
+      43.51870832018649,
+      36.226099081036494,
+      27.122118115857656,
+      22.565428619387013,
+      20.639272395175446,
+      16.176699529243425,
+      14.410054798018539,
+      13.21398443600112,
+      12.169095258630257,
+      11.015322081558512,
+      10.533008763398366,
+      10.19672384160148,
+      9.195493565689912,
+      8.223966256631792,
+      7.879049390939584,
+      6.892388816392916,
+      6.566046670617574,
+      6.116231107402706,
+      5.679992852293703,
+      5.218383400079843,
+      4.844937835318986,
+      4.636473532671945
+    ]
+  },
+  "experiment": "E77",
+  "split": "test",
+  "frozen": {
+    "S": 0.0,
+    "G": 0.001
+  },
+  "rows": [
+    {
+      "patient": "patient102",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 70.31982782925836,
+      "direct": {
+        "symmetric_mm": 1.8790307357003875,
+        "hausdorff_mm": 6.116494018723535,
+        "volume_ml": 69.14339182177466
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.8790307357003875,
+        "hausdorff_mm": 6.116494018723535,
+        "volume_ml": 69.14339182177457
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.8789725141382718,
+        "hausdorff_mm": 6.028802298378385,
+        "volume_ml": 69.10777646438852
+      }
+    },
+    {
+      "patient": "patient102",
+      "frame": 13,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 18.39843935215191,
+      "direct": {
+        "symmetric_mm": 2.9856482842872234,
+        "hausdorff_mm": 14.68365565629435,
+        "volume_ml": 23.83617524867931
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.9856482842872234,
+        "hausdorff_mm": 14.68365565629435,
+        "volume_ml": 23.8361752486793
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.9867057042024636,
+        "hausdorff_mm": 14.414322850917102,
+        "volume_ml": 23.814742542755276
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 129.7458102890205,
+      "direct": {
+        "symmetric_mm": 2.1357976967213963,
+        "hausdorff_mm": 7.880342891063335,
+        "volume_ml": 127.30995829851543
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1357976967213963,
+        "hausdorff_mm": 7.880342891063335,
+        "volume_ml": 127.30995829851541
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.14383942732435,
+        "hausdorff_mm": 8.001294132794813,
+        "volume_ml": 127.29777419341453
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 11,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 17.196991058349802,
+      "direct": {
+        "symmetric_mm": 3.519546492306741,
+        "hausdorff_mm": 22.324564050330867,
+        "volume_ml": 28.507899260306235
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.519546492306741,
+        "hausdorff_mm": 22.324564050330867,
+        "volume_ml": 28.507899260306292
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.5295958546932162,
+        "hausdorff_mm": 22.156877084751837,
+        "volume_ml": 28.497962234412974
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 119.82956619511849,
+      "direct": {
+        "symmetric_mm": 2.0705302897986013,
+        "hausdorff_mm": 49.88109527344915,
+        "volume_ml": 116.08704606425292
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.0705302897986013,
+        "hausdorff_mm": 49.88109527344915,
+        "volume_ml": 116.08704606425292
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0499746779811643,
+        "hausdorff_mm": 42.536597907353084,
+        "volume_ml": 115.88995869050366
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": false,
+      "reference_volume_ml": 43.20735359391156,
+      "direct": {
+        "symmetric_mm": 3.557363972854429,
+        "hausdorff_mm": 40.748797381856605,
+        "volume_ml": 49.70151301177017
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.5573639728544295,
+        "hausdorff_mm": 40.748797381856605,
+        "volume_ml": 49.70151301177017
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.5460778621054523,
+        "hausdorff_mm": 33.909616468787505,
+        "volume_ml": 49.29198406454699
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 205.41689749385392,
+      "direct": {
+        "symmetric_mm": 2.3742393480341732,
+        "hausdorff_mm": 9.606742157722765,
+        "volume_ml": 194.92326753264982
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.3742393480341732,
+        "hausdorff_mm": 9.606742157722765,
+        "volume_ml": 194.92326753264996
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.3794281386379623,
+        "hausdorff_mm": 9.615279436670408,
+        "volume_ml": 194.88171583687327
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 111.15613006507252,
+      "direct": {
+        "symmetric_mm": 3.3762473744628867,
+        "hausdorff_mm": 13.784611545664793,
+        "volume_ml": 120.63197954099608
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.3762473744628867,
+        "hausdorff_mm": 13.784611545664793,
+        "volume_ml": 120.63197954099607
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.3882252818233503,
+        "hausdorff_mm": 13.838370004855875,
+        "volume_ml": 120.62821672934324
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 103.8830010865117,
+      "direct": {
+        "symmetric_mm": 1.391216078120909,
+        "hausdorff_mm": 5.133236166511519,
+        "volume_ml": 98.54266616255627
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.3912160781209093,
+        "hausdorff_mm": 5.133236166511519,
+        "volume_ml": 98.54266616255623
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.3932185131961667,
+        "hausdorff_mm": 5.053788285079269,
+        "volume_ml": 98.51547860678208
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 7,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 37.49689336332781,
+      "direct": {
+        "symmetric_mm": 1.9456069328885555,
+        "hausdorff_mm": 5.304127016788162,
+        "volume_ml": 40.833929409045346
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.945606932888555,
+        "hausdorff_mm": 5.304127016788162,
+        "volume_ml": 40.83392940904532
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.9515124107489226,
+        "hausdorff_mm": 5.207485294290539,
+        "volume_ml": 40.81464796684101
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 260.3619595218567,
+      "direct": {
+        "symmetric_mm": 2.209210803467694,
+        "hausdorff_mm": 9.453620201741836,
+        "volume_ml": 263.51214271718334
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.209210803467694,
+        "hausdorff_mm": 9.453620201741836,
+        "volume_ml": 263.5121427171833
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.2109784471484577,
+        "hausdorff_mm": 9.433838720732808,
+        "volume_ml": 263.468037181227
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 208.5256379260004,
+      "direct": {
+        "symmetric_mm": 2.399718993134904,
+        "hausdorff_mm": 10.794808559290642,
+        "volume_ml": 216.0742637820944
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.399718993134904,
+        "hausdorff_mm": 10.794808559290642,
+        "volume_ml": 216.0742637820943
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.40557037522212,
+        "hausdorff_mm": 10.864811318400326,
+        "volume_ml": 216.0126025891189
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 124.82814729582284,
+      "direct": {
+        "symmetric_mm": 1.7637952351060906,
+        "hausdorff_mm": 5.994586851845116,
+        "volume_ml": 117.77067166274863
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.7637952351060906,
+        "hausdorff_mm": 5.994586851845116,
+        "volume_ml": 117.7706716627486
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.761370637865412,
+        "hausdorff_mm": 5.976465652322547,
+        "volume_ml": 117.75371082416856
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 34.68200722934156,
+      "direct": {
+        "symmetric_mm": 2.662829713122804,
+        "hausdorff_mm": 11.89136401253106,
+        "volume_ml": 26.82078223959475
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.662829713122804,
+        "hausdorff_mm": 11.891364012531069,
+        "volume_ml": 26.820782239594696
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.6821260952626935,
+        "hausdorff_mm": 12.264624334411154,
+        "volume_ml": 26.77523336473097
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 100.12575733798141,
+      "direct": {
+        "symmetric_mm": 1.782681975608875,
+        "hausdorff_mm": 6.379778351952698,
+        "volume_ml": 95.67074529760676
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.782681975608875,
+        "hausdorff_mm": 6.379778351952698,
+        "volume_ml": 95.67074529760676
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.7795029580867807,
+        "hausdorff_mm": 6.489762486869948,
+        "volume_ml": 95.65687454565162
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 9,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 26.940305733718123,
+      "direct": {
+        "symmetric_mm": 3.2426753414106426,
+        "hausdorff_mm": 11.490629213067045,
+        "volume_ml": 29.632603279096628
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.242675341410643,
+        "hausdorff_mm": 11.490629213067045,
+        "volume_ml": 29.632603279096674
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.2392338811438295,
+        "hausdorff_mm": 11.456893003817697,
+        "volume_ml": 29.60543416508825
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 197.0776078993804,
+      "direct": {
+        "symmetric_mm": 2.7949423714305253,
+        "hausdorff_mm": 10.037288627482589,
+        "volume_ml": 199.99475197450676
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.7949423714305253,
+        "hausdorff_mm": 10.037288627482589,
+        "volume_ml": 199.99475197450673
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.799856088423139,
+        "hausdorff_mm": 10.066119087649165,
+        "volume_ml": 199.8715869117744
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 13,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 157.22752408996388,
+      "direct": {
+        "symmetric_mm": 2.6110829500541177,
+        "hausdorff_mm": 9.544478548782557,
+        "volume_ml": 155.512289505075
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.6110829500541177,
+        "hausdorff_mm": 9.544478548782557,
+        "volume_ml": 155.51228950507493
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.6219128405653134,
+        "hausdorff_mm": 9.762212856099849,
+        "volume_ml": 155.47711556552918
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 132.89787495551576,
+      "direct": {
+        "symmetric_mm": 2.127373373261063,
+        "hausdorff_mm": 10.383072420505046,
+        "volume_ml": 131.79424927312178
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1273733732610633,
+        "hausdorff_mm": 10.383072420505046,
+        "volume_ml": 131.79424927312178
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.132904925736809,
+        "hausdorff_mm": 10.372905049453957,
+        "volume_ml": 131.75924298037066
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 22.620391354223354,
+      "direct": {
+        "symmetric_mm": 3.3388850772475847,
+        "hausdorff_mm": 12.979426465904655,
+        "volume_ml": 30.753715940918
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.3388850772475847,
+        "hausdorff_mm": 12.979426465904655,
+        "volume_ml": 30.753715940918
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.3381081621693287,
+        "hausdorff_mm": 12.64319266568044,
+        "volume_ml": 30.702196310142575
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 194.0622833374208,
+      "direct": {
+        "symmetric_mm": 6.702712185805735,
+        "hausdorff_mm": 71.2332339390091,
+        "volume_ml": 269.6599777722056
+      },
+      "S/beta=0": {
+        "symmetric_mm": 6.702712185805735,
+        "hausdorff_mm": 71.2332339390091,
+        "volume_ml": 269.6599777722054
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 6.772997339675247,
+        "hausdorff_mm": 65.33563411290297,
+        "volume_ml": 267.9113124913723
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 111.28652571069333,
+      "direct": {
+        "symmetric_mm": 8.978099023480825,
+        "hausdorff_mm": 70.02577833546924,
+        "volume_ml": 203.8632741301205
+      },
+      "S/beta=0": {
+        "symmetric_mm": 8.978099023480825,
+        "hausdorff_mm": 70.02577833546924,
+        "volume_ml": 203.86327413012054
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 9.021885455331994,
+        "hausdorff_mm": 67.92122867712375,
+        "volume_ml": 200.9446991216651
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 286.0130449535308,
+      "direct": {
+        "symmetric_mm": 1.9535639949073598,
+        "hausdorff_mm": 6.232317148833871,
+        "volume_ml": 289.17897160216955
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.95356399490736,
+        "hausdorff_mm": 6.232317148833871,
+        "volume_ml": 289.1789716021695
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.9539252053727523,
+        "hausdorff_mm": 6.201240721030225,
+        "volume_ml": 289.1199838483512
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 259.6581595816369,
+      "direct": {
+        "symmetric_mm": 1.9757431164441783,
+        "hausdorff_mm": 7.175390805955045,
+        "volume_ml": 255.41734394311965
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.9757431164441783,
+        "hausdorff_mm": 7.175390805955047,
+        "volume_ml": 255.41734394311973
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.978965600588186,
+        "hausdorff_mm": 7.2723415149863255,
+        "volume_ml": 255.31573422626298
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 297.87283925629714,
+      "direct": {
+        "symmetric_mm": 2.0730624302254697,
+        "hausdorff_mm": 7.328314517313126,
+        "volume_ml": 306.58095558587746
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.0730624302254697,
+        "hausdorff_mm": 7.328314517313126,
+        "volume_ml": 306.58095558587746
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0775697206593424,
+        "hausdorff_mm": 7.519997873334103,
+        "volume_ml": 306.5844181718427
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 217.2288046915535,
+      "direct": {
+        "symmetric_mm": 2.0287690719368974,
+        "hausdorff_mm": 6.700815514533054,
+        "volume_ml": 222.04554102686117
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.0287690719368974,
+        "hausdorff_mm": 6.700815514533054,
+        "volume_ml": 222.04554102686106
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0292400748680954,
+        "hausdorff_mm": 6.644358874991943,
+        "volume_ml": 222.0538933347267
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 58.51502385072698,
+      "direct": {
+        "symmetric_mm": 4.667130390646789,
+        "hausdorff_mm": 54.32269047722828,
+        "volume_ml": 57.09594462757965
+      },
+      "S/beta=0": {
+        "symmetric_mm": 4.667130390646789,
+        "hausdorff_mm": 54.32269047722828,
+        "volume_ml": 57.09594462757969
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 4.6680166126660545,
+        "hausdorff_mm": 53.42403200216097,
+        "volume_ml": 57.063809534754256
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 11,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 19.608876945422452,
+      "direct": {
+        "symmetric_mm": 2.38528106893628,
+        "hausdorff_mm": 10.026370071344866,
+        "volume_ml": 21.657373855402113
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.38528106893628,
+        "hausdorff_mm": 10.026370071344866,
+        "volume_ml": 21.657373855402106
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.39484166781218,
+        "hausdorff_mm": 9.775573149869993,
+        "volume_ml": 21.63934449788534
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 69.50060828239306,
+      "direct": {
+        "symmetric_mm": 2.495932401197403,
+        "hausdorff_mm": 14.746765827517072,
+        "volume_ml": 70.41293231658697
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.495932401197403,
+        "hausdorff_mm": 14.746765827517072,
+        "volume_ml": 70.41293231658706
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.4994209874514626,
+        "hausdorff_mm": 14.679464618178903,
+        "volume_ml": 70.35511919744737
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 9,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 19.637861078244086,
+      "direct": {
+        "symmetric_mm": 2.0819143044725927,
+        "hausdorff_mm": 7.119973642302432,
+        "volume_ml": 20.905935673186985
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.0819143044725927,
+        "hausdorff_mm": 7.119973642302432,
+        "volume_ml": 20.905935673186985
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.089436783070278,
+        "hausdorff_mm": 7.115309023811557,
+        "volume_ml": 20.89606007906081
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 119.81440731130324,
+      "direct": {
+        "symmetric_mm": 2.2689440159857703,
+        "hausdorff_mm": 8.41808261777962,
+        "volume_ml": 131.6958279812189
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.2689440159857703,
+        "hausdorff_mm": 8.41808261777962,
+        "volume_ml": 131.6958279812189
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.268609268166376,
+        "hausdorff_mm": 8.448566087973157,
+        "volume_ml": 131.63901120213106
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 11,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 33.17223607238985,
+      "direct": {
+        "symmetric_mm": 3.625890881348043,
+        "hausdorff_mm": 19.654367478823804,
+        "volume_ml": 49.863523645890304
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.625890881348043,
+        "hausdorff_mm": 19.654367478823804,
+        "volume_ml": 49.8635236458903
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.621411443210643,
+        "hausdorff_mm": 19.5186235747518,
+        "volume_ml": 49.72186920170335
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 148.10487134726137,
+      "direct": {
+        "symmetric_mm": 2.1965206919901252,
+        "hausdorff_mm": 14.947508924388687,
+        "volume_ml": 152.36561505201078
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1965206919901252,
+        "hausdorff_mm": 14.947508924388687,
+        "volume_ml": 152.36561505201084
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.197878579964349,
+        "hausdorff_mm": 15.089517731444039,
+        "volume_ml": 152.28152524870748
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 22.494446575856838,
+      "direct": {
+        "symmetric_mm": 3.9184808669064637,
+        "hausdorff_mm": 16.214289908460522,
+        "volume_ml": 31.934687875179254
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.9184808669064637,
+        "hausdorff_mm": 16.214289908460522,
+        "volume_ml": 31.934687875179254
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.925160509458408,
+        "hausdorff_mm": 16.206577897917605,
+        "volume_ml": 31.919891797734376
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 68.38453037897509,
+      "direct": {
+        "symmetric_mm": 4.021092052992945,
+        "hausdorff_mm": 19.890968507063143,
+        "volume_ml": 85.90051634302272
+      },
+      "S/beta=0": {
+        "symmetric_mm": 4.021092052992945,
+        "hausdorff_mm": 19.890968507063143,
+        "volume_ml": 85.90051634302279
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 4.023897083950543,
+        "hausdorff_mm": 18.693620776279218,
+        "volume_ml": 85.85637691669336
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 14.152170149722885,
+      "direct": {
+        "symmetric_mm": 3.908369154304822,
+        "hausdorff_mm": 16.356282630688597,
+        "volume_ml": 24.23175639027177
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.908369154304822,
+        "hausdorff_mm": 16.356282630688597,
+        "volume_ml": 24.231756390271755
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.907457241272253,
+        "hausdorff_mm": 16.351213775454585,
+        "volume_ml": 24.203220963438323
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 161.77404826422423,
+      "direct": {
+        "symmetric_mm": 2.102189544164375,
+        "hausdorff_mm": 7.878727714496371,
+        "volume_ml": 163.46296709325398
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.102189544164375,
+        "hausdorff_mm": 7.878727714496381,
+        "volume_ml": 163.46296709325395
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.102228467450797,
+        "hausdorff_mm": 8.082361916253749,
+        "volume_ml": 163.3473254183333
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 39.21022313678341,
+      "direct": {
+        "symmetric_mm": 3.5261452208643087,
+        "hausdorff_mm": 16.50199810964996,
+        "volume_ml": 52.518825242451484
+      },
+      "S/beta=0": {
+        "symmetric_mm": 3.5261452208643087,
+        "hausdorff_mm": 16.50199810964996,
+        "volume_ml": 52.518825242451484
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 3.5274829146963476,
+        "hausdorff_mm": 16.531296841614143,
+        "volume_ml": 52.477371660050274
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 135.5141822404765,
+      "direct": {
+        "symmetric_mm": 2.060168761135453,
+        "hausdorff_mm": 7.109959006576002,
+        "volume_ml": 127.87581253869261
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.060168761135453,
+        "hausdorff_mm": 7.109959006576002,
+        "volume_ml": 127.87581253869261
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0598464731528563,
+        "hausdorff_mm": 7.1985510092756675,
+        "volume_ml": 127.85020119162319
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 34.80605768815028,
+      "direct": {
+        "symmetric_mm": 2.3075074126576935,
+        "hausdorff_mm": 10.27426097529927,
+        "volume_ml": 33.733127330924546
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.3075074126576935,
+        "hausdorff_mm": 10.27426097529927,
+        "volume_ml": 33.733127330924496
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.3094755249321395,
+        "hausdorff_mm": 10.311477897701684,
+        "volume_ml": 33.70106809958678
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 135.9204131351488,
+      "direct": {
+        "symmetric_mm": 2.319150306557229,
+        "hausdorff_mm": 9.63722394064138,
+        "volume_ml": 134.49913377068796
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.319150306557229,
+        "hausdorff_mm": 9.637223940641379,
+        "volume_ml": 134.49913377068808
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.327074040292067,
+        "hausdorff_mm": 9.57036116982525,
+        "volume_ml": 134.47971320348097
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 13,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 65.58157516472376,
+      "direct": {
+        "symmetric_mm": 2.5919160677560464,
+        "hausdorff_mm": 9.18183554384243,
+        "volume_ml": 69.70024545782444
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.591916067756046,
+        "hausdorff_mm": 9.18183554384243,
+        "volume_ml": 69.70024545782444
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.6022844795070474,
+        "hausdorff_mm": 9.344197682313723,
+        "volume_ml": 69.65594514295431
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 206.85110117170083,
+      "direct": {
+        "symmetric_mm": 2.1661386633935877,
+        "hausdorff_mm": 9.278087090262796,
+        "volume_ml": 198.36904829080441
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1661386633935877,
+        "hausdorff_mm": 9.278087090262796,
+        "volume_ml": 198.36904829080441
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.1609939088228907,
+        "hausdorff_mm": 9.343862433967335,
+        "volume_ml": 198.3530324752441
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 13,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 145.67517465021174,
+      "direct": {
+        "symmetric_mm": 2.2374912482843508,
+        "hausdorff_mm": 8.524125603444073,
+        "volume_ml": 142.36912205092443
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.2374912482843508,
+        "hausdorff_mm": 8.524125603444073,
+        "volume_ml": 142.36912205092443
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.247563040012221,
+        "hausdorff_mm": 8.498512068055454,
+        "volume_ml": 142.30615150708192
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 245.20986235543617,
+      "direct": {
+        "symmetric_mm": 2.016497596610349,
+        "hausdorff_mm": 7.525296049591586,
+        "volume_ml": 242.27603803527924
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.016497596610349,
+        "hausdorff_mm": 7.525296049591586,
+        "volume_ml": 242.2760380352793
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.010776910705516,
+        "hausdorff_mm": 7.69447282596177,
+        "volume_ml": 242.13313502570776
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 203.5638013413828,
+      "direct": {
+        "symmetric_mm": 1.9997489384294664,
+        "hausdorff_mm": 7.68260199664339,
+        "volume_ml": 196.0120827769544
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.9997489384294667,
+        "hausdorff_mm": 7.68260199664339,
+        "volume_ml": 196.0120827769544
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0020522576567794,
+        "hausdorff_mm": 7.652533621896413,
+        "volume_ml": 195.88107130211444
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 151.76227237208218,
+      "direct": {
+        "symmetric_mm": 2.0799552070848755,
+        "hausdorff_mm": 14.741391423308135,
+        "volume_ml": 132.07769587424107
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.0799552070848755,
+        "hausdorff_mm": 14.741391423308135,
+        "volume_ml": 132.07769587424107
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.0840621331253644,
+        "hausdorff_mm": 13.313130048510384,
+        "volume_ml": 131.76733406713305
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 9,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 101.55702020221133,
+      "direct": {
+        "symmetric_mm": 2.316087703490008,
+        "hausdorff_mm": 12.869578341249134,
+        "volume_ml": 82.36371474381188
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.316087703490008,
+        "hausdorff_mm": 12.869578341249134,
+        "volume_ml": 82.36371474381188
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.333117506235677,
+        "hausdorff_mm": 12.406840915938789,
+        "volume_ml": 82.08220593046605
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 137.71709793006264,
+      "direct": {
+        "symmetric_mm": 1.8015213870428626,
+        "hausdorff_mm": 6.3865626027231395,
+        "volume_ml": 135.99360555575754
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.8015213870428626,
+        "hausdorff_mm": 6.3865626027231395,
+        "volume_ml": 135.99360555575754
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.8011821724997557,
+        "hausdorff_mm": 6.471995784891922,
+        "volume_ml": 135.93376101422743
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 12,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 104.90982101008903,
+      "direct": {
+        "symmetric_mm": 1.8946826479892276,
+        "hausdorff_mm": 6.687296580747892,
+        "volume_ml": 101.67776597515326
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.8946826479892276,
+        "hausdorff_mm": 6.687296580747883,
+        "volume_ml": 101.67776597515324
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.8941267023482375,
+        "hausdorff_mm": 6.807657202023551,
+        "volume_ml": 101.6190854866178
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 138.80643719918464,
+      "direct": {
+        "symmetric_mm": 1.9561832777557475,
+        "hausdorff_mm": 6.998246698400109,
+        "volume_ml": 136.6916444232654
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.9561832777557475,
+        "hausdorff_mm": 6.998246698400109,
+        "volume_ml": 136.69164442326544
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.954466502336284,
+        "hausdorff_mm": 6.963947715184586,
+        "volume_ml": 136.64141185912732
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 98.96683133651055,
+      "direct": {
+        "symmetric_mm": 2.101730227922039,
+        "hausdorff_mm": 7.641764069633645,
+        "volume_ml": 97.6463809860866
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1017302279220385,
+        "hausdorff_mm": 7.641764069633645,
+        "volume_ml": 97.64638098608667
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.101589088015742,
+        "hausdorff_mm": 7.739623045205706,
+        "volume_ml": 97.58332718759293
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": false,
+      "reference_volume_ml": 147.47593041081151,
+      "direct": {
+        "symmetric_mm": 2.421311672669765,
+        "hausdorff_mm": 52.3124532740169,
+        "volume_ml": 162.45328859775833
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.421311672669765,
+        "hausdorff_mm": 52.3124532740169,
+        "volume_ml": 162.45328859775836
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.4488840703568604,
+        "hausdorff_mm": 49.10254093257619,
+        "volume_ml": 160.92524552105834
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 7,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 63.11301029209022,
+      "direct": {
+        "symmetric_mm": 2.2552141495349485,
+        "hausdorff_mm": 7.2666912869299,
+        "volume_ml": 72.62347782891155
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.2552141495349485,
+        "hausdorff_mm": 7.2666912869299,
+        "volume_ml": 72.62347782891148
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.2805320504694966,
+        "hausdorff_mm": 7.46357293882624,
+        "volume_ml": 72.47607762080995
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 78.77226268547871,
+      "direct": {
+        "symmetric_mm": 1.4620125599886875,
+        "hausdorff_mm": 10.280229934787474,
+        "volume_ml": 74.27077266848315
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.4620125599886875,
+        "hausdorff_mm": 10.280229934787474,
+        "volume_ml": 74.2707726684832
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.477454151745398,
+        "hausdorff_mm": 10.3263654566583,
+        "volume_ml": 74.2201878761769
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 9,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 31.523422656636093,
+      "direct": {
+        "symmetric_mm": 1.789363934542672,
+        "hausdorff_mm": 6.69187908306718,
+        "volume_ml": 34.97841872351579
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.789363934542672,
+        "hausdorff_mm": 6.69187908306718,
+        "volume_ml": 34.97841872351581
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.8003706900618577,
+        "hausdorff_mm": 6.685881080531403,
+        "volume_ml": 34.94485379173562
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 1,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 155.09051993161967,
+      "direct": {
+        "symmetric_mm": 2.1680738502992307,
+        "hausdorff_mm": 10.317609094723386,
+        "volume_ml": 143.63250843625255
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.1680738502992307,
+        "hausdorff_mm": 10.317609094723386,
+        "volume_ml": 143.63250843625252
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.1730860073285827,
+        "hausdorff_mm": 10.118372061464527,
+        "volume_ml": 143.549892180418
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 10,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 83.5578039479178,
+      "direct": {
+        "symmetric_mm": 2.8460704916474757,
+        "hausdorff_mm": 10.541461810023126,
+        "volume_ml": 90.38452138621722
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.8460704916474757,
+        "hausdorff_mm": 10.541461810023126,
+        "volume_ml": 90.38452138621722
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.842812084529401,
+        "hausdorff_mm": 10.465542362478496,
+        "volume_ml": 90.32475013104283
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 4,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 69.77265522407603,
+      "direct": {
+        "symmetric_mm": 2.252285676864685,
+        "hausdorff_mm": 8.701687580120582,
+        "volume_ml": 67.70640776706242
+      },
+      "S/beta=0": {
+        "symmetric_mm": 2.252285676864685,
+        "hausdorff_mm": 8.701687580120582,
+        "volume_ml": 67.70640776706242
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 2.253588401289792,
+        "hausdorff_mm": 8.82638598093382,
+        "volume_ml": 67.63657195275448
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 11,
+      "fitted": true,
+      "radius_test_agrees": true,
+      "reference_volume_ml": 34.79191532817815,
+      "direct": {
+        "symmetric_mm": 1.8617880277861785,
+        "hausdorff_mm": 10.660455243628283,
+        "volume_ml": 34.281233718173866
+      },
+      "S/beta=0": {
+        "symmetric_mm": 1.8617880277861785,
+        "hausdorff_mm": 10.660455243628283,
+        "volume_ml": 34.2812337181738
+      },
+      "G/beta=0.001": {
+        "symmetric_mm": 1.866154444717635,
+        "hausdorff_mm": 10.289754854008889,
+        "volume_ml": 34.26404696637553
+      }
+    }
+  ],
+  "medians": {
+    "direct": {
+      "symmetric_mm": 2.244888462574518,
+      "hausdorff_mm": 9.831797005993124
+    },
+    "S": {
+      "symmetric_mm": 2.244888462574518,
+      "hausdorff_mm": 9.831797005993122
+    },
+    "G": {
+      "symmetric_mm": 2.250575720651007,
+      "hausdorff_mm": 9.768893002984921
+    }
+  },
+  "paired": {
+    "S_minus_direct": {
+      "symmetric_mm": {
+        "observed": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "patients": 30
+      },
+      "hausdorff_mm": {
+        "observed": -1.7763568394002505e-15,
+        "lower": -1.7763568394002505e-15,
+        "upper": 0.0,
+        "patients": 30
+      }
+    },
+    "G_minus_direct": {
+      "symmetric_mm": {
+        "observed": 0.005687258076489066,
+        "lower": -0.0018934332982363244,
+        "upper": 0.01935650978298753,
+        "patients": 30
+      },
+      "hausdorff_mm": {
+        "observed": -0.06290400300820309,
+        "lower": -0.25079692147487265,
+        "upper": 0.16976205631537233,
+        "patients": 30
+      }
+    },
+    "S_minus_G": {
+      "symmetric_mm": {
+        "observed": -0.005687258076489066,
+        "lower": -0.01935650978298753,
+        "upper": 0.0018934332982363244,
+        "patients": 30
+      },
+      "hausdorff_mm": {
+        "observed": 0.06290400300820131,
+        "lower": -0.169762056315367,
+        "upper": 0.25079692147487265,
+        "patients": 30
+      }
+    }
+  },
+  "ejection_fraction": {
+    "direct": {
+      "patients": 30,
+      "bias": -3.718397612240194,
+      "median_absolute": 4.489572284635464,
+      "limits_of_agreement": [
+        -13.731591274748983,
+        6.2947960502685945
+      ]
+    },
+    "S": {
+      "patients": 30,
+      "bias": -3.7183976122401816,
+      "median_absolute": 4.489572284635443,
+      "limits_of_agreement": [
+        -13.731591274748997,
+        6.2947960502686335
+      ]
+    },
+    "G": {
+      "patients": 30,
+      "bias": -3.687631904782448,
+      "median_absolute": 4.517834872752424,
+      "limits_of_agreement": [
+        -13.570818193291831,
+        6.195554383726936
+      ]
+    }
+  },
+  "wall_seconds": 324.9
+}

@@ -1,0 +1,108 @@
+{
+  "benchmark": "data/derived/semisynthetic-real-v3-n96",
+  "start": "input_derived",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "interface_dim": 12,
+      "interior_dim": 12,
+      "coordinates": "covariance"
+    }
+  },
+  "base_config": {
+    "fourier_order": 3,
+    "session_order": 1,
+    "max_iterations": 40,
+    "covariance_aware_identity_prior": true,
+    "identity_prior_scale_floor": 0.005,
+    "session_includes_offset": false
+  },
+  "experiment": "E85",
+  "preregistration": "Docs/E85_RING96_PREREGISTRATION_2026-09-28.md",
+  "split": "val",
+  "frozen_from": "Codes/configs/e85/v3n96_test_template.json",
+  "variants": [
+    {
+      "name": "G/joint/bs=0.125",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.125
+      }
+    },
+    {
+      "name": "G/joint/bs=0.0625",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.0625
+      }
+    },
+    {
+      "name": "G/soft_matched/bs=0.125",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.125
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "name": "G/soft_matched/bs=0.0625",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.0625
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "name": "G/penalty_repair/bs=0.125",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.125
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      }
+    },
+    {
+      "name": "G/penalty_repair/bs=0.0625",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.0625
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      }
+    }
+  ]
+}

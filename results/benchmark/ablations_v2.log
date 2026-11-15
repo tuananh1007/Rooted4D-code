@@ -1,0 +1,48 @@
+fitting shape space from train split...
+  10/60  200s
+  20/60  400s
+  30/60  605s
+  40/60  805s
+  50/60  1012s
+  60/60  1218s
+
+arm                             cmr          tee        rot      trans       phase
+rooted4d_full                 1.796        3.114      1.979      2.766      0.0209
+fixed_phase                   1.778        3.267      2.021      2.836      0.0217
+no_session_residual           1.772        3.118      1.954      2.740      0.0202
+no_gauges                     1.867        3.106      1.999      2.797      0.0225
+uniform_prior                 1.815        3.111      2.000      2.786      0.0215
+per_frame_motion              1.949        3.293      1.961      2.749      0.0292
+
+full minus ablation (negative = the ablated term was helping)
+  fixed_phase          held-out CMR    -0.0112  [ -0.0349,  0.0132]  p=0.3640
+  fixed_phase          held-out TEE    -0.1015  [ -0.1260, -0.0784]  p=0.0000 *
+  fixed_phase          translation     -0.0090  [ -0.0973,  0.0879]  p=0.8542
+  fixed_phase          rotation        -0.0320  [ -0.0473, -0.0176]  p=0.0001 *
+  fixed_phase          phase           -0.0097  [ -0.0174, -0.0026]  p=0.0135 *
+
+  no_session_residual  held-out CMR     0.0004  [ -0.0017,  0.0026]  p=0.6966
+  no_session_residual  held-out TEE    -0.0039  [ -0.0048, -0.0031]  p=0.0000 *
+  no_session_residual  translation      0.0166  [  0.0016,  0.0332]  p=0.0454 *
+  no_session_residual  rotation         0.0051  [ -0.0057,  0.0169]  p=0.3921
+  no_session_residual  phase            0.0001  [ -0.0001,  0.0004]  p=0.2175
+
+  no_gauges            held-out CMR    -0.0547  [ -0.0790, -0.0310]  p=0.0000 *
+  no_gauges            held-out TEE     0.0137  [  0.0040,  0.0248]  p=0.0056 *
+  no_gauges            translation     -0.1368  [ -0.2054, -0.0769]  p=0.0000 *
+  no_gauges            rotation        -0.0279  [ -0.0530, -0.0049]  p=0.0289 *
+  no_gauges            phase           -0.0072  [ -0.0123, -0.0022]  p=0.0077 *
+
+  uniform_prior        held-out CMR    -0.0084  [ -0.0131, -0.0039]  p=0.0003 *
+  uniform_prior        held-out TEE     0.0037  [  0.0026,  0.0049]  p=0.0000 *
+  uniform_prior        translation     -0.0272  [ -0.0494, -0.0069]  p=0.0135 *
+  uniform_prior        rotation        -0.0108  [ -0.0273,  0.0044]  p=0.1940
+  uniform_prior        phase           -0.0004  [ -0.0010,  0.0002]  p=0.1933
+
+  per_frame_motion     held-out CMR    -0.1393  [ -0.1944, -0.0872]  p=0.0000 *
+  per_frame_motion     held-out TEE    -0.1329  [ -0.1621, -0.1040]  p=0.0000 *
+  per_frame_motion     translation     -0.0062  [ -0.0878,  0.0769]  p=0.8874
+  per_frame_motion     rotation         0.0456  [  0.0176,  0.0754]  p=0.0019 *
+  per_frame_motion     phase           -0.0161  [ -0.0236, -0.0089]  p=0.0000 *
+
+done

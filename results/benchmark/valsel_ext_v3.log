@@ -1,0 +1,5 @@
+modes 40  floor  1.46  combined held-out 2.819 +/- 0.167  (148 s)
+modes 48  floor  1.26  combined held-out 3.070 +/- 0.186  (317 s)
+
+grid [12, 16, 20, 24, 32, 40, 48]
+best 40 (2.819), threshold 2.986 -> chosen 32 modes

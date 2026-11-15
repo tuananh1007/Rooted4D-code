@@ -1,0 +1,7 @@
+{
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E70",
+  "iterations": 400,
+  "samples_with_warm_start": 60,
+  "warm_starts": "/work/nvme/bhio/avu2/Rooted4D/results/uniformity/E69_v3_test"
+}

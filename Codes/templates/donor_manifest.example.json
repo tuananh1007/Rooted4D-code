@@ -1,0 +1,23 @@
+{
+  "schema_version": "rooted4d-fixed-topology-donors-v2",
+  "topology_kind": "frozen_production_v1",
+  "template_id": "rooted4d-mitral-v1-replace-after-freeze",
+  "donors": [
+    {
+      "donor_id": "pseudonymized-heart-0001",
+      "global_person_id": "global-person-pseudonym-0001",
+      "kind": "whole_heart",
+      "path": "fixed_topology/heart-0001.npz",
+      "sha256": "replace-with-file-sha256",
+      "source_dataset": "ACDC-or-local-CMR"
+    },
+    {
+      "donor_id": "pseudonymized-valve-0001",
+      "global_person_id": "global-person-pseudonym-0002",
+      "kind": "valve",
+      "path": "fixed_topology/valve-0001.npz",
+      "sha256": "replace-with-file-sha256",
+      "source_dataset": "MVSeg2023-or-local-TEE"
+    }
+  ]
+}

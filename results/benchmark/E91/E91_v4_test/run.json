@@ -1,0 +1,12 @@
+{
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "experiment": "E91",
+  "final_iterations": 400,
+  "frozen_from": "Codes/configs/e75/v4_e75_test.json",
+  "offsets": 24,
+  "preregistration": "Docs/E91_IMAGE_SEARCH_PREREGISTRATION_2026-09-28.md",
+  "refine_iterations": 100,
+  "rotations": 36,
+  "smoke": false,
+  "top": 5
+}

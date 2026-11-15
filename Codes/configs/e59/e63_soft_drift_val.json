@@ -1,0 +1,25 @@
+{
+  "experiment": "E63",
+  "purpose": "E63: the interface residual of soft attachment against its penalty, in the published fusion configuration, so that the O(1/lambda) rate of Eq. (soft-drift) is measured on the reconstruction model rather than only on T2's synthetic quadratic. Descriptive: nothing is selected on it. Validation split only; test is not touched. The zero start is used because it is the published configuration's start (E51); this is a measurement of that configuration, not a new comparison between methods. The historical (renormalised) arm is included at four penalties to show that its gap to the exact arm does not close as the penalty stiffens (E60).",
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "split": "val",
+  "start": "zero",
+  "models": {"global": {"builder": "global", "n_modes": 32, "n_motion": 4, "n_session": 2, "n_phase_nodes": 8}},
+  "base_config": {"fourier_order": 3, "session_order": 1, "max_iterations": 40},
+  "variants": [
+    {"name": "rooted4d_full", "model": "global", "arm": "rooted4d_full"},
+    {"name": "matched/l=1", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 1.0},
+    {"name": "matched/l=10", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 10.0},
+    {"name": "matched/l=100", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 100.0},
+    {"name": "matched/l=1000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 1000.0},
+    {"name": "matched/l=10000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 10000.0},
+    {"name": "matched/l=100000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 100000.0},
+    {"name": "matched/l=1000000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 1000000.0},
+    {"name": "matched/l=10000000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 10000000.0},
+    {"name": "matched/l=100000000", "model": "global", "arm": "joint_soft_attachment_matched", "soft_attachment_weight": 100000000.0},
+    {"name": "historical/l=100", "model": "global", "arm": "joint_soft_attachment", "soft_attachment_weight": 100.0},
+    {"name": "historical/l=10000", "model": "global", "arm": "joint_soft_attachment", "soft_attachment_weight": 10000.0},
+    {"name": "historical/l=1000000", "model": "global", "arm": "joint_soft_attachment", "soft_attachment_weight": 1000000.0},
+    {"name": "historical/l=100000000", "model": "global", "arm": "joint_soft_attachment", "soft_attachment_weight": 100000000.0}
+  ]
+}

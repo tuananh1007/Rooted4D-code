@@ -1,0 +1,301 @@
+{
+  "name": "Rooted4D, main configuration",
+  "frozen": "2026-10-23",
+  "method": "Rooted4D's joint fit (structured shape space, exact attachment, periodic motion, session terms, monotone phase warp, TEE pose) from the input-derived start, then a residual field on the physical vertices: Gaussian kernel exp(-d^2/2w^2) in space, the solver's periodic basis in time (a constant and harmonics 1..fourier_order), static and dynamic scales in units of a 1 mm noise, one field shared by both modalities, solved in closed form as the GP posterior mean with the fit held fixed. Code: Codes/rooted4d/inference/residual_field.py (fit_rooted4d_with_field; the benchmark arm rooted4d_residual_field).",
+  "start": "input_derived",
+  "protocol": {
+    "heldout_cmr_frames": 4,
+    "heldout_tee_fraction": 0.25,
+    "selection": "sum of the median held-out CMR and TEE errors on validation, per benchmark",
+    "statistic": "identity-averaged difference of medians, 20000 identity resamples, seed 20260910"
+  },
+  "provenance": {
+    "solver": "E100 freeze (identity prior weight 1/4, session prior weight 1/2): Docs/E100_ORIENTED_REBUILD_PREREGISTRATION_2026-09-29.md; its test rows on Delta are results/e100/v4n96o/test/bd364644c4605d9d and results/e100/v3n96o/test/dc59d32e4afae636",
+    "field": "E116 validation selection, results/benchmark/E116/E116_val.json",
+    "preregistration": "Docs/E116_RESIDUAL_FIELD_PREREGISTRATION_2026-10-23.md",
+    "result": "Docs/E116_RESULT_2026-10-23.md",
+    "commits": {
+      "preregistration_and_code": "44b4280",
+      "validation_report": "d7d4a86",
+      "test_run": "d7d4a86"
+    },
+    "jobs": {
+      "validation": 23131646,
+      "test": 23132277
+    }
+  },
+  "environment": {
+    "record": "results/benchmark/E116/ENVIRONMENT_delta.txt",
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "blas": "OpenBLAS 0.3.30 (scipy-openblas, DYNAMIC_ARCH)",
+    "cpu": "AMD EPYC 7763",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": 1,
+      "OMP_NUM_THREADS": 1,
+      "MKL_NUM_THREADS": 1
+    }
+  },
+  "reproduction": {
+    "script": "Codes/scripts/experiments/reproduce_rooted4d_main.py",
+    "tolerance_mm": {
+      "per_sample_max": 0.005,
+      "median_abs": 1e-06
+    },
+    "note": "Levenberg-Marquardt fits are not bitwise across BLAS builds or thread counts; with one thread on the recorded environment they reproduce exactly. Judge a re-run by the per-sample tolerance and by the medians at reporting precision."
+  },
+  "benchmarks": {
+    "v4n96o": {
+      "paper_name": "realistic-session",
+      "benchmark": "data/derived/e100-v4n96o",
+      "generator_config": "Codes/configs/e100/v4n96o.yaml",
+      "dataset_json_sha256": "691a259a835c3d01e63d03e2dfcd954b647f7c08ee73f299dc79f76640a170a9",
+      "manifest_sha256": {
+        "train": "9aa43a0ed5aee27dcdb31c489433d078eec543ea5b4d05408745c7c56bcae1fd",
+        "val": "32a10dea86bc992b829592517940d5d38bf7469675c56bd589cdac78bccee3fe",
+        "test": "96dbfe2431a6a13cfbb3091a6a6a2a5609d05782ddec9bb28049cc0698f29362"
+      },
+      "session_subspace": {
+        "path": "results/benchmark/E93_session_subspace_split_n96.npz",
+        "sha256": "b624c1f56938201d96f0dab84899878529012991b7937e0e79d5bd3dca97d82f"
+      },
+      "model": {
+        "builder": "structured",
+        "coordinates": "covariance",
+        "interface_dim": 12,
+        "interior_dim": 12,
+        "n_motion": 4,
+        "n_session": 2,
+        "n_phase_nodes": 8
+      },
+      "solver": {
+        "fourier_order": 3,
+        "session_order": 1,
+        "motion_model": "periodic",
+        "motion_nodes": 16,
+        "session_includes_offset": true,
+        "use_cmr": true,
+        "use_tee": true,
+        "estimate_pose": true,
+        "estimate_phase_warp": true,
+        "estimate_phase_offset": true,
+        "use_session": true,
+        "enforce_gauges": true,
+        "identity_prior_weight": 0.25,
+        "covariance_aware_identity_prior": true,
+        "identity_prior_scale_floor": 0.005,
+        "motion_prior_weight": 0.3,
+        "session_prior_weight": 0.5,
+        "phase_smoothness_weight": 2.0,
+        "soft_attachment_weight": 0.0,
+        "cmr_image_weight": 0.0,
+        "tee_image_weight": 0.0,
+        "curve_evidence": "",
+        "curve_start_rotations": 12,
+        "max_iterations": 40,
+        "finite_difference_step": 1e-05,
+        "initial_damping": 0.01,
+        "convergence_tolerance": 1e-10
+      },
+      "field": {
+        "sharing": "shared",
+        "static": 4.0,
+        "dynamic": 0.5,
+        "width": 5.0
+      },
+      "reported_variant": {
+        "sharing": "session",
+        "static": 4.0,
+        "dynamic": 0.5,
+        "width": 5.0
+      },
+      "thinned_levels": {
+        "cmr4": {
+          "cmr_keep_every": 4,
+          "tee_keep_every": 1
+        },
+        "cmr3": {
+          "cmr_keep_every": 6,
+          "tee_keep_every": 1
+        },
+        "tee6": {
+          "cmr_keep_every": 1,
+          "tee_keep_every": 4
+        },
+        "tee3": {
+          "cmr_keep_every": 1,
+          "tee_keep_every": 8
+        }
+      },
+      "reference": {
+        "full": {
+          "rows": "results/benchmark/E116/reference_rows/v4n96o_full.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 0.725314,
+              "heldout_tee_mm": 1.088609
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 0.629996,
+              "heldout_tee_mm": 1.050287
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 1.113409,
+              "heldout_tee_mm": 1.656937
+            }
+          }
+        },
+        "cmr4": {
+          "rows": "results/benchmark/E116/reference_rows/v4n96o_cmr4.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 1.621403,
+              "heldout_tee_mm": 1.069709
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 1.549861,
+              "heldout_tee_mm": 1.053493
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 1.860412,
+              "heldout_tee_mm": 1.652684
+            }
+          }
+        },
+        "cmr3": {
+          "rows": "results/benchmark/E116/reference_rows/v4n96o_cmr3.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 2.016977,
+              "heldout_tee_mm": 1.070762
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 1.907096,
+              "heldout_tee_mm": 1.051533
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 2.183357,
+              "heldout_tee_mm": 1.662614
+            }
+          }
+        },
+        "tee6": {
+          "rows": "results/benchmark/E116/reference_rows/v4n96o_tee6.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 0.668513,
+              "heldout_tee_mm": 1.724172
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 0.630476,
+              "heldout_tee_mm": 1.561188
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 1.090225,
+              "heldout_tee_mm": 2.150413
+            }
+          }
+        },
+        "tee3": {
+          "rows": "results/benchmark/E116/reference_rows/v4n96o_tee3.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 0.652539,
+              "heldout_tee_mm": 2.754762
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 0.630086,
+              "heldout_tee_mm": 2.59229
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 1.082693,
+              "heldout_tee_mm": 3.023324
+            }
+          }
+        }
+      }
+    },
+    "v3n96o": {
+      "paper_name": "small-session",
+      "benchmark": "data/derived/e100-v3n96o",
+      "generator_config": "Codes/configs/e100/v3n96o.yaml",
+      "dataset_json_sha256": "5c92b76a7c2a81223827f5601166c55c1d6da07c75dec35a870d973b2ec006be",
+      "manifest_sha256": {
+        "train": "275dd24ae085dc24abdc828c612a8b7cb18857523643fc2e0a1f5f676fa5b14a",
+        "val": "ed9dbdb8ac66933accfa17616f84272906017d764aee07a14b7d2d5630b53856",
+        "test": "9adcd7d7723c74407d4fd0303036077633a1a40473f0e16085c4446028aaa68a"
+      },
+      "session_subspace": null,
+      "model": {
+        "builder": "structured",
+        "coordinates": "covariance",
+        "interface_dim": 12,
+        "interior_dim": 12,
+        "n_motion": 4,
+        "n_session": 2,
+        "n_phase_nodes": 8
+      },
+      "solver": {
+        "fourier_order": 3,
+        "session_order": 1,
+        "motion_model": "periodic",
+        "motion_nodes": 16,
+        "session_includes_offset": false,
+        "use_cmr": true,
+        "use_tee": true,
+        "estimate_pose": true,
+        "estimate_phase_warp": true,
+        "estimate_phase_offset": true,
+        "use_session": true,
+        "enforce_gauges": true,
+        "identity_prior_weight": 0.25,
+        "covariance_aware_identity_prior": true,
+        "identity_prior_scale_floor": 0.005,
+        "motion_prior_weight": 0.3,
+        "session_prior_weight": 0.5,
+        "phase_smoothness_weight": 2.0,
+        "soft_attachment_weight": 0.0,
+        "cmr_image_weight": 0.0,
+        "tee_image_weight": 0.0,
+        "curve_evidence": "",
+        "curve_start_rotations": 12,
+        "max_iterations": 40,
+        "finite_difference_step": 1e-05,
+        "initial_damping": 0.01,
+        "convergence_tolerance": 1e-10
+      },
+      "field": {
+        "sharing": "shared",
+        "static": 4.0,
+        "dynamic": 0.5,
+        "width": 5.0
+      },
+      "reported_variant": {
+        "sharing": "session",
+        "static": 2.0,
+        "dynamic": 0.5,
+        "width": 5.0
+      },
+      "thinned_levels": {},
+      "reference": {
+        "full": {
+          "rows": "results/benchmark/E116/reference_rows/v3n96o_full.jsonl",
+          "medians_mm": {
+            "R4D+GP": {
+              "heldout_cmr_mm": 0.643646,
+              "heldout_tee_mm": 0.999585
+            },
+            "R4D+GP-session": {
+              "heldout_cmr_mm": 0.632811,
+              "heldout_tee_mm": 1.043597
+            },
+            "S/joint": {
+              "heldout_cmr_mm": 0.891451,
+              "heldout_tee_mm": 1.617876
+            }
+          }
+        }
+      }
+    }
+  }
+}

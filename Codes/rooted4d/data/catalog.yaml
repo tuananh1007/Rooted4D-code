@@ -1,0 +1,142 @@
+catalog_version: "2026-08-23"
+datasets:
+  synthetic_rooted4d:
+    title: "Rooted4D procedural paired benchmark"
+    modality: "point- and image-likelihood-domain synthetic CMR/TEE observations"
+    role: "Known-truth pose, phase, session, missing-view, and interface tests"
+    access: "generated_locally"
+    status: "available"
+    landing_url: null
+    license: "MIT with this repository"
+    fetch_kind: "local_generator"
+    command: "rooted4d-smoke --output {dest} --seed 7"
+    limitations: "Geometric likelihoods are not pulse-sequence or diagnostic ultrasound simulation and do not establish clinical validity."
+    validation_globs: ["case.npz", "metadata.json"]
+    minimum_matches: 2
+
+  acdc:
+    title: "Automated Cardiac Diagnosis Challenge (ACDC)"
+    modality: "short-axis cine CMR"
+    role: "CMR initializer, ED/ES chamber supervision, sparse-slice simulation"
+    access: "manual_provider_portal"
+    status: "public_provider_portal"
+    landing_url: "https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html"
+    access_url: "https://humanheart-project.creatis.insa-lyon.fr/database/"
+    license: "Provider terms; cite Bernard et al., IEEE TMI 2018, DOI 10.1109/TMI.2018.2837502"
+    fetch_kind: "manual"
+    limitations: "Short-axis CMR and key-phase labels do not supply mitral leaflet detail or paired TEE."
+    validation_globs: ["**/*_4d.nii.gz", "**/*_frame*.nii.gz", "**/Info.cfg"]
+    minimum_matches: 100
+
+  mnms:
+    title: "Multi-Centre, Multi-Vendor and Multi-Disease Cardiac Segmentation (M&Ms)"
+    modality: "multi-vendor cine CMR"
+    role: "CMR robustness and vendor/domain-shift training"
+    access: "manual_challenge_portal"
+    status: "available_to_approved_participants"
+    landing_url: "https://www.ub.edu/mnms/"
+    access_url: "https://www.ub.edu/mnms/"
+    license: "Challenge/provider terms"
+    fetch_kind: "manual"
+    limitations: "No TEE and no dynamic mitral leaflet ground truth."
+    validation_globs: ["**/*.nii", "**/*.nii.gz"]
+    minimum_matches: 100
+
+  mnms2:
+    title: "Multi-Disease, Multi-View and Multi-Center RV Segmentation (M&Ms-2)"
+    modality: "short-axis and four-chamber cine CMR"
+    role: "CMR multi-view robustness and long-axis support"
+    access: "manual_challenge_portal"
+    status: "available_to_approved_participants"
+    landing_url: "https://www.ub.edu/mnms-2/"
+    access_url: "https://www.ub.edu/mnms-2/"
+    license: "Challenge/provider terms"
+    fetch_kind: "manual"
+    limitations: "No TEE and no dynamic mitral leaflet ground truth."
+    validation_globs: ["**/*.nii", "**/*.nii.gz"]
+    minimum_matches: 100
+
+  mitea:
+    title: "MR-Informed Three-dimensional Echocardiography Analysis (MITEA)"
+    modality: "paired CMR-informed 3D echo, ED/ES LV"
+    role: "Real cross-modal ventricular bridge and echo scan/rescan analysis"
+    access: "request_with_institutional_email"
+    status: "request_access"
+    landing_url: "https://www.cardiacatlas.org/mitea/"
+    access_url: "https://www.cardiacatlas.org/mitea/"
+    license: "CC BY-NC-SA 4.0 for non-commercial research, subject to provider approval"
+    fetch_kind: "manual"
+    limitations: "134 subjects; ventricular ED/ES 3DE rather than 4D TEE leaflet anatomy."
+    validation_globs: ["**/*.nii", "**/*.nii.gz", "**/*.mha"]
+    minimum_matches: 100
+
+  mvseg2023:
+    title: "MVSeg2023"
+    modality: "single-frame 3D TEE at end diastole"
+    role: "TEE anterior/posterior leaflet initializer"
+    access: "huggingface_gated_accept_conditions"
+    status: "available_after_acceptance"
+    landing_url: "https://huggingface.co/datasets/pcarnahan/MVSeg2023"
+    access_url: "https://huggingface.co/datasets/pcarnahan/MVSeg2023"
+    license: "CC BY-NC-ND 4.0"
+    fetch_kind: "huggingface_dataset"
+    repo_id: "pcarnahan/MVSeg2023"
+    command: "hf download pcarnahan/MVSeg2023 --repo-type dataset --local-dir {dest}"
+    limitations: "Single-frame volumes; does not supply full-cycle motion. Provider page reports gated access and approximately 608 MB."
+    validation_globs: ["**/*US.nii", "**/*US.nii.gz", "**/*label.nii", "**/*label.nii.gz"]
+    minimum_matches: 100
+
+  vecheart_vhmesh:
+    title: "VecHeart curated VHMesh release"
+    modality: "registered four-chamber surface meshes"
+    role: "Unpaired anatomy prior and template initialization"
+    access: "linked_google_drive"
+    status: "manual_license_review_required"
+    landing_url: "https://github.com/Scalsol/VecHeart"
+    access_url: "https://github.com/Scalsol/VecHeart"
+    license: "No clear repository/dataset license identified in the source audit; review all upstream sources before use"
+    fetch_kind: "manual"
+    limitations: "Does not include mitral leaflet surfaces or paired cine CMR/TEE evidence."
+    validation_globs: ["**/*.obj", "**/*sdf.npz"]
+    minimum_matches: 100
+
+  ukbb_cmr:
+    title: "UK Biobank cardiac imaging"
+    modality: "large-scale multi-view CMR"
+    role: "Population anatomy/motion priors after approved access"
+    access: "approved_application_and_research_analysis_platform"
+    status: "new_applications_paused_as_of_2026-08-23"
+    landing_url: "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/"
+    access_url: "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/"
+    license: "UK Biobank access procedures and material transfer terms"
+    fetch_kind: "manual"
+    limitations: "The official page stated that new applications were paused and expected to resume in late 2026. No paired clinical TEE."
+    validation_globs: ["**/*.dcm", "**/*.nii", "**/*.nii.gz"]
+    minimum_matches: 100
+
+  mvaa2026:
+    title: "Mitral Valve Anatomy Analysis (MVAA) MICCAI 2026 proposal"
+    modality: "proposed CT, 3D TEE, and surgical-video benchmark"
+    role: "Release watch and future TEE benchmark"
+    access: "watch_provider_announcement"
+    status: "proposal_pdf_only_as_of_2026-08-23"
+    landing_url: "https://zenodo.org/records/19726755"
+    access_url: "https://zenodo.org/records/19726755"
+    license: "No image-dataset license/files shown in the audited Zenodo record"
+    fetch_kind: "manual"
+    limitations: "The Zenodo record contains a challenge proposal PDF, not downloadable CT/TEE/video cases. Do not count it as acquired data."
+    validation_globs: []
+    minimum_matches: 0
+
+  local_paired_cmr_4dtee:
+    title: "Local same-patient cine CMR and 4D TEE cohort"
+    modality: "non-simultaneous same-patient cine CMR and 4D TEE"
+    role: "Decisive real-patient Rooted4D evaluation"
+    access: "institutional_governance_only"
+    status: "not_bundled"
+    landing_url: null
+    license: "IRB/ethics approval, DUA, consent/waiver, and institutional security controls"
+    fetch_kind: "manual"
+    limitations: "Without this cohort, do not claim validated real patient-specific CMR-TEE reconstruction."
+    validation_globs: ["participants.tsv", "sessions.tsv", "splits.json"]
+    minimum_matches: 3

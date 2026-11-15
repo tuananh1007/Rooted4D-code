@@ -1,0 +1,79 @@
+{
+  "schema_version": "rooted4d-global-split-lock-v1",
+  "lock_id": "example-procedural-contract-not-for-experiments",
+  "status": "example_not_frozen",
+  "created_utc": "2026-08-23T00:00:00Z",
+  "identity_hash": {
+    "algorithm": "sha256",
+    "salt_id": "example-only-replace-with-governed-linkage-salt-id",
+    "raw_identifiers_stored": false,
+    "linkage_table_location": "outside_repository"
+  },
+  "split_policy": {
+    "unit": "global_person",
+    "freeze_before_model_fitting": true,
+    "pair_donors_only_within_split": true,
+    "test_access": "one_final_locked_evaluation"
+  },
+  "records": [
+    {
+      "global_person_id": "synthetic:person-train-001",
+      "source_dataset": "procedural_test",
+      "source_subject_id_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+      "split": "train",
+      "session_ids": ["synthetic:session-train-cmr", "synthetic:session-train-tee"],
+      "donor_ids": ["synthetic:heart-train-001", "synthetic:valve-train-001"],
+      "modalities": ["cmr", "tee"]
+    },
+    {
+      "global_person_id": "synthetic:person-val-001",
+      "source_dataset": "procedural_test",
+      "source_subject_id_hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+      "split": "val",
+      "session_ids": ["synthetic:session-val-cmr", "synthetic:session-val-tee"],
+      "donor_ids": ["synthetic:heart-val-001", "synthetic:valve-val-001"],
+      "modalities": ["cmr", "tee"]
+    },
+    {
+      "global_person_id": "synthetic:person-test-001",
+      "source_dataset": "procedural_test",
+      "source_subject_id_hash": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+      "split": "test",
+      "session_ids": ["synthetic:session-test-cmr", "synthetic:session-test-tee"],
+      "donor_ids": ["synthetic:heart-test-001", "synthetic:valve-test-001"],
+      "modalities": ["cmr", "tee"]
+    }
+  ],
+  "artifact_provenance": [
+    {
+      "artifact_id": "candidate-template-basis",
+      "artifact_type": "learned_reusable",
+      "status": "planned",
+      "fitted_on_splits": ["train"],
+      "selected_on_splits": ["val"],
+      "applied_to_splits": ["train", "val", "test"],
+      "source_record_ids": ["synthetic:person-train-001"],
+      "sha256": null
+    },
+    {
+      "artifact_id": "uncertainty-calibrator",
+      "artifact_type": "calibration",
+      "status": "planned",
+      "fitted_on_splits": ["val"],
+      "selected_on_splits": [],
+      "applied_to_splits": ["test"],
+      "source_record_ids": ["synthetic:person-val-001"],
+      "sha256": null
+    },
+    {
+      "artifact_id": "external-anatomy-definition",
+      "artifact_type": "fixed_external",
+      "status": "external",
+      "fitted_on_splits": [],
+      "selected_on_splits": [],
+      "applied_to_splits": ["train", "val", "test"],
+      "source_record_ids": [],
+      "sha256": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+  40/134  5s
+  80/134  10s
+  120/134  15s
+paired subjects: 134
+
+quantity                            n     bias   sd(diff)    limits of agreement  median|d|
+EDV (mL)                          134    -0.00       0.07  [   -0.14,     0.14]       0.04
+ESV (mL)                          134     0.01       0.05  [   -0.10,     0.11]       0.03
+EF (percentage points)            134    -0.01       0.04  [   -0.09,     0.08]       0.02
+myocardial volume at ED (mL)      134    -0.01       0.13  [   -0.26,     0.23]       0.09
+
+repeatability coefficients:
+  EDV (mL)                         0.14  (0.0% of a mean level of 149.6)
+  ESV (mL)                         0.10  (0.1% of a mean level of 61.4)
+  EF (percentage points)           0.08  (0.0% of a mean level of 60.1)
+  myocardial volume at ED (mL)     0.25  (0.1% of a mean level of 128.1)
+done

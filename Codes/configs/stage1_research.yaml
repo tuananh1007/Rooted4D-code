@@ -1,0 +1,60 @@
+project: rooted4d
+stage: "WP1-WP5 prototype"
+reference_session: "CMR"
+paper1_data_scope: "real-derived_semisynthetic_poc_plus_real_component_evaluation"
+semisynthetic:
+  config: "configs/semisynthetic_proof_of_concept.yaml"
+  split_unit: ["composite_identity", "whole_heart_donor", "valve_donor"]
+  partition_before_pairing: true
+  variants_remain_with_identity: true
+  test_used_for_selection: false
+  clinical_fusion_claim_allowed: false
+anatomy:
+  include: ["lv_endo", "lv_epi", "la_endo", "annulus", "anterior_leaflet", "posterior_leaflet"]
+  hard_constraints: ["leaflet_root_to_annulus", "chamber_to_annulus"]
+  never_hard_code: ["leaflet_coaptation"]
+template:
+  status: "contract_selected_mesh_not_frozen"
+  lv_myocardium: "fixed_connectivity_tetrahedra"
+  surface_patches: "fixed_connectivity_unstructured_triangles"
+  annulus: "unique_cyclic_physical_ring"
+  leaflets: "separate_open_triangular_manifolds"
+assembly:
+  fixed_operator: "A"
+  sparse_binary: true
+  patient_dependent: false
+patient_alignment:
+  correspondence: "block_restricted_Pi_i"
+  barycentric_projection: "P_i(Pi_i)"
+  production_distance: "bidirectional_point_to_triangle"
+  normal_compatibility: "additive_oriented_patch_specific"
+  annular_alignment: "directed_arc_with_commissures_and_saddle_landmark"
+  collision_barrier_is_separate: true
+papillary_tips:
+  mode: "optional_tetrahedrally_embedded_landmarks"
+  bounded_residual_initially_enabled: false
+motion:
+  shared_fourier_order: 6
+  session_fourier_order: 2
+  periodic_by_construction: true
+session_discrepancy:
+  low_rank: true
+  orthogonal_to_shared_motion: true
+  causal_interpretation: false
+phase:
+  circular: true
+  monotone_positive_increments: true
+pose:
+  reference: "CMR"
+  tee_transform: "SE3"
+optimization_stages:
+  - "unimodal_initializers"
+  - "landmark_se3"
+  - "block_restricted_correspondence"
+  - "directed_annular_arc"
+  - "phase_offset"
+  - "joint_pose_phase"
+  - "shared_anatomy_motion"
+  - "bounded_session_discrepancy"
+  - "validity_continuation"
+evaluation_unit: "patient"

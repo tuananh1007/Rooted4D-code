@@ -1,0 +1,2477 @@
+{
+  "experiment": "E25_session_subspace_from_mitea",
+  "source": "MITEA scan1 vs scan2, same subject and phase, rigidly aligned",
+  "n_fields": 268,
+  "n_subjects": 134,
+  "vertices": 73,
+  "displacement_mm": {
+    "median_over_fields_of_median": 2.2191341326823024,
+    "median_over_fields_of_p95": 4.668548925103265,
+    "rms_overall": 3.0766158658098517,
+    "p95_overall": 5.978339926077263
+  },
+  "systematic_offset_mm": {
+    "median": 0.17773775781673723,
+    "max": 0.5159891413122062
+  },
+  "rigid_removed": {
+    "median_rotation_deg": 4.14954176444089,
+    "median_translation_mm": 9.293639568120264
+  },
+  "spectrum": {
+    "singular_values_head": [
+      284.88697783406155,
+      216.19645409120625,
+      186.3946955317349,
+      78.52457193970399,
+      66.06577688703302,
+      48.74659284484626,
+      38.76580418656073,
+      31.437932341967862,
+      29.25054403809869,
+      25.026373738882196,
+      20.777448697175764,
+      19.400178314455523,
+      18.030905661312342,
+      17.213385133499806,
+      16.92456554923085,
+      15.465712985732736
+    ],
+    "variance_fraction_head": [
+      0.44053319085393416,
+      0.2537059028738674,
+      0.1885821298744653,
+      0.033469143129614486,
+      0.023691171209100862,
+      0.012897988058288982,
+      0.008157010737775961,
+      0.0053646499438646045,
+      0.004644097561303677,
+      0.0033996115060329493,
+      0.002343245954113743,
+      0.0020428895269524686,
+      0.0017646903906887957,
+      0.0016082961049487345,
+      0.0015547783947201155,
+      0.0012982948400248706
+    ],
+    "rank_for_50_percent": 2,
+    "rank_for_80_percent": 3,
+    "rank_for_90_percent": 4,
+    "rank_for_95_percent": 6
+  },
+  "rows": [
+    {
+      "subject": "001",
+      "phase": "ED",
+      "median_displacement_mm": 2.1755020893449055,
+      "p95_displacement_mm": 6.283990369391063,
+      "rms_displacement_mm": 3.4741046887805243,
+      "rigid_rotation_removed_deg": 4.628629637340242,
+      "rigid_translation_removed_mm": 16.029650410984914
+    },
+    {
+      "subject": "001",
+      "phase": "ES",
+      "median_displacement_mm": 2.0223772228536516,
+      "p95_displacement_mm": 5.574742007735664,
+      "rms_displacement_mm": 2.7930720168971526,
+      "rigid_rotation_removed_deg": 2.4016024601982284,
+      "rigid_translation_removed_mm": 14.087129931289
+    },
+    {
+      "subject": "002",
+      "phase": "ED",
+      "median_displacement_mm": 1.4827647068119283,
+      "p95_displacement_mm": 3.495991103598917,
+      "rms_displacement_mm": 1.8847503065629418,
+      "rigid_rotation_removed_deg": 1.6805556871608776,
+      "rigid_translation_removed_mm": 6.0199049104708475
+    },
+    {
+      "subject": "002",
+      "phase": "ES",
+      "median_displacement_mm": 2.4812103498600018,
+      "p95_displacement_mm": 4.661147043463588,
+      "rms_displacement_mm": 2.588075911256855,
+      "rigid_rotation_removed_deg": 1.8254324864949378,
+      "rigid_translation_removed_mm": 6.528201683122032
+    },
+    {
+      "subject": "003",
+      "phase": "ED",
+      "median_displacement_mm": 2.1856697583836917,
+      "p95_displacement_mm": 3.5607276442874998,
+      "rms_displacement_mm": 2.139308783262928,
+      "rigid_rotation_removed_deg": 4.795684577646856,
+      "rigid_translation_removed_mm": 9.13600880508194
+    },
+    {
+      "subject": "003",
+      "phase": "ES",
+      "median_displacement_mm": 2.9032050913576417,
+      "p95_displacement_mm": 3.034524373270686,
+      "rms_displacement_mm": 2.420027073331196,
+      "rigid_rotation_removed_deg": 6.637453832434479,
+      "rigid_translation_removed_mm": 16.180538188729386
+    },
+    {
+      "subject": "004",
+      "phase": "ED",
+      "median_displacement_mm": 3.2863421347897774,
+      "p95_displacement_mm": 6.667921492754103,
+      "rms_displacement_mm": 3.7233959048944376,
+      "rigid_rotation_removed_deg": 7.124904881119618,
+      "rigid_translation_removed_mm": 7.434827926442796
+    },
+    {
+      "subject": "004",
+      "phase": "ES",
+      "median_displacement_mm": 4.567455930078597,
+      "p95_displacement_mm": 5.081063077584908,
+      "rms_displacement_mm": 3.9034771519874574,
+      "rigid_rotation_removed_deg": 9.72385294795058,
+      "rigid_translation_removed_mm": 11.072555756476962
+    },
+    {
+      "subject": "005",
+      "phase": "ED",
+      "median_displacement_mm": 1.2460637083549795,
+      "p95_displacement_mm": 3.906918978378833,
+      "rms_displacement_mm": 2.2376031912325844,
+      "rigid_rotation_removed_deg": 3.5804774778237376,
+      "rigid_translation_removed_mm": 5.139954192418461
+    },
+    {
+      "subject": "005",
+      "phase": "ES",
+      "median_displacement_mm": 1.813436994760224,
+      "p95_displacement_mm": 5.296619989459756,
+      "rms_displacement_mm": 3.015179810428596,
+      "rigid_rotation_removed_deg": 3.9801869598924084,
+      "rigid_translation_removed_mm": 10.276998884886378
+    },
+    {
+      "subject": "006",
+      "phase": "ED",
+      "median_displacement_mm": 2.477316625508544,
+      "p95_displacement_mm": 7.8334197580278415,
+      "rms_displacement_mm": 4.234096901415638,
+      "rigid_rotation_removed_deg": 1.4610999033103262,
+      "rigid_translation_removed_mm": 8.652671899973095
+    },
+    {
+      "subject": "006",
+      "phase": "ES",
+      "median_displacement_mm": 2.1983974730118083,
+      "p95_displacement_mm": 6.484144506944327,
+      "rms_displacement_mm": 3.282059265428396,
+      "rigid_rotation_removed_deg": 2.708378902954848,
+      "rigid_translation_removed_mm": 8.104823636646334
+    },
+    {
+      "subject": "007",
+      "phase": "ED",
+      "median_displacement_mm": 2.3078681427499372,
+      "p95_displacement_mm": 6.530919060541342,
+      "rms_displacement_mm": 3.7159504549860127,
+      "rigid_rotation_removed_deg": 6.780611655815371,
+      "rigid_translation_removed_mm": 22.565413389307672
+    },
+    {
+      "subject": "007",
+      "phase": "ES",
+      "median_displacement_mm": 1.8377542613538544,
+      "p95_displacement_mm": 4.671146271069164,
+      "rms_displacement_mm": 2.5009866632609126,
+      "rigid_rotation_removed_deg": 10.546394660243706,
+      "rigid_translation_removed_mm": 26.087722789260678
+    },
+    {
+      "subject": "008",
+      "phase": "ED",
+      "median_displacement_mm": 1.3382464043208915,
+      "p95_displacement_mm": 2.2112989725789607,
+      "rms_displacement_mm": 1.3650966546543717,
+      "rigid_rotation_removed_deg": 1.204823292601231,
+      "rigid_translation_removed_mm": 2.8869353116940313
+    },
+    {
+      "subject": "008",
+      "phase": "ES",
+      "median_displacement_mm": 1.9932202570699211,
+      "p95_displacement_mm": 2.4986220493024773,
+      "rms_displacement_mm": 1.7784783658125882,
+      "rigid_rotation_removed_deg": 3.7967711751572413,
+      "rigid_translation_removed_mm": 8.904107480051735
+    },
+    {
+      "subject": "009",
+      "phase": "ED",
+      "median_displacement_mm": 2.521173164230812,
+      "p95_displacement_mm": 5.39473695186731,
+      "rms_displacement_mm": 3.034167984946308,
+      "rigid_rotation_removed_deg": 3.3069319789140774,
+      "rigid_translation_removed_mm": 7.08036222340456
+    },
+    {
+      "subject": "009",
+      "phase": "ES",
+      "median_displacement_mm": 2.190398428662892,
+      "p95_displacement_mm": 3.6460506444983314,
+      "rms_displacement_mm": 2.3596691642010326,
+      "rigid_rotation_removed_deg": 6.264528131321866,
+      "rigid_translation_removed_mm": 11.61459449191223
+    },
+    {
+      "subject": "010",
+      "phase": "ED",
+      "median_displacement_mm": 2.638783765255638,
+      "p95_displacement_mm": 5.887228214283391,
+      "rms_displacement_mm": 3.463985768081542,
+      "rigid_rotation_removed_deg": 3.3237986588761754,
+      "rigid_translation_removed_mm": 15.34370281126964
+    },
+    {
+      "subject": "010",
+      "phase": "ES",
+      "median_displacement_mm": 1.985053495897731,
+      "p95_displacement_mm": 5.88213267548026,
+      "rms_displacement_mm": 3.3322652613416426,
+      "rigid_rotation_removed_deg": 4.083861696184545,
+      "rigid_translation_removed_mm": 19.525461487297324
+    },
+    {
+      "subject": "011",
+      "phase": "ED",
+      "median_displacement_mm": 2.4218788690163686,
+      "p95_displacement_mm": 6.874967064616605,
+      "rms_displacement_mm": 3.952584394059493,
+      "rigid_rotation_removed_deg": 3.003702376200821,
+      "rigid_translation_removed_mm": 17.085258434169116
+    },
+    {
+      "subject": "011",
+      "phase": "ES",
+      "median_displacement_mm": 3.082243209955123,
+      "p95_displacement_mm": 6.992115782201023,
+      "rms_displacement_mm": 3.8209356026346133,
+      "rigid_rotation_removed_deg": 4.933029930811386,
+      "rigid_translation_removed_mm": 14.065560524541725
+    },
+    {
+      "subject": "012",
+      "phase": "ED",
+      "median_displacement_mm": 2.7419890054109333,
+      "p95_displacement_mm": 5.327711838478442,
+      "rms_displacement_mm": 2.9734347102389105,
+      "rigid_rotation_removed_deg": 11.27506434937234,
+      "rigid_translation_removed_mm": 24.605607819352898
+    },
+    {
+      "subject": "012",
+      "phase": "ES",
+      "median_displacement_mm": 3.8496190343864622,
+      "p95_displacement_mm": 5.716719357115425,
+      "rms_displacement_mm": 3.7351926251058942,
+      "rigid_rotation_removed_deg": 12.076644329626346,
+      "rigid_translation_removed_mm": 24.152340979604944
+    },
+    {
+      "subject": "013",
+      "phase": "ED",
+      "median_displacement_mm": 0.7856599019077289,
+      "p95_displacement_mm": 2.1195024589780886,
+      "rms_displacement_mm": 1.1274625594979486,
+      "rigid_rotation_removed_deg": 2.17535744461834,
+      "rigid_translation_removed_mm": 6.840583448971606
+    },
+    {
+      "subject": "013",
+      "phase": "ES",
+      "median_displacement_mm": 1.5787834947049932,
+      "p95_displacement_mm": 2.8556696183581165,
+      "rms_displacement_mm": 1.7379206134450391,
+      "rigid_rotation_removed_deg": 5.687558889559026,
+      "rigid_translation_removed_mm": 16.22865450082361
+    },
+    {
+      "subject": "014",
+      "phase": "ED",
+      "median_displacement_mm": 1.8973090002186754,
+      "p95_displacement_mm": 2.832272322009481,
+      "rms_displacement_mm": 1.7954911537037848,
+      "rigid_rotation_removed_deg": 1.6943352399823692,
+      "rigid_translation_removed_mm": 5.258382154890489
+    },
+    {
+      "subject": "014",
+      "phase": "ES",
+      "median_displacement_mm": 2.481174445751826,
+      "p95_displacement_mm": 3.075119869778439,
+      "rms_displacement_mm": 2.1851878149507695,
+      "rigid_rotation_removed_deg": 0.46618214489423865,
+      "rigid_translation_removed_mm": 2.645096895855117
+    },
+    {
+      "subject": "015",
+      "phase": "ED",
+      "median_displacement_mm": 3.2769039700695197,
+      "p95_displacement_mm": 5.747808662677814,
+      "rms_displacement_mm": 3.6951631523953585,
+      "rigid_rotation_removed_deg": 3.353519646315436,
+      "rigid_translation_removed_mm": 10.813834141571013
+    },
+    {
+      "subject": "015",
+      "phase": "ES",
+      "median_displacement_mm": 2.4725648603020685,
+      "p95_displacement_mm": 5.216580280448448,
+      "rms_displacement_mm": 3.091929766157886,
+      "rigid_rotation_removed_deg": 3.4863788900320425,
+      "rigid_translation_removed_mm": 11.248214444513467
+    },
+    {
+      "subject": "016",
+      "phase": "ED",
+      "median_displacement_mm": 2.17333169496021,
+      "p95_displacement_mm": 5.439796028632667,
+      "rms_displacement_mm": 2.846148819855057,
+      "rigid_rotation_removed_deg": 0.5669790563080422,
+      "rigid_translation_removed_mm": 1.7712047921486513
+    },
+    {
+      "subject": "016",
+      "phase": "ES",
+      "median_displacement_mm": 1.941332612338542,
+      "p95_displacement_mm": 5.361570719962149,
+      "rms_displacement_mm": 2.7729560929452024,
+      "rigid_rotation_removed_deg": 2.377902576840427,
+      "rigid_translation_removed_mm": 4.678333617352542
+    },
+    {
+      "subject": "017",
+      "phase": "ED",
+      "median_displacement_mm": 1.5335116860345448,
+      "p95_displacement_mm": 3.9737328131749647,
+      "rms_displacement_mm": 2.2305169250115022,
+      "rigid_rotation_removed_deg": 4.555442269561819,
+      "rigid_translation_removed_mm": 12.067096430680854
+    },
+    {
+      "subject": "017",
+      "phase": "ES",
+      "median_displacement_mm": 1.4403603409770596,
+      "p95_displacement_mm": 4.893240278681978,
+      "rms_displacement_mm": 2.4105586972015867,
+      "rigid_rotation_removed_deg": 6.586360106790597,
+      "rigid_translation_removed_mm": 11.549399436580018
+    },
+    {
+      "subject": "018",
+      "phase": "ED",
+      "median_displacement_mm": 3.925035243107368,
+      "p95_displacement_mm": 8.033381703456543,
+      "rms_displacement_mm": 4.813294403019845,
+      "rigid_rotation_removed_deg": 5.867198633181761,
+      "rigid_translation_removed_mm": 62.53961068979728
+    },
+    {
+      "subject": "018",
+      "phase": "ES",
+      "median_displacement_mm": 2.544533153052,
+      "p95_displacement_mm": 7.1436160870480245,
+      "rms_displacement_mm": 3.7567096086823324,
+      "rigid_rotation_removed_deg": 13.024262127734797,
+      "rigid_translation_removed_mm": 64.44216129601283
+    },
+    {
+      "subject": "019",
+      "phase": "ED",
+      "median_displacement_mm": 2.3423195955023677,
+      "p95_displacement_mm": 4.73845068373455,
+      "rms_displacement_mm": 2.745765359246638,
+      "rigid_rotation_removed_deg": 3.3341547266301705,
+      "rigid_translation_removed_mm": 8.0482763539888
+    },
+    {
+      "subject": "019",
+      "phase": "ES",
+      "median_displacement_mm": 1.7221211498392777,
+      "p95_displacement_mm": 4.838057063448552,
+      "rms_displacement_mm": 2.6893857805854835,
+      "rigid_rotation_removed_deg": 2.7658675253762617,
+      "rigid_translation_removed_mm": 9.101950369560235
+    },
+    {
+      "subject": "020",
+      "phase": "ED",
+      "median_displacement_mm": 2.6467141022167096,
+      "p95_displacement_mm": 6.46784794981088,
+      "rms_displacement_mm": 3.676018999499351,
+      "rigid_rotation_removed_deg": 6.113740565545509,
+      "rigid_translation_removed_mm": 9.074459408126799
+    },
+    {
+      "subject": "020",
+      "phase": "ES",
+      "median_displacement_mm": 1.7313326526603927,
+      "p95_displacement_mm": 5.66447460769155,
+      "rms_displacement_mm": 2.76701408087326,
+      "rigid_rotation_removed_deg": 6.179676694496569,
+      "rigid_translation_removed_mm": 13.295720903378912
+    },
+    {
+      "subject": "021",
+      "phase": "ED",
+      "median_displacement_mm": 3.2683760570713036,
+      "p95_displacement_mm": 5.3660452123591895,
+      "rms_displacement_mm": 3.4584418269184365,
+      "rigid_rotation_removed_deg": 7.739193534055509,
+      "rigid_translation_removed_mm": 20.074703310848758
+    },
+    {
+      "subject": "021",
+      "phase": "ES",
+      "median_displacement_mm": 3.35661587389267,
+      "p95_displacement_mm": 4.397988004032151,
+      "rms_displacement_mm": 2.9945659737439843,
+      "rigid_rotation_removed_deg": 11.180416692035996,
+      "rigid_translation_removed_mm": 25.087842282346237
+    },
+    {
+      "subject": "022",
+      "phase": "ED",
+      "median_displacement_mm": 2.6065351535909174,
+      "p95_displacement_mm": 3.630951304435617,
+      "rms_displacement_mm": 2.411294217922332,
+      "rigid_rotation_removed_deg": 4.524991510102534,
+      "rigid_translation_removed_mm": 15.130149097941258
+    },
+    {
+      "subject": "022",
+      "phase": "ES",
+      "median_displacement_mm": 2.4437222489443524,
+      "p95_displacement_mm": 3.7853736413893997,
+      "rms_displacement_mm": 2.4126472967390415,
+      "rigid_rotation_removed_deg": 4.374774904672397,
+      "rigid_translation_removed_mm": 15.368342072417965
+    },
+    {
+      "subject": "023",
+      "phase": "ED",
+      "median_displacement_mm": 2.0845274657200763,
+      "p95_displacement_mm": 6.6195304205104035,
+      "rms_displacement_mm": 3.2107915814492007,
+      "rigid_rotation_removed_deg": 6.203285276927227,
+      "rigid_translation_removed_mm": 12.423852845430904
+    },
+    {
+      "subject": "023",
+      "phase": "ES",
+      "median_displacement_mm": 1.536019865796975,
+      "p95_displacement_mm": 3.6454516596561897,
+      "rms_displacement_mm": 1.8114628784010813,
+      "rigid_rotation_removed_deg": 6.582670703397871,
+      "rigid_translation_removed_mm": 12.58481801120143
+    },
+    {
+      "subject": "024",
+      "phase": "ED",
+      "median_displacement_mm": 0.808072438792542,
+      "p95_displacement_mm": 2.518779071918187,
+      "rms_displacement_mm": 1.2661122805017109,
+      "rigid_rotation_removed_deg": 4.032907175125868,
+      "rigid_translation_removed_mm": 9.429976546235338
+    },
+    {
+      "subject": "024",
+      "phase": "ES",
+      "median_displacement_mm": 0.7932350935723104,
+      "p95_displacement_mm": 1.6163062393020518,
+      "rms_displacement_mm": 0.8989019782384016,
+      "rigid_rotation_removed_deg": 4.317714236941986,
+      "rigid_translation_removed_mm": 7.547325599970669
+    },
+    {
+      "subject": "025",
+      "phase": "ED",
+      "median_displacement_mm": 2.7918253628328262,
+      "p95_displacement_mm": 7.641084366249673,
+      "rms_displacement_mm": 4.399087184555915,
+      "rigid_rotation_removed_deg": 4.746934698679689,
+      "rigid_translation_removed_mm": 10.40348512295228
+    },
+    {
+      "subject": "025",
+      "phase": "ES",
+      "median_displacement_mm": 1.7088262453893885,
+      "p95_displacement_mm": 5.347057745616415,
+      "rms_displacement_mm": 2.941331214396953,
+      "rigid_rotation_removed_deg": 6.220298721599866,
+      "rigid_translation_removed_mm": 12.97134580427459
+    },
+    {
+      "subject": "026",
+      "phase": "ED",
+      "median_displacement_mm": 3.4188449342649174,
+      "p95_displacement_mm": 6.220232244447515,
+      "rms_displacement_mm": 3.645826688613868,
+      "rigid_rotation_removed_deg": 2.778361676655795,
+      "rigid_translation_removed_mm": 9.553407611453837
+    },
+    {
+      "subject": "026",
+      "phase": "ES",
+      "median_displacement_mm": 2.5021429871428547,
+      "p95_displacement_mm": 4.1491154412083535,
+      "rms_displacement_mm": 2.5178057701073797,
+      "rigid_rotation_removed_deg": 4.477325235898214,
+      "rigid_translation_removed_mm": 13.019677174085215
+    },
+    {
+      "subject": "027",
+      "phase": "ED",
+      "median_displacement_mm": 3.24687118024709,
+      "p95_displacement_mm": 6.889607795563496,
+      "rms_displacement_mm": 4.067237769732287,
+      "rigid_rotation_removed_deg": 7.7446334332284925,
+      "rigid_translation_removed_mm": 36.095265008411836
+    },
+    {
+      "subject": "027",
+      "phase": "ES",
+      "median_displacement_mm": 3.4658555432328826,
+      "p95_displacement_mm": 8.29242695115751,
+      "rms_displacement_mm": 4.386929638278426,
+      "rigid_rotation_removed_deg": 4.018830395452094,
+      "rigid_translation_removed_mm": 23.987351059231585
+    },
+    {
+      "subject": "028",
+      "phase": "ED",
+      "median_displacement_mm": 4.251787062917177,
+      "p95_displacement_mm": 9.300876046244795,
+      "rms_displacement_mm": 4.99386105653344,
+      "rigid_rotation_removed_deg": 4.431517036617282,
+      "rigid_translation_removed_mm": 6.1744102678541175
+    },
+    {
+      "subject": "028",
+      "phase": "ES",
+      "median_displacement_mm": 3.134126367547117,
+      "p95_displacement_mm": 4.284464198449715,
+      "rms_displacement_mm": 2.875111699199924,
+      "rigid_rotation_removed_deg": 5.1701993761236595,
+      "rigid_translation_removed_mm": 7.39284840583457
+    },
+    {
+      "subject": "029",
+      "phase": "ED",
+      "median_displacement_mm": 2.4702757972777682,
+      "p95_displacement_mm": 9.155881571611518,
+      "rms_displacement_mm": 4.0979106744165925,
+      "rigid_rotation_removed_deg": 12.627567254368142,
+      "rigid_translation_removed_mm": 25.07355533539677
+    },
+    {
+      "subject": "029",
+      "phase": "ES",
+      "median_displacement_mm": 2.696192860788862,
+      "p95_displacement_mm": 6.225030055731451,
+      "rms_displacement_mm": 3.472172615515862,
+      "rigid_rotation_removed_deg": 12.759441789606383,
+      "rigid_translation_removed_mm": 24.80626225714682
+    },
+    {
+      "subject": "030",
+      "phase": "ED",
+      "median_displacement_mm": 1.3575300603982792,
+      "p95_displacement_mm": 3.466166423382488,
+      "rms_displacement_mm": 1.9502430792746983,
+      "rigid_rotation_removed_deg": 2.982447498210145,
+      "rigid_translation_removed_mm": 7.269974053103551
+    },
+    {
+      "subject": "030",
+      "phase": "ES",
+      "median_displacement_mm": 1.2611846228107497,
+      "p95_displacement_mm": 3.1942587121280104,
+      "rms_displacement_mm": 1.7123913314099488,
+      "rigid_rotation_removed_deg": 1.712664596590401,
+      "rigid_translation_removed_mm": 4.119151404023411
+    },
+    {
+      "subject": "031",
+      "phase": "ED",
+      "median_displacement_mm": 3.4887307411737343,
+      "p95_displacement_mm": 5.159956783276512,
+      "rms_displacement_mm": 3.433384688638055,
+      "rigid_rotation_removed_deg": 2.2915998885717834,
+      "rigid_translation_removed_mm": 9.393672275961997
+    },
+    {
+      "subject": "031",
+      "phase": "ES",
+      "median_displacement_mm": 2.3992189862210784,
+      "p95_displacement_mm": 5.069344191064063,
+      "rms_displacement_mm": 2.9393824573700487,
+      "rigid_rotation_removed_deg": 2.7427223266639773,
+      "rigid_translation_removed_mm": 12.982062759715786
+    },
+    {
+      "subject": "032",
+      "phase": "ED",
+      "median_displacement_mm": 3.2169656247893412,
+      "p95_displacement_mm": 5.9620675251697755,
+      "rms_displacement_mm": 3.696068112064812,
+      "rigid_rotation_removed_deg": 15.426995379263358,
+      "rigid_translation_removed_mm": 53.658268577718836
+    },
+    {
+      "subject": "032",
+      "phase": "ES",
+      "median_displacement_mm": 4.991158486779459,
+      "p95_displacement_mm": 6.906921997332066,
+      "rms_displacement_mm": 4.66904673337215,
+      "rigid_rotation_removed_deg": 15.538134961399027,
+      "rigid_translation_removed_mm": 56.41487321698219
+    },
+    {
+      "subject": "033",
+      "phase": "ED",
+      "median_displacement_mm": 1.6414067820733,
+      "p95_displacement_mm": 3.8527293858626837,
+      "rms_displacement_mm": 1.9232075025049122,
+      "rigid_rotation_removed_deg": 1.4031941957484355,
+      "rigid_translation_removed_mm": 3.0540203353979067
+    },
+    {
+      "subject": "033",
+      "phase": "ES",
+      "median_displacement_mm": 1.7762401331021151,
+      "p95_displacement_mm": 3.145081290620892,
+      "rms_displacement_mm": 1.9127613948677327,
+      "rigid_rotation_removed_deg": 1.2454061273704689,
+      "rigid_translation_removed_mm": 4.170244032919722
+    },
+    {
+      "subject": "034",
+      "phase": "ED",
+      "median_displacement_mm": 1.8814491141790852,
+      "p95_displacement_mm": 5.322887261769238,
+      "rms_displacement_mm": 2.603105636979193,
+      "rigid_rotation_removed_deg": 2.2992538737659762,
+      "rigid_translation_removed_mm": 4.6855812305884825
+    },
+    {
+      "subject": "034",
+      "phase": "ES",
+      "median_displacement_mm": 1.6536951258299806,
+      "p95_displacement_mm": 4.861714177552048,
+      "rms_displacement_mm": 2.353373939814101,
+      "rigid_rotation_removed_deg": 3.438338685484085,
+      "rigid_translation_removed_mm": 6.814804119647393
+    },
+    {
+      "subject": "035",
+      "phase": "ED",
+      "median_displacement_mm": 2.5714218902379438,
+      "p95_displacement_mm": 3.710504143404098,
+      "rms_displacement_mm": 2.414989562599431,
+      "rigid_rotation_removed_deg": 2.7430728763921257,
+      "rigid_translation_removed_mm": 3.705963651566359
+    },
+    {
+      "subject": "035",
+      "phase": "ES",
+      "median_displacement_mm": 2.1039623239060274,
+      "p95_displacement_mm": 3.145437321769516,
+      "rms_displacement_mm": 1.992562873743637,
+      "rigid_rotation_removed_deg": 3.1641906716879147,
+      "rigid_translation_removed_mm": 3.688633274297251
+    },
+    {
+      "subject": "036",
+      "phase": "ED",
+      "median_displacement_mm": 2.4868306493951438,
+      "p95_displacement_mm": 5.263494229333883,
+      "rms_displacement_mm": 3.127251232615721,
+      "rigid_rotation_removed_deg": 1.3968244531474472,
+      "rigid_translation_removed_mm": 4.799018994912877
+    },
+    {
+      "subject": "036",
+      "phase": "ES",
+      "median_displacement_mm": 1.6717143927441696,
+      "p95_displacement_mm": 4.152963418370658,
+      "rms_displacement_mm": 2.328116689132121,
+      "rigid_rotation_removed_deg": 1.4653889677890768,
+      "rigid_translation_removed_mm": 3.035341138098082
+    },
+    {
+      "subject": "037",
+      "phase": "ED",
+      "median_displacement_mm": 3.1050849435731775,
+      "p95_displacement_mm": 3.9612458041821257,
+      "rms_displacement_mm": 2.776407051183707,
+      "rigid_rotation_removed_deg": 3.2776734416551143,
+      "rigid_translation_removed_mm": 6.952962223663782
+    },
+    {
+      "subject": "037",
+      "phase": "ES",
+      "median_displacement_mm": 3.486295958898426,
+      "p95_displacement_mm": 4.577335751430796,
+      "rms_displacement_mm": 3.2864080501209716,
+      "rigid_rotation_removed_deg": 4.8856221616329805,
+      "rigid_translation_removed_mm": 8.26507173766459
+    },
+    {
+      "subject": "038",
+      "phase": "ED",
+      "median_displacement_mm": 7.120933516523464,
+      "p95_displacement_mm": 8.37640502195392,
+      "rms_displacement_mm": 6.15019554988776,
+      "rigid_rotation_removed_deg": 7.408927881999045,
+      "rigid_translation_removed_mm": 15.425781654718085
+    },
+    {
+      "subject": "038",
+      "phase": "ES",
+      "median_displacement_mm": 6.496990764419174,
+      "p95_displacement_mm": 7.122029297641368,
+      "rms_displacement_mm": 5.4607997833585395,
+      "rigid_rotation_removed_deg": 6.7294572551341805,
+      "rigid_translation_removed_mm": 21.726046789522094
+    },
+    {
+      "subject": "039",
+      "phase": "ED",
+      "median_displacement_mm": 1.3615303862659711,
+      "p95_displacement_mm": 1.8730122639414617,
+      "rms_displacement_mm": 1.3062593744405766,
+      "rigid_rotation_removed_deg": 2.107078377883031,
+      "rigid_translation_removed_mm": 3.4796875458598984
+    },
+    {
+      "subject": "039",
+      "phase": "ES",
+      "median_displacement_mm": 1.1162778600740075,
+      "p95_displacement_mm": 2.781753051918098,
+      "rms_displacement_mm": 1.63852907733658,
+      "rigid_rotation_removed_deg": 5.65767345943299,
+      "rigid_translation_removed_mm": 13.761797264567385
+    },
+    {
+      "subject": "040",
+      "phase": "ED",
+      "median_displacement_mm": 3.319897642576863,
+      "p95_displacement_mm": 8.87776531229559,
+      "rms_displacement_mm": 4.3581364203126585,
+      "rigid_rotation_removed_deg": 2.636840867480539,
+      "rigid_translation_removed_mm": 5.733965058957743
+    },
+    {
+      "subject": "040",
+      "phase": "ES",
+      "median_displacement_mm": 2.918098966202687,
+      "p95_displacement_mm": 3.603172026018548,
+      "rms_displacement_mm": 2.576567412487095,
+      "rigid_rotation_removed_deg": 6.6436106782232,
+      "rigid_translation_removed_mm": 9.760883121129083
+    },
+    {
+      "subject": "041",
+      "phase": "ED",
+      "median_displacement_mm": 1.9770501568547372,
+      "p95_displacement_mm": 5.5468967118082695,
+      "rms_displacement_mm": 2.9121692659542657,
+      "rigid_rotation_removed_deg": 2.3225133146573396,
+      "rigid_translation_removed_mm": 2.4846198009749183
+    },
+    {
+      "subject": "041",
+      "phase": "ES",
+      "median_displacement_mm": 1.4492686891046056,
+      "p95_displacement_mm": 3.767595904011392,
+      "rms_displacement_mm": 2.0572969961267704,
+      "rigid_rotation_removed_deg": 2.1769175721853276,
+      "rigid_translation_removed_mm": 4.3741241374400515
+    },
+    {
+      "subject": "042",
+      "phase": "ED",
+      "median_displacement_mm": 2.535325233040845,
+      "p95_displacement_mm": 5.941676259143639,
+      "rms_displacement_mm": 3.281611589467595,
+      "rigid_rotation_removed_deg": 5.578345356650742,
+      "rigid_translation_removed_mm": 9.880709984808146
+    },
+    {
+      "subject": "042",
+      "phase": "ES",
+      "median_displacement_mm": 2.022359898295878,
+      "p95_displacement_mm": 3.246258825345547,
+      "rms_displacement_mm": 2.0562483342099385,
+      "rigid_rotation_removed_deg": 8.679846252299383,
+      "rigid_translation_removed_mm": 19.01034813446151
+    },
+    {
+      "subject": "043",
+      "phase": "ED",
+      "median_displacement_mm": 1.4122754967477014,
+      "p95_displacement_mm": 3.6039320698162403,
+      "rms_displacement_mm": 1.9203216094367193,
+      "rigid_rotation_removed_deg": 1.8269731693530256,
+      "rigid_translation_removed_mm": 2.3386209784251353
+    },
+    {
+      "subject": "043",
+      "phase": "ES",
+      "median_displacement_mm": 1.352523270397282,
+      "p95_displacement_mm": 2.9281148485972586,
+      "rms_displacement_mm": 1.7057596767658663,
+      "rigid_rotation_removed_deg": 2.5939530874707297,
+      "rigid_translation_removed_mm": 2.8647853561671193
+    },
+    {
+      "subject": "044",
+      "phase": "ED",
+      "median_displacement_mm": 1.4104248751818396,
+      "p95_displacement_mm": 3.243281892038882,
+      "rms_displacement_mm": 1.7378984987870434,
+      "rigid_rotation_removed_deg": 0.8457433127841447,
+      "rigid_translation_removed_mm": 3.7019323708233434
+    },
+    {
+      "subject": "044",
+      "phase": "ES",
+      "median_displacement_mm": 1.0349757997185678,
+      "p95_displacement_mm": 2.8929163621374987,
+      "rms_displacement_mm": 1.4136752542658961,
+      "rigid_rotation_removed_deg": 1.0536790129315987,
+      "rigid_translation_removed_mm": 2.491635856265125
+    },
+    {
+      "subject": "045",
+      "phase": "ED",
+      "median_displacement_mm": 4.289830389408469,
+      "p95_displacement_mm": 6.2349131013897425,
+      "rms_displacement_mm": 3.955092097019227,
+      "rigid_rotation_removed_deg": 7.268858453237086,
+      "rigid_translation_removed_mm": 9.97605466654414
+    },
+    {
+      "subject": "045",
+      "phase": "ES",
+      "median_displacement_mm": 1.8839526910604052,
+      "p95_displacement_mm": 4.5408050229686525,
+      "rms_displacement_mm": 2.480926978063346,
+      "rigid_rotation_removed_deg": 6.74142844379339,
+      "rigid_translation_removed_mm": 9.333907450487978
+    },
+    {
+      "subject": "046",
+      "phase": "ED",
+      "median_displacement_mm": 3.7484828958113674,
+      "p95_displacement_mm": 5.621116557119946,
+      "rms_displacement_mm": 3.849408404927638,
+      "rigid_rotation_removed_deg": 3.3767790334244148,
+      "rigid_translation_removed_mm": 7.6939033282494105
+    },
+    {
+      "subject": "046",
+      "phase": "ES",
+      "median_displacement_mm": 2.8801785346439193,
+      "p95_displacement_mm": 5.078297406734311,
+      "rms_displacement_mm": 3.2253749579364466,
+      "rigid_rotation_removed_deg": 4.9947146133227935,
+      "rigid_translation_removed_mm": 17.671502647623345
+    },
+    {
+      "subject": "047",
+      "phase": "ED",
+      "median_displacement_mm": 1.1611022608577257,
+      "p95_displacement_mm": 3.8778497830361984,
+      "rms_displacement_mm": 1.8277810278527513,
+      "rigid_rotation_removed_deg": 3.7169473653098835,
+      "rigid_translation_removed_mm": 2.413088681597139
+    },
+    {
+      "subject": "047",
+      "phase": "ES",
+      "median_displacement_mm": 1.1086170675321345,
+      "p95_displacement_mm": 2.201540572512766,
+      "rms_displacement_mm": 1.187981360811384,
+      "rigid_rotation_removed_deg": 4.5590031362585615,
+      "rigid_translation_removed_mm": 5.041554857360916
+    },
+    {
+      "subject": "048",
+      "phase": "ED",
+      "median_displacement_mm": 3.2353299930495933,
+      "p95_displacement_mm": 6.358062349885612,
+      "rms_displacement_mm": 3.8419477206755404,
+      "rigid_rotation_removed_deg": 5.070011855296504,
+      "rigid_translation_removed_mm": 13.309753655175475
+    },
+    {
+      "subject": "048",
+      "phase": "ES",
+      "median_displacement_mm": 2.5835643739821603,
+      "p95_displacement_mm": 5.373811922131467,
+      "rms_displacement_mm": 3.10810874293922,
+      "rigid_rotation_removed_deg": 5.025813484541675,
+      "rigid_translation_removed_mm": 15.033752865269905
+    },
+    {
+      "subject": "049",
+      "phase": "ED",
+      "median_displacement_mm": 3.3713547659577197,
+      "p95_displacement_mm": 8.164206558901569,
+      "rms_displacement_mm": 4.368381728382261,
+      "rigid_rotation_removed_deg": 9.856605095682346,
+      "rigid_translation_removed_mm": 16.169613792699064
+    },
+    {
+      "subject": "049",
+      "phase": "ES",
+      "median_displacement_mm": 2.0247376346799815,
+      "p95_displacement_mm": 5.92844381631879,
+      "rms_displacement_mm": 3.1081164218922397,
+      "rigid_rotation_removed_deg": 10.502542144768158,
+      "rigid_translation_removed_mm": 15.614735115270577
+    },
+    {
+      "subject": "050",
+      "phase": "ED",
+      "median_displacement_mm": 3.760453625798052,
+      "p95_displacement_mm": 7.271947476120163,
+      "rms_displacement_mm": 4.395928705012473,
+      "rigid_rotation_removed_deg": 3.2050930557099253,
+      "rigid_translation_removed_mm": 10.62373133581095
+    },
+    {
+      "subject": "050",
+      "phase": "ES",
+      "median_displacement_mm": 3.1207596719886515,
+      "p95_displacement_mm": 5.274794687670133,
+      "rms_displacement_mm": 3.3691241604386195,
+      "rigid_rotation_removed_deg": 4.369277711280298,
+      "rigid_translation_removed_mm": 8.35166461842347
+    },
+    {
+      "subject": "051",
+      "phase": "ED",
+      "median_displacement_mm": 1.6289195383968387,
+      "p95_displacement_mm": 2.311863517459318,
+      "rms_displacement_mm": 1.5575465968349689,
+      "rigid_rotation_removed_deg": 1.072233566352843,
+      "rigid_translation_removed_mm": 3.0528604942209006
+    },
+    {
+      "subject": "051",
+      "phase": "ES",
+      "median_displacement_mm": 1.4927652414013004,
+      "p95_displacement_mm": 2.5322327028904805,
+      "rms_displacement_mm": 1.5305236169029162,
+      "rigid_rotation_removed_deg": 2.2007282080767934,
+      "rigid_translation_removed_mm": 2.012804667389905
+    },
+    {
+      "subject": "052",
+      "phase": "ED",
+      "median_displacement_mm": 1.921402664966731,
+      "p95_displacement_mm": 6.7198851479856545,
+      "rms_displacement_mm": 3.3217808998438647,
+      "rigid_rotation_removed_deg": 4.646028178084299,
+      "rigid_translation_removed_mm": 9.013597668429552
+    },
+    {
+      "subject": "052",
+      "phase": "ES",
+      "median_displacement_mm": 1.6618321493073964,
+      "p95_displacement_mm": 3.9524254762256446,
+      "rms_displacement_mm": 2.289154317161787,
+      "rigid_rotation_removed_deg": 7.082447493719445,
+      "rigid_translation_removed_mm": 13.213240557082933
+    },
+    {
+      "subject": "053",
+      "phase": "ED",
+      "median_displacement_mm": 4.777579781971657,
+      "p95_displacement_mm": 12.243367777636887,
+      "rms_displacement_mm": 6.177760462628257,
+      "rigid_rotation_removed_deg": 7.287633942303017,
+      "rigid_translation_removed_mm": 19.726537818504248
+    },
+    {
+      "subject": "053",
+      "phase": "ES",
+      "median_displacement_mm": 4.959464894182704,
+      "p95_displacement_mm": 12.54898358406399,
+      "rms_displacement_mm": 6.317911209226342,
+      "rigid_rotation_removed_deg": 8.754564925219581,
+      "rigid_translation_removed_mm": 24.308342773081705
+    },
+    {
+      "subject": "054",
+      "phase": "ED",
+      "median_displacement_mm": 1.3052627365132954,
+      "p95_displacement_mm": 2.9446970106914696,
+      "rms_displacement_mm": 1.71734853566332,
+      "rigid_rotation_removed_deg": 1.1170660732074305,
+      "rigid_translation_removed_mm": 0.9515564494368658
+    },
+    {
+      "subject": "054",
+      "phase": "ES",
+      "median_displacement_mm": 1.2607430620299418,
+      "p95_displacement_mm": 4.855664031213953,
+      "rms_displacement_mm": 2.254082733157333,
+      "rigid_rotation_removed_deg": 4.006060384481899,
+      "rigid_translation_removed_mm": 7.72842961266365
+    },
+    {
+      "subject": "055",
+      "phase": "ED",
+      "median_displacement_mm": 2.0860049816834816,
+      "p95_displacement_mm": 5.231874607535225,
+      "rms_displacement_mm": 2.601406860022348,
+      "rigid_rotation_removed_deg": 4.116793850245194,
+      "rigid_translation_removed_mm": 6.295255170983556
+    },
+    {
+      "subject": "055",
+      "phase": "ES",
+      "median_displacement_mm": 3.9651766527287067,
+      "p95_displacement_mm": 5.140280128258927,
+      "rms_displacement_mm": 3.5750221520428864,
+      "rigid_rotation_removed_deg": 7.232880451501377,
+      "rigid_translation_removed_mm": 17.034290520805595
+    },
+    {
+      "subject": "056",
+      "phase": "ED",
+      "median_displacement_mm": 5.985752918034344,
+      "p95_displacement_mm": 9.492580738975668,
+      "rms_displacement_mm": 5.9233491819378035,
+      "rigid_rotation_removed_deg": 4.938835742397366,
+      "rigid_translation_removed_mm": 14.730333460822331
+    },
+    {
+      "subject": "056",
+      "phase": "ES",
+      "median_displacement_mm": 1.1918864947276449,
+      "p95_displacement_mm": 4.080646686850082,
+      "rms_displacement_mm": 1.9576867966186609,
+      "rigid_rotation_removed_deg": 8.306963695108793,
+      "rigid_translation_removed_mm": 15.996838606688797
+    },
+    {
+      "subject": "057",
+      "phase": "ED",
+      "median_displacement_mm": 2.377273120724214,
+      "p95_displacement_mm": 4.43650186901075,
+      "rms_displacement_mm": 2.5653248137883393,
+      "rigid_rotation_removed_deg": 1.9945475521898377,
+      "rigid_translation_removed_mm": 2.5644957247318345
+    },
+    {
+      "subject": "057",
+      "phase": "ES",
+      "median_displacement_mm": 1.2475296646425846,
+      "p95_displacement_mm": 2.1788826649500455,
+      "rms_displacement_mm": 1.398060336992272,
+      "rigid_rotation_removed_deg": 2.952327732750795,
+      "rigid_translation_removed_mm": 0.4167145380959666
+    },
+    {
+      "subject": "058",
+      "phase": "ED",
+      "median_displacement_mm": 1.77390324724627,
+      "p95_displacement_mm": 5.184502722623016,
+      "rms_displacement_mm": 2.5732380033334645,
+      "rigid_rotation_removed_deg": 2.7079311727019957,
+      "rigid_translation_removed_mm": 4.213472838816819
+    },
+    {
+      "subject": "058",
+      "phase": "ES",
+      "median_displacement_mm": 2.1578874067696985,
+      "p95_displacement_mm": 4.629549140467562,
+      "rms_displacement_mm": 2.5193221073948577,
+      "rigid_rotation_removed_deg": 3.7819869623365157,
+      "rigid_translation_removed_mm": 2.307179042612991
+    },
+    {
+      "subject": "059",
+      "phase": "ED",
+      "median_displacement_mm": 2.316642047007464,
+      "p95_displacement_mm": 3.1767129835084384,
+      "rms_displacement_mm": 2.126605156271604,
+      "rigid_rotation_removed_deg": 3.7406845446329786,
+      "rigid_translation_removed_mm": 8.265449130274698
+    },
+    {
+      "subject": "059",
+      "phase": "ES",
+      "median_displacement_mm": 1.6249035020706675,
+      "p95_displacement_mm": 2.453851759025967,
+      "rms_displacement_mm": 1.6463832473117732,
+      "rigid_rotation_removed_deg": 3.927617540851963,
+      "rigid_translation_removed_mm": 6.29284261209908
+    },
+    {
+      "subject": "060",
+      "phase": "ED",
+      "median_displacement_mm": 0.7388966124325907,
+      "p95_displacement_mm": 2.4598716134595504,
+      "rms_displacement_mm": 1.1695336275426382,
+      "rigid_rotation_removed_deg": 2.6232771741927223,
+      "rigid_translation_removed_mm": 6.893822518145245
+    },
+    {
+      "subject": "060",
+      "phase": "ES",
+      "median_displacement_mm": 1.2239130094972892,
+      "p95_displacement_mm": 3.9570128071679136,
+      "rms_displacement_mm": 1.8896094315450824,
+      "rigid_rotation_removed_deg": 3.3635751658343986,
+      "rigid_translation_removed_mm": 6.650106005424191
+    },
+    {
+      "subject": "061",
+      "phase": "ED",
+      "median_displacement_mm": 1.2711884807874418,
+      "p95_displacement_mm": 4.078186216923545,
+      "rms_displacement_mm": 1.957199406450879,
+      "rigid_rotation_removed_deg": 3.401472960514932,
+      "rigid_translation_removed_mm": 4.807086420464226
+    },
+    {
+      "subject": "061",
+      "phase": "ES",
+      "median_displacement_mm": 1.3517444389801574,
+      "p95_displacement_mm": 2.7208982627366876,
+      "rms_displacement_mm": 1.557086573251052,
+      "rigid_rotation_removed_deg": 6.8698213102620675,
+      "rigid_translation_removed_mm": 10.157368696117356
+    },
+    {
+      "subject": "062",
+      "phase": "ED",
+      "median_displacement_mm": 2.950211832542717,
+      "p95_displacement_mm": 4.958590473470495,
+      "rms_displacement_mm": 3.1704739480756468,
+      "rigid_rotation_removed_deg": 3.598471308485848,
+      "rigid_translation_removed_mm": 7.058595793388033
+    },
+    {
+      "subject": "062",
+      "phase": "ES",
+      "median_displacement_mm": 2.205436979969665,
+      "p95_displacement_mm": 3.4495056781511515,
+      "rms_displacement_mm": 2.1668821320154374,
+      "rigid_rotation_removed_deg": 4.152347709131034,
+      "rigid_translation_removed_mm": 3.734105687813307
+    },
+    {
+      "subject": "063",
+      "phase": "ED",
+      "median_displacement_mm": 2.0209348230002333,
+      "p95_displacement_mm": 5.312215261779353,
+      "rms_displacement_mm": 2.899335431212331,
+      "rigid_rotation_removed_deg": 1.8915590476741897,
+      "rigid_translation_removed_mm": 4.306424382988713
+    },
+    {
+      "subject": "063",
+      "phase": "ES",
+      "median_displacement_mm": 1.984925873979928,
+      "p95_displacement_mm": 3.982151959390294,
+      "rms_displacement_mm": 2.211540074758547,
+      "rigid_rotation_removed_deg": 3.534484843325115,
+      "rigid_translation_removed_mm": 7.87356071220052
+    },
+    {
+      "subject": "064",
+      "phase": "ED",
+      "median_displacement_mm": 2.842639768153598,
+      "p95_displacement_mm": 5.02848254259363,
+      "rms_displacement_mm": 2.983863390433577,
+      "rigid_rotation_removed_deg": 4.993336877737205,
+      "rigid_translation_removed_mm": 7.732007262269974
+    },
+    {
+      "subject": "064",
+      "phase": "ES",
+      "median_displacement_mm": 2.2464997331461687,
+      "p95_displacement_mm": 6.865321365099935,
+      "rms_displacement_mm": 3.359357744106416,
+      "rigid_rotation_removed_deg": 5.630613028673216,
+      "rigid_translation_removed_mm": 5.48032437987306
+    },
+    {
+      "subject": "065",
+      "phase": "ED",
+      "median_displacement_mm": 2.542768884826202,
+      "p95_displacement_mm": 5.158670578719466,
+      "rms_displacement_mm": 2.989885155171799,
+      "rigid_rotation_removed_deg": 13.088790141127065,
+      "rigid_translation_removed_mm": 34.32468886787621
+    },
+    {
+      "subject": "065",
+      "phase": "ES",
+      "median_displacement_mm": 1.4131776439192936,
+      "p95_displacement_mm": 3.6725214238261463,
+      "rms_displacement_mm": 2.0173932648297033,
+      "rigid_rotation_removed_deg": 14.905321624403708,
+      "rigid_translation_removed_mm": 37.26361583795385
+    },
+    {
+      "subject": "066",
+      "phase": "ED",
+      "median_displacement_mm": 3.855134039356031,
+      "p95_displacement_mm": 8.408266890564123,
+      "rms_displacement_mm": 4.855750865648642,
+      "rigid_rotation_removed_deg": 6.698643631017316,
+      "rigid_translation_removed_mm": 32.92174311500449
+    },
+    {
+      "subject": "066",
+      "phase": "ES",
+      "median_displacement_mm": 2.77727745888181,
+      "p95_displacement_mm": 8.19662815731164,
+      "rms_displacement_mm": 4.452856249941009,
+      "rigid_rotation_removed_deg": 10.812966737600721,
+      "rigid_translation_removed_mm": 48.082641283619004
+    },
+    {
+      "subject": "067",
+      "phase": "ED",
+      "median_displacement_mm": 2.782721973231121,
+      "p95_displacement_mm": 4.339747309133255,
+      "rms_displacement_mm": 2.87253307757139,
+      "rigid_rotation_removed_deg": 2.673397486842733,
+      "rigid_translation_removed_mm": 3.1745598376699142
+    },
+    {
+      "subject": "067",
+      "phase": "ES",
+      "median_displacement_mm": 1.2304503924230072,
+      "p95_displacement_mm": 3.550698721217771,
+      "rms_displacement_mm": 1.7886372378315119,
+      "rigid_rotation_removed_deg": 1.3130124582240783,
+      "rigid_translation_removed_mm": 3.6102405195272254
+    },
+    {
+      "subject": "068",
+      "phase": "ED",
+      "median_displacement_mm": 1.389907118129144,
+      "p95_displacement_mm": 2.363851378930569,
+      "rms_displacement_mm": 1.482518289433933,
+      "rigid_rotation_removed_deg": 2.2236832543642504,
+      "rigid_translation_removed_mm": 5.838945429063236
+    },
+    {
+      "subject": "068",
+      "phase": "ES",
+      "median_displacement_mm": 1.2587206245755156,
+      "p95_displacement_mm": 2.5961470256376717,
+      "rms_displacement_mm": 1.505498698774422,
+      "rigid_rotation_removed_deg": 2.771035260617883,
+      "rigid_translation_removed_mm": 6.959930895842045
+    },
+    {
+      "subject": "069",
+      "phase": "ED",
+      "median_displacement_mm": 3.80106664965783,
+      "p95_displacement_mm": 6.781142261405584,
+      "rms_displacement_mm": 4.181114711948634,
+      "rigid_rotation_removed_deg": 5.191162584924104,
+      "rigid_translation_removed_mm": 11.712579622057362
+    },
+    {
+      "subject": "069",
+      "phase": "ES",
+      "median_displacement_mm": 2.21127773616189,
+      "p95_displacement_mm": 4.113057891112663,
+      "rms_displacement_mm": 2.59935622020309,
+      "rigid_rotation_removed_deg": 5.1603569032163366,
+      "rigid_translation_removed_mm": 11.156886012122545
+    },
+    {
+      "subject": "070",
+      "phase": "ED",
+      "median_displacement_mm": 1.4226707786505588,
+      "p95_displacement_mm": 4.75749734081885,
+      "rms_displacement_mm": 2.2602170101147454,
+      "rigid_rotation_removed_deg": 3.74547450738874,
+      "rigid_translation_removed_mm": 10.365772276423568
+    },
+    {
+      "subject": "070",
+      "phase": "ES",
+      "median_displacement_mm": 1.301519775109163,
+      "p95_displacement_mm": 3.538372051690041,
+      "rms_displacement_mm": 1.7763211117702922,
+      "rigid_rotation_removed_deg": 2.923337333429602,
+      "rigid_translation_removed_mm": 7.143328396453668
+    },
+    {
+      "subject": "071",
+      "phase": "ED",
+      "median_displacement_mm": 1.6606039494925038,
+      "p95_displacement_mm": 2.329600116037076,
+      "rms_displacement_mm": 1.5895772030287776,
+      "rigid_rotation_removed_deg": 2.7965928401387012,
+      "rigid_translation_removed_mm": 6.565789345203693
+    },
+    {
+      "subject": "071",
+      "phase": "ES",
+      "median_displacement_mm": 1.6655824705503768,
+      "p95_displacement_mm": 2.027240321993043,
+      "rms_displacement_mm": 1.457976725677088,
+      "rigid_rotation_removed_deg": 2.438787816616881,
+      "rigid_translation_removed_mm": 5.078253698804668
+    },
+    {
+      "subject": "072",
+      "phase": "ED",
+      "median_displacement_mm": 1.919408709591457,
+      "p95_displacement_mm": 6.855300888876323,
+      "rms_displacement_mm": 3.6093358908288122,
+      "rigid_rotation_removed_deg": 3.8057539948194496,
+      "rigid_translation_removed_mm": 28.005344682494513
+    },
+    {
+      "subject": "072",
+      "phase": "ES",
+      "median_displacement_mm": 3.1685389313505885,
+      "p95_displacement_mm": 5.978363274096597,
+      "rms_displacement_mm": 3.4420494018739487,
+      "rigid_rotation_removed_deg": 5.624499959507439,
+      "rigid_translation_removed_mm": 25.96531058516264
+    },
+    {
+      "subject": "073",
+      "phase": "ED",
+      "median_displacement_mm": 5.69202244223149,
+      "p95_displacement_mm": 13.23000546647421,
+      "rms_displacement_mm": 6.8245897024065245,
+      "rigid_rotation_removed_deg": 6.768147646112716,
+      "rigid_translation_removed_mm": 2.190989088698316
+    },
+    {
+      "subject": "073",
+      "phase": "ES",
+      "median_displacement_mm": 2.979263081353527,
+      "p95_displacement_mm": 9.341463206943173,
+      "rms_displacement_mm": 4.317150612781437,
+      "rigid_rotation_removed_deg": 4.603289324259592,
+      "rigid_translation_removed_mm": 7.8895696343399395
+    },
+    {
+      "subject": "074",
+      "phase": "ED",
+      "median_displacement_mm": 1.62300339510121,
+      "p95_displacement_mm": 2.2875863202931743,
+      "rms_displacement_mm": 1.495597910235112,
+      "rigid_rotation_removed_deg": 0.9880037103685578,
+      "rigid_translation_removed_mm": 2.1906534355419325
+    },
+    {
+      "subject": "074",
+      "phase": "ES",
+      "median_displacement_mm": 1.54323618552284,
+      "p95_displacement_mm": 2.258883419134511,
+      "rms_displacement_mm": 1.460213077873054,
+      "rigid_rotation_removed_deg": 1.475085826467056,
+      "rigid_translation_removed_mm": 1.0054364954152446
+    },
+    {
+      "subject": "075",
+      "phase": "ED",
+      "median_displacement_mm": 2.6070054532918263,
+      "p95_displacement_mm": 7.54201568399798,
+      "rms_displacement_mm": 4.024088567911619,
+      "rigid_rotation_removed_deg": 8.232932242593815,
+      "rigid_translation_removed_mm": 12.555893746822154
+    },
+    {
+      "subject": "075",
+      "phase": "ES",
+      "median_displacement_mm": 1.5949234905175904,
+      "p95_displacement_mm": 5.3717226367093565,
+      "rms_displacement_mm": 2.6879821440674796,
+      "rigid_rotation_removed_deg": 7.9799622641706875,
+      "rigid_translation_removed_mm": 10.492298137640498
+    },
+    {
+      "subject": "076",
+      "phase": "ED",
+      "median_displacement_mm": 1.7246021931637332,
+      "p95_displacement_mm": 3.876396018743026,
+      "rms_displacement_mm": 2.3057241404836812,
+      "rigid_rotation_removed_deg": 3.1916689161150873,
+      "rigid_translation_removed_mm": 4.8598141539334305
+    },
+    {
+      "subject": "076",
+      "phase": "ES",
+      "median_displacement_mm": 2.6703937776897515,
+      "p95_displacement_mm": 3.953825966508777,
+      "rms_displacement_mm": 2.6309235570954885,
+      "rigid_rotation_removed_deg": 7.121557711130607,
+      "rigid_translation_removed_mm": 13.670140330741102
+    },
+    {
+      "subject": "077",
+      "phase": "ED",
+      "median_displacement_mm": 4.515213052591954,
+      "p95_displacement_mm": 5.704093740434561,
+      "rms_displacement_mm": 3.93394637584686,
+      "rigid_rotation_removed_deg": 3.5983297990339014,
+      "rigid_translation_removed_mm": 11.028264954867947
+    },
+    {
+      "subject": "077",
+      "phase": "ES",
+      "median_displacement_mm": 2.9688048301624916,
+      "p95_displacement_mm": 4.433948978370899,
+      "rms_displacement_mm": 2.893418588647453,
+      "rigid_rotation_removed_deg": 6.666751391244954,
+      "rigid_translation_removed_mm": 13.202351778841455
+    },
+    {
+      "subject": "078",
+      "phase": "ED",
+      "median_displacement_mm": 3.999823760174721,
+      "p95_displacement_mm": 5.442621069148794,
+      "rms_displacement_mm": 3.698306667301368,
+      "rigid_rotation_removed_deg": 12.084563283097078,
+      "rigid_translation_removed_mm": 14.86554292780593
+    },
+    {
+      "subject": "078",
+      "phase": "ES",
+      "median_displacement_mm": 2.0414407483009267,
+      "p95_displacement_mm": 3.6237038098578247,
+      "rms_displacement_mm": 2.2192791476674425,
+      "rigid_rotation_removed_deg": 11.192734549639203,
+      "rigid_translation_removed_mm": 14.27923866683437
+    },
+    {
+      "subject": "079",
+      "phase": "ED",
+      "median_displacement_mm": 3.3892295838849744,
+      "p95_displacement_mm": 5.03913066408365,
+      "rms_displacement_mm": 3.207314289408844,
+      "rigid_rotation_removed_deg": 1.5429748257766185,
+      "rigid_translation_removed_mm": 5.117544494223759
+    },
+    {
+      "subject": "079",
+      "phase": "ES",
+      "median_displacement_mm": 3.594461112574044,
+      "p95_displacement_mm": 4.270952272478137,
+      "rms_displacement_mm": 3.1941174855654375,
+      "rigid_rotation_removed_deg": 1.5795798148584383,
+      "rigid_translation_removed_mm": 8.271390519617198
+    },
+    {
+      "subject": "080",
+      "phase": "ED",
+      "median_displacement_mm": 2.1253112393474405,
+      "p95_displacement_mm": 5.346502688675006,
+      "rms_displacement_mm": 3.0444362983325597,
+      "rigid_rotation_removed_deg": 5.54956650575491,
+      "rigid_translation_removed_mm": 28.508966329174037
+    },
+    {
+      "subject": "080",
+      "phase": "ES",
+      "median_displacement_mm": 2.4933925404185757,
+      "p95_displacement_mm": 3.9065021748517643,
+      "rms_displacement_mm": 2.5222457100777826,
+      "rigid_rotation_removed_deg": 5.918597450998115,
+      "rigid_translation_removed_mm": 25.10590900655544
+    },
+    {
+      "subject": "081",
+      "phase": "ED",
+      "median_displacement_mm": 2.445849719002803,
+      "p95_displacement_mm": 4.0113838845382634,
+      "rms_displacement_mm": 2.560265806401071,
+      "rigid_rotation_removed_deg": 10.627779176890899,
+      "rigid_translation_removed_mm": 6.89407259264002
+    },
+    {
+      "subject": "081",
+      "phase": "ES",
+      "median_displacement_mm": 1.9118484427943243,
+      "p95_displacement_mm": 4.1583193913150645,
+      "rms_displacement_mm": 2.168609341709318,
+      "rigid_rotation_removed_deg": 9.99600838870754,
+      "rigid_translation_removed_mm": 6.135283996655116
+    },
+    {
+      "subject": "082",
+      "phase": "ED",
+      "median_displacement_mm": 1.2552632487808313,
+      "p95_displacement_mm": 3.9136856106877618,
+      "rms_displacement_mm": 1.909634995424253,
+      "rigid_rotation_removed_deg": 3.5740435356663207,
+      "rigid_translation_removed_mm": 8.63311534930938
+    },
+    {
+      "subject": "082",
+      "phase": "ES",
+      "median_displacement_mm": 0.9119749921939974,
+      "p95_displacement_mm": 2.008411102037915,
+      "rms_displacement_mm": 1.1586411965905214,
+      "rigid_rotation_removed_deg": 7.879952025746503,
+      "rigid_translation_removed_mm": 15.007507257384004
+    },
+    {
+      "subject": "083",
+      "phase": "ED",
+      "median_displacement_mm": 2.6001025988062625,
+      "p95_displacement_mm": 4.443420071310462,
+      "rms_displacement_mm": 2.62683995456238,
+      "rigid_rotation_removed_deg": 5.818917190549995,
+      "rigid_translation_removed_mm": 10.548191593728482
+    },
+    {
+      "subject": "083",
+      "phase": "ES",
+      "median_displacement_mm": 1.4229786973863436,
+      "p95_displacement_mm": 3.983793046784755,
+      "rms_displacement_mm": 2.0746420527396165,
+      "rigid_rotation_removed_deg": 8.895586159677938,
+      "rigid_translation_removed_mm": 18.062514330538328
+    },
+    {
+      "subject": "084",
+      "phase": "ED",
+      "median_displacement_mm": 1.8096563276845403,
+      "p95_displacement_mm": 2.7228425405805203,
+      "rms_displacement_mm": 1.7739095727236995,
+      "rigid_rotation_removed_deg": 1.5130147415515143,
+      "rigid_translation_removed_mm": 1.8234427627455196
+    },
+    {
+      "subject": "084",
+      "phase": "ES",
+      "median_displacement_mm": 1.1434809235087564,
+      "p95_displacement_mm": 1.8211880829501952,
+      "rms_displacement_mm": 1.149189190127835,
+      "rigid_rotation_removed_deg": 2.108928195372138,
+      "rigid_translation_removed_mm": 1.2055403743699658
+    },
+    {
+      "subject": "085",
+      "phase": "ED",
+      "median_displacement_mm": 3.1756939638464767,
+      "p95_displacement_mm": 3.23760461694729,
+      "rms_displacement_mm": 2.6191018366358216,
+      "rigid_rotation_removed_deg": 2.267631539868698,
+      "rigid_translation_removed_mm": 5.744934871332408
+    },
+    {
+      "subject": "085",
+      "phase": "ES",
+      "median_displacement_mm": 2.135270450351505,
+      "p95_displacement_mm": 2.8493521275404157,
+      "rms_displacement_mm": 1.9732305164558677,
+      "rigid_rotation_removed_deg": 1.8376977340682112,
+      "rigid_translation_removed_mm": 4.754145863681643
+    },
+    {
+      "subject": "086",
+      "phase": "ED",
+      "median_displacement_mm": 5.5047405046589475,
+      "p95_displacement_mm": 9.838022547320111,
+      "rms_displacement_mm": 6.062610554034528,
+      "rigid_rotation_removed_deg": 9.280716100883359,
+      "rigid_translation_removed_mm": 30.193817985808586
+    },
+    {
+      "subject": "086",
+      "phase": "ES",
+      "median_displacement_mm": 4.058689137324918,
+      "p95_displacement_mm": 7.934303304277672,
+      "rms_displacement_mm": 4.621262239079077,
+      "rigid_rotation_removed_deg": 11.719747237725995,
+      "rigid_translation_removed_mm": 37.90484283272718
+    },
+    {
+      "subject": "087",
+      "phase": "ED",
+      "median_displacement_mm": 3.0265251729356804,
+      "p95_displacement_mm": 4.511757366062187,
+      "rms_displacement_mm": 3.0412191457233293,
+      "rigid_rotation_removed_deg": 4.21972939882405,
+      "rigid_translation_removed_mm": 4.544192347804483
+    },
+    {
+      "subject": "087",
+      "phase": "ES",
+      "median_displacement_mm": 3.180097954620876,
+      "p95_displacement_mm": 6.305924317300537,
+      "rms_displacement_mm": 3.4904828584729364,
+      "rigid_rotation_removed_deg": 1.0875117092782263,
+      "rigid_translation_removed_mm": 2.597010516109652
+    },
+    {
+      "subject": "088",
+      "phase": "ED",
+      "median_displacement_mm": 2.771559410081293,
+      "p95_displacement_mm": 5.178252218497937,
+      "rms_displacement_mm": 2.947476283754502,
+      "rigid_rotation_removed_deg": 4.818351150523513,
+      "rigid_translation_removed_mm": 13.572308475474943
+    },
+    {
+      "subject": "088",
+      "phase": "ES",
+      "median_displacement_mm": 2.742346815803488,
+      "p95_displacement_mm": 3.5054988975821466,
+      "rms_displacement_mm": 2.4224076354059085,
+      "rigid_rotation_removed_deg": 6.904242704699576,
+      "rigid_translation_removed_mm": 18.591217391241862
+    },
+    {
+      "subject": "089",
+      "phase": "ED",
+      "median_displacement_mm": 1.9545340978358814,
+      "p95_displacement_mm": 3.2575566503264457,
+      "rms_displacement_mm": 1.8296445547768119,
+      "rigid_rotation_removed_deg": 2.805344401337413,
+      "rigid_translation_removed_mm": 7.1344579425488135
+    },
+    {
+      "subject": "089",
+      "phase": "ES",
+      "median_displacement_mm": 2.095529110300079,
+      "p95_displacement_mm": 4.432938340108973,
+      "rms_displacement_mm": 2.477846540076341,
+      "rigid_rotation_removed_deg": 3.627456774070484,
+      "rigid_translation_removed_mm": 6.872389474012788
+    },
+    {
+      "subject": "090",
+      "phase": "ED",
+      "median_displacement_mm": 1.80990585802608,
+      "p95_displacement_mm": 3.952214855895595,
+      "rms_displacement_mm": 2.2549736483004748,
+      "rigid_rotation_removed_deg": 3.120066424029327,
+      "rigid_translation_removed_mm": 10.561496527349425
+    },
+    {
+      "subject": "090",
+      "phase": "ES",
+      "median_displacement_mm": 1.1537580149210034,
+      "p95_displacement_mm": 4.049347206141351,
+      "rms_displacement_mm": 2.0392767129947353,
+      "rigid_rotation_removed_deg": 2.190712417753851,
+      "rigid_translation_removed_mm": 9.702716038639899
+    },
+    {
+      "subject": "091",
+      "phase": "ED",
+      "median_displacement_mm": 1.7786890443892083,
+      "p95_displacement_mm": 7.76424283999634,
+      "rms_displacement_mm": 3.588451504039722,
+      "rigid_rotation_removed_deg": 2.885338040523852,
+      "rigid_translation_removed_mm": 6.226305194419557
+    },
+    {
+      "subject": "091",
+      "phase": "ES",
+      "median_displacement_mm": 1.1915430047933147,
+      "p95_displacement_mm": 4.665951579137366,
+      "rms_displacement_mm": 2.233314862453096,
+      "rigid_rotation_removed_deg": 5.987371721497046,
+      "rigid_translation_removed_mm": 9.134902093232252
+    },
+    {
+      "subject": "092",
+      "phase": "ED",
+      "median_displacement_mm": 3.105839812788577,
+      "p95_displacement_mm": 5.510862045082832,
+      "rms_displacement_mm": 3.3312558855679666,
+      "rigid_rotation_removed_deg": 3.958904476912346,
+      "rigid_translation_removed_mm": 7.714491695562222
+    },
+    {
+      "subject": "092",
+      "phase": "ES",
+      "median_displacement_mm": 1.5052769586202353,
+      "p95_displacement_mm": 4.344476467752549,
+      "rms_displacement_mm": 2.5267012617281193,
+      "rigid_rotation_removed_deg": 4.7938440554963,
+      "rigid_translation_removed_mm": 11.529349769498916
+    },
+    {
+      "subject": "093",
+      "phase": "ED",
+      "median_displacement_mm": 2.925982414250209,
+      "p95_displacement_mm": 7.81281777655504,
+      "rms_displacement_mm": 4.338684009153172,
+      "rigid_rotation_removed_deg": 6.4245247509989145,
+      "rigid_translation_removed_mm": 21.261892079072886
+    },
+    {
+      "subject": "093",
+      "phase": "ES",
+      "median_displacement_mm": 2.8276160655875033,
+      "p95_displacement_mm": 5.392202462551478,
+      "rms_displacement_mm": 3.2908375063897317,
+      "rigid_rotation_removed_deg": 8.833885834367143,
+      "rigid_translation_removed_mm": 16.018281223274176
+    },
+    {
+      "subject": "094",
+      "phase": "ED",
+      "median_displacement_mm": 1.6711324696372039,
+      "p95_displacement_mm": 4.180317664323483,
+      "rms_displacement_mm": 2.4544522741470165,
+      "rigid_rotation_removed_deg": 3.6141860922217854,
+      "rigid_translation_removed_mm": 4.547935423351351
+    },
+    {
+      "subject": "094",
+      "phase": "ES",
+      "median_displacement_mm": 1.4598235420723973,
+      "p95_displacement_mm": 4.036009066911189,
+      "rms_displacement_mm": 2.2247480380517057,
+      "rigid_rotation_removed_deg": 4.1977864208632205,
+      "rigid_translation_removed_mm": 6.174471524463949
+    },
+    {
+      "subject": "095",
+      "phase": "ED",
+      "median_displacement_mm": 2.207450397515102,
+      "p95_displacement_mm": 4.489530923916809,
+      "rms_displacement_mm": 2.5043704230336807,
+      "rigid_rotation_removed_deg": 1.9073414545895737,
+      "rigid_translation_removed_mm": 3.8657588623971986
+    },
+    {
+      "subject": "095",
+      "phase": "ES",
+      "median_displacement_mm": 1.3817925923926913,
+      "p95_displacement_mm": 2.7203477714389277,
+      "rms_displacement_mm": 1.63182794111717,
+      "rigid_rotation_removed_deg": 4.983474417639829,
+      "rigid_translation_removed_mm": 7.87587697855797
+    },
+    {
+      "subject": "096",
+      "phase": "ED",
+      "median_displacement_mm": 3.051701031499626,
+      "p95_displacement_mm": 4.789592122393396,
+      "rms_displacement_mm": 3.0248951072244776,
+      "rigid_rotation_removed_deg": 0.8296581689188607,
+      "rigid_translation_removed_mm": 1.4565379858549972
+    },
+    {
+      "subject": "096",
+      "phase": "ES",
+      "median_displacement_mm": 1.9854054470937514,
+      "p95_displacement_mm": 3.9997077320790906,
+      "rms_displacement_mm": 2.3254737203923286,
+      "rigid_rotation_removed_deg": 4.114106954680038,
+      "rigid_translation_removed_mm": 14.061954834946356
+    },
+    {
+      "subject": "097",
+      "phase": "ED",
+      "median_displacement_mm": 1.370506596561313,
+      "p95_displacement_mm": 2.8132461069249612,
+      "rms_displacement_mm": 1.7440469074904117,
+      "rigid_rotation_removed_deg": 4.4939830681007225,
+      "rigid_translation_removed_mm": 7.109097562572966
+    },
+    {
+      "subject": "097",
+      "phase": "ES",
+      "median_displacement_mm": 0.6099219866087223,
+      "p95_displacement_mm": 3.509454826868752,
+      "rms_displacement_mm": 1.6477273576594214,
+      "rigid_rotation_removed_deg": 3.985958435825066,
+      "rigid_translation_removed_mm": 9.802236544498125
+    },
+    {
+      "subject": "098",
+      "phase": "ED",
+      "median_displacement_mm": 2.4145066928548395,
+      "p95_displacement_mm": 3.735934187245087,
+      "rms_displacement_mm": 2.4787399644357713,
+      "rigid_rotation_removed_deg": 3.1903819949815597,
+      "rigid_translation_removed_mm": 5.399008352899413
+    },
+    {
+      "subject": "098",
+      "phase": "ES",
+      "median_displacement_mm": 2.3767676592580043,
+      "p95_displacement_mm": 4.077582920423654,
+      "rms_displacement_mm": 2.5192825153309615,
+      "rigid_rotation_removed_deg": 4.504099390636059,
+      "rigid_translation_removed_mm": 10.170676367664234
+    },
+    {
+      "subject": "099",
+      "phase": "ED",
+      "median_displacement_mm": 1.2530975808514393,
+      "p95_displacement_mm": 3.2364209322252555,
+      "rms_displacement_mm": 1.796357616414166,
+      "rigid_rotation_removed_deg": 2.2119246819243865,
+      "rigid_translation_removed_mm": 5.240963758486557
+    },
+    {
+      "subject": "099",
+      "phase": "ES",
+      "median_displacement_mm": 1.2237978212887064,
+      "p95_displacement_mm": 2.55077490000493,
+      "rms_displacement_mm": 1.345830506881981,
+      "rigid_rotation_removed_deg": 2.059759768303306,
+      "rigid_translation_removed_mm": 3.9983099370447843
+    },
+    {
+      "subject": "100",
+      "phase": "ED",
+      "median_displacement_mm": 3.5061876136301526,
+      "p95_displacement_mm": 5.380666791266581,
+      "rms_displacement_mm": 3.5472668516197237,
+      "rigid_rotation_removed_deg": 3.228028718728047,
+      "rigid_translation_removed_mm": 21.054402811494892
+    },
+    {
+      "subject": "100",
+      "phase": "ES",
+      "median_displacement_mm": 3.5044747178933715,
+      "p95_displacement_mm": 4.988340428740691,
+      "rms_displacement_mm": 3.4671691152429744,
+      "rigid_rotation_removed_deg": 3.293421330142341,
+      "rigid_translation_removed_mm": 17.477964269630252
+    },
+    {
+      "subject": "101",
+      "phase": "ED",
+      "median_displacement_mm": 3.327007210493432,
+      "p95_displacement_mm": 5.493508070229598,
+      "rms_displacement_mm": 3.32391360665756,
+      "rigid_rotation_removed_deg": 8.270268126602138,
+      "rigid_translation_removed_mm": 34.480593812008784
+    },
+    {
+      "subject": "101",
+      "phase": "ES",
+      "median_displacement_mm": 2.2542710927403533,
+      "p95_displacement_mm": 3.3806459731735834,
+      "rms_displacement_mm": 2.2886093214908922,
+      "rigid_rotation_removed_deg": 9.796985812417066,
+      "rigid_translation_removed_mm": 35.5798116191132
+    },
+    {
+      "subject": "102",
+      "phase": "ED",
+      "median_displacement_mm": 2.292710635886193,
+      "p95_displacement_mm": 2.6847925041355967,
+      "rms_displacement_mm": 1.9875093696143518,
+      "rigid_rotation_removed_deg": 2.9921033573763163,
+      "rigid_translation_removed_mm": 5.796247068986423
+    },
+    {
+      "subject": "102",
+      "phase": "ES",
+      "median_displacement_mm": 1.3046561624660165,
+      "p95_displacement_mm": 2.485033569850606,
+      "rms_displacement_mm": 1.4647807386118599,
+      "rigid_rotation_removed_deg": 3.373274582904351,
+      "rigid_translation_removed_mm": 3.8874167890044813
+    },
+    {
+      "subject": "103",
+      "phase": "ED",
+      "median_displacement_mm": 1.2788863229735197,
+      "p95_displacement_mm": 3.36731531797894,
+      "rms_displacement_mm": 1.9429968419308747,
+      "rigid_rotation_removed_deg": 1.7950643966497835,
+      "rigid_translation_removed_mm": 2.2088615359951747
+    },
+    {
+      "subject": "103",
+      "phase": "ES",
+      "median_displacement_mm": 1.2878373741190714,
+      "p95_displacement_mm": 2.9893921506724164,
+      "rms_displacement_mm": 1.7476485505390644,
+      "rigid_rotation_removed_deg": 2.223230523676629,
+      "rigid_translation_removed_mm": 3.4238833536860738
+    },
+    {
+      "subject": "104",
+      "phase": "ED",
+      "median_displacement_mm": 3.1753786841378235,
+      "p95_displacement_mm": 5.292118282730271,
+      "rms_displacement_mm": 3.4015749061250555,
+      "rigid_rotation_removed_deg": 8.002836018043595,
+      "rigid_translation_removed_mm": 18.052057620679918
+    },
+    {
+      "subject": "104",
+      "phase": "ES",
+      "median_displacement_mm": 1.9935761158985246,
+      "p95_displacement_mm": 3.4679342589291524,
+      "rms_displacement_mm": 2.1921507124782247,
+      "rigid_rotation_removed_deg": 13.474722293884442,
+      "rigid_translation_removed_mm": 27.184595311090053
+    },
+    {
+      "subject": "105",
+      "phase": "ED",
+      "median_displacement_mm": 2.2216266357277683,
+      "p95_displacement_mm": 3.74481922091821,
+      "rms_displacement_mm": 2.245386865019675,
+      "rigid_rotation_removed_deg": 4.3377590632292895,
+      "rigid_translation_removed_mm": 3.6226825921481467
+    },
+    {
+      "subject": "105",
+      "phase": "ES",
+      "median_displacement_mm": 1.5491532581204925,
+      "p95_displacement_mm": 3.4503068890836044,
+      "rms_displacement_mm": 1.8522268404394964,
+      "rigid_rotation_removed_deg": 4.45038470994807,
+      "rigid_translation_removed_mm": 5.551911533183042
+    },
+    {
+      "subject": "106",
+      "phase": "ED",
+      "median_displacement_mm": 3.2851700068165752,
+      "p95_displacement_mm": 4.968008946938337,
+      "rms_displacement_mm": 3.101143464213636,
+      "rigid_rotation_removed_deg": 4.736761630255398,
+      "rigid_translation_removed_mm": 21.293890660723807
+    },
+    {
+      "subject": "106",
+      "phase": "ES",
+      "median_displacement_mm": 2.5756407942324944,
+      "p95_displacement_mm": 4.4260307547171545,
+      "rms_displacement_mm": 2.704239094467781,
+      "rigid_rotation_removed_deg": 3.875396876721169,
+      "rigid_translation_removed_mm": 15.961405362555436
+    },
+    {
+      "subject": "107",
+      "phase": "ED",
+      "median_displacement_mm": 3.518978256170184,
+      "p95_displacement_mm": 8.988466454297141,
+      "rms_displacement_mm": 4.820185747652054,
+      "rigid_rotation_removed_deg": 2.1599097295445446,
+      "rigid_translation_removed_mm": 9.257627616253256
+    },
+    {
+      "subject": "107",
+      "phase": "ES",
+      "median_displacement_mm": 2.2108750299715547,
+      "p95_displacement_mm": 8.796876718179206,
+      "rms_displacement_mm": 3.710476542942282,
+      "rigid_rotation_removed_deg": 6.688584827213295,
+      "rigid_translation_removed_mm": 23.669020898755065
+    },
+    {
+      "subject": "108",
+      "phase": "ED",
+      "median_displacement_mm": 3.687787147322732,
+      "p95_displacement_mm": 6.680348874372908,
+      "rms_displacement_mm": 4.209853652869155,
+      "rigid_rotation_removed_deg": 9.362908025110242,
+      "rigid_translation_removed_mm": 18.545972460474207
+    },
+    {
+      "subject": "108",
+      "phase": "ES",
+      "median_displacement_mm": 2.8179026013307866,
+      "p95_displacement_mm": 8.514158768913498,
+      "rms_displacement_mm": 4.092357136753575,
+      "rigid_rotation_removed_deg": 13.167665149731512,
+      "rigid_translation_removed_mm": 23.43480826604975
+    },
+    {
+      "subject": "109",
+      "phase": "ED",
+      "median_displacement_mm": 1.8791397782212833,
+      "p95_displacement_mm": 4.0469452645033,
+      "rms_displacement_mm": 2.3599021781501848,
+      "rigid_rotation_removed_deg": 3.599273166557769,
+      "rigid_translation_removed_mm": 7.416055066926623
+    },
+    {
+      "subject": "109",
+      "phase": "ES",
+      "median_displacement_mm": 1.9173450832003238,
+      "p95_displacement_mm": 3.5394102065850697,
+      "rms_displacement_mm": 2.139091127477734,
+      "rigid_rotation_removed_deg": 3.9429825140517174,
+      "rigid_translation_removed_mm": 7.925128922626322
+    },
+    {
+      "subject": "110",
+      "phase": "ED",
+      "median_displacement_mm": 3.6216255851485535,
+      "p95_displacement_mm": 6.372323013571379,
+      "rms_displacement_mm": 4.021720819519622,
+      "rigid_rotation_removed_deg": 12.302333528470683,
+      "rigid_translation_removed_mm": 31.17517725969625
+    },
+    {
+      "subject": "110",
+      "phase": "ES",
+      "median_displacement_mm": 3.5232802335828843,
+      "p95_displacement_mm": 5.311829998545245,
+      "rms_displacement_mm": 3.309226184619965,
+      "rigid_rotation_removed_deg": 17.700701485616836,
+      "rigid_translation_removed_mm": 41.77129033715481
+    },
+    {
+      "subject": "111",
+      "phase": "ED",
+      "median_displacement_mm": 2.429842529544737,
+      "p95_displacement_mm": 4.8438855784690515,
+      "rms_displacement_mm": 2.901665540091472,
+      "rigid_rotation_removed_deg": 3.381051373871622,
+      "rigid_translation_removed_mm": 10.380411067404218
+    },
+    {
+      "subject": "111",
+      "phase": "ES",
+      "median_displacement_mm": 2.0786830030967347,
+      "p95_displacement_mm": 5.356150984261549,
+      "rms_displacement_mm": 2.708977972795973,
+      "rigid_rotation_removed_deg": 2.4419925022287203,
+      "rigid_translation_removed_mm": 6.373696962805386
+    },
+    {
+      "subject": "112",
+      "phase": "ED",
+      "median_displacement_mm": 3.1569764037455257,
+      "p95_displacement_mm": 5.646407429249684,
+      "rms_displacement_mm": 3.4495409577606835,
+      "rigid_rotation_removed_deg": 6.00187966021712,
+      "rigid_translation_removed_mm": 21.609328906546573
+    },
+    {
+      "subject": "112",
+      "phase": "ES",
+      "median_displacement_mm": 1.424345523478319,
+      "p95_displacement_mm": 3.767032606001379,
+      "rms_displacement_mm": 2.1327588862219646,
+      "rigid_rotation_removed_deg": 7.921707343354404,
+      "rigid_translation_removed_mm": 24.72244055274544
+    },
+    {
+      "subject": "113",
+      "phase": "ED",
+      "median_displacement_mm": 2.3883071398050606,
+      "p95_displacement_mm": 5.6012998796162,
+      "rms_displacement_mm": 3.278558320079462,
+      "rigid_rotation_removed_deg": 6.138783324675924,
+      "rigid_translation_removed_mm": 7.244920289531461
+    },
+    {
+      "subject": "113",
+      "phase": "ES",
+      "median_displacement_mm": 1.9309117773668227,
+      "p95_displacement_mm": 5.822411632436488,
+      "rms_displacement_mm": 2.9395591043892493,
+      "rigid_rotation_removed_deg": 6.089261709480062,
+      "rigid_translation_removed_mm": 8.935458851403546
+    },
+    {
+      "subject": "114",
+      "phase": "ED",
+      "median_displacement_mm": 2.3847383780166913,
+      "p95_displacement_mm": 7.955265266371668,
+      "rms_displacement_mm": 3.8708446126485234,
+      "rigid_rotation_removed_deg": 2.092687044092809,
+      "rigid_translation_removed_mm": 6.143578042264873
+    },
+    {
+      "subject": "114",
+      "phase": "ES",
+      "median_displacement_mm": 2.6537665004452022,
+      "p95_displacement_mm": 4.624198734245513,
+      "rms_displacement_mm": 2.861032452869005,
+      "rigid_rotation_removed_deg": 4.2511568298288775,
+      "rigid_translation_removed_mm": 7.825491168287594
+    },
+    {
+      "subject": "115",
+      "phase": "ED",
+      "median_displacement_mm": 1.881824941435666,
+      "p95_displacement_mm": 5.96985848285385,
+      "rms_displacement_mm": 2.964681714277407,
+      "rigid_rotation_removed_deg": 4.084967804562848,
+      "rigid_translation_removed_mm": 12.361202294457874
+    },
+    {
+      "subject": "115",
+      "phase": "ES",
+      "median_displacement_mm": 2.528260872745237,
+      "p95_displacement_mm": 6.505612825588719,
+      "rms_displacement_mm": 3.155815246756414,
+      "rigid_rotation_removed_deg": 6.248842084306698,
+      "rigid_translation_removed_mm": 17.413239070535532
+    },
+    {
+      "subject": "116",
+      "phase": "ED",
+      "median_displacement_mm": 3.9828329768847968,
+      "p95_displacement_mm": 5.9249284729358465,
+      "rms_displacement_mm": 3.893240292633228,
+      "rigid_rotation_removed_deg": 4.101538914284655,
+      "rigid_translation_removed_mm": 12.281753290611537
+    },
+    {
+      "subject": "116",
+      "phase": "ES",
+      "median_displacement_mm": 2.6841305823432804,
+      "p95_displacement_mm": 5.191926615875583,
+      "rms_displacement_mm": 3.025595187908825,
+      "rigid_rotation_removed_deg": 6.207174092461116,
+      "rigid_translation_removed_mm": 15.529240317720179
+    },
+    {
+      "subject": "117",
+      "phase": "ED",
+      "median_displacement_mm": 2.3907781029129147,
+      "p95_displacement_mm": 2.976686492703733,
+      "rms_displacement_mm": 2.11212641313553,
+      "rigid_rotation_removed_deg": 1.58395210106912,
+      "rigid_translation_removed_mm": 2.308003682362664
+    },
+    {
+      "subject": "117",
+      "phase": "ES",
+      "median_displacement_mm": 1.4717125579465904,
+      "p95_displacement_mm": 2.093601234588539,
+      "rms_displacement_mm": 1.3932710686031295,
+      "rigid_rotation_removed_deg": 1.3976215145634647,
+      "rigid_translation_removed_mm": 3.0270397863254126
+    },
+    {
+      "subject": "118",
+      "phase": "ED",
+      "median_displacement_mm": 2.5688220569764195,
+      "p95_displacement_mm": 4.083900337168129,
+      "rms_displacement_mm": 2.5486800299453023,
+      "rigid_rotation_removed_deg": 3.5665055768032063,
+      "rigid_translation_removed_mm": 9.042469148370294
+    },
+    {
+      "subject": "118",
+      "phase": "ES",
+      "median_displacement_mm": 1.9315702414458977,
+      "p95_displacement_mm": 5.26306237655418,
+      "rms_displacement_mm": 3.0689004808766853,
+      "rigid_rotation_removed_deg": 5.330615523390539,
+      "rigid_translation_removed_mm": 18.553697060089924
+    },
+    {
+      "subject": "119",
+      "phase": "ED",
+      "median_displacement_mm": 1.6337872044534438,
+      "p95_displacement_mm": 3.779423696210608,
+      "rms_displacement_mm": 2.188859979937345,
+      "rigid_rotation_removed_deg": 3.1745566560280665,
+      "rigid_translation_removed_mm": 6.6664673218173025
+    },
+    {
+      "subject": "119",
+      "phase": "ES",
+      "median_displacement_mm": 0.7599427555624789,
+      "p95_displacement_mm": 4.091904878888955,
+      "rms_displacement_mm": 1.8562852710006663,
+      "rigid_rotation_removed_deg": 5.159565201088564,
+      "rigid_translation_removed_mm": 10.815587255775048
+    },
+    {
+      "subject": "120",
+      "phase": "ED",
+      "median_displacement_mm": 2.4383545843293346,
+      "p95_displacement_mm": 9.020209014657258,
+      "rms_displacement_mm": 4.197003303457594,
+      "rigid_rotation_removed_deg": 1.3245305601502433,
+      "rigid_translation_removed_mm": 8.99602702716218
+    },
+    {
+      "subject": "120",
+      "phase": "ES",
+      "median_displacement_mm": 1.7086254803189054,
+      "p95_displacement_mm": 8.74827832701044,
+      "rms_displacement_mm": 3.6615904595935462,
+      "rigid_rotation_removed_deg": 2.4760720249053056,
+      "rigid_translation_removed_mm": 2.7132230824707726
+    },
+    {
+      "subject": "121",
+      "phase": "ED",
+      "median_displacement_mm": 4.5870407161113835,
+      "p95_displacement_mm": 6.7060103985180675,
+      "rms_displacement_mm": 4.512281003111891,
+      "rigid_rotation_removed_deg": 13.81671243070772,
+      "rigid_translation_removed_mm": 34.017899004936446
+    },
+    {
+      "subject": "121",
+      "phase": "ES",
+      "median_displacement_mm": 3.774802718711785,
+      "p95_displacement_mm": 5.729583907069394,
+      "rms_displacement_mm": 3.6949566359359407,
+      "rigid_rotation_removed_deg": 14.090213554720362,
+      "rigid_translation_removed_mm": 32.977607437419074
+    },
+    {
+      "subject": "122",
+      "phase": "ED",
+      "median_displacement_mm": 4.288376786363813,
+      "p95_displacement_mm": 5.745633000859456,
+      "rms_displacement_mm": 3.873047740022172,
+      "rigid_rotation_removed_deg": 4.24640080341629,
+      "rigid_translation_removed_mm": 3.1670655852943477
+    },
+    {
+      "subject": "122",
+      "phase": "ES",
+      "median_displacement_mm": 2.018865527051891,
+      "p95_displacement_mm": 2.9710440970130483,
+      "rms_displacement_mm": 2.018950122037015,
+      "rigid_rotation_removed_deg": 7.636378328498553,
+      "rigid_translation_removed_mm": 6.282406657117832
+    },
+    {
+      "subject": "123",
+      "phase": "ED",
+      "median_displacement_mm": 2.807748184325272,
+      "p95_displacement_mm": 8.700457261838137,
+      "rms_displacement_mm": 4.135859566465263,
+      "rigid_rotation_removed_deg": 1.1524788429860962,
+      "rigid_translation_removed_mm": 7.493113511513651
+    },
+    {
+      "subject": "123",
+      "phase": "ES",
+      "median_displacement_mm": 1.674762761887275,
+      "p95_displacement_mm": 4.2858540637266955,
+      "rms_displacement_mm": 2.2000967935469213,
+      "rigid_rotation_removed_deg": 3.72575970165675,
+      "rigid_translation_removed_mm": 10.678481924599158
+    },
+    {
+      "subject": "124",
+      "phase": "ED",
+      "median_displacement_mm": 2.971791054671444,
+      "p95_displacement_mm": 5.755384808881583,
+      "rms_displacement_mm": 3.57914237991993,
+      "rigid_rotation_removed_deg": 2.654135989884962,
+      "rigid_translation_removed_mm": 11.255490911872876
+    },
+    {
+      "subject": "124",
+      "phase": "ES",
+      "median_displacement_mm": 1.6353697219413719,
+      "p95_displacement_mm": 3.6665445979623414,
+      "rms_displacement_mm": 2.0049507712779775,
+      "rigid_rotation_removed_deg": 3.8473215084589003,
+      "rigid_translation_removed_mm": 13.455372437485407
+    },
+    {
+      "subject": "125",
+      "phase": "ED",
+      "median_displacement_mm": 2.3248308630231134,
+      "p95_displacement_mm": 6.450523160975778,
+      "rms_displacement_mm": 3.754014436033233,
+      "rigid_rotation_removed_deg": 4.516732027068829,
+      "rigid_translation_removed_mm": 9.329651519987273
+    },
+    {
+      "subject": "125",
+      "phase": "ES",
+      "median_displacement_mm": 2.7998500774039026,
+      "p95_displacement_mm": 3.6576210126472914,
+      "rms_displacement_mm": 2.5029497509034573,
+      "rigid_rotation_removed_deg": 6.308310735509526,
+      "rigid_translation_removed_mm": 11.775805795982977
+    },
+    {
+      "subject": "126",
+      "phase": "ED",
+      "median_displacement_mm": 5.209477301302263,
+      "p95_displacement_mm": 12.344351495778984,
+      "rms_displacement_mm": 6.563359541341657,
+      "rigid_rotation_removed_deg": 11.419431719044855,
+      "rigid_translation_removed_mm": 23.300599158872934
+    },
+    {
+      "subject": "126",
+      "phase": "ES",
+      "median_displacement_mm": 2.7960145049738516,
+      "p95_displacement_mm": 6.217999830031066,
+      "rms_displacement_mm": 3.555776192368177,
+      "rigid_rotation_removed_deg": 14.916060490837184,
+      "rigid_translation_removed_mm": 23.63030335850252
+    },
+    {
+      "subject": "127",
+      "phase": "ED",
+      "median_displacement_mm": 3.449795476717363,
+      "p95_displacement_mm": 6.369300665405839,
+      "rms_displacement_mm": 3.7182013492766797,
+      "rigid_rotation_removed_deg": 0.89222978434268,
+      "rigid_translation_removed_mm": 4.833631326391557
+    },
+    {
+      "subject": "127",
+      "phase": "ES",
+      "median_displacement_mm": 2.1283309900718477,
+      "p95_displacement_mm": 4.298702902661516,
+      "rms_displacement_mm": 2.4915993145866344,
+      "rigid_rotation_removed_deg": 3.6546421707574654,
+      "rigid_translation_removed_mm": 8.068037402627061
+    },
+    {
+      "subject": "128",
+      "phase": "ED",
+      "median_displacement_mm": 2.6312757231845363,
+      "p95_displacement_mm": 9.389920727157241,
+      "rms_displacement_mm": 4.388459881996785,
+      "rigid_rotation_removed_deg": 5.6506563368098055,
+      "rigid_translation_removed_mm": 8.762143694520741
+    },
+    {
+      "subject": "128",
+      "phase": "ES",
+      "median_displacement_mm": 1.6795921480894507,
+      "p95_displacement_mm": 7.252428585892765,
+      "rms_displacement_mm": 3.637197449375697,
+      "rigid_rotation_removed_deg": 7.00971154843236,
+      "rigid_translation_removed_mm": 12.306008161534008
+    },
+    {
+      "subject": "129",
+      "phase": "ED",
+      "median_displacement_mm": 1.8250796734801988,
+      "p95_displacement_mm": 4.282794710369856,
+      "rms_displacement_mm": 2.36579617664645,
+      "rigid_rotation_removed_deg": 4.332520971719705,
+      "rigid_translation_removed_mm": 10.86982255521143
+    },
+    {
+      "subject": "129",
+      "phase": "ES",
+      "median_displacement_mm": 1.757329895362952,
+      "p95_displacement_mm": 3.5988647491181753,
+      "rms_displacement_mm": 2.1437141052981126,
+      "rigid_rotation_removed_deg": 7.570849483210587,
+      "rigid_translation_removed_mm": 16.398219436974816
+    },
+    {
+      "subject": "130",
+      "phase": "ED",
+      "median_displacement_mm": 2.3946140113695993,
+      "p95_displacement_mm": 6.971452266272247,
+      "rms_displacement_mm": 3.7785703641149815,
+      "rigid_rotation_removed_deg": 7.238120245659311,
+      "rigid_translation_removed_mm": 48.672994998410985
+    },
+    {
+      "subject": "130",
+      "phase": "ES",
+      "median_displacement_mm": 2.092894836254795,
+      "p95_displacement_mm": 3.9211654246096908,
+      "rms_displacement_mm": 2.3094523245892136,
+      "rigid_rotation_removed_deg": 8.555422226741882,
+      "rigid_translation_removed_mm": 52.359486223283945
+    },
+    {
+      "subject": "131",
+      "phase": "ED",
+      "median_displacement_mm": 3.4264823006741354,
+      "p95_displacement_mm": 11.184819464702597,
+      "rms_displacement_mm": 5.327820650285698,
+      "rigid_rotation_removed_deg": 1.716682643497728,
+      "rigid_translation_removed_mm": 7.4526720900577805
+    },
+    {
+      "subject": "131",
+      "phase": "ES",
+      "median_displacement_mm": 1.8811980712896277,
+      "p95_displacement_mm": 8.986228864657376,
+      "rms_displacement_mm": 4.182787031874856,
+      "rigid_rotation_removed_deg": 4.146735819750748,
+      "rigid_translation_removed_mm": 8.293662601062092
+    },
+    {
+      "subject": "132",
+      "phase": "ED",
+      "median_displacement_mm": 2.2166416296368365,
+      "p95_displacement_mm": 5.865957843962023,
+      "rms_displacement_mm": 3.348381930910501,
+      "rigid_rotation_removed_deg": 5.8920667386973316,
+      "rigid_translation_removed_mm": 12.176416607244196
+    },
+    {
+      "subject": "132",
+      "phase": "ES",
+      "median_displacement_mm": 2.874895567095131,
+      "p95_displacement_mm": 6.849579879816166,
+      "rms_displacement_mm": 3.7105283833777545,
+      "rigid_rotation_removed_deg": 6.726016556400223,
+      "rigid_translation_removed_mm": 13.524094484059969
+    },
+    {
+      "subject": "133",
+      "phase": "ED",
+      "median_displacement_mm": 1.8992209000432092,
+      "p95_displacement_mm": 2.4680347514347893,
+      "rms_displacement_mm": 1.6934556308873367,
+      "rigid_rotation_removed_deg": 1.3993876877516962,
+      "rigid_translation_removed_mm": 3.7206198323405775
+    },
+    {
+      "subject": "133",
+      "phase": "ES",
+      "median_displacement_mm": 2.184986562012731,
+      "p95_displacement_mm": 2.577284407784807,
+      "rms_displacement_mm": 1.893090248721517,
+      "rigid_rotation_removed_deg": 2.1132799729555303,
+      "rigid_translation_removed_mm": 4.500175599086698
+    },
+    {
+      "subject": "134",
+      "phase": "ED",
+      "median_displacement_mm": 3.7735999614760423,
+      "p95_displacement_mm": 4.566816405833642,
+      "rms_displacement_mm": 3.3411736210924374,
+      "rigid_rotation_removed_deg": 3.729756922271118,
+      "rigid_translation_removed_mm": 7.116948763914324
+    },
+    {
+      "subject": "134",
+      "phase": "ES",
+      "median_displacement_mm": 2.953993764190993,
+      "p95_displacement_mm": 4.253293556326049,
+      "rms_displacement_mm": 2.808871471557261,
+      "rigid_rotation_removed_deg": 4.090175288664591,
+      "rigid_translation_removed_mm": 12.169011865673903
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+fitting shape space from train split...
+image weights: cmr 4444, tee 69.4 (inverse noise variance)
+  1/10  1058s
+  2/10  2108s
+  3/10  3158s
+  4/10  4210s
+  5/10  5266s
+  6/10  6291s
+  7/10  7337s
+  8/10  8391s
+  9/10  9443s
+  10/10  10493s
+
+arm           rotation deg translation mm   phase cycles   attachment    seconds
+point                4.546          4.325         0.0259      0.0e+00        0.7
+image               33.683         39.638         0.3211      0.0e+00      525.1
+point_image          3.721          5.960         0.1806      0.0e+00      525.5
+
+arm minus point (negative favours the image arm)
+  image         rotation_deg         37.3070  p=0.0021 *
+  image         translation_mm     221739.7031  p=0.0021 *
+  image         phase_map_cycles      0.2320  p=0.0100 *
+  point_image   rotation_deg         -0.0482  p=0.9234
+  point_image   translation_mm        1.9568  p=0.0181 *
+  point_image   phase_map_cycles      0.1919  p=0.0021 *
+done

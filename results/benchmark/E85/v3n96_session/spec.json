@@ -1,0 +1,810 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3-n96",
+  "experiment": "E85",
+  "frozen_from": "Codes/configs/e85/v3n96_test_template.json",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E85_RING96_PREREGISTRATION_2026-09-28.md",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=0.25",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.25
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=0.5",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.5
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=1",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=2",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 2.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=4",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 4.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=8",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 8.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=12",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 12.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=16",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 16.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=32",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 32.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=64",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 64.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=0.25",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.25
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=0.5",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.5
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=1",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=2",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 2.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=4",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 4.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=8",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 8.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=12",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 12.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=16",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 16.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=32",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 32.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=64",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 64.0
+      }
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=0.25",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.25
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=0.5",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.5
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=1",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 1.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=2",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=4",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 4.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=8",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 8.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=12",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 12.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=16",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 16.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=32",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 32.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=64",
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 64.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=0.25",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.25
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=0.5",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.5
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=1",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 1.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=2",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=4",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 4.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=8",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 8.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=12",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 12.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=16",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 16.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=32",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 32.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=64",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 64.0
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=0.25",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.25
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=0.5",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 0.5
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=1",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=2",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 2.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=4",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 4.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=8",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 8.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=12",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 12.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=16",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 16.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=32",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 32.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=64",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.25
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 0.25,
+        "session_prior_weight": 64.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=0.25",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.25
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=0.5",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.5
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=1",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=2",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 2.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=4",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 4.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=8",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 8.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=12",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 12.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=16",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 16.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=32",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 32.0
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "G",
+      "name": "G/penalty_repair/bs=64",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 0.5
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 64.0
+      }
+    }
+  ]
+}

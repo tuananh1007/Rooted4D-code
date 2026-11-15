@@ -1,0 +1,4 @@
+# Exact core versions used for the v0.5.1 verification run on CPython 3.12.13.
+# Re-resolve and rerun the complete suite for another Python/platform combination.
+numpy==2.3.5
+PyYAML==6.0.3

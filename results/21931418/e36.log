@@ -1,0 +1,67 @@
+loaded /work/nvme/bhio/avu2/Rooted4D/results/21900728/E31_segmenter.pt
+  patient102 frame 1  label 1.873  image 1.879
+  patient102 frame 13  label 1.782  image 2.986
+  patient104 frame 1  label 2.076  image 2.136
+  patient104 frame 11  label 1.757  image 3.520
+  patient107 frame 1  label 1.882  image 2.071
+  patient107 frame 10  label 1.751  image 3.580
+  patient112 frame 1  label 1.984  image 2.374
+  patient112 frame 12  label 2.068  image 3.376
+  patient125 frame 1  label 1.210  image 1.391
+  patient125 frame 7  label 1.184  image 1.946
+  patient135 frame 1  label 1.964  image 2.209
+  patient135 frame 10  label 2.086  image 2.400
+  patient138 frame 1  label 1.900  image 1.764
+  patient138 frame 10  label 1.629  image 2.663
+  patient144 frame 1  label 1.849  image 1.783
+  patient144 frame 9  label 1.739  image 3.243
+  patient145 frame 1  label 2.629  image 2.795
+  patient145 frame 13  label 2.590  image 2.611
+  patient146 frame 1  label 1.870  image 2.127
+  patient146 frame 10  label 1.652  image 3.339
+  patient149 frame 1  label 1.902  image 6.703
+  patient149 frame 12  label 1.897  image 8.978
+  patient007 frame 1  label 1.824  image 1.954
+  patient007 frame 7  label 1.942  image 1.976
+  patient019 frame 1  label 1.897  image 2.073
+  patient019 frame 11  label 1.912  image 2.029
+  patient022 frame 1  label 1.747  image 4.667
+  patient022 frame 11  label 1.973  image 2.385
+  patient023 frame 1  label 1.892  image 2.496
+  patient023 frame 9  label 1.639  image 2.082
+  patient027 frame 1  label 1.824  image 2.269
+  patient027 frame 11  label 1.682  image 3.626
+  patient029 frame 1  label 1.966  image 2.197
+  patient029 frame 12  label 1.775  image 3.918
+  patient030 frame 1  label 1.623  image 4.021
+  patient030 frame 12  label 1.582  image 3.908
+  patient031 frame 1  label 1.949  image 2.102
+  patient031 frame 10  label 1.641  image 3.526
+  patient039 frame 1  label 2.133  image 2.060
+  patient039 frame 10  label 1.779  image 2.308
+  patient040 frame 1  label 2.301  image 2.319
+  patient040 frame 13  label 2.322  image 2.592
+  patient045 frame 1  label 2.213  image 2.166
+  patient045 frame 13  label 2.256  image 2.237
+  patient050 frame 1  label 1.946  image 2.016
+  patient050 frame 12  label 1.932  image 2.000
+  patient052 frame 1  label 2.077  image 2.080
+  patient052 frame 9  label 2.200  image 2.316
+  patient053 frame 1  label 1.789  image 1.802
+  patient053 frame 12  label 1.882  image 1.895
+  patient055 frame 1  label 1.909  image 1.956
+  patient055 frame 10  label 2.065  image 2.102
+  patient081 frame 1  label 1.563  image 2.497
+  patient081 frame 7  label 1.521  image 2.255
+  patient085 frame 1  label 1.472  image 1.462
+  patient085 frame 9  label 1.451  image 1.789
+  patient087 frame 1  label 2.250  image 2.168
+  patient087 frame 10  label 2.428  image 2.846
+  patient090 frame 4  label 2.195  image 2.252
+  patient090 frame 11  label 1.698  image 1.862
+
+scored against the same reference surface, 60 frames / 30 patients:
+  label_input  symmetric 1.894 (p95 2.327)   hausdorff 7.320
+  image_input  symmetric 2.245 (p95 4.053)   hausdorff 9.832
+  image minus label, median 0.238 mm
+wrote /work/nvme/bhio/avu2/Rooted4D/results/21931418/E36_image_input_chamber.json

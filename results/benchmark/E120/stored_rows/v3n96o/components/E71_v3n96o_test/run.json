@@ -1,0 +1,7 @@
+{
+  "benchmark": "data/derived/e100-v3n96o",
+  "experiment": "E71",
+  "iterations": 400,
+  "samples_with_warm_start": 60,
+  "warm_starts": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96o/components/E69_v3n96o_test"
+}

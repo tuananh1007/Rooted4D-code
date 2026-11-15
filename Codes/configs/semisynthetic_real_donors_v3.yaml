@@ -1,0 +1,70 @@
+schema_version: rooted4d-semisynthetic-config-v1
+# Real donors, revision 2: ACDC left-ventricle chambers paired with MVSeg2023 mitral
+# valves, on the procedural topology because the production template is not
+# frozen. Donors are derivatives of CC BY-NC-SA and CC BY-NC-ND sources, so
+# the generated benchmark may be used here and cannot be redistributed.
+#
+# Two corrections over v1, both measured before being adopted:
+#   * Valve free edges are taken from the deepest decile of each sector rather
+#     than the top of a band ending at the 90th percentile of height. The old
+#     rule kept only about half of each leaflet's extent per sector, and the
+#     free-edge row is the only row the donor pool takes from a valve fit.
+#   * Donor position is canonicalized. Scanner placement dominated the pool's
+#     variance and was consuming two principal modes; removing it lowers the
+#     representation error on unseen donors from 3.31 to 2.99 mm at sixteen
+#     modes. Rotational alignment was tested and does not help.
+#
+# v1 is retained at data/derived/semisynthetic-real-v1 so the results already
+# committed against it remain reproducible.
+
+reproducibility:
+  root_seed: 20260831
+  split_seed: 104729
+
+split:
+  train: 0.60
+  val: 0.20
+  test: 0.20
+
+donors:
+  # "procedural" runs immediately. Change to "manifest" only after real-derived
+  # donors have been fitted to the frozen topology and listed in a local manifest.
+  mode: test_manifest
+  manifest: ../../data/derived/donors_v3/donors.json
+  template_manifest: null
+  split_lock: null
+
+samples:
+  variants_per_identity: 2
+
+observation:
+  n_annulus: 24
+  n_cmr_frames: 20
+  n_tee_frames: 24
+  fourier_order: 3
+  cmr_noise_mm: 0.35
+  tee_noise_mm: 0.45
+  cmr_dropout_fraction: 0.10
+  tee_dropout_fraction: 0.20
+  output_domain: image_likelihood
+  cmr_n_slices: 5
+  cmr_image_shape: [24, 24]
+  cmr_pixel_spacing_mm: [2.5, 2.5]
+  cmr_slice_thickness_mm: 6.0
+  cmr_surface_sigma_mm: 1.5
+  tee_grid_shape: [20, 12, 12]
+  tee_surface_sigma_mm: 1.5
+  image_noise_std: 0.015
+  tee_speckle_std: 0.12
+
+perturbation:
+  pose_axis_angle_std_rad: 0.14
+  pose_translation_std_mm: 9.0
+  phase_offset_min_cycles: -0.20
+  phase_offset_max_cycles: 0.20
+  phase_logit_std: 0.55
+  phase_knots: 8
+  session_static_scale_min: 0.70
+  session_static_scale_max: 1.30
+  session_dynamic_scale_min: 0.70
+  session_dynamic_scale_max: 1.30

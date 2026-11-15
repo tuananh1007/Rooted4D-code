@@ -1,0 +1,1756 @@
+{
+  "dataset_key": "mvseg2023",
+  "root_name": "mvseg2023",
+  "files": [
+    {
+      "path": "test/test_001-US.nii.gz",
+      "size_bytes": 4245516,
+      "sha256": "5b31dc885fdcd5a8be6232ea6b80a60f4ba28a103867734233b42d4460c736a6"
+    },
+    {
+      "path": "test/test_001-label.nii.gz",
+      "size_bytes": 83244,
+      "sha256": "2c5262485c7365c45637af2d89cf0f261747d876d8858f46a854e60fe31b8512"
+    },
+    {
+      "path": "test/test_002-US.nii.gz",
+      "size_bytes": 3286871,
+      "sha256": "83ebe7949e61259a06f59ad5fc6eb4ac9569c245ea64ecd661b6774b10582fff"
+    },
+    {
+      "path": "test/test_002-label.nii.gz",
+      "size_bytes": 59984,
+      "sha256": "cbaaccfecc10641be0b18992f89b8042dde29fcba3c5a090badae8e21486be10"
+    },
+    {
+      "path": "test/test_003-US.nii.gz",
+      "size_bytes": 2772479,
+      "sha256": "ce7c789dffdc7b7793a355654d60a726f91857d739ffe257cb2613fef77e491c"
+    },
+    {
+      "path": "test/test_003-label.nii.gz",
+      "size_bytes": 53754,
+      "sha256": "97349b102601ef15bdd0206ecfc36f77d4021924ed3d717905088bd2d4152361"
+    },
+    {
+      "path": "test/test_004-US.nii.gz",
+      "size_bytes": 2054473,
+      "sha256": "4d1d0e8688b17cacfb3585afaefee0272428535bf1c3ff38df7e7ad3c1e31734"
+    },
+    {
+      "path": "test/test_004-label.nii.gz",
+      "size_bytes": 52107,
+      "sha256": "28fe427be307e9eeadc2d6fa446860d81dba4f3a239aa8ddc4c33bb562079d89"
+    },
+    {
+      "path": "test/test_005-US.nii.gz",
+      "size_bytes": 3426038,
+      "sha256": "28bebe06423593904dd7f66300e2dae41cb042838f0fde521aa6192a6811091b"
+    },
+    {
+      "path": "test/test_005-label.nii.gz",
+      "size_bytes": 52762,
+      "sha256": "430275861a42ad313cd48e6e791803246224d0a9126406cf190be70d84353d2a"
+    },
+    {
+      "path": "test/test_006-US.nii.gz",
+      "size_bytes": 3818457,
+      "sha256": "c8ab79e2f070dda25badde6d200172a920e8536b33443a5a7de5ba74a36a0a12"
+    },
+    {
+      "path": "test/test_006-label.nii.gz",
+      "size_bytes": 42548,
+      "sha256": "b2b236fbe09d72682dd1c18f84501490f36c74aebd5c20990bd27e136e09b93a"
+    },
+    {
+      "path": "test/test_007-US.nii.gz",
+      "size_bytes": 2208835,
+      "sha256": "eaee4a08263401c641eb7f53c2cab5708c702bc28641fc3f017fa5d48e144ed3"
+    },
+    {
+      "path": "test/test_007-label.nii.gz",
+      "size_bytes": 47264,
+      "sha256": "4ac866ed5ca743f0e0518b1321cedb6121ba0ccb2df02959db5e8a6b66522556"
+    },
+    {
+      "path": "test/test_008-US.nii.gz",
+      "size_bytes": 2901893,
+      "sha256": "311d3d538e130a769e73200f13fab5f005b4c912eeda196f0fa21b1c701db568"
+    },
+    {
+      "path": "test/test_008-label.nii.gz",
+      "size_bytes": 46009,
+      "sha256": "fb3de55124d3a28c64372a75eb811d65f7081d1b93a99810bd99bdb9fe5744a8"
+    },
+    {
+      "path": "test/test_009-US.nii.gz",
+      "size_bytes": 2423167,
+      "sha256": "4400c26c15e24eb55c98fbecdf5b65cc2fe64335aeee0d9bed159dd5ea9df620"
+    },
+    {
+      "path": "test/test_009-label.nii.gz",
+      "size_bytes": 58399,
+      "sha256": "19aae74d3bf01cb362a3506e6d7603431cb0d9b01427bc83f3a8e01d9f8810a2"
+    },
+    {
+      "path": "test/test_010-US.nii.gz",
+      "size_bytes": 2027383,
+      "sha256": "503199b4949b6f0b82386bc4ec250a53e8ce6c7d5e4e8a0a64343e237c32a135"
+    },
+    {
+      "path": "test/test_010-label.nii.gz",
+      "size_bytes": 42305,
+      "sha256": "da878c097cfe628f7aa4eb3fdf9d31c86d763039d9b07433f0536ee192d72e7a"
+    },
+    {
+      "path": "test/test_011-US.nii.gz",
+      "size_bytes": 4132223,
+      "sha256": "a9d519045c3a12c4120d98d892b5e92c062dfa0d010877543980cac191c974bb"
+    },
+    {
+      "path": "test/test_011-label.nii.gz",
+      "size_bytes": 70348,
+      "sha256": "60a32bddae4c9e8edfd8637f0c58cdb7976fb6c094ddce86019e6cc3345c7453"
+    },
+    {
+      "path": "test/test_012-US.nii.gz",
+      "size_bytes": 3435132,
+      "sha256": "a6f0d2f26f9bd12b7641af094b5a7ac61cccce0e756d99647def99157d827b07"
+    },
+    {
+      "path": "test/test_012-label.nii.gz",
+      "size_bytes": 57279,
+      "sha256": "104ebbf8d31683e25e02b09c2e09ea3967c30a57880daf66a5b4867358a3449b"
+    },
+    {
+      "path": "test/test_013-US.nii.gz",
+      "size_bytes": 2126156,
+      "sha256": "f76cfea43de8562345e8a598f1dc25307d62821e3b849bd46db698c7dd1e68e7"
+    },
+    {
+      "path": "test/test_013-label.nii.gz",
+      "size_bytes": 33573,
+      "sha256": "6f1ed07ed3ef575c5d6aaf86baf96c922e3db3860cd1cf8e4aabb4c2412c95f7"
+    },
+    {
+      "path": "test/test_014-US.nii.gz",
+      "size_bytes": 5071990,
+      "sha256": "fb0736dfcbf1895df834ef51b93b0d82fdb98348169d611a94cd819e1350b5f3"
+    },
+    {
+      "path": "test/test_014-label.nii.gz",
+      "size_bytes": 52772,
+      "sha256": "5003ab5c6df9de46383737903e26c857da0d7c2a660c7802ec4b162f531b90d5"
+    },
+    {
+      "path": "test/test_015-US.nii.gz",
+      "size_bytes": 3797000,
+      "sha256": "d239513b526d98b0a52f2030220b80d08516998e286b17eeee0fa8eb6c5467f3"
+    },
+    {
+      "path": "test/test_015-label.nii.gz",
+      "size_bytes": 69066,
+      "sha256": "363aed4c8cff92d16745a342c3d1a2d37d6b86f9ed114fc2088a2833baeeb513"
+    },
+    {
+      "path": "test/test_016-US.nii.gz",
+      "size_bytes": 3174738,
+      "sha256": "4337ec6333070d0a3e5c8757501ca9c5e2b6070a9efa5f8985502e2c717257d2"
+    },
+    {
+      "path": "test/test_016-label.nii.gz",
+      "size_bytes": 75983,
+      "sha256": "51106cd23413d0cc64f7a9ded7fabc084d53ab1c4be475c8961362cd8d45d336"
+    },
+    {
+      "path": "test/test_017-US.nii.gz",
+      "size_bytes": 4438637,
+      "sha256": "a854de035457a0a333449fa8dd3a1728ab58caf592f7f7479751dcff8ad5c6cb"
+    },
+    {
+      "path": "test/test_017-label.nii.gz",
+      "size_bytes": 69337,
+      "sha256": "427bebb59fb856d7e187aaa3b3c3c21d03bb29010509ba7a5887e92f2a74d062"
+    },
+    {
+      "path": "test/test_018-US.nii.gz",
+      "size_bytes": 2411041,
+      "sha256": "d221f65e1ec5cb4a21a1b0d5bbb1afcfc60a515eae589fcc3cbb03247f074adc"
+    },
+    {
+      "path": "test/test_018-label.nii.gz",
+      "size_bytes": 45668,
+      "sha256": "964ab0d08bb9e75451a1b8c7e5da36988d7a120a8f93948f6a6113ba4d60768d"
+    },
+    {
+      "path": "test/test_019-US.nii.gz",
+      "size_bytes": 4111169,
+      "sha256": "c8826ad21e1b5479c8b513b769c99ae16eff4845064569d3eec199e0a33691f5"
+    },
+    {
+      "path": "test/test_019-label.nii.gz",
+      "size_bytes": 78362,
+      "sha256": "a05ed77991f632533b4504a57edcb546a4efe818f76ff5180c393b2236223e98"
+    },
+    {
+      "path": "test/test_020-US.nii.gz",
+      "size_bytes": 3052104,
+      "sha256": "5674f42a4458cb3bbc273e991e6e901ee7e568deecd9fe26167c0e04b48f80ac"
+    },
+    {
+      "path": "test/test_020-label.nii.gz",
+      "size_bytes": 53072,
+      "sha256": "2cafa908022aa043b8972eeaa4254ebc5f1a6fdf8972bf86895dffcd2f69416c"
+    },
+    {
+      "path": "test/test_021-US.nii.gz",
+      "size_bytes": 2149150,
+      "sha256": "ff2ab625899cfdfd6ad5e8d0eb2ec1bee12e171a2e5a640883481e420dbcf1aa"
+    },
+    {
+      "path": "test/test_021-label.nii.gz",
+      "size_bytes": 31490,
+      "sha256": "0e9563936ae6062fd5a59a97e44ab0e044176cc9e7e59fc20f6a7466021d0b6b"
+    },
+    {
+      "path": "test/test_022-US.nii.gz",
+      "size_bytes": 3273483,
+      "sha256": "30d7005d0a3a32d20b5c7f821e0bc32b5820a1e9fc3edfe3f9a0f1ca0ad4e1cf"
+    },
+    {
+      "path": "test/test_022-label.nii.gz",
+      "size_bytes": 62735,
+      "sha256": "61e49c7931ab2277e0235d6fa90ba7f0f511754edcceae96a69e3f8d1b0c6121"
+    },
+    {
+      "path": "test/test_023-US.nii.gz",
+      "size_bytes": 3921925,
+      "sha256": "137051df6790087c640d7f70e22b54d155e51c279ea71c274699e5aa1c4b292c"
+    },
+    {
+      "path": "test/test_023-label.nii.gz",
+      "size_bytes": 65180,
+      "sha256": "46ba22d3824a37f9419d98ddc7fd6e3f1f581262c7b3158cdbd1e6488a0773bd"
+    },
+    {
+      "path": "test/test_024-US.nii.gz",
+      "size_bytes": 2566442,
+      "sha256": "83fcf64950092f2df942b9ffacc5cfe04094b56fd67d056385be7ec83db98605"
+    },
+    {
+      "path": "test/test_024-label.nii.gz",
+      "size_bytes": 48218,
+      "sha256": "64ca18c1a127db6682a2e1d63b0f4040539e16a0b6d982c22d1e04b81e5ab717"
+    },
+    {
+      "path": "test/test_025-US.nii.gz",
+      "size_bytes": 2114998,
+      "sha256": "0f1ade4b863f59e428672943a34e3674306953d799f63b40a7bcb5e370b1d8cf"
+    },
+    {
+      "path": "test/test_025-label.nii.gz",
+      "size_bytes": 46787,
+      "sha256": "56175db8fa7770eecd9a9915c44b42c515cff68f4e60752687f7f5bb05387936"
+    },
+    {
+      "path": "test/test_026-US.nii.gz",
+      "size_bytes": 3756035,
+      "sha256": "bf90de35974180610c5f0c25b1e4bac7fd4c978fbd06853369a17c06860b0181"
+    },
+    {
+      "path": "test/test_026-label.nii.gz",
+      "size_bytes": 60157,
+      "sha256": "a1257b6c0e449fd6c06b731f16cf0d51050f09bf569fcd60f1029e3953e06247"
+    },
+    {
+      "path": "test/test_027-US.nii.gz",
+      "size_bytes": 4740363,
+      "sha256": "5ace10d272dcf90cabadeedd574113a1baa5438b7cc4c1c00381b4733611842b"
+    },
+    {
+      "path": "test/test_027-label.nii.gz",
+      "size_bytes": 65579,
+      "sha256": "c5d97ce5995ab4c4ac34de00e6e2bd2be77423896acc121716da10a1b30dbb9f"
+    },
+    {
+      "path": "test/test_028-US.nii.gz",
+      "size_bytes": 3727753,
+      "sha256": "1a62b054ffaf06d68dabe8bef6e14c4436fcb2e21eea355d83a1965fcaccfe8a"
+    },
+    {
+      "path": "test/test_028-label.nii.gz",
+      "size_bytes": 65664,
+      "sha256": "08217d46b0db9b68e154906489a6864057c16fec69c545198757ff2e066207fc"
+    },
+    {
+      "path": "test/test_029-US.nii.gz",
+      "size_bytes": 4013422,
+      "sha256": "916ff2585fe05d0ea2ac1a41d64c03e9c5a924692c5b2823d77c2f3f3cdb8d73"
+    },
+    {
+      "path": "test/test_029-label.nii.gz",
+      "size_bytes": 47641,
+      "sha256": "7fb0c5766c27ab8cfbfe203ea418a3cea4e8e0d26ac6f361e9b833306e577beb"
+    },
+    {
+      "path": "test/test_030-US.nii.gz",
+      "size_bytes": 3631137,
+      "sha256": "2f842801e76efa894d66d943d23db3cf6fe825a4acc8c43f482ee27940688c17"
+    },
+    {
+      "path": "test/test_030-label.nii.gz",
+      "size_bytes": 53534,
+      "sha256": "3cd12633ad9b5218f4f5974688a78c60814666f758e2776bc9556526bfa24d62"
+    },
+    {
+      "path": "test/test_031-US.nii.gz",
+      "size_bytes": 3086126,
+      "sha256": "3aae159968193e4b53eb6e088df6cf594734516b90b455bed2e5fcc734f87ba8"
+    },
+    {
+      "path": "test/test_031-label.nii.gz",
+      "size_bytes": 46668,
+      "sha256": "3d54c8204cf93ad7ec8c9f5221358cda96f7d1fbb22c5e34bd030227ce1761ac"
+    },
+    {
+      "path": "test/test_032-US.nii.gz",
+      "size_bytes": 3533053,
+      "sha256": "88faeab2180ef44b361f0a5d157768a49904c3bd6bd6b70fdda79e6eb34b24a1"
+    },
+    {
+      "path": "test/test_032-label.nii.gz",
+      "size_bytes": 65171,
+      "sha256": "61da28ae1fdf14a897ad3a2d88cf55b792afb71948079390773f330a47ec79f8"
+    },
+    {
+      "path": "test/test_033-US.nii.gz",
+      "size_bytes": 3254005,
+      "sha256": "fa3935ba0485817221d54517fa4ade85cf237a37ff72912bc20a39b72f3bfb76"
+    },
+    {
+      "path": "test/test_033-label.nii.gz",
+      "size_bytes": 70167,
+      "sha256": "163749eff965d74cb726ddfd336f0fae7bdc81f5a436214583d60b637136364f"
+    },
+    {
+      "path": "test/test_034-US.nii.gz",
+      "size_bytes": 2450144,
+      "sha256": "1ccaca60f0659a21b13af256f68d07031638aa3f90ce1f89c8e9310cad3a0cdb"
+    },
+    {
+      "path": "test/test_034-label.nii.gz",
+      "size_bytes": 45575,
+      "sha256": "6570aa37093bbe31e2d90d5001dbbe6c2b38ca56c823e82eaa39f28bb56ae0c6"
+    },
+    {
+      "path": "test/test_035-US.nii.gz",
+      "size_bytes": 3598339,
+      "sha256": "52b3cca953579db96b569cd202511ce0ce5b6eb5f3b62ac03fd8bd3ad0127242"
+    },
+    {
+      "path": "test/test_035-label.nii.gz",
+      "size_bytes": 53966,
+      "sha256": "b718d5777312bdbba2c3c48c66475c80dc70ef38400c751b719683f89aaf721c"
+    },
+    {
+      "path": "test/test_036-US.nii.gz",
+      "size_bytes": 4317021,
+      "sha256": "35287c5152bfd700428e1aa9a5728271d8f43239b4f6a0d63bc85da7a8762204"
+    },
+    {
+      "path": "test/test_036-label.nii.gz",
+      "size_bytes": 57979,
+      "sha256": "0eb4a62396e08f1360a339bc050a752fa90f1d76e0f3ed66871cf13dbced04ac"
+    },
+    {
+      "path": "test/test_037-US.nii.gz",
+      "size_bytes": 3002097,
+      "sha256": "25e945bb14ece6a4cddcf29ae351facbfe3337117972a726772e93e74ea5ed92"
+    },
+    {
+      "path": "test/test_037-label.nii.gz",
+      "size_bytes": 51477,
+      "sha256": "7b497b6d9f02be6d931779c33517cb2d410fce9e0e81cde62a4f52d8d217912a"
+    },
+    {
+      "path": "test/test_038-US.nii.gz",
+      "size_bytes": 2295502,
+      "sha256": "0a7cea6e3b373123896de5a24618d04c916072c289c937a4f38673a6665fd559"
+    },
+    {
+      "path": "test/test_038-label.nii.gz",
+      "size_bytes": 51753,
+      "sha256": "f5a920fcdab19a1814b873423aad811f228ffd52744556d1bc97e0cee206567c"
+    },
+    {
+      "path": "test/test_039-US.nii.gz",
+      "size_bytes": 2637170,
+      "sha256": "59891e234c7f33bfa1a406d6ede4a36505463650bc45822d8d613cdf5d716fa7"
+    },
+    {
+      "path": "test/test_039-label.nii.gz",
+      "size_bytes": 55783,
+      "sha256": "33bef57c5b17bd46562cfd90d67b1bccb813da480ee4b85f6b6bcb9d0d527a8f"
+    },
+    {
+      "path": "test/test_040-US.nii.gz",
+      "size_bytes": 3631925,
+      "sha256": "c9ca12d1d9e6d6e3b57228a88bb9d303e9d9d997d8298b9a05283e53c6de5ef8"
+    },
+    {
+      "path": "test/test_040-label.nii.gz",
+      "size_bytes": 63170,
+      "sha256": "ac4a1d08cdc21577d2627ffae98f4dbc9c4512c92ca6de860dcc8219d6e38667"
+    },
+    {
+      "path": "train/train_001-US.nii.gz",
+      "size_bytes": 2816636,
+      "sha256": "853ba3f54b2035a2ed49c8b5b0b40c107105ef0c632ee6db5488d65cc1782542"
+    },
+    {
+      "path": "train/train_001-label.nii.gz",
+      "size_bytes": 64539,
+      "sha256": "0621da013178cf5ee2757703eb0f3ea9b7429da94fb4771a3342435d66e68e4b"
+    },
+    {
+      "path": "train/train_002-US.nii.gz",
+      "size_bytes": 4311741,
+      "sha256": "e8bdf35dd3ad549d24659c27e22890ecca192aaff89fc671cb4e43f0c2f6ceb7"
+    },
+    {
+      "path": "train/train_002-label.nii.gz",
+      "size_bytes": 59141,
+      "sha256": "46755324e5dc9ee2cef7899a715431ca5cf2e342aa48ab737395810b5a105eb4"
+    },
+    {
+      "path": "train/train_003-US.nii.gz",
+      "size_bytes": 3765961,
+      "sha256": "d358796e0c96a29b4b389e982549b038ef921ce7db08eef913b6288ffae15153"
+    },
+    {
+      "path": "train/train_003-label.nii.gz",
+      "size_bytes": 63616,
+      "sha256": "a103e0def62caea9ad84192c577381165c8894580541ee0564e708f2b5005a3d"
+    },
+    {
+      "path": "train/train_004-US.nii.gz",
+      "size_bytes": 2652560,
+      "sha256": "17d53d57a383d5b7de34997862b58da4076baa82a02aeb616d9883d479226e32"
+    },
+    {
+      "path": "train/train_004-label.nii.gz",
+      "size_bytes": 61143,
+      "sha256": "0b3f3a0c3a3d739f50b1e5f6b8dd1bb30b753528170f449a472ca40f5fbf3689"
+    },
+    {
+      "path": "train/train_005-US.nii.gz",
+      "size_bytes": 2663058,
+      "sha256": "caba46ed60fcdb798674c1d9eb6902e5b2373afd3b7736bcc24485fa61db43a3"
+    },
+    {
+      "path": "train/train_005-label.nii.gz",
+      "size_bytes": 50071,
+      "sha256": "f2b104da27a16d4b766007260ad5a5abee556cc0bec228bb4516be6710573cee"
+    },
+    {
+      "path": "train/train_006-US.nii.gz",
+      "size_bytes": 4147781,
+      "sha256": "c0b5912a55774e78d364c7d73bfaeea5059a338f8995c3eafa423f529613db96"
+    },
+    {
+      "path": "train/train_006-label.nii.gz",
+      "size_bytes": 46872,
+      "sha256": "8a2a9c2a824fe30c5094641554681014e3ac32e4d4bc1473e21c80ac2a228e89"
+    },
+    {
+      "path": "train/train_007-US.nii.gz",
+      "size_bytes": 4251356,
+      "sha256": "da09a2553de3b09fc7ade7d157d4fe1cc11aab6efc62dcadd50871e213f821e5"
+    },
+    {
+      "path": "train/train_007-label.nii.gz",
+      "size_bytes": 56684,
+      "sha256": "db26bc7258cdb34cbdedca3638e0bb2216c3160c21a5543ba30163af36978ee4"
+    },
+    {
+      "path": "train/train_008-US.nii.gz",
+      "size_bytes": 2722291,
+      "sha256": "46de1968b1d3dfe948ab7fd69b27c0db7ef9811b9c39deac5215b228a3fc7b0d"
+    },
+    {
+      "path": "train/train_008-label.nii.gz",
+      "size_bytes": 51818,
+      "sha256": "39363e536bae60321efc8fde627b8033f5da1f5b783d955acc521077716e8fe6"
+    },
+    {
+      "path": "train/train_009-US.nii.gz",
+      "size_bytes": 3718597,
+      "sha256": "33550679126a84be049024bbc2689b4d55704347268ed708bc9ffb535afef475"
+    },
+    {
+      "path": "train/train_009-label.nii.gz",
+      "size_bytes": 48616,
+      "sha256": "02dbfdb324d57f2679ef0ddd0627ce242b5c5188db23dee23760c9acf8723c38"
+    },
+    {
+      "path": "train/train_010-US.nii.gz",
+      "size_bytes": 2929552,
+      "sha256": "a1f2388771ed61f2f25b0e9b0906bdeb370c70fc23a7c41366b7c92177a66cfc"
+    },
+    {
+      "path": "train/train_010-label.nii.gz",
+      "size_bytes": 38547,
+      "sha256": "7a8bf9fbc546dda92fba81bf573b349cd2d80f70bddd89333893aa9c5966e9ca"
+    },
+    {
+      "path": "train/train_011-US.nii.gz",
+      "size_bytes": 3266163,
+      "sha256": "7a531451c528c1c32776a347f0d9aa77f9b6e79177f08de17e99a29c1cb5495b"
+    },
+    {
+      "path": "train/train_011-label.nii.gz",
+      "size_bytes": 63612,
+      "sha256": "5a84b368c4d2d92b16013831b699f55f3f8ff4f4a3873412dda7007d2c32716c"
+    },
+    {
+      "path": "train/train_012-US.nii.gz",
+      "size_bytes": 3383405,
+      "sha256": "6308e1c70f94c495ea3b84c9aed4b132b9c221c311e8f6b28a02b61857b7aaae"
+    },
+    {
+      "path": "train/train_012-label.nii.gz",
+      "size_bytes": 56619,
+      "sha256": "e3f13905aeffa331141bfeabb1cba125e1f86512bd2862891f3e5748a84d89f9"
+    },
+    {
+      "path": "train/train_013-US.nii.gz",
+      "size_bytes": 4946266,
+      "sha256": "9b9e45967ab04fcb7a9188e005d00a6ea194686064356a6ee54f7f7760065c0c"
+    },
+    {
+      "path": "train/train_013-label.nii.gz",
+      "size_bytes": 60915,
+      "sha256": "333bfc1294cd990e28b7f7d02d5c77da0264d61b22ff2cf87949b8a226ff2843"
+    },
+    {
+      "path": "train/train_014-US.nii.gz",
+      "size_bytes": 3687903,
+      "sha256": "70be0d95f2a2d0b52773b355d6c44b8039fff77b8f049d9189b0630c9cfbd654"
+    },
+    {
+      "path": "train/train_014-label.nii.gz",
+      "size_bytes": 51901,
+      "sha256": "94a670d8d67940651ecb22d1874021920a1a038b818a5341a1983c9f5d53a6e2"
+    },
+    {
+      "path": "train/train_015-US.nii.gz",
+      "size_bytes": 3174930,
+      "sha256": "30cab185c71a3d708465a7a3c4bd22de5d887eb62f760cb390412387ab917493"
+    },
+    {
+      "path": "train/train_015-label.nii.gz",
+      "size_bytes": 50327,
+      "sha256": "8ff79b733bdf1be424c18cacc11d294af2972d65f94eafe6739f31c1fc254954"
+    },
+    {
+      "path": "train/train_016-US.nii.gz",
+      "size_bytes": 5454014,
+      "sha256": "2da5c5a178b469f84a96d49fd3560bfe4705337c3a935fe5b9474132a3e4d386"
+    },
+    {
+      "path": "train/train_016-label.nii.gz",
+      "size_bytes": 59434,
+      "sha256": "56afd659574731558e069d2b88dc6fa81e22ee1450574f73f0fb872b65a5c8d9"
+    },
+    {
+      "path": "train/train_017-US.nii.gz",
+      "size_bytes": 2998133,
+      "sha256": "2de6250d50e8d80eb86733a8382a86cd70d56bbb2ccda3b56e2afabf606f9914"
+    },
+    {
+      "path": "train/train_017-label.nii.gz",
+      "size_bytes": 51685,
+      "sha256": "de1a837a9ad359ec4904737d92a0a832ac964a33a0997ec5e7b077a6d9438c41"
+    },
+    {
+      "path": "train/train_018-US.nii.gz",
+      "size_bytes": 5572251,
+      "sha256": "8e2791c2d8a0f4e3e55138b9e0cf70d5348b7a464c396df8700f22a2456bd95c"
+    },
+    {
+      "path": "train/train_018-label.nii.gz",
+      "size_bytes": 78272,
+      "sha256": "8a6edb63df623b293eac27491d697bdfe514cf52bd55f304446cc7bdd5bb60de"
+    },
+    {
+      "path": "train/train_019-US.nii.gz",
+      "size_bytes": 3118319,
+      "sha256": "7091d9967acce30184ff7caddc0f2e0719bf2b00e0162f08fd03348073209032"
+    },
+    {
+      "path": "train/train_019-label.nii.gz",
+      "size_bytes": 60671,
+      "sha256": "cec81a1954973a5d857bbd64263f25de18859bed259f9670cf687443d8da0828"
+    },
+    {
+      "path": "train/train_020-US.nii.gz",
+      "size_bytes": 2987604,
+      "sha256": "d8d099ed247f65dd1bba38f56a66c4b3cbe91d1f3f0f9b08016bdcb5ff0e8e9b"
+    },
+    {
+      "path": "train/train_020-label.nii.gz",
+      "size_bytes": 54886,
+      "sha256": "9daa0aaf17ffd22e5d56956097057fd0962aa22e91ee5ae5a8f25455041c28de"
+    },
+    {
+      "path": "train/train_021-US.nii.gz",
+      "size_bytes": 4054417,
+      "sha256": "a958a60b3c55c07878944c2e9a47f754e179598e0dff335738489e381047ba8d"
+    },
+    {
+      "path": "train/train_021-label.nii.gz",
+      "size_bytes": 66145,
+      "sha256": "078f48146cf2f196ae8cb2fae3909e90d9a4ea327c7dd74727d1c571b06c0a68"
+    },
+    {
+      "path": "train/train_022-US.nii.gz",
+      "size_bytes": 4045938,
+      "sha256": "4648da2c56b986439521a283ff6e52cbe655c0e38d2686e8628d64e1c1f6d95e"
+    },
+    {
+      "path": "train/train_022-label.nii.gz",
+      "size_bytes": 79500,
+      "sha256": "b1bfbfcfbc4f0089cc158aad3bde72244b20d383e00a043fff1a3fb7d262edfc"
+    },
+    {
+      "path": "train/train_023-US.nii.gz",
+      "size_bytes": 3671967,
+      "sha256": "ec7f4dc9be6a933370041df21368e5e3ca23cd8af42106df9161eee37dfb046d"
+    },
+    {
+      "path": "train/train_023-label.nii.gz",
+      "size_bytes": 57367,
+      "sha256": "b020b71595a713a152141274c68588b428d2d061e85d26dd4ea29dea19db31df"
+    },
+    {
+      "path": "train/train_024-US.nii.gz",
+      "size_bytes": 3994998,
+      "sha256": "e1bac03dc0366c6f88b85ab9e4f84b556e562502c00db1a4df4341695a9b1421"
+    },
+    {
+      "path": "train/train_024-label.nii.gz",
+      "size_bytes": 39768,
+      "sha256": "acb0208ce226be08591b46e20dfa2bcb434b0308ce69cd53d183508de99cdea4"
+    },
+    {
+      "path": "train/train_025-US.nii.gz",
+      "size_bytes": 4241292,
+      "sha256": "ddb5f30c032bee34b66490cc5c0f28643f146beca603061857288de1f7eb455a"
+    },
+    {
+      "path": "train/train_025-label.nii.gz",
+      "size_bytes": 59519,
+      "sha256": "39736fbf46e8d91b800e70fdb2f1c4eace1d3a5f8298eface5ffd75747193e9e"
+    },
+    {
+      "path": "train/train_026-US.nii.gz",
+      "size_bytes": 3514490,
+      "sha256": "c9c80f1790fed8cfade2f3e99a33d12df8651d42af5912c4c1fc739351cf65ef"
+    },
+    {
+      "path": "train/train_026-label.nii.gz",
+      "size_bytes": 76797,
+      "sha256": "67c5bbdf45f33596d8309e3e544f3515f48f4c4936389fb6bfaa9cb6ca53218c"
+    },
+    {
+      "path": "train/train_027-US.nii.gz",
+      "size_bytes": 2681604,
+      "sha256": "ca8ef41a04269274b5fd657b313f7e3d167f78c3c388e3b242ae2b0ef8c6dfa4"
+    },
+    {
+      "path": "train/train_027-label.nii.gz",
+      "size_bytes": 43501,
+      "sha256": "06dd00c168bbdb50a0a2c6fc8999f43456d3b233f42d3e8b50a7a0920cb1d53d"
+    },
+    {
+      "path": "train/train_028-US.nii.gz",
+      "size_bytes": 4500979,
+      "sha256": "d0c45f63a2a236bbc339c2c4b067ffcd6def481622cac4582e518fe465e25234"
+    },
+    {
+      "path": "train/train_028-label.nii.gz",
+      "size_bytes": 83709,
+      "sha256": "d33a108b35385c889547bace816acb7f0b563a4cbc4da0a0bb133495b15942a9"
+    },
+    {
+      "path": "train/train_029-US.nii.gz",
+      "size_bytes": 3696808,
+      "sha256": "019e490c14b62c3f6ba31e7d7e957ca3953812260df99d0eb522440aca24a1f9"
+    },
+    {
+      "path": "train/train_029-label.nii.gz",
+      "size_bytes": 51790,
+      "sha256": "1c2424ae9ffe864cb3ffc4168e5231f08ab3be157b9ccb27caaa53649d0219db"
+    },
+    {
+      "path": "train/train_030-US.nii.gz",
+      "size_bytes": 4092060,
+      "sha256": "1c2c27a15ac37fcee034fb6de8fa5fdcb5195650bca54a7390562b8d51456649"
+    },
+    {
+      "path": "train/train_030-label.nii.gz",
+      "size_bytes": 69446,
+      "sha256": "95d316935832acf81e44394b3612d2b8a0a701cb4eed8a883b9cfbca70430924"
+    },
+    {
+      "path": "train/train_031-US.nii.gz",
+      "size_bytes": 2869471,
+      "sha256": "7b4d03f934b87bf1d5d34f797ddeb6ad47051854f2414f46479113b72096140c"
+    },
+    {
+      "path": "train/train_031-label.nii.gz",
+      "size_bytes": 55167,
+      "sha256": "5d4f664799dd67f7f08acdd4f8623ef9cf9040e4924d2dff71de98899541fc75"
+    },
+    {
+      "path": "train/train_032-US.nii.gz",
+      "size_bytes": 3385068,
+      "sha256": "72fe2b0eae800ed291e62147473ab96b79304aa31c99b078bb2af40529aa8786"
+    },
+    {
+      "path": "train/train_032-label.nii.gz",
+      "size_bytes": 66296,
+      "sha256": "2d06538e1465821aea0774d819444d30c2496e6c4e263c70dc7231bd3355d88c"
+    },
+    {
+      "path": "train/train_033-US.nii.gz",
+      "size_bytes": 2983126,
+      "sha256": "a8c61effe99144edc6de9f1696d9b18394ce961c4fe07c6065d7db7cb73b4716"
+    },
+    {
+      "path": "train/train_033-label.nii.gz",
+      "size_bytes": 48672,
+      "sha256": "8127445d03d341c0ba9c57a9970faabb7c70c91e7654c53c95740bbb8d746544"
+    },
+    {
+      "path": "train/train_034-US.nii.gz",
+      "size_bytes": 1923906,
+      "sha256": "195d14406d82e9f69cf17cf74b1eb2cb2378fe103801e83ae5ffab8e7a0f98f9"
+    },
+    {
+      "path": "train/train_034-label.nii.gz",
+      "size_bytes": 40753,
+      "sha256": "c909ca6efa2d9578bfde0e9f13aa932e4d61ecbdd85f3667a8028ae6de50cd12"
+    },
+    {
+      "path": "train/train_035-US.nii.gz",
+      "size_bytes": 2127671,
+      "sha256": "bf1379cd86704b3c7c577f6458cef9b25f52c05b5113dc2d521e8d84c1b85be8"
+    },
+    {
+      "path": "train/train_035-label.nii.gz",
+      "size_bytes": 34937,
+      "sha256": "dc9de267310e8d0984c19f2cfb627604e606c358b201ef4d423d16c9b04979ee"
+    },
+    {
+      "path": "train/train_036-US.nii.gz",
+      "size_bytes": 5049103,
+      "sha256": "68ca90ddfdffcf398714a399321e128749d3df9221884ed9dba07b142febcb3b"
+    },
+    {
+      "path": "train/train_036-label.nii.gz",
+      "size_bytes": 77603,
+      "sha256": "6efb224c47d94cf094d4f828f84ac585a108af5763c7e825c0349d608932f720"
+    },
+    {
+      "path": "train/train_037-US.nii.gz",
+      "size_bytes": 4490579,
+      "sha256": "fd94cac9ce57a4623393cdee06ae3baba803c9178dcd8310cfefa35c5ca5f5df"
+    },
+    {
+      "path": "train/train_037-label.nii.gz",
+      "size_bytes": 72494,
+      "sha256": "29b595c1ea3cbc9eeb2af7d24e3f0aec2688aa0bf1f671f863178cebfd8cfc8a"
+    },
+    {
+      "path": "train/train_038-US.nii.gz",
+      "size_bytes": 4575849,
+      "sha256": "5735820a76ca2e7457f57da76bb1188213fce769361d0a09ca3a60583275e5d4"
+    },
+    {
+      "path": "train/train_038-label.nii.gz",
+      "size_bytes": 47726,
+      "sha256": "9af4e49bb07fd821608c441b9777e0627a1a306b14f96b6063e3b287ad470fff"
+    },
+    {
+      "path": "train/train_039-US.nii.gz",
+      "size_bytes": 3478145,
+      "sha256": "d100fa43b11819c87125fa9172aea737f872a9ae939a4315371c0d40e9bb3fd0"
+    },
+    {
+      "path": "train/train_039-label.nii.gz",
+      "size_bytes": 69844,
+      "sha256": "9f3932f858f8c2119456d6acb8358c41d3302ca0e8a574905fb31fc81d6795af"
+    },
+    {
+      "path": "train/train_040-US.nii.gz",
+      "size_bytes": 2440880,
+      "sha256": "428db3b5b991223e1ff0e0c5ca05ee3480de6cded56fa08788423315ac138855"
+    },
+    {
+      "path": "train/train_040-label.nii.gz",
+      "size_bytes": 42048,
+      "sha256": "d4e6b97b1c0d496d7e70914a91c82f8875cf0ca299d19920b249ec130a8aaf87"
+    },
+    {
+      "path": "train/train_041-US.nii.gz",
+      "size_bytes": 3100782,
+      "sha256": "c63d818cef7750336711597d6919960edd6fd5e69c1d1bd5e3e28daf7472bd59"
+    },
+    {
+      "path": "train/train_041-label.nii.gz",
+      "size_bytes": 46262,
+      "sha256": "0a6fa28808a8632d2fba3f96eee0de80b1b655748b0da055a58512a300cd49df"
+    },
+    {
+      "path": "train/train_042-US.nii.gz",
+      "size_bytes": 4699007,
+      "sha256": "bda107fc9acf2a3fe00dd98d709d5490bdabeb3057e1acfc95f5cedd5ed9af7d"
+    },
+    {
+      "path": "train/train_042-label.nii.gz",
+      "size_bytes": 69958,
+      "sha256": "928cdac005fd6986d90d82628fe5f3f8d0979d89117d7df4d1aa2d10744e0468"
+    },
+    {
+      "path": "train/train_043-US.nii.gz",
+      "size_bytes": 4882792,
+      "sha256": "358a6673a40607807f72ca36be443cc27fe597029d05b9120c219d0caf677d6b"
+    },
+    {
+      "path": "train/train_043-label.nii.gz",
+      "size_bytes": 86884,
+      "sha256": "280040326dc26c1ff9d51a4eec3b8385216a47c29da0083ac3d00c740068bbb6"
+    },
+    {
+      "path": "train/train_044-US.nii.gz",
+      "size_bytes": 3178173,
+      "sha256": "ed485b410e8e2f9c950f711ea4e19d7def4a23f3e3f2cf4da3e5d284ad8f7bd8"
+    },
+    {
+      "path": "train/train_044-label.nii.gz",
+      "size_bytes": 56049,
+      "sha256": "d6264af9b169aacd589f966d34defabf4c9fcbea9544d9009737025b66f60faa"
+    },
+    {
+      "path": "train/train_045-US.nii.gz",
+      "size_bytes": 3172799,
+      "sha256": "da306eacc112348e4c97c9a1b68848ae7b984c9a187d2cb0cb1639fc8732b9a9"
+    },
+    {
+      "path": "train/train_045-label.nii.gz",
+      "size_bytes": 59765,
+      "sha256": "1574fc659d1e31b62610007af0267a1c1c549e94fcd5f1eaefb7c1a47cbf48fa"
+    },
+    {
+      "path": "train/train_046-US.nii.gz",
+      "size_bytes": 4065696,
+      "sha256": "5fddb0cf50f7eb2b0e822dfd24e8ee3c18409ccc9b2b581d63a5a66c91b54784"
+    },
+    {
+      "path": "train/train_046-label.nii.gz",
+      "size_bytes": 63723,
+      "sha256": "58804689a3c2424646cd478a81848e0f70c90139ebac92c25a30cc24dee94e3e"
+    },
+    {
+      "path": "train/train_047-US.nii.gz",
+      "size_bytes": 4228878,
+      "sha256": "e031185897e1f9560b3f77cd7a0ffb7ae03afd4e0280a855a437884bd8ff9729"
+    },
+    {
+      "path": "train/train_047-label.nii.gz",
+      "size_bytes": 84377,
+      "sha256": "4f67a08e9694388f10084d8493d0e7cbfce6215e87fd3935024fd6ca87436127"
+    },
+    {
+      "path": "train/train_048-US.nii.gz",
+      "size_bytes": 2670553,
+      "sha256": "4e2f2af79952b5b9b3007e665466da6650c5eece962af176da7cf699e5ef2c37"
+    },
+    {
+      "path": "train/train_048-label.nii.gz",
+      "size_bytes": 41677,
+      "sha256": "baa37605afec3ea6a5915fdc655af3154bb8f24f60d64e6d5066ed9d5ab9fe57"
+    },
+    {
+      "path": "train/train_049-US.nii.gz",
+      "size_bytes": 4098225,
+      "sha256": "496e4c4ba705ce14b1e3cf0e4188612fd89b52af0e34b2f456636fc7ec887592"
+    },
+    {
+      "path": "train/train_049-label.nii.gz",
+      "size_bytes": 65879,
+      "sha256": "46289f81b34e1314716a4adc1545fde070d3506565e32b258dd71229484f6f35"
+    },
+    {
+      "path": "train/train_050-US.nii.gz",
+      "size_bytes": 5183187,
+      "sha256": "e0e80c5a413af0c90afcc0dbeb6baa290ce05b5cf253d84a85b3b92bcd6858e1"
+    },
+    {
+      "path": "train/train_050-label.nii.gz",
+      "size_bytes": 96688,
+      "sha256": "8d00395e2c4d68ecef4f80e051b26982ad5468877028060ec604aeeffd0a56ba"
+    },
+    {
+      "path": "train/train_051-US.nii.gz",
+      "size_bytes": 3522939,
+      "sha256": "1a3fbcf57ce40907227f04a3094b8eea7fa6343d33445c8ce6bb42a77baf37d6"
+    },
+    {
+      "path": "train/train_051-label.nii.gz",
+      "size_bytes": 52353,
+      "sha256": "96a500edd16101a6c04674202a131ba0c610e34a1c8228b3bf75e4bb2bbcfcdb"
+    },
+    {
+      "path": "train/train_052-US.nii.gz",
+      "size_bytes": 4856579,
+      "sha256": "ada8716d5a1e8df2b65a43e69bb15e6811c899573ab632b30d81c2b6feb5a308"
+    },
+    {
+      "path": "train/train_052-label.nii.gz",
+      "size_bytes": 85324,
+      "sha256": "512fe5bd5950a70968c0baf9459f36637aa6035e49809886b379864ce5acbdc6"
+    },
+    {
+      "path": "train/train_053-US.nii.gz",
+      "size_bytes": 5300378,
+      "sha256": "74409fd24dd7b45fffaf1ac21fc05d1c1b427b005f2bad75547872c4bf626598"
+    },
+    {
+      "path": "train/train_053-label.nii.gz",
+      "size_bytes": 90654,
+      "sha256": "fbcd44c279ac26c0a332a1da0772569536489829812d0bfcf1f483dc44ba5b13"
+    },
+    {
+      "path": "train/train_054-US.nii.gz",
+      "size_bytes": 4177651,
+      "sha256": "6fcc7b3d9499375f73d369f30b356135f5c5b2018d23ac588358b1e733f74309"
+    },
+    {
+      "path": "train/train_054-label.nii.gz",
+      "size_bytes": 58431,
+      "sha256": "fc11713103cb910934518adb57f8c147d2a45bb75f1fcdf9fa4c801531427824"
+    },
+    {
+      "path": "train/train_055-US.nii.gz",
+      "size_bytes": 3489835,
+      "sha256": "599a984ae9d072752aff689c85100ba4a2c21db51a34e64a61b830b994216560"
+    },
+    {
+      "path": "train/train_055-label.nii.gz",
+      "size_bytes": 58665,
+      "sha256": "8603ac583ad2f9f28d4b3ecc79728543930d973b4b2ca7170f150282a0870cd8"
+    },
+    {
+      "path": "train/train_056-US.nii.gz",
+      "size_bytes": 2022949,
+      "sha256": "886d595753e314c76eaec24f93fc555b9fc2835e9bcfffb8853133b4ba4a325a"
+    },
+    {
+      "path": "train/train_056-label.nii.gz",
+      "size_bytes": 47851,
+      "sha256": "3171ecf178685669485394baaa4ca1bb37d33234a93d5a2c597d713e7f920771"
+    },
+    {
+      "path": "train/train_057-US.nii.gz",
+      "size_bytes": 3715002,
+      "sha256": "69e1727835f6ee49abcc244f99754103160e0843718a64871688bd2eadbcf51d"
+    },
+    {
+      "path": "train/train_057-label.nii.gz",
+      "size_bytes": 59315,
+      "sha256": "4ae3d654064bea53d8375781ab8a95c19143a1c09d58e9d86144d80ac7c59bd4"
+    },
+    {
+      "path": "train/train_058-US.nii.gz",
+      "size_bytes": 2775435,
+      "sha256": "fe1009a086e235e2769780a935a77a3e251013075e7e39d99b497322e7c23159"
+    },
+    {
+      "path": "train/train_058-label.nii.gz",
+      "size_bytes": 40245,
+      "sha256": "5322f337e67172d1bf1357912b2b4147d5f3a526dd2d568a33ef82e28c267ceb"
+    },
+    {
+      "path": "train/train_059-US.nii.gz",
+      "size_bytes": 1821446,
+      "sha256": "cc1f4721e6e1e063f58babdf66259808825562c060fbaa7afe24eb3da734b200"
+    },
+    {
+      "path": "train/train_059-label.nii.gz",
+      "size_bytes": 37535,
+      "sha256": "ed7169d498a0d6a47ac0ad33cb2c6c28e61b9c4660c7cfc6244533ae834310f8"
+    },
+    {
+      "path": "train/train_060-US.nii.gz",
+      "size_bytes": 3219633,
+      "sha256": "21b0dce028fc0f0277c2eb6d2cfb007b7e62885b89ee56f16cc24a0474da6ab6"
+    },
+    {
+      "path": "train/train_060-label.nii.gz",
+      "size_bytes": 42687,
+      "sha256": "3d9e779a97c8d5b7afc9f05d280735a1db0a66a2b1dcd228f958d3181a4f2c66"
+    },
+    {
+      "path": "train/train_061-US.nii.gz",
+      "size_bytes": 4004344,
+      "sha256": "ac058a03eed85afafe97b2664e31ab954b6e4e95175c779eedd6cc9a453aae75"
+    },
+    {
+      "path": "train/train_061-label.nii.gz",
+      "size_bytes": 98550,
+      "sha256": "89e6ae6fe296090c44c14d65e699b1998a448010113886ddaa36f9f49bb2a03c"
+    },
+    {
+      "path": "train/train_062-US.nii.gz",
+      "size_bytes": 3624652,
+      "sha256": "1d821fc24497dbf84b86ec751d04339f9ecfdee2f1438261b23c492b0270c37a"
+    },
+    {
+      "path": "train/train_062-label.nii.gz",
+      "size_bytes": 61998,
+      "sha256": "1440e1e99a04f5d0584a89310485970dccd11d492512188e33cb1e0770f32b30"
+    },
+    {
+      "path": "train/train_063-US.nii.gz",
+      "size_bytes": 2803113,
+      "sha256": "20a220205f5524d715a33c69f5eb8801fb956390c2df092d58a925698e3041fd"
+    },
+    {
+      "path": "train/train_063-label.nii.gz",
+      "size_bytes": 64749,
+      "sha256": "31b2068eb4393a0aef65c0112cee00bb0ba249732efcd48086f337a99568bc1d"
+    },
+    {
+      "path": "train/train_064-US.nii.gz",
+      "size_bytes": 3109200,
+      "sha256": "53f674ad741111b0ec67d0ff98c9bdaea8dad53ad0196c24d37850c6d31bf998"
+    },
+    {
+      "path": "train/train_064-label.nii.gz",
+      "size_bytes": 57515,
+      "sha256": "d3b3b887865c58a2bf6cebaceaa8dfbed52532207bd49bf94af4e28dafa72dbe"
+    },
+    {
+      "path": "train/train_065-US.nii.gz",
+      "size_bytes": 3583601,
+      "sha256": "51f3ffe952af69badd77b6f02e3ccc7954f7fce3e7b2f583848487c1ee153f19"
+    },
+    {
+      "path": "train/train_065-label.nii.gz",
+      "size_bytes": 42583,
+      "sha256": "8bd612b0090796dd18b9b3527fd5880d8d2a8cf6ff901bfc0c85c5761fd05dc8"
+    },
+    {
+      "path": "train/train_066-US.nii.gz",
+      "size_bytes": 2397121,
+      "sha256": "f77e88c964ae3c9b7f8658f885523ca19766450565aa6da3cc03256e8580e38c"
+    },
+    {
+      "path": "train/train_066-label.nii.gz",
+      "size_bytes": 56249,
+      "sha256": "f058dde888086671eaa1d5e7eb04de7116e0cd6bd048a610afddd4e601fef3ec"
+    },
+    {
+      "path": "train/train_067-US.nii.gz",
+      "size_bytes": 3432154,
+      "sha256": "18244b5343b99fa7eb6d3c9dc08c90c2d91fd99f0a3f3be85c9d18d31324212a"
+    },
+    {
+      "path": "train/train_067-label.nii.gz",
+      "size_bytes": 62422,
+      "sha256": "d1b68def4afd325c0a438b06ba3c6abc0308d955251d12f65fdd381ce1204365"
+    },
+    {
+      "path": "train/train_068-US.nii.gz",
+      "size_bytes": 4208504,
+      "sha256": "1a96e247e5cbc7f53bd4c3eda600e290736f835cbb8bb736f196804991d27f8c"
+    },
+    {
+      "path": "train/train_068-label.nii.gz",
+      "size_bytes": 86482,
+      "sha256": "5e6de5f2acab4ec757f69793ec3bb0549e4abb3806291ba9211c9c363779514c"
+    },
+    {
+      "path": "train/train_069-US.nii.gz",
+      "size_bytes": 3391169,
+      "sha256": "313b54e561cc8b84cf0ad8cff81c1857b69cf3a8d37e1560da282b643e8b5dd8"
+    },
+    {
+      "path": "train/train_069-label.nii.gz",
+      "size_bytes": 60604,
+      "sha256": "a3605840df1611f615cb3df0d474a365b20c7962b8d8fd09610dea394a9343fc"
+    },
+    {
+      "path": "train/train_070-US.nii.gz",
+      "size_bytes": 3104736,
+      "sha256": "cb668f84b2437f58ddc188ef71155c4d8c6b256e1facecc88573783cc469925f"
+    },
+    {
+      "path": "train/train_070-label.nii.gz",
+      "size_bytes": 81415,
+      "sha256": "1ca0e1bedc95407c62bb757f661df860ed2e1bea51b8e26fd2bc54be0c7a43ce"
+    },
+    {
+      "path": "train/train_071-US.nii.gz",
+      "size_bytes": 3984688,
+      "sha256": "308e5741ace9ffdf448ae67fa6a6875adaf8331bbf216c1df4514518c2bbeefe"
+    },
+    {
+      "path": "train/train_071-label.nii.gz",
+      "size_bytes": 62502,
+      "sha256": "5132922f02c4c30bb9dd858b33d198f4813b7900f04dfc4246d61395ad5b86d3"
+    },
+    {
+      "path": "train/train_072-US.nii.gz",
+      "size_bytes": 2178206,
+      "sha256": "fcac2dd5997e56a55d398e9de7bc1bfa7d4ce6e1f1ffd3c610ad2190c9d80bcd"
+    },
+    {
+      "path": "train/train_072-label.nii.gz",
+      "size_bytes": 58742,
+      "sha256": "88e70d9aa542fed9497f0cdbc64ae163e4c5e782d1324123d5e073b7659bc5a8"
+    },
+    {
+      "path": "train/train_073-US.nii.gz",
+      "size_bytes": 4071502,
+      "sha256": "2436f8f313eeb55306b955c155312b4d247b3d0d1383d48f5b1e45eda95aee47"
+    },
+    {
+      "path": "train/train_073-label.nii.gz",
+      "size_bytes": 44241,
+      "sha256": "a3112ee8bfa391520b4aacbf5735282b99c360a22aba7a30a842956f99b59371"
+    },
+    {
+      "path": "train/train_074-US.nii.gz",
+      "size_bytes": 3428624,
+      "sha256": "b2ebe35e7b70a8fcb9d398bcaf2d748620e4512fc85a4ec2a8814d0cf23720b5"
+    },
+    {
+      "path": "train/train_074-label.nii.gz",
+      "size_bytes": 53909,
+      "sha256": "592d7e01a23415e7be7eb7637709e45a4598337d825494dfcb40ba8fafc4a58f"
+    },
+    {
+      "path": "train/train_075-US.nii.gz",
+      "size_bytes": 3923958,
+      "sha256": "d52dc00abab4c3eb1d4bbddc1f9fcdb223dfa8274985030f335cca19bf4bd713"
+    },
+    {
+      "path": "train/train_075-label.nii.gz",
+      "size_bytes": 79141,
+      "sha256": "0da94a8a09146761180607c67c36d9bb412b702e1d7bf5c32801ab893753654b"
+    },
+    {
+      "path": "train/train_076-US.nii.gz",
+      "size_bytes": 2601837,
+      "sha256": "129161f42f8c979054afd10013fc3723c061b99e3d066a46cde5191b591e4546"
+    },
+    {
+      "path": "train/train_076-label.nii.gz",
+      "size_bytes": 84244,
+      "sha256": "75449b519de552a39da9d8dc8e6d4feb39f54d3a983ac6a33c1f2e586c081ba0"
+    },
+    {
+      "path": "train/train_077-US.nii.gz",
+      "size_bytes": 2380656,
+      "sha256": "3321cb3a0825178a92d5504fba6640d48067be84536522d5cfa52b93a1f19d03"
+    },
+    {
+      "path": "train/train_077-label.nii.gz",
+      "size_bytes": 46410,
+      "sha256": "2df4075fae0dbf4b889dfd4aa5c84ce066cb32edbee99d4946fd10c2c0741bde"
+    },
+    {
+      "path": "train/train_078-US.nii.gz",
+      "size_bytes": 3551280,
+      "sha256": "45e297d6120db6cc71d6cc8442c8c3096638f39923fb134dabefede895223131"
+    },
+    {
+      "path": "train/train_078-label.nii.gz",
+      "size_bytes": 53253,
+      "sha256": "92ae9de79ac5ebcfc2f70fb387324f44ae622418415a4a7a42254d0b03958408"
+    },
+    {
+      "path": "train/train_079-US.nii.gz",
+      "size_bytes": 3647881,
+      "sha256": "155b72dafbff3448a0cb964bef38c77c31f8eecca0c06e786e8bb7b553ebfd3c"
+    },
+    {
+      "path": "train/train_079-label.nii.gz",
+      "size_bytes": 53278,
+      "sha256": "8e8cf833b4d2f3de550c1bc8602e4769ba25e62d572a1ec5cdb8fef898184722"
+    },
+    {
+      "path": "train/train_080-US.nii.gz",
+      "size_bytes": 3292990,
+      "sha256": "71d6d3c729212b3ab1c66beb083909119bd8f119eb5a7cdb8f57b997bf27a690"
+    },
+    {
+      "path": "train/train_080-label.nii.gz",
+      "size_bytes": 54237,
+      "sha256": "b820c4259a802ec1496462167c186962f2f830990fb122300dad2c07fefd67f0"
+    },
+    {
+      "path": "train/train_081-US.nii.gz",
+      "size_bytes": 2914802,
+      "sha256": "cabd3f67da65601dd01e835d2c4da21b4c4efe7ad20c7711aaab000a9b3b5e50"
+    },
+    {
+      "path": "train/train_081-label.nii.gz",
+      "size_bytes": 65502,
+      "sha256": "5c3d233224850ad4d654e4ef7c40538d7bfffa901814664e6d885f1e431e6ec3"
+    },
+    {
+      "path": "train/train_082-US.nii.gz",
+      "size_bytes": 3798748,
+      "sha256": "f73e4748a86fccf22d8693e3097658e42b6219c901586d7f7e561fd18127987c"
+    },
+    {
+      "path": "train/train_082-label.nii.gz",
+      "size_bytes": 40637,
+      "sha256": "f0bc12e334f8457b58b36319409ca6a43dead62edba5dae463ff99b6bb1f3a69"
+    },
+    {
+      "path": "train/train_083-US.nii.gz",
+      "size_bytes": 2666179,
+      "sha256": "c8a795c7cb120c06ab4d3b1b3f6cda3f415e5efc9eceecf88f9ec4649a5fdc3c"
+    },
+    {
+      "path": "train/train_083-label.nii.gz",
+      "size_bytes": 53189,
+      "sha256": "274db5bb748cf951691302b9bb6fc7062cbf3e72056b2e14b2c5ed91180eaaa3"
+    },
+    {
+      "path": "train/train_084-US.nii.gz",
+      "size_bytes": 5162783,
+      "sha256": "782fa561ace9935af0ecbd0191b7999b0441f331e1e66ed627fb4c33410ba5b3"
+    },
+    {
+      "path": "train/train_084-label.nii.gz",
+      "size_bytes": 72973,
+      "sha256": "3669f2d1ab8f6669d769892db3b7154fbe9c664931d97f6688966ecff3f00b76"
+    },
+    {
+      "path": "train/train_085-US.nii.gz",
+      "size_bytes": 3128797,
+      "sha256": "257b457cd2b1aa364f164f2df42bb651a2fd03887d2e845c8bf034fe6c1f1092"
+    },
+    {
+      "path": "train/train_085-label.nii.gz",
+      "size_bytes": 65867,
+      "sha256": "eaf44cd7355a6e7f84d933755cd4e572838884f2bef09840f12227ba110f6142"
+    },
+    {
+      "path": "train/train_086-US.nii.gz",
+      "size_bytes": 3047015,
+      "sha256": "f170fc82a45f467d55208178118949a154f33dade4b4395b37c4848f5ab9dc58"
+    },
+    {
+      "path": "train/train_086-label.nii.gz",
+      "size_bytes": 60419,
+      "sha256": "adfecfa6a9348bb05c158067faeddc22809570b8f588215da03e9bcf15db7882"
+    },
+    {
+      "path": "train/train_087-US.nii.gz",
+      "size_bytes": 3719404,
+      "sha256": "f4150c0c749e605ba51fd49ebb1842b11047ae0c95c98a06a209259904c31d59"
+    },
+    {
+      "path": "train/train_087-label.nii.gz",
+      "size_bytes": 68576,
+      "sha256": "2051ae7a6e87e3976b4bc5e8386104c2fc50af3a6077aea8fafd373e4cfbac4e"
+    },
+    {
+      "path": "train/train_088-US.nii.gz",
+      "size_bytes": 4134602,
+      "sha256": "ae0dc3364d5b32943b19846b2bb525973e589a20b094aaa93ed4f91c4ba13ae1"
+    },
+    {
+      "path": "train/train_088-label.nii.gz",
+      "size_bytes": 54432,
+      "sha256": "c49f393bb22fa813d2f5ce0b6602cbd2d020b1903f6c68c09b6c5bac1bf92293"
+    },
+    {
+      "path": "train/train_089-US.nii.gz",
+      "size_bytes": 4361098,
+      "sha256": "800b250752832a2195810457f5d0bb8f24774a5edf25acc23677d5afb0b7f438"
+    },
+    {
+      "path": "train/train_089-label.nii.gz",
+      "size_bytes": 65032,
+      "sha256": "aca38ff61481353fbbe2f41e4a7dcb233dad60cd15201ef6cd2f9838c2449000"
+    },
+    {
+      "path": "train/train_090-US.nii.gz",
+      "size_bytes": 3519964,
+      "sha256": "f14508f2b59a7678d25db82ee71b44fec910837fe0244be36d850b9888f56a77"
+    },
+    {
+      "path": "train/train_090-label.nii.gz",
+      "size_bytes": 73408,
+      "sha256": "287185a9a5e82f823fe24a0951ec0dd19beff40adb3ce92d381889516575ce9f"
+    },
+    {
+      "path": "train/train_091-US.nii.gz",
+      "size_bytes": 3539207,
+      "sha256": "568e37d47ab44076814751b9acabd3530ce15f3f1cd72e2b2081192111056728"
+    },
+    {
+      "path": "train/train_091-label.nii.gz",
+      "size_bytes": 65347,
+      "sha256": "6fb4134e32825eb1b4ed6690dcaed5187d7fa5b8ff885041fbf0dde654a049bd"
+    },
+    {
+      "path": "train/train_092-US.nii.gz",
+      "size_bytes": 3483197,
+      "sha256": "4e9825c91a17830ec83d7170fb5bd34e8214b6325a4c971f78c33ecd3ee352b0"
+    },
+    {
+      "path": "train/train_092-label.nii.gz",
+      "size_bytes": 58065,
+      "sha256": "efb1152b7737ddc538f55492ed6d6a6f2148c89882bc5ae9e44815f8bf08cc0c"
+    },
+    {
+      "path": "train/train_093-US.nii.gz",
+      "size_bytes": 4258741,
+      "sha256": "c253532ae1f51e3cdf1b6acdfa7f48ec74fa479706a3dd95147ef1ae89503ba2"
+    },
+    {
+      "path": "train/train_093-label.nii.gz",
+      "size_bytes": 85487,
+      "sha256": "0b2cd4aabc9f581df7bb6223245c3e0c688a01a8fb8c4c09d775cf1f92db0974"
+    },
+    {
+      "path": "train/train_094-US.nii.gz",
+      "size_bytes": 3408131,
+      "sha256": "55cc7ea9489ce01c2dd16392a91c08bffa9d1deaee125044f833bfae255deef9"
+    },
+    {
+      "path": "train/train_094-label.nii.gz",
+      "size_bytes": 70601,
+      "sha256": "429caa3116f96d87007c853f088be1b5da14ba0f4bd1c301815599cccc1c5571"
+    },
+    {
+      "path": "train/train_095-US.nii.gz",
+      "size_bytes": 2325094,
+      "sha256": "4ceae9808433db76ddfd034c8e9f7639f5f0920224862f91b303d6837cac54cb"
+    },
+    {
+      "path": "train/train_095-label.nii.gz",
+      "size_bytes": 58911,
+      "sha256": "ca66b1f65794b3e2c8ce3b942a9780c2f869c2a1535cf2b1f31584ab2392a976"
+    },
+    {
+      "path": "train/train_096-US.nii.gz",
+      "size_bytes": 4325613,
+      "sha256": "b08972ec9b820f7e680190be89d4c8b22c8b3166a1436c51ba72c6fbf3feb17d"
+    },
+    {
+      "path": "train/train_096-label.nii.gz",
+      "size_bytes": 78358,
+      "sha256": "47561dc6671e7d21da8b8b9da31507223ea8b74f80cc9da275c1e53d8517abe5"
+    },
+    {
+      "path": "train/train_097-US.nii.gz",
+      "size_bytes": 3972350,
+      "sha256": "7d01201d75c88364d9736e53cc9db60a27ebf86440641d9a36bf1239e6dd7aaf"
+    },
+    {
+      "path": "train/train_097-label.nii.gz",
+      "size_bytes": 69958,
+      "sha256": "7716fcdb2942e19706c504f44b1cd4b17a4ac59ec305ea91386a3d654e9d14c2"
+    },
+    {
+      "path": "train/train_098-US.nii.gz",
+      "size_bytes": 3233033,
+      "sha256": "31a5bdb1e1e2172b24e4976f814b13f0809e1a2aa753b3f2c37b560777cd8e48"
+    },
+    {
+      "path": "train/train_098-label.nii.gz",
+      "size_bytes": 45880,
+      "sha256": "6843e1b8487dafbfd00aba957693e3b67ded86b5daaf0f508a0ac97e5dcfe493"
+    },
+    {
+      "path": "train/train_099-US.nii.gz",
+      "size_bytes": 3565262,
+      "sha256": "07672c940adfd8e4ef704ff94e794faa1f836cc414455bd3f2228b9eb2480057"
+    },
+    {
+      "path": "train/train_099-label.nii.gz",
+      "size_bytes": 70502,
+      "sha256": "a1a9b20b416168465c779e785a12867270b94d17621b548b2ba8b2f4608ac77f"
+    },
+    {
+      "path": "train/train_100-US.nii.gz",
+      "size_bytes": 6255890,
+      "sha256": "4504e4a17ad0f6ce3848181baa08df5b81b4b96f4b5eb0811f43930acf25f6aa"
+    },
+    {
+      "path": "train/train_100-label.nii.gz",
+      "size_bytes": 96464,
+      "sha256": "e998e914483883d3ea9304f4b70f855091a0ccdb08e3e92b0d881eda44af82ea"
+    },
+    {
+      "path": "train/train_101-US.nii.gz",
+      "size_bytes": 3838399,
+      "sha256": "465e4e48c26bd297faf3e916dc42d837b06f3ccffe905a5d873bd003be6d1818"
+    },
+    {
+      "path": "train/train_101-label.nii.gz",
+      "size_bytes": 74973,
+      "sha256": "6046a555beda26ae05c9668e21871e6bb840c3884bf813bf88db5052f7d8d12e"
+    },
+    {
+      "path": "train/train_102-US.nii.gz",
+      "size_bytes": 2346112,
+      "sha256": "8215e414cb4f7eb89c4e2bc73189aa4e0044842a8a3b4b9c8c8b2636632d9e0b"
+    },
+    {
+      "path": "train/train_102-label.nii.gz",
+      "size_bytes": 41735,
+      "sha256": "5507cfef890ba9e1b71e57da50977e2f2dcc13eaa15829a08b2eb69a9c3670fc"
+    },
+    {
+      "path": "train/train_103-US.nii.gz",
+      "size_bytes": 2019538,
+      "sha256": "6cdff25eb6807d342177c9a2f1b209e39a651f562c23bab518f1240b25ba49d6"
+    },
+    {
+      "path": "train/train_103-label.nii.gz",
+      "size_bytes": 67960,
+      "sha256": "09790e9d6f3998e787b6c9bde641c5762649b35684615028b1e92826bddfb49f"
+    },
+    {
+      "path": "train/train_104-US.nii.gz",
+      "size_bytes": 2710492,
+      "sha256": "86d4d80825ef9c64faf510c193182dee6882f025cbb73c8f5ab34836013e3acc"
+    },
+    {
+      "path": "train/train_104-label.nii.gz",
+      "size_bytes": 60173,
+      "sha256": "ed33c7ca983556e3a82435e9af875e452cabd904eae06efa8fdf030cdd61c3a6"
+    },
+    {
+      "path": "train/train_105-US.nii.gz",
+      "size_bytes": 3521913,
+      "sha256": "8e9196e497d74fded76ec26bafc68828b66afe6664c2b83dcccb72d30dbd56df"
+    },
+    {
+      "path": "train/train_105-label.nii.gz",
+      "size_bytes": 59178,
+      "sha256": "85d32f64cc603f62699354d4557dd7bdc88e802c3630d18f11e996f412fd4fba"
+    },
+    {
+      "path": "val/val_001-US.nii.gz",
+      "size_bytes": 2284408,
+      "sha256": "0a07bf08a6ec9d85f30ce14d8e3e47c26a49791517b35e9339fc8d40c8c330ac"
+    },
+    {
+      "path": "val/val_001-label.nii.gz",
+      "size_bytes": 37303,
+      "sha256": "e19fd413be76706643f94d83bdca36ec76fe5b56314df6dbda0d3d045c3660af"
+    },
+    {
+      "path": "val/val_002-US.nii.gz",
+      "size_bytes": 3853913,
+      "sha256": "bd0f105fafe941b1c15a3d51adb6915fa700e77808334767f1e0cf4b6e57bb14"
+    },
+    {
+      "path": "val/val_002-label.nii.gz",
+      "size_bytes": 61387,
+      "sha256": "565dba6f6dd51a99031bdb0715f3e5a012b00fdfa1685bd479579196d6bc4c4b"
+    },
+    {
+      "path": "val/val_003-US.nii.gz",
+      "size_bytes": 3461423,
+      "sha256": "cdfc28746c35a29b22cc2286a373612a3a4f38413bd9eb74c6a995ae29b9d3b8"
+    },
+    {
+      "path": "val/val_003-label.nii.gz",
+      "size_bytes": 66061,
+      "sha256": "4cb9dbd1b63a625edba98b8ff22baacd449295c92f0672acbcc27b55c66b8845"
+    },
+    {
+      "path": "val/val_004-US.nii.gz",
+      "size_bytes": 2386835,
+      "sha256": "5e25774385c6ac487a7004132ff084f68d5f2feff6fd745382e8fb6679a5cec2"
+    },
+    {
+      "path": "val/val_004-label.nii.gz",
+      "size_bytes": 48015,
+      "sha256": "07b03269c40464d0687285f68c60a1b52e90a3c09b3177c14a8c468c78c69827"
+    },
+    {
+      "path": "val/val_005-US.nii.gz",
+      "size_bytes": 4915425,
+      "sha256": "b359cbd023e66de35f9a903d408dd15aa734d0828d7bb12dfe44cbe66c730e5c"
+    },
+    {
+      "path": "val/val_005-label.nii.gz",
+      "size_bytes": 47174,
+      "sha256": "6031e0bdb50025fe33ea7b1fe3a10918950d93d119ce27f23fc8f61d4386bd24"
+    },
+    {
+      "path": "val/val_006-US.nii.gz",
+      "size_bytes": 2695232,
+      "sha256": "e8e96e666f2371bf7b00c51537e9eda06c7d2ef6d210ef8baeb02e60ff769e10"
+    },
+    {
+      "path": "val/val_006-label.nii.gz",
+      "size_bytes": 39289,
+      "sha256": "9a09f15d5ff8146ad3efee7824dcc82f855e5ebe52219a30a73b691f6d8401e3"
+    },
+    {
+      "path": "val/val_007-US.nii.gz",
+      "size_bytes": 3504956,
+      "sha256": "ec09e38fcd99048dd53b4e4bbe9dc3f745211ed826d82bf643926d6637ccb09b"
+    },
+    {
+      "path": "val/val_007-label.nii.gz",
+      "size_bytes": 56380,
+      "sha256": "912041e236d30f88545d5e10d93623a2e5a2469d5863eb157b0a80e9078d31f6"
+    },
+    {
+      "path": "val/val_008-US.nii.gz",
+      "size_bytes": 6274874,
+      "sha256": "de96209e19a00936b0b04292e9f666d569c1f7460c03a568a93ee23323514bf4"
+    },
+    {
+      "path": "val/val_008-label.nii.gz",
+      "size_bytes": 103044,
+      "sha256": "efe860aeb75e6859ad25b8b201944167ec707f3079b7d915752650b6c772e5dc"
+    },
+    {
+      "path": "val/val_009-US.nii.gz",
+      "size_bytes": 3219199,
+      "sha256": "3aee30f4ce2942e60222593e83e671635e1ed789a98133f5924d40d87a48ece1"
+    },
+    {
+      "path": "val/val_009-label.nii.gz",
+      "size_bytes": 50929,
+      "sha256": "6662fd1d81e0f66173a312e9b22d18dbe58463a63065557cc1bb1112588d95ab"
+    },
+    {
+      "path": "val/val_010-US.nii.gz",
+      "size_bytes": 3420311,
+      "sha256": "89f47bfcc815c82fc288308f444d037293a8720c4f6443f447a32da5b35ccea0"
+    },
+    {
+      "path": "val/val_010-label.nii.gz",
+      "size_bytes": 63885,
+      "sha256": "8b1a87fdf5e3774c364fda0c653337049492fa9f1b74f2e2808c1140844ad064"
+    },
+    {
+      "path": "val/val_011-US.nii.gz",
+      "size_bytes": 5357189,
+      "sha256": "ae310dcde39a224f9ac58b5f1864de7b40c1fa969ffcb05d62105cd58ce6f505"
+    },
+    {
+      "path": "val/val_011-label.nii.gz",
+      "size_bytes": 60312,
+      "sha256": "154d2f34eb6d3e1036e87e34c08d3fdf68cd627de76e17345310c452e60e3bc0"
+    },
+    {
+      "path": "val/val_012-US.nii.gz",
+      "size_bytes": 2813290,
+      "sha256": "3c62ff4b071f29433734635bb66e274df88695478ed8af0000ccf0f2cf303b1a"
+    },
+    {
+      "path": "val/val_012-label.nii.gz",
+      "size_bytes": 56223,
+      "sha256": "166132c6c8c998d155990001aa962fa255d21a67a706ead77230fa0a0097824b"
+    },
+    {
+      "path": "val/val_013-US.nii.gz",
+      "size_bytes": 3424894,
+      "sha256": "c2f7b7f8d827e71c1b2a1e7337131419f0497823caa1b7878f985b6b30cf4db7"
+    },
+    {
+      "path": "val/val_013-label.nii.gz",
+      "size_bytes": 67744,
+      "sha256": "0b18873e248752777622e050a3f66eb3c78d1778dd25992ea2cf50ddf996e449"
+    },
+    {
+      "path": "val/val_014-US.nii.gz",
+      "size_bytes": 5275387,
+      "sha256": "d8be78f4000ab27dd4d18d075e584b4e91f5ec7a84bf56dfaf337fcbfd8a2e8f"
+    },
+    {
+      "path": "val/val_014-label.nii.gz",
+      "size_bytes": 92809,
+      "sha256": "0bebd986b12f970472f5e8ba439c12af1882222ca2e225cbb91dbcc5b9214ee0"
+    },
+    {
+      "path": "val/val_015-US.nii.gz",
+      "size_bytes": 3937585,
+      "sha256": "2f3431ea6491be39be114d9b1515e0103ce60a17fa6778163d225e528e84164d"
+    },
+    {
+      "path": "val/val_015-label.nii.gz",
+      "size_bytes": 65431,
+      "sha256": "97898976f3ab48e86d5c325c313d3d01e18adb4e032dc63950012973ac29637d"
+    },
+    {
+      "path": "val/val_016-US.nii.gz",
+      "size_bytes": 2855818,
+      "sha256": "17f14130e7c4dfc0bd8c8ebd98e272220a5e56a6b00bbb185b38342f691a1495"
+    },
+    {
+      "path": "val/val_016-label.nii.gz",
+      "size_bytes": 57892,
+      "sha256": "2c9a948e9de32d5ccb629f9be8be6d0d0e43a90b7490cc9ff9f56e0377d568f4"
+    },
+    {
+      "path": "val/val_017-US.nii.gz",
+      "size_bytes": 1903110,
+      "sha256": "cf00b5ed55ba735f8c6cfd52a5ad14d06a870915a185526f8cc6026a631e7e36"
+    },
+    {
+      "path": "val/val_017-label.nii.gz",
+      "size_bytes": 39739,
+      "sha256": "f494f1f33a464dbf631ab3960bfb40a3590fb3e9a16e3d05deac131911d8821f"
+    },
+    {
+      "path": "val/val_018-US.nii.gz",
+      "size_bytes": 3402526,
+      "sha256": "97c98a22da5b7e8780ed066a115844822dc212d4235958c0264e118fa3497146"
+    },
+    {
+      "path": "val/val_018-label.nii.gz",
+      "size_bytes": 55111,
+      "sha256": "68d051331456bf9561d29eb2d964e972052452e19e418fe04db3c7f8797e46c2"
+    },
+    {
+      "path": "val/val_019-US.nii.gz",
+      "size_bytes": 2339664,
+      "sha256": "3333a9ea591308fbf6edaf8009561a38d53b958e531684b695d4d34a741f3beb"
+    },
+    {
+      "path": "val/val_019-label.nii.gz",
+      "size_bytes": 50066,
+      "sha256": "37c322b00c500da6f9bce8806704d52fba72e7b906bc0ab602ef4cac0708998a"
+    },
+    {
+      "path": "val/val_020-US.nii.gz",
+      "size_bytes": 1987610,
+      "sha256": "b9000d3960c7879fa065daf4c8079fb321c0219ccf841c00bec7962fc11d34c5"
+    },
+    {
+      "path": "val/val_020-label.nii.gz",
+      "size_bytes": 45620,
+      "sha256": "9deb28b538abbbf8d4ce06f99497157ba50559fea57fc2f9d280f2711cd9069e"
+    },
+    {
+      "path": "val/val_021-US.nii.gz",
+      "size_bytes": 2354699,
+      "sha256": "8e5df702ee76f3ec1273309c527f71e660583fca1ad7c7fe9ab203ebaa97f78a"
+    },
+    {
+      "path": "val/val_021-label.nii.gz",
+      "size_bytes": 43294,
+      "sha256": "55dd0e566036a084101b8ef724cba5f3c39c13ae3d366b6612c9d7d06c27ae47"
+    },
+    {
+      "path": "val/val_022-US.nii.gz",
+      "size_bytes": 2624561,
+      "sha256": "f02d577593a9aa6d33503ddfee2f2e0762bb590bd019658ca810ae50a0ca56f5"
+    },
+    {
+      "path": "val/val_022-label.nii.gz",
+      "size_bytes": 63961,
+      "sha256": "79b98b5fa0ff71bd3e542718427babf0fbe587769f3eee4dca47aa92d69593f7"
+    },
+    {
+      "path": "val/val_023-US.nii.gz",
+      "size_bytes": 3008086,
+      "sha256": "bb1e3292cab8cb026ca0ca95029d2ce7a80c3d04110a35a27be01ace0a168788"
+    },
+    {
+      "path": "val/val_023-label.nii.gz",
+      "size_bytes": 56067,
+      "sha256": "3ebf9693ad1a735f312dfcfafa8c164af398e3e48081fefd58846330c17712f3"
+    },
+    {
+      "path": "val/val_024-US.nii.gz",
+      "size_bytes": 2573105,
+      "sha256": "3630149e64d9795f48df924d37072d854a8483917cbca9ee8063db2aa1e33995"
+    },
+    {
+      "path": "val/val_024-label.nii.gz",
+      "size_bytes": 60583,
+      "sha256": "02bf4de9f42da0c19e40c3e4daae0a997163b5b5da9721f373c2539a3ef4fc4a"
+    },
+    {
+      "path": "val/val_025-US.nii.gz",
+      "size_bytes": 1769999,
+      "sha256": "7dd3127e6b768fc71467b2abf10dafd25215a5bb2b95da15ed911c8b1206bf3e"
+    },
+    {
+      "path": "val/val_025-label.nii.gz",
+      "size_bytes": 44807,
+      "sha256": "816a4e9202b34f7c228fadf8900cca038d8b7488580a39af650d467c8e5a3c5a"
+    },
+    {
+      "path": "val/val_026-US.nii.gz",
+      "size_bytes": 4351322,
+      "sha256": "fead34459328acfd0165b8a90e1869c09517c0d33d401ea4487949c32a89eef2"
+    },
+    {
+      "path": "val/val_026-label.nii.gz",
+      "size_bytes": 79218,
+      "sha256": "d086162ed4d7bbce72bc701f2f74f359d3c91833a0680dda9b74ed43a79a684b"
+    },
+    {
+      "path": "val/val_027-US.nii.gz",
+      "size_bytes": 2965518,
+      "sha256": "6eb90ead9830709c0b021f5763156003ef170e87d619ddc2da941ca789563985"
+    },
+    {
+      "path": "val/val_027-label.nii.gz",
+      "size_bytes": 59225,
+      "sha256": "2449e4c104ba0ddd5f9f04acc48ae570c2833a71c86d9e9893c1aea2ab3ac3d8"
+    },
+    {
+      "path": "val/val_028-US.nii.gz",
+      "size_bytes": 3635628,
+      "sha256": "b600f9d3a0a61f3bc101d74febd849cd0276aa1585d8417bff359ac4cab5dd59"
+    },
+    {
+      "path": "val/val_028-label.nii.gz",
+      "size_bytes": 56531,
+      "sha256": "d3ded5a799fd6100f2c330e41ce4167ed6a3033354bd98c887391cdb5ffd14f6"
+    },
+    {
+      "path": "val/val_029-US.nii.gz",
+      "size_bytes": 2033796,
+      "sha256": "c1246d610d82c9b041dafbac853150e4ff5c9281fd430f013617120173131fca"
+    },
+    {
+      "path": "val/val_029-label.nii.gz",
+      "size_bytes": 53139,
+      "sha256": "1420289c32139b35f385301e7efefd029f5174020191ce3ef0a5083639f0d087"
+    },
+    {
+      "path": "val/val_030-US.nii.gz",
+      "size_bytes": 3203813,
+      "sha256": "35baffed9f2d29a61d82ecd91c3ab58087e4ca284dd82a308d3935416a49ed3c"
+    },
+    {
+      "path": "val/val_030-label.nii.gz",
+      "size_bytes": 62783,
+      "sha256": "4c74857e66ceed6b3aa1eaff83cfc37a93ab489fa463655fb5ec1bb4c49edeb4"
+    }
+  ]
+}

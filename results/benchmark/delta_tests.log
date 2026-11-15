@@ -1,0 +1,80 @@
+srun: job 21900663 queued and waiting for resources
+srun: job 21900663 has been allocated resources
+.........................................................................................................................................................................................................EEEE.................................................................................
+======================================================================
+ERROR: test_cross_split_donor_leak_is_rejected (test_readiness.SplitLockTests.test_cross_split_donor_leak_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/nvme/bhio/avu2/Rooted4D/code/tests/test_readiness.py", line 29, in setUp
+    self.payload = load_split_lock(ROOT / "tests" / "data" / "example_split_lock.json")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/nvme/bhio/avu2/Rooted4D/code/rooted4d/data/split_lock.py", line 88, in load_split_lock
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/work/nvme/bhio/avu2/Rooted4D/code/tests/data/example_split_lock.json'
+
+======================================================================
+ERROR: test_example_contract_is_valid_but_not_frozen (test_readiness.SplitLockTests.test_example_contract_is_valid_but_not_frozen)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/nvme/bhio/avu2/Rooted4D/code/tests/test_readiness.py", line 29, in setUp
+    self.payload = load_split_lock(ROOT / "tests" / "data" / "example_split_lock.json")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/nvme/bhio/avu2/Rooted4D/code/rooted4d/data/split_lock.py", line 88, in load_split_lock
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/work/nvme/bhio/avu2/Rooted4D/code/tests/data/example_split_lock.json'
+
+======================================================================
+ERROR: test_raw_identifier_field_is_rejected (test_readiness.SplitLockTests.test_raw_identifier_field_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/nvme/bhio/avu2/Rooted4D/code/tests/test_readiness.py", line 29, in setUp
+    self.payload = load_split_lock(ROOT / "tests" / "data" / "example_split_lock.json")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/nvme/bhio/avu2/Rooted4D/code/rooted4d/data/split_lock.py", line 88, in load_split_lock
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/work/nvme/bhio/avu2/Rooted4D/code/tests/data/example_split_lock.json'
+
+======================================================================
+ERROR: test_test_fitted_artifact_is_rejected (test_readiness.SplitLockTests.test_test_fitted_artifact_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/work/nvme/bhio/avu2/Rooted4D/code/tests/test_readiness.py", line 29, in setUp
+    self.payload = load_split_lock(ROOT / "tests" / "data" / "example_split_lock.json")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/nvme/bhio/avu2/Rooted4D/code/rooted4d/data/split_lock.py", line 88, in load_split_lock
+    payload = json.loads(Path(path).read_text(encoding="utf-8"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/avu2/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/work/nvme/bhio/avu2/Rooted4D/code/tests/data/example_split_lock.json'
+
+----------------------------------------------------------------------
+Ran 286 tests in 177.736s
+
+FAILED (errors=4)
+srun: error: cn095: task 0: Exited with exit code 1

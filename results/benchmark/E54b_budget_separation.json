@@ -1,0 +1,32 @@
+{
+  "experiment": "E54b_budget_separation",
+  "question": "can one budget base be inactive on nominal yet bind under corruption",
+  "rule": "modality m inactive iff base > (ratio_m - 1) / (L_m*/min L_k*)",
+  "development_identities": 18,
+  "distributions": {
+    "nominal": {
+      "n": 72,
+      "min": 0.06838645286924028,
+      "median": 0.4528841923382685,
+      "p90": 1.4272637780303772,
+      "max": 2.555891246356331
+    },
+    "clean_under_corruption": {
+      "n": 72,
+      "min": 0.13896717179844031,
+      "median": 0.7439976663554638,
+      "p90": 1.6481160708552665,
+      "max": 2.7148406999449537
+    },
+    "corrupted_side": {
+      "n": 72,
+      "min": 0.05136250387234532,
+      "median": 0.2914013041366501,
+      "p90": 0.9650982275249252,
+      "max": 1.8609173087881477
+    }
+  },
+  "base_sparing_nominal": 2.555891246356331,
+  "fraction_corrupted_still_binding": 0.013888888888888888,
+  "verdict": "overlap; no single base separates nominal from corrupted"
+}

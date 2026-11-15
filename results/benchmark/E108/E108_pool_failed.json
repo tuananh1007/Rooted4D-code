@@ -1,0 +1,54 @@
+{
+  "experiment": "E108",
+  "preregistration": "Docs/E108_CLOCKED_COMPOSITES_PREREGISTRATION_2026-10-04.md",
+  "reference": "data/derived/donors_v3_n96",
+  "failures": [
+    [
+      "valve",
+      20,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      54,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      57,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      67,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      152,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      155,
+      "commissures not found or a leaflet too sparse"
+    ],
+    [
+      "valve",
+      156,
+      "commissures not found or a leaflet too sparse"
+    ]
+  ],
+  "reproduction": {
+    "hearts": {
+      "checked": 150,
+      "above_tolerance": 0,
+      "max_mm": 0.0
+    },
+    "valves": {
+      "checked": 175,
+      "above_tolerance": 0,
+      "max_mm": 0.0
+    }
+  }
+}

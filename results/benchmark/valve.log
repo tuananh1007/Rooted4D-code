@@ -1,0 +1,8 @@
+cases 40 in 516 s
+  anterior_symmetric_mm        median   0.695  p95   0.796  max    0.848
+  posterior_symmetric_mm       median   0.730  p95   0.887  max    1.117
+  anterior_hausdorff_mm        median   6.618  p95   9.502  max   10.255
+  posterior_hausdorff_mm       median   8.241  p95  12.597  max   19.906
+  annulus_diameter_mm          median  44.489  p95  57.085  max   63.350
+  anterior_span_mm             median  13.809  p95  18.406  max   19.926
+  posterior_span_mm            median  13.170  p95  21.052  max   26.355

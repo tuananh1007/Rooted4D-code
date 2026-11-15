@@ -1,0 +1,4896 @@
+{
+  "schema_version": "rooted4d-global-split-lock-v1",
+  "lock_id": "rooted4d-semisynthetic-real-v2",
+  "status": "frozen",
+  "created_utc": "2026-09-02T06:37:58Z",
+  "identity_hash": {
+    "algorithm": "sha256",
+    "salt_id": "rooted4d-linkage-salt-dc2761e38565",
+    "raw_identifiers_stored": false,
+    "linkage_table_location": "outside_repository"
+  },
+  "split_policy": {
+    "unit": "global_person",
+    "freeze_before_model_fitting": true,
+    "pair_donors_only_within_split": true,
+    "test_access": "one_final_locked_evaluation"
+  },
+  "records": [
+    {
+      "global_person_id": "acdc-person-0000",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8a581ad17cb186b1cf987e8c0603e5ac601787a9542387c45672524984cbfcbe",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0000:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0000"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0001",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:877fae00a2cad6b7a0a3394de10176c12569d82d6d1d122faf380cc4c72c1b36",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0001:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0001"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0002",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e4a5a3e6262dca713c1cadfa7b78591b018ac1b027da709274d6dad8ec405e3d",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0002:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0002"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0003",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:554f67abea22b5657a49e3b2b4ebb5182a55d33ff6b75393e52bba6572f47c25",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0003:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0003"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0004",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:ad430733b400c041a30bdc602a54df7d62d18f277770a7e0c6ee3a3383f99149",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0004:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0004"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0005",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:91978d92de305d58bffbdd13629af488f32466ed07590c4f8f4c98be39e82bcd",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0005:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0005"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0006",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6f7ab52ae3342e500a1172c714f50eb92e5a185d66107cacebef4eb519d072f5",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0006:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0006"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0007",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:92b52b22f19da39116fcebed1a17dda11c0d17e70d6c4c2023ccd4e93bf76975",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0007:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0007"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0008",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:47ffeb9a16c1eb03f883dfe8d592a79ffe90e17f0908b68bc49c61f69fa6c7e2",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0008:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0008"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0009",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e0560e01e3acb776b35f40ccd3c02476d6a276da82ae0a6e769df2d1f3f139db",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0009:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0009"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0010",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:df69c02b6639e04caf05bb10c321c691153b9a114b5874b0c5eb702f303fb828",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0010:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0010"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0011",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:72250c9176ee4c26563071739abeb8eeeaaf6eea58408a10b5362dbbc188c9f4",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0011:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0011"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0012",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:bcfacc253f669b5952146bf69e310b92960974c3427b973dd35b59f7a8d213ca",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0012:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0012"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0013",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:4bc88df734b3f86c005d8b30d696931dc61cb45df62533fc4110218019bee0b4",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0013:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0013"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0014",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:26d6b5b3aa11900b5b6b92d18e499caebdb61e1df8be08327519f39d01cfa9f3",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0014:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0014"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0015",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e136ad9169e6c310d495c85db7c5c4ae5325cef0ee73d3027b71640c7b0442aa",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0015:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0015"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0016",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8983d8f41e923fde85c0438c7c8754e1738d4cd6055107a34d316433bb9bf936",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0016:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0016"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0017",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:741b10ba82f2213b90ca473b8b45479fadb28b407dabd932f110afb64cfe544f",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0017:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0017"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0018",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:08f8cafc26b1b5d1e852aae1c2a988719626208c28e77526e60f862efa1bf2b2",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0018:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0018"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0019",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e8484d04124f896805960aeaa5a5a2d399da559dbafd3713eed5a4cc5f5b5347",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0019:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0019"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0020",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b579451e98305b9ffe7ec0069ee6fe9ea6daa2363285a3c83c943b6ec2b12058",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0020:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0020"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0021",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:446631f6404293a958461389aa8a0239b8e8a3e69210bc4167f16e171dd9a817",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0021:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0021"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0022",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:d1dc2644d48b195b7b8c710d418dcb14015d156365f19c2f088e2da306059317",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0022:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0022"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0023",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:3713006817891752b976b44a3a352160a440f1565b05f852f3d7f7aeaee05779",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0023:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0023"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0024",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:4b1c1e17dcb1232b76df7a57525e095d388add37a531a6f3fe8d56f22565bd2f",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0024:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0024"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0025",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:9887847dae0c2892b6dbb4d4d43a583a477ec1f72e30cd5a8fdc3a64615afe73",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0025:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0025"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0026",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:2b7fa034d39edf8b9ac69a19a0327bb4c02039fe06ecc3da565f9e7f2d87c052",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0026:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0026"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0027",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:62dc8f610a5bd7d51523df846b7c6a038d33920858f58c7d701674d7be0e9684",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0027:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0027"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0028",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:5d68bd9a4c1e0656fa0ebc508b026fc6c0df22ce8b5e7ab6a28d785f682cb733",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0028:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0028"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0029",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:0dd631f9c84b3d81078171fed63eaab92119289c40e753824895ba76122158e8",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0029:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0029"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0030",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:62e2ab557824668c29666251f37c1edc3ed0a82b716a5184e556611fafcd362b",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0030:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0030"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0031",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:5ec07545cc523b53c7541054827ebdd6378a12109f800107d8191ca675aed563",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0031:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0031"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0032",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:2a27f3d13878782f151788235fd5233de0be94c66f14e205e4ce46e8bb356845",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0032:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0032"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0033",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:d28a3e687be09efd9319b9fa06b2c21d6ca75b3ff1276960652325eebb0c8178",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0033:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0033"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0034",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:fc35c810ece1b898f2f48b69db50f63665c455448bfdd416c4cb793e5d4b8c59",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0034:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0034"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0035",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:79fb88fbdfbb2c5cc4966939bea6970b182a37835f4f576cabf84a4e8d4c6837",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0035:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0035"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0036",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:ac9fa8ff47542ad3be70f17871f9b521f20096acc42ee0b99f17b734224004ea",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0036:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0036"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0037",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b440f25309ae824b8bcb5b7f0267a4b48844bea42af940c3592f9ab0a0fbf219",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0037:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0037"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0038",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:37b2773172a7aa9d7743fca8e627128ae093d85b2037534f984d782ddae605eb",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0038:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0038"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0039",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8d78587070c2e14c3e49869df7414447b55b616e64995623f432fecf7e2cb21a",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0039:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0039"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0040",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:5a9a943e8422b1e081ff397cb30cd8f0a4b010b8c96c83f782b6aa2bab230048",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0040:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0040"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0041",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6da148b4eb82abb43270ae42294ee7b57be6a913727d714507db1cea9a8f4bd5",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0041:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0041"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0042",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1665d8a196d69cc7d3fa33b47b12a955b50b48ffe6176e262a25e50ee0fb3e5e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0042:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0042"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0043",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:17911b9e475bb31b9583351ec490eb9f5790ea9713fe4800539c084394fbe4f0",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0043:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0043"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0044",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:cde166f90d973848eb703dfe03c5d3857f3ec44d17ab92235307e58d8ab349cb",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0044:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0044"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0045",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7a7164cc5f071e563b10dd0b8839b18a5191404d25e0761de2af0928196c0ee5",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0045:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0045"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0046",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f9f24b448dcc10e73ec2c51fbe57e958e37bd715511392ad855064e7234276fb",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0046:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0046"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0047",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:639203258e2f98bcf7635143aaab5b58fe136ffb6089b9b712a0830c2f8e872f",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0047:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0047"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0048",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:67a6479fef23b2f7ceeab7d7695bd845e27cd43f57aeb58f91678fc9419c6f8d",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0048:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0048"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0049",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:3df545641effde86fef146f1e16142ce0ffae9d3d0eaebd478df365fefd03212",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0049:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0049"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0050",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a1267dcd7b114ae17760c6d64cb188af814c43f763ba67e1ba49dc07bdbdbbbb",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0050:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0050"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0051",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:3c5a2f0f7e899a31b387d05bf9e650063bc8b1012b055d6f2497ea4f9e96cd64",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0051:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0051"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0052",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:987d9c6493bf0086116e7a2af8dbf2e08e21e3ce3de44e991b2f2b2ebb72b25d",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0052:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0052"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0053",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f0cdd26c5cbeed0e709a4083b0bfbff74c8028a3d60f830a79108a23040ea4ab",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0053:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0053"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0054",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1decf7d651ddaa9e9a46f700e23309a135945d38bd61264900553c5c9b0db1d9",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0054:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0054"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0055",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7e932bb76a8663aa462f1760edc2793d90713996a59eb993d9f6729e86496520",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0055:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0055"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0056",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a255e700f3277aa534a77c1b7e9c635ff392a03053f1b3da0ee340fef37702d1",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0056:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0056"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0057",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7e64e9a8a3c1e1718ebf66c25177775cdf64fac4c9f727cee91d5a7758c93568",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0057:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0057"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0058",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:cba77c84243226618ef06100668a0cc3eeea56f52fbc8edc124812a7fa989780",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0058:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0058"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0059",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:9c0e0be290f98beaad20b80481448930f83ba08294831c0f73a48147764d6bf4",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0059:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0059"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0060",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:121e32990876971f146859f892a427b1ed256b37ad91f8bda69e5773afeccb15",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0060:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0060"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0061",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:43abe9400dc4b23b034ea6e899df68db1d35410f675ade7e38423b8dd1a1a00a",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0061:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0061"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0062",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:db3762e473001967547bde2118b907bf62cf871426d434ee93220e1416e07e0d",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0062:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0062"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0063",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:132ff8e5fefa56761fe0343106790086adef087cfae0e711eed76763c636f05f",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0063:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0063"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0064",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:2db0ab8daa3b13310f33372f5d93ec116b596a883ef32bc03781f6174aa81c95",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0064:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0064"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0065",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f610ba2c50149288f6e15ed036a8ee31de7cc30ff7367db23821349f05d95b69",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0065:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0065"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0066",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:61ecc3afff0ea2f31f60b5ebb69e1941c2fc47074f87b20c7267bdfa935b7e6c",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0066:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0066"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0067",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8795f5f0f192a3e69f17a46dabbb652629ca4b8fd0db4fe01519eec108f5209f",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0067:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0067"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0068",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:24928c2cfc8218163e0c84731a1888fb6dcb9e5cff35d2957b9207a623d97f41",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0068:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0068"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0069",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:534b73a4ac95ad4fbb241f6d8325cb873eb84646f8d23178fa08ceccc2394ec7",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0069:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0069"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0070",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:48dfadfd3cca6a96af8535a6056670221acdff25b96a7a8a847b92611b2d6a8a",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0070:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0070"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0071",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:0934f133c0f7e591df4ef9f831cf7c8381c05448db216da2c50b4b0b780e34e3",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0071:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0071"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0072",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:9c8bc974d8ebb0e273ba6a5d0c70532bafdb4bc71657d28088813e0817a3476e",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0072:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0072"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0073",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:962e239e52e6003ba28b66ad2231892d1c5504b94a3cf6c4e690ce2ebd3aff14",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0073:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0073"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0074",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:ec58532b99cb0547c42c5acb40d447ab11be943759e20bf0a1a4c40cda61007e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0074:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0074"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0075",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a77620f2506ed7f54c5cdce8e99a827454513a1d2971ec30c68d60443186a9fb",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0075:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0075"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0076",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:fbe88604c468e854b3f37d4320414d5a62641b53559d00f40c5348fbf1535cb0",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0076:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0076"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0077",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:32ff5c301143a6c07a49df7a291865554fe50582c61389d79adc5c30e78a510a",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0077:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0077"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0078",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f598c18ece12f53576fb77821f28f127df8dfe345f961d4c392f3b51d1787596",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0078:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0078"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0079",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:40ac8dbd5b80d899293b8b637a6eda3512f2c4a9d02f0700a960d73e8f73dcc0",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0079:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0079"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0080",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:af60980d07875c5bebe20ae49666eaa88534a5ecea270e1b03d10836b3fe2344",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0080:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0080"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0081",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:fa10a69dc8f380e4321a1252fa7cc31bcaa804ddd8347495c8ce8f850744b80d",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0081:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0081"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0082",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:75ecb4ba8163b11b8e653181141ffd2175d9bb3fcaeac97b1ac598824ecd34f4",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0082:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0082"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0083",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a3f3f67bbe241670737702f9045ba33df25220fa785b67b83d73c9acd8974cfd",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0083:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0083"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0084",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:aa7bc1fe40c06ed1bea6c184de4f4ba88f18803c9fef69aeff0c294a62a0eb59",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0084:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0084"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0085",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:3fea0e60d6df821c2da37c6ed8f5b2dcb9c9b106379e149008d5f7143ecc9811",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0085:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0085"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0086",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:4848612651abd28596deb6b1ac2870b452b729fd3eca6fe60f67977f2f3a65f7",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0086:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0086"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0087",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:63f611a425a364f98b63df760626c3d237baccd315c337854c75181db311ee0e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0087:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0087"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0088",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6c74e11728bf2f0e6a2e1da7f453ef3b778f4f17f6b89bec92108e3f4720e53a",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0088:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0088"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0089",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1ac2644bda3ad88a56dcbe8822c7e30be62147c7f3a248e68e9388e5ce337f0b",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0089:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0089"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0090",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a968802e611d47893d33be11f2a74ef4d1092106ee8451c074cddb7534e38f8e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0090:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0090"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0091",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:9a7af2fa242f8258726922e040d93c894e245221e831ebfed7fda2431cd06bf8",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0091:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0091"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0092",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f7a21c6e2f0efe201d213f4f62f1fb4c6339688e1315e530ff7469c366543d27",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0092:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0092"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0093",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:d590d4b2217b2bbdeb82d1575b786f4ff0291848b90ca6feac5f692e342deb20",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0093:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0093"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0094",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6324ccbb1c07795a667f036c130cbfdab6ba4fc87cb5dd952ab0b0524c205002",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0094:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0094"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0095",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e982b46b854e0251907516ed11306f3e9059326c49c9c28f23deffb136da2fda",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0095:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0095"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0096",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:5f71a43768e8c63032ab82ae87e4da62a8cc6cb6f174afcf95a5051e36b7f827",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0096:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0096"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0097",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:d1d1086ae8f0dcce2a74c5505ce4c5221805ee8220c43367c234dd8bf30fcc82",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0097:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0097"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0098",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:426c29133b2d9da82e32c68db366bd5819a5127896a1a235988e67caa03d011e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0098:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0098"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0099",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:eefc96b436d9fb548f2f66184c00a54975a1cac933ad43519b8064b3ab7bd42f",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0099:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0099"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0100",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:782884b9c2339882b82dc4875f39970b0d10620632225b127bc14ae4c6676cac",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0100:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0100"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0101",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:3d0dad3e49d6bc15d75b68e42128895976408756bc8ea147a57857f3d3f8bc34",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0101:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0101"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0102",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:33e694462c42c6ecf718fbf1f58ab620dced3d77fbf77fdcdb0277dff0e76540",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0102:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0102"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0103",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:4ccc8052673b2e635e68287975416ed379e659d2f848ef8a057b913eabdf2c61",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0103:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0103"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0104",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7e57fe160030caa8eab106d11bf4667441bb055d95ad237d9801d8706b8707b3",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0104:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0104"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0105",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:cb09870a1a1af9f0aae679918156a3680c5035d59841efd06a7d5ac1d3db7f56",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0105:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0105"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0106",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:bc054bde0412389010fefd4364c40080ef7831c52c5c7d989b629122fd1a31ec",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0106:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0106"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0107",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b9642d215eab4cfbb315d124af6ee86c76a444d3d62f6a7b783cd03b1dddac4e",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0107:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0107"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0108",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7b42f71c5e202e9cabd017e6e79dcec832c28c23ad845e59db6ef8e1707aaf2b",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0108:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0108"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0109",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e29b3661c52ec8d27b99429ee1d29919034b0f4ebcffa373f36d6d31083faac0",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0109:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0109"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0110",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1012eb269f9485acf4a07466d5845d2282b67ff73717abfc1893ef05b8b6c7e8",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0110:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0110"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0111",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:92eb72d2deb27735d0a50665289b2805c5dd685ae2873a8e01f131f6ea68fa94",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0111:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0111"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0112",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:04f96ca42bfaaeea431eda582fc80b23ab12c4360eae84d34c524a1fed6a30b0",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0112:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0112"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0113",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:bc593039ce5f63cf69303f52cad8b3ce66e5d7c3afced3327071a901647784dd",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0113:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0113"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0114",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:d418969fd689b0937c7c4dd4c169d04d53bb65f939dc809814bda501033e57c2",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0114:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0114"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0115",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7b4b7dcd7b6cfd07a0ffed7d7044ce483812a00bb3e32fbb674c7a37b8ece15d",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0115:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0115"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0116",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6dcbebbbff09c738c763670f1874b972ed1e7daae83c16b2c43701405fe6eeec",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0116:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0116"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0117",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a57caf05a41ea6c8174cda092edad1223548214d4fdc068ac0f614f09bc957b0",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0117:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0117"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0118",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:02f24872d39271af39563d309ff002c90cffdee76606417235e9bdc7563dbf42",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0118:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0118"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0119",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:560839c476c67cebb9c0866acf19525417065757c4ca63c01a6f74dd8b453540",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0119:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0119"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0120",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:855776f29d88dde15bf026f14b52b3d6bd0bc5ec61aa89d00d393ff853f2f222",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0120:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0120"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0121",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:47d2a68757b7f50afd72ca06dca4275cdac7a87e24e7d8bdd174c2170133a03d",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0121:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0121"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0122",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b24cf5767bae597202c57906090d8b05ade2240a31ab1caee9cae516049ba30d",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0122:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0122"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0123",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:4066e90cc24443fe2655302ba1a47bd374a54eb58a005798d515ca3bd5c90b88",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0123:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0123"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0124",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:86a6b8fa16bf84dde9e985f499f92de48bb223a162206fe7af9939fcc53b1bb1",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0124:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0124"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0125",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f1ea6685681d8c3490ee39c9ce72ee33373a91575f136868b46eb614f1197cb2",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0125:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0125"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0126",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8743e6244c6cb3472b065a08ede4c24918de19ff544408281fc1985369714287",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0126:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0126"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0127",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:0135f31bcfdebf5b0f1c385e41b243afa54c7234540f047e23a2c6d922d67a30",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0127:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0127"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0128",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:f1fc0b13506dfc0add1e4aa37217087766431fd8314c181eb6884f19eb276a84",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0128:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0128"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0129",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1c78ce01cedeed861eef23d567f1f18236b20f9a75fdfe338ba8707f2e9e3c13",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0129:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0129"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0130",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:af491d817f984ad273d3f012aa1249392b5896876cffe2ae85a8f53b098892cc",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0130:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0130"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0131",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:7a73bd22ab6e2d7b44aa30c2045787353d68847745908a5f3c7700151bd6a3d1",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0131:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0131"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0132",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:6c57f56694a3c39e74224f394939b67bd241cffaba23aae2216c2a6fee1ee902",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0132:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0132"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0133",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:12e9d90332633467dc2254e7f4868350635704f80ef32d576e6051461ef65543",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0133:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0133"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0134",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:8d2cb9d46c3d38be1862ec1a3d0eda5304e5c9745a854e9c21db676d5c10d8b4",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0134:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0134"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0135",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:5754eda86bcea1d9b6f5f72f659f87cc97b968eaf8d89ad18a4553e891f9b9a3",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0135:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0135"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0136",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:cdd2ff91e0511c11035071240432bb8ec09c3fdb52d83ad32137887bd67723c0",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0136:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0136"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0137",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:a3ac792e6463dcb07a7733b4a6b8d64b92cf6b4ea30528ae32a9c86cbd192e98",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0137:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0137"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0138",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e5886be3924a3f144c08c5bbcb23bc306d416939ff861af217f593d7cd6b2621",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0138:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0138"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0139",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1c6732a5df0e55c0e5c2fc0aadb0349c007bc4827340bbaf2576c2b88e92a3fb",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0139:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0139"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0140",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:711eb67852c63615dc8e316c0b66d495a58b6f9fda8eb1fcf9af82556bab3aa4",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0140:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0140"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0141",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:60fa81245c1216928e97c39e59e7f076db04f19c95a34735fef2fba5abac6ddb",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0141:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0141"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0142",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1119d10238cb255232ce08b9cd28e8b6721424625410fced96445febdadebbd6",
+      "split": "val",
+      "session_ids": [
+        "acdc-heart-0142:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0142"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0143",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:e8a67858d52677b8b2ae487f2550d296a653c2fc774d44ddc288479d984270d7",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0143:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0143"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0144",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b844de382b68c961cfd80734136ca21ccd1a4854395ced785bb4f2f817ba492b",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0144:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0144"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0145",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:39058934a93a8be6bb2570bc93e2f4cf0b7b91e5f423d99dd098b2bf558fd1c2",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0145:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0145"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0146",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:07d9f4776a724cd758ad2203b5e10bafa90a80b3a0abf5249ed0759293b09744",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0146:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0146"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0147",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:1526c2292d03c7fe638aa57eea383c40f9c6a239d0a3007106a7c265617a428c",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0147:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0147"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0148",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:de20790d65797037b8acb18088676ca8e0c06034947934cee047b805798879b0",
+      "split": "test",
+      "session_ids": [
+        "acdc-heart-0148:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0148"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "acdc-person-0149",
+      "source_dataset": "ACDC",
+      "source_subject_id_hash": "sha256:b39b51f1951f96813d48638ac990c38cf194da9c998df198e6faadb3a1150092",
+      "split": "train",
+      "session_ids": [
+        "acdc-heart-0149:cmr"
+      ],
+      "donor_ids": [
+        "acdc-heart-0149"
+      ],
+      "modalities": [
+        "cmr"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0000",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:895c1281fd8ef1623c24ee4f7214f1ee51c392bb6c1b4a8fbb2ca7ffb09b2709",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0000:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0000"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0001",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b505aada6caeca2f880c043f4a6cce25296c9d63e3c6d9dbde8003512a8346a6",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0001:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0001"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0002",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:80cd156b797e2a1cb8f825f10213e9e0d9cdcd1997b62ea1cb9e2a64db5c44e2",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0002:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0002"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0003",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:040ad7d7f56daaab463469d300545d8552e4622bf9fa5f6677c8f7ed4e4921d3",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0003:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0003"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0004",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ec28372353a728a3d2cf19d6930d09f631c3a9667a48ad527a290bb8e70d7783",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0004:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0004"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0005",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:329cc5def362a519e2c357b6aa0f01fd20e49ba06c76f15d70a27268562f49e1",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0005:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0005"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0006",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4bfb633889067eb278ed8a159c7ea296af934acff7617e227ea2d9c4aaee4043",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0006:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0006"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0007",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2e42c34f7e6cd31545632cf63fc2115b7a0b46fb34657be6843a39a047e8cd97",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0007:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0007"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0008",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:205a42aa09596e9e288485bc70b1c7593486d30861d907c8a5ea712bed50ff5f",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0008:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0008"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0009",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0048e321bfdd98a62856bd7bc2b77095283f58967d20ceece911089ea312f71b",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0009:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0009"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0010",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:37ea003a6199d37966aba39018eb05cfcf3f5284d9c94c7eead01c45905bc9ad",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0010:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0010"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0011",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:51d30aa56c39a085f4ecf541adc49de209d5abd07f4e3488f2ccadce5022afc1",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0011:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0011"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0012",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:61a4b8391a0ae253849f47932c911370fdd639ad134d4e13fa0a1bcad9a4117e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0012:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0012"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0013",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:96696382b5bba974d6e7b4ce89743136537289376c679f9e27945926ad54059c",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0013:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0013"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0014",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e913ea1823b620fc7e39e84fb7240ec67ca550301f1c9c10cfbf0c6a846fc0b0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0014:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0014"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0015",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:063d7ebb1fff372c5166ba76fc37f7bd540b63b748890ef072e22593d75e6cb5",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0015:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0015"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0016",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:9326c24d7157ed98b5ab92372ae8eb889192c5deaed4631d4a6040e4043446f7",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0016:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0016"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0017",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:18cf297cbebbbb21a0b764611f6c239c4b3731d7bea9b06467b909d19d401b57",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0017:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0017"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0018",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:450944ca8586324426532acf2b6c445ca3d36715ba31b457ab80a96b71d31a4e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0018:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0018"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0019",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:99ea1903de9a46961455d4b395b53b55d1b5885a102bb859aa57ab870368b058",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0019:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0019"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0020",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ab0e9c9701b8b9ec4be7d2ec0beb35c054a103cba1af007c23bf73315fbe32a9",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0020:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0020"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0021",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5cc4e80a4372a68b0d8aaa3fa944fa09bf3c2df9ffc15730f6153f8c5fe501d0",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0021:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0021"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0022",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b3ed6efc0aa0b1657f18ae16371052b2bf738bd4e03687622432967b88c15bc3",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0022:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0022"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0023",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:438c60597529de8b1bc7d5e5560d515c6ac4a37227da9faf5423af594e22433d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0023:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0023"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0024",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:cad47b7fbe11fc7367ed445ace4ead518c5160deb640eda6180ba7d05494d69b",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0024:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0024"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0025",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2504b88b36b3c8b6c7839ca0dc1f46cf97532381373b13a96871362ebdcc491c",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0025:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0025"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0026",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:80bd33f12b1fb28bc8c7a0f24ca5993e5616c16e1296dbac288e6892f2893f35",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0026:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0026"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0027",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b834460519849d778375285bd7f2aa452ed9cb342810e678a6a8be89119a2138",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0027:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0027"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0028",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4d07ae739413bc119d7e8f0dd74cebc793ef0a9c80c01b6c8ada105ed9eb490a",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0028:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0028"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0029",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:af763b5478a972058aa926459a97455735ab0f1ee6588c777f0cfa4cdde5ea6c",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0029:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0029"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0030",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:26aca9fa4ee0a4c8abcc2c40f76efc3b820a28d03426821ef3b55a74bcb55565",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0030:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0030"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0031",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ba150197b377b4ca4a785242dcfefc28d73cf4304be462b093033e8b8e16bfb5",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0031:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0031"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0032",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:876c903b1477aaf609628c612e124c4187f7016c17f59cd7293608dd4ca8ff74",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0032:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0032"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0033",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:27f72eb1dacbf0da3057eea420e1e2584182f3253682229803e50f734bd71a15",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0033:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0033"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0034",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:91d3364d7575a8bd9cb796be73510a148a2266b2e7fb6150fdb8d1ebe02b5959",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0034:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0034"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0035",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:26ca8a42ab0dbbe97dfef26349e0293623789ead1b66210e9ec9fc87cc2e12b9",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0035:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0035"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0036",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:68dfa30566448fdcc7f1c06f2fa89c460452c6630692589901d1d4468e2efab8",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0036:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0036"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0037",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:16a7f413c8139af04dadad680449a37ed0cf5703073777cc0a2b65f008c94b94",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0037:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0037"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0038",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ea65013347907867af8a5a76ef13ff468f48082d5750d227ea125d3abedb88b1",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0038:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0038"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0039",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:d0f75857fd4c1d90dfcb11152712f66746ececdd04cf5d8a5dce44d32270f9f5",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0039:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0039"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0040",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:efab4c3af4335838165216fa68ae0e2dd842cd1f1a54ee21fe96476a3c7234b4",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0040:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0040"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0041",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:67c96aa46696e2074d16badd27edc2ed37ba9feb163a71aae9f6b03a438bc8b1",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0041:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0041"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0042",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:f65418ece05f4a29fffd054bc2cbbfda312c1785b1aacc6f3ac06a3e07894943",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0042:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0042"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0043",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:765daa950aea46ad2720d6ff542243f8bfdfc7f36c11a52a5fef596ec9e3ead1",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0043:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0043"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0044",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:8efd11b572968b2407a6ee2e1def2ef0b9f3719025b5022b74ea512fc7e82438",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0044:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0044"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0045",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b60c18203ba369ec5259da811d8e0002f568da3bae9d103a8a3447919115c5f5",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0045:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0045"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0046",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:fc342478a947627c26e6507a8fbfc0984ec69ee3d84efec2c2b203baedb5074b",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0046:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0046"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0047",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:1ddf7689023a4e38becffa26374907539d83e8306795d2484c66845160e85d19",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0047:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0047"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0048",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:229e80ebeb663fb8fe16103af22d9e42209225a7205156dc06ec7b762fa7918c",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0048:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0048"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0049",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:fac983046a4bbc901ed097ed5cad677541d71e59eade1e0500321872921dd865",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0049:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0049"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0050",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5f829a46375ce68fd84c13775e77f7d19e4e6d608a6659959d79ab774ed4ba58",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0050:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0050"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0051",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:8cd08d873b7243e080163d2162a39977718031f718ec7c528d7b02654489ac9f",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0051:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0051"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0052",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:bb393ada9248e53c2f1873283099bebe58d5271a93e69bf4ee1318046345ca26",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0052:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0052"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0053",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:a071335e113bf48c9935ae454a105ea6df80458fd462b7af2e4e43a43ea8b649",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0053:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0053"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0054",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5f068d2a5be1476c6246585374e065aa2fd352571a5d1cd8d4d47fa813ca920a",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0054:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0054"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0055",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:66717e4e3cf615359da9d89679a26c38c39d081710c10ae3f2e94318fc1c8b78",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0055:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0055"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0056",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:a23fb4315735d4b91e1ecec0069fd27752bf5f6b665bd0b94c8db1cca00594ea",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0056:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0056"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0057",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ca531517b06a9fa090aea079495f17cb2568c21a6a81091c4696a530744a323e",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0057:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0057"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0058",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:092286ac4314dff4d456b55520a693afd59148eb09d0dd87fef2e003ccfdcce3",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0058:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0058"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0059",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:13024f1b948743e255c79c68a75931779a4a4416295eac8db7e12dbdc26c725f",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0059:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0059"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0060",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:1432c35413d2fd6871c3d42977cdec9534fa4981539d3a48bcf782b1ce706f80",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0060:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0060"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0061",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2eae5ee0590fd60590a29d86114ce21e887a46e201eb7e63a35660b296ce5d0e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0061:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0061"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0062",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:3e31c3abdf44bfdfa8f1d47add1e7f5b8fdef6e2f163ab5f5d2e3170b5871b86",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0062:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0062"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0063",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:52d11acb55fa77bcc5072dbdf5b5f770eafc72c2fad7a9bc145fc531688c7237",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0063:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0063"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0064",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:999da614c707f2fc0e968a2ac197c8aaa48efaad5e61418e4863d7a89fd3c73e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0064:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0064"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0065",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:f9b808b12d355a690a5b3025ebf05c0b8e3a98f7261123309e747be3b79a8ddd",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0065:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0065"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0066",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e4125495667669a32bf3f6a220e4e0c8f42bbd770058e0e381789d536cd9e6ff",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0066:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0066"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0067",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c5c0e8739188ab6324533d42fdf751a82daf8a6706e6137dd2a31fb4e7c2ee4a",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0067:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0067"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0068",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:d35c2318bf982c4c6f89342e2b74a3d2344cb0592912e1cd09e23e36468f39b0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0068:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0068"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0069",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:7ddf412309e67da1dfa9db2f76e8bbcb50f8882dde1a7b2e1a385dd5fa2bf1f0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0069:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0069"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0070",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:08640284771b5595dbb3978f636651eb7c20a53601d9dc37221bce4027b18bbe",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0070:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0070"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0071",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0fdac15b75128c9c8752be6c7af2a3c51e9b135a2d9ba05877146ca6d00c416d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0071:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0071"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0072",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:a5b6ab4573be5891893786d830d9291816e3b65bf86e0d1851bed57e311119d4",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0072:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0072"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0073",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:cb96e07c8730f81d24d5b98d5a451843cc6b41c0e91676418abaa0a16d185876",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0073:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0073"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0074",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:9f0a749ef6dc650162d77338df200a8372dc05821df68264d45856fe49414e11",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0074:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0074"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0075",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:3d28b438040995ec274e867ec53a2f1f3e3443183b94e9e450a8430256c56b25",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0075:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0075"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0076",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:d9dd0883e55389ddabecec1edbed1e547f6bd5ad10b45c27755c0f954a941daa",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0076:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0076"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0077",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:140c2d2d3664b0b57b7e3c6a3e685f0ac9e4174ef1832a26ac933841c21d479d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0077:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0077"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0078",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:3a2e1143dc8cf6971f59fc79845767f75361d2067d21386c9af198fa7f58058c",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0078:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0078"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0079",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:6752440792aa62c8e16405e67dfbf91a5208789c8bdade309c651e82935804a6",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0079:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0079"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0080",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:582183c3936b7949beae5204f72d323b27cf6723275c23040486223a68a4931c",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0080:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0080"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0081",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c740a42eb8b580bc8fe725c33fbd10c0cb1f59c3c8bb2ac4f761f6ba3f98cfa1",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0081:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0081"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0082",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:fb0963470e16433d2635b3ec7aaea8d50c326be1d3daf0cbd1965969bdef0160",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0082:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0082"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0083",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c0ec975905d9e6bae80f9a34bb8de86ba15d6219b39195b5b0dd90e4c32b68e3",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0083:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0083"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0084",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:9223400d3edb1d1390f63c965baee49f5c38ce7a5f83931f50b3c3a29e17c067",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0084:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0084"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0085",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:cd91ec4a266a068c430e9065e0c592f45a081f9bf3bd2505974d3d7cb3070bb3",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0085:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0085"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0086",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4b2dfaa978ed62828c8014f34eb6dfd9736f88191047484b16941c0330efbdef",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0086:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0086"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0087",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:eb05a4505fec11d948c04ba01fc355b83dc34f43947c0d9d5fa569900c0c8675",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0087:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0087"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0088",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:07908cce4fee65fccfcbf2c4b810e2676fda4e4dc2d15ebd9cc42fdf139bcf1f",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0088:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0088"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0089",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:40c2dbc1a1c20762056fc135d1504483a6dd84a025254a225f9b322467d195fc",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0089:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0089"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0090",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2e6198cb85fd08ed6c7cc79b6f41643dbbb98257638914ebc4a89201fb3d69c8",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0090:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0090"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0091",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b0e73d22f451c003fb408afae59da6677c16edc38a03eb099ac351a4ac598d73",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0091:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0091"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0092",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0233fd68ed5ed63c37844d7bbc3b862854e5a43d79d7290f027e6523709d83be",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0092:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0092"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0093",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:88c2b866c714a0a4e92343c10a4b4a833ceb7928829d4a070f27f041af82f34f",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0093:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0093"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0094",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:99f74fce3173e08ce1a3aa48b8c465fa410217ac06cc9e8eff923787b8862aa3",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0094:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0094"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0095",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:662cc1ddc3084a61d4c6df3804685e84ffbb3ecb83a25c5fbdf1ac4cc6f15e06",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0095:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0095"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0096",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:003f546c067e7e088d8403c9e314e84a4acb382f804fac1fa142e6bbddb19618",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0096:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0096"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0097",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5bc9570c9734057a63ee0f5b79ad998f78402647161a941f3e79d97bf8be8237",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0097:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0097"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0098",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ea0f388f33f6b861a728fbef56178112d50ba3952b54d0852dc319f287aa458e",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0098:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0098"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0099",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c6f9f5b725623e7788e6d319df6290a914c84767847f171fd79137299089f2a0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0099:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0099"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0100",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:a38de3e2ee2a923b5751eb15526ffb8b0d1addbf2a64c3c95817dc7325075a9e",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0100:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0100"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0101",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2cdafa08a71a54aa864a6dd6a95fc1a165b8be98a47f91ed3e9ee7cf6f3e711e",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0101:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0101"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0102",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2f952a7bf0eb5e7f04cc1528cf27d53451c3fc512fa24ce94e023d09a61e2856",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0102:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0102"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0103",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:21cc76d3e00a93d1dad156d2932dbfa6ab889c671577ccb9b5e5357f4088ec8e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0103:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0103"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0104",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:aa87969f8e91b20d5c95f4928e0259e977517b31c41eeca405afb64502b4ebf2",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0104:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0104"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0105",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e9bd3e264bf0aff7ec6fac913ad0d29beeaf15fe38eba0bd424c58f38ba6b192",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0105:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0105"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0106",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:49174a71b17330cd010d80cb8aac7c9810b5ad43399cf53cc32f66257cdb50c7",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0106:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0106"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0107",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b614986805f4ba1d298c446b2c562a631202c58e97a19af6bb651d45dd488ce0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0107:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0107"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0108",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b017ec7b6a9c7af7c14fe59f5f11d507933650fe9d91cf7710e88075f072b00b",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0108:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0108"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0109",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:020900674feb6ea2d12dde44e0d2f214ef8fe7137263dae17e389706b3ebaf35",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0109:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0109"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0110",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:98c15248db17eb3d4c2db7e9cec531fcabb87e7e54ff4c13035f63e4b2ab489a",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0110:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0110"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0111",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4e72c63d444f5a3f2d4fad5783dade7ff2615995b725280be3f4b6bcb13ab2c9",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0111:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0111"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0112",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5482b8786ae276f1ddd233ea8b3e4de6ee83eec5facd8361d312ee45fb692f88",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0112:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0112"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0113",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:f49dba497621f2bf025f6d7dd900f74a4c3af0095e7fb5e74044e19209cd9e2c",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0113:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0113"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0114",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:86f6d159292461aecbe536f045f281f791df9552f749c25f04e436837714975f",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0114:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0114"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0115",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:d9530915af51db1f744c0eebe8a861d0e491d41cb1afd002efd54051b2662cc5",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0115:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0115"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0116",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ab1cc224de845fd022703847de7e1265365826cc3171fc1492cac4cbb642cad8",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0116:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0116"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0117",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:714aebda41d3de01dcb41ebdb80f0ee2331d30de7dd2df1c494cb44be9808a05",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0117:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0117"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0118",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:87c1990f6be98379f0e63e2343d361fcdbd4baa11f703639e70327550d58a638",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0118:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0118"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0119",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5f29f6d8be22081cbd0d6efdb8503e501e3ff015666ba65b9ab624a1893d0553",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0119:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0119"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0120",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:3c5338969b22d76b772e81c4959cee57c3fa2ec2f6d16e6c35b3d36993ec2d8b",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0120:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0120"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0121",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:21728328b24aa7f85942fde8906d848df9bb4989dadfe7dfc16392cd3a4e44c1",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0121:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0121"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0122",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e33ae406a96854fcdd72ee2d3f2d1589b45b68a94b8ddf0b74eb494e18389f2f",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0122:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0122"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0123",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:124f0e914289bff1da60cbc2f50be571add2f4b893734ce0ddcda3b0f72235a4",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0123:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0123"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0124",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:df46d07fafb31da90a97024311976757828aadf441d99e7d981302725c3e652a",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0124:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0124"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0125",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0a60010fa2de4abf3c75ddfdead418b1f51dd143e85d4f61d571de852c317ccf",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0125:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0125"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0126",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:d1a44c41f8e22eb9f03da6b73e57a6467a2520412b17eb628d9e3d0a07d2419c",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0126:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0126"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0127",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:490d3c7de5aef8fd4f603a6dcc7b0e7dc8510497e052812c1e122b1b6047e68d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0127:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0127"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0128",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2a27b58cc335502b9124893e414468681e5d1deadf679a6946cc54151aa01882",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0128:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0128"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0129",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:7c359af2e3aaf3250793ea8e45c7ac8d6bc955f8d9a5f10cc1ccc0d981d4782e",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0129:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0129"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0130",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5d9fe34ec445d4f45a38cd07e67d5272752ad1459f55e7eca4bda275239a47f0",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0130:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0130"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0131",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:ac7e31b249fea987d15eb363513049036c99fb630017e6b69daaae4836634613",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0131:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0131"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0132",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e8457290f050bcf9704b81739b4d6d02a4ee6ab23e4ac8751c348aaf414acd7c",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0132:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0132"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0133",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c71635cfc19c628db84ce828f22a0b6d15b701374c3cf61fec47ffd96136c92e",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0133:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0133"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0134",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0c8fd8ce0a678d137f4c4f54c37813f28b36a3b30973abf9de7f375579a0047e",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0134:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0134"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0135",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b45e48eff9c51d5c5c6d01ea227e8f108a31ec8f016d5283472f4fc9791fa8df",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0135:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0135"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0136",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:365f50e847dea296c9e81f99f1f794627442206af6c3daba9d936e42e1fd4267",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0136:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0136"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0137",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:f7b1479e0634de7c99996ddbb5eba45ecb0064ba73d86142ab84fbe1f2f8c03c",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0137:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0137"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0138",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:1c38c0df488388e25eae1ee4cb6fd2dc5529ed3e19b293ca1a32d951027505f8",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0138:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0138"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0139",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:10b2c44cae2312ff69d2ce3a53cb5658f02add3f073088cbda3c76b2c64e41c2",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0139:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0139"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0140",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:22c9c05d6736ce14f79669a326c599c29e0c127f513bfa9d829fdb1a51dbc579",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0140:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0140"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0141",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:e5e553fe97d86c71567cb1d8ab396a752b6ec9ffb52e5c897722214efdeeac98",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0141:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0141"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0142",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2efc5bc9cc0c9071d32066e409d3b32a36719ec4c93523559b9ec32f8f039264",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0142:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0142"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0143",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:facefe2d2c8e2d839a4260d3d8a3ad12e98bec055f43318acb545a47be74b1e4",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0143:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0143"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0144",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5245214538ecfeecf311d9311eeb7ffb4926a61369046f818916312b908b2200",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0144:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0144"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0145",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:28aa1548a26416085f98ac15c100c9e4ab94f3fcc438d79fc7385d78b48c634d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0145:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0145"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0146",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4f8787e111eef196f50be75d63972f639168ca72db7d32766df2e3c6598df4c9",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0146:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0146"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0147",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:9f3ca4585ba4ebb938054429fb9ce415d0eb8823b1636f3c562d187ca5aaa998",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0147:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0147"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0148",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:45d1fb83c239de3de9276b512adda79af216ecd095d50fcad12fbaa3d2b0accd",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0148:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0148"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0149",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:525814fa7cfc82cacfc03b69e0eeb4fc0c50d9c6c4e022fdff4fc150ea5906c4",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0149:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0149"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0150",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0702276dc6b4b1278ffe13355cc3116949705272f29222399025de2ca357a010",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0150:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0150"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0151",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:45574e73394304ee1fbacba5a0277a964a988c9ebe8b6723b1f4ab1efcd29a17",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0151:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0151"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0152",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:154cd841799f94506244d197eee2252c181efb46a77972cc68a8199bb39c3d3d",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0152:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0152"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0153",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:eb951bbb9015446e2181e1f56a3ac5c5c88a55c0e1a2be31fa5fbb21479769b8",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0153:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0153"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0154",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:0757c8fb38a80437c014ccf428622cd06e82680d378f26633c4d4db1a7ceec70",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0154:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0154"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0155",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c64f939ae56557012b5eff57f129bc51dff345f80b3fa00569daf030f0e3b885",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0155:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0155"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0156",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:b830a1b7f317208d110cac06f8a8d58562d733ae08e3695e96151380fbb7b689",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0156:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0156"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0157",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:1ca5a54fba1cb338f440bf34a93d2b148574d0d97f8193bef11927e426a434a9",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0157:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0157"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0158",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:227147f1b60264fbfea7f2a75e2e370987c86058e6cafc3d340ec92db4332ceb",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0158:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0158"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0159",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:956a2159d14b7fa0ec2f38210a82d62e8ac48c51a167e933951706f483dbbc13",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0159:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0159"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0160",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:96dec434fbf54629058c41cb26160735f025aa65e3f29a9d004357097ec60d6f",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0160:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0160"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0161",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:53bfb411aad2c922c26d1a28b7cf06f6c8f0b05e2a427de1fcb08deb9cc60c40",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0161:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0161"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0162",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:66be77049390b2ce1ae31679173388fe61975d55caf790eae3e22ef79538ccaa",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0162:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0162"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0163",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:c06d4cb131d67db753a6cb414a1b4f45db8e058cccb28506f16f81ae3c392702",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0163:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0163"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0164",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:f8cccde08d38eba9f8b883fa18029e068a5fbed95d2acb6726273ba2c59e6270",
+      "split": "test",
+      "session_ids": [
+        "mvseg-valve-0164:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0164"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0165",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:8e46e14dc25737922cfb7aa740ac8328b66870ba4f9e156e187bc665fce34265",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0165:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0165"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0166",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:fcb6f609cbbc22372af0788601d2d6ea39fc48a2b732dc715895b8a0e77ec74b",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0166:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0166"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0167",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:7957c4071a81f9a322ef8787067e0f51ffe6af1ea8d71ca3506a93a3476a1b56",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0167:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0167"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0168",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:582c5fbc6d232b22110fc94dce0a028993e7dda45087679d86b1b38067102c1b",
+      "split": "val",
+      "session_ids": [
+        "mvseg-valve-0168:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0168"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0169",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:5a85270b9e0549786769e3cb9bd0423ebeae743b883708439ee61bed73593632",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0169:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0169"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0170",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:2a39fe64ee1c567994128ecb9e83e2efea3e5951be78f22d1cdab563fd3fb433",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0170:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0170"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0171",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:a18db4e4266d7296dd38be8bd0f6037c6f4bed0b5eead2d6db9b786d78a27178",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0171:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0171"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0172",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:859f47717bd73eaf3100da1df97552ecd2bcfce8a08b166c6af2a8f202a50143",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0172:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0172"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0173",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:47f4acbb9e8b307e2fd44a77d4823363ba4d569e1b042fb4feeeb2be014ef943",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0173:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0173"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    },
+    {
+      "global_person_id": "mvseg-person-0174",
+      "source_dataset": "MVSeg2023",
+      "source_subject_id_hash": "sha256:4d8860f3b267ec6dadba176bf53bf96e879fcad4f1cdc102444cfab58da41d40",
+      "split": "train",
+      "session_ids": [
+        "mvseg-valve-0174:tee"
+      ],
+      "donor_ids": [
+        "mvseg-valve-0174"
+      ],
+      "modalities": [
+        "tee"
+      ]
+    }
+  ],
+  "artifact_provenance": []
+}

@@ -1,0 +1,25 @@
+fitting shape space from train split...
+using 30 validation identities
+measuring warp conditioning on 12 identities...
+{
+  "offset_share_in_warp_span": {
+    "median": 0.9242018408787622,
+    "p95": 0.9491711602976105
+  },
+  "warp_block_condition_number": {
+    "median": 4249138194.518263,
+    "p95": 5236562916.214373
+  },
+  "warp_block_smallest_singular": {
+    "median": 1.5896997387785073e-08,
+    "min": 1.3526524140218195e-08
+  },
+  "n": 12
+}
+fixed_phase                 combined  2.878 +/- 0.136  phase 0.0166  (10 s)
+warp, smoothness     2.0   combined  2.849 +/- 0.139  phase 0.0162  (120 s)
+warp, smoothness     8.0   combined  2.849 +/- 0.139  phase 0.0162  (228 s)
+warp, smoothness    32.0   combined  2.848 +/- 0.140  phase 0.0167  (334 s)
+warp, smoothness   128.0   combined  2.848 +/- 0.139  phase 0.0149  (427 s)
+warp, smoothness   512.0   combined  2.851 +/- 0.139  phase 0.0161  (517 s)
+wrote results/benchmark/E17_warp_diagnosis_val.json

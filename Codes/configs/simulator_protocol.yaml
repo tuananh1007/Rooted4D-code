@@ -1,0 +1,73 @@
+schema_version: rooted4d-simulator-protocol-v1
+protocol_id: rooted4d-semisynthetic-heldout-families-v1
+status: specified_implementation_partially_complete
+primary_unit: composite_donor_identity
+
+current_executable_operators:
+  point_domain: deterministic_surface_samples_with_known_pose_phase_and_session_truth
+  cmr_domain: finite_thickness_cartesian_plane_surface_likelihood
+  tee_domain: diverging_sector_surface_likelihood_with_depth_attenuation_speckle_and_shadow_cones
+  implementation:
+    - rooted4d/observation/cmr.py
+    - rooted4d/observation/tee.py
+    - rooted4d/synthetic/dataset_builder.py
+
+split_families:
+  train:
+    generator_family_id: harmonic_anatomy_motion_v1
+    renderer_family_id: analytic_distance_likelihood_v1
+    seed_namespace: simulator_train_v1
+    allowed_uses: [train]
+    status: implemented_for_procedural_and_fixed_topology_donors
+    perturbations:
+      - se3_pose
+      - monotone_circular_phase_warp
+      - bounded_session_residual
+      - missing_points_planes_and_sector_regions
+  val:
+    generator_family_id: spline_loading_motion_v1
+    renderer_family_id: supersampled_contour_sector_v2
+    seed_namespace: simulator_val_v1
+    allowed_uses: [val]
+    status: generator_and_renderer_implemented_not_validated_against_real_data
+    perturbations:
+      - different_motion_basis
+      - correlated_noise
+      - altered_slice_and_sector_geometry
+      - compatibility_boundary_cases
+  test:
+    generator_family_id: heldout_pathology_mechanics_v1
+    renderer_family_id: voxel_raster_ray_shadow_v3
+    seed_namespace: simulator_test_locked_v1
+    allowed_uses: [test]
+    status: generator_and_renderer_implemented_not_validated_against_real_data
+    perturbations:
+      - prolapse_and_tethering_interventions
+      - regional_wall_motion_abnormality
+      - arrhythmia_like_phase_irregularity
+      - out_of_distribution_noise_and_occlusion
+
+inverse_model:
+  uses_generator_latents_or_correspondence: false
+  training_renderer_family_ids:
+    - analytic_distance_likelihood_v1
+    - supersampled_contour_sector_v2
+  observation_operator_family_ids:
+    - cmr_finite_thickness_likelihood_v1
+    - tee_sector_surface_likelihood_v1
+  test_ground_truth_visibility: metrics_only_after_predictions_are_frozen
+
+anti_inverse_crime_rules:
+  - partition_source_donors_before_pairing_augmentation_or_prior_fitting
+  - use_distinct_generator_renderer_and_seed_families_for_train_val_and_test
+  - never_expose_test_latents_correspondence_pose_phase_or_session_truth_to_inference
+  - fit_template_priors_normalization_and_reusable_artifacts_on_train_only
+  - calibrate_thresholds_and_uncertainty_on_validation_only
+  - render_locked_test_with_a_code_path_not_used_by_the_inverse_model
+  - report_results_by_composite_identity_and_cluster_bootstrap_both_donor_sources
+  - retain_failed_cases_and_invalid_meshes_in_denominators
+
+locked_test_policy:
+  seeds_encrypted_or_held_by_evaluation_script: required_before_experiment
+  reruns_after_unblinding: prohibited_except_documented_software_failure
+  output_digest_required_before_truth_release: true

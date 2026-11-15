@@ -1,0 +1,55 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": true,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "experiment": "E82",
+  "models": {
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E75_SECOND_TEST_2026-09-26.md",
+  "session_prior_weight": 0.015625,
+  "split": "test",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/frozen",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.015625
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/oscillatory",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_includes_offset": false,
+        "session_prior_weight": 0.015625
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/no_session",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.015625,
+        "use_session": false
+      }
+    }
+  ]
+}

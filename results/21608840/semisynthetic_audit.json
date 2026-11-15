@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "passed": true,
+  "statistics": {
+    "arrays_verified": true,
+    "checksums_verified": true,
+    "splits": {
+      "test": {
+        "identities": 3,
+        "samples": 6,
+        "source_people": 6,
+        "valve_donors": 3,
+        "whole_heart_donors": 3
+      },
+      "train": {
+        "identities": 9,
+        "samples": 18,
+        "source_people": 18,
+        "valve_donors": 9,
+        "whole_heart_donors": 9
+      },
+      "val": {
+        "identities": 3,
+        "samples": 6,
+        "source_people": 6,
+        "valve_donors": 3,
+        "whole_heart_donors": 3
+      }
+    },
+    "total_samples": 30
+  },
+  "warnings": []
+}

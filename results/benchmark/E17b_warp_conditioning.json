@@ -1,0 +1,35 @@
+{
+  "experiment": "E17b_warp_conditioning_after_gauge",
+  "split_used": "val",
+  "n_identities": 12,
+  "offset_share_in_warp_span_raw": {
+    "median": 0.9242018408787622,
+    "p95": 0.9491711602976105,
+    "min": 0.8743715022570573,
+    "max": 0.9568508850896721
+  },
+  "offset_share_explained_by_gauge_alone": {
+    "median": 0.002289353176163461,
+    "p95": 0.05993085766853025,
+    "min": 1.0210674890496836e-05,
+    "max": 0.07927061236473616
+  },
+  "offset_share_in_warp_span_after_gauge": {
+    "median": 0.9239270380428084,
+    "p95": 0.9489897781080279,
+    "min": 0.8743678450810844,
+    "max": 0.9567074172981834
+  },
+  "warp_condition_number_raw": {
+    "median": 4249138194.518263,
+    "p95": 5236562916.214373,
+    "min": 2699290112.5041666,
+    "max": 5750660360.355091
+  },
+  "warp_condition_number_after_gauge": {
+    "median": 11.798674718412112,
+    "p95": 21.708557508241036,
+    "min": 7.272990930122329,
+    "max": 27.16011506761022
+  }
+}

@@ -1,0 +1,473 @@
+commit=d7d4a86bf89995462a91b3c94d9f5a705027163f
+dirty=no
+### unit tests of the residual field
+
+OK
+[test/v4n96o/full] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v4n96o_full.json
+spec e11d36db87ed9f41 | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-66fc7a9456bbb0f4.npz done (36s)
+sample-523823085eda7639.npz done (36s)
+sample-2ad6a25c14919d6c.npz done (36s)
+sample-2d2ced6b94d54b1e.npz done (36s)
+sample-2f6fa7d6ce256a81.npz done (36s)
+sample-2f34d4f1f7e63b7b.npz done (36s)
+sample-85ebb86d2c62c245.npz done (36s)
+sample-51e22b3ef843d222.npz done (36s)
+sample-31a5d135b7df96c7.npz done (37s)
+sample-5e31c39d39366c8a.npz done (37s)
+sample-48e7c15d00cb9489.npz done (37s)
+sample-0c157b134ccf1050.npz done (37s)
+sample-2c65d0608aa25ff1.npz done (37s)
+sample-521522c681de7414.npz done (37s)
+sample-6bde699f12a1a6eb.npz done (37s)
+sample-6f3aa5eafbe55b34.npz done (37s)
+sample-61747c9c9880f5e7.npz done (37s)
+sample-17f7d0016b81620e.npz done (37s)
+sample-82f4836473cfc1ed.npz done (37s)
+sample-3b91f07bb113bc62.npz done (37s)
+sample-019a43ff852a847f.npz done (37s)
+sample-7b7fb5dd769df2c1.npz done (37s)
+sample-2a9d33f2f9774e0d.npz done (37s)
+sample-6dc18702e22b1c68.npz done (38s)
+sample-6f62b7809154a2a9.npz done (38s)
+sample-6c7c0b64fb01fff5.npz done (38s)
+sample-04595194ac6631f1.npz done (38s)
+sample-31a278fcd0fe908b.npz done (38s)
+sample-1fdc05c124193ab4.npz done (38s)
+sample-082fe8d96ea6c326.npz done (44s)
+sample-a7356c2d2ab935b0.npz done (58s)
+sample-cc4a3d7b1cb56bd6.npz done (58s)
+sample-cc3d43d0916a20f3.npz done (58s)
+sample-925a033bfbf6e571.npz done (58s)
+sample-bfd2bd0432e2e759.npz done (58s)
+sample-bb99c960710f8a06.npz done (58s)
+sample-c12efdfe04c38a84.npz done (58s)
+sample-beca31cd32c236b3.npz done (58s)
+sample-cc83409fcf619709.npz done (58s)
+sample-b0a5362d9ad0a167.npz done (58s)
+sample-94ebdaa43c84a9b0.npz done (58s)
+sample-dbacf27eae98f37a.npz done (58s)
+sample-d7e4029a89a13812.npz done (59s)
+sample-d2330ab6d16611aa.npz done (59s)
+sample-ed77d3eaae8eb5c1.npz done (59s)
+sample-871af31577b97c5b.npz done (59s)
+sample-d15bb9aea07cdea9.npz done (59s)
+sample-ef4f78bdfca8c630.npz done (59s)
+sample-ceb96568edcf4043.npz done (59s)
+sample-86e3884e30ad9228.npz done (59s)
+sample-dfa5b5c7aa6898e1.npz done (60s)
+sample-a942eb7bc383b6ea.npz done (60s)
+sample-d81ae1bc6f643f4f.npz done (60s)
+sample-e73854be55665de8.npz done (60s)
+sample-fd56fa72b96095d5.npz done (60s)
+sample-d649adef410dd353.npz done (61s)
+sample-9769e064fd8c9f41.npz done (62s)
+sample-b12aba209c7c5a60.npz done (62s)
+sample-efb59a8a9814f2b3.npz done (65s)
+sample-febf0b9ae0246455.npz done (65s)
+finished 60 samples in 66s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/e11d36db87ed9f41/shard_000_of_001.jsonl
+[test/v4n96o/cmr4] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v4n96o_cmr4.json
+spec 86cf601dcef2d0e9 | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-48e7c15d00cb9489.npz done (23s)
+sample-2c65d0608aa25ff1.npz done (23s)
+sample-51e22b3ef843d222.npz done (23s)
+sample-2d2ced6b94d54b1e.npz done (23s)
+sample-2ad6a25c14919d6c.npz done (23s)
+sample-61747c9c9880f5e7.npz done (23s)
+sample-521522c681de7414.npz done (23s)
+sample-85ebb86d2c62c245.npz done (23s)
+sample-082fe8d96ea6c326.npz done (24s)
+sample-66fc7a9456bbb0f4.npz done (24s)
+sample-31a278fcd0fe908b.npz done (24s)
+sample-6f62b7809154a2a9.npz done (24s)
+sample-17f7d0016b81620e.npz done (24s)
+sample-6c7c0b64fb01fff5.npz done (24s)
+sample-2f34d4f1f7e63b7b.npz done (24s)
+sample-7b7fb5dd769df2c1.npz done (24s)
+sample-04595194ac6631f1.npz done (24s)
+sample-2a9d33f2f9774e0d.npz done (24s)
+sample-6bde699f12a1a6eb.npz done (24s)
+sample-82f4836473cfc1ed.npz done (25s)
+sample-6f3aa5eafbe55b34.npz done (25s)
+sample-0c157b134ccf1050.npz done (25s)
+sample-6dc18702e22b1c68.npz done (25s)
+sample-1fdc05c124193ab4.npz done (25s)
+sample-2f6fa7d6ce256a81.npz done (25s)
+sample-5e31c39d39366c8a.npz done (25s)
+sample-3b91f07bb113bc62.npz done (25s)
+sample-523823085eda7639.npz done (27s)
+sample-019a43ff852a847f.npz done (28s)
+sample-31a5d135b7df96c7.npz done (29s)
+sample-86e3884e30ad9228.npz done (41s)
+sample-94ebdaa43c84a9b0.npz done (41s)
+sample-c12efdfe04c38a84.npz done (41s)
+sample-871af31577b97c5b.npz done (42s)
+sample-cc4a3d7b1cb56bd6.npz done (42s)
+sample-b12aba209c7c5a60.npz done (42s)
+sample-beca31cd32c236b3.npz done (42s)
+sample-b0a5362d9ad0a167.npz done (42s)
+sample-bfd2bd0432e2e759.npz done (43s)
+sample-d649adef410dd353.npz done (43s)
+sample-d2330ab6d16611aa.npz done (43s)
+sample-cc83409fcf619709.npz done (43s)
+sample-9769e064fd8c9f41.npz done (43s)
+sample-ceb96568edcf4043.npz done (43s)
+sample-d7e4029a89a13812.npz done (43s)
+sample-d15bb9aea07cdea9.npz done (43s)
+sample-ef4f78bdfca8c630.npz done (43s)
+sample-a942eb7bc383b6ea.npz done (44s)
+sample-ed77d3eaae8eb5c1.npz done (44s)
+sample-cc3d43d0916a20f3.npz done (44s)
+sample-dbacf27eae98f37a.npz done (44s)
+sample-e73854be55665de8.npz done (44s)
+sample-bb99c960710f8a06.npz done (44s)
+sample-dfa5b5c7aa6898e1.npz done (45s)
+sample-a7356c2d2ab935b0.npz done (46s)
+sample-d81ae1bc6f643f4f.npz done (46s)
+sample-efb59a8a9814f2b3.npz done (46s)
+sample-925a033bfbf6e571.npz done (47s)
+sample-febf0b9ae0246455.npz done (48s)
+sample-fd56fa72b96095d5.npz done (49s)
+finished 60 samples in 49s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/86cf601dcef2d0e9/shard_000_of_001.jsonl
+[test/v4n96o/cmr3] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v4n96o_cmr3.json
+spec 1d7d02a463cb9e44 | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-2a9d33f2f9774e0d.npz done (22s)
+sample-5e31c39d39366c8a.npz done (23s)
+sample-1fdc05c124193ab4.npz done (23s)
+sample-31a278fcd0fe908b.npz done (23s)
+sample-2c65d0608aa25ff1.npz done (23s)
+sample-082fe8d96ea6c326.npz done (23s)
+sample-3b91f07bb113bc62.npz done (23s)
+sample-6dc18702e22b1c68.npz done (23s)
+sample-61747c9c9880f5e7.npz done (24s)
+sample-6f3aa5eafbe55b34.npz done (24s)
+sample-521522c681de7414.npz done (24s)
+sample-019a43ff852a847f.npz done (24s)
+sample-04595194ac6631f1.npz done (25s)
+sample-6bde699f12a1a6eb.npz done (25s)
+sample-2ad6a25c14919d6c.npz done (25s)
+sample-2f6fa7d6ce256a81.npz done (25s)
+sample-6c7c0b64fb01fff5.npz done (25s)
+sample-51e22b3ef843d222.npz done (25s)
+sample-82f4836473cfc1ed.npz done (25s)
+sample-2d2ced6b94d54b1e.npz done (26s)
+sample-0c157b134ccf1050.npz done (26s)
+sample-523823085eda7639.npz done (27s)
+sample-31a5d135b7df96c7.npz done (27s)
+sample-66fc7a9456bbb0f4.npz done (27s)
+sample-17f7d0016b81620e.npz done (27s)
+sample-2f34d4f1f7e63b7b.npz done (27s)
+sample-48e7c15d00cb9489.npz done (28s)
+sample-7b7fb5dd769df2c1.npz done (29s)
+sample-6f62b7809154a2a9.npz done (29s)
+sample-85ebb86d2c62c245.npz done (29s)
+sample-a7356c2d2ab935b0.npz done (41s)
+sample-86e3884e30ad9228.npz done (41s)
+sample-9769e064fd8c9f41.npz done (41s)
+sample-94ebdaa43c84a9b0.npz done (42s)
+sample-a942eb7bc383b6ea.npz done (42s)
+sample-beca31cd32c236b3.npz done (43s)
+sample-b0a5362d9ad0a167.npz done (43s)
+sample-bfd2bd0432e2e759.npz done (43s)
+sample-925a033bfbf6e571.npz done (44s)
+sample-ceb96568edcf4043.npz done (44s)
+sample-bb99c960710f8a06.npz done (44s)
+sample-b12aba209c7c5a60.npz done (45s)
+sample-871af31577b97c5b.npz done (45s)
+sample-cc3d43d0916a20f3.npz done (46s)
+sample-d2330ab6d16611aa.npz done (46s)
+sample-c12efdfe04c38a84.npz done (46s)
+sample-d7e4029a89a13812.npz done (47s)
+sample-d15bb9aea07cdea9.npz done (47s)
+sample-d81ae1bc6f643f4f.npz done (47s)
+sample-d649adef410dd353.npz done (47s)
+sample-efb59a8a9814f2b3.npz done (47s)
+sample-dbacf27eae98f37a.npz done (48s)
+sample-cc83409fcf619709.npz done (48s)
+sample-e73854be55665de8.npz done (49s)
+sample-cc4a3d7b1cb56bd6.npz done (49s)
+sample-ef4f78bdfca8c630.npz done (50s)
+sample-dfa5b5c7aa6898e1.npz done (50s)
+sample-fd56fa72b96095d5.npz done (50s)
+sample-ed77d3eaae8eb5c1.npz done (50s)
+sample-febf0b9ae0246455.npz done (50s)
+finished 60 samples in 50s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/1d7d02a463cb9e44/shard_000_of_001.jsonl
+[test/v4n96o/tee6] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v4n96o_tee6.json
+spec c711558f798289af | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-17f7d0016b81620e.npz done (24s)
+sample-2d2ced6b94d54b1e.npz done (25s)
+sample-6c7c0b64fb01fff5.npz done (25s)
+sample-51e22b3ef843d222.npz done (25s)
+sample-04595194ac6631f1.npz done (26s)
+sample-523823085eda7639.npz done (26s)
+sample-2f6fa7d6ce256a81.npz done (26s)
+sample-3b91f07bb113bc62.npz done (26s)
+sample-2c65d0608aa25ff1.npz done (26s)
+sample-5e31c39d39366c8a.npz done (26s)
+sample-7b7fb5dd769df2c1.npz done (27s)
+sample-6f3aa5eafbe55b34.npz done (27s)
+sample-082fe8d96ea6c326.npz done (27s)
+sample-019a43ff852a847f.npz done (27s)
+sample-2f34d4f1f7e63b7b.npz done (27s)
+sample-66fc7a9456bbb0f4.npz done (27s)
+sample-0c157b134ccf1050.npz done (27s)
+sample-85ebb86d2c62c245.npz done (27s)
+sample-521522c681de7414.npz done (27s)
+sample-2a9d33f2f9774e0d.npz done (27s)
+sample-31a278fcd0fe908b.npz done (27s)
+sample-61747c9c9880f5e7.npz done (27s)
+sample-2ad6a25c14919d6c.npz done (27s)
+sample-48e7c15d00cb9489.npz done (27s)
+sample-6dc18702e22b1c68.npz done (27s)
+sample-1fdc05c124193ab4.npz done (28s)
+sample-6f62b7809154a2a9.npz done (28s)
+sample-31a5d135b7df96c7.npz done (28s)
+sample-6bde699f12a1a6eb.npz done (28s)
+sample-82f4836473cfc1ed.npz done (28s)
+sample-94ebdaa43c84a9b0.npz done (46s)
+sample-86e3884e30ad9228.npz done (47s)
+sample-c12efdfe04c38a84.npz done (47s)
+sample-871af31577b97c5b.npz done (48s)
+sample-925a033bfbf6e571.npz done (48s)
+sample-cc4a3d7b1cb56bd6.npz done (48s)
+sample-beca31cd32c236b3.npz done (48s)
+sample-b0a5362d9ad0a167.npz done (48s)
+sample-9769e064fd8c9f41.npz done (48s)
+sample-b12aba209c7c5a60.npz done (49s)
+sample-ef4f78bdfca8c630.npz done (49s)
+sample-a7356c2d2ab935b0.npz done (49s)
+sample-e73854be55665de8.npz done (49s)
+sample-ceb96568edcf4043.npz done (49s)
+sample-a942eb7bc383b6ea.npz done (49s)
+sample-cc3d43d0916a20f3.npz done (49s)
+sample-bb99c960710f8a06.npz done (49s)
+sample-efb59a8a9814f2b3.npz done (49s)
+sample-cc83409fcf619709.npz done (50s)
+sample-bfd2bd0432e2e759.npz done (50s)
+sample-d15bb9aea07cdea9.npz done (50s)
+sample-febf0b9ae0246455.npz done (50s)
+sample-dbacf27eae98f37a.npz done (50s)
+sample-dfa5b5c7aa6898e1.npz done (50s)
+sample-d649adef410dd353.npz done (50s)
+sample-d2330ab6d16611aa.npz done (50s)
+sample-d7e4029a89a13812.npz done (50s)
+sample-d81ae1bc6f643f4f.npz done (50s)
+sample-fd56fa72b96095d5.npz done (51s)
+sample-ed77d3eaae8eb5c1.npz done (51s)
+finished 60 samples in 51s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/c711558f798289af/shard_000_of_001.jsonl
+[test/v4n96o/tee3] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v4n96o_tee3.json
+spec 85665583a35b5dd8 | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-61747c9c9880f5e7.npz done (24s)
+sample-48e7c15d00cb9489.npz done (25s)
+sample-2ad6a25c14919d6c.npz done (25s)
+sample-6f62b7809154a2a9.npz done (25s)
+sample-66fc7a9456bbb0f4.npz done (26s)
+sample-17f7d0016b81620e.npz done (26s)
+sample-2f6fa7d6ce256a81.npz done (26s)
+sample-6c7c0b64fb01fff5.npz done (26s)
+sample-82f4836473cfc1ed.npz done (26s)
+sample-2c65d0608aa25ff1.npz done (26s)
+sample-2a9d33f2f9774e0d.npz done (26s)
+sample-082fe8d96ea6c326.npz done (26s)
+sample-85ebb86d2c62c245.npz done (26s)
+sample-7b7fb5dd769df2c1.npz done (26s)
+sample-521522c681de7414.npz done (27s)
+sample-1fdc05c124193ab4.npz done (27s)
+sample-6f3aa5eafbe55b34.npz done (27s)
+sample-5e31c39d39366c8a.npz done (27s)
+sample-31a278fcd0fe908b.npz done (27s)
+sample-6bde699f12a1a6eb.npz done (27s)
+sample-019a43ff852a847f.npz done (27s)
+sample-31a5d135b7df96c7.npz done (27s)
+sample-2d2ced6b94d54b1e.npz done (27s)
+sample-51e22b3ef843d222.npz done (27s)
+sample-2f34d4f1f7e63b7b.npz done (27s)
+sample-6dc18702e22b1c68.npz done (27s)
+sample-04595194ac6631f1.npz done (28s)
+sample-0c157b134ccf1050.npz done (28s)
+sample-523823085eda7639.npz done (28s)
+sample-3b91f07bb113bc62.npz done (28s)
+sample-925a033bfbf6e571.npz done (47s)
+sample-b12aba209c7c5a60.npz done (48s)
+sample-94ebdaa43c84a9b0.npz done (48s)
+sample-86e3884e30ad9228.npz done (49s)
+sample-beca31cd32c236b3.npz done (49s)
+sample-9769e064fd8c9f41.npz done (49s)
+sample-a942eb7bc383b6ea.npz done (49s)
+sample-871af31577b97c5b.npz done (49s)
+sample-ed77d3eaae8eb5c1.npz done (49s)
+sample-a7356c2d2ab935b0.npz done (50s)
+sample-d81ae1bc6f643f4f.npz done (50s)
+sample-e73854be55665de8.npz done (50s)
+sample-bfd2bd0432e2e759.npz done (50s)
+sample-ceb96568edcf4043.npz done (50s)
+sample-d7e4029a89a13812.npz done (50s)
+sample-bb99c960710f8a06.npz done (50s)
+sample-b0a5362d9ad0a167.npz done (50s)
+sample-c12efdfe04c38a84.npz done (50s)
+sample-fd56fa72b96095d5.npz done (50s)
+sample-cc4a3d7b1cb56bd6.npz done (51s)
+sample-ef4f78bdfca8c630.npz done (51s)
+sample-cc83409fcf619709.npz done (51s)
+sample-d15bb9aea07cdea9.npz done (51s)
+sample-d2330ab6d16611aa.npz done (51s)
+sample-d649adef410dd353.npz done (51s)
+sample-cc3d43d0916a20f3.npz done (51s)
+sample-dbacf27eae98f37a.npz done (51s)
+sample-dfa5b5c7aa6898e1.npz done (51s)
+sample-efb59a8a9814f2b3.npz done (51s)
+sample-febf0b9ae0246455.npz done (54s)
+finished 60 samples in 54s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/85665583a35b5dd8/shard_000_of_001.jsonl
+[test/v3n96o/full] running /work/nvme/bhio/avu2/Rooted4D/results/e116/test/v3n96o_full.json
+spec 4ff76128ed8aa86c | shard 0/1 | 60 samples, 0 already done, 60 to run
+sample-1fdc05c124193ab4.npz done (39s)
+sample-31a278fcd0fe908b.npz done (39s)
+sample-51e22b3ef843d222.npz done (39s)
+sample-5e31c39d39366c8a.npz done (39s)
+sample-0c157b134ccf1050.npz done (39s)
+sample-66fc7a9456bbb0f4.npz done (39s)
+sample-082fe8d96ea6c326.npz done (39s)
+sample-523823085eda7639.npz done (39s)
+sample-2ad6a25c14919d6c.npz done (39s)
+sample-2d2ced6b94d54b1e.npz done (39s)
+sample-48e7c15d00cb9489.npz done (39s)
+sample-31a5d135b7df96c7.npz done (39s)
+sample-2f34d4f1f7e63b7b.npz done (39s)
+sample-82f4836473cfc1ed.npz done (39s)
+sample-2f6fa7d6ce256a81.npz done (39s)
+sample-6f62b7809154a2a9.npz done (39s)
+sample-7b7fb5dd769df2c1.npz done (39s)
+sample-521522c681de7414.npz done (40s)
+sample-6c7c0b64fb01fff5.npz done (40s)
+sample-85ebb86d2c62c245.npz done (40s)
+sample-3b91f07bb113bc62.npz done (40s)
+sample-2a9d33f2f9774e0d.npz done (40s)
+sample-2c65d0608aa25ff1.npz done (40s)
+sample-61747c9c9880f5e7.npz done (40s)
+sample-6f3aa5eafbe55b34.npz done (40s)
+sample-6bde699f12a1a6eb.npz done (40s)
+sample-04595194ac6631f1.npz done (40s)
+sample-019a43ff852a847f.npz done (40s)
+sample-17f7d0016b81620e.npz done (40s)
+sample-6dc18702e22b1c68.npz done (40s)
+sample-a942eb7bc383b6ea.npz done (60s)
+sample-c12efdfe04c38a84.npz done (60s)
+sample-beca31cd32c236b3.npz done (60s)
+sample-d15bb9aea07cdea9.npz done (60s)
+sample-925a033bfbf6e571.npz done (60s)
+sample-cc3d43d0916a20f3.npz done (60s)
+sample-9769e064fd8c9f41.npz done (60s)
+sample-b0a5362d9ad0a167.npz done (60s)
+sample-a7356c2d2ab935b0.npz done (60s)
+sample-d2330ab6d16611aa.npz done (60s)
+sample-d81ae1bc6f643f4f.npz done (60s)
+sample-bfd2bd0432e2e759.npz done (60s)
+sample-86e3884e30ad9228.npz done (60s)
+sample-bb99c960710f8a06.npz done (60s)
+sample-b12aba209c7c5a60.npz done (61s)
+sample-d649adef410dd353.npz done (61s)
+sample-d7e4029a89a13812.npz done (61s)
+sample-94ebdaa43c84a9b0.npz done (61s)
+sample-cc4a3d7b1cb56bd6.npz done (61s)
+sample-871af31577b97c5b.npz done (61s)
+sample-cc83409fcf619709.npz done (61s)
+sample-ef4f78bdfca8c630.npz done (61s)
+sample-dfa5b5c7aa6898e1.npz done (61s)
+sample-e73854be55665de8.npz done (61s)
+sample-dbacf27eae98f37a.npz done (61s)
+sample-ceb96568edcf4043.npz done (62s)
+sample-ed77d3eaae8eb5c1.npz done (62s)
+sample-fd56fa72b96095d5.npz done (62s)
+sample-febf0b9ae0246455.npz done (63s)
+sample-efb59a8a9814f2b3.npz done (63s)
+finished 60 samples in 63s -> /work/nvme/bhio/avu2/Rooted4D/results/e116/test/4ff76128ed8aa86c/shard_000_of_001.jsonl
+[test/v4n96o/full] S/joint cmr 1.113 tee 1.657 gap 0 phase 0.008 rot 1.77 fail 0 | R4D+GP cmr 0.725 tee 1.089 gap 0 phase 0.008 rot 1.77 fail 0 | R4D+GP-session cmr 0.630 tee 1.050 gap 0 phase 0.008 rot 1.77 fail 0 | S/late_fusion_trajectory cmr 1.113 tee 1.678 gap 2.1 phase 0.013 rot 2.39 fail 0 | GPMM-G cmr 0.947 tee 1.637 gap 0 phase 0.053 rot 3.71 fail 0 | GPMM-S cmr 0.942 tee 1.665 gap 0 phase 0.053 rot 3.71 fail 0 | LF+BCPD cmr 1.113 tee 1.827 gap 1.9 phase 0.013 rot 2.39 fail 0 | check True
+[test/v4n96o/cmr4] S/joint cmr 1.860 tee 1.653 gap 0 phase 0.047 rot 1.83 fail 0 | R4D+GP cmr 1.621 tee 1.070 gap 0 phase 0.047 rot 1.83 fail 0 | R4D+GP-session cmr 1.550 tee 1.053 gap 0 phase 0.047 rot 1.83 fail 0 | S/late_fusion_trajectory cmr 3.321 tee 1.678 gap 4.5 phase 0.060 rot 2.46 fail 0 | GPMM-G cmr 1.717 tee 2.732 gap 0 phase 0.102 rot 3.65 fail 0 | GPMM-S cmr 1.718 tee 2.726 gap 0 phase 0.102 rot 3.66 fail 0 | LF+BCPD cmr 3.321 tee 1.885 gap 4.2 phase 0.060 rot 2.46 fail 0 | check True
+[test/v4n96o/cmr3] S/joint cmr 2.183 tee 1.663 gap 0 phase 0.059 rot 1.84 fail 0 | R4D+GP cmr 2.017 tee 1.071 gap 0 phase 0.059 rot 1.84 fail 0 | R4D+GP-session cmr 1.907 tee 1.052 gap 0 phase 0.059 rot 1.84 fail 0 | S/late_fusion_trajectory cmr 3.337 tee 1.678 gap 4.4 phase 0.076 rot 2.61 fail 0 | GPMM-G cmr 2.130 tee 3.255 gap 0 phase 0.136 rot 3.70 fail 0 | GPMM-S cmr 2.129 tee 3.277 gap 0 phase 0.136 rot 3.71 fail 0 | LF+BCPD cmr 3.337 tee 1.922 gap 4.1 phase 0.076 rot 2.61 fail 0 | check True
+[test/v4n96o/tee6] S/joint cmr 1.090 tee 2.150 gap 0 phase 0.021 rot 1.99 fail 0 | R4D+GP cmr 0.669 tee 1.724 gap 0 phase 0.021 rot 1.99 fail 0 | R4D+GP-session cmr 0.630 tee 1.561 gap 0 phase 0.021 rot 1.99 fail 0 | S/late_fusion_trajectory cmr 1.113 tee 2.456 gap 2.8 phase 0.021 rot 2.44 fail 0 | GPMM-G cmr 0.921 tee 2.027 gap 0 phase 0.047 rot 3.72 fail 0 | GPMM-S cmr 0.914 tee 2.023 gap 0 phase 0.047 rot 3.73 fail 0 | LF+BCPD cmr 1.113 tee 2.514 gap 2.3 phase 0.021 rot 2.44 fail 0 | check True
+[test/v4n96o/tee3] S/joint cmr 1.083 tee 3.023 gap 0 phase 0.025 rot 2.06 fail 0 | R4D+GP cmr 0.653 tee 2.755 gap 0 phase 0.025 rot 2.06 fail 0 | R4D+GP-session cmr 0.630 tee 2.592 gap 0 phase 0.025 rot 2.06 fail 0 | S/late_fusion_trajectory cmr 1.113 tee 3.554 gap 5.7 phase 0.028 rot 2.51 fail 0 | GPMM-G cmr 1.004 tee 2.961 gap 0 phase 0.066 rot 3.67 fail 0 | GPMM-S cmr 1.003 tee 2.965 gap 0 phase 0.066 rot 3.67 fail 0 | LF+BCPD cmr 1.113 tee 3.594 gap 5.2 phase 0.028 rot 2.51 fail 0 | check True
+[test/v3n96o/full] S/joint cmr 0.891 tee 1.618 gap 0 phase 0.007 rot 0.40 fail 0 | R4D+GP cmr 0.644 tee 1.000 gap 0 phase 0.007 rot 0.40 fail 0 | R4D+GP-session cmr 0.633 tee 1.044 gap 0 phase 0.007 rot 0.40 fail 0 | S/late_fusion_trajectory cmr 0.912 tee 1.677 gap 1.3 phase 0.012 rot 0.40 fail 0 | GPMM-G cmr 0.869 tee 1.489 gap 0 phase 0.057 rot 0.40 fail 0 | GPMM-S cmr 0.868 tee 1.493 gap 0 phase 0.057 rot 0.39 fail 0 | LF+BCPD cmr 0.912 tee 1.631 gap 0.94 phase 0.012 rot 0.40 fail 0 | check True
+{
+ "P1_sum_lower_than_rooted4d": {
+  "v4n96o": true,
+  "v3n96o": true
+ },
+ "P2_sum_lower_than_GPMMG": {
+  "v4n96o": true,
+  "v3n96o": true
+ },
+ "P3_cmr_and_tee_lower_than_GPMMG": {
+  "v4n96o": {
+   "cmr": true,
+   "tee": true
+  },
+  "v3n96o": {
+   "cmr": true,
+   "tee": true
+  }
+ },
+ "P4_thinned_sum_lower_than_GPMMG": {
+  "cmr4": true,
+  "cmr3": true,
+  "tee6": true,
+  "tee3": true
+ },
+ "P5_shared_sum_lower_than_session": {
+  "v4n96o": false,
+  "v3n96o": false
+ }
+}
+wrote results/benchmark/E116/E116_test.json | checks passed: True
+### latex main
+\multicolumn{8}{@{}l}{\textit{Realistic-session benchmark}}\\
+Late fusion & 1.11 & 1.68 & 2.08 & 0.013 & 2.39 & 3.54 & 0\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & 1.11 & 1.83 & 1.87 & 0.013 & 2.39 & 3.54 & 0\\
+GPMM fusion~\cite{luthi2018gpmm} & 0.95 & 1.64 & 0 & 0.053 & 3.71 & 3.78 & 0\\
+GPMM fusion, structured space & 0.94 & 1.67 & 0 & 0.053 & 3.71 & 3.79 & 0\\
+Rooted4D & 1.11 & 1.66 & 0 & 0.008 & 1.77 & 3.34 & 0\\
+Rooted4D + per-session residual field & 0.63 & 1.05 & 0 & 0.008 & 1.77 & 3.34 & 0\\
+Rooted4D + residual field & 0.73 & 1.09 & 0 & 0.008 & 1.77 & 3.34 & 0\\
+\multicolumn{8}{@{}l}{\textit{Small-session benchmark}}\\
+Late fusion & 0.91 & 1.68 & 1.28 & 0.012 & 0.40 & 0.80 & 0\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & 0.91 & 1.63 & 0.94 & 0.012 & 0.40 & 0.80 & 0\\
+GPMM fusion~\cite{luthi2018gpmm} & 0.87 & 1.49 & 0 & 0.057 & 0.40 & 1.15 & 0\\
+GPMM fusion, structured space & 0.87 & 1.49 & 0 & 0.057 & 0.39 & 1.17 & 0\\
+Rooted4D & 0.89 & 1.62 & 0 & 0.007 & 0.40 & 0.95 & 0\\
+Rooted4D + per-session residual field & 0.63 & 1.04 & 0 & 0.007 & 0.40 & 0.95 & 0\\
+Rooted4D + residual field & 0.64 & 1.00 & 0 & 0.007 & 0.40 & 0.95 & 0\\
+### latex paired
+\multicolumn{4}{@{}l}{\textit{Realistic-session benchmark}}\\
+Rooted4D & $-0.92$ {\scriptsize[$-1.04$, $-0.77$]} & $-0.37$ {\scriptsize[$-0.42$, $-0.32$]} & $-0.54$ {\scriptsize[$-0.67$, $-0.42$]}\\
+GPMM fusion~\cite{luthi2018gpmm} & $-0.78$ {\scriptsize[$-0.90$, $-0.64$]} & $-0.25$ {\scriptsize[$-0.30$, $-0.18$]} & $-0.53$ {\scriptsize[$-0.63$, $-0.44$]}\\
+GPMM fusion, structured space & $-0.77$ {\scriptsize[$-0.91$, $-0.65$]} & $-0.24$ {\scriptsize[$-0.29$, $-0.17$]} & $-0.52$ {\scriptsize[$-0.64$, $-0.44$]}\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & $-1.06$ {\scriptsize[$-1.19$, $-0.99$]} & $-0.38$ {\scriptsize[$-0.43$, $-0.33$]} & $-0.68$ {\scriptsize[$-0.81$, $-0.63$]}\\
+Late fusion & $-0.93$ {\scriptsize[$-1.11$, $-0.79$]} & $-0.38$ {\scriptsize[$-0.43$, $-0.33$]} & $-0.55$ {\scriptsize[$-0.73$, $-0.44$]}\\
+Rooted4D + per-session residual field & $+0.18$ {\scriptsize[$+0.11$, $+0.25$]} & $+0.10$ {\scriptsize[$+0.08$, $+0.14$]} & $+0.09$ {\scriptsize[$+0.02$, $+0.11$]}\\
+\multicolumn{4}{@{}l}{\textit{Small-session benchmark}}\\
+Rooted4D & $-0.92$ {\scriptsize[$-1.05$, $-0.74$]} & $-0.26$ {\scriptsize[$-0.29$, $-0.20$]} & $-0.66$ {\scriptsize[$-0.78$, $-0.51$]}\\
+GPMM fusion~\cite{luthi2018gpmm} & $-0.77$ {\scriptsize[$-0.88$, $-0.66$]} & $-0.26$ {\scriptsize[$-0.30$, $-0.20$]} & $-0.51$ {\scriptsize[$-0.61$, $-0.44$]}\\
+GPMM fusion, structured space & $-0.76$ {\scriptsize[$-0.87$, $-0.65$]} & $-0.25$ {\scriptsize[$-0.30$, $-0.20$]} & $-0.51$ {\scriptsize[$-0.60$, $-0.42$]}\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & $-0.98$ {\scriptsize[$-1.08$, $-0.81$]} & $-0.29$ {\scriptsize[$-0.31$, $-0.22$]} & $-0.70$ {\scriptsize[$-0.79$, $-0.55$]}\\
+Late fusion & $-0.96$ {\scriptsize[$-1.09$, $-0.80$]} & $-0.29$ {\scriptsize[$-0.31$, $-0.22$]} & $-0.67$ {\scriptsize[$-0.81$, $-0.54$]}\\
+Rooted4D + per-session residual field & $-0.02$ {\scriptsize[$-0.06$, $+0.02$]} & $+0.01$ {\scriptsize[$0.00$, $+0.02$]} & $-0.03$ {\scriptsize[$-0.07$, $+0.01$]}\\
+### latex alignment
+\multicolumn{4}{@{}l}{\textit{Realistic-session benchmark}}\\
+Rooted4D & $0.000$ {\scriptsize[$0.000$, $0.000$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]}\\
+GPMM fusion~\cite{luthi2018gpmm} & $-0.057$ {\scriptsize[$-0.066$, $-0.043$]} & $-2.14$ {\scriptsize[$-2.69$, $-1.63$]} & $-0.99$ {\scriptsize[$-1.97$, $-0.42$]}\\
+GPMM fusion, structured space & $-0.057$ {\scriptsize[$-0.066$, $-0.043$]} & $-2.15$ {\scriptsize[$-2.70$, $-1.63$]} & $-0.99$ {\scriptsize[$-1.98$, $-0.42$]}\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & $-0.006$ {\scriptsize[$-0.008$, $-0.004$]} & $-0.58$ {\scriptsize[$-0.91$, $-0.40$]} & $-0.41$ {\scriptsize[$-0.81$, $+0.12$]}\\
+Late fusion & $-0.006$ {\scriptsize[$-0.008$, $-0.004$]} & $-0.58$ {\scriptsize[$-0.91$, $-0.40$]} & $-0.41$ {\scriptsize[$-0.81$, $+0.12$]}\\
+Rooted4D + per-session residual field & $0.000$ {\scriptsize[$0.000$, $0.000$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]}\\
+\multicolumn{4}{@{}l}{\textit{Small-session benchmark}}\\
+Rooted4D & $0.000$ {\scriptsize[$0.000$, $0.000$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]}\\
+GPMM fusion~\cite{luthi2018gpmm} & $-0.054$ {\scriptsize[$-0.067$, $-0.047$]} & $-0.03$ {\scriptsize[$-0.14$, $+0.09$]} & $-0.30$ {\scriptsize[$-0.59$, $-0.04$]}\\
+GPMM fusion, structured space & $-0.054$ {\scriptsize[$-0.067$, $-0.047$]} & $-0.02$ {\scriptsize[$-0.14$, $+0.10$]} & $-0.29$ {\scriptsize[$-0.59$, $-0.04$]}\\
+Late fusion + BCPD~\cite{hirose2021bcpd} & $-0.005$ {\scriptsize[$-0.006$, $-0.003$]} & $+0.04$ {\scriptsize[$-0.03$, $+0.12$]} & $+0.15$ {\scriptsize[$+0.06$, $+0.23$]}\\
+Late fusion & $-0.005$ {\scriptsize[$-0.006$, $-0.003$]} & $+0.04$ {\scriptsize[$-0.03$, $+0.12$]} & $+0.15$ {\scriptsize[$+0.06$, $+0.23$]}\\
+Rooted4D + per-session residual field & $0.000$ {\scriptsize[$0.000$, $0.000$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]} & $0.00$ {\scriptsize[$0.00$, $0.00$]}\\
+### latex thinned
+CMR, 4 & 1.86 & 1.65 & 1.62 & 1.07 & 1.72 & 2.73 & $-0.80$ {\scriptsize[$-0.94$, $-0.66$]} & $-1.76$ {\scriptsize[$-1.93$, $-1.39$]}\\
+CMR, 3 & 2.18 & 1.66 & 2.02 & 1.07 & 2.13 & 3.26 & $-0.77$ {\scriptsize[$-0.87$, $-0.64$]} & $-2.55$ {\scriptsize[$-2.97$, $-1.97$]}\\
+TEE, 6 & 1.09 & 2.15 & 0.67 & 1.72 & 0.92 & 2.03 & $-0.86$ {\scriptsize[$-0.92$, $-0.74$]} & $-0.57$ {\scriptsize[$-0.65$, $-0.46$]}\\
+TEE, 3 & 1.08 & 3.02 & 0.65 & 2.75 & 1.00 & 2.96 & $-0.73$ {\scriptsize[$-0.83$, $-0.54$]} & $-0.70$ {\scriptsize[$-0.89$, $-0.44$]}\\
+finished test 2026-10-23T08:27:24Z

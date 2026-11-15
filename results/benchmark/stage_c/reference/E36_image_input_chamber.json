@@ -1,0 +1,1250 @@
+{
+  "experiment": "E36_image_input_chamber",
+  "checkpoint": "/work/nvme/bhio/avu2/Rooted4D/results/21900728/E31_segmenter.pt",
+  "reference": "ACDC provider labels, cavity boundary points",
+  "note": "both rows are scored against the same reference surface; they differ only in whether the fit consumed reference labels or predicted ones",
+  "n_frames": 60,
+  "n_patients": 30,
+  "wall_seconds": 171.24118566513062,
+  "summary": {
+    "label_input": {
+      "symmetric_mm": {
+        "n": 60,
+        "median": 1.894492883851019,
+        "mean": 1.8921106342231553,
+        "p95": 2.327348369887368,
+        "max": 2.6293426581453887
+      },
+      "hausdorff_mm": {
+        "n": 60,
+        "median": 7.319783380245738,
+        "mean": 7.393810963905191,
+        "p95": 9.494776096902319,
+        "max": 10.254584349836035
+      }
+    },
+    "image_input": {
+      "symmetric_mm": {
+        "n": 60,
+        "median": 2.244888462574518,
+        "mean": 2.6347008368432228,
+        "p95": 4.053393969875635,
+        "max": 8.978099023480825
+      },
+      "hausdorff_mm": {
+        "n": 60,
+        "median": 9.831797005993124,
+        "mean": 14.841603479183707,
+        "p95": 52.41193527622508,
+        "max": 71.2332339390091
+      }
+    },
+    "image_minus_label_symmetric_mm": {
+      "median": 0.2379309698414226,
+      "mean": 0.7425902026200671,
+      "n": 60
+    }
+  },
+  "rows": [
+    {
+      "patient": "patient102",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1505063729800138,
+        "p95_points_to_surface_mm": 4.080179888488932,
+        "mean_surface_to_points_mm": 2.5961532948920807,
+        "p95_surface_to_points_mm": 4.958741953903304,
+        "symmetric_mean_mm": 1.8733298339360474,
+        "hausdorff_mm": 6.945905426795863
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.1495290808168581,
+        "p95_points_to_surface_mm": 3.9821184572952344,
+        "mean_surface_to_points_mm": 2.6085323905839166,
+        "p95_surface_to_points_mm": 4.953758824638594,
+        "symmetric_mean_mm": 1.8790307357003875,
+        "hausdorff_mm": 6.116494018723535
+      }
+    },
+    {
+      "patient": "patient102",
+      "frame": 13,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9709776900387027,
+        "p95_points_to_surface_mm": 3.83003323272858,
+        "mean_surface_to_points_mm": 2.5926033083748647,
+        "p95_surface_to_points_mm": 4.962228538882142,
+        "symmetric_mean_mm": 1.7817904992067837,
+        "hausdorff_mm": 6.598550955713861
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.3514908321556875,
+        "p95_points_to_surface_mm": 7.512056754710882,
+        "mean_surface_to_points_mm": 3.6198057364187592,
+        "p95_surface_to_points_mm": 10.016625775779772,
+        "symmetric_mean_mm": 2.9856482842872234,
+        "hausdorff_mm": 14.68365565629435
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.4051203935267638,
+        "p95_points_to_surface_mm": 4.614018552727118,
+        "mean_surface_to_points_mm": 2.745980499432091,
+        "p95_surface_to_points_mm": 5.148053700112112,
+        "symmetric_mean_mm": 2.0755504464794274,
+        "hausdorff_mm": 7.315039778104065
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.475573904038968,
+        "p95_points_to_surface_mm": 4.487700847556995,
+        "mean_surface_to_points_mm": 2.7960214894038247,
+        "p95_surface_to_points_mm": 5.183697581071641,
+        "symmetric_mean_mm": 2.1357976967213963,
+        "hausdorff_mm": 7.880342891063335
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 11,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9236582701803852,
+        "p95_points_to_surface_mm": 3.491536604185647,
+        "mean_surface_to_points_mm": 2.5896289101597625,
+        "p95_surface_to_points_mm": 4.979200256372356,
+        "symmetric_mean_mm": 1.7566435901700739,
+        "hausdorff_mm": 7.7556527161261375
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.750385084728603,
+        "p95_points_to_surface_mm": 7.963195274051998,
+        "mean_surface_to_points_mm": 4.288707899884879,
+        "p95_surface_to_points_mm": 12.688058572248046,
+        "symmetric_mean_mm": 3.519546492306741,
+        "hausdorff_mm": 22.324564050330867
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1930041275440546,
+        "p95_points_to_surface_mm": 4.016267355693175,
+        "mean_surface_to_points_mm": 2.571104244698817,
+        "p95_surface_to_points_mm": 4.955097591909575,
+        "symmetric_mean_mm": 1.8820541861214357,
+        "hausdorff_mm": 6.977825539250387
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.3124171714944952,
+        "p95_points_to_surface_mm": 4.522360446015582,
+        "mean_surface_to_points_mm": 2.8286434081027076,
+        "p95_surface_to_points_mm": 5.032738894983515,
+        "symmetric_mean_mm": 2.0705302897986013,
+        "hausdorff_mm": 49.88109527344915
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9293600170724968,
+        "p95_points_to_surface_mm": 3.745693720649536,
+        "mean_surface_to_points_mm": 2.5727878055962456,
+        "p95_surface_to_points_mm": 4.976813365737063,
+        "symmetric_mean_mm": 1.7510739113343712,
+        "hausdorff_mm": 7.630945766010229
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.407044826502409,
+        "p95_points_to_surface_mm": 6.005190002254567,
+        "mean_surface_to_points_mm": 4.753720231072239,
+        "p95_surface_to_points_mm": 18.00535726604627,
+        "symmetric_mean_mm": 3.5803825287873243,
+        "hausdorff_mm": 40.748797381856605
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2850329221208439,
+        "p95_points_to_surface_mm": 4.207233145479665,
+        "mean_surface_to_points_mm": 2.683936292973379,
+        "p95_surface_to_points_mm": 5.045130625293555,
+        "symmetric_mean_mm": 1.9844846075471114,
+        "hausdorff_mm": 7.448190261254134
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.838163313452884,
+        "p95_points_to_surface_mm": 7.761784267493487,
+        "mean_surface_to_points_mm": 2.9103153826154626,
+        "p95_surface_to_points_mm": 5.390405656896514,
+        "symmetric_mean_mm": 2.3742393480341732,
+        "hausdorff_mm": 9.606742157722765
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.420285761677691,
+        "p95_points_to_surface_mm": 4.3283507756218444,
+        "mean_surface_to_points_mm": 2.71587336408229,
+        "p95_surface_to_points_mm": 5.092575301634612,
+        "symmetric_mean_mm": 2.0680795628799906,
+        "hausdorff_mm": 7.197164835848599
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.049620954240052,
+        "p95_points_to_surface_mm": 10.0,
+        "mean_surface_to_points_mm": 3.702873794685721,
+        "p95_surface_to_points_mm": 10.017830515635426,
+        "symmetric_mean_mm": 3.3762473744628867,
+        "hausdorff_mm": 13.784611545664793
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.8062348725535763,
+        "p95_points_to_surface_mm": 2.3691129226445864,
+        "mean_surface_to_points_mm": 1.6127870423684463,
+        "p95_surface_to_points_mm": 2.7431394951874735,
+        "symmetric_mean_mm": 1.2095109574610112,
+        "hausdorff_mm": 4.4641850200155915
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.0497843034610264,
+        "p95_points_to_surface_mm": 3.275863888561683,
+        "mean_surface_to_points_mm": 1.7326478527807918,
+        "p95_surface_to_points_mm": 2.9676287167805393,
+        "symmetric_mean_mm": 1.391216078120909,
+        "hausdorff_mm": 5.133236166511519
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 7,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7289640568344999,
+        "p95_points_to_surface_mm": 2.485728207888534,
+        "mean_surface_to_points_mm": 1.63819062569156,
+        "p95_surface_to_points_mm": 2.8182160364050923,
+        "symmetric_mean_mm": 1.18357734126303,
+        "hausdorff_mm": 4.144478211147253
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.7986581873784935,
+        "p95_points_to_surface_mm": 5.0,
+        "mean_surface_to_points_mm": 2.0925556783986172,
+        "p95_surface_to_points_mm": 5.018394577032776,
+        "symmetric_mean_mm": 1.9456069328885555,
+        "hausdorff_mm": 5.304127016788162
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.153487034123843,
+        "p95_points_to_surface_mm": 4.578491152082647,
+        "mean_surface_to_points_mm": 2.774750452292948,
+        "p95_surface_to_points_mm": 5.114372233413687,
+        "symmetric_mean_mm": 1.9641187432083955,
+        "hausdorff_mm": 7.922275285567687
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.384389783578986,
+        "p95_points_to_surface_mm": 4.880579566753883,
+        "mean_surface_to_points_mm": 3.034031823356402,
+        "p95_surface_to_points_mm": 5.338284498049689,
+        "symmetric_mean_mm": 2.209210803467694,
+        "hausdorff_mm": 9.453620201741836
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.3537615908750507,
+        "p95_points_to_surface_mm": 4.838245808692949,
+        "mean_surface_to_points_mm": 2.8191328752814995,
+        "p95_surface_to_points_mm": 5.166092779916508,
+        "symmetric_mean_mm": 2.086447233078275,
+        "hausdorff_mm": 7.96750510823134
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.7134518594959354,
+        "p95_points_to_surface_mm": 5.864074069760214,
+        "mean_surface_to_points_mm": 3.085986126773873,
+        "p95_surface_to_points_mm": 5.400696013342058,
+        "symmetric_mean_mm": 2.399718993134904,
+        "hausdorff_mm": 10.794808559290642
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1561851766197748,
+        "p95_points_to_surface_mm": 3.951910548672556,
+        "mean_surface_to_points_mm": 2.6437888899162316,
+        "p95_surface_to_points_mm": 4.99856898087076,
+        "symmetric_mean_mm": 1.8999870332680033,
+        "hausdorff_mm": 7.0819659154635275
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 0.9422742426903374,
+        "p95_points_to_surface_mm": 3.0056296448825846,
+        "mean_surface_to_points_mm": 2.5853162275218438,
+        "p95_surface_to_points_mm": 4.922278451783123,
+        "symmetric_mean_mm": 1.7637952351060906,
+        "hausdorff_mm": 5.994586851845116
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7578581037881084,
+        "p95_points_to_surface_mm": 3.279859253640129,
+        "mean_surface_to_points_mm": 2.499986604678077,
+        "p95_surface_to_points_mm": 4.919735332053433,
+        "symmetric_mean_mm": 1.6289223542330928,
+        "hausdorff_mm": 6.749941180045226
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.5576087372230965,
+        "p95_points_to_surface_mm": 8.092894115685448,
+        "mean_surface_to_points_mm": 2.7680506890225107,
+        "p95_surface_to_points_mm": 5.084093450251762,
+        "symmetric_mean_mm": 2.662829713122804,
+        "hausdorff_mm": 11.89136401253106
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1205017712142604,
+        "p95_points_to_surface_mm": 3.9734205262927196,
+        "mean_surface_to_points_mm": 2.5779678883138937,
+        "p95_surface_to_points_mm": 4.976185726004436,
+        "symmetric_mean_mm": 1.849234829764077,
+        "hausdorff_mm": 7.285982397842457
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.015083620055576,
+        "p95_points_to_surface_mm": 3.7185552686819157,
+        "mean_surface_to_points_mm": 2.550280331162174,
+        "p95_surface_to_points_mm": 4.924844648623722,
+        "symmetric_mean_mm": 1.782681975608875,
+        "hausdorff_mm": 6.379778351952698
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 9,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9048412070829405,
+        "p95_points_to_surface_mm": 3.6881734194167852,
+        "mean_surface_to_points_mm": 2.57306822463267,
+        "p95_surface_to_points_mm": 4.991776641046531,
+        "symmetric_mean_mm": 1.7389547158578051,
+        "hausdorff_mm": 6.492517086385229
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.890723158603356,
+        "p95_points_to_surface_mm": 9.531303570598922,
+        "mean_surface_to_points_mm": 3.594627524217929,
+        "p95_surface_to_points_mm": 10.012543536267001,
+        "symmetric_mean_mm": 3.2426753414106426,
+        "hausdorff_mm": 11.490629213067045
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 2.1270323848910717,
+        "p95_points_to_surface_mm": 6.8595174881177465,
+        "mean_surface_to_points_mm": 3.1316529313997057,
+        "p95_surface_to_points_mm": 6.10489911860199,
+        "symmetric_mean_mm": 2.6293426581453887,
+        "hausdorff_mm": 10.254584349836035
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.1717995249682835,
+        "p95_points_to_surface_mm": 6.955606680418931,
+        "mean_surface_to_points_mm": 3.4180852178927665,
+        "p95_surface_to_points_mm": 7.077439093167179,
+        "symmetric_mean_mm": 2.7949423714305253,
+        "hausdorff_mm": 10.037288627482589
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 13,
+      "label_input": {
+        "mean_points_to_surface_mm": 2.076596064576009,
+        "p95_points_to_surface_mm": 6.543167607572364,
+        "mean_surface_to_points_mm": 3.102424407371222,
+        "p95_surface_to_points_mm": 6.135980393404526,
+        "symmetric_mean_mm": 2.5895102359736155,
+        "hausdorff_mm": 9.441666274912551
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.031705902990363,
+        "p95_points_to_surface_mm": 6.316460736746988,
+        "mean_surface_to_points_mm": 3.1904599971178724,
+        "p95_surface_to_points_mm": 6.53168806802591,
+        "symmetric_mean_mm": 2.6110829500541177,
+        "hausdorff_mm": 9.544478548782557
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1485242444409123,
+        "p95_points_to_surface_mm": 4.324282073846352,
+        "mean_surface_to_points_mm": 2.5911756752129143,
+        "p95_surface_to_points_mm": 4.960927139745135,
+        "symmetric_mean_mm": 1.8698499598269134,
+        "hausdorff_mm": 8.196973074155931
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.187156475986544,
+        "p95_points_to_surface_mm": 4.567885044281362,
+        "mean_surface_to_points_mm": 3.067590270535582,
+        "p95_surface_to_points_mm": 6.647742162139183,
+        "symmetric_mean_mm": 2.127373373261063,
+        "hausdorff_mm": 10.383072420505046
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7328754875448382,
+        "p95_points_to_surface_mm": 3.1486817064568435,
+        "mean_surface_to_points_mm": 2.571129044650694,
+        "p95_surface_to_points_mm": 4.913318780195581,
+        "symmetric_mean_mm": 1.652002266097766,
+        "hausdorff_mm": 6.101607426477417
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.9773982941957313,
+        "p95_points_to_surface_mm": 9.228834156646116,
+        "mean_surface_to_points_mm": 3.7003718602994384,
+        "p95_surface_to_points_mm": 10.013753852429453,
+        "symmetric_mean_mm": 3.3388850772475847,
+        "hausdorff_mm": 12.979426465904655
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.12105470192792,
+        "p95_points_to_surface_mm": 4.112590614335935,
+        "mean_surface_to_points_mm": 2.683255053847105,
+        "p95_surface_to_points_mm": 5.002012993842389,
+        "symmetric_mean_mm": 1.9021548778875124,
+        "hausdorff_mm": 6.8404910562855665
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.6334405936532475,
+        "p95_points_to_surface_mm": 7.4163497725588,
+        "mean_surface_to_points_mm": 11.771983777958223,
+        "p95_surface_to_points_mm": 50.17019852673224,
+        "symmetric_mean_mm": 6.702712185805735,
+        "hausdorff_mm": 71.2332339390091
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1973109384808116,
+        "p95_points_to_surface_mm": 4.759967038630442,
+        "mean_surface_to_points_mm": 2.596038069991968,
+        "p95_surface_to_points_mm": 5.006483085004837,
+        "symmetric_mean_mm": 1.8966745042363897,
+        "hausdorff_mm": 7.32452698238741
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.816160173121522,
+        "p95_points_to_surface_mm": 10.0,
+        "mean_surface_to_points_mm": 14.140037873840129,
+        "p95_surface_to_points_mm": 56.22994603980691,
+        "symmetric_mean_mm": 8.978099023480825,
+        "hausdorff_mm": 70.02577833546924
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9340538620145613,
+        "p95_points_to_surface_mm": 3.3820512130790608,
+        "mean_surface_to_points_mm": 2.7141920644233735,
+        "p95_surface_to_points_mm": 4.994206331556717,
+        "symmetric_mean_mm": 1.8241229632189673,
+        "hausdorff_mm": 6.065757135303672
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.0769556720192108,
+        "p95_points_to_surface_mm": 3.6331765890511036,
+        "mean_surface_to_points_mm": 2.8301723177955087,
+        "p95_surface_to_points_mm": 5.083597272282992,
+        "symmetric_mean_mm": 1.9535639949073598,
+        "hausdorff_mm": 6.232317148833871
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.0986979624475548,
+        "p95_points_to_surface_mm": 3.662133460255527,
+        "mean_surface_to_points_mm": 2.785434704001917,
+        "p95_surface_to_points_mm": 5.069097757773415,
+        "symmetric_mean_mm": 1.9420663332247359,
+        "hausdorff_mm": 6.169546018812828
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.1521802179483494,
+        "p95_points_to_surface_mm": 3.855768707635982,
+        "mean_surface_to_points_mm": 2.799306014940007,
+        "p95_surface_to_points_mm": 5.089832566840086,
+        "symmetric_mean_mm": 1.9757431164441783,
+        "hausdorff_mm": 7.175390805955045
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1371387444478163,
+        "p95_points_to_surface_mm": 4.043170853707881,
+        "mean_surface_to_points_mm": 2.6564049250517856,
+        "p95_surface_to_points_mm": 5.015813812918933,
+        "symmetric_mean_mm": 1.896771834749801,
+        "hausdorff_mm": 6.9090622862371625
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.323710907777776,
+        "p95_points_to_surface_mm": 4.282114853685732,
+        "mean_surface_to_points_mm": 2.822413952673163,
+        "p95_surface_to_points_mm": 5.145726005617054,
+        "symmetric_mean_mm": 2.0730624302254697,
+        "hausdorff_mm": 7.328314517313126
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1824552690722503,
+        "p95_points_to_surface_mm": 4.0139104595536566,
+        "mean_surface_to_points_mm": 2.642529198021591,
+        "p95_surface_to_points_mm": 5.003903901277398,
+        "symmetric_mean_mm": 1.9124922335469206,
+        "hausdorff_mm": 6.417986901643985
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.3019585428071634,
+        "p95_points_to_surface_mm": 4.1378119100774535,
+        "mean_surface_to_points_mm": 2.7555796010666316,
+        "p95_surface_to_points_mm": 5.0715796483025954,
+        "symmetric_mean_mm": 2.0287690719368974,
+        "hausdorff_mm": 6.700815514533054
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9030895137295516,
+        "p95_points_to_surface_mm": 3.9612741119821813,
+        "mean_surface_to_points_mm": 2.5912160743828094,
+        "p95_surface_to_points_mm": 5.011358909650377,
+        "symmetric_mean_mm": 1.7471527940561806,
+        "hausdorff_mm": 6.121798323721241
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.0293909143836366,
+        "p95_points_to_surface_mm": 4.177082618670124,
+        "mean_surface_to_points_mm": 8.304869866909941,
+        "p95_surface_to_points_mm": 46.05496431727152,
+        "symmetric_mean_mm": 4.667130390646789,
+        "hausdorff_mm": 54.32269047722828
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 11,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.0805472463852428,
+        "p95_points_to_surface_mm": 4.462973642646305,
+        "mean_surface_to_points_mm": 2.8662600238851144,
+        "p95_surface_to_points_mm": 5.837413381381305,
+        "symmetric_mean_mm": 1.9734036351351785,
+        "hausdorff_mm": 8.264191017866766
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.2735147808927056,
+        "p95_points_to_surface_mm": 5.283931833763486,
+        "mean_surface_to_points_mm": 3.4970473569798544,
+        "p95_surface_to_points_mm": 7.736121903635393,
+        "symmetric_mean_mm": 2.38528106893628,
+        "hausdorff_mm": 10.026370071344866
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2259512720649743,
+        "p95_points_to_surface_mm": 3.8538312233863508,
+        "mean_surface_to_points_mm": 2.558671254866323,
+        "p95_surface_to_points_mm": 4.951031011806146,
+        "symmetric_mean_mm": 1.8923112634656487,
+        "hausdorff_mm": 6.4872509951453505
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4020023186407307,
+        "p95_points_to_surface_mm": 4.2535542773233805,
+        "mean_surface_to_points_mm": 3.589862483754075,
+        "p95_surface_to_points_mm": 10.679512699044022,
+        "symmetric_mean_mm": 2.495932401197403,
+        "hausdorff_mm": 14.746765827517072
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 9,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7460192034352232,
+        "p95_points_to_surface_mm": 2.839189312951266,
+        "mean_surface_to_points_mm": 2.531497599970207,
+        "p95_surface_to_points_mm": 4.8947364928607024,
+        "symmetric_mean_mm": 1.6387584017027153,
+        "hausdorff_mm": 5.717801025726357
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.2888204285757525,
+        "p95_points_to_surface_mm": 4.2570627836616435,
+        "mean_surface_to_points_mm": 2.875008180369433,
+        "p95_surface_to_points_mm": 5.130530903184464,
+        "symmetric_mean_mm": 2.0819143044725927,
+        "hausdorff_mm": 7.119973642302432
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.0161286815498263,
+        "p95_points_to_surface_mm": 3.6742907885993077,
+        "mean_surface_to_points_mm": 2.6318623685307387,
+        "p95_surface_to_points_mm": 4.9833087645892356,
+        "symmetric_mean_mm": 1.8239955250402824,
+        "hausdorff_mm": 8.453651975237088
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4608244656078502,
+        "p95_points_to_surface_mm": 4.387267348567418,
+        "mean_surface_to_points_mm": 3.07706356636369,
+        "p95_surface_to_points_mm": 5.365585946313229,
+        "symmetric_mean_mm": 2.2689440159857703,
+        "hausdorff_mm": 8.41808261777962
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 11,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.8465128066258707,
+        "p95_points_to_surface_mm": 3.296535430450703,
+        "mean_surface_to_points_mm": 2.5175590871329043,
+        "p95_surface_to_points_mm": 4.93309745678168,
+        "symmetric_mean_mm": 1.6820359468793875,
+        "hausdorff_mm": 6.154603585171371
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.140716250849665,
+        "p95_points_to_surface_mm": 9.768927647840744,
+        "mean_surface_to_points_mm": 4.111065511846421,
+        "p95_surface_to_points_mm": 10.02386387718855,
+        "symmetric_mean_mm": 3.625890881348043,
+        "hausdorff_mm": 19.654367478823804
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.3115414773885168,
+        "p95_points_to_surface_mm": 4.12504721159814,
+        "mean_surface_to_points_mm": 2.61996014774464,
+        "p95_surface_to_points_mm": 4.98781953402774,
+        "symmetric_mean_mm": 1.9657508125665784,
+        "hausdorff_mm": 7.453342612358224
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4765544234009866,
+        "p95_points_to_surface_mm": 4.596607537372993,
+        "mean_surface_to_points_mm": 2.916486960579264,
+        "p95_surface_to_points_mm": 5.209163098111215,
+        "symmetric_mean_mm": 2.1965206919901252,
+        "hausdorff_mm": 14.947508924388687
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.948193195006348,
+        "p95_points_to_surface_mm": 3.794477648784623,
+        "mean_surface_to_points_mm": 2.601376471370499,
+        "p95_surface_to_points_mm": 4.991132627917636,
+        "symmetric_mean_mm": 1.7747848331884235,
+        "hausdorff_mm": 7.558167183559141
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.7732837588891917,
+        "p95_points_to_surface_mm": 10.0,
+        "mean_surface_to_points_mm": 4.063677974923736,
+        "p95_surface_to_points_mm": 10.028535740479114,
+        "symmetric_mean_mm": 3.9184808669064637,
+        "hausdorff_mm": 16.214289908460522
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7258745379288979,
+        "p95_points_to_surface_mm": 2.7626841798381383,
+        "mean_surface_to_points_mm": 2.51983613159004,
+        "p95_surface_to_points_mm": 4.871727661454298,
+        "symmetric_mean_mm": 1.622855334759469,
+        "hausdorff_mm": 5.5495153091863125
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.1391647303140067,
+        "p95_points_to_surface_mm": 10.0,
+        "mean_surface_to_points_mm": 4.903019375671882,
+        "p95_surface_to_points_mm": 13.766134943061775,
+        "symmetric_mean_mm": 4.021092052992945,
+        "hausdorff_mm": 19.890968507063143
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.6120168305428433,
+        "p95_points_to_surface_mm": 2.2829639047863832,
+        "mean_surface_to_points_mm": 2.552812842749275,
+        "p95_surface_to_points_mm": 4.880395066391978,
+        "symmetric_mean_mm": 1.582414836646059,
+        "hausdorff_mm": 5.702077796903616
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.64540476594324,
+        "p95_points_to_surface_mm": 9.740091241142274,
+        "mean_surface_to_points_mm": 4.171333542666403,
+        "p95_surface_to_points_mm": 10.018101967299597,
+        "symmetric_mean_mm": 3.908369154304822,
+        "hausdorff_mm": 16.356282630688597
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2354270117414092,
+        "p95_points_to_surface_mm": 3.9008283440002716,
+        "mean_surface_to_points_mm": 2.6635298508902823,
+        "p95_surface_to_points_mm": 5.009559419770874,
+        "symmetric_mean_mm": 1.9494784313158458,
+        "hausdorff_mm": 7.00130301476502
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4232960992922035,
+        "p95_points_to_surface_mm": 4.469163228399999,
+        "mean_surface_to_points_mm": 2.781082989036546,
+        "p95_surface_to_points_mm": 5.172044779223966,
+        "symmetric_mean_mm": 2.102189544164375,
+        "hausdorff_mm": 7.878727714496371
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7060010502782846,
+        "p95_points_to_surface_mm": 2.8563338355183014,
+        "mean_surface_to_points_mm": 2.576510472763883,
+        "p95_surface_to_points_mm": 4.930589881512724,
+        "symmetric_mean_mm": 1.6412557615210839,
+        "hausdorff_mm": 5.755610710956523
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 3.346768850089893,
+        "p95_points_to_surface_mm": 10.0,
+        "mean_surface_to_points_mm": 3.705521591638724,
+        "p95_surface_to_points_mm": 10.016434454847213,
+        "symmetric_mean_mm": 3.5261452208643087,
+        "hausdorff_mm": 16.50199810964996
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.4933300532093179,
+        "p95_points_to_surface_mm": 4.812796288376538,
+        "mean_surface_to_points_mm": 2.772151585564772,
+        "p95_surface_to_points_mm": 5.157020590330646,
+        "symmetric_mean_mm": 2.132740819387045,
+        "hausdorff_mm": 7.650853059612581
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.3671793630029347,
+        "p95_points_to_surface_mm": 4.260588705514121,
+        "mean_surface_to_points_mm": 2.7531581592679713,
+        "p95_surface_to_points_mm": 5.101833285580604,
+        "symmetric_mean_mm": 2.060168761135453,
+        "hausdorff_mm": 7.109959006576002
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9840449738307363,
+        "p95_points_to_surface_mm": 4.202721788307509,
+        "mean_surface_to_points_mm": 2.574796064503907,
+        "p95_surface_to_points_mm": 4.994960034541267,
+        "symmetric_mean_mm": 1.7794205191673218,
+        "hausdorff_mm": 6.806142024085953
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.5532346739473708,
+        "p95_points_to_surface_mm": 6.194561261253104,
+        "mean_surface_to_points_mm": 3.0617801513680165,
+        "p95_surface_to_points_mm": 6.0536440729661285,
+        "symmetric_mean_mm": 2.3075074126576935,
+        "hausdorff_mm": 10.27426097529927
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.6355533311647135,
+        "p95_points_to_surface_mm": 5.61942043693361,
+        "mean_surface_to_points_mm": 2.9670755296984552,
+        "p95_surface_to_points_mm": 5.6810983830667166,
+        "symmetric_mean_mm": 2.3013144304315842,
+        "hausdorff_mm": 9.468290442441688
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.6206782261646095,
+        "p95_points_to_surface_mm": 5.428947728443304,
+        "mean_surface_to_points_mm": 3.0176223869498484,
+        "p95_surface_to_points_mm": 5.729352707955558,
+        "symmetric_mean_mm": 2.319150306557229,
+        "hausdorff_mm": 9.63722394064138
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 13,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.7385831157007052,
+        "p95_points_to_surface_mm": 5.75025042907188,
+        "mean_surface_to_points_mm": 2.905477183831839,
+        "p95_surface_to_points_mm": 5.417852136044858,
+        "symmetric_mean_mm": 2.322030149766272,
+        "hausdorff_mm": 9.442419384169554
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.9615054779979912,
+        "p95_points_to_surface_mm": 6.026107949100715,
+        "mean_surface_to_points_mm": 3.222326657514101,
+        "p95_surface_to_points_mm": 5.9893710763781955,
+        "symmetric_mean_mm": 2.5919160677560464,
+        "hausdorff_mm": 9.18183554384243
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.6715115099448408,
+        "p95_points_to_surface_mm": 5.763467518481787,
+        "mean_surface_to_points_mm": 2.7542916011223917,
+        "p95_surface_to_points_mm": 5.1983835512779235,
+        "symmetric_mean_mm": 2.212901555533616,
+        "hausdorff_mm": 8.878862782027882
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.562968321467933,
+        "p95_points_to_surface_mm": 5.5637177743458555,
+        "mean_surface_to_points_mm": 2.7693090053192426,
+        "p95_surface_to_points_mm": 5.161200774698195,
+        "symmetric_mean_mm": 2.1661386633935877,
+        "hausdorff_mm": 9.278087090262796
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 13,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.7643391039141305,
+        "p95_points_to_surface_mm": 6.129721693611609,
+        "mean_surface_to_points_mm": 2.7481556948043346,
+        "p95_surface_to_points_mm": 5.156694973067103,
+        "symmetric_mean_mm": 2.2562473993592325,
+        "hausdorff_mm": 9.376701395560922
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.668471584394363,
+        "p95_points_to_surface_mm": 5.837418484146066,
+        "mean_surface_to_points_mm": 2.806510912174339,
+        "p95_surface_to_points_mm": 5.216113082386132,
+        "symmetric_mean_mm": 2.2374912482843508,
+        "hausdorff_mm": 8.524125603444073
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2134806149852795,
+        "p95_points_to_surface_mm": 4.5350376659524585,
+        "mean_surface_to_points_mm": 2.6790740435671787,
+        "p95_surface_to_points_mm": 5.049784818677162,
+        "symmetric_mean_mm": 1.9462773292762292,
+        "hausdorff_mm": 7.482862328505246
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.2716428859960631,
+        "p95_points_to_surface_mm": 4.599509365397093,
+        "mean_surface_to_points_mm": 2.761352307224635,
+        "p95_surface_to_points_mm": 5.039202693351532,
+        "symmetric_mean_mm": 2.016497596610349,
+        "hausdorff_mm": 7.525296049591586
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2242450064860366,
+        "p95_points_to_surface_mm": 4.3601879604026115,
+        "mean_surface_to_points_mm": 2.6400552808114606,
+        "p95_surface_to_points_mm": 4.998151235992072,
+        "symmetric_mean_mm": 1.9321501436487485,
+        "hausdorff_mm": 7.469392619659984
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.2820378772643066,
+        "p95_points_to_surface_mm": 4.291679478889808,
+        "mean_surface_to_points_mm": 2.7174599995946265,
+        "p95_surface_to_points_mm": 5.068882630524933,
+        "symmetric_mean_mm": 1.9997489384294664,
+        "hausdorff_mm": 7.68260199664339
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.4434314353103563,
+        "p95_points_to_surface_mm": 5.635839379556918,
+        "mean_surface_to_points_mm": 2.710573748664689,
+        "p95_surface_to_points_mm": 5.12681499251886,
+        "symmetric_mean_mm": 2.077002591987523,
+        "hausdorff_mm": 8.279738992568385
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.3205883167172452,
+        "p95_points_to_surface_mm": 5.040118185970491,
+        "mean_surface_to_points_mm": 2.8393220974525053,
+        "p95_surface_to_points_mm": 5.245912129355368,
+        "symmetric_mean_mm": 2.0799552070848755,
+        "hausdorff_mm": 14.741391423308135
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 9,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.7349497362441886,
+        "p95_points_to_surface_mm": 5.599195401109313,
+        "mean_surface_to_points_mm": 2.664976954457321,
+        "p95_surface_to_points_mm": 5.107479546731299,
+        "symmetric_mean_mm": 2.1999633453507546,
+        "hausdorff_mm": 7.99983102647255
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.768903176942909,
+        "p95_points_to_surface_mm": 6.07409350617963,
+        "mean_surface_to_points_mm": 2.8632722300371065,
+        "p95_surface_to_points_mm": 5.387763107572965,
+        "symmetric_mean_mm": 2.316087703490008,
+        "hausdorff_mm": 12.869578341249134
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.9549802563553168,
+        "p95_points_to_surface_mm": 3.739855060366806,
+        "mean_surface_to_points_mm": 2.623423415478699,
+        "p95_surface_to_points_mm": 4.961865504565415,
+        "symmetric_mean_mm": 1.7892018359170079,
+        "hausdorff_mm": 6.5134595975881515
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 0.9362415349895475,
+        "p95_points_to_surface_mm": 3.5731710691739855,
+        "mean_surface_to_points_mm": 2.6668012390961775,
+        "p95_surface_to_points_mm": 4.994330335018589,
+        "symmetric_mean_mm": 1.8015213870428626,
+        "hausdorff_mm": 6.3865626027231395
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 12,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1521388562928998,
+        "p95_points_to_surface_mm": 3.9814742723212646,
+        "mean_surface_to_points_mm": 2.612468578032141,
+        "p95_surface_to_points_mm": 4.945604338062618,
+        "symmetric_mean_mm": 1.8823037171625203,
+        "hausdorff_mm": 6.653186366297391
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.1001262275802723,
+        "p95_points_to_surface_mm": 3.7858065391469213,
+        "mean_surface_to_points_mm": 2.689239068398183,
+        "p95_surface_to_points_mm": 4.9896083701761516,
+        "symmetric_mean_mm": 1.8946826479892276,
+        "hausdorff_mm": 6.687296580747892
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.1276859790187423,
+        "p95_points_to_surface_mm": 3.804487463019091,
+        "mean_surface_to_points_mm": 2.689849475169095,
+        "p95_surface_to_points_mm": 5.013926926059856,
+        "symmetric_mean_mm": 1.9087677270939185,
+        "hausdorff_mm": 7.312245345200744
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.1699245010605073,
+        "p95_points_to_surface_mm": 3.851089876284905,
+        "mean_surface_to_points_mm": 2.7424420544509878,
+        "p95_surface_to_points_mm": 5.040697060470049,
+        "symmetric_mean_mm": 1.9561832777557475,
+        "hausdorff_mm": 6.998246698400109
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.4040908373353702,
+        "p95_points_to_surface_mm": 4.482869147710292,
+        "mean_surface_to_points_mm": 2.725870701797331,
+        "p95_surface_to_points_mm": 5.041106581199733,
+        "symmetric_mean_mm": 2.0649807695663505,
+        "hausdorff_mm": 7.48963142046659
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4105779644340253,
+        "p95_points_to_surface_mm": 4.356445994159569,
+        "mean_surface_to_points_mm": 2.7928824914100523,
+        "p95_surface_to_points_mm": 5.104601830745487,
+        "symmetric_mean_mm": 2.101730227922039,
+        "hausdorff_mm": 7.641764069633645
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.4074987135859485,
+        "p95_points_to_surface_mm": 5.491164079587701,
+        "mean_surface_to_points_mm": 1.7183306788695998,
+        "p95_surface_to_points_mm": 3.0145201802356034,
+        "symmetric_mean_mm": 1.5629146962277742,
+        "hausdorff_mm": 10.174489296544978
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.6373998624539403,
+        "p95_points_to_surface_mm": 5.467395380218489,
+        "mean_surface_to_points_mm": 3.3569602620613646,
+        "p95_surface_to_points_mm": 10.663565072277342,
+        "symmetric_mean_mm": 2.4971800622576525,
+        "hausdorff_mm": 52.311369213014395
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 7,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.3692845551448118,
+        "p95_points_to_surface_mm": 4.896567531717789,
+        "mean_surface_to_points_mm": 1.6721701907945303,
+        "p95_surface_to_points_mm": 3.0977031510098536,
+        "symmetric_mean_mm": 1.520727372969671,
+        "hausdorff_mm": 8.437002209450252
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.3084860685441413,
+        "p95_points_to_surface_mm": 5.0,
+        "mean_surface_to_points_mm": 2.2019422305257557,
+        "p95_surface_to_points_mm": 5.0443486531140715,
+        "symmetric_mean_mm": 2.2552141495349485,
+        "hausdorff_mm": 7.2666912869299
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.2749688368020655,
+        "p95_points_to_surface_mm": 4.826439152065048,
+        "mean_surface_to_points_mm": 1.668102564364716,
+        "p95_surface_to_points_mm": 3.16133897285956,
+        "symmetric_mean_mm": 1.4715357005833907,
+        "hausdorff_mm": 9.998003531654348
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.2866192816186857,
+        "p95_points_to_surface_mm": 4.83776010392718,
+        "mean_surface_to_points_mm": 1.6374058383586891,
+        "p95_surface_to_points_mm": 3.2734330918757095,
+        "symmetric_mean_mm": 1.4620125599886875,
+        "hausdorff_mm": 10.280229934787474
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 9,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.180463538921241,
+        "p95_points_to_surface_mm": 3.453300601838336,
+        "mean_surface_to_points_mm": 1.721836821449007,
+        "p95_surface_to_points_mm": 3.2842271028706507,
+        "symmetric_mean_mm": 1.4511501801851239,
+        "hausdorff_mm": 7.762038112459658
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.4646437407074104,
+        "p95_points_to_surface_mm": 4.231672229929267,
+        "mean_surface_to_points_mm": 2.1140841283779332,
+        "p95_surface_to_points_mm": 4.028341390369285,
+        "symmetric_mean_mm": 1.789363934542672,
+        "hausdorff_mm": 6.69187908306718
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 1,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.7351847816152972,
+        "p95_points_to_surface_mm": 6.033424140702095,
+        "mean_surface_to_points_mm": 2.7656061260625355,
+        "p95_surface_to_points_mm": 5.3698987859461145,
+        "symmetric_mean_mm": 2.2503954538389164,
+        "hausdorff_mm": 8.448967661831208
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.5951118188855178,
+        "p95_points_to_surface_mm": 6.495560233968854,
+        "mean_surface_to_points_mm": 2.7410358817129437,
+        "p95_surface_to_points_mm": 5.3028003615644765,
+        "symmetric_mean_mm": 2.1680738502992307,
+        "hausdorff_mm": 10.317609094723386
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 10,
+      "label_input": {
+        "mean_points_to_surface_mm": 2.1186759963624584,
+        "p95_points_to_surface_mm": 6.525752651599754,
+        "mean_surface_to_points_mm": 2.738113108013928,
+        "p95_surface_to_points_mm": 5.402403614622947,
+        "symmetric_mean_mm": 2.428394552188193,
+        "hausdorff_mm": 9.024453999323322
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 2.6082451219887717,
+        "p95_points_to_surface_mm": 7.691681110320697,
+        "mean_surface_to_points_mm": 3.0838958613061793,
+        "p95_surface_to_points_mm": 5.774194138101736,
+        "symmetric_mean_mm": 2.8460704916474757,
+        "hausdorff_mm": 10.541461810023126
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 4,
+      "label_input": {
+        "mean_points_to_surface_mm": 1.589786911427396,
+        "p95_points_to_surface_mm": 5.741978163770395,
+        "mean_surface_to_points_mm": 2.8008120692847513,
+        "p95_surface_to_points_mm": 5.196792332987877,
+        "symmetric_mean_mm": 2.1952994903560734,
+        "hausdorff_mm": 8.645041901983353
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 1.6626759679515315,
+        "p95_points_to_surface_mm": 5.900646103816774,
+        "mean_surface_to_points_mm": 2.841895385777838,
+        "p95_surface_to_points_mm": 5.253687778002498,
+        "symmetric_mean_mm": 2.252285676864685,
+        "hausdorff_mm": 8.701687580120582
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 11,
+      "label_input": {
+        "mean_points_to_surface_mm": 0.7452815700734091,
+        "p95_points_to_surface_mm": 3.166696561910208,
+        "mean_surface_to_points_mm": 2.6506643987230865,
+        "p95_surface_to_points_mm": 4.960855760092725,
+        "symmetric_mean_mm": 1.6979729843982478,
+        "hausdorff_mm": 6.395403795955608
+      },
+      "image_input": {
+        "mean_points_to_surface_mm": 0.8302194605059487,
+        "p95_points_to_surface_mm": 3.1422542059658523,
+        "mean_surface_to_points_mm": 2.8933565950664084,
+        "p95_surface_to_points_mm": 5.1393209190162485,
+        "symmetric_mean_mm": 1.8617880277861785,
+        "hausdorff_mm": 10.660455243628283
+      }
+    }
+  ]
+}

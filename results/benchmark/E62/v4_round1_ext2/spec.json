@@ -1,0 +1,62 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": true,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "experiment": "E62",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E62_PREREGISTRATION_2026-09-24.md",
+  "round": "round1-extension",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "cmr_only",
+      "model": "G",
+      "name": "G/cmr_only/w=0.03125",
+      "overrides": {
+        "identity_prior_weight": 0.03125
+      }
+    },
+    {
+      "arm": "cmr_only",
+      "model": "G",
+      "name": "G/cmr_only/w=0.015625",
+      "overrides": {
+        "identity_prior_weight": 0.015625
+      }
+    },
+    {
+      "arm": "cmr_only",
+      "model": "S",
+      "name": "S/cmr_only/w=0.03125",
+      "overrides": {
+        "identity_prior_weight": 0.03125
+      }
+    },
+    {
+      "arm": "cmr_only",
+      "model": "S",
+      "name": "S/cmr_only/w=0.015625",
+      "overrides": {
+        "identity_prior_weight": 0.015625
+      }
+    }
+  ]
+}

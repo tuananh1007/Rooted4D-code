@@ -1,0 +1,161 @@
+{
+  "experiment": "E49c_tetheart_comparison",
+  "tetheart_source": "results/22102244_thfinal/E49g_test_iter_60000_matched.json",
+  "tetheart_summary_status": {
+    "scored": 44
+  },
+  "class_check": "in-plane extent, which the stack-axis overhang cannot move",
+  "resamples": 20000,
+  "permutations": 200000,
+  "seed": 20260910,
+  "variants": {
+    "clipped_with_endcaps": {
+      "n_frames": 44,
+      "n_patients": 22,
+      "matched_to_our_scoring": true,
+      "medians": {
+        "tetheart": 4.002685197960503,
+        "rooted4d_label_input": 1.8776920100287415,
+        "rooted4d_image_input": 2.114781458712719
+      },
+      "paired": {
+        "tetheart_minus_rooted4d_label_input": {
+          "difference": 2.1667163720790277,
+          "ci_low": 1.8563297524653737,
+          "ci_high": 2.3837718710186016,
+          "p_value": 2.4999875000624998e-05,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        },
+        "tetheart_minus_rooted4d_image_input": {
+          "difference": 1.6601660717677753,
+          "ci_low": 1.4669823592267104,
+          "ci_high": 1.8897324210437159,
+          "p_value": 0.0011599942000289998,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        }
+      }
+    },
+    "clipped_no_endcaps": {
+      "n_frames": 44,
+      "n_patients": 22,
+      "matched_to_our_scoring": false,
+      "medians": {
+        "tetheart": 2.9512901829446836,
+        "rooted4d_label_input": 1.8776920100287415,
+        "rooted4d_image_input": 2.114781458712719
+      },
+      "paired": {
+        "tetheart_minus_rooted4d_label_input": {
+          "difference": 1.0349015583178778,
+          "ci_low": 0.922738720291638,
+          "ci_high": 1.1957262670287894,
+          "p_value": 9.999950000249999e-06,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        },
+        "tetheart_minus_rooted4d_image_input": {
+          "difference": 0.7745187455755344,
+          "ci_low": 0.6124741986148474,
+          "ci_high": 0.8479981339092871,
+          "p_value": 0.0016049919750401249,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        }
+      },
+      "caveat": "TetHeart scored without end caps against our end-cap-inclusive scores; not a like-for-like pairing"
+    },
+    "raw_with_endcaps": {
+      "n_frames": 44,
+      "n_patients": 22,
+      "matched_to_our_scoring": true,
+      "medians": {
+        "tetheart": 6.024738117289807,
+        "rooted4d_label_input": 1.8776920100287415,
+        "rooted4d_image_input": 2.114781458712719
+      },
+      "paired": {
+        "tetheart_minus_rooted4d_label_input": {
+          "difference": 4.16166291582591,
+          "ci_low": 3.675450600643175,
+          "ci_high": 4.588157493915108,
+          "p_value": 1.9999900000499998e-05,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        },
+        "tetheart_minus_rooted4d_image_input": {
+          "difference": 3.630796048837521,
+          "ci_low": 3.295984209279295,
+          "ci_high": 4.025860494982721,
+          "p_value": 2.9999850000749997e-05,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        }
+      }
+    },
+    "raw_no_endcaps": {
+      "n_frames": 44,
+      "n_patients": 22,
+      "matched_to_our_scoring": false,
+      "medians": {
+        "tetheart": 6.103144984278803,
+        "rooted4d_label_input": 1.8776920100287415,
+        "rooted4d_image_input": 2.114781458712719
+      },
+      "paired": {
+        "tetheart_minus_rooted4d_label_input": {
+          "difference": 4.090073228028306,
+          "ci_low": 3.4444671927882125,
+          "ci_high": 4.9348245573947285,
+          "p_value": 4.9999750001249995e-05,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        },
+        "tetheart_minus_rooted4d_image_input": {
+          "difference": 3.6299207539018274,
+          "ci_low": 3.0435526586379247,
+          "ci_high": 4.380417522873229,
+          "p_value": 5.4999725001374995e-05,
+          "n_frames": 44,
+          "n_patients": 22,
+          "analysis_unit": "patient"
+        }
+      },
+      "caveat": "TetHeart scored without end caps against our end-cap-inclusive scores; not a like-for-like pairing"
+    }
+  },
+  "directional": {
+    "clipped_with_endcaps": {
+      "label_to_prediction_mm": 3.362998193463749,
+      "prediction_to_label_mm": 4.4652336518413,
+      "ours_label_to_prediction_mm": 1.1324123617332793,
+      "ours_prediction_to_label_mm": 2.627642892004719
+    },
+    "clipped_no_endcaps": {
+      "label_to_prediction_mm": 1.8222589058196021,
+      "prediction_to_label_mm": 4.092533147780792,
+      "ours_label_to_prediction_mm": 1.1324123617332793,
+      "ours_prediction_to_label_mm": 2.627642892004719
+    },
+    "raw_with_endcaps": {
+      "label_to_prediction_mm": 3.324815075312012,
+      "prediction_to_label_mm": 8.44758806428306,
+      "ours_label_to_prediction_mm": 1.1324123617332793,
+      "ours_prediction_to_label_mm": 2.627642892004719
+    },
+    "raw_no_endcaps": {
+      "label_to_prediction_mm": 1.6684781005345193,
+      "prediction_to_label_mm": 10.500431501956301,
+      "ours_label_to_prediction_mm": 1.1324123617332793,
+      "ours_prediction_to_label_mm": 2.627642892004719
+    }
+  }
+}

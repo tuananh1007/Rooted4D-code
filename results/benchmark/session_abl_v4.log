@@ -1,0 +1,31 @@
+fitting shape spaces from train split...
+  10/60  140s
+  20/60  278s
+  30/60  410s
+  40/60  541s
+  50/60  675s
+  60/60  819s
+
+arm                           cmr          tee        rot      trans       phase
+session_rank2               2.032        2.918      2.996      4.454      0.0176
+session_rank4               2.030        2.917      2.999      4.458      0.0177
+no_session_rank2            2.036        2.917      2.966      4.426      0.0183
+no_session_rank4            2.036        2.917      2.966      4.426      0.0183
+
+paired differences (negative favours the first named arm)
+  rank2_minus_no_session   heldout_cmr_mm         -0.0046  [ -0.0070, -0.0022] p=0.0003 *
+  rank2_minus_no_session   heldout_tee_mm         -0.0043  [ -0.0064, -0.0025] p=0.0000 *
+  rank2_minus_no_session   translation_mm          0.0131  [  0.0010,  0.0259] p=0.0418 *
+  rank2_minus_no_session   rotation_deg            0.0077  [ -0.0001,  0.0158] p=0.0650
+  rank2_minus_no_session   phase_error_cycles     -0.0000  [ -0.0002,  0.0001] p=0.6260
+  rank4_minus_no_session   heldout_cmr_mm         -0.0046  [ -0.0074, -0.0019] p=0.0014 *
+  rank4_minus_no_session   heldout_tee_mm         -0.0046  [ -0.0070, -0.0026] p=0.0001 *
+  rank4_minus_no_session   translation_mm          0.0132  [ -0.0007,  0.0276] p=0.0736
+  rank4_minus_no_session   rotation_deg            0.0078  [ -0.0005,  0.0165] p=0.0804
+  rank4_minus_no_session   phase_error_cycles     -0.0001  [ -0.0003,  0.0001] p=0.5417
+  rank4_minus_rank2        heldout_cmr_mm         -0.0001  [ -0.0010,  0.0009] p=0.9044
+  rank4_minus_rank2        heldout_tee_mm         -0.0003  [ -0.0013,  0.0007] p=0.5773
+  rank4_minus_rank2        translation_mm          0.0001  [ -0.0035,  0.0032] p=0.9760
+  rank4_minus_rank2        rotation_deg            0.0001  [ -0.0019,  0.0019] p=0.9139
+  rank4_minus_rank2        phase_error_cycles     -0.0000  [ -0.0001,  0.0001] p=0.6310
+done

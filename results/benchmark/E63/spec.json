@@ -1,0 +1,106 @@
+{
+  "base_config": {
+    "fourier_order": 3,
+    "max_iterations": 40,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E63",
+  "models": {
+    "global": {
+      "builder": "global",
+      "n_modes": 32,
+      "n_motion": 4,
+      "n_phase_nodes": 8,
+      "n_session": 2
+    }
+  },
+  "purpose": "E63: the interface residual of soft attachment against its penalty, in the published fusion configuration, so that the O(1/lambda) rate of Eq. (soft-drift) is measured on the reconstruction model rather than only on T2's synthetic quadratic. Descriptive: nothing is selected on it. Validation split only; test is not touched. The zero start is used because it is the published configuration's start (E51); this is a measurement of that configuration, not a new comparison between methods. The historical (renormalised) arm is included at four penalties to show that its gap to the exact arm does not close as the penalty stiffens (E60).",
+  "split": "val",
+  "start": "zero",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "global",
+      "name": "rooted4d_full"
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=1",
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=10",
+      "soft_attachment_weight": 10.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=100",
+      "soft_attachment_weight": 100.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=1000",
+      "soft_attachment_weight": 1000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=10000",
+      "soft_attachment_weight": 10000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=100000",
+      "soft_attachment_weight": 100000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=1000000",
+      "soft_attachment_weight": 1000000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=10000000",
+      "soft_attachment_weight": 10000000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "matched/l=100000000",
+      "soft_attachment_weight": 100000000.0
+    },
+    {
+      "arm": "joint_soft_attachment",
+      "model": "global",
+      "name": "historical/l=100",
+      "soft_attachment_weight": 100.0
+    },
+    {
+      "arm": "joint_soft_attachment",
+      "model": "global",
+      "name": "historical/l=10000",
+      "soft_attachment_weight": 10000.0
+    },
+    {
+      "arm": "joint_soft_attachment",
+      "model": "global",
+      "name": "historical/l=1000000",
+      "soft_attachment_weight": 1000000.0
+    },
+    {
+      "arm": "joint_soft_attachment",
+      "model": "global",
+      "name": "historical/l=100000000",
+      "soft_attachment_weight": 100000000.0
+    }
+  ]
+}

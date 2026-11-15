@@ -1,0 +1,57 @@
+schema_version: 1
+status: "contract_selected_mesh_not_frozen"
+
+representation:
+  physical_coordinates: "unique_global_block"
+  lv_myocardium: "fixed_connectivity_tetrahedra"
+  lv_boundary_surfaces: "triangular_submeshes_of_tetrahedra"
+  proximal_la: "fixed_connectivity_unstructured_triangles"
+  annulus: "cyclic_shared_physical_vertex_ring"
+  leaflets: "separate_open_unstructured_triangles"
+  subdivision_surface: "optional_evaluation_layer_only"
+
+annulus:
+  duplicated_endpoint: false
+  candidate_vertex_counts_for_sensitivity: [32, 64, 96]
+  freeze_after_resolution_study: true
+  landmarks:
+    - "anterolateral_commissure"
+    - "posteromedial_commissure"
+    - "anterior_saddle_horn"
+    - "posterior_annular_midpoint"
+  root_arcs:
+    anterior: "between_commissures_on_tagged_anterior_arc"
+    posterior: "between_commissures_on_tagged_posterior_arc"
+
+assembly:
+  operator: "A"
+  sparse: true
+  binary: true
+  patient_independent: true
+  patient_barycentric_weights_in_A: false
+
+patient_alignment:
+  correspondence_variable: "Pi_i"
+  barycentric_projection: "P_i(Pi_i)"
+  anatomy_block_restricted: true
+  production_distance: "area_weighted_bidirectional_point_to_triangle"
+  vertex_chamfer_role: "baseline_only"
+  normal_term: "additive_oriented_patch_specific"
+  annular_coordinate: "directed_cyclic_landmark_anchored"
+  collision_is_separate_from_normal_term: true
+  schedule:
+    - "landmark_se3"
+    - "block_restricted_correspondence"
+    - "directed_annular_arc"
+    - "joint_pose_phase"
+    - "low_rank_template_deformation"
+    - "arap_and_volumetric_validity"
+    - "bounded_session_discrepancy"
+
+papillary_tips:
+  primary_role: "optional_landmarks"
+  attachment: "fixed_barycentric_embedding_in_lv_tetrahedra"
+  free_floating: false
+  welded_to_single_endocardial_vertex: false
+  residual: "disabled_initially_then_smoothly_bounded_if_supported"
+  chordal_connection: "sensitivity_analysis_only"

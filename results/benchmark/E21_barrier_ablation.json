@@ -1,0 +1,151 @@
+{
+  "experiment": "E21_barrier_ablation",
+  "host": "rooted4d.geometry.deformation.fit_deformation",
+  "note": "The barrier previously had no caller outside its own unit tests. This host was written so the mandated ablation could be run at all.",
+  "elastic_weight_in_all_arms": 0.05,
+  "collision_thickness_mm": 1.0,
+  "lattice": {
+    "shape": [
+      4,
+      4,
+      4
+    ],
+    "spacing_mm": 5.0,
+    "vertices": 64,
+    "cells": 135
+  },
+  "rows": [
+    {
+      "arm": "no_barrier",
+      "depth_fraction_of_extent": 0.4,
+      "inverted_cells": 45,
+      "cells": 135,
+      "min_determinant_ratio": -0.7484528486462535,
+      "self_intersections": 44,
+      "data_rmse_mm": 0.11656904443771003,
+      "iterations": 225,
+      "converged": true
+    },
+    {
+      "arm": "jacobian_only",
+      "depth_fraction_of_extent": 0.4,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.18233538678779973,
+      "self_intersections": 0,
+      "data_rmse_mm": 0.0893881468480956,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "jacobian_and_collision",
+      "depth_fraction_of_extent": 0.4,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.1835862663051109,
+      "self_intersections": 0,
+      "data_rmse_mm": 0.08535656538714491,
+      "iterations": 489,
+      "converged": true
+    },
+    {
+      "arm": "no_barrier",
+      "depth_fraction_of_extent": 0.8,
+      "inverted_cells": 45,
+      "cells": 135,
+      "min_determinant_ratio": -1.131967843435918,
+      "self_intersections": 8,
+      "data_rmse_mm": 0.055294604783516735,
+      "iterations": 237,
+      "converged": true
+    },
+    {
+      "arm": "jacobian_only",
+      "depth_fraction_of_extent": 0.8,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.1626641720780925,
+      "self_intersections": 0,
+      "data_rmse_mm": 0.19246324190786926,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "jacobian_and_collision",
+      "depth_fraction_of_extent": 0.8,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.14201418660729434,
+      "self_intersections": 0,
+      "data_rmse_mm": 0.1830577533244884,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "no_barrier",
+      "depth_fraction_of_extent": 1.2,
+      "inverted_cells": 90,
+      "cells": 135,
+      "min_determinant_ratio": -0.9256822198646207,
+      "self_intersections": 8,
+      "data_rmse_mm": 0.05529573073308519,
+      "iterations": 297,
+      "converged": true
+    },
+    {
+      "arm": "jacobian_only",
+      "depth_fraction_of_extent": 1.2,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.09937553007275397,
+      "self_intersections": 0,
+      "data_rmse_mm": 2.227660286229688,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "jacobian_and_collision",
+      "depth_fraction_of_extent": 1.2,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.10648866979468107,
+      "self_intersections": 0,
+      "data_rmse_mm": 2.199580035353331,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "no_barrier",
+      "depth_fraction_of_extent": 1.6,
+      "inverted_cells": 90,
+      "cells": 135,
+      "min_determinant_ratio": -1.254792755517516,
+      "self_intersections": 44,
+      "data_rmse_mm": 0.11657169232432872,
+      "iterations": 204,
+      "converged": true
+    },
+    {
+      "arm": "jacobian_only",
+      "depth_fraction_of_extent": 1.6,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.07024650293747284,
+      "self_intersections": 96,
+      "data_rmse_mm": 4.873679441593339,
+      "iterations": 600,
+      "converged": false
+    },
+    {
+      "arm": "jacobian_and_collision",
+      "depth_fraction_of_extent": 1.6,
+      "inverted_cells": 0,
+      "cells": 135,
+      "min_determinant_ratio": 0.08034777813066106,
+      "self_intersections": 0,
+      "data_rmse_mm": 5.062510224446363,
+      "iterations": 600,
+      "converged": false
+    }
+  ]
+}

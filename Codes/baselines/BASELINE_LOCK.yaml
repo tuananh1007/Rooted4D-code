@@ -1,0 +1,62 @@
+schema_version: rooted4d-baseline-lock-v1
+lock_id: rooted4d-paper1-baselines-v1
+status: protocol_locked_reference_arms_implemented_digests_pending
+freeze_rule: pin_code_data_config_and_container_digest_before_locked_test
+
+shared_evaluation:
+  identical_train_val_test_manifests: true
+  identical_observation_masks: true
+  identical_initial_landmarks_when_method_accepts_them: true
+  no_test_hyperparameter_selection: true
+  failed_cases_count_as_failures: true
+
+baselines:
+  - id: cmr_only
+    name: CMR-only constrained chamber reconstruction
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: quantify information available without TEE
+  - id: tee_only
+    name: TEE-only annulus and leaflet reconstruction
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: quantify information available without CMR
+  - id: late_fusion
+    name: independent reconstructions plus staged robust SE3 and circular DTW
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: isolate the benefit of joint scene inference from post-hoc registration
+  - id: joint_soft_attachment
+    name: joint inference with a tuned quadratic attachment loss
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: compare soft attachment against shared degrees of freedom
+  - id: joint_exact_no_gauges
+    name: exact assembly without session and gauge constraints
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: test identifiability rather than generic fusion
+  - id: rooted4d_full
+    name: exact coupling plus gauge-controlled cross-session inference
+    status: implemented_pending_digest_lock
+    implementation: rooted4d/inference/baselines.py
+    implementation_digest: null
+    purpose: proposed method
+
+mandatory_ablations:
+  - fixed_phase_instead_of_monotone_circular_warp
+  - shared_cycle_without_session_residual
+  - position_only_without_oriented_normals
+  - no_directed_annular_arc_term
+  - no_collision_or_jacobian_barriers
+  - per_frame_motion_instead_of_periodic_basis
+  - uniform_prior_instead_of_evidence_aware_prior
+
+external_repositories:
+  source_catalog: baselines/catalog.yaml
+  rule: repository_commit_and_license_must_be_recorded_before_use

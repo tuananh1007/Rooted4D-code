@@ -1,0 +1,636 @@
+{
+  "experiment": "E101",
+  "preregistration": "Docs/E101_COMMISSURE_ANCHORS_PREREGISTRATION_2026-10-02.md",
+  "valves": {
+    "mvseg-valve-0010": {
+      "case": "test/test_011-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        6.432602371154951,
+        4.367523222587144
+      ],
+      "rms_mm": 15.128164715455949,
+      "e89_rms_mm": 7.511353456887414,
+      "anchored_ring": {
+        "rms_mm": 21.040080622074246,
+        "best_shift": -12,
+        "rms_after_best_shift_mm": 12.509688590253928
+      },
+      "e89_ring": {
+        "rms_mm": 8.432840019656478,
+        "best_shift": -1,
+        "rms_after_best_shift_mm": 8.382776756440771
+      }
+    },
+    "mvseg-valve-0011": {
+      "case": "test/test_012-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        8.65214988920657,
+        6.629361669589165
+      ],
+      "rms_mm": 6.477164468377756,
+      "e89_rms_mm": 4.257112045159044,
+      "anchored_ring": {
+        "rms_mm": 7.224541730121784,
+        "best_shift": -5,
+        "rms_after_best_shift_mm": 2.6711186395192006
+      },
+      "e89_ring": {
+        "rms_mm": 2.699530426763552,
+        "best_shift": -1,
+        "rms_after_best_shift_mm": 2.688079708461028
+      }
+    },
+    "mvseg-valve-0017": {
+      "case": "test/test_018-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        5.702069656801083,
+        2.821841942785058
+      ],
+      "rms_mm": 4.822825736702728,
+      "e89_rms_mm": 5.416195710219675,
+      "anchored_ring": {
+        "rms_mm": 6.05603331218234,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 5.4941136133585475
+      },
+      "e89_ring": {
+        "rms_mm": 6.854159059805203,
+        "best_shift": -3,
+        "rms_after_best_shift_mm": 5.766207300259
+      }
+    },
+    "mvseg-valve-0020": {
+      "case": "test/test_021-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.6500906433631792,
+        3.7720486682333765
+      ],
+      "rms_mm": 7.094114397702718,
+      "e89_rms_mm": 5.877262880753578,
+      "anchored_ring": {
+        "rms_mm": 6.569306566754765,
+        "best_shift": -3,
+        "rms_after_best_shift_mm": 3.327118725514673
+      },
+      "e89_ring": {
+        "rms_mm": 3.5254950145304518,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 3.214911393170864
+      }
+    },
+    "mvseg-valve-0029": {
+      "case": "test/test_030-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        5.293546205792802,
+        9.612571445769879
+      ],
+      "rms_mm": 6.9146915630275245,
+      "e89_rms_mm": 4.439317634561435,
+      "anchored_ring": {
+        "rms_mm": 8.51289737853195,
+        "best_shift": -6,
+        "rms_after_best_shift_mm": 2.229451329618033
+      },
+      "e89_ring": {
+        "rms_mm": 3.016769746060491,
+        "best_shift": 2,
+        "rms_after_best_shift_mm": 2.079059671599201
+      }
+    },
+    "mvseg-valve-0037": {
+      "case": "test/test_038-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        1.9915695970698006,
+        2.5718312606347595
+      ],
+      "rms_mm": 8.929669789815305,
+      "e89_rms_mm": 33.31871403352479,
+      "anchored_ring": {
+        "rms_mm": 11.174266619842447,
+        "best_shift": -5,
+        "rms_after_best_shift_mm": 7.82300331805302
+      },
+      "e89_ring": {
+        "rms_mm": 38.844788583705345,
+        "best_shift": 38,
+        "rms_after_best_shift_mm": 13.252376817937048
+      }
+    },
+    "mvseg-valve-0038": {
+      "case": "test/test_039-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.413077172087531,
+        8.572728637085087
+      ],
+      "rms_mm": 6.615916807484694,
+      "e89_rms_mm": 39.31670417806265,
+      "anchored_ring": {
+        "rms_mm": 8.217018599267455,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 2.0391892115230874
+      },
+      "e89_ring": {
+        "rms_mm": 48.86382593516899,
+        "best_shift": -42,
+        "rms_after_best_shift_mm": 2.0763667862191135
+      }
+    },
+    "mvseg-valve-0040": {
+      "case": "train/train_001-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        4.30838746392784,
+        16.237932454133666
+      ],
+      "rms_mm": 15.964316590691505,
+      "e89_rms_mm": 10.253366181918729,
+      "anchored_ring": {
+        "rms_mm": 19.846309520819553,
+        "best_shift": -11,
+        "rms_after_best_shift_mm": 6.461539304308441
+      },
+      "e89_ring": {
+        "rms_mm": 10.71768295661977,
+        "best_shift": -5,
+        "rms_after_best_shift_mm": 6.274735707580164
+      }
+    },
+    "mvseg-valve-0042": {
+      "case": "train/train_003-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        33.87132472454771,
+        7.908099501719254
+      ],
+      "rms_mm": 26.788961138373406,
+      "e89_rms_mm": 14.993636628476667,
+      "anchored_ring": {
+        "rms_mm": 35.492085122964994,
+        "best_shift": -19,
+        "rms_after_best_shift_mm": 13.46871434777143
+      },
+      "e89_ring": {
+        "rms_mm": 15.626364195910423,
+        "best_shift": 5,
+        "rms_after_best_shift_mm": 13.429647017751805
+      }
+    },
+    "mvseg-valve-0044": {
+      "case": "train/train_005-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.321094362425278,
+        1.6371450797017784
+      ],
+      "rms_mm": 5.253660185464219,
+      "e89_rms_mm": 6.015141212159269,
+      "anchored_ring": {
+        "rms_mm": 5.134086750326265,
+        "best_shift": -1,
+        "rms_after_best_shift_mm": 4.964415692835477
+      },
+      "e89_ring": {
+        "rms_mm": 6.658249986162337,
+        "best_shift": -3,
+        "rms_after_best_shift_mm": 5.035410953255333
+      }
+    },
+    "mvseg-valve-0048": {
+      "case": "train/train_009-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        7.530322718151504,
+        4.311075387777776
+      ],
+      "rms_mm": 4.073294148870484,
+      "e89_rms_mm": 6.685616671074661,
+      "anchored_ring": {
+        "rms_mm": 4.1904736560651425,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 2.906539202410365
+      },
+      "e89_ring": {
+        "rms_mm": 8.194695725561743,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 2.77521597504177
+      }
+    },
+    "mvseg-valve-0060": {
+      "case": "train/train_021-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        6.0963360926736145,
+        6.2506261815285065
+      ],
+      "rms_mm": 15.231848813491917,
+      "e89_rms_mm": 15.364200819612444,
+      "anchored_ring": {
+        "rms_mm": 6.671698915871463,
+        "best_shift": 0,
+        "rms_after_best_shift_mm": 6.671698915871463
+      },
+      "e89_ring": {
+        "rms_mm": 11.067910213159621,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 6.061722561956448
+      }
+    },
+    "mvseg-valve-0063": {
+      "case": "train/train_024-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        0.5845831097864654,
+        32.851910060812436
+      ],
+      "rms_mm": 26.76224891536645,
+      "e89_rms_mm": 49.31559769390109,
+      "anchored_ring": {
+        "rms_mm": 16.922706107057508,
+        "best_shift": 4,
+        "rms_after_best_shift_mm": 14.92422607724488
+      },
+      "e89_ring": {
+        "rms_mm": 54.559179072838916,
+        "best_shift": -46,
+        "rms_after_best_shift_mm": 14.901051456260214
+      }
+    },
+    "mvseg-valve-0075": {
+      "case": "train/train_036-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        9.429494274123224,
+        5.14393833189292
+      ],
+      "rms_mm": 8.053488324843409,
+      "e89_rms_mm": 7.861939969404384,
+      "anchored_ring": {
+        "rms_mm": 6.7856839990426145,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 6.365617400512655
+      },
+      "e89_ring": {
+        "rms_mm": 7.490761572610283,
+        "best_shift": 3,
+        "rms_after_best_shift_mm": 6.381250025985585
+      }
+    },
+    "mvseg-valve-0083": {
+      "case": "train/train_044-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        13.552142974591249,
+        13.475461702011637
+      ],
+      "rms_mm": 10.674831553237603,
+      "e89_rms_mm": 10.594687908220825,
+      "anchored_ring": {
+        "rms_mm": 6.950351337283531,
+        "best_shift": 4,
+        "rms_after_best_shift_mm": 3.394047839402752
+      },
+      "e89_ring": {
+        "rms_mm": 7.340908389490067,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 2.971771469272379
+      }
+    },
+    "mvseg-valve-0085": {
+      "case": "train/train_046-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.2037968889380677,
+        6.312565983615786
+      ],
+      "rms_mm": 5.126567758098449,
+      "e89_rms_mm": 22.460015765734383,
+      "anchored_ring": {
+        "rms_mm": 6.517743392547214,
+        "best_shift": 0,
+        "rms_after_best_shift_mm": 6.517743392547214
+      },
+      "e89_ring": {
+        "rms_mm": 24.658981813595375,
+        "best_shift": -26,
+        "rms_after_best_shift_mm": 6.334377165206597
+      }
+    },
+    "mvseg-valve-0086": {
+      "case": "train/train_047-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.7320341685918086,
+        5.725465548575208
+      ],
+      "rms_mm": 8.870569674232325,
+      "e89_rms_mm": 8.84605554279318,
+      "anchored_ring": {
+        "rms_mm": 7.436889770261745,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 6.589448144248429
+      },
+      "e89_ring": {
+        "rms_mm": 7.361451419661895,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 6.599742184641963
+      }
+    },
+    "mvseg-valve-0087": {
+      "case": "train/train_048-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.0909787000440474,
+        12.60453570459121
+      ],
+      "rms_mm": 7.696773885075596,
+      "e89_rms_mm": 7.359850576753607,
+      "anchored_ring": {
+        "rms_mm": 8.969525079412037,
+        "best_shift": -3,
+        "rms_after_best_shift_mm": 7.789487830081003
+      },
+      "e89_ring": {
+        "rms_mm": 8.467975798665973,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 7.586051003186171
+      }
+    },
+    "mvseg-valve-0091": {
+      "case": "train/train_052-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        5.978944564694868,
+        5.641945331194783
+      ],
+      "rms_mm": 7.704838729377296,
+      "e89_rms_mm": 6.556130244723745,
+      "anchored_ring": {
+        "rms_mm": 5.984210111950344,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 4.053432262474097
+      },
+      "e89_ring": {
+        "rms_mm": 4.4842202681313434,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 4.1258021258145785
+      }
+    },
+    "mvseg-valve-0093": {
+      "case": "train/train_054-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        6.204957186681374,
+        0.878451020975424
+      ],
+      "rms_mm": 4.707591109908203,
+      "e89_rms_mm": 3.8879123154065462,
+      "anchored_ring": {
+        "rms_mm": 4.383256802025064,
+        "best_shift": 2,
+        "rms_after_best_shift_mm": 1.8864843206042927
+      },
+      "e89_ring": {
+        "rms_mm": 2.9351037757245075,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 2.022594858478753
+      }
+    },
+    "mvseg-valve-0097": {
+      "case": "train/train_058-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        0.7303382190522762,
+        5.748402195092463
+      ],
+      "rms_mm": 7.588582478039329,
+      "e89_rms_mm": 27.431287132373164,
+      "anchored_ring": {
+        "rms_mm": 10.102919062647443,
+        "best_shift": 8,
+        "rms_after_best_shift_mm": 5.951545645768108
+      },
+      "e89_ring": {
+        "rms_mm": 31.581678527803483,
+        "best_shift": -47,
+        "rms_after_best_shift_mm": 6.002977602375305
+      }
+    },
+    "mvseg-valve-0100": {
+      "case": "train/train_061-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        5.161045669589176,
+        9.343600414820543
+      ],
+      "rms_mm": 8.758235276607387,
+      "e89_rms_mm": 10.290527452243253,
+      "anchored_ring": {
+        "rms_mm": 10.681672490144503,
+        "best_shift": 5,
+        "rms_after_best_shift_mm": 6.757227595933827
+      },
+      "e89_ring": {
+        "rms_mm": 10.387588428329014,
+        "best_shift": -5,
+        "rms_after_best_shift_mm": 6.386161990782428
+      }
+    },
+    "mvseg-valve-0101": {
+      "case": "train/train_062-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        3.628475403283598,
+        8.755591968302266
+      ],
+      "rms_mm": 5.921830448139977,
+      "e89_rms_mm": 4.440949723414551,
+      "anchored_ring": {
+        "rms_mm": 7.222967595999888,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 2.7290034213645566
+      },
+      "e89_ring": {
+        "rms_mm": 2.9716187104186527,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 2.9557803366325164
+      }
+    },
+    "mvseg-valve-0109": {
+      "case": "train/train_070-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        4.918318197509405,
+        2.2795321550593752
+      ],
+      "rms_mm": 5.6581361722480805,
+      "e89_rms_mm": 5.0858069284796885,
+      "anchored_ring": {
+        "rms_mm": 6.243533891217832,
+        "best_shift": -4,
+        "rms_after_best_shift_mm": 3.307279744492744
+      },
+      "e89_ring": {
+        "rms_mm": 3.513582750517997,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 3.0989251028752887
+      }
+    },
+    "mvseg-valve-0114": {
+      "case": "train/train_075-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        7.420552784575031,
+        1.389708293235784
+      ],
+      "rms_mm": 6.164705072602368,
+      "e89_rms_mm": 5.69666370387105,
+      "anchored_ring": {
+        "rms_mm": 5.717985754078539,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 3.842568107096438
+      },
+      "e89_ring": {
+        "rms_mm": 5.0872072211142205,
+        "best_shift": -2,
+        "rms_after_best_shift_mm": 3.9282966991201547
+      }
+    },
+    "mvseg-valve-0118": {
+      "case": "train/train_079-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        0.8429437948390885,
+        6.521183496547071
+      ],
+      "rms_mm": 6.602244110071403,
+      "e89_rms_mm": 7.074860450953468,
+      "anchored_ring": {
+        "rms_mm": 3.2488491785013696,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 2.644415040673565
+      },
+      "e89_ring": {
+        "rms_mm": 5.356196798273764,
+        "best_shift": 3,
+        "rms_after_best_shift_mm": 2.645476277821255
+      }
+    },
+    "mvseg-valve-0135": {
+      "case": "train/train_096-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        5.182012463456516,
+        7.563120021363896
+      ],
+      "rms_mm": 6.266246310244959,
+      "e89_rms_mm": 2.33982211240236,
+      "anchored_ring": {
+        "rms_mm": 7.692752066878284,
+        "best_shift": 6,
+        "rms_after_best_shift_mm": 1.4470925801373844
+      },
+      "e89_ring": {
+        "rms_mm": 1.3635961118562225,
+        "best_shift": 0,
+        "rms_after_best_shift_mm": 1.3635961118562225
+      }
+    },
+    "mvseg-valve-0141": {
+      "case": "train/train_102-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        2.610999403642792,
+        6.24404891179199
+      ],
+      "rms_mm": 5.229813816961028,
+      "e89_rms_mm": 4.51881101880941,
+      "anchored_ring": {
+        "rms_mm": 4.90259034053925,
+        "best_shift": 3,
+        "rms_after_best_shift_mm": 1.9143502667160925
+      },
+      "e89_ring": {
+        "rms_mm": 2.262393128556653,
+        "best_shift": -1,
+        "rms_after_best_shift_mm": 1.8511083632765908
+      }
+    },
+    "mvseg-valve-0160": {
+      "case": "val/val_016-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        3.8867228597450465,
+        1.7724806885831166
+      ],
+      "rms_mm": 5.075284743307622,
+      "e89_rms_mm": 4.536275062471233,
+      "anchored_ring": {
+        "rms_mm": 2.3630629684616364,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 1.7915880449498949
+      },
+      "e89_ring": {
+        "rms_mm": 2.0221824971792866,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 1.9708459453839997
+      }
+    },
+    "mvseg-valve-0164": {
+      "case": "val/val_020-label.nii.gz",
+      "reference_matches_donor_mm": 0.0,
+      "commissures_named_by_flip": false,
+      "commissure_error_mm": [
+        1.0104952954151725,
+        3.0197231217703564
+      ],
+      "rms_mm": 3.6764223920273817,
+      "e89_rms_mm": 3.3786786067028176,
+      "anchored_ring": {
+        "rms_mm": 3.48851082127488,
+        "best_shift": -1,
+        "rms_after_best_shift_mm": 2.310817948927371
+      },
+      "e89_ring": {
+        "rms_mm": 3.0476145150270013,
+        "best_shift": 1,
+        "rms_after_best_shift_mm": 2.331408179051284
+      }
+    }
+  }
+}

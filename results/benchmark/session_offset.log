@@ -1,0 +1,29 @@
+fitting shape space...
+floors: whole 1.86 cmr 1.35 tee 2.14
+  15/60  163s
+  30/60  320s
+  45/60  473s
+  60/60  638s
+
+arm                         cmr          tee        rot      trans       phase
+no_session               2.0363       2.9171      2.966      4.426      0.0183
+session_periodic         2.0321       2.9183      2.996      4.454      0.0176
+session_offset           1.9911       2.8675      2.966      4.642      0.0174
+
+paired differences (negative favours the first named arm)
+  periodic_minus_none    heldout_cmr_mm         -0.0046  [ -0.0070, -0.0022] p=0.0003 *
+  periodic_minus_none    heldout_tee_mm         -0.0043  [ -0.0064, -0.0025] p=0.0000 *
+  periodic_minus_none    rotation_deg            0.0077  [ -0.0001,  0.0158] p=0.0650
+  periodic_minus_none    translation_mm          0.0131  [  0.0010,  0.0259] p=0.0418 *
+  periodic_minus_none    phase_error_cycles     -0.0000  [ -0.0002,  0.0001] p=0.6260
+  offset_minus_none      heldout_cmr_mm         -0.0322  [ -0.0383, -0.0263] p=0.0000 *
+  offset_minus_none      heldout_tee_mm         -0.0400  [ -0.0549, -0.0254] p=0.0000 *
+  offset_minus_none      rotation_deg           -0.0925  [ -0.1275, -0.0589] p=0.0000 *
+  offset_minus_none      translation_mm          0.1156  [  0.0189,  0.2136] p=0.0237 *
+  offset_minus_none      phase_error_cycles     -0.0001  [ -0.0005,  0.0002] p=0.4318
+  offset_minus_periodic  heldout_cmr_mm         -0.0276  [ -0.0334, -0.0220] p=0.0000 *
+  offset_minus_periodic  heldout_tee_mm         -0.0357  [ -0.0501, -0.0216] p=0.0000 *
+  offset_minus_periodic  rotation_deg           -0.1002  [ -0.1334, -0.0689] p=0.0000 *
+  offset_minus_periodic  translation_mm          0.1025  [  0.0085,  0.1967] p=0.0369 *
+  offset_minus_periodic  phase_error_cycles     -0.0001  [ -0.0004,  0.0002] p=0.5080
+done

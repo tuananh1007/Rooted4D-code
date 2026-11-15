@@ -1,0 +1,3716 @@
+{
+  "experiment": "E86",
+  "preregistration": "Docs/E86_CAVITY_COMPONENTS_PREREGISTRATION_2026-09-28.md",
+  "split": "val",
+  "patients": 30,
+  "front_ends": {
+    "compact_unet": {
+      "scores": {
+        "none": {
+          "median_symmetric_mm": 2.090755121006463,
+          "median_hausdorff_mm": 8.790142172665396,
+          "median_dice": 0.9486820304504315,
+          "median_surface_displacement_mm": 1.5143750138240444,
+          "frames_changed": 0,
+          "ef": {
+            "bias": -2.5191549156723676,
+            "median_absolute": 2.3243287440067384,
+            "limits_of_agreement": [
+              -16.75515506342117,
+              11.716845232076437
+            ],
+            "width": 28.472000295497608
+          }
+        },
+        "largest_3d": {
+          "median_symmetric_mm": 2.0559450587802943,
+          "median_hausdorff_mm": 8.111751884808998,
+          "median_dice": 0.9486820304504315,
+          "median_surface_displacement_mm": 1.4567709484377362,
+          "frames_changed": 12,
+          "ef": {
+            "bias": -1.2298940744475921,
+            "median_absolute": 2.3243287440067384,
+            "limits_of_agreement": [
+              -8.270712823893824,
+              5.810924674998639
+            ],
+            "width": 14.081637498892462
+          }
+        },
+        "largest_3d_slice": {
+          "median_symmetric_mm": 2.0559450587802943,
+          "median_hausdorff_mm": 8.111751884808998,
+          "median_dice": 0.9486820304504315,
+          "median_surface_displacement_mm": 1.4567709484377362,
+          "frames_changed": 13,
+          "ef": {
+            "bias": -1.2298940744475921,
+            "median_absolute": 2.3243287440067384,
+            "limits_of_agreement": [
+              -8.270712823893824,
+              5.810924674998639
+            ],
+            "width": 14.081637498892462
+          }
+        }
+      },
+      "chosen": "largest_3d"
+    },
+    "nnunet": {
+      "scores": {
+        "none": {
+          "median_symmetric_mm": 1.9389540159200573,
+          "median_hausdorff_mm": 7.843112347184654,
+          "median_dice": 0.955365801924893,
+          "median_surface_displacement_mm": 1.0220506569385712,
+          "frames_changed": 0,
+          "ef": {
+            "bias": 0.6307468150743553,
+            "median_absolute": 3.1712869278778264,
+            "limits_of_agreement": [
+              -6.582658231138005,
+              7.844151861286715
+            ],
+            "width": 14.42681009242472
+          }
+        },
+        "largest_3d": {
+          "median_symmetric_mm": 1.9389540159200573,
+          "median_hausdorff_mm": 7.843112347184654,
+          "median_dice": 0.955365801924893,
+          "median_surface_displacement_mm": 1.0220506569385712,
+          "frames_changed": 1,
+          "ef": {
+            "bias": 0.7518651908098503,
+            "median_absolute": 3.1712869278778264,
+            "limits_of_agreement": [
+              -6.765815712044338,
+              8.269546093664038
+            ],
+            "width": 15.035361805708376
+          }
+        },
+        "largest_3d_slice": {
+          "median_symmetric_mm": 1.9721321654476447,
+          "median_hausdorff_mm": 8.016241080623804,
+          "median_dice": 0.955365801924893,
+          "median_surface_displacement_mm": 1.0376953231378998,
+          "frames_changed": 9,
+          "ef": {
+            "bias": 0.7669502219894684,
+            "median_absolute": 2.968870583024021,
+            "limits_of_agreement": [
+              -6.403291628240586,
+              7.937192072219522
+            ],
+            "width": 14.340483700460108
+          }
+        }
+      },
+      "chosen": "none"
+    }
+  },
+  "rows": [
+    {
+      "patient": "patient103",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 164.64851566069495,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635706340378198,
+        "fitted": true,
+        "symmetric_mm": 1.9316394212918566,
+        "hausdorff_mm": 6.19770500676796,
+        "volume_ml": 159.31056964787857,
+        "surface_displacement_median_mm": 1.3074646924679318
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635706340378198,
+        "fitted": true,
+        "symmetric_mm": 1.9316394212918566,
+        "hausdorff_mm": 6.19770500676796,
+        "volume_ml": 159.31056964787857,
+        "surface_displacement_median_mm": 1.3074646924679318
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635706340378198,
+        "fitted": true,
+        "symmetric_mm": 1.9316394212918566,
+        "hausdorff_mm": 6.19770500676796,
+        "volume_ml": 159.31056964787857,
+        "surface_displacement_median_mm": 1.3074646924679318
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647453833240067,
+        "fitted": true,
+        "symmetric_mm": 1.8751122412601613,
+        "hausdorff_mm": 6.171981028043834,
+        "volume_ml": 156.75038914839013,
+        "surface_displacement_median_mm": 0.8958347807960519
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647453833240067,
+        "fitted": true,
+        "symmetric_mm": 1.8751122412601613,
+        "hausdorff_mm": 6.171981028043834,
+        "volume_ml": 156.75038914839013,
+        "surface_displacement_median_mm": 0.8958347807960519
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647453833240067,
+        "fitted": true,
+        "symmetric_mm": 1.8751122412601613,
+        "hausdorff_mm": 6.171981028043834,
+        "volume_ml": 156.75038914839013,
+        "surface_displacement_median_mm": 0.8958347807960519
+      }
+    },
+    {
+      "patient": "patient103",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 122.98657886295689,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9494852304435678,
+        "fitted": true,
+        "symmetric_mm": 1.9411486229271304,
+        "hausdorff_mm": 5.982488494114476,
+        "volume_ml": 113.0320956187214,
+        "surface_displacement_median_mm": 1.2805258068639425
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9494852304435678,
+        "fitted": true,
+        "symmetric_mm": 1.9411486229271304,
+        "hausdorff_mm": 5.982488494114476,
+        "volume_ml": 113.0320956187214,
+        "surface_displacement_median_mm": 1.2805258068639425
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9494852304435678,
+        "fitted": true,
+        "symmetric_mm": 1.9411486229271304,
+        "hausdorff_mm": 5.982488494114476,
+        "volume_ml": 113.0320956187214,
+        "surface_displacement_median_mm": 1.2805258068639425
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9505600617999227,
+        "fitted": true,
+        "symmetric_mm": 1.8590580512284895,
+        "hausdorff_mm": 5.582041287666097,
+        "volume_ml": 111.70327718101275,
+        "surface_displacement_median_mm": 1.2061928178909036
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9505600617999227,
+        "fitted": true,
+        "symmetric_mm": 1.8590580512284895,
+        "hausdorff_mm": 5.582041287666097,
+        "volume_ml": 111.70327718101275,
+        "surface_displacement_median_mm": 1.2061928178909036
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9505600617999227,
+        "fitted": true,
+        "symmetric_mm": 1.8590580512284895,
+        "hausdorff_mm": 5.582041287666097,
+        "volume_ml": 111.70327718101275,
+        "surface_displacement_median_mm": 1.2061928178909036
+      }
+    },
+    {
+      "patient": "patient113",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 284.8789973925234,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9746468504118161,
+        "fitted": true,
+        "symmetric_mm": 1.954049972676894,
+        "hausdorff_mm": 7.522387271508075,
+        "volume_ml": 281.74507451566217,
+        "surface_displacement_median_mm": 1.0955253050578655
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9746468504118161,
+        "fitted": true,
+        "symmetric_mm": 1.954049972676894,
+        "hausdorff_mm": 7.522387271508075,
+        "volume_ml": 281.74507451566217,
+        "surface_displacement_median_mm": 1.0955253050578655
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9746468504118161,
+        "fitted": true,
+        "symmetric_mm": 1.954049972676894,
+        "hausdorff_mm": 7.522387271508075,
+        "volume_ml": 281.74507451566217,
+        "surface_displacement_median_mm": 1.0955253050578655
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9766089965397924,
+        "fitted": true,
+        "symmetric_mm": 1.9058111587709736,
+        "hausdorff_mm": 8.10889693762017,
+        "volume_ml": 280.39381527063557,
+        "surface_displacement_median_mm": 0.7738099604461457
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9766089965397924,
+        "fitted": true,
+        "symmetric_mm": 1.9058111587709736,
+        "hausdorff_mm": 8.10889693762017,
+        "volume_ml": 280.39381527063557,
+        "surface_displacement_median_mm": 0.7738099604461457
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9766089965397924,
+        "fitted": true,
+        "symmetric_mm": 1.9058111587709736,
+        "hausdorff_mm": 8.10889693762017,
+        "volume_ml": 280.39381527063557,
+        "surface_displacement_median_mm": 0.7738099604461457
+      }
+    },
+    {
+      "patient": "patient113",
+      "frame": 8,
+      "fitted": true,
+      "reference_volume_ml": 238.8399817533544,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9651471564505422,
+        "fitted": true,
+        "symmetric_mm": 2.0811292452911867,
+        "hausdorff_mm": 8.094997306122881,
+        "volume_ml": 234.0041704017217,
+        "surface_displacement_median_mm": 1.3026759225158937
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9651471564505422,
+        "fitted": true,
+        "symmetric_mm": 2.0811292452911867,
+        "hausdorff_mm": 8.094997306122881,
+        "volume_ml": 234.0041704017217,
+        "surface_displacement_median_mm": 1.3026759225158937
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9651471564505422,
+        "fitted": true,
+        "symmetric_mm": 2.0811292452911867,
+        "hausdorff_mm": 8.094997306122881,
+        "volume_ml": 234.0041704017217,
+        "surface_displacement_median_mm": 1.3026759225158937
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9696333922261484,
+        "fitted": true,
+        "symmetric_mm": 2.0295473270680864,
+        "hausdorff_mm": 8.59081846439253,
+        "volume_ml": 234.549108763114,
+        "surface_displacement_median_mm": 0.9775805384781134
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9696333922261484,
+        "fitted": true,
+        "symmetric_mm": 2.0295473270680864,
+        "hausdorff_mm": 8.59081846439253,
+        "volume_ml": 234.549108763114,
+        "surface_displacement_median_mm": 0.9775805384781134
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9696333922261484,
+        "fitted": true,
+        "symmetric_mm": 2.0295473270680864,
+        "hausdorff_mm": 8.59081846439253,
+        "volume_ml": 234.549108763114,
+        "surface_displacement_median_mm": 0.9775805384781134
+      }
+    },
+    {
+      "patient": "patient114",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 192.26722861348384,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9383423633188555,
+        "fitted": true,
+        "symmetric_mm": 2.2154004223855552,
+        "hausdorff_mm": 9.859050349775648,
+        "volume_ml": 192.93508176022735,
+        "surface_displacement_median_mm": 1.8999568272213598
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9383423633188555,
+        "fitted": true,
+        "symmetric_mm": 2.2154004223855552,
+        "hausdorff_mm": 9.859050349775648,
+        "volume_ml": 192.93508176022735,
+        "surface_displacement_median_mm": 1.8999568272213598
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9383423633188555,
+        "fitted": true,
+        "symmetric_mm": 2.2154004223855552,
+        "hausdorff_mm": 9.859050349775648,
+        "volume_ml": 192.93508176022735,
+        "surface_displacement_median_mm": 1.8999568272213598
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8842286699224361,
+        "fitted": true,
+        "symmetric_mm": 4.035003732090473,
+        "hausdorff_mm": 23.589936081597536,
+        "volume_ml": 167.84730295353882,
+        "surface_displacement_median_mm": 5.522819684662178
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8842286699224361,
+        "fitted": true,
+        "symmetric_mm": 4.035003732090473,
+        "hausdorff_mm": 23.589936081597536,
+        "volume_ml": 167.84730295353882,
+        "surface_displacement_median_mm": 5.522819684662178
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8842286699224361,
+        "fitted": true,
+        "symmetric_mm": 4.035003732090473,
+        "hausdorff_mm": 23.589936081597536,
+        "volume_ml": 167.84730295353882,
+        "surface_displacement_median_mm": 5.522819684662178
+      }
+    },
+    {
+      "patient": "patient114",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 54.15443335215243,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.7816364114706656,
+        "fitted": true,
+        "symmetric_mm": 3.579395957105401,
+        "hausdorff_mm": 12.574004137853168,
+        "volume_ml": 68.40739568372427,
+        "surface_displacement_median_mm": 10.768230290011136
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 15,
+        "dice_lv_cavity": 0.7831817582707262,
+        "fitted": true,
+        "symmetric_mm": 3.579395957105401,
+        "hausdorff_mm": 12.574004137853168,
+        "volume_ml": 68.40739568372427,
+        "surface_displacement_median_mm": 10.768230290011136
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 15,
+        "dice_lv_cavity": 0.7831817582707262,
+        "fitted": true,
+        "symmetric_mm": 3.579395957105401,
+        "hausdorff_mm": 12.574004137853168,
+        "volume_ml": 68.40739568372427,
+        "surface_displacement_median_mm": 10.768230290011136
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8904151404151404,
+        "fitted": true,
+        "symmetric_mm": 2.1411892894357285,
+        "hausdorff_mm": 11.584805594053751,
+        "volume_ml": 52.66575143060882,
+        "surface_displacement_median_mm": 6.501557512140838
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8904151404151404,
+        "fitted": true,
+        "symmetric_mm": 2.1411892894357285,
+        "hausdorff_mm": 11.584805594053751,
+        "volume_ml": 52.66575143060882,
+        "surface_displacement_median_mm": 6.501557512140838
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8904151404151404,
+        "fitted": true,
+        "symmetric_mm": 2.1411892894357285,
+        "hausdorff_mm": 11.584805594053751,
+        "volume_ml": 52.66575143060882,
+        "surface_displacement_median_mm": 6.501557512140838
+      }
+    },
+    {
+      "patient": "patient119",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 128.3219387571949,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9714907733775658,
+        "fitted": true,
+        "symmetric_mm": 1.449219651448605,
+        "hausdorff_mm": 8.806086322016807,
+        "volume_ml": 126.7397005391381,
+        "surface_displacement_median_mm": 0.9797481860034571
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9714907733775658,
+        "fitted": true,
+        "symmetric_mm": 1.449219651448605,
+        "hausdorff_mm": 8.806086322016807,
+        "volume_ml": 126.7397005391381,
+        "surface_displacement_median_mm": 0.9797481860034571
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9714907733775658,
+        "fitted": true,
+        "symmetric_mm": 1.449219651448605,
+        "hausdorff_mm": 8.806086322016807,
+        "volume_ml": 126.7397005391381,
+        "surface_displacement_median_mm": 0.9797481860034571
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9764978143481615,
+        "fitted": true,
+        "symmetric_mm": 1.4111719741636886,
+        "hausdorff_mm": 7.517718493074655,
+        "volume_ml": 129.30734178771348,
+        "surface_displacement_median_mm": 0.6901133201159187
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9764978143481615,
+        "fitted": true,
+        "symmetric_mm": 1.4111719741636886,
+        "hausdorff_mm": 7.517718493074655,
+        "volume_ml": 129.30734178771348,
+        "surface_displacement_median_mm": 0.6901133201159187
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9764978143481615,
+        "fitted": true,
+        "symmetric_mm": 1.4111719741636886,
+        "hausdorff_mm": 7.517718493074655,
+        "volume_ml": 129.30734178771348,
+        "surface_displacement_median_mm": 0.6901133201159187
+      }
+    },
+    {
+      "patient": "patient119",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 47.53436502446544,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8866623292127521,
+        "fitted": true,
+        "symmetric_mm": 2.4817954325414315,
+        "hausdorff_mm": 15.464403475053892,
+        "volume_ml": 51.49204159344969,
+        "surface_displacement_median_mm": 8.093848328290164
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8866623292127521,
+        "fitted": true,
+        "symmetric_mm": 2.4817954325414315,
+        "hausdorff_mm": 15.464403475053892,
+        "volume_ml": 51.49204159344969,
+        "surface_displacement_median_mm": 8.093848328290164
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 5,
+        "dice_lv_cavity": 0.8859375,
+        "fitted": true,
+        "symmetric_mm": 2.4817954325414315,
+        "hausdorff_mm": 15.464403475053892,
+        "volume_ml": 51.49204159344969,
+        "surface_displacement_median_mm": 8.093848328290164
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9532685035116153,
+        "fitted": true,
+        "symmetric_mm": 2.001296187323508,
+        "hausdorff_mm": 8.453163414040647,
+        "volume_ml": 46.985298657886275,
+        "surface_displacement_median_mm": 3.5827320898493142
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9532685035116153,
+        "fitted": true,
+        "symmetric_mm": 2.001296187323508,
+        "hausdorff_mm": 8.453163414040647,
+        "volume_ml": 46.985298657886275,
+        "surface_displacement_median_mm": 3.5827320898493142
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9532685035116153,
+        "fitted": true,
+        "symmetric_mm": 2.001296187323508,
+        "hausdorff_mm": 8.453163414040647,
+        "volume_ml": 46.985298657886275,
+        "surface_displacement_median_mm": 3.5827320898493142
+      }
+    },
+    {
+      "patient": "patient122",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 202.5601652652684,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.962178517397882,
+        "fitted": true,
+        "symmetric_mm": 2.323406723718589,
+        "hausdorff_mm": 9.107962168401153,
+        "volume_ml": 210.88891960649062,
+        "surface_displacement_median_mm": 1.3148524437623996
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.962178517397882,
+        "fitted": true,
+        "symmetric_mm": 2.323406723718589,
+        "hausdorff_mm": 9.107962168401153,
+        "volume_ml": 210.88891960649062,
+        "surface_displacement_median_mm": 1.3148524437623996
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.962178517397882,
+        "fitted": true,
+        "symmetric_mm": 2.323406723718589,
+        "hausdorff_mm": 9.107962168401153,
+        "volume_ml": 210.88891960649062,
+        "surface_displacement_median_mm": 1.3148524437623996
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9677988531098368,
+        "fitted": true,
+        "symmetric_mm": 2.32531229634169,
+        "hausdorff_mm": 9.201732943133637,
+        "volume_ml": 210.90199268559735,
+        "surface_displacement_median_mm": 5.34508820425037
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9677988531098368,
+        "fitted": true,
+        "symmetric_mm": 2.32531229634169,
+        "hausdorff_mm": 9.201732943133637,
+        "volume_ml": 210.90199268559735,
+        "surface_displacement_median_mm": 5.34508820425037
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9677988531098368,
+        "fitted": true,
+        "symmetric_mm": 2.32531229634169,
+        "hausdorff_mm": 9.201732943133637,
+        "volume_ml": 210.90199268559735,
+        "surface_displacement_median_mm": 5.34508820425037
+      }
+    },
+    {
+      "patient": "patient122",
+      "frame": 6,
+      "fitted": true,
+      "reference_volume_ml": 141.68496559026718,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9314593410605093,
+        "fitted": true,
+        "symmetric_mm": 2.5520383574461762,
+        "hausdorff_mm": 8.935579360380226,
+        "volume_ml": 145.28353571030746,
+        "surface_displacement_median_mm": 6.224440054255577
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9314593410605093,
+        "fitted": true,
+        "symmetric_mm": 2.5520383574461762,
+        "hausdorff_mm": 8.935579360380226,
+        "volume_ml": 145.28353571030746,
+        "surface_displacement_median_mm": 6.224440054255577
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9314593410605093,
+        "fitted": true,
+        "symmetric_mm": 2.5520383574461762,
+        "hausdorff_mm": 8.935579360380226,
+        "volume_ml": 145.28353571030746,
+        "surface_displacement_median_mm": 6.224440054255577
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540501271340356,
+        "fitted": true,
+        "symmetric_mm": 2.223249012291085,
+        "hausdorff_mm": 8.52988345730568,
+        "volume_ml": 145.76929575267806,
+        "surface_displacement_median_mm": 1.263141767110731
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540501271340356,
+        "fitted": true,
+        "symmetric_mm": 2.223249012291085,
+        "hausdorff_mm": 8.52988345730568,
+        "volume_ml": 145.76929575267806,
+        "surface_displacement_median_mm": 1.263141767110731
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540501271340356,
+        "fitted": true,
+        "symmetric_mm": 2.223249012291085,
+        "hausdorff_mm": 8.52988345730568,
+        "volume_ml": 145.76929575267806,
+        "surface_displacement_median_mm": 1.263141767110731
+      }
+    },
+    {
+      "patient": "patient123",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 94.785375096485,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8882100238663484,
+        "fitted": true,
+        "symmetric_mm": 3.6284180256344865,
+        "hausdorff_mm": 10.256110646977117,
+        "volume_ml": 112.96399509225027,
+        "surface_displacement_median_mm": 5.4173199081489205
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8882100238663484,
+        "fitted": true,
+        "symmetric_mm": 3.6284180256344865,
+        "hausdorff_mm": 10.256110646977117,
+        "volume_ml": 112.96399509225027,
+        "surface_displacement_median_mm": 5.4173199081489205
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8882100238663484,
+        "fitted": true,
+        "symmetric_mm": 3.6284180256344865,
+        "hausdorff_mm": 10.256110646977117,
+        "volume_ml": 112.96399509225027,
+        "surface_displacement_median_mm": 5.4173199081489205
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8912280701754386,
+        "fitted": true,
+        "symmetric_mm": 3.575922496387424,
+        "hausdorff_mm": 11.007349752182115,
+        "volume_ml": 113.22892653518309,
+        "surface_displacement_median_mm": 5.393619178471812
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8912280701754386,
+        "fitted": true,
+        "symmetric_mm": 3.575922496387424,
+        "hausdorff_mm": 11.007349752182115,
+        "volume_ml": 113.22892653518309,
+        "surface_displacement_median_mm": 5.393619178471812
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8912280701754386,
+        "fitted": true,
+        "symmetric_mm": 3.575922496387424,
+        "hausdorff_mm": 11.007349752182115,
+        "volume_ml": 113.22892653518309,
+        "surface_displacement_median_mm": 5.393619178471812
+      }
+    },
+    {
+      "patient": "patient123",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 23.623283374504567,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.777008727053867,
+        "fitted": true,
+        "symmetric_mm": 3.696741693358769,
+        "hausdorff_mm": 10.444006063571154,
+        "volume_ml": 37.28694990444135,
+        "surface_displacement_median_mm": 6.043205389507021
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.777008727053867,
+        "fitted": true,
+        "symmetric_mm": 3.696741693358769,
+        "hausdorff_mm": 10.444006063571154,
+        "volume_ml": 37.28694990444135,
+        "surface_displacement_median_mm": 6.043205389507021
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.777008727053867,
+        "fitted": true,
+        "symmetric_mm": 3.696741693358769,
+        "hausdorff_mm": 10.444006063571154,
+        "volume_ml": 37.28694990444135,
+        "surface_displacement_median_mm": 6.043205389507021
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8480565371024735,
+        "fitted": true,
+        "symmetric_mm": 3.4987255886335324,
+        "hausdorff_mm": 10.7019327653601,
+        "volume_ml": 35.38248451011784,
+        "surface_displacement_median_mm": 6.290055882389391
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8480565371024735,
+        "fitted": true,
+        "symmetric_mm": 3.4987255886335324,
+        "hausdorff_mm": 10.7019327653601,
+        "volume_ml": 35.38248451011784,
+        "surface_displacement_median_mm": 6.290055882389391
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 1,
+        "dice_lv_cavity": 0.8483290488431876,
+        "fitted": true,
+        "symmetric_mm": 3.489790308923699,
+        "hausdorff_mm": 10.71006120303197,
+        "volume_ml": 35.24331407752178,
+        "surface_displacement_median_mm": 6.290055882389391
+      }
+    },
+    {
+      "patient": "patient124",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 118.40974920316047,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9290565606985902,
+        "fitted": true,
+        "symmetric_mm": 3.009006919496008,
+        "hausdorff_mm": 71.33918187133744,
+        "volume_ml": 158.96500070252273,
+        "surface_displacement_median_mm": 1.461962005553365
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 98,
+        "dice_lv_cavity": 0.9342822705619009,
+        "fitted": true,
+        "symmetric_mm": 2.0153642431995715,
+        "hausdorff_mm": 25.124834621706075,
+        "volume_ml": 119.30561782629755,
+        "surface_displacement_median_mm": 1.3207086740394984
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 98,
+        "dice_lv_cavity": 0.9342822705619009,
+        "fitted": true,
+        "symmetric_mm": 2.0153642431995715,
+        "hausdorff_mm": 25.124834621706075,
+        "volume_ml": 119.30561782629755,
+        "surface_displacement_median_mm": 1.3207086740394984
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9695998099988125,
+        "fitted": true,
+        "symmetric_mm": 1.395541673368286,
+        "hausdorff_mm": 6.733485251241492,
+        "volume_ml": 112.01427271054713,
+        "surface_displacement_median_mm": 0.7805111287549987
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9695998099988125,
+        "fitted": true,
+        "symmetric_mm": 1.395541673368286,
+        "hausdorff_mm": 6.733485251241492,
+        "volume_ml": 112.01427271054713,
+        "surface_displacement_median_mm": 0.7805111287549987
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9695998099988125,
+        "fitted": true,
+        "symmetric_mm": 1.395541673368286,
+        "hausdorff_mm": 6.733485251241492,
+        "volume_ml": 112.01427271054713,
+        "surface_displacement_median_mm": 0.7805111287549987
+      }
+    },
+    {
+      "patient": "patient124",
+      "frame": 7,
+      "fitted": true,
+      "reference_volume_ml": 43.845450883603895,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8580280172413793,
+        "fitted": true,
+        "symmetric_mm": 3.9989826974274747,
+        "hausdorff_mm": 64.59655313516751,
+        "volume_ml": 104.11972393495631,
+        "surface_displacement_median_mm": 3.796932028407511
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 93,
+        "dice_lv_cavity": 0.8689128359023326,
+        "fitted": true,
+        "symmetric_mm": 2.5871375042630698,
+        "hausdorff_mm": 18.09920229485692,
+        "volume_ml": 48.82253029412936,
+        "surface_displacement_median_mm": 3.638442736771502
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 109,
+        "dice_lv_cavity": 0.8708133971291866,
+        "fitted": true,
+        "symmetric_mm": 2.5871375042630698,
+        "hausdorff_mm": 18.09920229485692,
+        "volume_ml": 48.82253029412936,
+        "surface_displacement_median_mm": 3.638442736771502
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9351100811123986,
+        "fitted": true,
+        "symmetric_mm": 1.3516363473927226,
+        "hausdorff_mm": 7.488262834186819,
+        "volume_ml": 40.57829332478054,
+        "surface_displacement_median_mm": 1.001812816900971
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9351100811123986,
+        "fitted": true,
+        "symmetric_mm": 1.3516363473927226,
+        "hausdorff_mm": 7.488262834186819,
+        "volume_ml": 40.57829332478054,
+        "surface_displacement_median_mm": 1.001812816900971
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9351100811123986,
+        "fitted": true,
+        "symmetric_mm": 1.3516363473927226,
+        "hausdorff_mm": 7.488262834186819,
+        "volume_ml": 40.57829332478054,
+        "surface_displacement_median_mm": 1.001812816900971
+      }
+    },
+    {
+      "patient": "patient127",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 134.03071838243048,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9678813772304599,
+        "fitted": true,
+        "symmetric_mm": 1.4600395135517559,
+        "hausdorff_mm": 5.141008157810885,
+        "volume_ml": 131.85147569097518,
+        "surface_displacement_median_mm": 1.076952054367228
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9678813772304599,
+        "fitted": true,
+        "symmetric_mm": 1.4600395135517559,
+        "hausdorff_mm": 5.141008157810885,
+        "volume_ml": 131.85147569097518,
+        "surface_displacement_median_mm": 1.076952054367228
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9678813772304599,
+        "fitted": true,
+        "symmetric_mm": 1.4600395135517559,
+        "hausdorff_mm": 5.141008157810885,
+        "volume_ml": 131.85147569097518,
+        "surface_displacement_median_mm": 1.076952054367228
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9704658479650867,
+        "fitted": true,
+        "symmetric_mm": 1.4465708486999707,
+        "hausdorff_mm": 9.852394814338297,
+        "volume_ml": 129.05762992578394,
+        "surface_displacement_median_mm": 0.675417114037884
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9704658479650867,
+        "fitted": true,
+        "symmetric_mm": 1.4465708486999707,
+        "hausdorff_mm": 9.852394814338297,
+        "volume_ml": 129.05762992578394,
+        "surface_displacement_median_mm": 0.675417114037884
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9704658479650867,
+        "fitted": true,
+        "symmetric_mm": 1.4465708486999707,
+        "hausdorff_mm": 9.852394814338297,
+        "volume_ml": 129.05762992578394,
+        "surface_displacement_median_mm": 0.675417114037884
+      }
+    },
+    {
+      "patient": "patient127",
+      "frame": 7,
+      "fitted": true,
+      "reference_volume_ml": 63.8175434960052,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9213459293068677,
+        "fitted": true,
+        "symmetric_mm": 1.8704656679225153,
+        "hausdorff_mm": 7.316041092145298,
+        "volume_ml": 59.733573564024404,
+        "surface_displacement_median_mm": 5.526355202869626
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9213459293068677,
+        "fitted": true,
+        "symmetric_mm": 1.8704656679225153,
+        "hausdorff_mm": 7.316041092145298,
+        "volume_ml": 59.733573564024404,
+        "surface_displacement_median_mm": 5.526355202869626
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9213459293068677,
+        "fitted": true,
+        "symmetric_mm": 1.8704656679225153,
+        "hausdorff_mm": 7.316041092145298,
+        "volume_ml": 59.733573564024404,
+        "surface_displacement_median_mm": 5.526355202869626
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540106951871657,
+        "fitted": true,
+        "symmetric_mm": 1.716262315396397,
+        "hausdorff_mm": 6.007145580769149,
+        "volume_ml": 57.40805024370452,
+        "surface_displacement_median_mm": 5.487272236685094
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540106951871657,
+        "fitted": true,
+        "symmetric_mm": 1.716262315396397,
+        "hausdorff_mm": 6.007145580769149,
+        "volume_ml": 57.40805024370452,
+        "surface_displacement_median_mm": 5.487272236685094
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9540106951871657,
+        "fitted": true,
+        "symmetric_mm": 1.716262315396397,
+        "hausdorff_mm": 6.007145580769149,
+        "volume_ml": 57.40805024370452,
+        "surface_displacement_median_mm": 5.487272236685094
+      }
+    },
+    {
+      "patient": "patient130",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 178.52738334158425,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593920913798945,
+        "fitted": true,
+        "symmetric_mm": 1.8564443312520371,
+        "hausdorff_mm": 7.506917923698661,
+        "volume_ml": 173.90924797418822,
+        "surface_displacement_median_mm": 1.4879234340662182
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593920913798945,
+        "fitted": true,
+        "symmetric_mm": 1.8564443312520371,
+        "hausdorff_mm": 7.506917923698661,
+        "volume_ml": 173.90924797418822,
+        "surface_displacement_median_mm": 1.4879234340662182
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593920913798945,
+        "fitted": true,
+        "symmetric_mm": 1.8564443312520371,
+        "hausdorff_mm": 7.506917923698661,
+        "volume_ml": 173.90924797418822,
+        "surface_displacement_median_mm": 1.4879234340662182
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.976824694682181,
+        "fitted": true,
+        "symmetric_mm": 1.8017325176145875,
+        "hausdorff_mm": 6.968240981473855,
+        "volume_ml": 176.29378392846613,
+        "surface_displacement_median_mm": 0.6262740342248327
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.976824694682181,
+        "fitted": true,
+        "symmetric_mm": 1.8017325176145875,
+        "hausdorff_mm": 6.968240981473855,
+        "volume_ml": 176.29378392846613,
+        "surface_displacement_median_mm": 0.6262740342248327
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.976824694682181,
+        "fitted": true,
+        "symmetric_mm": 1.8017325176145875,
+        "hausdorff_mm": 6.968240981473855,
+        "volume_ml": 176.29378392846613,
+        "surface_displacement_median_mm": 0.6262740342248327
+      }
+    },
+    {
+      "patient": "patient130",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 68.2960269391618,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8954795503468069,
+        "fitted": true,
+        "symmetric_mm": 2.976561600635808,
+        "hausdorff_mm": 11.829310952925256,
+        "volume_ml": 72.14918340670224,
+        "surface_displacement_median_mm": 5.153031867291084
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8954795503468069,
+        "fitted": true,
+        "symmetric_mm": 2.976561600635808,
+        "hausdorff_mm": 11.829310952925256,
+        "volume_ml": 72.14918340670224,
+        "surface_displacement_median_mm": 5.153031867291084
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8954795503468069,
+        "fitted": true,
+        "symmetric_mm": 2.976561600635808,
+        "hausdorff_mm": 11.829310952925256,
+        "volume_ml": 72.14918340670224,
+        "surface_displacement_median_mm": 5.153031867291084
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8516461184121393,
+        "fitted": true,
+        "symmetric_mm": 1.9441655813497492,
+        "hausdorff_mm": 10.780420963163696,
+        "volume_ml": 61.21719138218934,
+        "surface_displacement_median_mm": 1.21609999078195
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 14,
+        "dice_lv_cavity": 0.849463825166282,
+        "fitted": true,
+        "symmetric_mm": 3.0418154484112363,
+        "hausdorff_mm": 16.324786973769537,
+        "volume_ml": 54.811466353685304,
+        "surface_displacement_median_mm": 1.214890958664553
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 14,
+        "dice_lv_cavity": 0.849463825166282,
+        "fitted": true,
+        "symmetric_mm": 3.0418154484112363,
+        "hausdorff_mm": 16.324786973769537,
+        "volume_ml": 54.811466353685304,
+        "surface_displacement_median_mm": 1.214890958664553
+      }
+    },
+    {
+      "patient": "patient140",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 142.31165125387955,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9329298057209802,
+        "fitted": true,
+        "symmetric_mm": 1.9879184506191545,
+        "hausdorff_mm": 6.314388671983425,
+        "volume_ml": 141.79070538713097,
+        "surface_displacement_median_mm": 3.0852651028563987
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 2,
+        "dice_lv_cavity": 0.933020894356571,
+        "fitted": true,
+        "symmetric_mm": 1.9879184506191545,
+        "hausdorff_mm": 6.314388671983425,
+        "volume_ml": 141.79070538713097,
+        "surface_displacement_median_mm": 3.0852651028563987
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 2,
+        "dice_lv_cavity": 0.933020894356571,
+        "fitted": true,
+        "symmetric_mm": 1.9879184506191545,
+        "hausdorff_mm": 6.314388671983425,
+        "volume_ml": 141.79070538713097,
+        "surface_displacement_median_mm": 3.0852651028563987
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.964711705023509,
+        "fitted": true,
+        "symmetric_mm": 1.808212675718103,
+        "hausdorff_mm": 6.8265390675648,
+        "volume_ml": 133.6024438737582,
+        "surface_displacement_median_mm": 2.9606625370262787
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.964711705023509,
+        "fitted": true,
+        "symmetric_mm": 1.808212675718103,
+        "hausdorff_mm": 6.8265390675648,
+        "volume_ml": 133.6024438737582,
+        "surface_displacement_median_mm": 2.9606625370262787
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.964711705023509,
+        "fitted": true,
+        "symmetric_mm": 1.808212675718103,
+        "hausdorff_mm": 6.8265390675648,
+        "volume_ml": 133.6024438737582,
+        "surface_displacement_median_mm": 2.9606625370262787
+      }
+    },
+    {
+      "patient": "patient140",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 61.92969047256743,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8984434527049091,
+        "fitted": true,
+        "symmetric_mm": 2.7391289006789465,
+        "hausdorff_mm": 15.476862940991678,
+        "volume_ml": 59.01074766815829,
+        "surface_displacement_median_mm": 7.364254741073827
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 80,
+        "dice_lv_cavity": 0.9063357856593829,
+        "fitted": true,
+        "symmetric_mm": 2.140216342104962,
+        "hausdorff_mm": 10.066815633020658,
+        "volume_ml": 59.76086465421248,
+        "surface_displacement_median_mm": 5.867265481740099
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 80,
+        "dice_lv_cavity": 0.9063357856593829,
+        "fitted": true,
+        "symmetric_mm": 2.140216342104962,
+        "hausdorff_mm": 10.066815633020658,
+        "volume_ml": 59.76086465421248,
+        "surface_displacement_median_mm": 5.867265481740099
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9185408371892823,
+        "fitted": true,
+        "symmetric_mm": 1.8824155895172727,
+        "hausdorff_mm": 7.3722978534206804,
+        "volume_ml": 62.809584809857974,
+        "surface_displacement_median_mm": 3.1592028616177457
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9185408371892823,
+        "fitted": true,
+        "symmetric_mm": 1.8824155895172727,
+        "hausdorff_mm": 7.3722978534206804,
+        "volume_ml": 62.809584809857974,
+        "surface_displacement_median_mm": 3.1592028616177457
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9185408371892823,
+        "fitted": true,
+        "symmetric_mm": 1.8824155895172727,
+        "hausdorff_mm": 7.3722978534206804,
+        "volume_ml": 62.809584809857974,
+        "surface_displacement_median_mm": 3.1592028616177457
+      }
+    },
+    {
+      "patient": "patient143",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 238.0954716213368,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9650262394950273,
+        "fitted": true,
+        "symmetric_mm": 2.3876547346111807,
+        "hausdorff_mm": 11.590674125582341,
+        "volume_ml": 234.88807786035645,
+        "surface_displacement_median_mm": 1.3861630262389677
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9650262394950273,
+        "fitted": true,
+        "symmetric_mm": 2.3876547346111807,
+        "hausdorff_mm": 11.590674125582341,
+        "volume_ml": 234.88807786035645,
+        "surface_displacement_median_mm": 1.3861630262389677
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9650262394950273,
+        "fitted": true,
+        "symmetric_mm": 2.3876547346111807,
+        "hausdorff_mm": 11.590674125582341,
+        "volume_ml": 234.88807786035645,
+        "surface_displacement_median_mm": 1.3861630262389677
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9705501976868788,
+        "fitted": true,
+        "symmetric_mm": 2.209911542158002,
+        "hausdorff_mm": 11.951513684172852,
+        "volume_ml": 230.5743601014518,
+        "surface_displacement_median_mm": 5.333491059643142
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9705501976868788,
+        "fitted": true,
+        "symmetric_mm": 2.209911542158002,
+        "hausdorff_mm": 11.951513684172852,
+        "volume_ml": 230.5743601014518,
+        "surface_displacement_median_mm": 5.333491059643142
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9705501976868788,
+        "fitted": true,
+        "symmetric_mm": 2.209911542158002,
+        "hausdorff_mm": 11.951513684172852,
+        "volume_ml": 230.5743601014518,
+        "surface_displacement_median_mm": 5.333491059643142
+      }
+    },
+    {
+      "patient": "patient143",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 176.72205277463095,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9576610931847072,
+        "fitted": true,
+        "symmetric_mm": 2.3165050799446205,
+        "hausdorff_mm": 10.318007485882422,
+        "volume_ml": 177.00090831873706,
+        "surface_displacement_median_mm": 1.2988261411607906
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9576610931847072,
+        "fitted": true,
+        "symmetric_mm": 2.3165050799446205,
+        "hausdorff_mm": 10.318007485882422,
+        "volume_ml": 177.00090831873706,
+        "surface_displacement_median_mm": 1.2988261411607906
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9576610931847072,
+        "fitted": true,
+        "symmetric_mm": 2.3165050799446205,
+        "hausdorff_mm": 10.318007485882422,
+        "volume_ml": 177.00090831873706,
+        "surface_displacement_median_mm": 1.2988261411607906
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.967236537419323,
+        "fitted": true,
+        "symmetric_mm": 2.1837532922705165,
+        "hausdorff_mm": 9.52427521178878,
+        "volume_ml": 172.86521311688077,
+        "surface_displacement_median_mm": 0.8781556827581474
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.967236537419323,
+        "fitted": true,
+        "symmetric_mm": 2.1837532922705165,
+        "hausdorff_mm": 9.52427521178878,
+        "volume_ml": 172.86521311688077,
+        "surface_displacement_median_mm": 0.8781556827581474
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.967236537419323,
+        "fitted": true,
+        "symmetric_mm": 2.1837532922705165,
+        "hausdorff_mm": 9.52427521178878,
+        "volume_ml": 172.86521311688077,
+        "surface_displacement_median_mm": 0.8781556827581474
+      }
+    },
+    {
+      "patient": "patient001",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 273.0871284609586,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9470538346593433,
+        "fitted": true,
+        "symmetric_mm": 3.304209188920696,
+        "hausdorff_mm": 10.056285377895465,
+        "volume_ml": 291.61837815367664,
+        "surface_displacement_median_mm": 5.239026307711017
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9470538346593433,
+        "fitted": true,
+        "symmetric_mm": 3.304209188920696,
+        "hausdorff_mm": 10.056285377895465,
+        "volume_ml": 291.61837815367664,
+        "surface_displacement_median_mm": 5.239026307711017
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9470538346593433,
+        "fitted": true,
+        "symmetric_mm": 3.304209188920696,
+        "hausdorff_mm": 10.056285377895465,
+        "volume_ml": 291.61837815367664,
+        "surface_displacement_median_mm": 5.239026307711017
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.977363184079602,
+        "fitted": true,
+        "symmetric_mm": 1.845999666194484,
+        "hausdorff_mm": 6.0839883127321785,
+        "volume_ml": 270.1984441927455,
+        "surface_displacement_median_mm": 0.7808797816368743
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.977363184079602,
+        "fitted": true,
+        "symmetric_mm": 1.845999666194484,
+        "hausdorff_mm": 6.0839883127321785,
+        "volume_ml": 270.1984441927455,
+        "surface_displacement_median_mm": 0.7808797816368743
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.977363184079602,
+        "fitted": true,
+        "symmetric_mm": 1.845999666194484,
+        "hausdorff_mm": 6.0839883127321785,
+        "volume_ml": 270.1984441927455,
+        "surface_displacement_median_mm": 0.7808797816368743
+      }
+    },
+    {
+      "patient": "patient001",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 208.94857075265818,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9394099051633298,
+        "fitted": true,
+        "symmetric_mm": 3.4368083999265484,
+        "hausdorff_mm": 50.996566878120774,
+        "volume_ml": 228.9399037702776,
+        "surface_displacement_median_mm": 5.2725753742059815
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 42,
+        "dice_lv_cavity": 0.9414932939064315,
+        "fitted": true,
+        "symmetric_mm": 3.2384984984194527,
+        "hausdorff_mm": 11.634450532619443,
+        "volume_ml": 223.2347631725076,
+        "surface_displacement_median_mm": 5.2725753742059815
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 42,
+        "dice_lv_cavity": 0.9414932939064315,
+        "fitted": true,
+        "symmetric_mm": 3.2384984984194527,
+        "hausdorff_mm": 11.634450532619443,
+        "volume_ml": 223.2347631725076,
+        "surface_displacement_median_mm": 5.2725753742059815
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9688124966218042,
+        "fitted": true,
+        "symmetric_mm": 2.0025577674238537,
+        "hausdorff_mm": 6.968740473139356,
+        "volume_ml": 208.413610343331,
+        "surface_displacement_median_mm": 0.8825748325216007
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9688124966218042,
+        "fitted": true,
+        "symmetric_mm": 2.0025577674238537,
+        "hausdorff_mm": 6.968740473139356,
+        "volume_ml": 208.413610343331,
+        "surface_displacement_median_mm": 0.8825748325216007
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9688124966218042,
+        "fitted": true,
+        "symmetric_mm": 2.0025577674238537,
+        "hausdorff_mm": 6.968740473139356,
+        "volume_ml": 208.413610343331,
+        "surface_displacement_median_mm": 0.8825748325216007
+      }
+    },
+    {
+      "patient": "patient005",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 275.07156195631154,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593729677927234,
+        "fitted": true,
+        "symmetric_mm": 2.0625910246487837,
+        "hausdorff_mm": 8.807239857559408,
+        "volume_ml": 272.21613733559803,
+        "surface_displacement_median_mm": 1.5408265935818704
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593729677927234,
+        "fitted": true,
+        "symmetric_mm": 2.0625910246487837,
+        "hausdorff_mm": 8.807239857559408,
+        "volume_ml": 272.21613733559803,
+        "surface_displacement_median_mm": 1.5408265935818704
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9593729677927234,
+        "fitted": true,
+        "symmetric_mm": 2.0625910246487837,
+        "hausdorff_mm": 8.807239857559408,
+        "volume_ml": 272.21613733559803,
+        "surface_displacement_median_mm": 1.5408265935818704
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9779756807672547,
+        "fitted": true,
+        "symmetric_mm": 1.9188610931520347,
+        "hausdorff_mm": 7.249264814392079,
+        "volume_ml": 270.9180489994595,
+        "surface_displacement_median_mm": 0.6893536510583549
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9779756807672547,
+        "fitted": true,
+        "symmetric_mm": 1.9188610931520347,
+        "hausdorff_mm": 7.249264814392079,
+        "volume_ml": 270.9180489994595,
+        "surface_displacement_median_mm": 0.6893536510583549
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9779756807672547,
+        "fitted": true,
+        "symmetric_mm": 1.9188610931520347,
+        "hausdorff_mm": 7.249264814392079,
+        "volume_ml": 270.9180489994595,
+        "surface_displacement_median_mm": 0.6893536510583549
+      }
+    },
+    {
+      "patient": "patient005",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 209.0981564996234,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9541098008038514,
+        "fitted": true,
+        "symmetric_mm": 2.062826759848037,
+        "hausdorff_mm": 10.780838342325874,
+        "volume_ml": 209.688147103705,
+        "surface_displacement_median_mm": 1.3771139336590892
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9541098008038514,
+        "fitted": true,
+        "symmetric_mm": 2.062826759848037,
+        "hausdorff_mm": 10.780838342325874,
+        "volume_ml": 209.688147103705,
+        "surface_displacement_median_mm": 1.3771139336590892
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9541098008038514,
+        "fitted": true,
+        "symmetric_mm": 2.062826759848037,
+        "hausdorff_mm": 10.780838342325874,
+        "volume_ml": 209.688147103705,
+        "surface_displacement_median_mm": 1.3771139336590892
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9309978277949809,
+        "fitted": true,
+        "symmetric_mm": 2.547615571660973,
+        "hausdorff_mm": 12.343694702442727,
+        "volume_ml": 192.4392652335514,
+        "surface_displacement_median_mm": 0.9118569161869847
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9309978277949809,
+        "fitted": true,
+        "symmetric_mm": 2.547615571660973,
+        "hausdorff_mm": 12.343694702442727,
+        "volume_ml": 192.4392652335514,
+        "surface_displacement_median_mm": 0.9118569161869847
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9309978277949809,
+        "fitted": true,
+        "symmetric_mm": 2.547615571660973,
+        "hausdorff_mm": 12.343694702442727,
+        "volume_ml": 192.4392652335514,
+        "surface_displacement_median_mm": 0.9118569161869847
+      }
+    },
+    {
+      "patient": "patient010",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 273.88479588699903,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9670633147869878,
+        "fitted": true,
+        "symmetric_mm": 2.090244405083463,
+        "hausdorff_mm": 8.026600216113174,
+        "volume_ml": 277.6965756902428,
+        "surface_displacement_median_mm": 1.4295297385143209
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9670633147869878,
+        "fitted": true,
+        "symmetric_mm": 2.090244405083463,
+        "hausdorff_mm": 8.026600216113174,
+        "volume_ml": 277.6965756902428,
+        "surface_displacement_median_mm": 1.4295297385143209
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9670633147869878,
+        "fitted": true,
+        "symmetric_mm": 2.090244405083463,
+        "hausdorff_mm": 8.026600216113174,
+        "volume_ml": 277.6965756902428,
+        "surface_displacement_median_mm": 1.4295297385143209
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745210029570219,
+        "fitted": true,
+        "symmetric_mm": 2.13581256279267,
+        "hausdorff_mm": 10.229795579969402,
+        "volume_ml": 279.08611665605895,
+        "surface_displacement_median_mm": 0.7740050493623629
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745210029570219,
+        "fitted": true,
+        "symmetric_mm": 2.13581256279267,
+        "hausdorff_mm": 10.229795579969402,
+        "volume_ml": 279.08611665605895,
+        "surface_displacement_median_mm": 0.7740050493623629
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745210029570219,
+        "fitted": true,
+        "symmetric_mm": 2.13581256279267,
+        "hausdorff_mm": 10.229795579969402,
+        "volume_ml": 279.08611665605895,
+        "surface_displacement_median_mm": 0.7740050493623629
+      }
+    },
+    {
+      "patient": "patient010",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 244.82482515048338,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9630339539978094,
+        "fitted": true,
+        "symmetric_mm": 2.1442754679528693,
+        "hausdorff_mm": 7.894604338183332,
+        "volume_ml": 246.46317355645468,
+        "surface_displacement_median_mm": 5.937398622294662
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9630339539978094,
+        "fitted": true,
+        "symmetric_mm": 2.1442754679528693,
+        "hausdorff_mm": 7.894604338183332,
+        "volume_ml": 246.46317355645468,
+        "surface_displacement_median_mm": 5.937398622294662
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9630339539978094,
+        "fitted": true,
+        "symmetric_mm": 2.1442754679528693,
+        "hausdorff_mm": 7.894604338183332,
+        "volume_ml": 246.46317355645468,
+        "surface_displacement_median_mm": 5.937398622294662
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9784637799936257,
+        "fitted": true,
+        "symmetric_mm": 2.09862711085125,
+        "hausdorff_mm": 8.3954113145721,
+        "volume_ml": 248.24471091424078,
+        "surface_displacement_median_mm": 0.6575697869398273
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9784637799936257,
+        "fitted": true,
+        "symmetric_mm": 2.09862711085125,
+        "hausdorff_mm": 8.3954113145721,
+        "volume_ml": 248.24471091424078,
+        "surface_displacement_median_mm": 0.6575697869398273
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9784637799936257,
+        "fitted": true,
+        "symmetric_mm": 2.09862711085125,
+        "hausdorff_mm": 8.3954113145721,
+        "volume_ml": 248.24471091424078,
+        "surface_displacement_median_mm": 0.6575697869398273
+      }
+    },
+    {
+      "patient": "patient015",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 177.53072526373072,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9654509634328,
+        "fitted": true,
+        "symmetric_mm": 2.091265836929464,
+        "hausdorff_mm": 22.103117928676042,
+        "volume_ml": 186.68647877890672,
+        "surface_displacement_median_mm": 1.389633270179885
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 13,
+        "dice_lv_cavity": 0.9660544283104144,
+        "fitted": true,
+        "symmetric_mm": 1.8509648974002428,
+        "hausdorff_mm": 7.057523587412232,
+        "volume_ml": 176.93275970058923,
+        "surface_displacement_median_mm": 1.305639123433911
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 13,
+        "dice_lv_cavity": 0.9660544283104144,
+        "fitted": true,
+        "symmetric_mm": 1.8509648974002428,
+        "hausdorff_mm": 7.057523587412232,
+        "volume_ml": 176.93275970058923,
+        "surface_displacement_median_mm": 1.305639123433911
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.973433631689202,
+        "fitted": true,
+        "symmetric_mm": 1.8807497231878005,
+        "hausdorff_mm": 7.353270697434564,
+        "volume_ml": 180.12047949534735,
+        "surface_displacement_median_mm": 0.7074475962587199
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.973433631689202,
+        "fitted": true,
+        "symmetric_mm": 1.8807497231878005,
+        "hausdorff_mm": 7.353270697434564,
+        "volume_ml": 180.12047949534735,
+        "surface_displacement_median_mm": 0.7074475962587199
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.973433631689202,
+        "fitted": true,
+        "symmetric_mm": 1.8807497231878005,
+        "hausdorff_mm": 7.353270697434564,
+        "volume_ml": 180.12047949534735,
+        "surface_displacement_median_mm": 0.7074475962587199
+      }
+    },
+    {
+      "patient": "patient015",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 133.96711237288034,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9392646760105626,
+        "fitted": true,
+        "symmetric_mm": 1.7364621794643325,
+        "hausdorff_mm": 5.668858652778244,
+        "volume_ml": 121.73168591097082,
+        "surface_displacement_median_mm": 1.562796899518052
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9392646760105626,
+        "fitted": true,
+        "symmetric_mm": 1.7364621794643325,
+        "hausdorff_mm": 5.668858652778244,
+        "volume_ml": 121.73168591097082,
+        "surface_displacement_median_mm": 1.562796899518052
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9392646760105626,
+        "fitted": true,
+        "symmetric_mm": 1.7364621794643325,
+        "hausdorff_mm": 5.668858652778244,
+        "volume_ml": 121.73168591097082,
+        "surface_displacement_median_mm": 1.562796899518052
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.955841027699719,
+        "fitted": true,
+        "symmetric_mm": 1.6887156078099166,
+        "hausdorff_mm": 5.531254857471648,
+        "volume_ml": 123.62336108791632,
+        "surface_displacement_median_mm": 1.1249879369427571
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.955841027699719,
+        "fitted": true,
+        "symmetric_mm": 1.6887156078099166,
+        "hausdorff_mm": 5.531254857471648,
+        "volume_ml": 123.62336108791632,
+        "surface_displacement_median_mm": 1.1249879369427571
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.955841027699719,
+        "fitted": true,
+        "symmetric_mm": 1.6887156078099166,
+        "hausdorff_mm": 5.531254857471648,
+        "volume_ml": 123.62336108791632,
+        "surface_displacement_median_mm": 1.1249879369427571
+      }
+    },
+    {
+      "patient": "patient024",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 82.6751726113584,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9493765586034912,
+        "fitted": true,
+        "symmetric_mm": 2.0077825422098243,
+        "hausdorff_mm": 6.601238771848277,
+        "volume_ml": 88.01251023705288,
+        "surface_displacement_median_mm": 1.3567202068218833
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9493765586034912,
+        "fitted": true,
+        "symmetric_mm": 2.0077825422098243,
+        "hausdorff_mm": 6.601238771848277,
+        "volume_ml": 88.01251023705288,
+        "surface_displacement_median_mm": 1.3567202068218833
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9493765586034912,
+        "fitted": true,
+        "symmetric_mm": 2.0077825422098243,
+        "hausdorff_mm": 6.601238771848277,
+        "volume_ml": 88.01251023705288,
+        "surface_displacement_median_mm": 1.3567202068218833
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.951516658378916,
+        "fitted": true,
+        "symmetric_mm": 2.071453621775998,
+        "hausdorff_mm": 7.923585223627439,
+        "volume_ml": 89.92155142609147,
+        "surface_displacement_median_mm": 5.30420188316338
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.951516658378916,
+        "fitted": true,
+        "symmetric_mm": 2.071453621775998,
+        "hausdorff_mm": 7.923585223627439,
+        "volume_ml": 89.92155142609147,
+        "surface_displacement_median_mm": 5.30420188316338
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.951516658378916,
+        "fitted": true,
+        "symmetric_mm": 2.071453621775998,
+        "hausdorff_mm": 7.923585223627439,
+        "volume_ml": 89.92155142609147,
+        "surface_displacement_median_mm": 5.30420188316338
+      }
+    },
+    {
+      "patient": "patient024",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 21.081574098510178,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9140070921985816,
+        "fitted": true,
+        "symmetric_mm": 1.927262292690827,
+        "hausdorff_mm": 6.366341712850968,
+        "volume_ml": 23.00523929425301,
+        "surface_displacement_median_mm": 5.443986554498384
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9140070921985816,
+        "fitted": true,
+        "symmetric_mm": 1.927262292690827,
+        "hausdorff_mm": 6.366341712850968,
+        "volume_ml": 23.00523929425301,
+        "surface_displacement_median_mm": 5.443986554498384
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9140070921985816,
+        "fitted": true,
+        "symmetric_mm": 1.927262292690827,
+        "hausdorff_mm": 6.366341712850968,
+        "volume_ml": 23.00523929425301,
+        "surface_displacement_median_mm": 5.443986554498384
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8866583019657047,
+        "fitted": true,
+        "symmetric_mm": 2.183198242970741,
+        "hausdorff_mm": 6.539057892904188,
+        "volume_ml": 25.915507360542293,
+        "surface_displacement_median_mm": 5.719035921620621
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8866583019657047,
+        "fitted": true,
+        "symmetric_mm": 2.183198242970741,
+        "hausdorff_mm": 6.539057892904188,
+        "volume_ml": 25.915507360542293,
+        "surface_displacement_median_mm": 5.719035921620621
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8866583019657047,
+        "fitted": true,
+        "symmetric_mm": 2.183198242970741,
+        "hausdorff_mm": 6.539057892904188,
+        "volume_ml": 25.915507360542293,
+        "surface_displacement_median_mm": 5.719035921620621
+      }
+    },
+    {
+      "patient": "patient025",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 153.7623426540594,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9558173784977909,
+        "fitted": true,
+        "symmetric_mm": 1.8882595512647418,
+        "hausdorff_mm": 7.028880044086423,
+        "volume_ml": 149.68088902191946,
+        "surface_displacement_median_mm": 1.1132484880304694
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9558173784977909,
+        "fitted": true,
+        "symmetric_mm": 1.8882595512647418,
+        "hausdorff_mm": 7.028880044086423,
+        "volume_ml": 149.68088902191946,
+        "surface_displacement_median_mm": 1.1132484880304694
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9558173784977909,
+        "fitted": true,
+        "symmetric_mm": 1.8882595512647418,
+        "hausdorff_mm": 7.028880044086423,
+        "volume_ml": 149.68088902191946,
+        "surface_displacement_median_mm": 1.1132484880304694
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8873307543520309,
+        "fitted": true,
+        "symmetric_mm": 1.9323738603478917,
+        "hausdorff_mm": 7.527448480534547,
+        "volume_ml": 149.1664495381681,
+        "surface_displacement_median_mm": 1.0045942130188106
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8873307543520309,
+        "fitted": true,
+        "symmetric_mm": 1.9323738603478917,
+        "hausdorff_mm": 7.527448480534547,
+        "volume_ml": 149.1664495381681,
+        "surface_displacement_median_mm": 1.0045942130188106
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 70,
+        "dice_lv_cavity": 0.8830885030957873,
+        "fitted": true,
+        "symmetric_mm": 3.1349068915389937,
+        "hausdorff_mm": 16.452060854386563,
+        "volume_ml": 134.02727287392148,
+        "surface_displacement_median_mm": 1.0358835454174677
+      }
+    },
+    {
+      "patient": "patient025",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 53.463858140599015,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8999854418401514,
+        "fitted": true,
+        "symmetric_mm": 2.1888772346752363,
+        "hausdorff_mm": 7.550783787164038,
+        "volume_ml": 57.39469043552328,
+        "surface_displacement_median_mm": 1.8244614826271384
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8999854418401514,
+        "fitted": true,
+        "symmetric_mm": 2.1888772346752363,
+        "hausdorff_mm": 7.550783787164038,
+        "volume_ml": 57.39469043552328,
+        "surface_displacement_median_mm": 1.8244614826271384
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8999854418401514,
+        "fitted": true,
+        "symmetric_mm": 2.1888772346752363,
+        "hausdorff_mm": 7.550783787164038,
+        "volume_ml": 57.39469043552328,
+        "surface_displacement_median_mm": 1.8244614826271384
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8056728009454668,
+        "fitted": true,
+        "symmetric_mm": 4.026361135023323,
+        "hausdorff_mm": 17.522306869278253,
+        "volume_ml": 42.09322434940109,
+        "surface_displacement_median_mm": 6.060330190837428
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8056728009454668,
+        "fitted": true,
+        "symmetric_mm": 4.026361135023323,
+        "hausdorff_mm": 17.522306869278253,
+        "volume_ml": 42.09322434940109,
+        "surface_displacement_median_mm": 6.060330190837428
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8056728009454668,
+        "fitted": true,
+        "symmetric_mm": 4.026361135023323,
+        "hausdorff_mm": 17.522306869278253,
+        "volume_ml": 42.09322434940109,
+        "surface_displacement_median_mm": 6.060330190837428
+      }
+    },
+    {
+      "patient": "patient038",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 131.10998249996194,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9608400366070998,
+        "fitted": true,
+        "symmetric_mm": 2.3920287259271986,
+        "hausdorff_mm": 57.728683699449896,
+        "volume_ml": 148.31642859412585,
+        "surface_displacement_median_mm": 1.0938592321689393
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 31,
+        "dice_lv_cavity": 0.9615579282253983,
+        "fitted": true,
+        "symmetric_mm": 2.0525235855947153,
+        "hausdorff_mm": 8.238497615640757,
+        "volume_ml": 135.6365772544571,
+        "surface_displacement_median_mm": 1.0797131971851965
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 31,
+        "dice_lv_cavity": 0.9615579282253983,
+        "fitted": true,
+        "symmetric_mm": 2.0525235855947153,
+        "hausdorff_mm": 8.238497615640757,
+        "volume_ml": 135.6365772544571,
+        "surface_displacement_median_mm": 1.0797131971851965
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9762817850948973,
+        "fitted": true,
+        "symmetric_mm": 1.9008947810855474,
+        "hausdorff_mm": 8.148600189456015,
+        "volume_ml": 131.96570206115618,
+        "surface_displacement_median_mm": 0.5759061189862117
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9762817850948973,
+        "fitted": true,
+        "symmetric_mm": 1.9008947810855474,
+        "hausdorff_mm": 8.148600189456015,
+        "volume_ml": 131.96570206115618,
+        "surface_displacement_median_mm": 0.5759061189862117
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9762817850948973,
+        "fitted": true,
+        "symmetric_mm": 1.9008947810855474,
+        "hausdorff_mm": 8.148600189456015,
+        "volume_ml": 131.96570206115618,
+        "surface_displacement_median_mm": 0.5759061189862117
+      }
+    },
+    {
+      "patient": "patient038",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 62.70835680394727,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9345911949685535,
+        "fitted": true,
+        "symmetric_mm": 1.9942514712105677,
+        "hausdorff_mm": 7.418977392340787,
+        "volume_ml": 60.531969052977956,
+        "surface_displacement_median_mm": 1.3419022469306214
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9345911949685535,
+        "fitted": true,
+        "symmetric_mm": 1.9942514712105677,
+        "hausdorff_mm": 7.418977392340787,
+        "volume_ml": 60.531969052977956,
+        "surface_displacement_median_mm": 1.3419022469306214
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9345911949685535,
+        "fitted": true,
+        "symmetric_mm": 1.9942514712105677,
+        "hausdorff_mm": 7.418977392340787,
+        "volume_ml": 60.531969052977956,
+        "surface_displacement_median_mm": 1.3419022469306214
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9397422126745435,
+        "fitted": true,
+        "symmetric_mm": 1.8607580522473464,
+        "hausdorff_mm": 7.4606386605490815,
+        "volume_ml": 58.022743700187576,
+        "surface_displacement_median_mm": 1.1300721409611967
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9397422126745435,
+        "fitted": true,
+        "symmetric_mm": 1.8607580522473464,
+        "hausdorff_mm": 7.4606386605490815,
+        "volume_ml": 58.022743700187576,
+        "surface_displacement_median_mm": 1.1300721409611967
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9397422126745435,
+        "fitted": true,
+        "symmetric_mm": 1.8607580522473464,
+        "hausdorff_mm": 7.4606386605490815,
+        "volume_ml": 58.022743700187576,
+        "surface_displacement_median_mm": 1.1300721409611967
+      }
+    },
+    {
+      "patient": "patient041",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 90.24807934433723,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9521317531168232,
+        "fitted": true,
+        "symmetric_mm": 2.0242120436717963,
+        "hausdorff_mm": 6.735644653750454,
+        "volume_ml": 89.0481534474698,
+        "surface_displacement_median_mm": 1.5545354052374987
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9521317531168232,
+        "fitted": true,
+        "symmetric_mm": 2.0242120436717963,
+        "hausdorff_mm": 6.735644653750454,
+        "volume_ml": 89.0481534474698,
+        "surface_displacement_median_mm": 1.5545354052374987
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9521317531168232,
+        "fitted": true,
+        "symmetric_mm": 2.0242120436717963,
+        "hausdorff_mm": 6.735644653750454,
+        "volume_ml": 89.0481534474698,
+        "surface_displacement_median_mm": 1.5545354052374987
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9640896973498511,
+        "fitted": true,
+        "symmetric_mm": 1.8698919253310229,
+        "hausdorff_mm": 7.137313453145992,
+        "volume_ml": 85.90581776283564,
+        "surface_displacement_median_mm": 0.9708411189838142
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9640896973498511,
+        "fitted": true,
+        "symmetric_mm": 1.8698919253310229,
+        "hausdorff_mm": 7.137313453145992,
+        "volume_ml": 85.90581776283564,
+        "surface_displacement_median_mm": 0.9708411189838142
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9640896973498511,
+        "fitted": true,
+        "symmetric_mm": 1.8698919253310229,
+        "hausdorff_mm": 7.137313453145992,
+        "volume_ml": 85.90581776283564,
+        "surface_displacement_median_mm": 0.9708411189838142
+      }
+    },
+    {
+      "patient": "patient041",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 57.515767071495006,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9276879162702188,
+        "fitted": true,
+        "symmetric_mm": 2.512345184605139,
+        "hausdorff_mm": 10.46178754306084,
+        "volume_ml": 58.75717909973825,
+        "surface_displacement_median_mm": 1.4840121583611516
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9276879162702188,
+        "fitted": true,
+        "symmetric_mm": 2.512345184605139,
+        "hausdorff_mm": 10.46178754306084,
+        "volume_ml": 58.75717909973825,
+        "surface_displacement_median_mm": 1.4840121583611516
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9276879162702188,
+        "fitted": true,
+        "symmetric_mm": 2.512345184605139,
+        "hausdorff_mm": 10.46178754306084,
+        "volume_ml": 58.75717909973825,
+        "surface_displacement_median_mm": 1.4840121583611516
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9398907103825137,
+        "fitted": true,
+        "symmetric_mm": 2.209257848505998,
+        "hausdorff_mm": 12.600982713597466,
+        "volume_ml": 54.17400382171749,
+        "surface_displacement_median_mm": 1.3077894393726055
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9398907103825137,
+        "fitted": true,
+        "symmetric_mm": 2.209257848505998,
+        "hausdorff_mm": 12.600982713597466,
+        "volume_ml": 54.17400382171749,
+        "surface_displacement_median_mm": 1.3077894393726055
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 15,
+        "dice_lv_cavity": 0.943405634505111,
+        "fitted": true,
+        "symmetric_mm": 2.1207054007753587,
+        "hausdorff_mm": 8.987821392423513,
+        "volume_ml": 53.20145993626228,
+        "surface_displacement_median_mm": 1.2524740973939492
+      }
+    },
+    {
+      "patient": "patient046",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 190.02286849200735,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9422552664188352,
+        "fitted": true,
+        "symmetric_mm": 1.7600668046919097,
+        "hausdorff_mm": 6.439095640920992,
+        "volume_ml": 172.76070565478943,
+        "surface_displacement_median_mm": 1.8588232364547257
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9422552664188352,
+        "fitted": true,
+        "symmetric_mm": 1.7600668046919097,
+        "hausdorff_mm": 6.439095640920992,
+        "volume_ml": 172.76070565478943,
+        "surface_displacement_median_mm": 1.8588232364547257
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9422552664188352,
+        "fitted": true,
+        "symmetric_mm": 1.7600668046919097,
+        "hausdorff_mm": 6.439095640920992,
+        "volume_ml": 172.76070565478943,
+        "surface_displacement_median_mm": 1.8588232364547257
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9622410199828368,
+        "fitted": true,
+        "symmetric_mm": 1.6746009529224337,
+        "hausdorff_mm": 5.895220733584048,
+        "volume_ml": 177.82080685201697,
+        "surface_displacement_median_mm": 1.0395071008583319
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9622410199828368,
+        "fitted": true,
+        "symmetric_mm": 1.6746009529224337,
+        "hausdorff_mm": 5.895220733584048,
+        "volume_ml": 177.82080685201697,
+        "surface_displacement_median_mm": 1.0395071008583319
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9622410199828368,
+        "fitted": true,
+        "symmetric_mm": 1.6746009529224337,
+        "hausdorff_mm": 5.895220733584048,
+        "volume_ml": 177.82080685201697,
+        "surface_displacement_median_mm": 1.0395071008583319
+      }
+    },
+    {
+      "patient": "patient046",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 107.00524382845494,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9042355258837693,
+        "fitted": true,
+        "symmetric_mm": 1.917471832348864,
+        "hausdorff_mm": 6.465425643594925,
+        "volume_ml": 93.24508459030501,
+        "surface_displacement_median_mm": 2.1792494424523134
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9042355258837693,
+        "fitted": true,
+        "symmetric_mm": 1.917471832348864,
+        "hausdorff_mm": 6.465425643594925,
+        "volume_ml": 93.24508459030501,
+        "surface_displacement_median_mm": 2.1792494424523134
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9042355258837693,
+        "fitted": true,
+        "symmetric_mm": 1.917471832348864,
+        "hausdorff_mm": 6.465425643594925,
+        "volume_ml": 93.24508459030501,
+        "surface_displacement_median_mm": 2.1792494424523134
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8700488026330723,
+        "fitted": true,
+        "symmetric_mm": 3.7840435875731075,
+        "hausdorff_mm": 15.905793666203182,
+        "volume_ml": 87.53209414648342,
+        "surface_displacement_median_mm": 5.737347982468852
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8700488026330723,
+        "fitted": true,
+        "symmetric_mm": 3.7840435875731075,
+        "hausdorff_mm": 15.905793666203182,
+        "volume_ml": 87.53209414648342,
+        "surface_displacement_median_mm": 5.737347982468852
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8700488026330723,
+        "fitted": true,
+        "symmetric_mm": 3.7840435875731075,
+        "hausdorff_mm": 15.905793666203182,
+        "volume_ml": 87.53209414648342,
+        "surface_displacement_median_mm": 5.737347982468852
+      }
+    },
+    {
+      "patient": "patient048",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 144.64122302930187,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9363707776904949,
+        "fitted": true,
+        "symmetric_mm": 2.05250288146062,
+        "hausdorff_mm": 8.774198023313986,
+        "volume_ml": 139.26005905623938,
+        "surface_displacement_median_mm": 2.0287299485223853
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9363707776904949,
+        "fitted": true,
+        "symmetric_mm": 2.05250288146062,
+        "hausdorff_mm": 8.774198023313986,
+        "volume_ml": 139.26005905623938,
+        "surface_displacement_median_mm": 2.0287299485223853
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9363707776904949,
+        "fitted": true,
+        "symmetric_mm": 2.05250288146062,
+        "hausdorff_mm": 8.774198023313986,
+        "volume_ml": 139.26005905623938,
+        "surface_displacement_median_mm": 2.0287299485223853
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9376676147907355,
+        "fitted": true,
+        "symmetric_mm": 1.8690117642443305,
+        "hausdorff_mm": 9.045423698064056,
+        "volume_ml": 130.21264466973972,
+        "surface_displacement_median_mm": 1.3503596213664482
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9376676147907355,
+        "fitted": true,
+        "symmetric_mm": 1.8690117642443305,
+        "hausdorff_mm": 9.045423698064056,
+        "volume_ml": 130.21264466973972,
+        "surface_displacement_median_mm": 1.3503596213664482
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 20,
+        "dice_lv_cavity": 0.9359381359381359,
+        "fitted": true,
+        "symmetric_mm": 1.9294679238598,
+        "hausdorff_mm": 9.721342103103007,
+        "volume_ml": 128.6484003839176,
+        "surface_displacement_median_mm": 1.3503596213664482
+      }
+    },
+    {
+      "patient": "patient048",
+      "frame": 8,
+      "fitted": true,
+      "reference_volume_ml": 98.38828908129058,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9170074041330534,
+        "fitted": true,
+        "symmetric_mm": 2.6450782975223,
+        "hausdorff_mm": 51.824911011454326,
+        "volume_ml": 104.55507724208074,
+        "surface_displacement_median_mm": 6.528312262200102
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 64,
+        "dice_lv_cavity": 0.9235392320534224,
+        "fitted": true,
+        "symmetric_mm": 2.4008218489055793,
+        "hausdorff_mm": 9.870345342227775,
+        "volume_ml": 100.39377836700443,
+        "surface_displacement_median_mm": 6.186805611272799
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 64,
+        "dice_lv_cavity": 0.9235392320534224,
+        "fitted": true,
+        "symmetric_mm": 2.4008218489055793,
+        "hausdorff_mm": 9.870345342227775,
+        "volume_ml": 100.39377836700443,
+        "surface_displacement_median_mm": 6.186805611272799
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9531963470319634,
+        "fitted": true,
+        "symmetric_mm": 2.1323605958054235,
+        "hausdorff_mm": 7.3907277895866095,
+        "volume_ml": 97.3570093798387,
+        "surface_displacement_median_mm": 1.3806144668385885
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9531963470319634,
+        "fitted": true,
+        "symmetric_mm": 2.1323605958054235,
+        "hausdorff_mm": 7.3907277895866095,
+        "volume_ml": 97.3570093798387,
+        "surface_displacement_median_mm": 1.3806144668385885
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9531963470319634,
+        "fitted": true,
+        "symmetric_mm": 2.1323605958054235,
+        "hausdorff_mm": 7.3907277895866095,
+        "volume_ml": 97.3570093798387,
+        "surface_displacement_median_mm": 1.3806144668385885
+      }
+    },
+    {
+      "patient": "patient054",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 187.240465279085,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647505725937099,
+        "fitted": true,
+        "symmetric_mm": 2.0634831438534946,
+        "hausdorff_mm": 9.432275855975366,
+        "volume_ml": 177.826394544684,
+        "surface_displacement_median_mm": 5.766076199829792
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647505725937099,
+        "fitted": true,
+        "symmetric_mm": 2.0634831438534946,
+        "hausdorff_mm": 9.432275855975366,
+        "volume_ml": 177.826394544684,
+        "surface_displacement_median_mm": 5.766076199829792
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9647505725937099,
+        "fitted": true,
+        "symmetric_mm": 2.0634831438534946,
+        "hausdorff_mm": 9.432275855975366,
+        "volume_ml": 177.826394544684,
+        "surface_displacement_median_mm": 5.766076199829792
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.970509977827051,
+        "fitted": true,
+        "symmetric_mm": 2.8195828461445744,
+        "hausdorff_mm": 13.68219256267309,
+        "volume_ml": 190.1005169644015,
+        "surface_displacement_median_mm": 1.143744970407135
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.970509977827051,
+        "fitted": true,
+        "symmetric_mm": 2.8195828461445744,
+        "hausdorff_mm": 13.68219256267309,
+        "volume_ml": 190.1005169644015,
+        "surface_displacement_median_mm": 1.143744970407135
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 20,
+        "dice_lv_cavity": 0.9693673695893452,
+        "fitted": true,
+        "symmetric_mm": 2.775263110189096,
+        "hausdorff_mm": 14.758744705743434,
+        "volume_ml": 184.6245814914815,
+        "surface_displacement_median_mm": 1.143744970407135
+      }
+    },
+    {
+      "patient": "patient054",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 136.22052529916252,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9571461309296463,
+        "fitted": true,
+        "symmetric_mm": 2.186118222015921,
+        "hausdorff_mm": 8.128365857022565,
+        "volume_ml": 130.18250303660847,
+        "surface_displacement_median_mm": 1.3040675972567903
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9571461309296463,
+        "fitted": true,
+        "symmetric_mm": 2.186118222015921,
+        "hausdorff_mm": 8.128365857022565,
+        "volume_ml": 130.18250303660847,
+        "surface_displacement_median_mm": 1.3040675972567903
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9571461309296463,
+        "fitted": true,
+        "symmetric_mm": 2.186118222015921,
+        "hausdorff_mm": 8.128365857022565,
+        "volume_ml": 130.18250303660847,
+        "surface_displacement_median_mm": 1.3040675972567903
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9494798293540903,
+        "fitted": true,
+        "symmetric_mm": 3.479420217396936,
+        "hausdorff_mm": 14.748553946845817,
+        "volume_ml": 147.91914361111378,
+        "surface_displacement_median_mm": 5.393661358887033
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9494798293540903,
+        "fitted": true,
+        "symmetric_mm": 3.479420217396936,
+        "hausdorff_mm": 14.748553946845817,
+        "volume_ml": 147.91914361111378,
+        "surface_displacement_median_mm": 5.393661358887033
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 69,
+        "dice_lv_cavity": 0.9544086668672886,
+        "fitted": true,
+        "symmetric_mm": 3.030163492084068,
+        "hausdorff_mm": 14.756582507636766,
+        "volume_ml": 138.6383281325728,
+        "surface_displacement_median_mm": 5.393661358887033
+      }
+    },
+    {
+      "patient": "patient056",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 166.9080374228959,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707972405207739,
+        "fitted": true,
+        "symmetric_mm": 2.0206638325545723,
+        "hausdorff_mm": 7.340332856029447,
+        "volume_ml": 165.24840692829216,
+        "surface_displacement_median_mm": 1.058257668266062
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707972405207739,
+        "fitted": true,
+        "symmetric_mm": 2.0206638325545723,
+        "hausdorff_mm": 7.340332856029447,
+        "volume_ml": 165.24840692829216,
+        "surface_displacement_median_mm": 1.058257668266062
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707972405207739,
+        "fitted": true,
+        "symmetric_mm": 2.0206638325545723,
+        "hausdorff_mm": 7.340332856029447,
+        "volume_ml": 165.24840692829216,
+        "surface_displacement_median_mm": 1.058257668266062
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9793884014329474,
+        "fitted": true,
+        "symmetric_mm": 2.0246638761756097,
+        "hausdorff_mm": 8.302655823631845,
+        "volume_ml": 165.0739106383278,
+        "surface_displacement_median_mm": 0.5142901631616001
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9793884014329474,
+        "fitted": true,
+        "symmetric_mm": 2.0246638761756097,
+        "hausdorff_mm": 8.302655823631845,
+        "volume_ml": 165.0739106383278,
+        "surface_displacement_median_mm": 0.5142901631616001
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9793884014329474,
+        "fitted": true,
+        "symmetric_mm": 2.0246638761756097,
+        "hausdorff_mm": 8.302655823631845,
+        "volume_ml": 165.0739106383278,
+        "surface_displacement_median_mm": 0.5142901631616001
+      }
+    },
+    {
+      "patient": "patient056",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 105.5242047374285,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9526062484705115,
+        "fitted": true,
+        "symmetric_mm": 2.4369847569467176,
+        "hausdorff_mm": 9.866513553169074,
+        "volume_ml": 107.52218422105838,
+        "surface_displacement_median_mm": 1.378286721139335
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9526062484705115,
+        "fitted": true,
+        "symmetric_mm": 2.4369847569467176,
+        "hausdorff_mm": 9.866513553169074,
+        "volume_ml": 107.52218422105838,
+        "surface_displacement_median_mm": 1.378286721139335
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9526062484705115,
+        "fitted": true,
+        "symmetric_mm": 2.4369847569467176,
+        "hausdorff_mm": 9.866513553169074,
+        "volume_ml": 107.52218422105838,
+        "surface_displacement_median_mm": 1.378286721139335
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9398815975985991,
+        "fitted": true,
+        "symmetric_mm": 2.447622572945342,
+        "hausdorff_mm": 9.352507740583212,
+        "volume_ml": 106.17434028760282,
+        "surface_displacement_median_mm": 1.1617560305010848
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9398815975985991,
+        "fitted": true,
+        "symmetric_mm": 2.447622572945342,
+        "hausdorff_mm": 9.352507740583212,
+        "volume_ml": 106.17434028760282,
+        "surface_displacement_median_mm": 1.1617560305010848
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 11,
+        "dice_lv_cavity": 0.9399098647971958,
+        "fitted": true,
+        "symmetric_mm": 2.486011223058644,
+        "hausdorff_mm": 9.352507740583212,
+        "volume_ml": 105.29888601899705,
+        "surface_displacement_median_mm": 1.1723958286538805
+      }
+    },
+    {
+      "patient": "patient062",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 146.78762660037918,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9572630013158647,
+        "fitted": true,
+        "symmetric_mm": 4.314039689974106,
+        "hausdorff_mm": 58.160451279670205,
+        "volume_ml": 162.0802025817006,
+        "surface_displacement_median_mm": 5.2038084695133
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 91,
+        "dice_lv_cavity": 0.9622728318380492,
+        "fitted": true,
+        "symmetric_mm": 1.7804170877300407,
+        "hausdorff_mm": 7.567121964919927,
+        "volume_ml": 147.8597579717886,
+        "surface_displacement_median_mm": 1.2515769531089638
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 91,
+        "dice_lv_cavity": 0.9622728318380492,
+        "fitted": true,
+        "symmetric_mm": 1.7804170877300407,
+        "hausdorff_mm": 7.567121964919927,
+        "volume_ml": 147.8597579717886,
+        "surface_displacement_median_mm": 1.2515769531089638
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9774592532655184,
+        "fitted": true,
+        "symmetric_mm": 1.6971776818461426,
+        "hausdorff_mm": 7.023181937012107,
+        "volume_ml": 146.94498921280848,
+        "surface_displacement_median_mm": 0.4931906735480467
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9774592532655184,
+        "fitted": true,
+        "symmetric_mm": 1.6971776818461426,
+        "hausdorff_mm": 7.023181937012107,
+        "volume_ml": 146.94498921280848,
+        "surface_displacement_median_mm": 0.4931906735480467
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9774592532655184,
+        "fitted": true,
+        "symmetric_mm": 1.6971776818461426,
+        "hausdorff_mm": 7.023181937012107,
+        "volume_ml": 146.94498921280848,
+        "surface_displacement_median_mm": 0.4931906735480467
+      }
+    },
+    {
+      "patient": "patient062",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 61.710244244783574,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8665312462659815,
+        "fitted": true,
+        "symmetric_mm": 5.5143584485668935,
+        "hausdorff_mm": 67.12849051225803,
+        "volume_ml": 99.51476066139934,
+        "surface_displacement_median_mm": 5.641377677628301
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 616,
+        "dice_lv_cavity": 0.9353798529601445,
+        "fitted": true,
+        "symmetric_mm": 1.8780668229418755,
+        "hausdorff_mm": 6.1819932810310165,
+        "volume_ml": 66.06482606833191,
+        "surface_displacement_median_mm": 1.3323230392382324
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 616,
+        "dice_lv_cavity": 0.9353798529601445,
+        "fitted": true,
+        "symmetric_mm": 1.8780668229418755,
+        "hausdorff_mm": 6.1819932810310165,
+        "volume_ml": 66.06482606833191,
+        "surface_displacement_median_mm": 1.3323230392382324
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9444013447116628,
+        "fitted": true,
+        "symmetric_mm": 1.870897648948545,
+        "hausdorff_mm": 6.025172896906275,
+        "volume_ml": 65.89984727526787,
+        "surface_displacement_median_mm": 0.9131869072557163
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9444013447116628,
+        "fitted": true,
+        "symmetric_mm": 1.870897648948545,
+        "hausdorff_mm": 6.025172896906275,
+        "volume_ml": 65.89984727526787,
+        "surface_displacement_median_mm": 0.9131869072557163
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9444013447116628,
+        "fitted": true,
+        "symmetric_mm": 1.870897648948545,
+        "hausdorff_mm": 6.025172896906275,
+        "volume_ml": 65.89984727526787,
+        "surface_displacement_median_mm": 0.9131869072557163
+      }
+    },
+    {
+      "patient": "patient064",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 122.4888161274814,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635286783042394,
+        "fitted": true,
+        "symmetric_mm": 1.6995152897001746,
+        "hausdorff_mm": 6.158272705516578,
+        "volume_ml": 119.87825242112362,
+        "surface_displacement_median_mm": 1.1948999157296996
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635286783042394,
+        "fitted": true,
+        "symmetric_mm": 1.6995152897001746,
+        "hausdorff_mm": 6.158272705516578,
+        "volume_ml": 119.87825242112362,
+        "surface_displacement_median_mm": 1.1948999157296996
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9635286783042394,
+        "fitted": true,
+        "symmetric_mm": 1.6995152897001746,
+        "hausdorff_mm": 6.158272705516578,
+        "volume_ml": 119.87825242112362,
+        "surface_displacement_median_mm": 1.1948999157296996
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9645545796737767,
+        "fitted": true,
+        "symmetric_mm": 1.6503577095523387,
+        "hausdorff_mm": 5.799676651706106,
+        "volume_ml": 118.14606914079066,
+        "surface_displacement_median_mm": 0.8763690594846226
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9645545796737767,
+        "fitted": true,
+        "symmetric_mm": 1.6503577095523387,
+        "hausdorff_mm": 5.799676651706106,
+        "volume_ml": 118.14606914079066,
+        "surface_displacement_median_mm": 0.8763690594846226
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9645545796737767,
+        "fitted": true,
+        "symmetric_mm": 1.6503577095523387,
+        "hausdorff_mm": 5.799676651706106,
+        "volume_ml": 118.14606914079066,
+        "surface_displacement_median_mm": 0.8763690594846226
+      }
+    },
+    {
+      "patient": "patient064",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 52.2282774624822,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9312467030068577,
+        "fitted": true,
+        "symmetric_mm": 1.6618664880747647,
+        "hausdorff_mm": 5.942347893615162,
+        "volume_ml": 49.30924005018765,
+        "surface_displacement_median_mm": 1.3694246684296583
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9312467030068577,
+        "fitted": true,
+        "symmetric_mm": 1.6618664880747647,
+        "hausdorff_mm": 5.942347893615162,
+        "volume_ml": 49.30924005018765,
+        "surface_displacement_median_mm": 1.3694246684296583
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9312467030068577,
+        "fitted": true,
+        "symmetric_mm": 1.6618664880747647,
+        "hausdorff_mm": 5.942347893615162,
+        "volume_ml": 49.30924005018765,
+        "surface_displacement_median_mm": 1.3694246684296583
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8749537550869404,
+        "fitted": true,
+        "symmetric_mm": 2.573307373187794,
+        "hausdorff_mm": 16.216342944317795,
+        "volume_ml": 46.5707731500413,
+        "surface_displacement_median_mm": 1.0418088281290423
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8749537550869404,
+        "fitted": true,
+        "symmetric_mm": 2.573307373187794,
+        "hausdorff_mm": 16.216342944317795,
+        "volume_ml": 46.5707731500413,
+        "surface_displacement_median_mm": 1.0418088281290423
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8749537550869404,
+        "fitted": true,
+        "symmetric_mm": 2.573307373187794,
+        "hausdorff_mm": 16.216342944317795,
+        "volume_ml": 46.5707731500413,
+        "surface_displacement_median_mm": 1.0418088281290423
+      }
+    },
+    {
+      "patient": "patient066",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 145.30139031339434,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9591193097292472,
+        "fitted": true,
+        "symmetric_mm": 1.7862172232668367,
+        "hausdorff_mm": 6.59357894420702,
+        "volume_ml": 141.75995267757855,
+        "surface_displacement_median_mm": 1.4037360223451127
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9591193097292472,
+        "fitted": true,
+        "symmetric_mm": 1.7862172232668367,
+        "hausdorff_mm": 6.59357894420702,
+        "volume_ml": 141.75995267757855,
+        "surface_displacement_median_mm": 1.4037360223451127
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9591193097292472,
+        "fitted": true,
+        "symmetric_mm": 1.7862172232668367,
+        "hausdorff_mm": 6.59357894420702,
+        "volume_ml": 141.75995267757855,
+        "surface_displacement_median_mm": 1.4037360223451127
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9747318235995233,
+        "fitted": true,
+        "symmetric_mm": 1.7222509544097504,
+        "hausdorff_mm": 6.128717062635713,
+        "volume_ml": 141.230739428369,
+        "surface_displacement_median_mm": 0.6500456514645658
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9747318235995233,
+        "fitted": true,
+        "symmetric_mm": 1.7222509544097504,
+        "hausdorff_mm": 6.128717062635713,
+        "volume_ml": 141.230739428369,
+        "surface_displacement_median_mm": 0.6500456514645658
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9747318235995233,
+        "fitted": true,
+        "symmetric_mm": 1.7222509544097504,
+        "hausdorff_mm": 6.128717062635713,
+        "volume_ml": 141.230739428369,
+        "surface_displacement_median_mm": 0.6500456514645658
+      }
+    },
+    {
+      "patient": "patient066",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 48.03188236471242,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8783485660258431,
+        "fitted": true,
+        "symmetric_mm": 3.2668101195526407,
+        "hausdorff_mm": 10.044718442269073,
+        "volume_ml": 56.35320791200362,
+        "surface_displacement_median_mm": 5.212235851667133
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8783485660258431,
+        "fitted": true,
+        "symmetric_mm": 3.2668101195526407,
+        "hausdorff_mm": 10.044718442269073,
+        "volume_ml": 56.35320791200362,
+        "surface_displacement_median_mm": 5.212235851667133
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8783485660258431,
+        "fitted": true,
+        "symmetric_mm": 3.2668101195526407,
+        "hausdorff_mm": 10.044718442269073,
+        "volume_ml": 56.35320791200362,
+        "surface_displacement_median_mm": 5.212235851667133
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9443229604709841,
+        "fitted": true,
+        "symmetric_mm": 1.7642781624089634,
+        "hausdorff_mm": 6.089390187016378,
+        "volume_ml": 46.71806393463805,
+        "surface_displacement_median_mm": 0.8546119134436757
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9443229604709841,
+        "fitted": true,
+        "symmetric_mm": 1.7642781624089634,
+        "hausdorff_mm": 6.089390187016378,
+        "volume_ml": 46.71806393463805,
+        "surface_displacement_median_mm": 0.8546119134436757
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9443229604709841,
+        "fitted": true,
+        "symmetric_mm": 1.7642781624089634,
+        "hausdorff_mm": 6.089390187016378,
+        "volume_ml": 46.71806393463805,
+        "surface_displacement_median_mm": 0.8546119134436757
+      }
+    },
+    {
+      "patient": "patient073",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 107.68326906613156,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9642895907956149,
+        "fitted": true,
+        "symmetric_mm": 1.8109173529579992,
+        "hausdorff_mm": 7.237342758636331,
+        "volume_ml": 107.2732938184887,
+        "surface_displacement_median_mm": 1.1203999144307626
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9642895907956149,
+        "fitted": true,
+        "symmetric_mm": 1.8109173529579992,
+        "hausdorff_mm": 7.237342758636331,
+        "volume_ml": 107.2732938184887,
+        "surface_displacement_median_mm": 1.1203999144307626
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9642895907956149,
+        "fitted": true,
+        "symmetric_mm": 1.8109173529579992,
+        "hausdorff_mm": 7.237342758636331,
+        "volume_ml": 107.2732938184887,
+        "surface_displacement_median_mm": 1.1203999144307626
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9680793114718379,
+        "fitted": true,
+        "symmetric_mm": 1.7743749218407794,
+        "hausdorff_mm": 6.588328797123061,
+        "volume_ml": 106.62765060856502,
+        "surface_displacement_median_mm": 0.8263661183541223
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9680793114718379,
+        "fitted": true,
+        "symmetric_mm": 1.7743749218407794,
+        "hausdorff_mm": 6.588328797123061,
+        "volume_ml": 106.62765060856502,
+        "surface_displacement_median_mm": 0.8263661183541223
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9680793114718379,
+        "fitted": true,
+        "symmetric_mm": 1.7743749218407794,
+        "hausdorff_mm": 6.588328797123061,
+        "volume_ml": 106.62765060856502,
+        "surface_displacement_median_mm": 0.8263661183541223
+      }
+    },
+    {
+      "patient": "patient073",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 37.402732808213045,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8919821826280624,
+        "fitted": true,
+        "symmetric_mm": 2.289168846247294,
+        "hausdorff_mm": 10.53091392052834,
+        "volume_ml": 41.878617270433345,
+        "surface_displacement_median_mm": 5.586542602017948
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8919821826280624,
+        "fitted": true,
+        "symmetric_mm": 2.289168846247294,
+        "hausdorff_mm": 10.53091392052834,
+        "volume_ml": 41.878617270433345,
+        "surface_displacement_median_mm": 5.586542602017948
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8919821826280624,
+        "fitted": true,
+        "symmetric_mm": 2.289168846247294,
+        "hausdorff_mm": 10.53091392052834,
+        "volume_ml": 41.878617270433345,
+        "surface_displacement_median_mm": 5.586542602017948
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9212621645532292,
+        "fitted": true,
+        "symmetric_mm": 1.9148644368802146,
+        "hausdorff_mm": 9.15066350358673,
+        "volume_ml": 37.16112573926938,
+        "surface_displacement_median_mm": 5.730415814985775
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9212621645532292,
+        "fitted": true,
+        "symmetric_mm": 1.9148644368802146,
+        "hausdorff_mm": 9.15066350358673,
+        "volume_ml": 37.16112573926938,
+        "surface_displacement_median_mm": 5.730415814985775
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9212621645532292,
+        "fitted": true,
+        "symmetric_mm": 1.9148644368802146,
+        "hausdorff_mm": 9.15066350358673,
+        "volume_ml": 37.16112573926938,
+        "surface_displacement_median_mm": 5.730415814985775
+      }
+    },
+    {
+      "patient": "patient077",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 121.66725150903912,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707662025224174,
+        "fitted": true,
+        "symmetric_mm": 1.955628053990599,
+        "hausdorff_mm": 8.09513791259543,
+        "volume_ml": 121.40242046390888,
+        "surface_displacement_median_mm": 5.348697866079576
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707662025224174,
+        "fitted": true,
+        "symmetric_mm": 1.955628053990599,
+        "hausdorff_mm": 8.09513791259543,
+        "volume_ml": 121.40242046390888,
+        "surface_displacement_median_mm": 5.348697866079576
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9707662025224174,
+        "fitted": true,
+        "symmetric_mm": 1.955628053990599,
+        "hausdorff_mm": 8.09513791259543,
+        "volume_ml": 121.40242046390888,
+        "surface_displacement_median_mm": 5.348697866079576
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9818974918211559,
+        "fitted": true,
+        "symmetric_mm": 1.9429681435717816,
+        "hausdorff_mm": 7.728993614276337,
+        "volume_ml": 121.6436975578307,
+        "surface_displacement_median_mm": 5.540478980042576
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9818974918211559,
+        "fitted": true,
+        "symmetric_mm": 1.9429681435717816,
+        "hausdorff_mm": 7.728993614276337,
+        "volume_ml": 121.6436975578307,
+        "surface_displacement_median_mm": 5.540478980042576
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9818974918211559,
+        "fitted": true,
+        "symmetric_mm": 1.9429681435717816,
+        "hausdorff_mm": 7.728993614276337,
+        "volume_ml": 121.6436975578307,
+        "surface_displacement_median_mm": 5.540478980042576
+      }
+    },
+    {
+      "patient": "patient077",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 37.08967441396889,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8191276510604242,
+        "fitted": true,
+        "symmetric_mm": 3.474313488874105,
+        "hausdorff_mm": 21.223337821537097,
+        "volume_ml": 46.61370139254781,
+        "surface_displacement_median_mm": 5.753206665149938
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8191276510604242,
+        "fitted": true,
+        "symmetric_mm": 3.474313488874105,
+        "hausdorff_mm": 21.223337821537097,
+        "volume_ml": 46.61370139254781,
+        "surface_displacement_median_mm": 5.753206665149938
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8191276510604242,
+        "fitted": true,
+        "symmetric_mm": 3.474313488874105,
+        "hausdorff_mm": 21.223337821537097,
+        "volume_ml": 46.61370139254781,
+        "surface_displacement_median_mm": 5.753206665149938
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9539842873176206,
+        "fitted": true,
+        "symmetric_mm": 1.8069302188342364,
+        "hausdorff_mm": 5.9337125519635245,
+        "volume_ml": 36.57407901545429,
+        "surface_displacement_median_mm": 0.7998524631434999
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9539842873176206,
+        "fitted": true,
+        "symmetric_mm": 1.8069302188342364,
+        "hausdorff_mm": 5.9337125519635245,
+        "volume_ml": 36.57407901545429,
+        "surface_displacement_median_mm": 0.7998524631434999
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9539842873176206,
+        "fitted": true,
+        "symmetric_mm": 1.8069302188342364,
+        "hausdorff_mm": 5.9337125519635245,
+        "volume_ml": 36.57407901545429,
+        "surface_displacement_median_mm": 0.7998524631434999
+      }
+    },
+    {
+      "patient": "patient078",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 154.34155768995083,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9716023239398381,
+        "fitted": true,
+        "symmetric_mm": 2.1480588682334996,
+        "hausdorff_mm": 8.22781174217936,
+        "volume_ml": 159.09754079358308,
+        "surface_displacement_median_mm": 1.139363679237149
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9716023239398381,
+        "fitted": true,
+        "symmetric_mm": 2.1480588682334996,
+        "hausdorff_mm": 8.22781174217936,
+        "volume_ml": 159.09754079358308,
+        "surface_displacement_median_mm": 1.139363679237149
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9716023239398381,
+        "fitted": true,
+        "symmetric_mm": 2.1480588682334996,
+        "hausdorff_mm": 8.22781174217936,
+        "volume_ml": 159.09754079358308,
+        "surface_displacement_median_mm": 1.139363679237149
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9755859375,
+        "fitted": true,
+        "symmetric_mm": 2.1678948941589167,
+        "hausdorff_mm": 7.7626394707418696,
+        "volume_ml": 159.36096280357785,
+        "surface_displacement_median_mm": 0.8273556229546027
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9755859375,
+        "fitted": true,
+        "symmetric_mm": 2.1678948941589167,
+        "hausdorff_mm": 7.7626394707418696,
+        "volume_ml": 159.36096280357785,
+        "surface_displacement_median_mm": 0.8273556229546027
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9755859375,
+        "fitted": true,
+        "symmetric_mm": 2.1678948941589167,
+        "hausdorff_mm": 7.7626394707418696,
+        "volume_ml": 159.36096280357785,
+        "surface_displacement_median_mm": 0.8273556229546027
+      }
+    },
+    {
+      "patient": "patient078",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 56.04333896084832,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9432039562415705,
+        "fitted": true,
+        "symmetric_mm": 2.1422682186124,
+        "hausdorff_mm": 16.379649990526556,
+        "volume_ml": 55.569717022186694,
+        "surface_displacement_median_mm": 1.376540462791108
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 6,
+        "dice_lv_cavity": 0.944052797360132,
+        "fitted": true,
+        "symmetric_mm": 2.0593665319658734,
+        "hausdorff_mm": 8.244945411167256,
+        "volume_ml": 54.96789057342586,
+        "surface_displacement_median_mm": 1.3518814690997232
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 6,
+        "dice_lv_cavity": 0.944052797360132,
+        "fitted": true,
+        "symmetric_mm": 2.0593665319658734,
+        "hausdorff_mm": 8.244945411167256,
+        "volume_ml": 54.96789057342586,
+        "surface_displacement_median_mm": 1.3518814690997232
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.954890576150067,
+        "fitted": true,
+        "symmetric_mm": 2.115281386970207,
+        "hausdorff_mm": 8.922435896497,
+        "volume_ml": 56.12059566787613,
+        "surface_displacement_median_mm": 0.9020651654700098
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.954890576150067,
+        "fitted": true,
+        "symmetric_mm": 2.115281386970207,
+        "hausdorff_mm": 8.922435896497,
+        "volume_ml": 56.12059566787613,
+        "surface_displacement_median_mm": 0.9020651654700098
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.954890576150067,
+        "fitted": true,
+        "symmetric_mm": 2.115281386970207,
+        "hausdorff_mm": 8.922435896497,
+        "volume_ml": 56.12059566787613,
+        "surface_displacement_median_mm": 0.9020651654700098
+      }
+    },
+    {
+      "patient": "patient079",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 106.70987822079354,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9661543238627542,
+        "fitted": true,
+        "symmetric_mm": 1.895007108563874,
+        "hausdorff_mm": 6.401193736720776,
+        "volume_ml": 108.71797173474353,
+        "surface_displacement_median_mm": 1.08450063481036
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9661543238627542,
+        "fitted": true,
+        "symmetric_mm": 1.895007108563874,
+        "hausdorff_mm": 6.401193736720776,
+        "volume_ml": 108.71797173474353,
+        "surface_displacement_median_mm": 1.08450063481036
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9661543238627542,
+        "fitted": true,
+        "symmetric_mm": 1.895007108563874,
+        "hausdorff_mm": 6.401193736720776,
+        "volume_ml": 108.71797173474353,
+        "surface_displacement_median_mm": 1.08450063481036
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745139050275002,
+        "fitted": true,
+        "symmetric_mm": 1.934939888268333,
+        "hausdorff_mm": 7.385578197652166,
+        "volume_ml": 109.20241208347127,
+        "surface_displacement_median_mm": 0.6311680712187568
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745139050275002,
+        "fitted": true,
+        "symmetric_mm": 1.934939888268333,
+        "hausdorff_mm": 7.385578197652166,
+        "volume_ml": 109.20241208347127,
+        "surface_displacement_median_mm": 0.6311680712187568
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9745139050275002,
+        "fitted": true,
+        "symmetric_mm": 1.934939888268333,
+        "hausdorff_mm": 7.385578197652166,
+        "volume_ml": 109.20241208347127,
+        "surface_displacement_median_mm": 0.6311680712187568
+      }
+    },
+    {
+      "patient": "patient079",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 43.13894140156742,
+      "compact_unet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9479875022973718,
+        "fitted": true,
+        "symmetric_mm": 1.8168731020989697,
+        "hausdorff_mm": 7.137628256508536,
+        "volume_ml": 43.527490229587386,
+        "surface_displacement_median_mm": 1.2438746708679547
+      },
+      "compact_unet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9479875022973718,
+        "fitted": true,
+        "symmetric_mm": 1.8168731020989697,
+        "hausdorff_mm": 7.137628256508536,
+        "volume_ml": 43.527490229587386,
+        "surface_displacement_median_mm": 1.2438746708679547
+      },
+      "compact_unet/largest_3d_slice": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.9479875022973718,
+        "fitted": true,
+        "symmetric_mm": 1.8168731020989697,
+        "hausdorff_mm": 7.137628256508536,
+        "volume_ml": 43.527490229587386,
+        "surface_displacement_median_mm": 1.2438746708679547
+      },
+      "nnunet/none": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8519912819496731,
+        "fitted": true,
+        "symmetric_mm": 3.2043076421903463,
+        "hausdorff_mm": 14.75597996113412,
+        "volume_ml": 39.00207313914673,
+        "surface_displacement_median_mm": 5.986301401688181
+      },
+      "nnunet/largest_3d": {
+        "removed_voxels": 0,
+        "dice_lv_cavity": 0.8519912819496731,
+        "fitted": true,
+        "symmetric_mm": 3.2043076421903463,
+        "hausdorff_mm": 14.75597996113412,
+        "volume_ml": 39.00207313914673,
+        "surface_displacement_median_mm": 5.986301401688181
+      },
+      "nnunet/largest_3d_slice": {
+        "removed_voxels": 1,
+        "dice_lv_cavity": 0.8517637732857709,
+        "fitted": true,
+        "symmetric_mm": 3.217871863783423,
+        "hausdorff_mm": 14.75597996113412,
+        "volume_ml": 38.95314626068281,
+        "surface_displacement_median_mm": 5.986301401688181
+      }
+    }
+  ]
+}

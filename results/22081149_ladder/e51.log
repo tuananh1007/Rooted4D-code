@@ -1,0 +1,9 @@
+arms:
+  cmr_only                 cmr   1.569  tee  24.423  rot     nan  trans     nan  phase     nan  gap    0.0000
+  joint_exact_no_gauges    cmr   1.903  tee   2.796  rot   2.218  trans   3.514  phase  0.0202  gap    0.0000
+  joint_soft_attachment    cmr   2.457  tee   2.951  rot   2.639  trans   4.230  phase  0.0259  gap    0.0002
+  late_fusion              cmr   1.569  tee   2.444  rot   1.601  trans   8.945  phase  0.0465  gap   16.1544
+  rooted4d_full            cmr   1.945  tee   2.836  rot   2.225  trans   3.406  phase  0.0202  gap    0.0000
+  tee_only                 cmr  13.506  tee   2.444  rot   1.657  trans  11.595  phase  0.2438  gap    0.0000
+
+wrote /work/nvme/bhio/avu2/Rooted4D/results/22081149_ladder/E51_ladder_test_v3_m32_repaired.json

@@ -1,0 +1,43 @@
+schema_version: rooted4d-frozen-template-manifest-v1
+status: example_not_frozen
+template_id: rooted4d-mitral-v1-replace-after-freeze
+asset_npz: frozen_v1/template_arrays.npz
+asset_sha256: replace_with_64_lowercase_hex_after_freeze
+vertices_key: vertices
+tetrahedra_key: lv_tetrahedra
+annulus_global_indices_key: annulus_global_indices
+coordinate_system: LPS
+units: mm
+
+landmarks:
+  anterolateral_commissure: null
+  posteromedial_commissure: null
+  anterior_saddle_horn: null
+  posterior_annular_midpoint: null
+
+components:
+  lv_endocardium:
+    local_to_global_key: lv_endocardium_local_to_global
+    faces_key: lv_endocardium_faces
+    attachment_local_indices_key: lv_endocardium_annular_local_indices
+  lv_epicardium:
+    local_to_global_key: lv_epicardium_local_to_global
+    faces_key: lv_epicardium_faces
+    attachment_local_indices_key: lv_epicardium_attachment_local_indices
+  left_atrium:
+    local_to_global_key: left_atrium_local_to_global
+    faces_key: left_atrium_faces
+    attachment_local_indices_key: left_atrium_annular_local_indices
+  anterior_leaflet:
+    local_to_global_key: anterior_leaflet_local_to_global
+    faces_key: anterior_leaflet_faces
+    attachment_local_indices_key: anterior_leaflet_root_local_indices
+  posterior_leaflet:
+    local_to_global_key: posterior_leaflet_local_to_global
+    faces_key: posterior_leaflet_faces
+    attachment_local_indices_key: posterior_leaflet_root_local_indices
+
+freeze_note: >-
+  Change status to frozen only after PRODUCTION_TEMPLATE_V1_SPEC.yaml freeze criteria pass,
+  populate landmark indices, and record the exact NPZ SHA-256. The executable loader rejects
+  this example status.

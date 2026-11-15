@@ -1,0 +1,67 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "e65_selection": {
+    "per_frame": {
+      "motion_weight": 0.03,
+      "setting": 8
+    },
+    "periodic": {
+      "motion_weight": 0.03,
+      "setting": 3
+    }
+  },
+  "experiment": "E66",
+  "models": {
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E65_E72_UNIFORMITY_PREREGISTRATION_2026-09-24.md",
+  "split": "test",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic",
+      "overrides": {
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 8,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/fixed_warp",
+      "overrides": {
+        "estimate_phase_warp": false,
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    }
+  ]
+}

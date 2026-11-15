@@ -1,0 +1,638 @@
+{
+  "experiment": "E89",
+  "preregistration": "Docs/E89_MEASURED_ERROR_PREREGISTRATION_2026-09-28.md",
+  "chambers": {
+    "acdc-heart-0006": {
+      "patient": "patient007",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 2.447586439709619
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.4502814870434233
+      }
+    },
+    "acdc-heart-0018": {
+      "patient": "patient019",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.6955318117470001
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.0513856487201196
+      }
+    },
+    "acdc-heart-0021": {
+      "patient": "patient022",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 5.226831092054107
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.4544939550633875
+      }
+    },
+    "acdc-heart-0022": {
+      "patient": "patient023",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.3216551643321457
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.542183459836791
+      }
+    },
+    "acdc-heart-0026": {
+      "patient": "patient027",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 10.81750175071155
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 9.761094366138094
+      }
+    },
+    "acdc-heart-0028": {
+      "patient": "patient029",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 9.152841099549322
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.7194366292329795
+      }
+    },
+    "acdc-heart-0029": {
+      "patient": "patient030",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.2044574838819393
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 7.601115310804014
+      }
+    },
+    "acdc-heart-0030": {
+      "patient": "patient031",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.7860510351473833
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.087171448066025
+      }
+    },
+    "acdc-heart-0038": {
+      "patient": "patient039",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.37511411951123
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.70679708956825
+      }
+    },
+    "acdc-heart-0039": {
+      "patient": "patient040",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.4096290112138583
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 58.241683026400274
+      }
+    },
+    "acdc-heart-0044": {
+      "patient": "patient045",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.1931957297356919
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.8086449049408573
+      }
+    },
+    "acdc-heart-0049": {
+      "patient": "patient050",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.2626894676729157
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 2.188137600311358
+      }
+    },
+    "acdc-heart-0051": {
+      "patient": "patient052",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.6744095237410206
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 2.312287611445436
+      }
+    },
+    "acdc-heart-0052": {
+      "patient": "patient053",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.0585825894870442
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.420783645141405
+      }
+    },
+    "acdc-heart-0054": {
+      "patient": "patient055",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.4064192342498847
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.861891163142761
+      }
+    },
+    "acdc-heart-0080": {
+      "patient": "patient081",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 6.93138176105726
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.669382942624956
+      }
+    },
+    "acdc-heart-0084": {
+      "patient": "patient085",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.1204501399573479
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 2.436998959619444
+      }
+    },
+    "acdc-heart-0086": {
+      "patient": "patient087",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.9654860768585383
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.6296908530878522
+      }
+    },
+    "acdc-heart-0089": {
+      "patient": "patient090",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.4687361728195585
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 2.2107403380127324
+      }
+    },
+    "acdc-heart-0101": {
+      "patient": "patient102",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.6952909926956279
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 36.229697676055075
+      }
+    },
+    "acdc-heart-0103": {
+      "patient": "patient104",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 58.78694565271402
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.447010214425318
+      }
+    },
+    "acdc-heart-0106": {
+      "patient": "patient107",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.503073937284807
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.1255865687477904
+      }
+    },
+    "acdc-heart-0111": {
+      "patient": "patient112",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.2507233320041435
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.0682754077377463
+      }
+    },
+    "acdc-heart-0124": {
+      "patient": "patient125",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.9869131098633056
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.096194453159051
+      }
+    },
+    "acdc-heart-0134": {
+      "patient": "patient135",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.6430541685107565
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 5.083262242774028
+      }
+    },
+    "acdc-heart-0137": {
+      "patient": "patient138",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.671148646777977
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 12.50139511007331
+      }
+    },
+    "acdc-heart-0143": {
+      "patient": "patient144",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.282733347104936
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.256515543193126
+      }
+    },
+    "acdc-heart-0144": {
+      "patient": "patient145",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.8851118924223502
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 1.9807810821424805
+      }
+    },
+    "acdc-heart-0145": {
+      "patient": "patient146",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 4.350574475835554
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 5.185165413849359
+      }
+    },
+    "acdc-heart-0148": {
+      "patient": "patient149",
+      "ed": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 0.8847072992622113
+      },
+      "reference_matches_donor_mm": 0.0,
+      "es": {
+        "reference_fitted": true,
+        "prediction_fitted": true,
+        "rms_mm": 7.084641424247798
+      }
+    }
+  },
+  "valves": {
+    "mvseg-valve-0010": {
+      "case": "test/test_011-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 7.511353456887414
+    },
+    "mvseg-valve-0011": {
+      "case": "test/test_012-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 4.257112045159044
+    },
+    "mvseg-valve-0017": {
+      "case": "test/test_018-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 5.416195710219675
+    },
+    "mvseg-valve-0020": {
+      "case": "test/test_021-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 5.877262880753578
+    },
+    "mvseg-valve-0029": {
+      "case": "test/test_030-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 4.439317634561435
+    },
+    "mvseg-valve-0037": {
+      "case": "test/test_038-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 33.31871403352479
+    },
+    "mvseg-valve-0038": {
+      "case": "test/test_039-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 39.31670417806265
+    },
+    "mvseg-valve-0040": {
+      "case": "train/train_001-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 10.253366181918729
+    },
+    "mvseg-valve-0042": {
+      "case": "train/train_003-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 14.993636628476667
+    },
+    "mvseg-valve-0044": {
+      "case": "train/train_005-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 6.015141212159269
+    },
+    "mvseg-valve-0048": {
+      "case": "train/train_009-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 6.685616671074661
+    },
+    "mvseg-valve-0060": {
+      "case": "train/train_021-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 15.364200819612444
+    },
+    "mvseg-valve-0063": {
+      "case": "train/train_024-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 49.31559769390109
+    },
+    "mvseg-valve-0075": {
+      "case": "train/train_036-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 7.861939969404384
+    },
+    "mvseg-valve-0083": {
+      "case": "train/train_044-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 10.594687908220825
+    },
+    "mvseg-valve-0085": {
+      "case": "train/train_046-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 22.460015765734383
+    },
+    "mvseg-valve-0086": {
+      "case": "train/train_047-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 8.84605554279318
+    },
+    "mvseg-valve-0087": {
+      "case": "train/train_048-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 7.359850576753607
+    },
+    "mvseg-valve-0091": {
+      "case": "train/train_052-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 6.556130244723745
+    },
+    "mvseg-valve-0093": {
+      "case": "train/train_054-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 3.8879123154065462
+    },
+    "mvseg-valve-0097": {
+      "case": "train/train_058-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 27.431287132373164
+    },
+    "mvseg-valve-0100": {
+      "case": "train/train_061-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 10.290527452243253
+    },
+    "mvseg-valve-0101": {
+      "case": "train/train_062-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 4.440949723414551
+    },
+    "mvseg-valve-0109": {
+      "case": "train/train_070-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 5.0858069284796885
+    },
+    "mvseg-valve-0114": {
+      "case": "train/train_075-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 5.69666370387105
+    },
+    "mvseg-valve-0118": {
+      "case": "train/train_079-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 7.074860450953468
+    },
+    "mvseg-valve-0135": {
+      "case": "train/train_096-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 2.33982211240236
+    },
+    "mvseg-valve-0141": {
+      "case": "train/train_102-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 4.51881101880941
+    },
+    "mvseg-valve-0160": {
+      "case": "val/val_016-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 4.536275062471233
+    },
+    "mvseg-valve-0164": {
+      "case": "val/val_020-label.nii.gz",
+      "reference_fitted": true,
+      "prediction_fitted": true,
+      "reference_matches_donor_mm": 0.0,
+      "rms_mm": 3.3786786067028176
+    }
+  }
+}

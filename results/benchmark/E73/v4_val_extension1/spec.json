@@ -1,0 +1,108 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": true,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "experiment": "E73",
+  "frozen_from": "Codes/configs/e62/v4_test.json",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E73_SESSION_WEIGHT_PREREGISTRATION_2026-09-25.md",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=0.125",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.125
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/joint/bs=0.0625",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.0625
+      }
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=0.125",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.125
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "S",
+      "name": "S/soft_matched/bs=0.0625",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.0625
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=0.125",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.125
+      }
+    },
+    {
+      "arm": "independent_penalty_repair",
+      "model": "S",
+      "name": "S/penalty_repair/bs=0.0625",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 100.0
+      },
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.0625
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+  30/134  69s
+  60/134  139s
+  90/134  208s
+  120/134  277s
+subjects with both phases: 134
+static   rms  2.90 mm | variance at rank 4:  93.1% | coefficient std [17.01 12.41 10.57  4.44]
+dynamic  rms  1.01 mm | variance at rank 4:  80.9% | coefficient std [5.35 4.38 2.89 1.94]
+done

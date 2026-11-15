@@ -1,0 +1,47 @@
+schema_version: rooted4d-semisynthetic-config-v1
+reproducibility:
+  root_seed: 8675309
+  split_seed: 65537
+split:
+  train: 0.60
+  val: 0.20
+  test: 0.20
+donors:
+  mode: procedural_test
+  whole_heart_count: 6
+  valve_count: 6
+  manifest: null
+  template_manifest: null
+  split_lock: null
+samples:
+  variants_per_identity: 1
+observation:
+  n_annulus: 24
+  n_cmr_frames: 8
+  n_tee_frames: 10
+  fourier_order: 2
+  cmr_noise_mm: 0.20
+  tee_noise_mm: 0.25
+  cmr_dropout_fraction: 0.10
+  tee_dropout_fraction: 0.20
+  output_domain: image_likelihood
+  cmr_n_slices: 3
+  cmr_image_shape: [12, 12]
+  cmr_pixel_spacing_mm: [4.0, 4.0]
+  cmr_slice_thickness_mm: 6.0
+  cmr_surface_sigma_mm: 2.0
+  tee_grid_shape: [10, 8, 8]
+  tee_surface_sigma_mm: 2.0
+  image_noise_std: 0.01
+  tee_speckle_std: 0.08
+perturbation:
+  pose_axis_angle_std_rad: 0.10
+  pose_translation_std_mm: 5.0
+  phase_offset_min_cycles: -0.15
+  phase_offset_max_cycles: 0.15
+  phase_logit_std: 0.40
+  phase_knots: 6
+  session_static_scale_min: 0.80
+  session_static_scale_max: 1.20
+  session_dynamic_scale_min: 0.80
+  session_dynamic_scale_max: 1.20

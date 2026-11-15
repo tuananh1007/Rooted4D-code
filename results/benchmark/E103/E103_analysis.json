@@ -1,0 +1,76 @@
+{
+  "experiment": "E103",
+  "preregistration": "Docs/E103_E107_REVIEWER_ANALYSES_PREREGISTRATION_2026-10-03.md",
+  "subjects": 20,
+  "statistic": "E99's: per-subject values, difference of medians, 20000 resamples, seed 20260910",
+  "code_check": {
+    "echo_ED": {
+      "max_deviation_mm": 0.0,
+      "reproduces": true,
+      "subjects": 20
+    },
+    "cmr_ED": {
+      "max_deviation_mm": 0.0,
+      "reproduces": true,
+      "subjects": 20
+    }
+  },
+  "medians": {
+    "echo_ED": {
+      "rooted4d": 6.049679306916607,
+      "late_fusion": 11.629138652809804,
+      "late_fusion_transfer": 8.971397359675375
+    },
+    "cmr_ED": {
+      "rooted4d": 3.5221977311895714,
+      "late_fusion": 10.859082303494173,
+      "late_fusion_transfer": 5.456607439405298
+    }
+  },
+  "rooted4d_minus": {
+    "echo_ED": {
+      "late_fusion": {
+        "observed": -5.579459345893197,
+        "subjects": 20,
+        "lower": -7.375028048456626,
+        "upper": -3.611699499612275
+      },
+      "late_fusion_transfer": {
+        "observed": -2.9217180527587683,
+        "subjects": 20,
+        "lower": -4.943188560140772,
+        "upper": -1.8629633505170364
+      },
+      "transfer_minus_own": {
+        "observed": -2.6577412931344284,
+        "subjects": 20,
+        "lower": -3.7329191363506062,
+        "upper": -0.9098258577448117
+      }
+    },
+    "cmr_ED": {
+      "late_fusion": {
+        "observed": -7.3368845723046014,
+        "subjects": 20,
+        "lower": -8.671020010262918,
+        "upper": -6.443340034720888
+      },
+      "late_fusion_transfer": {
+        "observed": -1.9344097082157266,
+        "subjects": 20,
+        "lower": -3.676866787487288,
+        "upper": -1.3657781698714735
+      },
+      "transfer_minus_own": {
+        "observed": -5.402474864088875,
+        "subjects": 20,
+        "lower": -6.5152330224404045,
+        "upper": -4.0220187623664865
+      }
+    }
+  },
+  "reading": {
+    "echo_ED": "advantage survives transfer",
+    "cmr_ED": "advantage survives transfer"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "arms": {
+    "full": {
+      "arc_weight": 3.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.75,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    },
+    "full_commensurate": {
+      "arc_weight": 458.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.75,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    },
+    "neither": {
+      "arc_weight": 0.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.0,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    },
+    "no_directed_arc": {
+      "arc_weight": 0.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.75,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    },
+    "position_only": {
+      "arc_weight": 3.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.0,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    },
+    "position_only_commensurate": {
+      "arc_weight": 458.0,
+      "distance_scale_mm": 8.0,
+      "huber_delta_mm": 3.0,
+      "max_iterations": 80,
+      "normal_weight": 0.0,
+      "relative_loss_tolerance": 1e-07,
+      "rotation_tolerance_rad": 1e-06,
+      "translation_tolerance_mm": 1e-05,
+      "trim_fraction": 0.15
+    }
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E72",
+  "slides_deg": [
+    0.0,
+    30.0,
+    60.0,
+    90.0
+  ]
+}

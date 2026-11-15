@@ -1,0 +1,91 @@
+  patient001   f01  symmetric 4.861 / 5.086  hausdorff 33.255 / 39.466  (with/without end-caps)
+  patient001   f12  symmetric 5.592 / 5.079  hausdorff 36.913 / 41.961  (with/without end-caps)
+  patient005   f01  symmetric 7.016 / 5.207  hausdorff 43.147 / 42.515  (with/without end-caps)
+  patient005   f13  WITHHELD: extent evidence picks class 3, not 2
+  patient010   f01  symmetric 7.268 / 5.549  hausdorff 39.933 / 44.821  (with/without end-caps)
+  patient010   f13  symmetric 6.533 / 5.693  hausdorff 43.254 / 46.038  (with/without end-caps)
+  patient015   f01  symmetric 6.529 / 5.744  hausdorff 46.681 / 46.681  (with/without end-caps)
+  patient015   f10  WITHHELD: extent evidence picks class 3, not 2
+  patient024   f01  symmetric 7.476 / 6.941  hausdorff 44.971 / 48.949  (with/without end-caps)
+  patient024   f09  WITHHELD: extent evidence picks class 3, not 2
+  patient025   f01  symmetric 6.331 / 5.947  hausdorff 40.979 / 47.594  (with/without end-caps)
+  patient025   f09  symmetric 6.661 / 7.060  hausdorff 41.551 / 49.495  (with/without end-caps)
+  patient038   f01  symmetric 5.784 / 5.854  hausdorff 40.896 / 47.618  (with/without end-caps)
+  patient038   f11  symmetric 5.590 / 5.966  hausdorff 42.880 / 47.658  (with/without end-caps)
+  patient041   f01  symmetric 7.479 / 8.016  hausdorff 47.716 / 54.835  (with/without end-caps)
+  patient041   f11  WITHHELD: extent evidence picks class 3, not 2
+  patient046   f01  symmetric 5.298 / 4.975  hausdorff 36.249 / 44.140  (with/without end-caps)
+  patient046   f10  symmetric 5.163 / 5.746  hausdorff 36.219 / 44.248  (with/without end-caps)
+  patient048   f01  symmetric 5.809 / 6.074  hausdorff 41.713 / 49.614  (with/without end-caps)
+  patient048   f08  symmetric 5.961 / 6.161  hausdorff 45.979 / 48.786  (with/without end-caps)
+  patient054   f01  symmetric 6.785 / 6.450  hausdorff 46.693 / 49.248  (with/without end-caps)
+  patient054   f12  WITHHELD: extent evidence picks class 3, not 2
+  patient062   f01  symmetric 6.890 / 5.658  hausdorff 40.041 / 42.421  (with/without end-caps)
+  patient062   f09  symmetric 6.724 / 6.868  hausdorff 42.693 / 49.653  (with/without end-caps)
+  patient064   f01  symmetric 5.864 / 5.826  hausdorff 41.221 / 49.513  (with/without end-caps)
+  patient064   f12  symmetric 6.661 / 6.723  hausdorff 43.025 / 49.620  (with/without end-caps)
+  patient066   f01  symmetric 5.906 / 5.340  hausdorff 38.753 / 44.319  (with/without end-caps)
+  patient066   f11  symmetric 5.946 / 6.209  hausdorff 39.861 / 45.120  (with/without end-caps)
+  patient073   f01  symmetric 7.084 / 6.726  hausdorff 45.283 / 52.011  (with/without end-caps)
+  patient073   f10  symmetric 7.791 / 8.300  hausdorff 48.218 / 54.080  (with/without end-caps)
+  patient077   f01  symmetric 7.301 / 6.815  hausdorff 49.337 / 49.814  (with/without end-caps)
+  patient077   f09  WITHHELD: extent evidence picks class 3, not 2
+  patient078   f01  symmetric 6.678 / 6.588  hausdorff 44.089 / 49.447  (with/without end-caps)
+  patient078   f09  symmetric 6.781 / 7.216  hausdorff 44.292 / 49.813  (with/without end-caps)
+  patient079   f01  symmetric 6.492 / 6.255  hausdorff 49.196 / 49.839  (with/without end-caps)
+  patient079   f11  WITHHELD: extent evidence picks class 3, not 2
+  patient103   f01  symmetric 5.252 / 5.302  hausdorff 41.937 / 46.073  (with/without end-caps)
+  patient103   f11  symmetric 4.142 / 5.121  hausdorff 34.937 / 43.043  (with/without end-caps)
+  patient113   f01  symmetric 6.449 / 5.216  hausdorff 39.515 / 41.883  (with/without end-caps)
+  patient113   f08  WITHHELD: extent evidence picks class 3, not 2
+  patient114   f01  symmetric 5.782 / 5.220  hausdorff 39.534 / 38.855  (with/without end-caps)
+  patient114   f11  symmetric 6.961 / 7.182  hausdorff 41.585 / 42.186  (with/without end-caps)
+  patient119   f01  symmetric 5.793 / 5.506  hausdorff 47.287 / 50.109  (with/without end-caps)
+  patient119   f09  symmetric 6.170 / 6.375  hausdorff 46.763 / 49.429  (with/without end-caps)
+  patient122   f01  symmetric 7.382 / 6.303  hausdorff 52.075 / 52.075  (with/without end-caps)
+  patient122   f06  symmetric 6.118 / 5.656  hausdorff 41.272 / 45.937  (with/without end-caps)
+  patient123   f01  symmetric 5.782 / 6.581  hausdorff 42.077 / 48.251  (with/without end-caps)
+  patient123   f11  symmetric 7.611 / 8.814  hausdorff 44.741 / 50.254  (with/without end-caps)
+  patient124   f01  symmetric 4.625 / 4.445  hausdorff 39.721 / 44.263  (with/without end-caps)
+  patient124   f07  symmetric 5.499 / 5.809  hausdorff 43.168 / 47.731  (with/without end-caps)
+  patient127   f01  WITHHELD: extent evidence picks class 1, not 2
+  patient127   f07  symmetric 6.345 / 6.091  hausdorff 45.890 / 49.663  (with/without end-caps)
+  patient130   f01  symmetric 6.079 / 5.228  hausdorff 45.947 / 45.947  (with/without end-caps)
+  patient130   f11  WITHHELD: extent evidence picks class 3, not 2
+  patient140   f01  symmetric 4.637 / 4.517  hausdorff 41.490 / 43.352  (with/without end-caps)
+  patient140   f09  symmetric 5.623 / 6.022  hausdorff 44.193 / 47.883  (with/without end-caps)
+  patient143   f01  symmetric 6.356 / 5.356  hausdorff 39.863 / 42.321  (with/without end-caps)
+  patient143   f12  symmetric 6.059 / 5.091  hausdorff 40.305 / 41.997  (with/without end-caps)
+{
+  "groups": 58,
+  "scored": 48,
+  "status_counts": {
+    "scored": 48,
+    "withheld_extent_disagreement": 10
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 6.250418661284588,
+    "mean": 6.22740851394057,
+    "p95": 7.477652905113966,
+    "max": 7.790556845114372
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 5.900923904335794,
+    "mean": 6.039712524026233,
+    "p95": 7.735865356854311,
+    "max": 8.814351348690487
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 42.3847342650825,
+    "mean": 42.652861379395645,
+    "p95": 48.8537275302145,
+    "max": 52.07543115051292
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.63786823173689,
+    "mean": 46.88688814145133,
+    "p95": 52.05296131005183,
+    "max": 54.83523411155701
+  }
+}

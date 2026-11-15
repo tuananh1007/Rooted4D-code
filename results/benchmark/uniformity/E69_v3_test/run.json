@@ -1,0 +1,20 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E69",
+  "identity_prior_weight": 2.0,
+  "recipe": {
+    "builder": "structured",
+    "coordinates": "covariance",
+    "interface_dim": 12,
+    "interior_dim": 12
+  },
+  "split": "test"
+}

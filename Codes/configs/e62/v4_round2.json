@@ -1,0 +1,416 @@
+{
+  "experiment": "E62",
+  "preregistration": "Docs/E62_PREREGISTRATION_2026-09-24.md",
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "split": "val",
+  "start": "input_derived",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "interface_dim": 12,
+      "interior_dim": 12,
+      "coordinates": "covariance"
+    }
+  },
+  "base_config": {
+    "fourier_order": 3,
+    "session_order": 1,
+    "max_iterations": 40,
+    "covariance_aware_identity_prior": true,
+    "identity_prior_scale_floor": 0.005,
+    "session_includes_offset": true
+  },
+  "variants": [
+    {
+      "name": "G/soft_matched/l=10",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10.0
+    },
+    {
+      "name": "G/soft_matched/l=100",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 100.0
+    },
+    {
+      "name": "G/soft_matched/l=1000",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1000.0
+    },
+    {
+      "name": "G/soft_matched/l=10000",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10000.0
+    },
+    {
+      "name": "G/soft_matched/l=100000",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 100000.0
+    },
+    {
+      "name": "G/soft_matched/l=1e+06",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1000000.0
+    },
+    {
+      "name": "G/soft_matched/l=1e+07",
+      "model": "G",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10000000.0
+    },
+    {
+      "name": "G/penalty_repair/l=100",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        },
+        "ring_weight": 100.0
+      }
+    },
+    {
+      "name": "G/penalty_repair/l=1000",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        },
+        "ring_weight": 1000.0
+      }
+    },
+    {
+      "name": "G/penalty_repair/l=10000",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        },
+        "ring_weight": 10000.0
+      }
+    },
+    {
+      "name": "G/penalty_repair/l=100000",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        },
+        "ring_weight": 100000.0
+      }
+    },
+    {
+      "name": "G/penalty_repair/l=1e+06",
+      "model": "G",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        },
+        "ring_weight": 1000000.0
+      }
+    },
+    {
+      "name": "G/exact_repair",
+      "model": "G",
+      "arm": "independent_exact_repair",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        }
+      }
+    },
+    {
+      "name": "G/independent",
+      "model": "G",
+      "arm": "late_fusion",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 4.0
+          }
+        }
+      }
+    },
+    {
+      "name": "S/soft_matched/l=10",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10.0
+    },
+    {
+      "name": "S/soft_matched/l=100",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 100.0
+    },
+    {
+      "name": "S/soft_matched/l=1000",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1000.0
+    },
+    {
+      "name": "S/soft_matched/l=10000",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10000.0
+    },
+    {
+      "name": "S/soft_matched/l=100000",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 100000.0
+    },
+    {
+      "name": "S/soft_matched/l=1e+06",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 1000000.0
+    },
+    {
+      "name": "S/soft_matched/l=1e+07",
+      "model": "S",
+      "arm": "joint_soft_attachment_matched",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "soft_attachment_weight": 10000000.0
+    },
+    {
+      "name": "S/penalty_repair/l=100",
+      "model": "S",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 100.0
+      }
+    },
+    {
+      "name": "S/penalty_repair/l=1000",
+      "model": "S",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 1000.0
+      }
+    },
+    {
+      "name": "S/penalty_repair/l=10000",
+      "model": "S",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 10000.0
+      }
+    },
+    {
+      "name": "S/penalty_repair/l=100000",
+      "model": "S",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 100000.0
+      }
+    },
+    {
+      "name": "S/penalty_repair/l=1e+06",
+      "model": "S",
+      "arm": "independent_penalty_repair",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      },
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "ring_weight": 1000000.0
+      }
+    },
+    {
+      "name": "S/exact_repair",
+      "model": "S",
+      "arm": "independent_exact_repair",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        }
+      }
+    },
+    {
+      "name": "S/independent",
+      "model": "S",
+      "arm": "late_fusion",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        }
+      }
+    }
+  ],
+  "round": "round2",
+  "round1_selection": {
+    "G/joint": 2.0,
+    "G/exact_no_gauges": 4.0,
+    "G/cmr_only": 0.015625,
+    "G/tee_only": 4.0,
+    "S/joint": 2.0,
+    "S/exact_no_gauges": 4.0,
+    "S/cmr_only": 0.015625,
+    "S/tee_only": 8.0
+  }
+}

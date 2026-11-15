@@ -1,0 +1,13 @@
+{
+  "benchmark": "data/derived/e100-v3n96o",
+  "experiment": "E96",
+  "noise_mm": [
+    0.0,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "preregistration": "Docs/E96_COMMISSURE_PRECISION_PREREGISTRATION_2026-09-29.md",
+  "search": "E91 (amended)"
+}

@@ -1,0 +1,204 @@
+{
+  "experiment": "E98",
+  "preregistration": "Docs/E98_MEASURED_RELIABILITY_PREREGISTRATION_2026-09-29.md",
+  "samples": 60,
+  "signals": {
+    "alpha": {
+      "rotation_deg": {
+        "spearman": {
+          "rho": -0.021507169089564335,
+          "lower": -0.3381955508555247,
+          "upper": 0.2933424075963445,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "translation_mm": {
+        "spearman": {
+          "rho": -0.17578081609894572,
+          "lower": -0.49991829261281034,
+          "upper": 0.18663039821577357,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "phase_map_cycles": {
+        "spearman": {
+          "rho": -0.09669889978253732,
+          "lower": -0.4451230097307575,
+          "upper": 0.27682804064382494,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "anatomy_rms_mm": {
+        "spearman": {
+          "rho": -0.18094920557008135,
+          "lower": -0.5236612564195493,
+          "upper": 0.2274673239473742,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.997448858318156e-08
+        },
+        "useful_flag": false
+      }
+    },
+    "cost": {
+      "rotation_deg": {
+        "spearman": {
+          "rho": 0.5782717421505975,
+          "lower": 0.2641951508849198,
+          "upper": 0.7763562144462787,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "translation_mm": {
+        "spearman": {
+          "rho": 0.7357043623228676,
+          "lower": 0.4921521131735383,
+          "upper": 0.855951245483372,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "phase_map_cycles": {
+        "spearman": {
+          "rho": 0.7653792720200057,
+          "lower": 0.5200529048064366,
+          "upper": 0.8867842792817185,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      },
+      "anatomy_rms_mm": {
+        "spearman": {
+          "rho": 0.9023061961656017,
+          "lower": 0.7826405035850252,
+          "upper": 0.958045965806484,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.997448858318156e-08
+        },
+        "useful_flag": true
+      }
+    },
+    "laplace_rotation_deg": {
+      "rotation_deg": {
+        "spearman": {
+          "rho": 0.6011669908307865,
+          "lower": 0.28834510006010017,
+          "upper": 0.7942762017388618,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      }
+    },
+    "laplace_translation_mm": {
+      "translation_mm": {
+        "spearman": {
+          "rho": 0.7744929146985275,
+          "lower": 0.5727866880788327,
+          "upper": 0.8614177849355001,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "chance": 0.1,
+          "chance_tail_probability": 1.0
+        },
+        "useful_flag": false
+      }
+    },
+    "laplace_phase_cycles": {
+      "phase_map_cycles": {
+        "spearman": {
+          "rho": 0.45940539038621847,
+          "lower": 0.15628273453774297,
+          "upper": 0.6674087033048813,
+          "samples": 60
+        },
+        "flag": {
+          "flagged": 6,
+          "hits": 2,
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "chance": 0.1,
+          "chance_tail_probability": 0.10509846823636851
+        },
+        "useful_flag": true
+      }
+    }
+  }
+}

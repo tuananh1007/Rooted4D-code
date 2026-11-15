@@ -1,0 +1,586 @@
+{
+  "experiment": "E103",
+  "preregistration": "Docs/E103_E107_REVIEWER_ANALYSES_PREREGISTRATION_2026-10-03.md",
+  "rows": [
+    {
+      "subject": "MITEA_009",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 10.544357638607792,
+          "rotation_deg": 5.9103304491070485,
+          "translation_mm": 8.240000048633453,
+          "phase_error_cycles": 0.08292823207267053,
+          "transfer_tee_mm": 9.63453178086298,
+          "e99_late_fusion_mm": 10.544357638607792,
+          "e99_rooted4d_mm": 5.879999234212275,
+          "seconds": 3.917
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 9.065161908873275,
+          "heldout_tee_mm": null,
+          "rotation_deg": 3.542315044977088,
+          "translation_mm": 5.461028335525731,
+          "phase_error_cycles": 0.048799302963882074,
+          "transfer_cmr_mm": 4.258698407500964,
+          "e99_late_fusion_mm": 9.065161908873275,
+          "e99_rooted4d_mm": 2.780492744315525,
+          "seconds": 6.448
+        }
+      }
+    },
+    {
+      "subject": "MITEA_010",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 14.26969993641586,
+          "rotation_deg": 2.9356294278688484,
+          "translation_mm": 5.877073462230473,
+          "phase_error_cycles": 0.03431886463746214,
+          "transfer_tee_mm": 7.371402879606252,
+          "e99_late_fusion_mm": 14.26969993641586,
+          "e99_rooted4d_mm": 6.585528401918177,
+          "seconds": 1.921
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 13.629852789856583,
+          "heldout_tee_mm": null,
+          "rotation_deg": 11.105416319918449,
+          "translation_mm": 14.114722883446113,
+          "phase_error_cycles": 0.04063062979544152,
+          "transfer_cmr_mm": 8.411734749656704,
+          "e99_late_fusion_mm": 13.629852789856583,
+          "e99_rooted4d_mm": 3.1690122575506967,
+          "seconds": 6.354
+        }
+      }
+    },
+    {
+      "subject": "MITEA_012",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 8.82301839882082,
+          "rotation_deg": 5.480985338070783,
+          "translation_mm": 4.941770035741053,
+          "phase_error_cycles": 0.03825048889367244,
+          "transfer_tee_mm": 8.522711678932527,
+          "e99_late_fusion_mm": 8.82301839882082,
+          "e99_rooted4d_mm": 5.487359791114515,
+          "seconds": 1.835
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 13.352714551507681,
+          "heldout_tee_mm": null,
+          "rotation_deg": 0.8900022313640817,
+          "translation_mm": 6.324871243945062,
+          "phase_error_cycles": 0.0023289872853141658,
+          "transfer_cmr_mm": 10.285228124280923,
+          "e99_late_fusion_mm": 13.352714551507681,
+          "e99_rooted4d_mm": 5.564390283102955,
+          "seconds": 6.31
+        }
+      }
+    },
+    {
+      "subject": "MITEA_014",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 4.9750569403845635,
+          "rotation_deg": 7.261925124581943,
+          "translation_mm": 11.428450265243123,
+          "phase_error_cycles": 0.022654711759530044,
+          "transfer_tee_mm": 4.3257303613107245,
+          "e99_late_fusion_mm": 4.9750569403845635,
+          "e99_rooted4d_mm": 2.9338720833927154,
+          "seconds": 3.522
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 4.813902468985131,
+          "heldout_tee_mm": null,
+          "rotation_deg": 5.9323110372233065,
+          "translation_mm": 9.15752123940498,
+          "phase_error_cycles": 0.027575329877386312,
+          "transfer_cmr_mm": 5.334009792451543,
+          "e99_late_fusion_mm": 4.813902468985131,
+          "e99_rooted4d_mm": 3.5196461197337796,
+          "seconds": 6.269
+        }
+      }
+    },
+    {
+      "subject": "MITEA_019",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 9.87469737051532,
+          "rotation_deg": 5.324774651131833,
+          "translation_mm": 7.977070400542795,
+          "phase_error_cycles": 0.34678887243628664,
+          "transfer_tee_mm": 13.767933546177147,
+          "e99_late_fusion_mm": 9.87469737051532,
+          "e99_rooted4d_mm": 6.30663636218515,
+          "seconds": 7.545
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 9.246952249718229,
+          "heldout_tee_mm": null,
+          "rotation_deg": 4.864771088788077,
+          "translation_mm": 11.1149494605001,
+          "phase_error_cycles": 0.06707327562635146,
+          "transfer_cmr_mm": 5.505658760662475,
+          "e99_late_fusion_mm": 9.246952249718229,
+          "e99_rooted4d_mm": 3.4148341980679757,
+          "seconds": 6.534
+        }
+      }
+    },
+    {
+      "subject": "MITEA_020",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 12.58527858939499,
+          "rotation_deg": 1.8699428064954582,
+          "translation_mm": 2.020828543376049,
+          "phase_error_cycles": 0.10365106618389691,
+          "transfer_tee_mm": 12.620054937623467,
+          "e99_late_fusion_mm": 12.58527858939499,
+          "e99_rooted4d_mm": 4.706421919303134,
+          "seconds": 1.812
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 10.003621649975535,
+          "heldout_tee_mm": null,
+          "rotation_deg": 3.9087870750374996,
+          "translation_mm": 6.888084688677118,
+          "phase_error_cycles": 0.008965540463629518,
+          "transfer_cmr_mm": 3.7008395058759405,
+          "e99_late_fusion_mm": 10.003621649975535,
+          "e99_rooted4d_mm": 2.0350824767941984,
+          "seconds": 8.649
+        }
+      }
+    },
+    {
+      "subject": "MITEA_024",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 9.675590326913223,
+          "rotation_deg": 2.107804495034551,
+          "translation_mm": 4.580961894380055,
+          "phase_error_cycles": 0.01689091331155379,
+          "transfer_tee_mm": 8.368833480406293,
+          "e99_late_fusion_mm": 9.675590326913223,
+          "e99_rooted4d_mm": 2.5271835772855913,
+          "seconds": 2.048
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 8.879776462783497,
+          "heldout_tee_mm": null,
+          "rotation_deg": 2.091572039323362,
+          "translation_mm": 7.131983539270107,
+          "phase_error_cycles": 0.015276559544853852,
+          "transfer_cmr_mm": 3.768439952241944,
+          "e99_late_fusion_mm": 8.879776462783497,
+          "e99_rooted4d_mm": 2.7960713070845293,
+          "seconds": 2.902
+        }
+      }
+    },
+    {
+      "subject": "MITEA_031",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 11.95851577813192,
+          "rotation_deg": 2.2477705826879033,
+          "translation_mm": 5.599804079113723,
+          "phase_error_cycles": 0.09661128212932985,
+          "transfer_tee_mm": 7.31942628195624,
+          "e99_late_fusion_mm": 11.95851577813192,
+          "e99_rooted4d_mm": 4.083690484145004,
+          "seconds": 6.352
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 11.34524624845627,
+          "heldout_tee_mm": null,
+          "rotation_deg": 4.67174311948634,
+          "translation_mm": 5.500308933201218,
+          "phase_error_cycles": 0.0014941689534652136,
+          "transfer_cmr_mm": 5.266479635679878,
+          "e99_late_fusion_mm": 11.34524624845627,
+          "e99_rooted4d_mm": 2.322255561543866,
+          "seconds": 7.132
+        }
+      }
+    },
+    {
+      "subject": "MITEA_032",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 11.782915058168443,
+          "rotation_deg": 23.343983148560568,
+          "translation_mm": 28.515940949922918,
+          "phase_error_cycles": 0.15444590771357325,
+          "transfer_tee_mm": 10.526375072652453,
+          "e99_late_fusion_mm": 11.782915058168443,
+          "e99_rooted4d_mm": 9.29592861378522,
+          "seconds": 1.988
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 12.304286665511064,
+          "heldout_tee_mm": null,
+          "rotation_deg": 14.569319640561279,
+          "translation_mm": 21.69551423658344,
+          "phase_error_cycles": 0.022830829678988196,
+          "transfer_cmr_mm": 7.5793788031604885,
+          "e99_late_fusion_mm": 12.304286665511064,
+          "e99_rooted4d_mm": 4.821754193317818,
+          "seconds": 6.447
+        }
+      }
+    },
+    {
+      "subject": "MITEA_036",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 13.938764727334902,
+          "rotation_deg": 3.5302616898066774,
+          "translation_mm": 4.57290437524337,
+          "phase_error_cycles": 0.09857686945260674,
+          "transfer_tee_mm": 10.01014194409917,
+          "e99_late_fusion_mm": 13.938764727334902,
+          "e99_rooted4d_mm": 5.070993507817988,
+          "seconds": 1.99
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 13.054248408333647,
+          "heldout_tee_mm": null,
+          "rotation_deg": 1.64895750080443,
+          "translation_mm": 7.145108662070891,
+          "phase_error_cycles": 0.0022626746025470323,
+          "transfer_cmr_mm": 5.463048001949123,
+          "e99_late_fusion_mm": 13.054248408333647,
+          "e99_rooted4d_mm": 4.834186252886586,
+          "seconds": 6.42
+        }
+      }
+    },
+    {
+      "subject": "MITEA_038",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 12.378830604173595,
+          "rotation_deg": 4.942539615598441,
+          "translation_mm": 8.065350434496008,
+          "phase_error_cycles": 0.1082647864555476,
+          "transfer_tee_mm": 8.381475264508618,
+          "e99_late_fusion_mm": 12.378830604173595,
+          "e99_rooted4d_mm": 4.30385873707867,
+          "seconds": 2.344
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 10.52047927936536,
+          "heldout_tee_mm": null,
+          "rotation_deg": 1.6524144234287665,
+          "translation_mm": 2.470633487903425,
+          "phase_error_cycles": 0.007782491854311069,
+          "transfer_cmr_mm": 3.9236077280480672,
+          "e99_late_fusion_mm": 10.52047927936536,
+          "e99_rooted4d_mm": 2.3673089786798767,
+          "seconds": 6.455
+        }
+      }
+    },
+    {
+      "subject": "MITEA_042",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 11.333483198584851,
+          "rotation_deg": 7.34262202385456,
+          "translation_mm": 10.063185207453479,
+          "phase_error_cycles": 0.07758520129304114,
+          "transfer_tee_mm": 8.194176943773707,
+          "e99_late_fusion_mm": 11.333483198584851,
+          "e99_rooted4d_mm": 8.148819739976934,
+          "seconds": 2.94
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 12.856263513549397,
+          "heldout_tee_mm": null,
+          "rotation_deg": 1.7573829093740863,
+          "translation_mm": 7.290257427198931,
+          "phase_error_cycles": 0.010646925456678336,
+          "transfer_cmr_mm": 7.695617751108095,
+          "e99_late_fusion_mm": 12.856263513549397,
+          "e99_rooted4d_mm": 6.96671870713096,
+          "seconds": 6.431
+        }
+      }
+    },
+    {
+      "subject": "MITEA_045",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 12.257631239484203,
+          "rotation_deg": 3.233191594055223,
+          "translation_mm": 2.050137205153904,
+          "phase_error_cycles": 0.0421190125005001,
+          "transfer_tee_mm": 12.566612851469966,
+          "e99_late_fusion_mm": 12.257631239484203,
+          "e99_rooted4d_mm": 6.696071869158261,
+          "seconds": 6.314
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 11.691208027620494,
+          "heldout_tee_mm": null,
+          "rotation_deg": 4.662062261892081,
+          "translation_mm": 8.986531834986645,
+          "phase_error_cycles": 0.07423329923892713,
+          "transfer_cmr_mm": 4.065000546411041,
+          "e99_late_fusion_mm": 11.691208027620494,
+          "e99_rooted4d_mm": 3.662093859304125,
+          "seconds": 8.234
+        }
+      }
+    },
+    {
+      "subject": "MITEA_066",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 7.613397957622894,
+          "rotation_deg": 6.3114458377501235,
+          "translation_mm": 5.588161365768276,
+          "phase_error_cycles": 0.4304272643870809,
+          "transfer_tee_mm": 8.515508240361807,
+          "e99_late_fusion_mm": 7.613397957622894,
+          "e99_rooted4d_mm": 8.835831807928576,
+          "seconds": 1.92
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 7.32776692827482,
+          "heldout_tee_mm": null,
+          "rotation_deg": 3.650946143914832,
+          "translation_mm": 5.246225650368215,
+          "phase_error_cycles": 0.07827881986846041,
+          "transfer_cmr_mm": 4.960550629827663,
+          "e99_late_fusion_mm": 7.32776692827482,
+          "e99_rooted4d_mm": 2.6146977529733273,
+          "seconds": 6.432
+        }
+      }
+    },
+    {
+      "subject": "MITEA_074",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 12.19772101126582,
+          "rotation_deg": 3.9290249106762816,
+          "translation_mm": 9.971677679965875,
+          "phase_error_cycles": 0.06515612348881239,
+          "transfer_tee_mm": 10.01822219181835,
+          "e99_late_fusion_mm": 12.19772101126582,
+          "e99_rooted4d_mm": 4.478963447414676,
+          "seconds": 2.101
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 12.334818287170961,
+          "heldout_tee_mm": null,
+          "rotation_deg": 5.46326185152847,
+          "translation_mm": 4.6206940988977045,
+          "phase_error_cycles": 0.061473438716880935,
+          "transfer_cmr_mm": 7.189692736187056,
+          "e99_late_fusion_mm": 12.334818287170961,
+          "e99_rooted4d_mm": 4.015234053303439,
+          "seconds": 6.452
+        }
+      }
+    },
+    {
+      "subject": "MITEA_083",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 8.619599503536406,
+          "rotation_deg": 4.738802920552033,
+          "translation_mm": 2.359770784759657,
+          "phase_error_cycles": 0.05361589851993842,
+          "transfer_tee_mm": 5.015886906248429,
+          "e99_late_fusion_mm": 8.619599503536406,
+          "e99_rooted4d_mm": 6.415046594389502,
+          "seconds": 1.981
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 10.303757028208564,
+          "heldout_tee_mm": null,
+          "rotation_deg": 7.599230860086075,
+          "translation_mm": 6.78793741052531,
+          "phase_error_cycles": 0.049296470475137466,
+          "transfer_cmr_mm": 5.450166876861473,
+          "e99_late_fusion_mm": 10.303757028208564,
+          "e99_rooted4d_mm": 3.8145164807593694,
+          "seconds": 6.347
+        }
+      }
+    },
+    {
+      "subject": "MITEA_103",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 14.159587510375966,
+          "rotation_deg": 7.132390866179933,
+          "translation_mm": 7.5009957508903335,
+          "phase_error_cycles": 0.056034361321825266,
+          "transfer_tee_mm": 9.420083040418223,
+          "e99_late_fusion_mm": 14.159587510375966,
+          "e99_rooted4d_mm": 10.352144823605816,
+          "seconds": 2.063
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 14.305427172039423,
+          "heldout_tee_mm": null,
+          "rotation_deg": 4.234958111368212,
+          "translation_mm": 12.588082585401802,
+          "phase_error_cycles": 0.030099542140660074,
+          "transfer_cmr_mm": 8.03339719766141,
+          "e99_late_fusion_mm": 14.305427172039423,
+          "e99_rooted4d_mm": 3.524749342645363,
+          "seconds": 7.315
+        }
+      }
+    },
+    {
+      "subject": "MITEA_110",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 11.475362247451162,
+          "rotation_deg": 8.19371853078882,
+          "translation_mm": 12.951401820656638,
+          "phase_error_cycles": 0.3975595957425877,
+          "transfer_tee_mm": 10.796881236682982,
+          "e99_late_fusion_mm": 11.475362247451162,
+          "e99_rooted4d_mm": 7.604049923928482,
+          "seconds": 5.138
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 11.078176748650815,
+          "heldout_tee_mm": null,
+          "rotation_deg": 3.941247839414241,
+          "translation_mm": 6.05612993130888,
+          "phase_error_cycles": 0.05792935486695977,
+          "transfer_cmr_mm": 7.599111778104493,
+          "e99_late_fusion_mm": 11.078176748650815,
+          "e99_rooted4d_mm": 3.7532441050688443,
+          "seconds": 6.402
+        }
+      }
+    },
+    {
+      "subject": "MITEA_128",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 9.574981079467063,
+          "rotation_deg": 10.207490627043349,
+          "translation_mm": 11.881478722406607,
+          "phase_error_cycles": 0.12135166123169516,
+          "transfer_tee_mm": 4.996466224907818,
+          "e99_late_fusion_mm": 9.574981079467063,
+          "e99_rooted4d_mm": 6.21935937962094,
+          "seconds": 2.609
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 10.639987858337532,
+          "heldout_tee_mm": null,
+          "rotation_deg": 9.75370517510744,
+          "translation_mm": 12.634532907800638,
+          "phase_error_cycles": 0.02788826668049893,
+          "transfer_cmr_mm": 6.657084875603979,
+          "e99_late_fusion_mm": 10.639987858337532,
+          "e99_rooted4d_mm": 4.956061517861128,
+          "seconds": 6.344
+        }
+      }
+    },
+    {
+      "subject": "MITEA_130",
+      "variants": {
+        "echo_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": null,
+          "heldout_tee_mm": 12.571443418450698,
+          "rotation_deg": 1.6647243117480077,
+          "translation_mm": 3.5096097258290007,
+          "phase_error_cycles": 0.08057071550447226,
+          "transfer_tee_mm": 12.415883463696588,
+          "e99_late_fusion_mm": 12.571443418450698,
+          "e99_rooted4d_mm": 4.69992128894042,
+          "seconds": 2.138
+        },
+        "cmr_ED": {
+          "succeeded": true,
+          "heldout_cmr_mm": 9.517403359034965,
+          "heldout_tee_mm": null,
+          "rotation_deg": 1.8084173560626498,
+          "translation_mm": 2.2280467519665055,
+          "phase_error_cycles": 0.05870245691224729,
+          "transfer_cmr_mm": 3.8800005911972972,
+          "e99_late_fusion_mm": 9.517403359034965,
+          "e99_rooted4d_mm": 2.2419059791164915,
+          "seconds": 6.388
+        }
+      }
+    }
+  ]
+}

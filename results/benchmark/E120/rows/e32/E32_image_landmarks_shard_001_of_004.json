@@ -1,0 +1,325 @@
+{
+  "shard": "1/4",
+  "rows": [
+    {
+      "landmarks": 0,
+      "sample": "sample-04595194ac6631f1",
+      "rotation_deg": 70.96571775928983,
+      "translation_mm": 3.8870501847658003,
+      "phase_map_cycles": 0.12509090080748947,
+      "point_rotation_deg": 2.590731472664102,
+      "point_translation_mm": 3.890093417499836,
+      "seconds": 98.94857048988342
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-04595194ac6631f1",
+      "rotation_deg": 3.208576013719253,
+      "translation_mm": 2.452153404137614,
+      "phase_map_cycles": 0.02990479417143213,
+      "point_rotation_deg": 2.590731472664102,
+      "point_translation_mm": 3.890093417499836,
+      "seconds": 100.00347661972046
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-04595194ac6631f1",
+      "rotation_deg": 2.557388215502422,
+      "translation_mm": 3.1031306342285356,
+      "phase_map_cycles": 0.02533347948821657,
+      "point_rotation_deg": 2.590731472664102,
+      "point_translation_mm": 3.890093417499836,
+      "seconds": 102.77889156341553
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-04595194ac6631f1",
+      "rotation_deg": 0.8285929001831126,
+      "translation_mm": 1.8322101486985105,
+      "phase_map_cycles": 0.032215124627632485,
+      "point_rotation_deg": 2.590731472664102,
+      "point_translation_mm": 3.890093417499836,
+      "seconds": 102.26747059822083
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-1fdc05c124193ab4",
+      "rotation_deg": 41.285528394843475,
+      "translation_mm": 4.891061520849493,
+      "phase_map_cycles": 0.021288010747943786,
+      "point_rotation_deg": 1.1041215483106173,
+      "point_translation_mm": 4.915825197502488,
+      "seconds": 93.1120855808258
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-1fdc05c124193ab4",
+      "rotation_deg": 0.4968353121855618,
+      "translation_mm": 4.025635903750005,
+      "phase_map_cycles": 0.09939998185121623,
+      "point_rotation_deg": 1.1041215483106173,
+      "point_translation_mm": 4.915825197502488,
+      "seconds": 98.61541152000427
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-1fdc05c124193ab4",
+      "rotation_deg": 1.1395683298488368,
+      "translation_mm": 4.008280106049198,
+      "phase_map_cycles": 0.07794399707745472,
+      "point_rotation_deg": 1.1041215483106173,
+      "point_translation_mm": 4.915825197502488,
+      "seconds": 98.96643614768982
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-1fdc05c124193ab4",
+      "rotation_deg": 0.6059911047468407,
+      "translation_mm": 3.8636750982478634,
+      "phase_map_cycles": 0.04849943684134317,
+      "point_rotation_deg": 1.1041215483106173,
+      "point_translation_mm": 4.915825197502488,
+      "seconds": 98.92419767379761
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-2d2ced6b94d54b1e",
+      "rotation_deg": 176.9486221001856,
+      "translation_mm": 1.4638254471527028,
+      "phase_map_cycles": 0.14158353359678766,
+      "point_rotation_deg": 0.6151621363166259,
+      "point_translation_mm": 1.1293057942625246,
+      "seconds": 87.77727460861206
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-2d2ced6b94d54b1e",
+      "rotation_deg": 2.609967987251703,
+      "translation_mm": 3.1569361489760444,
+      "phase_map_cycles": 0.014107827325248568,
+      "point_rotation_deg": 0.6151621363166259,
+      "point_translation_mm": 1.1293057942625246,
+      "seconds": 67.07790350914001
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-2d2ced6b94d54b1e",
+      "rotation_deg": 2.44868627649094,
+      "translation_mm": 3.0550856434806186,
+      "phase_map_cycles": 0.014264713795526907,
+      "point_rotation_deg": 0.6151621363166259,
+      "point_translation_mm": 1.1293057942625246,
+      "seconds": 65.85803484916687
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-2d2ced6b94d54b1e",
+      "rotation_deg": 1.6244935224519186,
+      "translation_mm": 2.170198149770932,
+      "phase_map_cycles": 0.022109740379221865,
+      "point_rotation_deg": 0.6151621363166259,
+      "point_translation_mm": 1.1293057942625246,
+      "seconds": 65.40152907371521
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-31a5d135b7df96c7",
+      "rotation_deg": 61.54477419890663,
+      "translation_mm": 2.8074406755045103,
+      "phase_map_cycles": 0.31597396990246324,
+      "point_rotation_deg": 2.16808142472916,
+      "point_translation_mm": 2.8131166597522803,
+      "seconds": 59.42534112930298
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-31a5d135b7df96c7",
+      "rotation_deg": 1.3706432196350824,
+      "translation_mm": 2.1467915781763285,
+      "phase_map_cycles": 0.01977675377051602,
+      "point_rotation_deg": 2.16808142472916,
+      "point_translation_mm": 2.8131166597522803,
+      "seconds": 60.630249977111816
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-31a5d135b7df96c7",
+      "rotation_deg": 0.9168854237555223,
+      "translation_mm": 2.4078922247035726,
+      "phase_map_cycles": 0.021830944255499918,
+      "point_rotation_deg": 2.16808142472916,
+      "point_translation_mm": 2.8131166597522803,
+      "seconds": 62.70824098587036
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-31a5d135b7df96c7",
+      "rotation_deg": 1.5911323939541189,
+      "translation_mm": 3.273916167818222,
+      "phase_map_cycles": 0.032908103002466826,
+      "point_rotation_deg": 2.16808142472916,
+      "point_translation_mm": 2.8131166597522803,
+      "seconds": 60.609933376312256
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-521522c681de7414",
+      "rotation_deg": 110.45548733485667,
+      "translation_mm": 5.133986433710437,
+      "phase_map_cycles": 0.2802627417370687,
+      "point_rotation_deg": 1.679565578406571,
+      "point_translation_mm": 5.129404428443068,
+      "seconds": 59.93510913848877
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-521522c681de7414",
+      "rotation_deg": 3.697326907993345,
+      "translation_mm": 3.249110791610338,
+      "phase_map_cycles": 0.04499688581337258,
+      "point_rotation_deg": 1.679565578406571,
+      "point_translation_mm": 5.129404428443068,
+      "seconds": 64.89634561538696
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-521522c681de7414",
+      "rotation_deg": 2.663089509984828,
+      "translation_mm": 3.4342083374889136,
+      "phase_map_cycles": 0.010913061774134786,
+      "point_rotation_deg": 1.679565578406571,
+      "point_translation_mm": 5.129404428443068,
+      "seconds": 65.27442359924316
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-521522c681de7414",
+      "rotation_deg": 2.241949393909917,
+      "translation_mm": 3.013441952194572,
+      "phase_map_cycles": 0.011644738505774743,
+      "point_rotation_deg": 1.679565578406571,
+      "point_translation_mm": 5.129404428443068,
+      "seconds": 64.55705332756042
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-66fc7a9456bbb0f4",
+      "rotation_deg": 156.54476180339617,
+      "translation_mm": 5.825236516294401,
+      "phase_map_cycles": 0.35053257534495497,
+      "point_rotation_deg": 1.5784343913490717,
+      "point_translation_mm": 5.82080425582348,
+      "seconds": 56.71108889579773
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-66fc7a9456bbb0f4",
+      "rotation_deg": 1.9163216315421523,
+      "translation_mm": 4.518746943833792,
+      "phase_map_cycles": 0.0875241523836518,
+      "point_rotation_deg": 1.5784343913490717,
+      "point_translation_mm": 5.82080425582348,
+      "seconds": 60.661900997161865
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-66fc7a9456bbb0f4",
+      "rotation_deg": 1.5113802817053275,
+      "translation_mm": 3.7877798851253104,
+      "phase_map_cycles": 0.07450115128427076,
+      "point_rotation_deg": 1.5784343913490717,
+      "point_translation_mm": 5.82080425582348,
+      "seconds": 61.892574310302734
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-66fc7a9456bbb0f4",
+      "rotation_deg": 0.972009015485335,
+      "translation_mm": 3.420949327271237,
+      "phase_map_cycles": 0.06243611561471024,
+      "point_rotation_deg": 1.5784343913490717,
+      "point_translation_mm": 5.82080425582348,
+      "seconds": 61.89811110496521
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-6f3aa5eafbe55b34",
+      "rotation_deg": 0.9934230858379914,
+      "translation_mm": 0.8154974499856743,
+      "phase_map_cycles": 0.17379121536238024,
+      "point_rotation_deg": 0.6735524705567305,
+      "point_translation_mm": 2.7080317401630314,
+      "seconds": 64.32225847244263
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-6f3aa5eafbe55b34",
+      "rotation_deg": 0.7240489595047651,
+      "translation_mm": 2.300383902162864,
+      "phase_map_cycles": 0.04748389532441871,
+      "point_rotation_deg": 0.6735524705567305,
+      "point_translation_mm": 2.7080317401630314,
+      "seconds": 64.29776906967163
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-6f3aa5eafbe55b34",
+      "rotation_deg": 0.5718632777771095,
+      "translation_mm": 1.994766716697109,
+      "phase_map_cycles": 0.033677124040159684,
+      "point_rotation_deg": 0.6735524705567305,
+      "point_translation_mm": 2.7080317401630314,
+      "seconds": 63.54304623603821
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-6f3aa5eafbe55b34",
+      "rotation_deg": 1.0323221371541889,
+      "translation_mm": 2.4826900962157956,
+      "phase_map_cycles": 0.01800075034782489,
+      "point_rotation_deg": 0.6735524705567305,
+      "point_translation_mm": 2.7080317401630314,
+      "seconds": 61.78730130195618
+    },
+    {
+      "landmarks": 0,
+      "sample": "sample-85ebb86d2c62c245",
+      "rotation_deg": 178.82838559537885,
+      "translation_mm": 6.468713213480969,
+      "phase_map_cycles": 0.027740282376318315,
+      "point_rotation_deg": 1.993557506014956,
+      "point_translation_mm": 6.280756287859242,
+      "seconds": 59.49081039428711
+    },
+    {
+      "landmarks": 2,
+      "sample": "sample-85ebb86d2c62c245",
+      "rotation_deg": 3.4674175302835106,
+      "translation_mm": 4.858422206766284,
+      "phase_map_cycles": 0.03610881590524795,
+      "point_rotation_deg": 1.993557506014956,
+      "point_translation_mm": 6.280756287859242,
+      "seconds": 63.39568209648132
+    },
+    {
+      "landmarks": 4,
+      "sample": "sample-85ebb86d2c62c245",
+      "rotation_deg": 3.7727805165528165,
+      "translation_mm": 5.732039885055957,
+      "phase_map_cycles": 0.014912051829072487,
+      "point_rotation_deg": 1.993557506014956,
+      "point_translation_mm": 6.280756287859242,
+      "seconds": 62.53106069564819
+    },
+    {
+      "landmarks": 8,
+      "sample": "sample-85ebb86d2c62c245",
+      "rotation_deg": 2.956382618042184,
+      "translation_mm": 4.364927379438203,
+      "phase_map_cycles": 0.024402902786699543,
+      "point_rotation_deg": 1.993557506014956,
+      "point_translation_mm": 6.280756287859242,
+      "seconds": 62.89874839782715
+    }
+  ]
+}

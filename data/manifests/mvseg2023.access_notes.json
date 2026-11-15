@@ -1,0 +1,65 @@
+{
+  "dataset_key": "mvseg2023",
+  "title": "MVSeg2023 mitral valve segmentation challenge",
+  "filed_utc": "2026-08-31",
+  "local_root": "data/raw/mvseg2023",
+  "source_archives": {
+    "train": {
+      "sha256": "cbbc6175ff36b800f22f025f2d85bd509873be852e87e12859263d46673981fd",
+      "size_bytes": 377719271
+    },
+    "val": {
+      "sha256": "0e075630a218ce1d32c2c4317aa5021111a4a4e7d9c2a00efb20724727106c22",
+      "size_bytes": 98738933
+    },
+    "test": {
+      "sha256": "914ffb857c3f7d01e85a1d02717eef0fa856d66329a4248018f0edf06cc9f6bd",
+      "size_bytes": 131738593
+    }
+  },
+  "extracted": {
+    "n_files": 350,
+    "cases": {
+      "train": 105,
+      "val": 30,
+      "test": 40
+    },
+    "per_case": "{split}_NNN-US.nii.gz volume and {split}_NNN-label.nii.gz labels",
+    "labels": {
+      "1": "anterior leaflet",
+      "2": "posterior leaflet"
+    },
+    "example_grid": [
+      256,
+      160,
+      208
+    ],
+    "example_spacing_mm": [
+      0.384,
+      0.58,
+      0.24
+    ]
+  },
+  "layout_validation": {
+    "tool": "python -m rooted4d.data.cli validate mvseg2023 --root data/raw/mvseg2023",
+    "matched_files": 350,
+    "minimum_matches": 100,
+    "passed": true
+  },
+  "role": "valve donors for the semi-synthetic paired benchmark; TEE component evaluation",
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "commercial_use": "prohibited",
+    "no_derivatives": true,
+    "consequences_for_this_project": [
+      "NoDerivatives is stricter than ACDC's ShareAlike. A leaflet donor fitted to the frozen topology is a derivative work, so fitted valve meshes and any semi-synthetic benchmark built from them cannot be redistributed at all, not merely under a matching licence.",
+      "Using the data to fit, train and evaluate internally is unaffected; it is distribution that ND blocks.",
+      "A public benchmark release therefore cannot include the valve side. Section 6.3 WP8 of the specification anticipates releasing a paired benchmark; with this licence that is not possible for MVSeg2023-derived donors, and the plan needs amending rather than discovering this at release.",
+      "Combined with ACDC's non-commercial ShareAlike, no derived artefact of this project can go out under the repository's MIT terms."
+    ]
+  },
+  "limitations": [
+    "Single-frame volumes: no full-cycle valve motion, so temporal claims cannot rest on this dataset.",
+    "Leaflets only; no annulus curve or chamber context is labelled."
+  ]
+}

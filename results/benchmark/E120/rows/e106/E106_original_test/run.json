@@ -1,0 +1,10 @@
+{
+  "experiment": "E106",
+  "instance": "original",
+  "instance_root": "data/derived/e100-v3n96o",
+  "iterations": 400,
+  "model_root": "data/derived/e100-v3n96o",
+  "preregistration": "Docs/E103_E107_REVIEWER_ANALYSES_PREREGISTRATION_2026-10-03.md",
+  "samples": 60,
+  "warm_starts": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96o/components/E69_v3n96o_test"
+}

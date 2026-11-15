@@ -1,0 +1,7 @@
+modes 12  floor  4.32  combined held-out 5.542 +/- 0.326  (76 s)
+modes 16  floor  3.47  combined held-out 5.175 +/- 0.354  (161 s)
+modes 20  floor  3.05  combined held-out 5.150 +/- 0.379  (251 s)
+modes 24  floor  2.75  combined held-out 5.079 +/- 0.386  (350 s)
+modes 32  floor  2.20  combined held-out 5.166 +/- 0.420  (469 s)
+
+best 24 modes (5.079), threshold 5.465 -> chosen 16 modes

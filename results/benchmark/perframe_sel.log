@@ -1,0 +1,6 @@
+fitting shape space from train split...
+selecting on 30 identities (of 60 val samples)
+nodes  8  w   0.3  combined held-out  2.865 +/- 0.134  (184 s)
+nodes  8  w   1.0  combined held-out  3.321 +/- 0.130  (377 s)
+nodes  8  w   3.0  combined held-out  4.015 +/- 0.118  (567 s)
+nodes  8  w  10.0  combined held-out  4.724 +/- 0.116  (763 s)

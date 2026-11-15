@@ -1,0 +1,60 @@
+{
+  "experiment": "E53b_projection_independent",
+  "purpose": "Independent confirmation that E53's structured arm was scored by a blockwise rule while the global arm received an optimal projection.",
+  "construction": "span derived by pushing unit coefficient vectors through E53's own assemble() operator, not by rebuilding the harmonic matrix",
+  "limitation": "allocations were selected on test by E53; this is a corrected diagnostic, not a validated held-out result",
+  "train_samples": 180,
+  "test_samples": 60,
+  "rows": [
+    {
+      "budget": 12,
+      "published_blockwise_mm": 5.687535895875289,
+      "reproduced_blockwise_mm": 5.687535895875289,
+      "harness_deviation_mm": 0.0,
+      "joint_projection_mm": 5.233349816003551,
+      "published_global_mm": 4.377974026845658,
+      "columns": 12,
+      "rank": 12
+    },
+    {
+      "budget": 24,
+      "published_blockwise_mm": 2.657881487650474,
+      "reproduced_blockwise_mm": 2.657881487650474,
+      "harness_deviation_mm": 0.0,
+      "joint_projection_mm": 2.628685639457375,
+      "published_global_mm": 2.608949664121027,
+      "columns": 24,
+      "rank": 24
+    },
+    {
+      "budget": 32,
+      "published_blockwise_mm": 1.807277990243675,
+      "reproduced_blockwise_mm": 1.807277990243675,
+      "harness_deviation_mm": 0.0,
+      "joint_projection_mm": 1.689080437408754,
+      "published_global_mm": 1.769885103531335,
+      "columns": 32,
+      "rank": 32
+    },
+    {
+      "budget": 48,
+      "published_blockwise_mm": 1.0353102035440296,
+      "reproduced_blockwise_mm": 1.0353102035440296,
+      "harness_deviation_mm": 0.0,
+      "joint_projection_mm": 1.020278869216571,
+      "published_global_mm": 1.2059734307309724,
+      "columns": 48,
+      "rank": 48
+    },
+    {
+      "budget": 64,
+      "published_blockwise_mm": 0.7552779362801534,
+      "reproduced_blockwise_mm": 0.7552779362801534,
+      "harness_deviation_mm": 0.0,
+      "joint_projection_mm": 0.7353826534360426,
+      "published_global_mm": 0.8888237525269302,
+      "columns": 64,
+      "rank": 64
+    }
+  ]
+}

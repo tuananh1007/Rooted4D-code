@@ -1,0 +1,64 @@
+{
+  "experiment": "E34_component_intervals",
+  "resamples": 20000,
+  "seed": 20260910,
+  "statistic": "median, percentile bootstrap",
+  "resampling_unit": {
+    "chamber": "patient, both frames carried together",
+    "valve": "case",
+    "ejection_fraction": "patient"
+  },
+  "chamber": {
+    "symmetric_mm": {
+      "point": 1.8724670159644403,
+      "ci_low": 1.8140064376888927,
+      "ci_high": 1.8983794340089022,
+      "units": 150,
+      "observations": 300
+    },
+    "hausdorff_mm": {
+      "point": 7.114375808054161,
+      "ci_low": 6.9579437720394015,
+      "ci_high": 7.28682717344364,
+      "units": 150,
+      "observations": 300
+    },
+    "ef_absolute_points": {
+      "point": 1.4284870512504,
+      "ci_low": 1.1552096238199567,
+      "ci_high": 1.832493238722158,
+      "units": 150,
+      "observations": 150
+    }
+  },
+  "valve": {
+    "anterior_symmetric_mm": {
+      "point": 0.5780538643148478,
+      "ci_low": 0.5709698588262446,
+      "ci_high": 0.5915560561043736,
+      "units": 175,
+      "observations": 175
+    },
+    "anterior_hausdorff_mm": {
+      "point": 5.03005229431745,
+      "ci_low": 4.870157435568008,
+      "ci_high": 5.353399704020224,
+      "units": 175,
+      "observations": 175
+    },
+    "posterior_symmetric_mm": {
+      "point": 0.5819338059155286,
+      "ci_low": 0.568833231750498,
+      "ci_high": 0.59033407231675,
+      "units": 175,
+      "observations": 175
+    },
+    "posterior_hausdorff_mm": {
+      "point": 3.9164686583119908,
+      "ci_low": 3.7633622687313033,
+      "ci_high": 4.057189871317316,
+      "units": 175,
+      "observations": 175
+    }
+  }
+}

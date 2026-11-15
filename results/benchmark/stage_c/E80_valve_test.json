@@ -1,0 +1,2056 @@
+{
+  "preregistration": "Docs/E79_E80_VALVE_PREREGISTRATION_2026-09-26.md",
+  "training_cases": 104,
+  "ranks": {
+    "S": 36,
+    "G": 36
+  },
+  "residual_scales": {
+    "S": 0.8753183672143116,
+    "G": 0.5487827956186382
+  },
+  "scales": {
+    "S": [
+      185.91479609505421,
+      77.05185688019517,
+      40.552738210858344,
+      31.84010297938095,
+      24.993768397968584,
+      18.520497194678327,
+      14.492510021918553,
+      12.60405301077186,
+      11.201465529593317,
+      11.155934649159615,
+      9.724497834683872,
+      8.995587655097898,
+      8.509329572295275,
+      8.020024446858606,
+      7.184513600728683,
+      6.9806428083564045,
+      6.244602044619106,
+      5.97322614447089,
+      5.412522138057047,
+      5.228215591903112,
+      4.801498043267634,
+      4.693476397206623,
+      4.216701024380458,
+      3.9149299280066434,
+      3.800760234393105,
+      3.561591017395428,
+      3.26213595925409,
+      3.1491511406657215,
+      2.860574062214139,
+      2.59066791015141,
+      2.362237446407404,
+      2.221628626895477,
+      1.9389820453861752,
+      1.6305866317278825,
+      1.5395516108253784,
+      1.2974465950679122
+    ],
+    "G": [
+      185.91527039170484,
+      77.0568334131387,
+      40.56435379742279,
+      31.866407998015283,
+      25.036672748977754,
+      18.54451165505269,
+      14.577855667197634,
+      12.739589628067755,
+      11.384655166493005,
+      11.308345241506014,
+      9.96184924115026,
+      9.260319588981394,
+      8.760330314685461,
+      8.353884548068034,
+      7.610472184488867,
+      7.557044123153455,
+      7.127748299732198,
+      6.7700933811906925,
+      6.5206584726904016,
+      6.323272560213758,
+      5.950746815638141,
+      5.6021100980312895,
+      5.429068429499142,
+      5.024773992115492,
+      4.732991933679133,
+      4.555556910963359,
+      4.357593700123282,
+      4.287125558391595,
+      4.107082198860376,
+      4.03223267592906,
+      3.8494203546163415,
+      3.745039662242362,
+      3.570784198217183,
+      3.4012773149836084,
+      3.326760399920843,
+      3.190435741551622
+    ]
+  },
+  "experiment": "E80",
+  "split": "test",
+  "frozen": {
+    "S": 0.0,
+    "G": 0.0
+  },
+  "rows": [
+    {
+      "case": "test_001",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.7147425921508681,
+          "hausdorff_mm": 9.087536738573794
+        },
+        "posterior": {
+          "symmetric_mm": 0.8006632539320118,
+          "hausdorff_mm": 16.62514317487247
+        },
+        "mean_symmetric_mm": 0.7577029230414399
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.6873091577848075,
+          "hausdorff_mm": 7.614449186233098
+        },
+        "posterior": {
+          "symmetric_mm": 0.5980733344650205,
+          "hausdorff_mm": 6.777416272576217
+        },
+        "mean_symmetric_mm": 0.642691246124914
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7147425921508681,
+          "hausdorff_mm": 9.087536738573794
+        },
+        "posterior": {
+          "symmetric_mm": 0.8006632539320118,
+          "hausdorff_mm": 16.62514317487247
+        },
+        "mean_symmetric_mm": 0.7577029230414399
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7147425921508681,
+          "hausdorff_mm": 9.087536738573794
+        },
+        "posterior": {
+          "symmetric_mm": 0.8006632539320118,
+          "hausdorff_mm": 16.62514317487247
+        },
+        "mean_symmetric_mm": 0.7577029230414399
+      }
+    },
+    {
+      "case": "test_002",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.7886931975971683,
+          "hausdorff_mm": 15.548360041560077
+        },
+        "posterior": {
+          "symmetric_mm": 0.8702507540596391,
+          "hausdorff_mm": 9.732793275071709
+        },
+        "mean_symmetric_mm": 1.3294719758284037
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.2549496244228584,
+          "hausdorff_mm": 15.641543276903096
+        },
+        "posterior": {
+          "symmetric_mm": 0.5329489857813197,
+          "hausdorff_mm": 5.649261628164041
+        },
+        "mean_symmetric_mm": 0.893949305102089
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.7886931975971683,
+          "hausdorff_mm": 15.548360041560077
+        },
+        "posterior": {
+          "symmetric_mm": 0.8702507540596391,
+          "hausdorff_mm": 9.732793275071709
+        },
+        "mean_symmetric_mm": 1.3294719758284037
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.7886931975971683,
+          "hausdorff_mm": 15.548360041560077
+        },
+        "posterior": {
+          "symmetric_mm": 0.8702507540596391,
+          "hausdorff_mm": 9.732793275071709
+        },
+        "mean_symmetric_mm": 1.3294719758284037
+      }
+    },
+    {
+      "case": "test_003",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8272913785405405,
+          "hausdorff_mm": 8.94389583084395
+        },
+        "posterior": {
+          "symmetric_mm": 0.6418699824189694,
+          "hausdorff_mm": 7.406133890542573
+        },
+        "mean_symmetric_mm": 0.734580680479755
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.6754088205234143,
+          "hausdorff_mm": 6.845189633895775
+        },
+        "posterior": {
+          "symmetric_mm": 0.5706060568254158,
+          "hausdorff_mm": 3.995500962301494
+        },
+        "mean_symmetric_mm": 0.6230074386744151
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8272913785405405,
+          "hausdorff_mm": 8.94389583084395
+        },
+        "posterior": {
+          "symmetric_mm": 0.6418699824189694,
+          "hausdorff_mm": 7.406133890542573
+        },
+        "mean_symmetric_mm": 0.734580680479755
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8272913785405405,
+          "hausdorff_mm": 8.94389583084395
+        },
+        "posterior": {
+          "symmetric_mm": 0.6418699824189694,
+          "hausdorff_mm": 7.406133890542573
+        },
+        "mean_symmetric_mm": 0.734580680479755
+      }
+    },
+    {
+      "case": "test_004",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.235600225620424,
+          "hausdorff_mm": 14.945359421669552
+        },
+        "posterior": {
+          "symmetric_mm": 0.807632570715496,
+          "hausdorff_mm": 17.453717719900375
+        },
+        "mean_symmetric_mm": 1.02161639816796
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.3764437288436042,
+          "hausdorff_mm": 15.380972589409675
+        },
+        "posterior": {
+          "symmetric_mm": 0.5887408652879026,
+          "hausdorff_mm": 8.852584265595803
+        },
+        "mean_symmetric_mm": 0.9825922970657535
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.235600225620424,
+          "hausdorff_mm": 14.945359421669552
+        },
+        "posterior": {
+          "symmetric_mm": 0.807632570715496,
+          "hausdorff_mm": 17.453717719900375
+        },
+        "mean_symmetric_mm": 1.02161639816796
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.235600225620424,
+          "hausdorff_mm": 14.945359421669552
+        },
+        "posterior": {
+          "symmetric_mm": 0.807632570715496,
+          "hausdorff_mm": 17.453717719900375
+        },
+        "mean_symmetric_mm": 1.02161639816796
+      }
+    },
+    {
+      "case": "test_005",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.479038879060266,
+          "hausdorff_mm": 14.502912959382787
+        },
+        "posterior": {
+          "symmetric_mm": 0.5424183740661274,
+          "hausdorff_mm": 3.3000372119332
+        },
+        "mean_symmetric_mm": 1.0107286265631967
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.2907724467468686,
+          "hausdorff_mm": 14.196686673032023
+        },
+        "posterior": {
+          "symmetric_mm": 0.521925611784027,
+          "hausdorff_mm": 6.752987364181967
+        },
+        "mean_symmetric_mm": 0.9063490292654478
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.479038879060266,
+          "hausdorff_mm": 14.502912959382787
+        },
+        "posterior": {
+          "symmetric_mm": 0.5424183740661274,
+          "hausdorff_mm": 3.3000372119332
+        },
+        "mean_symmetric_mm": 1.0107286265631967
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.479038879060266,
+          "hausdorff_mm": 14.502912959382787
+        },
+        "posterior": {
+          "symmetric_mm": 0.5424183740661274,
+          "hausdorff_mm": 3.3000372119332
+        },
+        "mean_symmetric_mm": 1.0107286265631967
+      }
+    },
+    {
+      "case": "test_006",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.2080307449052354,
+          "hausdorff_mm": 10.353837158896184
+        },
+        "posterior": {
+          "symmetric_mm": 0.8399886800255162,
+          "hausdorff_mm": 12.82098867108065
+        },
+        "mean_symmetric_mm": 1.0240097124653758
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.2861666736998634,
+          "hausdorff_mm": 13.418943284322419
+        },
+        "posterior": {
+          "symmetric_mm": 0.6792261709135513,
+          "hausdorff_mm": 5.396929515200304
+        },
+        "mean_symmetric_mm": 0.9826964223067074
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2080307449052354,
+          "hausdorff_mm": 10.353837158896184
+        },
+        "posterior": {
+          "symmetric_mm": 0.8399886800255162,
+          "hausdorff_mm": 12.82098867108065
+        },
+        "mean_symmetric_mm": 1.0240097124653758
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2080307449052354,
+          "hausdorff_mm": 10.353837158896184
+        },
+        "posterior": {
+          "symmetric_mm": 0.8399886800255162,
+          "hausdorff_mm": 12.82098867108065
+        },
+        "mean_symmetric_mm": 1.0240097124653758
+      }
+    },
+    {
+      "case": "test_007",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.454571135911707,
+          "hausdorff_mm": 15.52171394983594
+        },
+        "posterior": {
+          "symmetric_mm": 0.941477713714133,
+          "hausdorff_mm": 11.584541601424403
+        },
+        "mean_symmetric_mm": 1.1980244248129202
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.0545989030361387,
+          "hausdorff_mm": 13.702301720626116
+        },
+        "posterior": {
+          "symmetric_mm": 0.6512118117495257,
+          "hausdorff_mm": 3.913711819299372
+        },
+        "mean_symmetric_mm": 0.8529053573928322
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.454571135911707,
+          "hausdorff_mm": 15.52171394983594
+        },
+        "posterior": {
+          "symmetric_mm": 0.941477713714133,
+          "hausdorff_mm": 11.584541601424403
+        },
+        "mean_symmetric_mm": 1.1980244248129202
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.454571135911707,
+          "hausdorff_mm": 15.52171394983594
+        },
+        "posterior": {
+          "symmetric_mm": 0.941477713714133,
+          "hausdorff_mm": 11.584541601424403
+        },
+        "mean_symmetric_mm": 1.1980244248129202
+      }
+    },
+    {
+      "case": "test_008",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.3435548236533252,
+          "hausdorff_mm": 14.606299276544046
+        },
+        "posterior": {
+          "symmetric_mm": 1.1659249597772086,
+          "hausdorff_mm": 20.1599810952267
+        },
+        "mean_symmetric_mm": 1.2547398917152668
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.6325077677003144,
+          "hausdorff_mm": 16.16844445682637
+        },
+        "posterior": {
+          "symmetric_mm": 0.6164103333967192,
+          "hausdorff_mm": 4.617555578861818
+        },
+        "mean_symmetric_mm": 1.1244590505485168
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.3435548236533252,
+          "hausdorff_mm": 14.606299276544046
+        },
+        "posterior": {
+          "symmetric_mm": 1.1659249597772086,
+          "hausdorff_mm": 20.1599810952267
+        },
+        "mean_symmetric_mm": 1.2547398917152668
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.3435548236533252,
+          "hausdorff_mm": 14.606299276544046
+        },
+        "posterior": {
+          "symmetric_mm": 1.1659249597772086,
+          "hausdorff_mm": 20.1599810952267
+        },
+        "mean_symmetric_mm": 1.2547398917152668
+      }
+    },
+    {
+      "case": "test_009",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8631499736156579,
+          "hausdorff_mm": 10.803544335356857
+        },
+        "posterior": {
+          "symmetric_mm": 0.5961146995150198,
+          "hausdorff_mm": 7.190245104809241
+        },
+        "mean_symmetric_mm": 0.7296323365653389
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8126513315824797,
+          "hausdorff_mm": 10.88158043994247
+        },
+        "posterior": {
+          "symmetric_mm": 0.529039953604099,
+          "hausdorff_mm": 3.6485810401144474
+        },
+        "mean_symmetric_mm": 0.6708456425932894
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8631499736156579,
+          "hausdorff_mm": 10.803544335356857
+        },
+        "posterior": {
+          "symmetric_mm": 0.5961146995150198,
+          "hausdorff_mm": 7.190245104809241
+        },
+        "mean_symmetric_mm": 0.7296323365653389
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8631499736156579,
+          "hausdorff_mm": 10.803544335356857
+        },
+        "posterior": {
+          "symmetric_mm": 0.5961146995150198,
+          "hausdorff_mm": 7.190245104809241
+        },
+        "mean_symmetric_mm": 0.7296323365653389
+      }
+    },
+    {
+      "case": "test_010",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.1529615491687124,
+          "hausdorff_mm": 14.3060416650737
+        },
+        "posterior": {
+          "symmetric_mm": 0.7935723066251691,
+          "hausdorff_mm": 7.518105417399449
+        },
+        "mean_symmetric_mm": 0.9732669278969408
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.4624712940602866,
+          "hausdorff_mm": 17.011161491483488
+        },
+        "posterior": {
+          "symmetric_mm": 0.5941683130746656,
+          "hausdorff_mm": 5.220150560588724
+        },
+        "mean_symmetric_mm": 1.028319803567476
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1529615491687124,
+          "hausdorff_mm": 14.3060416650737
+        },
+        "posterior": {
+          "symmetric_mm": 0.7935723066251691,
+          "hausdorff_mm": 7.518105417399449
+        },
+        "mean_symmetric_mm": 0.9732669278969408
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1529615491687124,
+          "hausdorff_mm": 14.3060416650737
+        },
+        "posterior": {
+          "symmetric_mm": 0.7935723066251691,
+          "hausdorff_mm": 7.518105417399449
+        },
+        "mean_symmetric_mm": 0.9732669278969408
+      }
+    },
+    {
+      "case": "test_011",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.9974703730193502,
+          "hausdorff_mm": 14.632865910503883
+        },
+        "posterior": {
+          "symmetric_mm": 0.7669338601942456,
+          "hausdorff_mm": 13.124845561132384
+        },
+        "mean_symmetric_mm": 0.8822021166067979
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.138498511739364,
+          "hausdorff_mm": 15.712633346181857
+        },
+        "posterior": {
+          "symmetric_mm": 0.596035386570525,
+          "hausdorff_mm": 5.675741842190423
+        },
+        "mean_symmetric_mm": 0.8672669491549445
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.9974703730193502,
+          "hausdorff_mm": 14.632865910503883
+        },
+        "posterior": {
+          "symmetric_mm": 0.7669338601942456,
+          "hausdorff_mm": 13.124845561132384
+        },
+        "mean_symmetric_mm": 0.8822021166067979
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.9974703730193502,
+          "hausdorff_mm": 14.632865910503883
+        },
+        "posterior": {
+          "symmetric_mm": 0.7669338601942456,
+          "hausdorff_mm": 13.124845561132384
+        },
+        "mean_symmetric_mm": 0.8822021166067979
+      }
+    },
+    {
+      "case": "test_012",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.123525451499515,
+          "hausdorff_mm": 14.870276256100055
+        },
+        "posterior": {
+          "symmetric_mm": 0.7554455618535002,
+          "hausdorff_mm": 11.962200617692309
+        },
+        "mean_symmetric_mm": 0.9394855066765075
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.2977136223739176,
+          "hausdorff_mm": 15.00377666606573
+        },
+        "posterior": {
+          "symmetric_mm": 0.5651764963423053,
+          "hausdorff_mm": 6.217852732355266
+        },
+        "mean_symmetric_mm": 0.9314450593581114
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.123525451499515,
+          "hausdorff_mm": 14.870276256100055
+        },
+        "posterior": {
+          "symmetric_mm": 0.7554455618535002,
+          "hausdorff_mm": 11.962200617692309
+        },
+        "mean_symmetric_mm": 0.9394855066765075
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.123525451499515,
+          "hausdorff_mm": 14.870276256100055
+        },
+        "posterior": {
+          "symmetric_mm": 0.7554455618535002,
+          "hausdorff_mm": 11.962200617692309
+        },
+        "mean_symmetric_mm": 0.9394855066765075
+      }
+    },
+    {
+      "case": "test_013",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.1062721523582535,
+          "hausdorff_mm": 40.55176785289462
+        },
+        "posterior": {
+          "symmetric_mm": 0.8321647049069141,
+          "hausdorff_mm": 12.201108111180995
+        },
+        "mean_symmetric_mm": 0.9692184286325838
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.0900553161314563,
+          "hausdorff_mm": 45.66288223892085
+        },
+        "posterior": {
+          "symmetric_mm": 0.7077813017685124,
+          "hausdorff_mm": 5.803106136176259
+        },
+        "mean_symmetric_mm": 0.8989183089499844
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1062721523582535,
+          "hausdorff_mm": 40.55176785289462
+        },
+        "posterior": {
+          "symmetric_mm": 0.8321647049069141,
+          "hausdorff_mm": 12.201108111180995
+        },
+        "mean_symmetric_mm": 0.9692184286325838
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1062721523582535,
+          "hausdorff_mm": 40.55176785289462
+        },
+        "posterior": {
+          "symmetric_mm": 0.8321647049069141,
+          "hausdorff_mm": 12.201108111180995
+        },
+        "mean_symmetric_mm": 0.9692184286325838
+      }
+    },
+    {
+      "case": "test_014",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 2.3390634054118387,
+          "hausdorff_mm": 23.24050581593122
+        },
+        "posterior": {
+          "symmetric_mm": 1.044675558895301,
+          "hausdorff_mm": 7.127426056452803
+        },
+        "mean_symmetric_mm": 1.6918694821535698
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.051149491409876,
+          "hausdorff_mm": 15.553831517754134
+        },
+        "posterior": {
+          "symmetric_mm": 0.5948917051327245,
+          "hausdorff_mm": 5.9095673582834065
+        },
+        "mean_symmetric_mm": 0.8230205982713003
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.3390634054118387,
+          "hausdorff_mm": 23.24050581593122
+        },
+        "posterior": {
+          "symmetric_mm": 1.044675558895301,
+          "hausdorff_mm": 7.127426056452803
+        },
+        "mean_symmetric_mm": 1.6918694821535698
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.3390634054118387,
+          "hausdorff_mm": 23.24050581593122
+        },
+        "posterior": {
+          "symmetric_mm": 1.044675558895301,
+          "hausdorff_mm": 7.127426056452803
+        },
+        "mean_symmetric_mm": 1.6918694821535698
+      }
+    },
+    {
+      "case": "test_015",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.2032701911246695,
+          "hausdorff_mm": 16.11921602878187
+        },
+        "posterior": {
+          "symmetric_mm": 0.5540063169366025,
+          "hausdorff_mm": 3.8212363252492954
+        },
+        "mean_symmetric_mm": 0.878638254030636
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.1152140136354867,
+          "hausdorff_mm": 15.772303904460422
+        },
+        "posterior": {
+          "symmetric_mm": 0.5396771236981868,
+          "hausdorff_mm": 3.8136373047100625
+        },
+        "mean_symmetric_mm": 0.8274455686668367
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2032701911246695,
+          "hausdorff_mm": 16.11921602878187
+        },
+        "posterior": {
+          "symmetric_mm": 0.5540063169366025,
+          "hausdorff_mm": 3.8212363252492962
+        },
+        "mean_symmetric_mm": 0.878638254030636
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2032701911246695,
+          "hausdorff_mm": 16.11921602878187
+        },
+        "posterior": {
+          "symmetric_mm": 0.5540063169366025,
+          "hausdorff_mm": 3.8212363252492962
+        },
+        "mean_symmetric_mm": 0.878638254030636
+      }
+    },
+    {
+      "case": "test_016",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 2.2553701806880033,
+          "hausdorff_mm": 18.401131540476225
+        },
+        "posterior": {
+          "symmetric_mm": 2.2350053296471124,
+          "hausdorff_mm": 20.191990277427475
+        },
+        "mean_symmetric_mm": 2.245187755167558
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.102985104332817,
+          "hausdorff_mm": 13.209032860069879
+        },
+        "posterior": {
+          "symmetric_mm": 0.5039037133647963,
+          "hausdorff_mm": 6.585496002574559
+        },
+        "mean_symmetric_mm": 0.8034444088488066
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.2553701806880033,
+          "hausdorff_mm": 18.401131540476225
+        },
+        "posterior": {
+          "symmetric_mm": 2.2350053296471124,
+          "hausdorff_mm": 20.191990277427475
+        },
+        "mean_symmetric_mm": 2.245187755167558
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.2553701806880033,
+          "hausdorff_mm": 18.401131540476225
+        },
+        "posterior": {
+          "symmetric_mm": 2.2350053296471124,
+          "hausdorff_mm": 20.191990277427475
+        },
+        "mean_symmetric_mm": 2.245187755167558
+      }
+    },
+    {
+      "case": "test_017",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.0719404896471687,
+          "hausdorff_mm": 14.413835435324543
+        },
+        "posterior": {
+          "symmetric_mm": 0.5184153218672325,
+          "hausdorff_mm": 4.1354304095775944
+        },
+        "mean_symmetric_mm": 0.7951779057572006
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.0172686828438315,
+          "hausdorff_mm": 14.585137310423137
+        },
+        "posterior": {
+          "symmetric_mm": 0.5029146181333228,
+          "hausdorff_mm": 5.176175267990001
+        },
+        "mean_symmetric_mm": 0.7600916504885772
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0719404896471687,
+          "hausdorff_mm": 14.413835435324543
+        },
+        "posterior": {
+          "symmetric_mm": 0.5184153218672325,
+          "hausdorff_mm": 4.1354304095775944
+        },
+        "mean_symmetric_mm": 0.7951779057572006
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0719404896471687,
+          "hausdorff_mm": 14.413835435324543
+        },
+        "posterior": {
+          "symmetric_mm": 0.5184153218672325,
+          "hausdorff_mm": 4.1354304095775944
+        },
+        "mean_symmetric_mm": 0.7951779057572006
+      }
+    },
+    {
+      "case": "test_018",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.9054300328447795,
+          "hausdorff_mm": 10.441412124850636
+        },
+        "posterior": {
+          "symmetric_mm": 0.5819615853871415,
+          "hausdorff_mm": 8.046454864812587
+        },
+        "mean_symmetric_mm": 0.7436958091159604
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8645131569784889,
+          "hausdorff_mm": 9.945029068730499
+        },
+        "posterior": {
+          "symmetric_mm": 0.5216075775810306,
+          "hausdorff_mm": 6.343451546819947
+        },
+        "mean_symmetric_mm": 0.6930603672797597
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.9054300328447795,
+          "hausdorff_mm": 10.441412124850636
+        },
+        "posterior": {
+          "symmetric_mm": 0.5819615853871415,
+          "hausdorff_mm": 8.046454864812587
+        },
+        "mean_symmetric_mm": 0.7436958091159604
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.9054300328447795,
+          "hausdorff_mm": 10.441412124850636
+        },
+        "posterior": {
+          "symmetric_mm": 0.5819615853871415,
+          "hausdorff_mm": 8.046454864812587
+        },
+        "mean_symmetric_mm": 0.7436958091159604
+      }
+    },
+    {
+      "case": "test_019",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.7602284231270466,
+          "hausdorff_mm": 19.76942529233333
+        },
+        "posterior": {
+          "symmetric_mm": 0.6740304200486288,
+          "hausdorff_mm": 5.692485227648231
+        },
+        "mean_symmetric_mm": 1.2171294215878377
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.454402300915272,
+          "hausdorff_mm": 19.025981940823385
+        },
+        "posterior": {
+          "symmetric_mm": 0.6262520062992785,
+          "hausdorff_mm": 7.1665603335408505
+        },
+        "mean_symmetric_mm": 1.0403271536072753
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.7602284231270466,
+          "hausdorff_mm": 19.76942529233333
+        },
+        "posterior": {
+          "symmetric_mm": 0.6740304200486288,
+          "hausdorff_mm": 5.692485227648231
+        },
+        "mean_symmetric_mm": 1.2171294215878377
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.7602284231270466,
+          "hausdorff_mm": 19.76942529233333
+        },
+        "posterior": {
+          "symmetric_mm": 0.6740304200486288,
+          "hausdorff_mm": 5.692485227648231
+        },
+        "mean_symmetric_mm": 1.2171294215878377
+      }
+    },
+    {
+      "case": "test_020",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.6158329725105993,
+          "hausdorff_mm": 16.307840793962274
+        },
+        "posterior": {
+          "symmetric_mm": 0.6399491962172222,
+          "hausdorff_mm": 5.550273858570218
+        },
+        "mean_symmetric_mm": 1.1278910843639107
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.327498611497002,
+          "hausdorff_mm": 16.61479730193748
+        },
+        "posterior": {
+          "symmetric_mm": 0.5581865243127635,
+          "hausdorff_mm": 3.842203157646758
+        },
+        "mean_symmetric_mm": 0.9428425679048827
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.6158329725105993,
+          "hausdorff_mm": 16.307840793962274
+        },
+        "posterior": {
+          "symmetric_mm": 0.6399491962172222,
+          "hausdorff_mm": 5.550273858570218
+        },
+        "mean_symmetric_mm": 1.1278910843639107
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.6158329725105993,
+          "hausdorff_mm": 16.307840793962274
+        },
+        "posterior": {
+          "symmetric_mm": 0.6399491962172222,
+          "hausdorff_mm": 5.550273858570218
+        },
+        "mean_symmetric_mm": 1.1278910843639107
+      }
+    },
+    {
+      "case": "test_021",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.8202611669806477,
+          "hausdorff_mm": 14.928555240919984
+        },
+        "posterior": {
+          "symmetric_mm": 0.9209507566648397,
+          "hausdorff_mm": 9.648092350891403
+        },
+        "mean_symmetric_mm": 1.3706059618227437
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.786247619930957,
+          "hausdorff_mm": 14.787794287574288
+        },
+        "posterior": {
+          "symmetric_mm": 0.638049099302875,
+          "hausdorff_mm": 5.654650274189103
+        },
+        "mean_symmetric_mm": 1.212148359616916
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.8202611669806477,
+          "hausdorff_mm": 14.928555240919984
+        },
+        "posterior": {
+          "symmetric_mm": 0.9209507566648397,
+          "hausdorff_mm": 9.648092350891403
+        },
+        "mean_symmetric_mm": 1.3706059618227437
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.8202611669806477,
+          "hausdorff_mm": 14.928555240919984
+        },
+        "posterior": {
+          "symmetric_mm": 0.9209507566648397,
+          "hausdorff_mm": 9.648092350891403
+        },
+        "mean_symmetric_mm": 1.3706059618227437
+      }
+    },
+    {
+      "case": "test_022",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8016795667027509,
+          "hausdorff_mm": 11.849422396264286
+        },
+        "posterior": {
+          "symmetric_mm": 0.6417102822745072,
+          "hausdorff_mm": 7.5200359213493515
+        },
+        "mean_symmetric_mm": 0.721694924488629
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.7946304057806874,
+          "hausdorff_mm": 10.679681514197377
+        },
+        "posterior": {
+          "symmetric_mm": 0.6093858427527127,
+          "hausdorff_mm": 4.946767639491331
+        },
+        "mean_symmetric_mm": 0.7020081242667
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8016795667027509,
+          "hausdorff_mm": 11.849422396264286
+        },
+        "posterior": {
+          "symmetric_mm": 0.6417102822745072,
+          "hausdorff_mm": 7.5200359213493515
+        },
+        "mean_symmetric_mm": 0.721694924488629
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8016795667027509,
+          "hausdorff_mm": 11.849422396264286
+        },
+        "posterior": {
+          "symmetric_mm": 0.6417102822745072,
+          "hausdorff_mm": 7.5200359213493515
+        },
+        "mean_symmetric_mm": 0.721694924488629
+      }
+    },
+    {
+      "case": "test_023",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8539734356910962,
+          "hausdorff_mm": 9.828153815965194
+        },
+        "posterior": {
+          "symmetric_mm": 0.6387684297815808,
+          "hausdorff_mm": 8.040792640478443
+        },
+        "mean_symmetric_mm": 0.7463709327363385
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.9438796479964425,
+          "hausdorff_mm": 10.7968707698903
+        },
+        "posterior": {
+          "symmetric_mm": 0.574912930765546,
+          "hausdorff_mm": 4.116816264098228
+        },
+        "mean_symmetric_mm": 0.7593962893809942
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8539734356910962,
+          "hausdorff_mm": 9.828153815965194
+        },
+        "posterior": {
+          "symmetric_mm": 0.6387684297815808,
+          "hausdorff_mm": 8.040792640478443
+        },
+        "mean_symmetric_mm": 0.7463709327363385
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8539734356910962,
+          "hausdorff_mm": 9.828153815965194
+        },
+        "posterior": {
+          "symmetric_mm": 0.6387684297815808,
+          "hausdorff_mm": 8.040792640478443
+        },
+        "mean_symmetric_mm": 0.7463709327363385
+      }
+    },
+    {
+      "case": "test_024",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.154505454491425,
+          "hausdorff_mm": 12.394512640275341
+        },
+        "posterior": {
+          "symmetric_mm": 0.989641040864853,
+          "hausdorff_mm": 15.483558886026053
+        },
+        "mean_symmetric_mm": 1.072073247678139
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.745047411554429,
+          "hausdorff_mm": 8.290987858344232
+        },
+        "posterior": {
+          "symmetric_mm": 0.6332381105768086,
+          "hausdorff_mm": 5.644511578697148
+        },
+        "mean_symmetric_mm": 0.6891427610656188
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.154505454491425,
+          "hausdorff_mm": 12.394512640275341
+        },
+        "posterior": {
+          "symmetric_mm": 0.989641040864853,
+          "hausdorff_mm": 15.483558886026053
+        },
+        "mean_symmetric_mm": 1.072073247678139
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.154505454491425,
+          "hausdorff_mm": 12.394512640275341
+        },
+        "posterior": {
+          "symmetric_mm": 0.989641040864853,
+          "hausdorff_mm": 15.483558886026053
+        },
+        "mean_symmetric_mm": 1.072073247678139
+      }
+    },
+    {
+      "case": "test_025",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.2193659273439887,
+          "hausdorff_mm": 24.256055629615386
+        },
+        "posterior": {
+          "symmetric_mm": 0.7230760576393422,
+          "hausdorff_mm": 6.6493429077158765
+        },
+        "mean_symmetric_mm": 0.9712209924916655
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.1497370761436891,
+          "hausdorff_mm": 22.524578361178644
+        },
+        "posterior": {
+          "symmetric_mm": 0.6636193894051418,
+          "hausdorff_mm": 6.127781313111369
+        },
+        "mean_symmetric_mm": 0.9066782327744154
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2193659273439887,
+          "hausdorff_mm": 24.256055629615386
+        },
+        "posterior": {
+          "symmetric_mm": 0.7230760576393422,
+          "hausdorff_mm": 6.649342907715877
+        },
+        "mean_symmetric_mm": 0.9712209924916655
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2193659273439887,
+          "hausdorff_mm": 24.256055629615386
+        },
+        "posterior": {
+          "symmetric_mm": 0.7230760576393422,
+          "hausdorff_mm": 6.649342907715877
+        },
+        "mean_symmetric_mm": 0.9712209924916655
+      }
+    },
+    {
+      "case": "test_026",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.309905825380537,
+          "hausdorff_mm": 14.00858696746063
+        },
+        "posterior": {
+          "symmetric_mm": 0.6926057543737674,
+          "hausdorff_mm": 5.722120214688712
+        },
+        "mean_symmetric_mm": 1.0012557898771521
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.9786815617517391,
+          "hausdorff_mm": 13.59336413037047
+        },
+        "posterior": {
+          "symmetric_mm": 0.5617923966431527,
+          "hausdorff_mm": 5.147709340925333
+        },
+        "mean_symmetric_mm": 0.7702369791974459
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.309905825380537,
+          "hausdorff_mm": 14.00858696746063
+        },
+        "posterior": {
+          "symmetric_mm": 0.6926057543737674,
+          "hausdorff_mm": 5.722120214688712
+        },
+        "mean_symmetric_mm": 1.0012557898771521
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.309905825380537,
+          "hausdorff_mm": 14.00858696746063
+        },
+        "posterior": {
+          "symmetric_mm": 0.6926057543737674,
+          "hausdorff_mm": 5.722120214688712
+        },
+        "mean_symmetric_mm": 1.0012557898771521
+      }
+    },
+    {
+      "case": "test_027",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.2591387940074759,
+          "hausdorff_mm": 13.171585571127856
+        },
+        "posterior": {
+          "symmetric_mm": 0.6397416479150325,
+          "hausdorff_mm": 3.872479492581349
+        },
+        "mean_symmetric_mm": 0.9494402209612542
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8446571735489419,
+          "hausdorff_mm": 9.825939994332547
+        },
+        "posterior": {
+          "symmetric_mm": 0.5010648143074793,
+          "hausdorff_mm": 3.185470979223076
+        },
+        "mean_symmetric_mm": 0.6728609939282106
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2591387940074759,
+          "hausdorff_mm": 13.171585571127856
+        },
+        "posterior": {
+          "symmetric_mm": 0.6397416479150324,
+          "hausdorff_mm": 3.872479492581349
+        },
+        "mean_symmetric_mm": 0.9494402209612541
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.2591387940074759,
+          "hausdorff_mm": 13.171585571127856
+        },
+        "posterior": {
+          "symmetric_mm": 0.6397416479150324,
+          "hausdorff_mm": 3.872479492581349
+        },
+        "mean_symmetric_mm": 0.9494402209612541
+      }
+    },
+    {
+      "case": "test_028",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.7668654236496315,
+          "hausdorff_mm": 8.879976931981934
+        },
+        "posterior": {
+          "symmetric_mm": 0.5780548341469482,
+          "hausdorff_mm": 4.704321534935665
+        },
+        "mean_symmetric_mm": 0.6724601288982899
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.5913686093091487,
+          "hausdorff_mm": 6.031549421460915
+        },
+        "posterior": {
+          "symmetric_mm": 0.554714321506737,
+          "hausdorff_mm": 3.951100756801617
+        },
+        "mean_symmetric_mm": 0.5730414654079429
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7668654236496315,
+          "hausdorff_mm": 8.879976931981934
+        },
+        "posterior": {
+          "symmetric_mm": 0.5780548341469482,
+          "hausdorff_mm": 4.704321534935665
+        },
+        "mean_symmetric_mm": 0.6724601288982899
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7668654236496315,
+          "hausdorff_mm": 8.879976931981934
+        },
+        "posterior": {
+          "symmetric_mm": 0.5780548341469482,
+          "hausdorff_mm": 4.704321534935665
+        },
+        "mean_symmetric_mm": 0.6724601288982899
+      }
+    },
+    {
+      "case": "test_029",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8646595752504357,
+          "hausdorff_mm": 10.605442832106565
+        },
+        "posterior": {
+          "symmetric_mm": 0.6696001715573106,
+          "hausdorff_mm": 5.197539830932563
+        },
+        "mean_symmetric_mm": 0.7671298734038732
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.691872264441472,
+          "hausdorff_mm": 8.769181069430761
+        },
+        "posterior": {
+          "symmetric_mm": 0.6213932519188894,
+          "hausdorff_mm": 5.282320185987283
+        },
+        "mean_symmetric_mm": 0.6566327581801807
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8646595752504357,
+          "hausdorff_mm": 10.605442832106565
+        },
+        "posterior": {
+          "symmetric_mm": 0.6696001715573106,
+          "hausdorff_mm": 5.197539830932563
+        },
+        "mean_symmetric_mm": 0.7671298734038732
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8646595752504357,
+          "hausdorff_mm": 10.605442832106565
+        },
+        "posterior": {
+          "symmetric_mm": 0.6696001715573106,
+          "hausdorff_mm": 5.197539830932563
+        },
+        "mean_symmetric_mm": 0.7671298734038732
+      }
+    },
+    {
+      "case": "test_030",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.1653278990710947,
+          "hausdorff_mm": 13.726845371858012
+        },
+        "posterior": {
+          "symmetric_mm": 0.7912655941902493,
+          "hausdorff_mm": 11.834391306537466
+        },
+        "mean_symmetric_mm": 0.978296746630672
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.4336081655306432,
+          "hausdorff_mm": 14.660449672808417
+        },
+        "posterior": {
+          "symmetric_mm": 0.5795870121563061,
+          "hausdorff_mm": 4.817370884790105
+        },
+        "mean_symmetric_mm": 1.0065975888434746
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1653278990710947,
+          "hausdorff_mm": 13.726845371858012
+        },
+        "posterior": {
+          "symmetric_mm": 0.7912655941902493,
+          "hausdorff_mm": 11.834391306537466
+        },
+        "mean_symmetric_mm": 0.978296746630672
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1653278990710947,
+          "hausdorff_mm": 13.726845371858012
+        },
+        "posterior": {
+          "symmetric_mm": 0.7912655941902493,
+          "hausdorff_mm": 11.834391306537466
+        },
+        "mean_symmetric_mm": 0.978296746630672
+      }
+    },
+    {
+      "case": "test_031",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8037428895633074,
+          "hausdorff_mm": 8.592245294537232
+        },
+        "posterior": {
+          "symmetric_mm": 0.7075297926170261,
+          "hausdorff_mm": 10.815793041161546
+        },
+        "mean_symmetric_mm": 0.7556363410901668
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.9525551633541458,
+          "hausdorff_mm": 9.478546421800447
+        },
+        "posterior": {
+          "symmetric_mm": 0.5360387687935422,
+          "hausdorff_mm": 5.922802994070652
+        },
+        "mean_symmetric_mm": 0.744296966073844
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8037428895633074,
+          "hausdorff_mm": 8.592245294537232
+        },
+        "posterior": {
+          "symmetric_mm": 0.7075297926170261,
+          "hausdorff_mm": 10.815793041161546
+        },
+        "mean_symmetric_mm": 0.7556363410901668
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8037428895633074,
+          "hausdorff_mm": 8.592245294537232
+        },
+        "posterior": {
+          "symmetric_mm": 0.7075297926170261,
+          "hausdorff_mm": 10.815793041161546
+        },
+        "mean_symmetric_mm": 0.7556363410901668
+      }
+    },
+    {
+      "case": "test_032",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.7696020385310682,
+          "hausdorff_mm": 7.694643217046704
+        },
+        "posterior": {
+          "symmetric_mm": 0.5926052656334427,
+          "hausdorff_mm": 6.195580086494088
+        },
+        "mean_symmetric_mm": 0.6811036520822555
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.5350543129368152,
+          "hausdorff_mm": 6.235375282205912
+        },
+        "posterior": {
+          "symmetric_mm": 0.4890089237666232,
+          "hausdorff_mm": 3.8975620697761566
+        },
+        "mean_symmetric_mm": 0.5120316183517192
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7696020385310682,
+          "hausdorff_mm": 7.694643217046704
+        },
+        "posterior": {
+          "symmetric_mm": 0.5926052656334427,
+          "hausdorff_mm": 6.195580086494088
+        },
+        "mean_symmetric_mm": 0.6811036520822555
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7696020385310682,
+          "hausdorff_mm": 7.694643217046704
+        },
+        "posterior": {
+          "symmetric_mm": 0.5926052656334427,
+          "hausdorff_mm": 6.195580086494088
+        },
+        "mean_symmetric_mm": 0.6811036520822555
+      }
+    },
+    {
+      "case": "test_033",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 2.5975423251160903,
+          "hausdorff_mm": 23.70538930646825
+        },
+        "posterior": {
+          "symmetric_mm": 1.7081918760512809,
+          "hausdorff_mm": 18.71453618854789
+        },
+        "mean_symmetric_mm": 2.1528671005836855
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.973923422387547,
+          "hausdorff_mm": 10.513070396631614
+        },
+        "posterior": {
+          "symmetric_mm": 0.5862461129423314,
+          "hausdorff_mm": 4.626838285169068
+        },
+        "mean_symmetric_mm": 0.7800847676649392
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.5975423251160903,
+          "hausdorff_mm": 23.70538930646825
+        },
+        "posterior": {
+          "symmetric_mm": 1.708191876051281,
+          "hausdorff_mm": 18.71453618854789
+        },
+        "mean_symmetric_mm": 2.152867100583686
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 2.5975423251160903,
+          "hausdorff_mm": 23.70538930646825
+        },
+        "posterior": {
+          "symmetric_mm": 1.708191876051281,
+          "hausdorff_mm": 18.71453618854789
+        },
+        "mean_symmetric_mm": 2.152867100583686
+      }
+    },
+    {
+      "case": "test_034",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.6441982709817762,
+          "hausdorff_mm": 5.962847025590863
+        },
+        "posterior": {
+          "symmetric_mm": 0.6613374913882994,
+          "hausdorff_mm": 5.655061771561339
+        },
+        "mean_symmetric_mm": 0.6527678811850378
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.6428421511623824,
+          "hausdorff_mm": 6.15889949410429
+        },
+        "posterior": {
+          "symmetric_mm": 0.5970657883354831,
+          "hausdorff_mm": 4.110492623773526
+        },
+        "mean_symmetric_mm": 0.6199539697489327
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.6441982709817762,
+          "hausdorff_mm": 5.962847025590863
+        },
+        "posterior": {
+          "symmetric_mm": 0.6613374913882994,
+          "hausdorff_mm": 5.655061771561339
+        },
+        "mean_symmetric_mm": 0.6527678811850378
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.6441982709817762,
+          "hausdorff_mm": 5.962847025590863
+        },
+        "posterior": {
+          "symmetric_mm": 0.6613374913882994,
+          "hausdorff_mm": 5.655061771561339
+        },
+        "mean_symmetric_mm": 0.6527678811850378
+      }
+    },
+    {
+      "case": "test_035",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.1075596941563983,
+          "hausdorff_mm": 9.016616224281606
+        },
+        "posterior": {
+          "symmetric_mm": 0.9558192641759884,
+          "hausdorff_mm": 16.034848438073812
+        },
+        "mean_symmetric_mm": 1.0316894791661935
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8800091143877842,
+          "hausdorff_mm": 9.128410933718355
+        },
+        "posterior": {
+          "symmetric_mm": 0.48691736268530234,
+          "hausdorff_mm": 3.5634975356723886
+        },
+        "mean_symmetric_mm": 0.6834632385365432
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1075596941563983,
+          "hausdorff_mm": 9.016616224281606
+        },
+        "posterior": {
+          "symmetric_mm": 0.9558192641759884,
+          "hausdorff_mm": 16.034848438073812
+        },
+        "mean_symmetric_mm": 1.0316894791661935
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.1075596941563983,
+          "hausdorff_mm": 9.016616224281606
+        },
+        "posterior": {
+          "symmetric_mm": 0.9558192641759884,
+          "hausdorff_mm": 16.034848438073812
+        },
+        "mean_symmetric_mm": 1.0316894791661935
+      }
+    },
+    {
+      "case": "test_036",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.0629479474461765,
+          "hausdorff_mm": 11.615318219506397
+        },
+        "posterior": {
+          "symmetric_mm": 0.8027829377023336,
+          "hausdorff_mm": 7.594808979855839
+        },
+        "mean_symmetric_mm": 0.9328654425742551
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8181527489762558,
+          "hausdorff_mm": 10.413841915806335
+        },
+        "posterior": {
+          "symmetric_mm": 0.6336309865526273,
+          "hausdorff_mm": 4.0942361370773925
+        },
+        "mean_symmetric_mm": 0.7258918677644415
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0629479474461765,
+          "hausdorff_mm": 11.615318219506397
+        },
+        "posterior": {
+          "symmetric_mm": 0.8027829377023337,
+          "hausdorff_mm": 7.594808979855839
+        },
+        "mean_symmetric_mm": 0.9328654425742551
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0629479474461765,
+          "hausdorff_mm": 11.615318219506397
+        },
+        "posterior": {
+          "symmetric_mm": 0.8027829377023337,
+          "hausdorff_mm": 7.594808979855839
+        },
+        "mean_symmetric_mm": 0.9328654425742551
+      }
+    },
+    {
+      "case": "test_037",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.0109709087632504,
+          "hausdorff_mm": 11.927609977504044
+        },
+        "posterior": {
+          "symmetric_mm": 0.6718165223710072,
+          "hausdorff_mm": 4.536416014645157
+        },
+        "mean_symmetric_mm": 0.8413937155671287
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.9072884423872976,
+          "hausdorff_mm": 11.622814559305839
+        },
+        "posterior": {
+          "symmetric_mm": 0.6470258989417814,
+          "hausdorff_mm": 3.845598020088167
+        },
+        "mean_symmetric_mm": 0.7771571706645395
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0109709087632504,
+          "hausdorff_mm": 11.927609977504044
+        },
+        "posterior": {
+          "symmetric_mm": 0.6718165223710072,
+          "hausdorff_mm": 4.536416014645157
+        },
+        "mean_symmetric_mm": 0.8413937155671287
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.0109709087632504,
+          "hausdorff_mm": 11.927609977504044
+        },
+        "posterior": {
+          "symmetric_mm": 0.6718165223710072,
+          "hausdorff_mm": 4.536416014645157
+        },
+        "mean_symmetric_mm": 0.8413937155671287
+      }
+    },
+    {
+      "case": "test_038",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.7756887616008679,
+          "hausdorff_mm": 9.038645394567265
+        },
+        "posterior": {
+          "symmetric_mm": 0.7438067577547969,
+          "hausdorff_mm": 9.664019676693906
+        },
+        "mean_symmetric_mm": 0.7597477596778324
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8128815882680942,
+          "hausdorff_mm": 9.051812462426529
+        },
+        "posterior": {
+          "symmetric_mm": 0.6712654306824652,
+          "hausdorff_mm": 9.141175305375889
+        },
+        "mean_symmetric_mm": 0.7420735094752797
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7756887616008679,
+          "hausdorff_mm": 9.038645394567265
+        },
+        "posterior": {
+          "symmetric_mm": 0.7438067577547969,
+          "hausdorff_mm": 9.664019676693906
+        },
+        "mean_symmetric_mm": 0.7597477596778324
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.7756887616008679,
+          "hausdorff_mm": 9.038645394567265
+        },
+        "posterior": {
+          "symmetric_mm": 0.7438067577547969,
+          "hausdorff_mm": 9.664019676693906
+        },
+        "mean_symmetric_mm": 0.7597477596778324
+      }
+    },
+    {
+      "case": "test_039",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 0.8090588771072957,
+          "hausdorff_mm": 9.747710231328815
+        },
+        "posterior": {
+          "symmetric_mm": 0.9054363709403875,
+          "hausdorff_mm": 16.450848449256736
+        },
+        "mean_symmetric_mm": 0.8572476240238416
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 0.8333304507250923,
+          "hausdorff_mm": 10.057014028461136
+        },
+        "posterior": {
+          "symmetric_mm": 0.6255467791971712,
+          "hausdorff_mm": 9.543803716011176
+        },
+        "mean_symmetric_mm": 0.7294386149611317
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8090588771072957,
+          "hausdorff_mm": 9.747710231328815
+        },
+        "posterior": {
+          "symmetric_mm": 0.9054363709403875,
+          "hausdorff_mm": 16.450848449256736
+        },
+        "mean_symmetric_mm": 0.8572476240238416
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 0.8090588771072957,
+          "hausdorff_mm": 9.747710231328815
+        },
+        "posterior": {
+          "symmetric_mm": 0.9054363709403875,
+          "hausdorff_mm": 16.450848449256736
+        },
+        "mean_symmetric_mm": 0.8572476240238416
+      }
+    },
+    {
+      "case": "test_040",
+      "fitted": true,
+      "direct": {
+        "anterior": {
+          "symmetric_mm": 1.3306389573465554,
+          "hausdorff_mm": 25.541223392778605
+        },
+        "posterior": {
+          "symmetric_mm": 1.0671927552070974,
+          "hausdorff_mm": 16.041651170747055
+        },
+        "mean_symmetric_mm": 1.1989158562768263
+      },
+      "reference_encoding": {
+        "anterior": {
+          "symmetric_mm": 1.3874205946582105,
+          "hausdorff_mm": 27.468511173096456
+        },
+        "posterior": {
+          "symmetric_mm": 0.6331190573073984,
+          "hausdorff_mm": 5.496236119612983
+        },
+        "mean_symmetric_mm": 1.0102698259828045
+      },
+      "S/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.3306389573465554,
+          "hausdorff_mm": 25.541223392778605
+        },
+        "posterior": {
+          "symmetric_mm": 1.0671927552070974,
+          "hausdorff_mm": 16.041651170747055
+        },
+        "mean_symmetric_mm": 1.1989158562768263
+      },
+      "G/beta=0": {
+        "anterior": {
+          "symmetric_mm": 1.3306389573465554,
+          "hausdorff_mm": 25.541223392778605
+        },
+        "posterior": {
+          "symmetric_mm": 1.0671927552070974,
+          "hausdorff_mm": 16.041651170747055
+        },
+        "mean_symmetric_mm": 1.1989158562768263
+      }
+    }
+  ],
+  "medians": {
+    "direct": {
+      "mean_symmetric_mm": 0.959329324796919,
+      "anterior_symmetric_mm": 1.1382435003341138,
+      "posterior_symmetric_mm": 0.7496261598041485
+    },
+    "S": {
+      "mean_symmetric_mm": 0.959329324796919,
+      "anterior_symmetric_mm": 1.1382435003341138,
+      "posterior_symmetric_mm": 0.7496261598041485
+    },
+    "G": {
+      "mean_symmetric_mm": 0.959329324796919,
+      "anterior_symmetric_mm": 1.1382435003341138,
+      "posterior_symmetric_mm": 0.7496261598041485
+    }
+  },
+  "paired": {
+    "S_minus_direct": {
+      "observed": 0.0,
+      "lower": -1.1102230246251565e-16,
+      "upper": 0.0,
+      "cases": 40
+    },
+    "G_minus_direct": {
+      "observed": 0.0,
+      "lower": -1.1102230246251565e-16,
+      "upper": 0.0,
+      "cases": 40
+    },
+    "S_minus_G": {
+      "observed": 0.0,
+      "lower": 0.0,
+      "upper": 0.0,
+      "cases": 40
+    }
+  },
+  "wall_seconds": 2073.4
+}

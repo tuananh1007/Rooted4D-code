@@ -1,0 +1,4 @@
+modes 12  floor  4.11  full: cmr  5.62 tee  5.17 rot  3.60 trans   9.64 phase 0.024  (146 s)
+modes 20  floor  2.86  full: cmr  5.16 tee  4.38 rot  3.05 trans   7.06 phase 0.028  (265 s)
+modes 32  floor  2.08  full: cmr  5.00 tee  4.66 rot  3.37 trans   7.92 phase 0.025  (416 s)
+done in 416 s

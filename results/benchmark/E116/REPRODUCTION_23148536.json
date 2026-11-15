@@ -1,0 +1,125 @@
+{
+  "config": "Codes/configs/rooted4d_main.json",
+  "rows": "/work/nvme/bhio/avu2/Rooted4D/results/reproduce_rooted4d_main/23148536",
+  "tolerance_mm": {
+    "per_sample_max": 0.005,
+    "median_abs": 1e-06
+  },
+  "sets": {
+    "v4n96o/full": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          0.73,
+          0.73
+        ],
+        "heldout_tee_mm": [
+          1.09,
+          1.09
+        ]
+      },
+      "passed": true
+    },
+    "v4n96o/cmr4": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          1.62,
+          1.62
+        ],
+        "heldout_tee_mm": [
+          1.07,
+          1.07
+        ]
+      },
+      "passed": true
+    },
+    "v4n96o/cmr3": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          2.02,
+          2.02
+        ],
+        "heldout_tee_mm": [
+          1.07,
+          1.07
+        ]
+      },
+      "passed": true
+    },
+    "v4n96o/tee6": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          0.67,
+          0.67
+        ],
+        "heldout_tee_mm": [
+          1.72,
+          1.72
+        ]
+      },
+      "passed": true
+    },
+    "v4n96o/tee3": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          0.65,
+          0.65
+        ],
+        "heldout_tee_mm": [
+          2.75,
+          2.75
+        ]
+      },
+      "passed": true
+    },
+    "v3n96o/full": {
+      "samples": 60,
+      "reference_samples": 60,
+      "not_in_reference": [],
+      "values_compared": 1080,
+      "max_abs_difference": 0.0,
+      "median_abs_difference": 0.0,
+      "medians_at_reporting_precision": {
+        "heldout_cmr_mm": [
+          0.64,
+          0.64
+        ],
+        "heldout_tee_mm": [
+          1.0,
+          1.0
+        ]
+      },
+      "passed": true
+    }
+  },
+  "passed": true
+}

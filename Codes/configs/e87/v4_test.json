@@ -1,0 +1,58 @@
+{
+  "benchmark": "data/derived/semisynthetic-real-v4",
+  "start": "input_derived",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "interface_dim": 12,
+      "interior_dim": 12,
+      "coordinates": "covariance"
+    }
+  },
+  "base_config": {
+    "fourier_order": 3,
+    "session_order": 1,
+    "max_iterations": 40,
+    "covariance_aware_identity_prior": true,
+    "identity_prior_scale_floor": 0.005,
+    "session_includes_offset": true
+  },
+  "experiment": "E87",
+  "preregistration": "Docs/E87_TRAJECTORY_LATE_FUSION_PREREGISTRATION_2026-09-28.md",
+  "split": "test",
+  "frozen_from": "Codes/configs/e75/v4_e75_test.json",
+  "variants": [
+    {
+      "name": "S/late_fusion_trajectory",
+      "model": "S",
+      "arm": "late_fusion_trajectory",
+      "options": {
+        "modality_overrides": {
+          "cmr": {
+            "identity_prior_weight": 0.015625
+          },
+          "tee": {
+            "identity_prior_weight": 8.0
+          }
+        },
+        "store_parameters": true
+      }
+    },
+    {
+      "name": "S/joint_rerun",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "session_prior_weight": 0.015625
+      },
+      "options": {
+        "store_parameters": true
+      }
+    }
+  ]
+}

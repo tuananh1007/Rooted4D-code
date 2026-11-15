@@ -1,0 +1,31 @@
+{
+  "experiment": "E96",
+  "benchmark": "data/derived/e100-v3n96o",
+  "samples": 60,
+  "parts": {
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_noise_0mm/E96_v3n96o_test": [
+      "noise_0mm"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_noise_1mm/E96_v3n96o_test": [
+      "noise_1mm"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_noise_2mm/E96_v3n96o_test": [
+      "noise_2mm"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_noise_4mm/E96_v3n96o_test": [
+      "noise_4mm"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_noise_8mm/E96_v3n96o_test": [
+      "noise_8mm"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_swap/E96_v3n96o_test": [
+      "swap"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_slide_one/E96_v3n96o_test": [
+      "slide_one"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E96_v3n96o_one_only/E96_v3n96o_test": [
+      "one_only"
+    ]
+  }
+}

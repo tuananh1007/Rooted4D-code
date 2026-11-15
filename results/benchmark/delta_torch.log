@@ -1,0 +1,8 @@
+ + setuptools==78.1.0
+ + sympy==1.14.0
+ + torch==2.14.0+cpu
+ + typing-extensions==4.16.0
+ + nibabel==5.4.2
+ + packaging==26.3
+torch 2.14.0+cpu cuda False
+nibabel 5.4.2

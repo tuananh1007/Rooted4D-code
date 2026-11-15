@@ -1,0 +1,13 @@
+/work/nvme/bhio/avu2/Rooted4D/code/Codes/rooted4d/priors/gauges.py:6: SyntaxWarning: invalid escape sequence '\q'
+  U_h^\top U_h = I,\qquad
+label convention in use: anterior=2 posterior=1
+cases 175
+  anterior_symmetric_mm        median   0.578  p95   0.706
+  posterior_symmetric_mm       median   0.582  p95   0.682
+  anterior_hausdorff_mm        median   5.030  p95  10.132
+  posterior_hausdorff_mm       median   3.916  p95   5.592
+  annulus_diameter_mm          median  43.998  p95  58.324
+  anterior_span_mm             median  17.397  p95  28.965
+  posterior_span_mm            median  17.517  p95  25.283
+
+anterior/posterior span ratio 0.99 (mitral anatomy expects the anterior leaflet longer)

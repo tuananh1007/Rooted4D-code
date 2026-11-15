@@ -1,0 +1,105 @@
+  test_001   ref A/P 0.544/0.582   nnunet A/P 0.706/0.857
+  test_002   ref A/P 0.516/0.508   nnunet A/P 0.868/0.934
+  test_003   ref A/P 0.568/0.564   nnunet A/P 0.670/0.727
+  test_004   ref A/P 0.535/0.555   nnunet A/P 0.667/0.748
+  test_005   ref A/P 0.592/0.508   nnunet A/P 0.635/0.587
+  test_006   ref A/P 0.823/0.666   nnunet A/P 1.005/3.880
+  test_007   ref A/P 0.729/0.654   nnunet A/P 2.141/2.354
+  test_008   ref A/P 0.628/0.608   nnunet A/P 0.863/1.267
+  test_009   ref A/P 0.515/0.522   nnunet A/P 0.541/0.588
+  test_010   ref A/P 0.654/0.589   nnunet A/P 0.785/0.774
+  test_011   ref A/P 0.558/0.578   nnunet A/P 0.626/0.729
+  test_012   ref A/P 0.525/0.533   nnunet A/P 0.576/0.666
+  test_013   ref A/P 0.983/0.700   nnunet A/P 0.804/0.796
+  test_014   ref A/P 0.569/0.587   nnunet A/P 1.163/1.374
+  test_015   ref A/P 0.533/0.535   nnunet A/P 0.536/0.551
+  test_016   ref A/P 0.554/0.490   nnunet A/P 0.982/2.374
+  test_017   ref A/P 0.609/0.491   nnunet A/P 0.625/0.508
+  test_018   ref A/P 0.519/0.510   nnunet A/P 0.546/0.601
+  test_019   ref A/P 0.619/0.617   nnunet A/P 0.690/0.741
+  test_020   ref A/P 0.619/0.556   nnunet A/P 0.770/0.808
+  test_021   ref A/P 0.639/0.631   nnunet A/P 0.869/1.031
+  test_022   ref A/P 0.578/0.595   nnunet A/P 0.636/0.625
+  test_023   ref A/P 0.578/0.569   nnunet A/P 0.640/0.663
+  test_024   ref A/P 0.617/0.619   nnunet A/P 2.143/1.662
+  test_025   ref A/P 0.740/0.682   nnunet A/P 1.282/1.519
+  test_026   ref A/P 0.583/0.549   nnunet A/P 0.672/0.845
+  test_027   ref A/P 0.559/0.497   nnunet A/P 0.674/0.628
+  test_028   ref A/P 0.532/0.545   nnunet A/P 0.633/0.645
+  test_029   ref A/P 0.598/0.605   nnunet A/P 0.697/1.094
+  test_030   ref A/P 0.535/0.569   nnunet A/P 0.602/0.737
+  test_031   ref A/P 0.561/0.519   nnunet A/P 0.610/0.711
+  test_032   ref A/P 0.498/0.481   nnunet A/P 0.594/0.603
+  test_033   ref A/P 0.651/0.586   nnunet A/P 2.188/2.128
+  test_034   ref A/P 0.576/0.596   nnunet A/P 0.613/0.665
+  test_035   ref A/P 0.525/0.480   nnunet A/P 0.770/0.877
+  test_036   ref A/P 0.597/0.620   nnunet A/P 0.919/0.840
+  test_037   ref A/P 0.578/0.643   nnunet A/P 0.606/0.754
+  test_038   ref A/P 0.623/0.647   nnunet A/P 0.666/0.730
+  test_039   ref A/P 0.575/0.598   nnunet A/P 0.801/0.834
+  test_040   ref A/P 0.576/0.615   nnunet A/P 0.963/1.033
+
+{
+  "reference_input": {
+    "n_cases": 40,
+    "n_failed": 0,
+    "anterior_symmetric_mm": {
+      "median": 0.5771188153091715,
+      "ci_low": 0.5603592219592701,
+      "ci_high": 0.5972172881401907,
+      "n": 40
+    },
+    "anterior_hausdorff_mm": {
+      "median": 5.29119673316595,
+      "ci_low": 4.819007658262644,
+      "ci_high": 5.727279694001609,
+      "n": 40
+    },
+    "posterior_symmetric_mm": {
+      "median": 0.5798539104898498,
+      "ci_low": 0.5521791869013606,
+      "ci_high": 0.5968171824572861,
+      "n": 40
+    },
+    "posterior_hausdorff_mm": {
+      "median": 3.6531991649696787,
+      "ci_low": 3.3501337342021142,
+      "ci_high": 3.898881570484775,
+      "n": 40
+    }
+  },
+  "nnunet_input": {
+    "n_cases": 40,
+    "n_failed": 0,
+    "anterior_symmetric_mm": {
+      "median": 0.6818197466533309,
+      "ci_low": 0.6378724065224363,
+      "ci_high": 0.7931841614048203,
+      "n": 40
+    },
+    "anterior_hausdorff_mm": {
+      "median": 7.581044360212875,
+      "ci_low": 6.098897957448617,
+      "ci_high": 9.2881265850835,
+      "n": 40
+    },
+    "posterior_symmetric_mm": {
+      "median": 0.7638631162613689,
+      "ci_low": 0.7282725006836124,
+      "ci_high": 0.8511008445362744,
+      "n": 40
+    },
+    "posterior_hausdorff_mm": {
+      "median": 10.106722301698401,
+      "ci_low": 7.293920180896974,
+      "ci_high": 11.942622905857036,
+      "n": 40
+    }
+  }
+}
+
+paired, nnU-Net minus reference labels:
+  anterior   +0.102 mm  [+0.068, +0.172]  p=1e-05  (n=40)
+  posterior  +0.189 mm  [+0.127, +0.285]  p=5e-06  (n=40)
+
+wrote /work/nvme/bhio/avu2/Rooted4D/results/21982454_nneval/E42_nnunet_valve.json

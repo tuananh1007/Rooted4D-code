@@ -1,0 +1,160 @@
+{
+  "experiment": "E49f_protocol_sensitivity",
+  "question": "decompose face-sampling and reference-stride differences between the E36 and E49d scoring paths",
+  "summary": {
+    "cases": 12,
+    "face_sampling_median_abs_mm": 0.00022326518784199223,
+    "face_sampling_max_abs_mm": 0.0006977793178872815,
+    "reference_stride_median_abs_mm": 0.0,
+    "reference_stride_max_abs_mm": 0.18774660233390872,
+    "total_median_abs_mm": 0.00036821754841209753,
+    "total_max_abs_mm": 0.18781137812638438,
+    "total_mean_signed_mm": -0.024243247164477493
+  },
+  "rows": [
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "ref_points": 4771,
+      "stride": 2,
+      "A_strided_6": 4.468355083894787,
+      "B_strided_20": 4.468290308102311,
+      "C_full_20": 4.280543705768403,
+      "face_sampling_mm": -6.477579247565757e-05,
+      "reference_stride_mm": -0.18774660233390872,
+      "total_protocol_mm": -0.18781137812638438
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "ref_points": 2590,
+      "stride": 1,
+      "A_strided_6": 4.626195931156272,
+      "B_strided_20": 4.62643269988091,
+      "C_full_20": 4.62643269988091,
+      "face_sampling_mm": 0.00023676872463784804,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": 0.00023676872463784804
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "ref_points": 2591,
+      "stride": 1,
+      "A_strided_6": 5.02274525599462,
+      "B_strided_20": 5.022535494343574,
+      "C_full_20": 5.022535494343574,
+      "face_sampling_mm": -0.00020976165104613642,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -0.00020976165104613642
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "ref_points": 2461,
+      "stride": 1,
+      "A_strided_6": 4.354170925328287,
+      "B_strided_20": 4.35357520857471,
+      "C_full_20": 4.35357520857471,
+      "face_sampling_mm": -0.000595716753577058,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -0.000595716753577058
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "ref_points": 4191,
+      "stride": 2,
+      "A_strided_6": 3.777064609779747,
+      "B_strided_20": 3.7771802238080623,
+      "C_full_20": 3.8354628802396635,
+      "face_sampling_mm": 0.00011561402831539169,
+      "reference_stride_mm": 0.05828265643160124,
+      "total_protocol_mm": 0.058398270459916635
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "ref_points": 2257,
+      "stride": 1,
+      "A_strided_6": 4.500208875155446,
+      "B_strided_20": 4.499806117468221,
+      "C_full_20": 4.499806117468221,
+      "face_sampling_mm": -0.0004027576872243088,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -0.0004027576872243088
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "ref_points": 4449,
+      "stride": 2,
+      "A_strided_6": 4.424772838938943,
+      "B_strided_20": 4.42519300412046,
+      "C_full_20": 4.263971769077889,
+      "face_sampling_mm": 0.0004201651815165519,
+      "reference_stride_mm": -0.16122123504257058,
+      "total_protocol_mm": -0.16080106986105402
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "ref_points": 3521,
+      "stride": 1,
+      "A_strided_6": 3.826536957780485,
+      "B_strided_20": 3.826462802341804,
+      "C_full_20": 3.826462802341804,
+      "face_sampling_mm": -7.415543868116714e-05,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -7.415543868116714e-05
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "ref_points": 3759,
+      "stride": 1,
+      "A_strided_6": 4.215763114470143,
+      "B_strided_20": 4.215758374279455,
+      "C_full_20": 4.215758374279455,
+      "face_sampling_mm": -4.740190687968493e-06,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -4.740190687968493e-06
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "ref_points": 2725,
+      "stride": 1,
+      "A_strided_6": 3.763444072149426,
+      "B_strided_20": 3.763110394739826,
+      "C_full_20": 3.763110394739826,
+      "face_sampling_mm": -0.00033367740959988623,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -0.00033367740959988623
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "ref_points": 3656,
+      "stride": 1,
+      "A_strided_6": 3.7396115823444327,
+      "B_strided_20": 3.739593054986516,
+      "C_full_20": 3.739593054986516,
+      "face_sampling_mm": -1.8527357916742204e-05,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": -1.8527357916742204e-05
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "ref_points": 3061,
+      "stride": 1,
+      "A_strided_6": 4.078588982112196,
+      "B_strided_20": 4.079286761430083,
+      "C_full_20": 4.079286761430083,
+      "face_sampling_mm": 0.0006977793178872815,
+      "reference_stride_mm": 0.0,
+      "total_protocol_mm": 0.0006977793178872815
+    }
+  ]
+}

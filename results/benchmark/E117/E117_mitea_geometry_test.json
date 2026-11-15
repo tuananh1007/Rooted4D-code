@@ -1,0 +1,265 @@
+{
+  "experiment": "E117",
+  "preregistration": "Docs/E117_FIELD_REPLICATION_AND_MITEA_PREREGISTRATION_2026-10-24.md",
+  "split": "test",
+  "source": "data/derived/mitea-e99/geometry_test.npz",
+  "source_sha256": "9b132e266d3c095cadb57d883c8fa63f0fe09f04136fc5fbb4449a9062999263",
+  "subjects": {
+    "MITEA_009": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.0483396688574721e-14,
+        "translation_mm": 3.5704330589399866e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 1.7022828751891732,
+        "translation_mm": 4.779153453004921
+      }
+    },
+    "MITEA_010": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 2.4346627672925262e-14,
+        "translation_mm": 1.1374233532693354e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 7.209161923648025,
+        "translation_mm": 7.9996291850434345
+      }
+    },
+    "MITEA_012": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 2.3842622753743608e-14,
+        "translation_mm": 2.8030438127152556e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 1.3820325236611184,
+        "translation_mm": 7.699352899910241
+      }
+    },
+    "MITEA_014": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.1192445349949506e-14,
+        "translation_mm": 4.497376302897807e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 1.589324793364737,
+        "translation_mm": 0.6023571260912811
+      }
+    },
+    "MITEA_019": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.3670383501482016e-14,
+        "translation_mm": 2.0175535360778957e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.305806442825362,
+        "translation_mm": 4.58802294951958
+      }
+    },
+    "MITEA_020": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.0728498806399367e-14,
+        "translation_mm": 3.1776437161565096e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.100532317939503,
+        "translation_mm": 3.5789615515983493
+      }
+    },
+    "MITEA_024": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.1682403206910884e-14,
+        "translation_mm": 8.881784197001252e-15
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 1.0564645428833663,
+        "translation_mm": 2.85303787616962
+      }
+    },
+    "MITEA_031": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.2406128147177903e-14,
+        "translation_mm": 6.081266252743834e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.8186650304219016,
+        "translation_mm": 4.164400593337268
+      }
+    },
+    "MITEA_032": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 7.111745724755541e-15,
+        "translation_mm": 3.061317943962309e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 4.022885256871881,
+        "translation_mm": 10.057260440477883
+      }
+    },
+    "MITEA_036": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 3.5571426452584763e-14,
+        "translation_mm": 3.972054645195637e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 0.973130682967386,
+        "translation_mm": 4.544526028838979
+      }
+    },
+    "MITEA_038": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 3.342721922792178e-14,
+        "translation_mm": 4.354792321283889e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.468918602991115,
+        "translation_mm": 3.7331090009055594
+      }
+    },
+    "MITEA_042": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 3.481567545695647e-15,
+        "translation_mm": 4.2186137559376095e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 4.646669147704979,
+        "translation_mm": 6.403753629303933
+      }
+    },
+    "MITEA_045": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 2.2750559747564606e-14,
+        "translation_mm": 5.3644800141730896e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 4.326572445105897,
+        "translation_mm": 2.779454594366345
+      }
+    },
+    "MITEA_066": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.4342491160047907e-14,
+        "translation_mm": 2.6586074758753436e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.4976235255361394,
+        "translation_mm": 3.306909345627504
+      }
+    },
+    "MITEA_074": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 2.0884396630284723e-15,
+        "translation_mm": 7.31548520675105e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 4.421337283122673,
+        "translation_mm": 5.439695191686543
+      }
+    },
+    "MITEA_083": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.0812466077527274e-14,
+        "translation_mm": 7.420410445819464e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 4.884591968629461,
+        "translation_mm": 2.8709125599505207
+      }
+    },
+    "MITEA_103": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.4391267100208513e-14,
+        "translation_mm": 1.1374233532693354e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.6830365516246006,
+        "translation_mm": 6.004179906541618
+      }
+    },
+    "MITEA_110": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 3.2649791387969254e-15,
+        "translation_mm": 6.495250665772624e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 2.630332488901054,
+        "translation_mm": 5.30623459196596
+      }
+    },
+    "MITEA_128": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 5.588106511454378e-15,
+        "translation_mm": 4.6728652726691796e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 3.505755708480379,
+        "translation_mm": 6.23435130941829
+      }
+    },
+    "MITEA_130": {
+      "reported": {
+        "reversed_ring": false,
+        "rotation_deg": 1.7421936361547958e-14,
+        "translation_mm": 5.552358433678174e-14
+      },
+      "es_only": {
+        "reversed_ring": false,
+        "rotation_deg": 1.9649506799403305,
+        "translation_mm": 4.143095155974489
+      }
+    }
+  },
+  "reported_rule_reproduces_stored_mm": 7.105427357601002e-14,
+  "reported_rule_reproduces_stored": true,
+  "outputs": {
+    "reported": {
+      "path": "data/derived/mitea-e117/reported/geometry_test.npz",
+      "sha256": "9b132e266d3c095cadb57d883c8fa63f0fe09f04136fc5fbb4449a9062999263"
+    },
+    "es_only": {
+      "path": "data/derived/mitea-e117/es_only/geometry_test.npz",
+      "sha256": "65fc0229c863aaae60509b48706246ecabb97a7d557b11cc1615465ea5715561"
+    }
+  },
+  "es_only_against_reported": {
+    "subjects": 20,
+    "ring_direction_differs": 0
+  }
+}

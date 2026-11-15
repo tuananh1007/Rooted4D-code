@@ -1,0 +1,58 @@
+{
+  "dataset_key": "acdc",
+  "title": "Automated Cardiac Diagnosis Challenge (ACDC)",
+  "filed_utc": "2026-08-31",
+  "local_root": "data/raw/acdc",
+  "source_archive": {
+    "path_at_filing": "datasets/ACDC.zip",
+    "sha256": "f855a1e2eb48a063e0a9f804e5a1f33254d8761cf7716b962c2a60e5b1d4efcd",
+    "size_bytes": 2457032727,
+    "note": "Archive retained after extraction so the filing can be reproduced. It is redundant with data/raw/acdc and may be deleted; re-obtaining it requires provider registration, so it was not deleted automatically."
+  },
+  "extracted": {
+    "n_files": 1056,
+    "size_bytes_approx": 2300000000,
+    "layout_root": "ACDC/database",
+    "splits_present": [
+      "training",
+      "testing"
+    ]
+  },
+  "layout_validation": {
+    "tool": "rooted4d-data validate acdc --root data/raw/acdc",
+    "patterns": [
+      "**/*_4d.nii.gz",
+      "**/*_frame*.nii.gz",
+      "**/Info.cfg"
+    ],
+    "matched_files": 900,
+    "minimum_matches": 100,
+    "passed": true
+  },
+  "labels": {
+    "convention": {
+      "0": "background",
+      "1": "RV cavity",
+      "2": "myocardium",
+      "3": "LV cavity"
+    },
+    "ground_truth_volumes": 300,
+    "note": "One expert delineation per annotated frame; no repeat observers."
+  },
+  "license": {
+    "name": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+    "commercial_use": "prohibited",
+    "share_alike": true,
+    "redistribution": "not permitted without provider authorisation",
+    "mandatory_citation": "O. Bernard, A. Lalande, C. Zotti, F. Cervenansky, et al., \"Deep Learning Techniques for Automatic MRI Cardiac Multi-structures Segmentation and Diagnosis: Is the Problem Solved?\", IEEE Transactions on Medical Imaging, vol. 37, no. 11, pp. 2514-2525, Nov. 2018, doi:10.1109/TMI.2018.2837502",
+    "consequences_for_this_project": [
+      "Derived artefacts carry ShareAlike, so any released mesh, contour or fitted template derived from ACDC inherits CC BY-NC-SA 4.0 and cannot be released under this repository's MIT terms.",
+      "Non-commercial only, so ACDC-derived results cannot support a commercial claim or a commercially licensed release.",
+      "No redistribution, so the archive and extracted volumes stay untracked; only checksums and this record are committed."
+    ]
+  },
+  "used_by": [
+    "docs/ACTIVE_PLANE_FINDINGS_2026-08-30.md section 6: contour-residual correlation length measured on 521 LV-cavity contours"
+  ]
+}

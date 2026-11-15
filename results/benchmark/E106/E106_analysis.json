@@ -1,0 +1,92 @@
+{
+  "experiment": "E106",
+  "preregistration": "Docs/E103_E107_REVIEWER_ANALYSES_PREREGISTRATION_2026-10-03.md",
+  "wrong_basin_deg": 30.0,
+  "instances": {
+    "original": {
+      "samples": 60,
+      "median_rotation_deg": {
+        "point_fit": 0.3978417885892367,
+        "image_cold": 131.09882210220698,
+        "image_warm": 1.2891265849187843
+      },
+      "median_translation_mm": {
+        "image_cold": 14.279231187066072,
+        "image_warm": 1.7995721249717413
+      },
+      "cold_beyond_30deg": 45,
+      "cold_beyond_90deg": 33,
+      "warm_within_5deg": 54,
+      "R1_total": {
+        "wrong_basin_samples": 45,
+        "lower_than_point_fit": 2,
+        "share": 0.044444444444444446
+      },
+      "R1_tee_image_symmetric_total": {
+        "wrong_basin_samples": 45,
+        "lower_than_point_fit": 2,
+        "share": 0.044444444444444446
+      },
+      "R2_median_change_cold_minus_point_fit": {
+        "cmr_image": 333131.4402441547,
+        "tee_image_one_sided": 6835.154556243431,
+        "tee_image_symmetric": 6581.585703222712,
+        "prior": 1268.5200849498542,
+        "total": 349971.4522668201
+      },
+      "R2_share_of_samples_where_term_decreases": {
+        "cmr_image": 0.044444444444444446,
+        "tee_image_one_sided": 0.0,
+        "tee_image_symmetric": 0.0,
+        "prior": 0.37777777777777777
+      }
+    },
+    "twin": {
+      "samples": 60,
+      "median_rotation_deg": {
+        "point_fit": 0.3978417885892367,
+        "image_cold": 110.61532067581193,
+        "image_warm": 1.3536661544794324
+      },
+      "median_translation_mm": {
+        "image_cold": 14.698360912292927,
+        "image_warm": 1.9462668781743675
+      },
+      "cold_beyond_30deg": 50,
+      "cold_beyond_90deg": 33,
+      "warm_within_5deg": 54,
+      "R1_total": {
+        "wrong_basin_samples": 50,
+        "lower_than_point_fit": 2,
+        "share": 0.04
+      },
+      "R1_tee_image_symmetric_total": {
+        "wrong_basin_samples": 50,
+        "lower_than_point_fit": 2,
+        "share": 0.04
+      },
+      "R2_median_change_cold_minus_point_fit": {
+        "cmr_image": 292436.54131802195,
+        "tee_image_one_sided": 8035.618234162077,
+        "tee_image_symmetric": 7883.405897189326,
+        "prior": 1634.3300253985583,
+        "total": 312134.92283533566
+      },
+      "R2_share_of_samples_where_term_decreases": {
+        "cmr_image": 0.04,
+        "tee_image_one_sided": 0.0,
+        "tee_image_symmetric": 0.0,
+        "prior": 0.34
+      }
+    }
+  },
+  "code_check": {
+    "e70_median_cold_rotation_deg": 104.7,
+    "reproduced_deg": 131.09882210220698,
+    "reproduces": false
+  },
+  "reading": {
+    "R1": "the fit fails to reach the truth's basin",
+    "R3": "the shadow does not account for it"
+  }
+}

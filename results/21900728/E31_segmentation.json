@@ -1,0 +1,1630 @@
+{
+  "experiment": "E31_segmentation_front_end",
+  "device": "cpu",
+  "split_source": "GLOBAL_SPLIT_LOCK.json via results/benchmark/acdc_patient_splits.json",
+  "n_train_slices": 1689,
+  "n_train_patients": 90,
+  "n_test_slices": 563,
+  "n_test_patients": 30,
+  "best_epoch": 30,
+  "val_dice_foreground": 0.9053030792872111,
+  "test_dice": {
+    "rv": 0.8886438409487406,
+    "myocardium": 0.8834092542529106,
+    "lv_cavity": 0.9481511091192564
+  },
+  "downstream": {
+    "frames_fitted": 60,
+    "frames_failed": 0,
+    "surface_displacement_mm": {
+      "median": 2.112283088606523,
+      "p95": 10.583966608071472,
+      "max": 11.195474775833485
+    },
+    "ef_error_points": {
+      "n": 30,
+      "bias": -3.7212850108433098,
+      "median_absolute": 4.489572284635464,
+      "limits_of_agreement": [
+        -13.72163901121596,
+        6.279068989529339
+      ]
+    }
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "loss": 0.5934112068814875,
+      "val_dice_per_class": [
+        0.9468994164466857,
+        0.6658983397483825,
+        0.47783135771751406,
+        0.6471730661392212
+      ],
+      "val_dice_foreground": 0.5969675878683726
+    },
+    {
+      "epoch": 1,
+      "loss": 0.21105010664590088,
+      "val_dice_per_class": [
+        0.9857993340492248,
+        0.792235505580902,
+        0.8013385152816772,
+        0.9124924683570862
+      ],
+      "val_dice_foreground": 0.8353554964065552
+    },
+    {
+      "epoch": 2,
+      "loss": 0.13965282069112225,
+      "val_dice_per_class": [
+        0.9802043461799621,
+        0.7357207679748535,
+        0.7758663940429688,
+        0.9217375183105468
+      ],
+      "val_dice_foreground": 0.811108226776123
+    },
+    {
+      "epoch": 3,
+      "loss": 0.11555463550728125,
+      "val_dice_per_class": [
+        0.976773533821106,
+        0.754009702205658,
+        0.7498373746871948,
+        0.922901291847229
+      ],
+      "val_dice_foreground": 0.8089161229133607
+    },
+    {
+      "epoch": 4,
+      "loss": 0.10237704777220002,
+      "val_dice_per_class": [
+        0.9885400390625,
+        0.8227961874008178,
+        0.8477631282806396,
+        0.9395014882087708
+      ],
+      "val_dice_foreground": 0.8700202679634094
+    },
+    {
+      "epoch": 5,
+      "loss": 0.09409012544906796,
+      "val_dice_per_class": [
+        0.9862885236740112,
+        0.8098480343818665,
+        0.827045874595642,
+        0.921968252658844
+      ],
+      "val_dice_foreground": 0.8529540538787842
+    },
+    {
+      "epoch": 6,
+      "loss": 0.08250057062077903,
+      "val_dice_per_class": [
+        0.979611496925354,
+        0.732474228143692,
+        0.8207615137100219,
+        0.9289132308959961
+      ],
+      "val_dice_foreground": 0.8273829909165701
+    },
+    {
+      "epoch": 7,
+      "loss": 0.07844815834642092,
+      "val_dice_per_class": [
+        0.9906625723838807,
+        0.8277135848999023,
+        0.8463870310783386,
+        0.9220012903213501
+      ],
+      "val_dice_foreground": 0.8653673020998637
+    },
+    {
+      "epoch": 8,
+      "loss": 0.08479310909607059,
+      "val_dice_per_class": [
+        0.9879315304756164,
+        0.8378152251243591,
+        0.8345484781265259,
+        0.9369745445251465
+      ],
+      "val_dice_foreground": 0.8697794159253438
+    },
+    {
+      "epoch": 9,
+      "loss": 0.08269979164242533,
+      "val_dice_per_class": [
+        0.9881208801269531,
+        0.8127807378768921,
+        0.852404158115387,
+        0.944056875705719
+      ],
+      "val_dice_foreground": 0.869747257232666
+    },
+    {
+      "epoch": 10,
+      "loss": 0.07459731564111015,
+      "val_dice_per_class": [
+        0.9902648663520813,
+        0.8543599033355713,
+        0.8600612044334411,
+        0.9435841774940491
+      ],
+      "val_dice_foreground": 0.886001761754354
+    },
+    {
+      "epoch": 11,
+      "loss": 0.06809836419606928,
+      "val_dice_per_class": [
+        0.9898336815834046,
+        0.8492183184623718,
+        0.8637306237220764,
+        0.943760244846344
+      ],
+      "val_dice_foreground": 0.885569729010264
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0647213578779998,
+      "val_dice_per_class": [
+        0.989088101387024,
+        0.8600784301757812,
+        0.8433651614189148,
+        0.9416859459877014
+      ],
+      "val_dice_foreground": 0.881709845860799
+    },
+    {
+      "epoch": 13,
+      "loss": 0.062213907729615964,
+      "val_dice_per_class": [
+        0.9897636222839356,
+        0.8738617157936096,
+        0.8394427275657654,
+        0.9474394154548645
+      ],
+      "val_dice_foreground": 0.8869146196047465
+    },
+    {
+      "epoch": 14,
+      "loss": 0.06038226007912341,
+      "val_dice_per_class": [
+        0.9904161882400513,
+        0.8768331408500671,
+        0.8488455510139465,
+        0.9426917195320129
+      ],
+      "val_dice_foreground": 0.8894568037986755
+    },
+    {
+      "epoch": 15,
+      "loss": 0.05795703063426179,
+      "val_dice_per_class": [
+        0.9917569446563721,
+        0.8755663108825683,
+        0.8718688297271728,
+        0.9494279718399048
+      ],
+      "val_dice_foreground": 0.8989543708165485
+    },
+    {
+      "epoch": 16,
+      "loss": 0.05622930288791233,
+      "val_dice_per_class": [
+        0.989590380191803,
+        0.8656196069717407,
+        0.8527187657356262,
+        0.9369442486763
+      ],
+      "val_dice_foreground": 0.885094207127889
+    },
+    {
+      "epoch": 17,
+      "loss": 0.05952094109533735,
+      "val_dice_per_class": [
+        0.9904360008239746,
+        0.8629350018501282,
+        0.8614535093307495,
+        0.9464664483070373
+      ],
+      "val_dice_foreground": 0.8902849864959718
+    },
+    {
+      "epoch": 18,
+      "loss": 0.05983024506067086,
+      "val_dice_per_class": [
+        0.9889275765419007,
+        0.8456833791732788,
+        0.8390265607833862,
+        0.9303639888763428
+      ],
+      "val_dice_foreground": 0.8716913096110027
+    },
+    {
+      "epoch": 19,
+      "loss": 0.07759410783410284,
+      "val_dice_per_class": [
+        0.9908943939208984,
+        0.8751703763008117,
+        0.8555467391014099,
+        0.9323461532592774
+      ],
+      "val_dice_foreground": 0.8876877562204997
+    },
+    {
+      "epoch": 20,
+      "loss": 0.06255512514530448,
+      "val_dice_per_class": [
+        0.9915851545333862,
+        0.8659394884109497,
+        0.8741999292373657,
+        0.9471049904823303
+      ],
+      "val_dice_foreground": 0.8957481360435485
+    },
+    {
+      "epoch": 21,
+      "loss": 0.05613030408563665,
+      "val_dice_per_class": [
+        0.9909351181983947,
+        0.8698897671699524,
+        0.8674227404594421,
+        0.9502747464179992
+      ],
+      "val_dice_foreground": 0.8958624180157978
+    },
+    {
+      "epoch": 22,
+      "loss": 0.054935496393094904,
+      "val_dice_per_class": [
+        0.9912750840187072,
+        0.8684591913223266,
+        0.8732628273963928,
+        0.9489633560180664
+      ],
+      "val_dice_foreground": 0.896895124912262
+    },
+    {
+      "epoch": 23,
+      "loss": 0.05265623344965345,
+      "val_dice_per_class": [
+        0.9918562912940979,
+        0.8738154077529907,
+        0.8761303830146789,
+        0.9509118318557739
+      ],
+      "val_dice_foreground": 0.9002858742078145
+    },
+    {
+      "epoch": 24,
+      "loss": 0.052761425418021625,
+      "val_dice_per_class": [
+        0.9911966061592102,
+        0.8757317233085632,
+        0.8646643686294556,
+        0.9478380918502808
+      ],
+      "val_dice_foreground": 0.8960780612627666
+    },
+    {
+      "epoch": 25,
+      "loss": 0.05214680612193119,
+      "val_dice_per_class": [
+        0.9908438968658447,
+        0.8777767658233643,
+        0.8560190296173096,
+        0.9498583841323852
+      ],
+      "val_dice_foreground": 0.8945513931910197
+    },
+    {
+      "epoch": 26,
+      "loss": 0.05099004888195763,
+      "val_dice_per_class": [
+        0.9916519379615784,
+        0.8738668227195739,
+        0.8712730121612549,
+        0.9518257021903992
+      ],
+      "val_dice_foreground": 0.898988512357076
+    },
+    {
+      "epoch": 27,
+      "loss": 0.05018612964088709,
+      "val_dice_per_class": [
+        0.9842334389686584,
+        0.7823018455505371,
+        0.8393378520011902,
+        0.9328408026695252
+      ],
+      "val_dice_foreground": 0.8514935000737508
+    },
+    {
+      "epoch": 28,
+      "loss": 0.05403975365587492,
+      "val_dice_per_class": [
+        0.9901630926132202,
+        0.8621261930465698,
+        0.8572327637672424,
+        0.9457609844207764
+      ],
+      "val_dice_foreground": 0.888373313744863
+    },
+    {
+      "epoch": 29,
+      "loss": 0.049202503143523556,
+      "val_dice_per_class": [
+        0.9916773962974549,
+        0.8636906504631042,
+        0.8801658153533936,
+        0.9505168199539185
+      ],
+      "val_dice_foreground": 0.8981244285901387
+    },
+    {
+      "epoch": 30,
+      "loss": 0.04718681254141284,
+      "val_dice_per_class": [
+        0.9926176762580872,
+        0.8791091847419739,
+        0.8816955661773682,
+        0.9551044869422912
+      ],
+      "val_dice_foreground": 0.9053030792872111
+    },
+    {
+      "epoch": 31,
+      "loss": 0.04673535014845127,
+      "val_dice_per_class": [
+        0.9919231677055359,
+        0.8764039897918701,
+        0.8747409677505493,
+        0.9480507683753967
+      ],
+      "val_dice_foreground": 0.899731908639272
+    },
+    {
+      "epoch": 32,
+      "loss": 0.04634131338334846,
+      "val_dice_per_class": [
+        0.9924345803260803,
+        0.8728177285194397,
+        0.8788984990119935,
+        0.9494522857666016
+      ],
+      "val_dice_foreground": 0.9003895044326783
+    },
+    {
+      "epoch": 33,
+      "loss": 0.04486415199075245,
+      "val_dice_per_class": [
+        0.9918808126449585,
+        0.8816185593605042,
+        0.8702419114112854,
+        0.9510311627388001
+      ],
+      "val_dice_foreground": 0.9009638778368632
+    },
+    {
+      "epoch": 34,
+      "loss": 0.04550930549312866,
+      "val_dice_per_class": [
+        0.953544385433197,
+        0.5511141753196717,
+        0.3850173985958099,
+        0.38090129405260087
+      ],
+      "val_dice_foreground": 0.43901095598936085
+    },
+    {
+      "epoch": 35,
+      "loss": 0.09891950251736395,
+      "val_dice_per_class": [
+        0.9868408370018006,
+        0.8350152754783631,
+        0.8269230151176452,
+        0.9363325500488281
+      ],
+      "val_dice_foreground": 0.8660902802149454
+    },
+    {
+      "epoch": 36,
+      "loss": 0.06781116876996009,
+      "val_dice_per_class": [
+        0.9910307312011719,
+        0.8739195704460144,
+        0.8599027824401856,
+        0.9498885655403138
+      ],
+      "val_dice_foreground": 0.8945703061421714
+    },
+    {
+      "epoch": 37,
+      "loss": 0.055450543708318506,
+      "val_dice_per_class": [
+        0.9914495444297791,
+        0.8663879895210266,
+        0.8725794076919555,
+        0.9521583890914918
+      ],
+      "val_dice_foreground": 0.897041928768158
+    },
+    {
+      "epoch": 38,
+      "loss": 0.05099960086374258,
+      "val_dice_per_class": [
+        0.9912257933616638,
+        0.8721320366859436,
+        0.8637325930595398,
+        0.9529020690917969
+      ],
+      "val_dice_foreground": 0.8962555662790934
+    },
+    {
+      "epoch": 39,
+      "loss": 0.048832347877919145,
+      "val_dice_per_class": [
+        0.991558678150177,
+        0.8770020532608033,
+        0.8679764533042907,
+        0.9484603118896484
+      ],
+      "val_dice_foreground": 0.8978129394849143
+    },
+    {
+      "epoch": 40,
+      "loss": 0.04694431497455702,
+      "val_dice_per_class": [
+        0.991953456401825,
+        0.8776427936553955,
+        0.8680924582481384,
+        0.9492383408546448
+      ],
+      "val_dice_foreground": 0.8983245309193929
+    },
+    {
+      "epoch": 41,
+      "loss": 0.04445664115501551,
+      "val_dice_per_class": [
+        0.9914166116714478,
+        0.8781014561653138,
+        0.8618685817718506,
+        0.9519445443153381
+      ],
+      "val_dice_foreground": 0.8973048607508342
+    },
+    {
+      "epoch": 42,
+      "loss": 0.04506540459251531,
+      "val_dice_per_class": [
+        0.9918185186386108,
+        0.8740459847450256,
+        0.8676919841766357,
+        0.9446335244178772
+      ],
+      "val_dice_foreground": 0.8954571644465128
+    },
+    {
+      "epoch": 43,
+      "loss": 0.043261641123684434,
+      "val_dice_per_class": [
+        0.9918757176399231,
+        0.8766045212745667,
+        0.8715949821472168,
+        0.9505771279335022
+      ],
+      "val_dice_foreground": 0.899592210451762
+    },
+    {
+      "epoch": 44,
+      "loss": 0.04251766783808942,
+      "val_dice_per_class": [
+        0.9910343718528748,
+        0.8589762711524963,
+        0.8732419466972351,
+        0.9476538729667664
+      ],
+      "val_dice_foreground": 0.8932906969388327
+    },
+    {
+      "epoch": 45,
+      "loss": 0.04117633979999151,
+      "val_dice_per_class": [
+        0.9919539189338684,
+        0.8728871774673462,
+        0.8778621244430542,
+        0.952797691822052
+      ],
+      "val_dice_foreground": 0.9011823312441508
+    },
+    {
+      "epoch": 46,
+      "loss": 0.04077866308880742,
+      "val_dice_per_class": [
+        0.992124228477478,
+        0.87369624376297,
+        0.8765250706672668,
+        0.9521351671218872
+      ],
+      "val_dice_foreground": 0.9007854938507079
+    },
+    {
+      "epoch": 47,
+      "loss": 0.03964058659163504,
+      "val_dice_per_class": [
+        0.9921392178535462,
+        0.8754039025306701,
+        0.8769254016876221,
+        0.9522202014923096
+      ],
+      "val_dice_foreground": 0.9015165019035339
+    },
+    {
+      "epoch": 48,
+      "loss": 0.039601240247540956,
+      "val_dice_per_class": [
+        0.9920750021934509,
+        0.8761973524093628,
+        0.8762303209304809,
+        0.9504863357543946
+      ],
+      "val_dice_foreground": 0.9009713363647461
+    },
+    {
+      "epoch": 49,
+      "loss": 0.038915245428178494,
+      "val_dice_per_class": [
+        0.9916310453414917,
+        0.8709190821647644,
+        0.8743237924575805,
+        0.948352620601654
+      ],
+      "val_dice_foreground": 0.8978651650746663
+    },
+    {
+      "epoch": 50,
+      "loss": 0.039474574468540254,
+      "val_dice_per_class": [
+        0.9911883306503296,
+        0.8779853439331055,
+        0.8602109527587891,
+        0.9478795790672302
+      ],
+      "val_dice_foreground": 0.8953586252530416
+    },
+    {
+      "epoch": 51,
+      "loss": 0.03775959889376354,
+      "val_dice_per_class": [
+        0.9915420484542846,
+        0.8784748125076294,
+        0.8681043267250061,
+        0.9496289706230163
+      ],
+      "val_dice_foreground": 0.8987360366185507
+    },
+    {
+      "epoch": 52,
+      "loss": 0.03860234332206406,
+      "val_dice_per_class": [
+        0.9924485802650451,
+        0.8779687738418579,
+        0.8798605751991272,
+        0.9537737011909485
+      ],
+      "val_dice_foreground": 0.9038676834106445
+    },
+    {
+      "epoch": 53,
+      "loss": 0.0367537100615764,
+      "val_dice_per_class": [
+        0.9910248303413391,
+        0.873145694732666,
+        0.8623775339126587,
+        0.9385477924346923
+      ],
+      "val_dice_foreground": 0.8913570070266723
+    },
+    {
+      "epoch": 54,
+      "loss": 0.03679558160991059,
+      "val_dice_per_class": [
+        0.9921546506881714,
+        0.8793519330024719,
+        0.8751333951950073,
+        0.9507653784751892
+      ],
+      "val_dice_foreground": 0.9017502355575561
+    },
+    {
+      "epoch": 55,
+      "loss": 0.0370924976748641,
+      "val_dice_per_class": [
+        0.992140645980835,
+        0.8688851284980774,
+        0.8721074366569519,
+        0.9465850973129273
+      ],
+      "val_dice_foreground": 0.8958592208226522
+    },
+    {
+      "epoch": 56,
+      "loss": 0.03706770447177108,
+      "val_dice_per_class": [
+        0.9920677423477173,
+        0.8738042998313904,
+        0.8749768114089966,
+        0.946894314289093
+      ],
+      "val_dice_foreground": 0.8985584751764933
+    },
+    {
+      "epoch": 57,
+      "loss": 0.036074117514210524,
+      "val_dice_per_class": [
+        0.9919894289970398,
+        0.8754632329940796,
+        0.8759595203399658,
+        0.9520216631889343
+      ],
+      "val_dice_foreground": 0.9011481388409933
+    },
+    {
+      "epoch": 58,
+      "loss": 0.03502762485063944,
+      "val_dice_per_class": [
+        0.9922486066818237,
+        0.8766303253173828,
+        0.8764015984535217,
+        0.9529656505584717
+      ],
+      "val_dice_foreground": 0.9019991914431255
+    },
+    {
+      "epoch": 59,
+      "loss": 0.034532631805322095,
+      "val_dice_per_class": [
+        0.9922933006286621,
+        0.8807953691482544,
+        0.8745590138435364,
+        0.950753014087677
+      ],
+      "val_dice_foreground": 0.9020357990264892
+    }
+  ],
+  "rows": [
+    {
+      "patient": "patient102",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 79.443359375,
+      "cavity_volume_pred_ml": 78.5400390625,
+      "mesh_volume_truth_ml": 70.31982782925836,
+      "mesh_volume_pred_ml": 69.14339182177466,
+      "surface_displacement_median_mm": 0.9785195207048494,
+      "surface_displacement_p95_mm": 1.558937116867548,
+      "ef": {
+        "truth": 73.83605745334779,
+        "pred": 65.52645940465302
+      }
+    },
+    {
+      "patient": "patient102",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 23.14453125,
+      "cavity_volume_pred_ml": 29.931640625,
+      "mesh_volume_truth_ml": 18.39843935215191,
+      "mesh_volume_pred_ml": 23.83617524867931,
+      "surface_displacement_median_mm": 5.950738869363196,
+      "surface_displacement_p95_mm": 10.270984093939427
+    },
+    {
+      "patient": "patient104",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 141.66731262301096,
+      "cavity_volume_pred_ml": 138.82611569482813,
+      "mesh_volume_truth_ml": 129.7458102890205,
+      "mesh_volume_pred_ml": 127.30995829851543,
+      "surface_displacement_median_mm": 1.48645644767897,
+      "surface_displacement_p95_mm": 2.910870259452386,
+      "ef": {
+        "truth": 86.74562899561694,
+        "pred": 77.60748676591258
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 22.03796827847076,
+      "cavity_volume_pred_ml": 34.86073862540117,
+      "mesh_volume_truth_ml": 17.196991058349802,
+      "mesh_volume_pred_ml": 28.507899260306235,
+      "surface_displacement_median_mm": 7.269394936648304,
+      "surface_displacement_p95_mm": 20.23323655048354
+    },
+    {
+      "patient": "patient107",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 129.92868320920294,
+      "cavity_volume_pred_ml": 122.021931231431,
+      "mesh_volume_truth_ml": 119.82956619511849,
+      "mesh_volume_pred_ml": 116.08704606425292,
+      "surface_displacement_median_mm": 1.4739652697323882,
+      "surface_displacement_p95_mm": 10.177728183018417,
+      "ef": {
+        "truth": 63.94266042526014,
+        "pred": 57.364213901110006
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 50.48732173040672,
+      "cavity_volume_pred_ml": 50.50601381546056,
+      "mesh_volume_truth_ml": 43.20735359391156,
+      "mesh_volume_pred_ml": 49.49462464847476,
+      "surface_displacement_median_mm": 10.755746798823287,
+      "surface_displacement_p95_mm": 38.588974830936074
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 222.36104380041408,
+      "cavity_volume_pred_ml": 213.7439925905964,
+      "mesh_volume_truth_ml": 205.41689749385392,
+      "mesh_volume_pred_ml": 194.92326753264982,
+      "surface_displacement_median_mm": 6.0285671472688716,
+      "surface_displacement_p95_mm": 10.63603889519857,
+      "ef": {
+        "truth": 45.88754312755682,
+        "pred": 38.113093902045264
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 121.87239455100031,
+      "cavity_volume_pred_ml": 132.7885722224396,
+      "mesh_volume_truth_ml": 111.15613006507252,
+      "mesh_volume_pred_ml": 120.63197954099608,
+      "surface_displacement_median_mm": 6.265011108196593,
+      "surface_displacement_p95_mm": 13.63232962355861
+    },
+    {
+      "patient": "patient125",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 113.96569015490232,
+      "cavity_volume_pred_ml": 108.16122643272718,
+      "mesh_volume_truth_ml": 103.8830010865117,
+      "mesh_volume_pred_ml": 98.54266616255627,
+      "surface_displacement_median_mm": 3.0030403721457466,
+      "surface_displacement_p95_mm": 5.3281414152387665,
+      "ef": {
+        "truth": 63.904687994043286,
+        "pred": 58.562183266195
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 42.259327343153224,
+      "cavity_volume_pred_ml": 45.13324474705946,
+      "mesh_volume_truth_ml": 37.49689336332781,
+      "mesh_volume_pred_ml": 40.833929409045346,
+      "surface_displacement_median_mm": 3.1790035349467973,
+      "surface_displacement_p95_mm": 5.4930315104889695
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 285.03271833249477,
+      "cavity_volume_pred_ml": 289.8773590214973,
+      "mesh_volume_truth_ml": 260.3619595218567,
+      "mesh_volume_pred_ml": 263.51214271718334,
+      "surface_displacement_median_mm": 6.099916028381566,
+      "surface_displacement_p95_mm": 13.416051246809296,
+      "ef": {
+        "truth": 19.90932995398077,
+        "pred": 18.002160525104173
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 228.04143337682734,
+      "cavity_volume_pred_ml": 236.73889855078463,
+      "mesh_volume_truth_ml": 208.5256379260004,
+      "mesh_volume_pred_ml": 216.0742637820944,
+      "surface_displacement_median_mm": 5.72614077330673,
+      "surface_displacement_p95_mm": 19.354980991313287
+    },
+    {
+      "patient": "patient138",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 133.91009732566965,
+      "cavity_volume_pred_ml": 126.62018415467425,
+      "mesh_volume_truth_ml": 124.82814729582284,
+      "mesh_volume_pred_ml": 117.77067166274863,
+      "surface_displacement_median_mm": 1.34681972432884,
+      "surface_displacement_p95_mm": 3.0576778301035743,
+      "ef": {
+        "truth": 72.21619644233705,
+        "pred": 77.22626366910814
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 41.496428819512374,
+      "cavity_volume_pred_ml": 30.841940338826767,
+      "mesh_volume_truth_ml": 34.68200722934156,
+      "mesh_volume_pred_ml": 26.82078223959475,
+      "surface_displacement_median_mm": 7.251445148657974,
+      "surface_displacement_p95_mm": 11.522060950946019
+    },
+    {
+      "patient": "patient144",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 110.564208984375,
+      "cavity_volume_pred_ml": 106.569580078125,
+      "mesh_volume_truth_ml": 100.12575733798141,
+      "mesh_volume_pred_ml": 95.67074529760676,
+      "surface_displacement_median_mm": 1.3355136593318826,
+      "surface_displacement_p95_mm": 2.4283823863760974,
+      "ef": {
+        "truth": 73.09353112528352,
+        "pred": 69.02647388507603
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 32.431640625,
+      "cavity_volume_pred_ml": 35.3583984375,
+      "mesh_volume_truth_ml": 26.940305733718123,
+      "mesh_volume_pred_ml": 29.632603279096628,
+      "surface_displacement_median_mm": 10.68111066389476,
+      "surface_displacement_p95_mm": 11.839346869421863
+    },
+    {
+      "patient": "patient145",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 214.28428650178634,
+      "cavity_volume_pred_ml": 217.65227312452532,
+      "mesh_volume_truth_ml": 197.0776078993804,
+      "mesh_volume_pred_ml": 199.99475197450676,
+      "surface_displacement_median_mm": 1.8057569802558657,
+      "surface_displacement_p95_mm": 5.016089892785612,
+      "ef": {
+        "truth": 20.220503097319064,
+        "pred": 22.241814862772962
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 172.4779938360449,
+      "cavity_volume_pred_ml": 171.79821671952877,
+      "mesh_volume_truth_ml": 157.22752408996388,
+      "mesh_volume_pred_ml": 155.512289505075,
+      "surface_displacement_median_mm": 2.205601477239677,
+      "surface_displacement_p95_mm": 5.012311031456048
+    },
+    {
+      "patient": "patient146",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 146.39283326285738,
+      "cavity_volume_pred_ml": 145.46741198094284,
+      "mesh_volume_truth_ml": 132.89787495551576,
+      "mesh_volume_pred_ml": 131.79424927312178,
+      "surface_displacement_median_mm": 5.138824579682151,
+      "surface_displacement_p95_mm": 14.773334833856293,
+      "ef": {
+        "truth": 82.97911733969038,
+        "pred": 76.66535823032308
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 28.049078378027907,
+      "cavity_volume_pred_ml": 36.289734555076166,
+      "mesh_volume_truth_ml": 22.620391354223354,
+      "mesh_volume_pred_ml": 30.753715940918,
+      "surface_displacement_median_mm": 6.04190557622908,
+      "surface_displacement_p95_mm": 11.272370897189798
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 211.853759765625,
+      "cavity_volume_pred_ml": 239.47998046875,
+      "mesh_volume_truth_ml": 194.0622833374208,
+      "mesh_volume_pred_ml": 269.6599777722056,
+      "surface_displacement_median_mm": 5.662343020932606,
+      "surface_displacement_p95_mm": 67.52899850532515,
+      "ef": {
+        "truth": 42.65422224410462,
+        "pred": 24.399877277178543
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 123.853271484375,
+      "cavity_volume_pred_ml": 156.482666015625,
+      "mesh_volume_truth_ml": 111.28652571069333,
+      "mesh_volume_pred_ml": 203.8632741301205,
+      "surface_displacement_median_mm": 9.368397082772393,
+      "surface_displacement_p95_mm": 67.21054664863925
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 309.7265625,
+      "cavity_volume_pred_ml": 313.41796875,
+      "mesh_volume_truth_ml": 286.0130449535308,
+      "mesh_volume_pred_ml": 289.17897160216955,
+      "surface_displacement_median_mm": 1.119808137340582,
+      "surface_displacement_p95_mm": 2.188111919776123,
+      "ef": {
+        "truth": 9.214574592629466,
+        "pred": 11.67499402601673
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 277.27734375,
+      "cavity_volume_pred_ml": 274.5,
+      "mesh_volume_truth_ml": 259.6581595816369,
+      "mesh_volume_pred_ml": 255.41734394311965,
+      "surface_displacement_median_mm": 1.2358503991105447,
+      "surface_displacement_p95_mm": 3.585307639032531
+    },
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 321.735610307787,
+      "cavity_volume_pred_ml": 329.90329136416574,
+      "mesh_volume_truth_ml": 297.87283925629714,
+      "mesh_volume_pred_ml": 306.58095558587746,
+      "surface_displacement_median_mm": 1.102061101513719,
+      "surface_displacement_p95_mm": 1.8515606297745508,
+      "ef": {
+        "truth": 27.073309122808446,
+        "pred": 27.573602671264677
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 233.41603100761017,
+      "cavity_volume_pred_ml": 238.84722557195408,
+      "mesh_volume_truth_ml": 217.2288046915535,
+      "mesh_volume_pred_ml": 222.04554102686117,
+      "surface_displacement_median_mm": 0.8942511730653223,
+      "surface_displacement_p95_mm": 2.008755587038131
+    },
+    {
+      "patient": "patient022",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 71.7451171875,
+      "cavity_volume_pred_ml": 70.4794921875,
+      "mesh_volume_truth_ml": 58.51502385072698,
+      "mesh_volume_pred_ml": 57.09594462757965,
+      "surface_displacement_median_mm": 1.503376693959271,
+      "surface_displacement_p95_mm": 55.293040878882906,
+      "ef": {
+        "truth": 66.48915841605893,
+        "pred": 62.06845512992752
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 25.154296875,
+      "cavity_volume_pred_ml": 23.3349609375,
+      "mesh_volume_truth_ml": 19.608876945422452,
+      "mesh_volume_pred_ml": 21.657373855402113,
+      "surface_displacement_median_mm": 1.4305811513585978,
+      "surface_displacement_p95_mm": 5.231292551405525
+    },
+    {
+      "patient": "patient023",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 75.45208740234375,
+      "cavity_volume_pred_ml": 77.81257629394531,
+      "mesh_volume_truth_ml": 69.50060828239306,
+      "mesh_volume_pred_ml": 70.41293231658697,
+      "surface_displacement_median_mm": 5.511104603879934,
+      "surface_displacement_p95_mm": 13.970439667018262,
+      "ef": {
+        "truth": 71.74433208058835,
+        "pred": 70.30952271780019
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 24.189788818359375,
+      "cavity_volume_pred_ml": 26.2369384765625,
+      "mesh_volume_truth_ml": 19.637861078244086,
+      "mesh_volume_pred_ml": 20.905935673186985,
+      "surface_displacement_median_mm": 5.518951984840909,
+      "surface_displacement_p95_mm": 13.579429685659372
+    },
+    {
+      "patient": "patient027",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 130.97496032714844,
+      "cavity_volume_pred_ml": 142.9004669189453,
+      "mesh_volume_truth_ml": 119.81440731130324,
+      "mesh_volume_pred_ml": 131.6958279812189,
+      "surface_displacement_median_mm": 5.835193917204151,
+      "surface_displacement_p95_mm": 20.22514072512141,
+      "ef": {
+        "truth": 72.31365007198063,
+        "pred": 62.137355138538396
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 39.776611328125,
+      "cavity_volume_pred_ml": 58.52470397949219,
+      "mesh_volume_truth_ml": 33.17223607238985,
+      "mesh_volume_pred_ml": 49.863523645890304,
+      "surface_displacement_median_mm": 6.039012929199302,
+      "surface_displacement_p95_mm": 13.186740649008893
+    },
+    {
+      "patient": "patient029",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 157.1063995361328,
+      "cavity_volume_pred_ml": 163.91029357910156,
+      "mesh_volume_truth_ml": 148.10487134726137,
+      "mesh_volume_pred_ml": 152.36561505201078,
+      "surface_displacement_median_mm": 1.2637277595775762,
+      "surface_displacement_p95_mm": 7.493073670680051,
+      "ef": {
+        "truth": 84.81181181197333,
+        "pred": 79.04075150795789
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 28.48663330078125,
+      "cavity_volume_pred_ml": 40.262603759765625,
+      "mesh_volume_truth_ml": 22.494446575856838,
+      "mesh_volume_pred_ml": 31.934687875179254,
+      "surface_displacement_median_mm": 11.195474775833485,
+      "surface_displacement_p95_mm": 14.329133017978185
+    },
+    {
+      "patient": "patient030",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 76.2041015625,
+      "cavity_volume_pred_ml": 93.64665222167969,
+      "mesh_volume_truth_ml": 68.38453037897509,
+      "mesh_volume_pred_ml": 85.90051634302272,
+      "surface_displacement_median_mm": 7.146484125857059,
+      "surface_displacement_p95_mm": 23.449490697357266,
+      "ef": {
+        "truth": 79.30501230132892,
+        "pred": 71.79090717742815
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 19.364364624023438,
+      "cavity_volume_pred_ml": 31.33392333984375,
+      "mesh_volume_truth_ml": 14.152170149722885,
+      "mesh_volume_pred_ml": 24.23175639027177,
+      "surface_displacement_median_mm": 10.578853763028143,
+      "surface_displacement_p95_mm": 11.988559319739105
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 173.0966796875,
+      "cavity_volume_pred_ml": 175.41021728515625,
+      "mesh_volume_truth_ml": 161.77404826422423,
+      "mesh_volume_pred_ml": 163.46296709325398,
+      "surface_displacement_median_mm": 1.4139326384981996,
+      "surface_displacement_p95_mm": 4.670910246054219,
+      "ef": {
+        "truth": 75.76235276455363,
+        "pred": 67.87111712435146
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 46.8876953125,
+      "cavity_volume_pred_ml": 60.70281982421875,
+      "mesh_volume_truth_ml": 39.21022313678341,
+      "mesh_volume_pred_ml": 52.518825242451484,
+      "surface_displacement_median_mm": 5.814711019690158,
+      "surface_displacement_p95_mm": 12.122256832953914
+    },
+    {
+      "patient": "patient039",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 148.36286399204621,
+      "cavity_volume_pred_ml": 140.71862353962584,
+      "mesh_volume_truth_ml": 135.5141822404765,
+      "mesh_volume_pred_ml": 127.87581253869261,
+      "surface_displacement_median_mm": 1.6927950331218002,
+      "surface_displacement_p95_mm": 3.4710646823634224,
+      "ef": {
+        "truth": 74.31556084190123,
+        "pred": 73.62040040158682
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 41.962573469448486,
+      "cavity_volume_pred_ml": 40.213011394070584,
+      "mesh_volume_truth_ml": 34.80605768815028,
+      "mesh_volume_pred_ml": 33.733127330924546,
+      "surface_displacement_median_mm": 7.263208237486707,
+      "surface_displacement_p95_mm": 11.541511596455265
+    },
+    {
+      "patient": "patient040",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 148.26570966673196,
+      "cavity_volume_pred_ml": 147.86910054591146,
+      "mesh_volume_truth_ml": 135.9204131351488,
+      "mesh_volume_pred_ml": 134.49913377068796,
+      "surface_displacement_median_mm": 1.2925013039352589,
+      "surface_displacement_p95_mm": 2.277383932882843,
+      "ef": {
+        "truth": 51.750017784661615,
+        "pred": 48.177922412006986
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 73.4387888719301,
+      "cavity_volume_pred_ml": 77.99979376136591,
+      "mesh_volume_truth_ml": 65.58157516472376,
+      "mesh_volume_pred_ml": 69.70024545782444,
+      "surface_displacement_median_mm": 1.6573573954703082,
+      "surface_displacement_p95_mm": 3.6888763480115
+    },
+    {
+      "patient": "patient045",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 225.68359375,
+      "cavity_volume_pred_ml": 216.7236328125,
+      "mesh_volume_truth_ml": 206.85110117170083,
+      "mesh_volume_pred_ml": 198.36904829080441,
+      "surface_displacement_median_mm": 1.9411920338162933,
+      "surface_displacement_p95_mm": 3.738999754246437,
+      "ef": {
+        "truth": 29.57486142203749,
+        "pred": 28.23017336746275
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 158.642578125,
+      "cavity_volume_pred_ml": 156.5185546875,
+      "mesh_volume_truth_ml": 145.67517465021174,
+      "mesh_volume_pred_ml": 142.36912205092443,
+      "surface_displacement_median_mm": 1.6689118328177877,
+      "surface_displacement_p95_mm": 3.377463998030543
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 260.19287109375,
+      "cavity_volume_pred_ml": 257.2021484375,
+      "mesh_volume_truth_ml": 245.20986235543617,
+      "mesh_volume_pred_ml": 242.27603803527924,
+      "surface_displacement_median_mm": 5.266287980012402,
+      "surface_displacement_p95_mm": 16.80949723134852,
+      "ef": {
+        "truth": 16.983844211651917,
+        "pred": 19.09555548022792
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 217.40684509277344,
+      "cavity_volume_pred_ml": 209.4440460205078,
+      "mesh_volume_truth_ml": 203.5638013413828,
+      "mesh_volume_pred_ml": 196.0120827769544,
+      "surface_displacement_median_mm": 2.0189646999733695,
+      "surface_displacement_p95_mm": 6.212176999868877
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 165.4961725823783,
+      "cavity_volume_pred_ml": 143.5504678969771,
+      "mesh_volume_truth_ml": 151.76227237208218,
+      "mesh_volume_pred_ml": 132.07769587424107,
+      "surface_displacement_median_mm": 2.4807555833023365,
+      "surface_displacement_p95_mm": 7.6715886421313435,
+      "ef": {
+        "truth": 33.08151056593331,
+        "pred": 37.63995184907283
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 109.77259110709744,
+      "cavity_volume_pred_ml": 83.61842297298972,
+      "mesh_volume_truth_ml": 101.55702020221133,
+      "mesh_volume_pred_ml": 82.36371474381188,
+      "surface_displacement_median_mm": 2.677159360370699,
+      "surface_displacement_p95_mm": 14.401916044127779
+    },
+    {
+      "patient": "patient053",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 154.17231752402617,
+      "cavity_volume_pred_ml": 153.05079242079609,
+      "mesh_volume_truth_ml": 137.71709793006264,
+      "mesh_volume_pred_ml": 135.99360555575754,
+      "surface_displacement_median_mm": 1.452291976884174,
+      "surface_displacement_p95_mm": 2.953396202086037,
+      "ef": {
+        "truth": 23.82222499099875,
+        "pred": 25.23342141004912
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 115.92831150388098,
+      "cavity_volume_pred_ml": 111.89082113225275,
+      "mesh_volume_truth_ml": 104.90982101008903,
+      "mesh_volume_pred_ml": 101.67776597515326,
+      "surface_displacement_median_mm": 1.6645279504495316,
+      "surface_displacement_p95_mm": 3.5843755172152933
+    },
+    {
+      "patient": "patient055",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 151.0640073525211,
+      "cavity_volume_pred_ml": 149.38943550905674,
+      "mesh_volume_truth_ml": 138.80643719918464,
+      "mesh_volume_pred_ml": 136.6916444232654,
+      "surface_displacement_median_mm": 1.3019015707494126,
+      "surface_displacement_p95_mm": 2.42000924606658,
+      "ef": {
+        "truth": 28.701554961392027,
+        "pred": 28.564484392531863
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 108.53869606454475,
+      "cavity_volume_pred_ml": 108.00988390345076,
+      "mesh_volume_truth_ml": 98.96683133651055,
+      "mesh_volume_pred_ml": 97.6463809860866,
+      "surface_displacement_median_mm": 1.2590675812582734,
+      "surface_displacement_p95_mm": 2.341659259112961
+    },
+    {
+      "patient": "patient081",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 156.80173876786054,
+      "cavity_volume_pred_ml": 157.4156310807676,
+      "mesh_volume_truth_ml": 147.47593041081151,
+      "mesh_volume_pred_ml": 161.49653811783043,
+      "surface_displacement_median_mm": 1.3109670827582063,
+      "surface_displacement_p95_mm": 14.31242877987439,
+      "ef": {
+        "truth": 57.20453492561021,
+        "pred": 55.030938325176784
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 69.84730315742527,
+      "cavity_volume_pred_ml": 79.69686426673407,
+      "mesh_volume_truth_ml": 63.11301029209022,
+      "mesh_volume_pred_ml": 72.62347782891155,
+      "surface_displacement_median_mm": 3.296912553491302,
+      "surface_displacement_p95_mm": 5.751841674193353
+    },
+    {
+      "patient": "patient085",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 85.05499433967523,
+      "cavity_volume_pred_ml": 80.12951411528181,
+      "mesh_volume_truth_ml": 78.77226268547871,
+      "mesh_volume_pred_ml": 74.27077266848315,
+      "surface_displacement_median_mm": 1.1744383446896047,
+      "surface_displacement_p95_mm": 2.715686366961257,
+      "ef": {
+        "truth": 59.981570184796425,
+        "pred": 52.904194386604374
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 34.146057807488994,
+      "cavity_volume_pred_ml": 37.86785995605614,
+      "mesh_volume_truth_ml": 31.523422656636093,
+      "mesh_volume_pred_ml": 34.97841872351579,
+      "surface_displacement_median_mm": 1.8484141948359323,
+      "surface_displacement_p95_mm": 3.3570843460337523
+    },
+    {
+      "patient": "patient087",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 171.9390863812099,
+      "cavity_volume_pred_ml": 163.60429164592833,
+      "mesh_volume_truth_ml": 155.09051993161967,
+      "mesh_volume_pred_ml": 143.63250843625255,
+      "surface_displacement_median_mm": 6.673223825081957,
+      "surface_displacement_p95_mm": 14.645445039606757,
+      "ef": {
+        "truth": 46.12320341387795,
+        "pred": 37.07237841193035
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 92.16319391494328,
+      "cavity_volume_pred_ml": 100.6859915389906,
+      "mesh_volume_truth_ml": 83.5578039479178,
+      "mesh_volume_pred_ml": 90.38452138621722,
+      "surface_displacement_median_mm": 1.7780106216716263,
+      "surface_displacement_p95_mm": 4.4967363654465125
+    },
+    {
+      "patient": "patient090",
+      "frame": 4,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 77.55064617902788,
+      "cavity_volume_pred_ml": 75.95626611778141,
+      "mesh_volume_truth_ml": 69.77265522407603,
+      "mesh_volume_pred_ml": 67.70640776706242,
+      "surface_displacement_median_mm": 1.6986266252253472,
+      "surface_displacement_p95_mm": 3.22782331063694,
+      "ef": {
+        "truth": 50.135314162198156,
+        "pred": 49.36781488080825
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 42.7612732426301,
+      "cavity_volume_pred_ml": 43.654126076928115,
+      "mesh_volume_truth_ml": 34.79191532817815,
+      "mesh_volume_pred_ml": 34.281233718173866,
+      "surface_displacement_median_mm": 1.8801485308294652,
+      "surface_displacement_p95_mm": 3.569902387316341
+    }
+  ],
+  "ef_rows": [
+    {
+      "patient": "patient102",
+      "ef_truth": 73.83605745334779,
+      "ef_pred": 65.52645940465302
+    },
+    {
+      "patient": "patient104",
+      "ef_truth": 86.74562899561694,
+      "ef_pred": 77.60748676591258
+    },
+    {
+      "patient": "patient107",
+      "ef_truth": 63.94266042526014,
+      "ef_pred": 57.364213901110006
+    },
+    {
+      "patient": "patient112",
+      "ef_truth": 45.88754312755682,
+      "ef_pred": 38.113093902045264
+    },
+    {
+      "patient": "patient125",
+      "ef_truth": 63.904687994043286,
+      "ef_pred": 58.562183266195
+    },
+    {
+      "patient": "patient135",
+      "ef_truth": 19.90932995398077,
+      "ef_pred": 18.002160525104173
+    },
+    {
+      "patient": "patient138",
+      "ef_truth": 72.21619644233705,
+      "ef_pred": 77.22626366910814
+    },
+    {
+      "patient": "patient144",
+      "ef_truth": 73.09353112528352,
+      "ef_pred": 69.02647388507603
+    },
+    {
+      "patient": "patient145",
+      "ef_truth": 20.220503097319064,
+      "ef_pred": 22.241814862772962
+    },
+    {
+      "patient": "patient146",
+      "ef_truth": 82.97911733969038,
+      "ef_pred": 76.66535823032308
+    },
+    {
+      "patient": "patient149",
+      "ef_truth": 42.65422224410462,
+      "ef_pred": 24.399877277178543
+    },
+    {
+      "patient": "patient007",
+      "ef_truth": 9.214574592629466,
+      "ef_pred": 11.67499402601673
+    },
+    {
+      "patient": "patient019",
+      "ef_truth": 27.073309122808446,
+      "ef_pred": 27.573602671264677
+    },
+    {
+      "patient": "patient022",
+      "ef_truth": 66.48915841605893,
+      "ef_pred": 62.06845512992752
+    },
+    {
+      "patient": "patient023",
+      "ef_truth": 71.74433208058835,
+      "ef_pred": 70.30952271780019
+    },
+    {
+      "patient": "patient027",
+      "ef_truth": 72.31365007198063,
+      "ef_pred": 62.137355138538396
+    },
+    {
+      "patient": "patient029",
+      "ef_truth": 84.81181181197333,
+      "ef_pred": 79.04075150795789
+    },
+    {
+      "patient": "patient030",
+      "ef_truth": 79.30501230132892,
+      "ef_pred": 71.79090717742815
+    },
+    {
+      "patient": "patient031",
+      "ef_truth": 75.76235276455363,
+      "ef_pred": 67.87111712435146
+    },
+    {
+      "patient": "patient039",
+      "ef_truth": 74.31556084190123,
+      "ef_pred": 73.62040040158682
+    },
+    {
+      "patient": "patient040",
+      "ef_truth": 51.750017784661615,
+      "ef_pred": 48.177922412006986
+    },
+    {
+      "patient": "patient045",
+      "ef_truth": 29.57486142203749,
+      "ef_pred": 28.23017336746275
+    },
+    {
+      "patient": "patient050",
+      "ef_truth": 16.983844211651917,
+      "ef_pred": 19.09555548022792
+    },
+    {
+      "patient": "patient052",
+      "ef_truth": 33.08151056593331,
+      "ef_pred": 37.63995184907283
+    },
+    {
+      "patient": "patient053",
+      "ef_truth": 23.82222499099875,
+      "ef_pred": 25.23342141004912
+    },
+    {
+      "patient": "patient055",
+      "ef_truth": 28.701554961392027,
+      "ef_pred": 28.564484392531863
+    },
+    {
+      "patient": "patient081",
+      "ef_truth": 57.20453492561021,
+      "ef_pred": 55.030938325176784
+    },
+    {
+      "patient": "patient085",
+      "ef_truth": 59.981570184796425,
+      "ef_pred": 52.904194386604374
+    },
+    {
+      "patient": "patient087",
+      "ef_truth": 46.12320341387795,
+      "ef_pred": 37.07237841193035
+    },
+    {
+      "patient": "patient090",
+      "ef_truth": 50.135314162198156,
+      "ef_pred": 49.36781488080825
+    }
+  ]
+}

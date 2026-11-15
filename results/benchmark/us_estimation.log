@@ -1,0 +1,23 @@
+  25/134  58s
+  50/134  115s
+  75/134  173s
+  100/134  230s
+  125/134  288s
+
+discrepancy fields: (268, 219)
+per-vertex displacement: rms 3.08 mm, p95 5.98 mm
+systematic scan1->scan2 offset: median 0.18 mm, max 0.52 mm
+rigid removed first: 4.15 deg, 9.29 mm (median)
+
+variance captured by leading components:
+    1 components:  44.1%
+    2 components:  69.4%
+    3 components:  88.3%
+    4 components:  91.6%
+    6 components:  95.3%
+    8 components:  96.6%
+   12 components:  97.9%
+   16 components:  98.5%
+
+rank for 50/80/90/95%: 2 / 3 / 4 / 6
+done

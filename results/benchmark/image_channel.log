@@ -1,0 +1,25 @@
+fitting shape space...
+  1/6  999s
+  2/6  2064s
+  3/6  3124s
+  4/6  4193s
+  5/6  5264s
+  6/6  6246s
+
+arm                     rotation deg  translation mm   phase cycles
+point_only                     3.531           4.402         0.0259
+cmr_image_tee_point            4.206           8.793         0.1684
+cmr_point_tee_image           17.771          28.135         0.3575
+both_image                    37.604          38.162         0.3211
+
+median difference from point_only (negative favours the image arm)
+  cmr_image_tee_point    rotation_deg          0.9225  p=0.0302 *
+  cmr_image_tee_point    translation_mm        4.9778  p=0.0622
+  cmr_image_tee_point    phase_map_cycles      0.1437  p=0.0302 *
+  cmr_point_tee_image    rotation_deg         14.5922  p=0.0302 *
+  cmr_point_tee_image    translation_mm       24.9923  p=0.0302 *
+  cmr_point_tee_image    phase_map_cycles      0.3351  p=0.1225
+  both_image             rotation_deg         34.5487  p=0.0302 *
+  both_image             translation_mm       31.3105  p=0.0302 *
+  both_image             phase_map_cycles      0.2984  p=0.1218
+done

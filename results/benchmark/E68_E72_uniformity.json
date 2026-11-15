@@ -1,0 +1,965 @@
+{
+  "experiments": "E68-E72",
+  "preregistration": "Docs/E65_E72_UNIFORMITY_PREREGISTRATION_2026-09-24.md",
+  "E68": {
+    "full": {
+      "medians": {
+        "full/frozen": {
+          "heldout_cmr_mm": 1.0678027822297045,
+          "heldout_tee_mm": 2.036713058149285,
+          "translation_mm": 3.1117055676979266,
+          "rotation_deg": 2.1821535461322057,
+          "failures": 0
+        },
+        "full/session_prior_1": {
+          "heldout_cmr_mm": 1.034989508333814,
+          "heldout_tee_mm": 1.9496964642276595,
+          "translation_mm": 3.0809570663187023,
+          "rotation_deg": 1.7834661832953538,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.05083163107218125,
+          "lower": 0.032190814310910025,
+          "upper": 0.16310789358482464
+        },
+        "cmr": {
+          "observed": 0.02439071788495406,
+          "lower": 0.0037912823310823907,
+          "upper": 0.07405096968569458
+        },
+        "tee": {
+          "observed": 0.02644091318722719,
+          "lower": 0.010680399709515953,
+          "upper": 0.11884679715129343
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            0,
+            30
+          ],
+          "tee_better_worse": [
+            3,
+            27
+          ],
+          "tee_p90": [
+            3.0859875407000406,
+            2.982299592848065
+          ],
+          "cmr_p90": [
+            1.332156934162444,
+            1.292373224835666
+          ],
+          "tee_max": [
+            5.450961494037359,
+            5.467932492763074
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            2.4018039418074038,
+            2.128694976237787
+          ],
+          "translation_mm_medians": [
+            3.337600517330584,
+            3.4170742578501563
+          ],
+          "phase_map_cycles_medians": [
+            0.008502783675363584,
+            0.008047354023758065
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": -0.07947374051957246,
+            "lower": -0.2607192877602005,
+            "upper": 0.41457418061176776
+          },
+          "rotation_deg": {
+            "observed": 0.27310896556961684,
+            "lower": 0.13146481321291592,
+            "upper": 0.7107236543647519
+          }
+        }
+      },
+      "zero_starts": 0,
+      "visible": {
+        "visible_cmr_frames": 16.0,
+        "visible_tee_vertices": 28.0
+      }
+    },
+    "half": {
+      "medians": {
+        "half/frozen": {
+          "heldout_cmr_mm": 1.469845594800414,
+          "heldout_tee_mm": 2.863395110937037,
+          "translation_mm": 3.4841416610184535,
+          "rotation_deg": 2.4839037764875833,
+          "failures": 0
+        },
+        "half/session_prior_1": {
+          "heldout_cmr_mm": 1.417706383126093,
+          "heldout_tee_mm": 2.786058328700392,
+          "translation_mm": 3.2422031847590027,
+          "rotation_deg": 2.033949498777897,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.05612443243227361,
+          "lower": 0.011016888304128614,
+          "upper": 0.13619487742583689
+        },
+        "cmr": {
+          "observed": 0.030108632047125772,
+          "lower": 0.0038682322337928454,
+          "upper": 0.04055197652965892
+        },
+        "tee": {
+          "observed": 0.026015800385148502,
+          "lower": -0.009451915544960166,
+          "upper": 0.1162267022554242
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            4,
+            26
+          ],
+          "tee_better_worse": [
+            2,
+            28
+          ],
+          "tee_p90": [
+            5.469949925233333,
+            5.387349913731724
+          ],
+          "cmr_p90": [
+            2.4539718039846545,
+            2.4012294399857597
+          ],
+          "tee_max": [
+            6.625093821900519,
+            6.611859951657227
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            2.4299788085442353,
+            2.1717693989794205
+          ],
+          "translation_mm_medians": [
+            3.6277555261687047,
+            3.450580936255955
+          ],
+          "phase_map_cycles_medians": [
+            0.028328195586500002,
+            0.027989161104418847
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 0.1771745899127497,
+            "lower": -0.1583019490439801,
+            "upper": 0.37586140121377376
+          },
+          "rotation_deg": {
+            "observed": 0.25820940956481486,
+            "lower": 0.0845561003690305,
+            "upper": 0.5451026534043155
+          }
+        }
+      },
+      "zero_starts": 1,
+      "visible": {
+        "visible_cmr_frames": 8.0,
+        "visible_tee_vertices": 14.0
+      }
+    },
+    "quarter": {
+      "medians": {
+        "quarter/frozen": {
+          "heldout_cmr_mm": 2.2798307244180283,
+          "heldout_tee_mm": 4.354942546394787,
+          "translation_mm": 4.689245505655778,
+          "rotation_deg": 3.218411227383464,
+          "failures": 0
+        },
+        "quarter/session_prior_1": {
+          "heldout_cmr_mm": 2.2823278708866157,
+          "heldout_tee_mm": 4.3604353338189465,
+          "translation_mm": 4.39413100227301,
+          "rotation_deg": 2.8631243452303012,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.039518246632505694,
+          "lower": -0.05656152290494518,
+          "upper": 0.10210412597803575
+        },
+        "cmr": {
+          "observed": 0.03568118678434251,
+          "lower": -0.007771464290048158,
+          "upper": 0.03747185230590189
+        },
+        "tee": {
+          "observed": 0.0038370598481627383,
+          "lower": -0.07263341781227961,
+          "upper": 0.08272225402647493
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            12,
+            18
+          ],
+          "tee_better_worse": [
+            13,
+            17
+          ],
+          "tee_p90": [
+            6.4150016360230095,
+            6.4426765270118205
+          ],
+          "cmr_p90": [
+            3.2715943991768976,
+            3.2658993500813303
+          ],
+          "tee_max": [
+            7.816093793974456,
+            7.768914882389059
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            3.606760865370233,
+            3.445864622936077
+          ],
+          "translation_mm_medians": [
+            4.423921970943142,
+            4.529680068744304
+          ],
+          "phase_map_cycles_medians": [
+            0.05638771352170216,
+            0.05597085070375735
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": -0.10575809780116252,
+            "lower": -0.9231931509550515,
+            "upper": 0.5189421369544522
+          },
+          "rotation_deg": {
+            "observed": 0.160896242434156,
+            "lower": -0.5454950369832923,
+            "upper": 0.5527740514345147
+          }
+        }
+      },
+      "zero_starts": 39,
+      "visible": {
+        "visible_cmr_frames": 4.0,
+        "visible_tee_vertices": 7.0
+      }
+    },
+    "eighth": {
+      "medians": {
+        "eighth/frozen": {
+          "heldout_cmr_mm": 2.9263092923158456,
+          "heldout_tee_mm": 5.200223088769468,
+          "translation_mm": 5.265756636136922,
+          "rotation_deg": 3.500996788258451,
+          "failures": 0
+        },
+        "eighth/session_prior_1": {
+          "heldout_cmr_mm": 2.9251092292904217,
+          "heldout_tee_mm": 5.144350606270732,
+          "translation_mm": 4.949546436458316,
+          "rotation_deg": 3.262312906196385,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.012410871209194596,
+          "lower": -0.07018565846157694,
+          "upper": 0.13973998390720332
+        },
+        "cmr": {
+          "observed": -0.014009114171040782,
+          "lower": -0.03600890995742656,
+          "upper": 0.08224186316896587
+        },
+        "tee": {
+          "observed": 0.026419985380234046,
+          "lower": -0.07168985168699038,
+          "upper": 0.0967817131389177
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            13,
+            17
+          ],
+          "tee_better_worse": [
+            12,
+            18
+          ],
+          "tee_p90": [
+            6.868643566147952,
+            6.893070927837763
+          ],
+          "cmr_p90": [
+            3.8828323440957018,
+            3.866615403505261
+          ],
+          "tee_max": [
+            8.991552843647922,
+            8.908128967004616
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            4.146205814396209,
+            4.099221331510629
+          ],
+          "translation_mm_medians": [
+            5.505157442549363,
+            5.3893296378189675
+          ],
+          "phase_map_cycles_medians": [
+            0.07192983830409852,
+            0.07155068032855924
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 0.11582780473039556,
+            "lower": -0.31078945449377926,
+            "upper": 0.6304165024507706
+          },
+          "rotation_deg": {
+            "observed": 0.04698448288558055,
+            "lower": -0.30987374897720255,
+            "upper": 0.47191384604626485
+          }
+        }
+      },
+      "zero_starts": 60,
+      "visible": {
+        "visible_cmr_frames": 2.0,
+        "visible_tee_vertices": 6.0
+      }
+    },
+    "eighth_noisy": {
+      "medians": {
+        "eighth_noisy/frozen": {
+          "heldout_cmr_mm": 3.1868925726159842,
+          "heldout_tee_mm": 5.007593724920584,
+          "translation_mm": 4.998127436744677,
+          "rotation_deg": 3.3324224693185585,
+          "failures": 0
+        },
+        "eighth_noisy/session_prior_1": {
+          "heldout_cmr_mm": 3.1981233086545524,
+          "heldout_tee_mm": 4.965441824622877,
+          "translation_mm": 4.941977648407092,
+          "rotation_deg": 3.128597292656771,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": -0.036049577422213375,
+          "lower": -0.11976138845083817,
+          "upper": 0.09293834398790501
+        },
+        "cmr": {
+          "observed": -0.00653820140716288,
+          "lower": -0.047655093759836564,
+          "upper": 0.05067317531506754
+        },
+        "tee": {
+          "observed": -0.029511376015049606,
+          "lower": -0.11475715811853959,
+          "upper": 0.0782834587759007
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            14,
+            16
+          ],
+          "tee_better_worse": [
+            12,
+            18
+          ],
+          "tee_p90": [
+            6.8915854360964435,
+            6.983149941758649
+          ],
+          "cmr_p90": [
+            4.322876894886631,
+            4.3305624637605895
+          ],
+          "tee_max": [
+            8.831715087350302,
+            8.755535140199823
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            4.210063516031257,
+            4.106335778189946
+          ],
+          "translation_mm_medians": [
+            5.254991362389598,
+            5.320108346146348
+          ],
+          "phase_map_cycles_medians": [
+            0.07266071216895456,
+            0.07216207205392858
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": -0.06511698375675046,
+            "lower": -0.5517702108150617,
+            "upper": 0.4940723111521983
+          },
+          "rotation_deg": {
+            "observed": 0.10372773784131084,
+            "lower": -0.11729977762190202,
+            "upper": 0.47213345124339634
+          }
+        }
+      },
+      "zero_starts": 60,
+      "visible": {
+        "visible_cmr_frames": 2.0,
+        "visible_tee_vertices": 6.0
+      }
+    }
+  },
+  "E69": {
+    "calibration_identities": 30,
+    "test_samples": 60,
+    "test_identities": 30,
+    "quantities": {
+      "phase_offset_cycles": {
+        "0.8": {
+          "half_width": 0.015165877093035407,
+          "coverage_samples": 0.85,
+          "coverage_identities": 0.9333333333333333
+        },
+        "0.9": {
+          "half_width": 0.02329704558996193,
+          "coverage_samples": 0.9833333333333333,
+          "coverage_identities": 1.0
+        }
+      },
+      "translation_norm_mm": {
+        "0.8": {
+          "half_width": 0.8733402994305273,
+          "coverage_samples": 0.85,
+          "coverage_identities": 0.8666666666666667
+        },
+        "0.9": {
+          "half_width": 1.0429011595563207,
+          "coverage_samples": 0.9333333333333333,
+          "coverage_identities": 0.9333333333333333
+        }
+      },
+      "rotation_angle_deg": {
+        "0.8": {
+          "half_width": 0.5229134585300734,
+          "coverage_samples": 0.9166666666666666,
+          "coverage_identities": 0.9333333333333333
+        },
+        "0.9": {
+          "half_width": 0.5877242251206773,
+          "coverage_samples": 0.9333333333333333,
+          "coverage_identities": 0.9333333333333333
+        }
+      },
+      "annulus_diameter_mm": {
+        "0.8": {
+          "half_width": 0.1693378381952826,
+          "coverage_samples": 0.7166666666666667,
+          "coverage_identities": 0.6666666666666666
+        },
+        "0.9": {
+          "half_width": 0.21574961534109605,
+          "coverage_samples": 0.9,
+          "coverage_identities": 0.9
+        }
+      }
+    },
+    "exchangeability_probe": {
+      "true_diameter_mean_mm": {
+        "val": 55.743523526045934,
+        "test": 51.62316549365525
+      },
+      "residual_mean_mm": {
+        "val": 0.10228260691222175,
+        "test": 0.1180899985805515
+      },
+      "permutation_p": 0.3873
+    },
+    "reproduction_of_e64": {
+      "heldout_cmr_mm": {
+        "e69": 0.8440910509305979,
+        "e64": 0.8440910509305979,
+        "difference": 0.0
+      },
+      "heldout_tee_mm": {
+        "e69": 1.97204273510328,
+        "e64": 1.97204273510328,
+        "difference": 0.0
+      },
+      "rotation_deg": {
+        "e69": 0.41279700277203685,
+        "e64": 0.41279700277203685,
+        "difference": 0.0
+      },
+      "translation_mm": {
+        "e69": 1.061936911652797,
+        "e64": 1.061936911652797,
+        "difference": 0.0
+      },
+      "passed": true
+    }
+  },
+  "E70": {
+    "medians": {
+      "point_fit": {
+        "rotation_deg": 0.41279700277203685,
+        "translation_mm": 1.061936911652797,
+        "phase_map_cycles": 0.0066098768857503765,
+        "failures": 0
+      },
+      "image_cold": {
+        "rotation_deg": 113.41792260198689,
+        "translation_mm": 14.687557601459062,
+        "phase_map_cycles": 0.1603235622093587,
+        "failures": 0
+      },
+      "image_warm": {
+        "rotation_deg": 1.0275183543050441,
+        "translation_mm": 1.5498347001136568,
+        "phase_map_cycles": 0.012263058556929829,
+        "failures": 0
+      },
+      "landmarks_2": {
+        "rotation_deg": 1.1274498229912344,
+        "translation_mm": 1.585041383868158,
+        "phase_map_cycles": 0.010843597284327017,
+        "failures": 0
+      },
+      "landmarks_4": {
+        "rotation_deg": 1.1746599299359581,
+        "translation_mm": 1.6832536618218414,
+        "phase_map_cycles": 0.010080773974870755,
+        "failures": 0
+      },
+      "landmarks_8": {
+        "rotation_deg": 1.1380636956431276,
+        "translation_mm": 1.706837353919763,
+        "phase_map_cycles": 0.010701399377235798,
+        "failures": 0
+      }
+    },
+    "against_image_warm": {
+      "point_fit": {
+        "rotation_deg": {
+          "observed": -0.5724187907163257,
+          "lower": -0.8221874387758092,
+          "upper": -0.3711780058469258
+        },
+        "translation_mm": {
+          "observed": -0.4167490687752138,
+          "lower": -0.6754529010447117,
+          "upper": -0.18188365824207028
+        },
+        "phase_map_cycles": {
+          "observed": -0.0059349749881666206,
+          "lower": -0.009073565795476482,
+          "upper": -0.0031467778460890286
+        }
+      },
+      "image_cold": {
+        "rotation_deg": {
+          "observed": 104.44377811227241,
+          "lower": 76.25088419203333,
+          "upper": 133.1376648069493
+        },
+        "translation_mm": {
+          "observed": 13.241248076461005,
+          "lower": 11.414576521841566,
+          "upper": 14.664996880463004
+        },
+        "phase_map_cycles": {
+          "observed": 0.16866883767252594,
+          "lower": 0.09493378957534883,
+          "upper": 0.24390717645594712
+        }
+      },
+      "landmarks_2": {
+        "rotation_deg": {
+          "observed": 0.10167843516719,
+          "lower": -0.19143695320666754,
+          "upper": 0.2343456181529625
+        },
+        "translation_mm": {
+          "observed": 0.12547719490484455,
+          "lower": -0.11394285943868265,
+          "upper": 0.2992894425553143
+        },
+        "phase_map_cycles": {
+          "observed": -0.001011291185420149,
+          "lower": -0.004288814841841975,
+          "upper": 0.001487058171407013
+        }
+      },
+      "landmarks_4": {
+        "rotation_deg": {
+          "observed": 0.009439740301088184,
+          "lower": -0.25115712101271126,
+          "upper": 0.3939676510916126
+        },
+        "translation_mm": {
+          "observed": 0.10936082124159996,
+          "lower": -0.17032074851897572,
+          "upper": 0.5332329395369141
+        },
+        "phase_map_cycles": {
+          "observed": -0.0030211294302993352,
+          "lower": -0.006072223011657468,
+          "upper": 0.0008625395123520729
+        }
+      },
+      "landmarks_8": {
+        "rotation_deg": {
+          "observed": 0.08923898436228384,
+          "lower": -0.24632629392752095,
+          "upper": 0.5920933580122659
+        },
+        "translation_mm": {
+          "observed": 0.1107335122165427,
+          "lower": -0.25863949913475826,
+          "upper": 0.8650213196788961
+        },
+        "phase_map_cycles": {
+          "observed": -0.002173980310085512,
+          "lower": -0.005268010651928029,
+          "upper": 3.409207409388326e-05
+        }
+      }
+    }
+  },
+  "E71": {
+    "medians": {
+      "point_fit": {
+        "rotation_deg": 0.41279700277203685,
+        "translation_mm": 1.061936911652797,
+        "phase_map_cycles": 0.0066098768857503765,
+        "failures": 0
+      },
+      "cmr_image_tee_point": {
+        "rotation_deg": 0.9912783970467869,
+        "translation_mm": 1.5275731082279325,
+        "phase_map_cycles": 0.005483216103771976,
+        "failures": 0
+      },
+      "cmr_point_tee_image": {
+        "rotation_deg": 0.8277819401192608,
+        "translation_mm": 1.313688391534512,
+        "phase_map_cycles": 0.011620904632703682,
+        "failures": 0
+      },
+      "both_image": {
+        "rotation_deg": 0.9489888088577341,
+        "translation_mm": 1.4345081388737069,
+        "phase_map_cycles": 0.010709537056675544,
+        "failures": 0
+      }
+    },
+    "against_point_fit": {
+      "cmr_image_tee_point": {
+        "rotation_deg": {
+          "observed": 0.5098550827487556,
+          "lower": 0.22143508257218703,
+          "upper": 0.9262325845915663
+        },
+        "translation_mm": {
+          "observed": 0.4854354938625207,
+          "lower": 0.19575183994187517,
+          "upper": 0.9040993432901657
+        },
+        "phase_map_cycles": {
+          "observed": 4.1638417225264845e-06,
+          "lower": -0.00199202580832554,
+          "upper": 0.0010017326470124627
+        }
+      },
+      "cmr_point_tee_image": {
+        "rotation_deg": {
+          "observed": 0.4124062175509998,
+          "lower": 0.2287893210939953,
+          "upper": 0.6148237005302388
+        },
+        "translation_mm": {
+          "observed": 0.2877306616977249,
+          "lower": 0.08127345751900816,
+          "upper": 0.5561195937112435
+        },
+        "phase_map_cycles": {
+          "observed": 0.005349196394038025,
+          "lower": 0.0035347579570501053,
+          "upper": 0.008548866499300374
+        }
+      },
+      "both_image": {
+        "rotation_deg": {
+          "observed": 0.5326614280285163,
+          "lower": 0.275568546758423,
+          "upper": 0.7507459238189467
+        },
+        "translation_mm": {
+          "observed": 0.24042109309495263,
+          "lower": 0.09473675349501626,
+          "upper": 0.4434496857450749
+        },
+        "phase_map_cycles": {
+          "observed": 0.0032906498456940353,
+          "lower": 0.0017399621232949969,
+          "upper": 0.006242795402520762
+        }
+      }
+    }
+  },
+  "E72": {
+    "0": {
+      "median_rotation_deg": {
+        "full": 0.15373178802215096,
+        "position_only": 0.15545831170586732,
+        "no_directed_arc": 0.15373178802215096,
+        "neither": 0.15545831170586732,
+        "full_commensurate": 0.15545831170586732,
+        "position_only_commensurate": 0.15545831170586732
+      },
+      "recovered_below_5deg": {
+        "full": 1.0,
+        "position_only": 1.0,
+        "no_directed_arc": 1.0,
+        "neither": 1.0,
+        "full_commensurate": 1.0,
+        "position_only_commensurate": 1.0
+      },
+      "paired": {
+        "full_minus_no_directed_arc": {
+          "observed": 0.0,
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "full_minus_position_only": {
+          "observed": 0.0012747387382675002,
+          "lower": -0.019395462205810787,
+          "upper": 0.0025494774765350003
+        },
+        "full_commensurate_minus_no_directed_arc": {
+          "observed": -0.0012747387365832918,
+          "lower": -0.0025494774731665837,
+          "upper": 0.019395462205810787
+        },
+        "position_only_commensurate_minus_neither": {
+          "observed": 1.6842083283563625e-12,
+          "lower": 0.0,
+          "upper": 3.368416656712725e-12
+        }
+      }
+    },
+    "30": {
+      "median_rotation_deg": {
+        "full": 29.26233161231685,
+        "position_only": 29.07410256498046,
+        "no_directed_arc": 29.478714540062516,
+        "neither": 29.349806391280815,
+        "full_commensurate": 0.16903581028529607,
+        "position_only_commensurate": 0.17182399594043826
+      },
+      "recovered_below_5deg": {
+        "full": 0.0,
+        "position_only": 0.0,
+        "no_directed_arc": 0.0,
+        "neither": 0.0,
+        "full_commensurate": 0.9666666666666667,
+        "position_only_commensurate": 0.9666666666666667
+      },
+      "paired": {
+        "full_minus_no_directed_arc": {
+          "observed": -0.693950330649983,
+          "lower": -1.5512640652640997,
+          "upper": 0.0
+        },
+        "full_minus_position_only": {
+          "observed": 0.4943515285697231,
+          "lower": -0.12246041038023847,
+          "upper": 1.2765578388572294
+        },
+        "full_commensurate_minus_no_directed_arc": {
+          "observed": -29.590737873600816,
+          "lower": -30.189771227146654,
+          "upper": -28.196204835864663
+        },
+        "position_only_commensurate_minus_neither": {
+          "observed": -28.65343213703999,
+          "lower": -29.956318971223396,
+          "upper": -28.053209694935436
+        }
+      }
+    },
+    "60": {
+      "median_rotation_deg": {
+        "full": 58.11179950321676,
+        "position_only": 58.088499332045885,
+        "no_directed_arc": 58.60748071087784,
+        "neither": 58.20321879482283,
+        "full_commensurate": 0.15681511250683888,
+        "position_only_commensurate": 0.1618734622123072
+      },
+      "recovered_below_5deg": {
+        "full": 0.0,
+        "position_only": 0.0,
+        "no_directed_arc": 0.0,
+        "neither": 0.0,
+        "full_commensurate": 0.9666666666666667,
+        "position_only_commensurate": 0.9666666666666667
+      },
+      "paired": {
+        "full_minus_no_directed_arc": {
+          "observed": -0.6810742930808544,
+          "lower": -2.1062465336863596,
+          "upper": 9.654490895627532e-08
+        },
+        "full_minus_position_only": {
+          "observed": 1.219089595391985,
+          "lower": -0.6051545479896987,
+          "upper": 2.2342890994398985
+        },
+        "full_commensurate_minus_no_directed_arc": {
+          "observed": -58.136737950795755,
+          "lower": -59.47183774182194,
+          "upper": -56.93269276641066
+        },
+        "position_only_commensurate_minus_neither": {
+          "observed": -57.752183359775884,
+          "lower": -59.11668211413088,
+          "upper": -55.13664038950335
+        }
+      }
+    },
+    "90": {
+      "median_rotation_deg": {
+        "full": 88.44490338112271,
+        "position_only": 88.97497024568352,
+        "no_directed_arc": 90.13368509985334,
+        "neither": 89.79608428907767,
+        "full_commensurate": 0.1559775323633853,
+        "position_only_commensurate": 0.17182399590858005
+      },
+      "recovered_below_5deg": {
+        "full": 0.0,
+        "position_only": 0.0,
+        "no_directed_arc": 0.0,
+        "neither": 0.0,
+        "full_commensurate": 0.9666666666666667,
+        "position_only_commensurate": 0.9666666666666667
+      },
+      "paired": {
+        "full_minus_no_directed_arc": {
+          "observed": -1.7434474725319546,
+          "lower": -3.731922570882844,
+          "upper": -0.846576262656555
+        },
+        "full_minus_position_only": {
+          "observed": 0.6954500834399937,
+          "lower": -1.3096414938898278,
+          "upper": 1.4895009894512725
+        },
+        "full_commensurate_minus_no_directed_arc": {
+          "observed": -89.32251500849983,
+          "lower": -90.13553609906529,
+          "upper": -88.08686641846813
+        },
+        "position_only_commensurate_minus_neither": {
+          "observed": -88.12851783605896,
+          "lower": -89.71512882965278,
+          "upper": -86.51549818649599
+        }
+      }
+    },
+    "normal_fallbacks_median": [
+      0.0,
+      5.0
+    ],
+    "shared_vertices_median": 17.0
+  }
+}

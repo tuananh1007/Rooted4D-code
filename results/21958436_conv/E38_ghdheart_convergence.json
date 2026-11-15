@@ -1,0 +1,62 @@
+{
+  "experiment": "E38_ghdheart_convergence",
+  "basis": 64,
+  "frames": 10,
+  "grid": [
+    {
+      "iterations": 600,
+      "lr": 0.01
+    },
+    {
+      "iterations": 2000,
+      "lr": 0.01
+    },
+    {
+      "iterations": 600,
+      "lr": 0.03
+    },
+    {
+      "iterations": 2000,
+      "lr": 0.03
+    },
+    {
+      "iterations": 4000,
+      "lr": 0.01
+    }
+  ],
+  "settings": {
+    "iter600_lr0.01": {
+      "n": 10,
+      "median": 3.332955941245442,
+      "mean": 3.4869824547584805,
+      "seconds_total": 199.07808780670166
+    },
+    "iter2000_lr0.01": {
+      "n": 10,
+      "median": 3.245521455710921,
+      "mean": 3.4507183847343326,
+      "seconds_total": 448.9547998905182
+    },
+    "iter600_lr0.03": {
+      "n": 10,
+      "median": 3.8869517102153903,
+      "mean": 3.871708792833472,
+      "seconds_total": 197.0845241546631
+    },
+    "iter2000_lr0.03": {
+      "n": 10,
+      "median": 3.8062259740556725,
+      "mean": 3.6140861774552016,
+      "seconds_total": 444.96492552757263
+    },
+    "iter4000_lr0.01": {
+      "n": 10,
+      "median": 3.288471496964367,
+      "mean": 3.4266771367627378,
+      "seconds_total": 795.6913068294525
+    }
+  },
+  "best": "iter2000_lr0.01",
+  "best_median": 3.245521455710921,
+  "improvement_over_default_mm": 0.08743448553452104
+}

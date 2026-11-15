@@ -1,0 +1,40 @@
+{
+  "experiment": "E54_direction1_pilot_calibration",
+  "stage": "calibration",
+  "modes": 32,
+  "development_identities": 18,
+  "nominal_tolerance": 0.02,
+  "rows": [
+    {
+      "base": 0.25,
+      "nominal_cost_median": 0.0,
+      "nominal_cost_worst": 0.0648837791637984,
+      "within_tolerance": false
+    },
+    {
+      "base": 0.5,
+      "nominal_cost_median": -0.004486293834585375,
+      "nominal_cost_worst": 0.4480563886253148,
+      "within_tolerance": false
+    },
+    {
+      "base": 1.0,
+      "nominal_cost_median": 0.0,
+      "nominal_cost_worst": 0.1234913178906718,
+      "within_tolerance": false
+    },
+    {
+      "base": 2.0,
+      "nominal_cost_median": 0.0,
+      "nominal_cost_worst": 0.025762453463875845,
+      "within_tolerance": false
+    },
+    {
+      "base": 3.0,
+      "nominal_cost_median": 0.0,
+      "nominal_cost_worst": 9.623575270012452e-10,
+      "within_tolerance": true
+    }
+  ],
+  "chosen_base": 3.0
+}

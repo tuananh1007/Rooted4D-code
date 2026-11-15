@@ -1,0 +1,564 @@
+{
+  "experiment": "E110",
+  "preregistration": "Docs/E110_E113_MARGIN_AND_COHORT_PREREGISTRATION_2026-10-21.md",
+  "margin_mm": 0.35,
+  "arms": {
+    "rooted4d": "S/joint",
+    "late_fusion": "S/late_fusion_trajectory"
+  },
+  "statistic": "E62: Rooted4D minus late fusion, identity-averaged, sum of modality medians, 20000 identity resamples, seed 20260910",
+  "instances": {
+    "v4n96o": {
+      "label": "Realistic session, 96 nodes (primary)",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96o/test/bd364644c4605d9d",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.013236173676312468,
+        "lower": -0.09289788238253927,
+        "upper": 0.047939412569570725,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.047939412569570725
+      },
+      "cmr": {
+        "observed": -0.005968883641942924,
+        "lower": -0.0485062967047063,
+        "upper": 0.021935539511404478,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.021935539511404478
+      },
+      "tee": {
+        "observed": -0.0072672900343691005,
+        "lower": -0.06922433996164812,
+        "upper": 0.050632971550376604,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.050632971550376604
+      }
+    },
+    "v3n96o": {
+      "label": "Small session, 96 nodes",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96o/test/dc59d32e4afae636",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.03641406454251239,
+        "lower": -0.09010271900689526,
+        "upper": 0.04461908161302957,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.04461908161302957
+      },
+      "cmr": {
+        "observed": -0.027472303209869375,
+        "lower": -0.051906370996393836,
+        "upper": -0.001018345615995453,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.001018345615995453
+      },
+      "tee": {
+        "observed": -0.008941761332643017,
+        "lower": -0.0526488659053761,
+        "upper": 0.06342469005996021,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.06342469005996021
+      }
+    },
+    "v4n48o": {
+      "label": "Realistic session, 48 nodes",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n48o/test/ccfe76da219c5bb8",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.07369996263546508,
+        "lower": -0.12268692999955527,
+        "upper": 0.007593877212782096,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.007593877212782096
+      },
+      "cmr": {
+        "observed": -0.004996799214524783,
+        "lower": -0.06869452987059677,
+        "upper": 0.01751072328345682,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.01751072328345682
+      },
+      "tee": {
+        "observed": -0.06870316342094052,
+        "lower": -0.08610916989027517,
+        "upper": 0.0115690930703789,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.0115690930703789
+      }
+    },
+    "v4oriented": {
+      "label": "Realistic session, 24 nodes",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e94/v4oriented/test/37167f722ddf22a6",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.0255227947534582,
+        "lower": -0.1525368664218562,
+        "upper": 0.1760143816572365,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.1760143816572365
+      },
+      "cmr": {
+        "observed": 0.0025624070354071105,
+        "lower": -0.041218555006404145,
+        "upper": 0.028054520899564617,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.028054520899564617
+      },
+      "tee": {
+        "observed": -0.028085201788865533,
+        "lower": -0.15489181480329073,
+        "upper": 0.1776171489480678,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.1776171489480678
+      }
+    },
+    "v3n48o": {
+      "label": "Small session, 48 nodes",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n48o/test/a104abae767620cb",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.0753757786978122,
+        "lower": -0.11882591889227444,
+        "upper": -0.008723873246743619,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.008723873246743619
+      },
+      "cmr": {
+        "observed": -0.035157700943529546,
+        "lower": -0.05278479450122775,
+        "upper": 0.004919970425187881,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.004919970425187881
+      },
+      "tee": {
+        "observed": -0.04021807775428288,
+        "lower": -0.0943388470666442,
+        "upper": -0.0004532777537389343,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.0004532777537389343
+      }
+    },
+    "v3o": {
+      "label": "Small session, 24 nodes",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3o/test/8b8f92be37654b0b",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.0598068563106775,
+        "lower": -0.20242793740647125,
+        "upper": 0.15696594589312118,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.15696594589312118
+      },
+      "cmr": {
+        "observed": -0.004497198060016139,
+        "lower": -0.037838001397666465,
+        "upper": 0.009626364333716733,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.009626364333716733
+      },
+      "tee": {
+        "observed": -0.055309658250661364,
+        "lower": -0.18874675627329585,
+        "upper": 0.17236644041668292,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.17236644041668292
+      }
+    },
+    "v4n96os1": {
+      "label": "Realistic session, 96 nodes, split 1",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96os1/test/8e78aa8149b5dceb",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.029565590170796074,
+        "lower": -0.10127667227643533,
+        "upper": 0.007253436874770378,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.007253436874770378
+      },
+      "cmr": {
+        "observed": -0.028159650543658987,
+        "lower": -0.04694651138932504,
+        "upper": 0.020542293157160607,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.020542293157160607
+      },
+      "tee": {
+        "observed": -0.0014059396271370872,
+        "lower": -0.08001211461445412,
+        "upper": 0.007932611445943483,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.007932611445943483
+      }
+    },
+    "v4n96os2": {
+      "label": "Realistic session, 96 nodes, split 2",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96os2/test/4ed4df53684cd04b",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.02605012913253235,
+        "lower": -0.07050450238710353,
+        "upper": 0.01573591267166313,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.01573591267166313
+      },
+      "cmr": {
+        "observed": -0.0069100405068767135,
+        "lower": -0.04140965900808191,
+        "upper": 0.027325923791190032,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.027325923791190032
+      },
+      "tee": {
+        "observed": -0.019140088625655638,
+        "lower": -0.04813664599718326,
+        "upper": 0.003819215285626676,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.003819215285626676
+      }
+    },
+    "v4n96os3": {
+      "label": "Realistic session, 96 nodes, split 3",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96os3/test/f6bcd65c7c247e45",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.05750300754991278,
+        "lower": -0.11401187491509343,
+        "upper": 0.05728374586962115,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.05728374586962115
+      },
+      "cmr": {
+        "observed": -0.0022314539061325522,
+        "lower": -0.04067763221668338,
+        "upper": 0.01727212071332107,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.01727212071332107
+      },
+      "tee": {
+        "observed": -0.05527155364378,
+        "lower": -0.0975348388510131,
+        "upper": 0.07145822868820328,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.07145822868820328
+      }
+    },
+    "v4n96os4": {
+      "label": "Realistic session, 96 nodes, split 4",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96os4/test/1c47d18d955f1f0f",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.03308673328766609,
+        "lower": -0.1024230762394577,
+        "upper": -0.009428442689429772,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.009428442689429772
+      },
+      "cmr": {
+        "observed": -0.014207120101997761,
+        "lower": -0.05043256627563448,
+        "upper": 0.013086388143424887,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.013086388143424887
+      },
+      "tee": {
+        "observed": -0.018879613185667887,
+        "lower": -0.07528071083246002,
+        "upper": -0.015777843040709782,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.015777843040709782
+      }
+    },
+    "v4n96os5": {
+      "label": "Realistic session, 96 nodes, split 5",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v4n96os5/test/34349508bd472eab",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.10591953024533396,
+        "lower": -0.1326749014425551,
+        "upper": -0.009094697002007823,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.009094697002007823
+      },
+      "cmr": {
+        "observed": -0.04795993601527426,
+        "lower": -0.0746076565626198,
+        "upper": 0.005131259159628421,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.005131259159628421
+      },
+      "tee": {
+        "observed": -0.057959594230059475,
+        "lower": -0.08129332378469467,
+        "upper": 0.005711367553319802,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.005711367553319802
+      }
+    },
+    "v3n96os1": {
+      "label": "Small session, 96 nodes, split 1",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96os1/test/b903ee21b2a85bd9",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.05611892366793558,
+        "lower": -0.10472679767180804,
+        "upper": -0.03444925001082266,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.03444925001082266
+      },
+      "cmr": {
+        "observed": -0.029325289794662868,
+        "lower": -0.04859146956478803,
+        "upper": -0.00800392580973297,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.00800392580973297
+      },
+      "tee": {
+        "observed": -0.026793633873272826,
+        "lower": -0.075588674700934,
+        "upper": -0.0166840525029448,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.0166840525029448
+      }
+    },
+    "v3n96os2": {
+      "label": "Small session, 96 nodes, split 2",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96os2/test/4b07eed05b74e983",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.06842070701277336,
+        "lower": -0.10618308106991359,
+        "upper": -0.03186873772709431,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.03186873772709431
+      },
+      "cmr": {
+        "observed": -0.03132666893345282,
+        "lower": -0.05147466402713552,
+        "upper": 0.00031609846609370607,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.00031609846609370607
+      },
+      "tee": {
+        "observed": -0.037094038079320546,
+        "lower": -0.08416119679039222,
+        "upper": -0.01849954199744741,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.01849954199744741
+      }
+    },
+    "v3n96os3": {
+      "label": "Small session, 96 nodes, split 3",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96os3/test/ab43295a27c045a7",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.04925965411409372,
+        "lower": -0.08268133461435889,
+        "upper": 0.05210772528879648,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.05210772528879648
+      },
+      "cmr": {
+        "observed": -0.00860860230001792,
+        "lower": -0.03556270093594183,
+        "upper": 0.0130880676594336,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.0130880676594336
+      },
+      "tee": {
+        "observed": -0.04065105181407591,
+        "lower": -0.06500150693751294,
+        "upper": 0.06407349930730821,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.06407349930730821
+      }
+    },
+    "v3n96os4": {
+      "label": "Small session, 96 nodes, split 4",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96os4/test/9f2eae2605316b85",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.03148976536792203,
+        "lower": -0.07951909863720177,
+        "upper": -0.0059503848475079835,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.0059503848475079835
+      },
+      "cmr": {
+        "observed": -0.008601163365738795,
+        "lower": -0.034332767494452354,
+        "upper": 0.024584742559110362,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.024584742559110362
+      },
+      "tee": {
+        "observed": -0.02288860200218301,
+        "lower": -0.05469553357996504,
+        "upper": -0.021278545118732728,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.021278545118732728
+      }
+    },
+    "v3n96os5": {
+      "label": "Small session, 96 nodes, split 5",
+      "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e100/v3n96os5/test/9360ac962343047a",
+      "samples": 60,
+      "identities": 30,
+      "failures": [
+        0,
+        0
+      ],
+      "sum": {
+        "observed": -0.03823359463900111,
+        "lower": -0.08595469459244201,
+        "upper": -0.01852870241507212,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.01852870241507212
+      },
+      "cmr": {
+        "observed": -0.011506161859784259,
+        "lower": -0.050031446430813586,
+        "upper": 0.011034645238143894,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": 0.011034645238143894
+      },
+      "tee": {
+        "observed": -0.02672743277921663,
+        "lower": -0.06319286186790674,
+        "upper": -0.010563581279147138,
+        "non_inferior": true,
+        "equivalent": true,
+        "one_sided_upper_bound_mm": -0.010563581279147138
+      }
+    }
+  },
+  "summary": {
+    "instances_read": 16,
+    "non_inferior_sum": 16,
+    "non_inferior_all_three": 16,
+    "equivalent_sum": 16,
+    "largest_upper_bound_sum_mm": 0.1760143816572365,
+    "largest_upper_bound_any_mm": 0.1776171489480678
+  }
+}

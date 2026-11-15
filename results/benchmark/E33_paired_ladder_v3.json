@@ -1,0 +1,230 @@
+{
+  "experiment": "E33_paired_ladder",
+  "source": "results/benchmark/E13_ladder_test_v3_m32.json",
+  "reference_arm": "rooted4d_full",
+  "sign": "difference is reference minus comparator; negative favors the reference",
+  "statistic": "median of per-sample paired differences",
+  "permutations": 200000,
+  "bootstraps": 20000,
+  "seed": 20260909,
+  "per_arm_median": {
+    "cmr_only": {
+      "heldout_cmr_mm": 1.5692929251267844,
+      "heldout_tee_mm": 24.422879132947376,
+      "rotation_deg": NaN,
+      "translation_mm": NaN,
+      "phase_error_cycles": NaN,
+      "attachment_residual_mm": 0.0
+    },
+    "tee_only": {
+      "heldout_cmr_mm": 14.234764040093387,
+      "heldout_tee_mm": 2.4437507761869917,
+      "rotation_deg": 1.6569811858619032,
+      "translation_mm": 11.594662306886448,
+      "phase_error_cycles": 0.23803400649355816,
+      "attachment_residual_mm": 0.0
+    },
+    "late_fusion": {
+      "heldout_cmr_mm": 1.5692929251267844,
+      "heldout_tee_mm": 2.4437507761869917,
+      "rotation_deg": 1.510839365197622,
+      "translation_mm": 7.569000929575987,
+      "phase_error_cycles": 0.05776556783102954,
+      "attachment_residual_mm": 14.088269173456357
+    },
+    "joint_soft_attachment": {
+      "heldout_cmr_mm": 2.4565624932550736,
+      "heldout_tee_mm": 2.9508057379559927,
+      "rotation_deg": 2.6389751034837396,
+      "translation_mm": 4.230131105673065,
+      "phase_error_cycles": 0.025857560851561323,
+      "attachment_residual_mm": 0.00020776330769933793
+    },
+    "joint_exact_no_gauges": {
+      "heldout_cmr_mm": 1.9029450414884654,
+      "heldout_tee_mm": 2.7955617787445983,
+      "rotation_deg": 2.2175709384618676,
+      "translation_mm": 3.514355974214203,
+      "phase_error_cycles": 0.020164173423470988,
+      "attachment_residual_mm": 0.0
+    },
+    "rooted4d_full": {
+      "heldout_cmr_mm": 1.9446371837083594,
+      "heldout_tee_mm": 2.835760353198129,
+      "rotation_deg": 2.2249366809641096,
+      "translation_mm": 3.406295614929152,
+      "phase_error_cycles": 0.020247041979520375,
+      "attachment_residual_mm": 0.0
+    }
+  },
+  "comparisons": {
+    "late_fusion": {
+      "heldout_cmr_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": 0.3005525780334949,
+        "ci_low": 0.18988059576174737,
+        "ci_high": 0.43300382642287705,
+        "p_value": 6.4999675001625e-05
+      },
+      "heldout_tee_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": 0.36305104196964066,
+        "ci_low": 0.23346039825599663,
+        "ci_high": 0.5260942212833277,
+        "p_value": 4.9999750001249995e-06
+      },
+      "rotation_deg": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": 0.4416088410563861,
+        "ci_low": -0.40938457720925425,
+        "ci_high": 0.7154760088422389,
+        "p_value": 0.3544132279338603
+      },
+      "translation_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -3.766378705769472,
+        "ci_low": -5.443852426643618,
+        "ci_high": -2.346149060696341,
+        "p_value": 9.999950000249999e-05
+      },
+      "phase_error_cycles": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.03148696251361044,
+        "ci_low": -0.04285257516175908,
+        "ci_high": -0.011787357024866663,
+        "p_value": 0.0029299853500732494
+      },
+      "attachment_residual_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -14.088269173456357,
+        "ci_low": -15.157065190314228,
+        "ci_high": -12.148564715271796,
+        "p_value": 4.9999750001249995e-06
+      }
+    },
+    "joint_soft_attachment": {
+      "heldout_cmr_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.5171312917233715,
+        "ci_low": -0.6352958149776644,
+        "ci_high": -0.3518176884323576,
+        "p_value": 4.9999750001249995e-06
+      },
+      "heldout_tee_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.19224817267115601,
+        "ci_low": -0.2731377874958354,
+        "ci_high": -0.10629828927864526,
+        "p_value": 3.4999825000875e-05
+      },
+      "rotation_deg": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.38732859495354466,
+        "ci_low": -0.5090290890290592,
+        "ci_high": -0.26181901438148847,
+        "p_value": 4.9999750001249995e-06
+      },
+      "translation_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.7643411412134993,
+        "ci_low": -1.2471235608046294,
+        "ci_high": -0.5920209809638024,
+        "p_value": 4.9999750001249995e-06
+      },
+      "phase_error_cycles": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.008647069536596858,
+        "ci_low": -0.016883937551358863,
+        "ci_high": -0.004672785420885062,
+        "p_value": 6.4999675001625e-05
+      },
+      "attachment_residual_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.00020776330769933793,
+        "ci_low": -0.00021893118874771744,
+        "ci_high": -0.00018754546552912643,
+        "p_value": 9.999950000249999e-06
+      }
+    },
+    "joint_exact_no_gauges": {
+      "heldout_cmr_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.0008812477971582577,
+        "ci_low": -0.013257680832181817,
+        "ci_high": 0.007407986349087903,
+        "p_value": 1.0
+      },
+      "heldout_tee_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.000754118130310788,
+        "ci_low": -0.004234941479148713,
+        "ci_high": 0.0036632508015448373,
+        "p_value": 0.722441387793061
+      },
+      "rotation_deg": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.009101083745002514,
+        "ci_low": -0.044690044844767574,
+        "ci_high": 0.0318431007778921,
+        "p_value": 0.8389458052709736
+      },
+      "translation_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.08946856913848411,
+        "ci_low": -0.15750206293124513,
+        "ci_high": -0.03979465989288533,
+        "p_value": 0.00042999785001074993
+      },
+      "phase_error_cycles": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": -0.004441252635137338,
+        "ci_low": -0.008898841798104073,
+        "ci_high": 0.0025874248648177778,
+        "p_value": 0.10782446087769561
+      },
+      "attachment_residual_mm": {
+        "n": 60,
+        "n_identities": 30,
+        "analysis_unit": "composite donor identity",
+        "difference": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "p_value": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "experiment": "E108",
+  "preregistration": "Docs/E108_CLOCKED_COMPOSITES_PREREGISTRATION_2026-10-04.md",
+  "key": "v3n96a",
+  "instance": "data/derived/e108-v3n96a",
+  "original": "data/derived/e100-v3n96o",
+  "splits": {
+    "train": {
+      "samples": 180,
+      "identities": 90,
+      "same_sample_ids": true,
+      "same_pairing": true,
+      "free_edge_height_mm": {
+        "mean": 18.549544210371337,
+        "min": 7.649715989833673,
+        "max": 32.43343725125201
+      },
+      "valves_reindexed_by_orientation": 0,
+      "clocking_deg": {
+        "before": {
+          "median_abs": 131.38896616034515,
+          "q25_abs": 59.66144148294214,
+          "q75_abs": 156.96003474298357,
+          "max_abs": 179.9808783799637,
+          "within_30": 8,
+          "beyond_90": 54,
+          "n": 90
+        },
+        "after": {
+          "median_abs": 4.963200107115512,
+          "q25_abs": 2.524579598852925,
+          "q75_abs": 7.927134243674537,
+          "max_abs": 27.098617088901893,
+          "within_30": 90,
+          "beyond_90": 0,
+          "n": 90
+        }
+      }
+    },
+    "val": {
+      "samples": 60,
+      "identities": 30,
+      "same_sample_ids": true,
+      "same_pairing": true,
+      "free_edge_height_mm": {
+        "mean": 18.67819352505728,
+        "min": 10.03965573504246,
+        "max": 30.80038179908739
+      },
+      "valves_reindexed_by_orientation": 0,
+      "clocking_deg": {
+        "before": {
+          "median_abs": 130.94895566759857,
+          "q25_abs": 87.58242778995111,
+          "q75_abs": 159.80378246537654,
+          "max_abs": 179.83874093755398,
+          "within_30": 3,
+          "beyond_90": 22,
+          "n": 30
+        },
+        "after": {
+          "median_abs": 4.07545574048438,
+          "q25_abs": 2.6096064179950167,
+          "q75_abs": 7.71745587444799,
+          "max_abs": 15.159541181504816,
+          "within_30": 30,
+          "beyond_90": 0,
+          "n": 30
+        }
+      }
+    },
+    "test": {
+      "samples": 60,
+      "identities": 30,
+      "same_sample_ids": true,
+      "same_pairing": true,
+      "free_edge_height_mm": {
+        "mean": 17.972147567215128,
+        "min": 9.467822424502772,
+        "max": 28.723981806522204
+      },
+      "valves_reindexed_by_orientation": 0,
+      "clocking_deg": {
+        "before": {
+          "median_abs": 150.1352991817139,
+          "q25_abs": 108.36578313967911,
+          "q75_abs": 162.58133333374138,
+          "max_abs": 179.76730611214714,
+          "within_30": 3,
+          "beyond_90": 24,
+          "n": 30
+        },
+        "after": {
+          "median_abs": 4.833624159662165,
+          "q25_abs": 2.3965486171459562,
+          "q75_abs": 7.5885094080940885,
+          "max_abs": 22.486115593819918,
+          "within_30": 30,
+          "beyond_90": 0,
+          "n": 30
+        }
+      }
+    }
+  },
+  "passed": true
+}

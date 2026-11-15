@@ -1,0 +1,19 @@
+  20/60  0s
+  40/60  0s
+  60/60  0s
+
+shared vertices: median 17 (min 12, max 21), 0 samples skipped
+arm                         fail    n/a  rotation deg  translation mm    rmse mm
+full                           0    y/y         0.191           1.161      0.425
+position_only_no_normals       0    n/y         0.200           1.161      0.425
+no_directed_arc                0    y/n         0.191           1.161      0.425
+neither                        0    n/n         0.200           1.161      0.425
+
+full minus ablation (negative = the ablated term was helping)
+  position_only_no_normals   rotation_deg    -0.2194  [ -0.5401,  0.0044]  p=0.1291
+  position_only_no_normals   translation_mm  -0.3028  [ -0.7350,  0.0010]  p=0.1608
+  no_directed_arc            rotation_deg    -0.0521  [ -0.1564,  0.0000]  p=0.8744
+  no_directed_arc            translation_mm  -0.0727  [ -0.2182,  0.0000]  p=0.8744
+  neither                    rotation_deg    -0.2968  [ -0.7415,  0.0044]  p=0.1291
+  neither                    translation_mm  -0.4155  [ -1.0664,  0.0010]  p=0.1608
+done

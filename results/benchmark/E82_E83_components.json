@@ -1,0 +1,835 @@
+{
+  "experiments": "E82-E83",
+  "record": "Docs/E75_SECOND_TEST_2026-09-26.md",
+  "E82": {
+    "medians": {
+      "S/frozen": {
+        "heldout_cmr_mm": 1.0350646814262554,
+        "heldout_tee_mm": 1.9522566992310242,
+        "rotation_deg": 2.0575450291604045,
+        "translation_mm": 3.6000786326332337,
+        "phase_error_cycles": 0.009267713108411013,
+        "phase_map_cycles": 0.00699245553513872,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.8129786162668515,
+        "heldout_tee_p95_mm": 4.550523534265739,
+        "seconds": 13.457,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/oscillatory": {
+        "heldout_cmr_mm": 1.0645973512211464,
+        "heldout_tee_mm": 2.0536136618922436,
+        "rotation_deg": 2.2519752204043733,
+        "translation_mm": 3.1447448813320453,
+        "phase_error_cycles": 0.009278308522748469,
+        "phase_map_cycles": 0.00853150833701688,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.8642989911287016,
+        "heldout_tee_p95_mm": 4.502898448276785,
+        "seconds": 13.3905,
+        "failures": 0,
+        "samples": 60
+      },
+      "S/no_session": {
+        "heldout_cmr_mm": 1.0770326992359578,
+        "heldout_tee_mm": 2.077999832745941,
+        "rotation_deg": 2.3120578991096057,
+        "translation_mm": 3.1165678758944617,
+        "phase_error_cycles": 0.010563205606930193,
+        "phase_map_cycles": 0.008803972236837543,
+        "attachment_residual_mm": 0.0,
+        "heldout_cmr_p95_mm": 1.8871536910117086,
+        "heldout_tee_p95_mm": 4.5586090842823985,
+        "seconds": 12.452,
+        "failures": 0,
+        "samples": 60
+      }
+    },
+    "frozen_minus_no_session": {
+      "sum": {
+        "observed": -0.09346852002974337,
+        "lower": -0.25208044415675745,
+        "upper": -0.06303332539220405
+      },
+      "cmr": {
+        "observed": -0.04010170684933545,
+        "lower": -0.12306312783484263,
+        "upper": -0.01174753616559121
+      },
+      "tee": {
+        "observed": -0.053366813180407924,
+        "lower": -0.16495353503267673,
+        "upper": -0.024641105531367558
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          30,
+          0
+        ],
+        "tee_better_worse": [
+          27,
+          3
+        ],
+        "tee_p90": [
+          2.9507693884286095,
+          3.1356887372121225
+        ],
+        "cmr_p90": [
+          1.2755561833232576,
+          1.3520263433315916
+        ],
+        "tee_max": [
+          5.477835933296045,
+          5.451385288525974
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.111705804719466,
+          2.5367271176171684
+        ],
+        "translation_mm_medians": [
+          3.7476916595904397,
+          3.4387269531469684
+        ],
+        "phase_map_cycles_medians": [
+          0.007658393626338522,
+          0.008683949303022458
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          13.551,
+          12.454
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.4250213128977025,
+          "lower": -1.0015010654005487,
+          "upper": -0.13657818276477807
+        },
+        "translation_mm": {
+          "observed": 0.3089647064434713,
+          "lower": -0.40422703704703616,
+          "upper": 0.6653110214777342
+        },
+        "phase_map_cycles": {
+          "observed": -0.0010255556766839355,
+          "lower": -0.0026281134651320683,
+          "upper": -2.5077649536353608e-05
+        },
+        "phase_error_cycles": {
+          "observed": -0.001953225814011042,
+          "lower": -0.003940724438927734,
+          "upper": 0.0006241387405804544
+        }
+      }
+    },
+    "frozen_minus_oscillatory": {
+      "sum": {
+        "observed": -0.05829521671534277,
+        "lower": -0.21272080576619115,
+        "upper": -0.035709335148637056
+      },
+      "cmr": {
+        "observed": -0.021325588667222783,
+        "lower": -0.08686909959484845,
+        "upper": -0.006657970003409286
+      },
+      "tee": {
+        "observed": -0.03696962804812021,
+        "lower": -0.1535567295421303,
+        "upper": -0.0036976190679114396
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          27,
+          3
+        ],
+        "tee_better_worse": [
+          28,
+          2
+        ],
+        "tee_p90": [
+          2.9507693884286095,
+          3.1301537419761956
+        ],
+        "cmr_p90": [
+          1.2755561833232576,
+          1.3176234926134809
+        ],
+        "tee_max": [
+          5.477835933296045,
+          5.437266424544871
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.111705804719466,
+          2.4815916938791087
+        ],
+        "translation_mm_medians": [
+          3.7476916595904397,
+          3.4113495563147227
+        ],
+        "phase_map_cycles_medians": [
+          0.007658393626338522,
+          0.00841644785437641
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          13.551,
+          13.3955
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.3698858891596428,
+          "lower": -0.990338379417757,
+          "upper": -0.1362764535984824
+        },
+        "translation_mm": {
+          "observed": 0.336342103275717,
+          "lower": -0.43362652789398926,
+          "upper": 0.6112578432202187
+        },
+        "phase_map_cycles": {
+          "observed": -0.0007580542280378882,
+          "lower": -0.0019923958273825627,
+          "upper": 5.113580920620281e-05
+        },
+        "phase_error_cycles": {
+          "observed": -0.00020684976710502734,
+          "lower": -0.002307635928543358,
+          "upper": 0.0016676319528287076
+        }
+      }
+    },
+    "oscillatory_minus_no_session": {
+      "sum": {
+        "observed": -0.035173303314400606,
+        "lower": -0.08523356567871952,
+        "upper": -0.003427648665373262
+      },
+      "cmr": {
+        "observed": -0.018776118182112667,
+        "lower": -0.05032006483104512,
+        "upper": 0.005607454848234772
+      },
+      "tee": {
+        "observed": -0.016397185132287717,
+        "lower": -0.06590072705314531,
+        "upper": -0.0005832077834311278
+      },
+      "descriptive": {
+        "identities": 30,
+        "cmr_better_worse": [
+          28,
+          2
+        ],
+        "tee_better_worse": [
+          29,
+          1
+        ],
+        "tee_p90": [
+          3.1301537419761956,
+          3.1356887372121225
+        ],
+        "cmr_p90": [
+          1.3176234926134809,
+          1.3520263433315916
+        ],
+        "tee_max": [
+          5.437266424544871,
+          5.451385288525974
+        ],
+        "failures": [
+          0,
+          0
+        ],
+        "rotation_deg_medians": [
+          2.4815916938791087,
+          2.5367271176171684
+        ],
+        "translation_mm_medians": [
+          3.4113495563147227,
+          3.4387269531469684
+        ],
+        "phase_map_cycles_medians": [
+          0.00841644785437641,
+          0.008683949303022458
+        ],
+        "attachment_residual_mm_medians": [
+          0.0,
+          0.0
+        ],
+        "seconds_medians": [
+          13.3955,
+          12.454
+        ]
+      },
+      "descriptive_intervals": {
+        "rotation_deg": {
+          "observed": -0.055135423738059686,
+          "lower": -0.059764843485754504,
+          "upper": 0.04924453000687956
+        },
+        "translation_mm": {
+          "observed": -0.027377396832245715,
+          "lower": -0.13468127930115426,
+          "upper": 0.13312692884883282
+        },
+        "phase_map_cycles": {
+          "observed": -0.00026750144864604725,
+          "lower": -0.0013064392060752467,
+          "upper": 0.0003889461042767897
+        },
+        "phase_error_cycles": {
+          "observed": -0.0017463760469060147,
+          "lower": -0.003024224482126747,
+          "upper": 0.0005844525680711032
+        }
+      }
+    },
+    "reproduction_of_e75": {
+      "heldout_cmr_mm": {
+        "rerun": 1.0350646814262554,
+        "e64": 1.0350646814262554,
+        "difference": 0.0
+      },
+      "heldout_tee_mm": {
+        "rerun": 1.9522566992310242,
+        "e64": 1.9522566992310242,
+        "difference": 0.0
+      },
+      "rotation_deg": {
+        "rerun": 2.0575450291604045,
+        "e64": 2.0575450291604045,
+        "difference": 0.0
+      },
+      "translation_mm": {
+        "rerun": 3.6000786326332337,
+        "e64": 3.6000786326332337,
+        "difference": 0.0
+      },
+      "passed": true
+    }
+  },
+  "E83": {
+    "full": {
+      "medians": {
+        "full/frozen": {
+          "heldout_cmr_mm": 1.0350646814262554,
+          "heldout_tee_mm": 1.9522566992310242,
+          "translation_mm": 3.6000786326332337,
+          "rotation_deg": 2.0575450291604045,
+          "failures": 0
+        },
+        "full/session_prior_1": {
+          "heldout_cmr_mm": 1.034989508333814,
+          "heldout_tee_mm": 1.9496964642276595,
+          "translation_mm": 3.0809570663187023,
+          "rotation_deg": 1.7834661832953538,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": -0.019481635183516754,
+          "lower": -0.04250696561566034,
+          "upper": 0.0030721434684144455
+        },
+        "cmr": {
+          "observed": -0.005173517166541686,
+          "lower": -0.023477381604078307,
+          "upper": 0.0022580029882808272
+        },
+        "tee": {
+          "observed": -0.014308118016975069,
+          "lower": -0.034626603207086326,
+          "upper": 0.008740086155676119
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            21,
+            9
+          ],
+          "tee_better_worse": [
+            19,
+            11
+          ],
+          "tee_p90": [
+            2.9507693884286095,
+            2.982299592848065
+          ],
+          "cmr_p90": [
+            1.2755561833232576,
+            1.292373224835666
+          ],
+          "tee_max": [
+            5.477835933296045,
+            5.467932492763074
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            2.111705804719466,
+            2.128694976237787
+          ],
+          "translation_mm_medians": [
+            3.7476916595904397,
+            3.4170742578501563
+          ],
+          "phase_map_cycles_medians": [
+            0.007658393626338522,
+            0.008047354023758065
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 0.3306174017402834,
+            "lower": -0.18474396079915456,
+            "upper": 0.7508095181032521
+          },
+          "rotation_deg": {
+            "observed": -0.016989171518321022,
+            "lower": -0.22555052031601708,
+            "upper": 0.21833722887894247
+          }
+        }
+      },
+      "zero_starts": 0,
+      "visible": {
+        "visible_cmr_frames": 16.0,
+        "visible_tee_vertices": 28.0
+      }
+    },
+    "half": {
+      "medians": {
+        "half/frozen": {
+          "heldout_cmr_mm": 1.4508045669711236,
+          "heldout_tee_mm": 2.763274463577205,
+          "translation_mm": 3.878873771581314,
+          "rotation_deg": 1.9464529988494097,
+          "failures": 0
+        },
+        "half/session_prior_1": {
+          "heldout_cmr_mm": 1.417706383126093,
+          "heldout_tee_mm": 2.786058328700392,
+          "translation_mm": 3.2422031847590027,
+          "rotation_deg": 2.033949498777897,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": -0.018489971719816367,
+          "lower": -0.15402111175699318,
+          "upper": 0.056874030965501136
+        },
+        "cmr": {
+          "observed": -0.029771835334539754,
+          "lower": -0.0536065772351646,
+          "upper": 0.011000837813432973
+        },
+        "tee": {
+          "observed": 0.011281863614724053,
+          "lower": -0.1438196348545313,
+          "upper": 0.06131658016074493
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            17,
+            13
+          ],
+          "tee_better_worse": [
+            23,
+            7
+          ],
+          "tee_p90": [
+            5.362529635468049,
+            5.387349913731724
+          ],
+          "cmr_p90": [
+            2.3728041550962273,
+            2.4012294399857597
+          ],
+          "tee_max": [
+            6.6468019524304935,
+            6.611859951657227
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            1.9713657897518762,
+            2.1717693989794205
+          ],
+          "translation_mm_medians": [
+            3.8343064133527083,
+            3.450580936255955
+          ],
+          "phase_map_cycles_medians": [
+            0.027557808480082942,
+            0.027989161104418847
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 0.3837254770967533,
+            "lower": -0.17126946810075003,
+            "upper": 0.9817050594924024
+          },
+          "rotation_deg": {
+            "observed": -0.2004036092275443,
+            "lower": -0.34715542534120303,
+            "upper": 0.15242854333480071
+          }
+        }
+      },
+      "zero_starts": 1,
+      "visible": {
+        "visible_cmr_frames": 8.0,
+        "visible_tee_vertices": 14.0
+      }
+    },
+    "quarter": {
+      "medians": {
+        "quarter/frozen": {
+          "heldout_cmr_mm": 2.304442897649551,
+          "heldout_tee_mm": 4.5454558077453555,
+          "translation_mm": 4.526950812319866,
+          "rotation_deg": 2.7372607680227516,
+          "failures": 0
+        },
+        "quarter/session_prior_1": {
+          "heldout_cmr_mm": 2.2823278708866157,
+          "heldout_tee_mm": 4.3604353338189465,
+          "translation_mm": 4.39413100227301,
+          "rotation_deg": 2.8631243452303012,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": -0.018113247378865438,
+          "lower": -0.46974984057917835,
+          "upper": 0.23449490530607808
+        },
+        "cmr": {
+          "observed": 0.008947176776385568,
+          "lower": -0.06061764789118351,
+          "upper": 0.07541507499751132
+        },
+        "tee": {
+          "observed": -0.027060424155251006,
+          "lower": -0.4781467016026122,
+          "upper": 0.212813473902
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            14,
+            16
+          ],
+          "tee_better_worse": [
+            14,
+            16
+          ],
+          "tee_p90": [
+            6.8644405609847725,
+            6.4426765270118205
+          ],
+          "cmr_p90": [
+            3.2632126920207005,
+            3.2658993500813303
+          ],
+          "tee_max": [
+            8.216922302255876,
+            7.768914882389059
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            2.9450899898755956,
+            3.445864622936077
+          ],
+          "translation_mm_medians": [
+            4.854559262812597,
+            4.529680068744304
+          ],
+          "phase_map_cycles_medians": [
+            0.05651093342744241,
+            0.05597085070375735
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 0.32487919406829224,
+            "lower": -0.785518224888353,
+            "upper": 2.09021117509499
+          },
+          "rotation_deg": {
+            "observed": -0.5007746330604816,
+            "lower": -0.9998852632201496,
+            "upper": 0.6595166203139922
+          }
+        }
+      },
+      "zero_starts": 39,
+      "visible": {
+        "visible_cmr_frames": 4.0,
+        "visible_tee_vertices": 7.0
+      }
+    },
+    "eighth": {
+      "medians": {
+        "eighth/frozen": {
+          "heldout_cmr_mm": 2.9819426688224433,
+          "heldout_tee_mm": 5.28335850068628,
+          "translation_mm": 5.308474292606355,
+          "rotation_deg": 2.614034225209598,
+          "failures": 0
+        },
+        "eighth/session_prior_1": {
+          "heldout_cmr_mm": 2.9251092292904217,
+          "heldout_tee_mm": 5.144350606270732,
+          "translation_mm": 4.949546436458316,
+          "rotation_deg": 3.262312906196385,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.1850107317431693,
+          "lower": -0.2199121170111003,
+          "upper": 0.7475635037506401
+        },
+        "cmr": {
+          "observed": 0.04222194769685128,
+          "lower": -0.1111610582349627,
+          "upper": 0.266032609841079
+        },
+        "tee": {
+          "observed": 0.14278878404631623,
+          "lower": -0.22264473245581318,
+          "upper": 0.6264609708746978
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            12,
+            18
+          ],
+          "tee_better_worse": [
+            12,
+            18
+          ],
+          "tee_p90": [
+            7.1946434541352025,
+            6.893070927837763
+          ],
+          "cmr_p90": [
+            4.068700155578077,
+            3.866615403505261
+          ],
+          "tee_max": [
+            8.920883883880053,
+            8.908128967004616
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            4.018967380198785,
+            4.099221331510629
+          ],
+          "translation_mm_medians": [
+            5.35032330557239,
+            5.3893296378189675
+          ],
+          "phase_map_cycles_medians": [
+            0.07009808344549655,
+            0.07155068032855924
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": -0.03900633224657746,
+            "lower": -0.9421290943262184,
+            "upper": 1.7768524005661543
+          },
+          "rotation_deg": {
+            "observed": -0.08025395131184343,
+            "lower": -1.4436072524614358,
+            "upper": 1.0318962621080328
+          }
+        }
+      },
+      "zero_starts": 60,
+      "visible": {
+        "visible_cmr_frames": 2.0,
+        "visible_tee_vertices": 6.0
+      }
+    },
+    "eighth_noisy": {
+      "medians": {
+        "eighth_noisy/frozen": {
+          "heldout_cmr_mm": 3.2112671007811846,
+          "heldout_tee_mm": 5.101922100303033,
+          "translation_mm": 6.048833122482567,
+          "rotation_deg": 3.4705093228695842,
+          "failures": 0
+        },
+        "eighth_noisy/session_prior_1": {
+          "heldout_cmr_mm": 3.1981233086545524,
+          "heldout_tee_mm": 4.965441824622877,
+          "translation_mm": 4.941977648407092,
+          "rotation_deg": 3.128597292656771,
+          "failures": 0
+        }
+      },
+      "frozen_minus_session_prior_1": {
+        "sum": {
+          "observed": 0.26047065781031975,
+          "lower": -0.21023846637027432,
+          "upper": 0.4862112943160262
+        },
+        "cmr": {
+          "observed": -0.012379453928765383,
+          "lower": -0.0998313326628586,
+          "upper": 0.21822950366204363
+        },
+        "tee": {
+          "observed": 0.2728501117390856,
+          "lower": -0.21313367439787534,
+          "upper": 0.39351971161610777
+        },
+        "descriptive": {
+          "identities": 30,
+          "cmr_better_worse": [
+            11,
+            19
+          ],
+          "tee_better_worse": [
+            13,
+            17
+          ],
+          "tee_p90": [
+            7.684855627181082,
+            6.983149941758649
+          ],
+          "cmr_p90": [
+            4.352636700292076,
+            4.3305624637605895
+          ],
+          "tee_max": [
+            8.539897473276726,
+            8.755535140199823
+          ],
+          "failures": [
+            0,
+            0
+          ],
+          "rotation_deg_medians": [
+            4.021983860896322,
+            4.106335778189946
+          ],
+          "translation_mm_medians": [
+            6.541270167536641,
+            5.320108346146348
+          ],
+          "phase_map_cycles_medians": [
+            0.07147298293374518,
+            0.07216207205392858
+          ],
+          "attachment_residual_mm_medians": [
+            NaN,
+            NaN
+          ],
+          "seconds_medians": [
+            NaN,
+            NaN
+          ]
+        },
+        "descriptive_intervals": {
+          "translation_mm": {
+            "observed": 1.221161821390293,
+            "lower": -0.01055150976643393,
+            "upper": 2.729334698273296
+          },
+          "rotation_deg": {
+            "observed": -0.08435191729362401,
+            "lower": -0.625123008855196,
+            "upper": 0.808427742699946
+          }
+        }
+      },
+      "zero_starts": 60,
+      "visible": {
+        "visible_cmr_frames": 2.0,
+        "visible_tee_vertices": 6.0
+      }
+    },
+    "reproduction_of_e75": {
+      "differences": {
+        "heldout_cmr_mm": 0.0,
+        "heldout_tee_mm": 0.0
+      },
+      "passed": true
+    }
+  }
+}

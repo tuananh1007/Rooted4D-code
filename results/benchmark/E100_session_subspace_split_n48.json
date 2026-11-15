@@ -1,0 +1,10 @@
+{
+  "experiment": "E100",
+  "preregistration": "Docs/E100_ORIENTED_REBUILD_PREREGISTRATION_2026-09-29.md",
+  "source": "results/benchmark/E25b_session_subspace_split.npz",
+  "method": "E93's transfer, FINE = 48",
+  "exact_max_mm": {
+    "static": 8.326672684688674e-17,
+    "dynamic": 8.326672684688674e-17
+  }
+}

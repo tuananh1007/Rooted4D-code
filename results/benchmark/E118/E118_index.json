@@ -1,0 +1,414 @@
+{
+  "tolerance_mm": 0.005,
+  "passed": true,
+  "samples": [
+    {
+      "label": "q25",
+      "sample": "sample-beca31cd32c236b3.npz",
+      "numbers": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 1.2459629938453596,
+          "heldout_tee_mm": 1.466616626826146,
+          "attachment_residual_mm": 1.5485358381401895
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 1.2459629938453596,
+          "heldout_tee_mm": 1.3387278111864653,
+          "attachment_residual_mm": 1.673852652612183
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.8677606096131198,
+          "heldout_cmr_p95_mm": 1.6672117951541874,
+          "heldout_tee_mm": 1.2918908043635529,
+          "heldout_tee_p95_mm": 2.427115249923459,
+          "attachment_residual_mm": 0.0,
+          "rotation_deg": 5.583433381288751,
+          "translation_mm": 6.104390786188814,
+          "phase_map_cycles": 0.028595856197045605,
+          "phase_error_cycles": 0.006118300054051451
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 1.240317816642189,
+          "heldout_cmr_p95_mm": 2.087068695507156,
+          "heldout_tee_mm": 1.3115371017168582,
+          "heldout_tee_p95_mm": 2.53248141273791,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.7568542912819484,
+          "heldout_tee_mm": 1.1303071725613465,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.6437474538808394,
+          "heldout_tee_mm": 1.1091934227128855,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "checks": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "largest_check_mm": 0.0,
+      "passed": true,
+      "settings": {
+        "LF+BCPD": [
+          0.125,
+          1000.0
+        ],
+        "LF+NDP": 1,
+        "GPMM-G": [
+          8.0,
+          10.0,
+          0.5
+        ],
+        "field": {
+          "sharing": "shared",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        },
+        "per_modality_field": {
+          "sharing": "session",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        }
+      }
+    },
+    {
+      "label": "q50",
+      "sample": "sample-925a033bfbf6e571.npz",
+      "numbers": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 1.1860345182927157,
+          "heldout_tee_mm": 1.7421294775965122,
+          "attachment_residual_mm": 3.1832543299028657
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 1.1860345182927157,
+          "heldout_tee_mm": 1.6281536530065825,
+          "attachment_residual_mm": 1.977918084147376
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.6961910760740486,
+          "heldout_cmr_p95_mm": 1.2669585428740788,
+          "heldout_tee_mm": 1.2154205691821063,
+          "heldout_tee_p95_mm": 2.179476306446054,
+          "attachment_residual_mm": 0.0,
+          "rotation_deg": 5.295170223600107,
+          "translation_mm": 7.22063375042802,
+          "phase_map_cycles": 0.025589170586888393,
+          "phase_error_cycles": 0.010481838430805357
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 1.188143122471779,
+          "heldout_cmr_p95_mm": 2.5236391372735945,
+          "heldout_tee_mm": 1.6554323201245462,
+          "heldout_tee_p95_mm": 3.3610275816088215,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.7242343420172986,
+          "heldout_tee_mm": 1.03372973842763,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.6135238289539336,
+          "heldout_tee_mm": 0.9004536966166499,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "checks": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "largest_check_mm": 0.0,
+      "passed": true,
+      "settings": {
+        "LF+BCPD": [
+          0.125,
+          1000.0
+        ],
+        "LF+NDP": 1,
+        "GPMM-G": [
+          8.0,
+          10.0,
+          0.5
+        ],
+        "field": {
+          "sharing": "shared",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        },
+        "per_modality_field": {
+          "sharing": "session",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        }
+      }
+    },
+    {
+      "label": "q75",
+      "sample": "sample-66fc7a9456bbb0f4.npz",
+      "numbers": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 1.2753049738919533,
+          "heldout_tee_mm": 2.1539692275140077,
+          "attachment_residual_mm": 2.363250091821996
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 1.2753049738919533,
+          "heldout_tee_mm": 2.036200282114612,
+          "attachment_residual_mm": 2.333049119775133
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.945742286251757,
+          "heldout_cmr_p95_mm": 2.111219289500002,
+          "heldout_tee_mm": 1.7341615108054413,
+          "heldout_tee_p95_mm": 3.136863804860382,
+          "attachment_residual_mm": 0.0,
+          "rotation_deg": 5.684050025935718,
+          "translation_mm": 5.707470607241797,
+          "phase_map_cycles": 0.03193871905390677,
+          "phase_error_cycles": 0.014000420613313747
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 1.2289026547696558,
+          "heldout_cmr_p95_mm": 2.2077654571640934,
+          "heldout_tee_mm": 1.9179718317061836,
+          "heldout_tee_p95_mm": 4.282603955505111,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.8243870593579629,
+          "heldout_tee_mm": 1.2999992958720725,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.6183559696777992,
+          "heldout_tee_mm": 1.2170985708861684,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "checks": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "largest_check_mm": 0.0,
+      "passed": true,
+      "settings": {
+        "LF+BCPD": [
+          0.125,
+          1000.0
+        ],
+        "LF+NDP": 1,
+        "GPMM-G": [
+          8.0,
+          10.0,
+          0.5
+        ],
+        "field": {
+          "sharing": "shared",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        },
+        "per_modality_field": {
+          "sharing": "session",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        }
+      }
+    },
+    {
+      "label": "worst",
+      "sample": "sample-b0a5362d9ad0a167.npz",
+      "numbers": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 1.6294063380941877,
+          "heldout_tee_mm": 2.802168409438694,
+          "attachment_residual_mm": 2.6128099081421823
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 1.6294063380941877,
+          "heldout_tee_mm": 2.475888793318504,
+          "attachment_residual_mm": 2.6139611237126132
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 1.071683182964286,
+          "heldout_cmr_p95_mm": 2.244444832082483,
+          "heldout_tee_mm": 1.9086272991456825,
+          "heldout_tee_p95_mm": 4.051902668516862,
+          "attachment_residual_mm": 0.0,
+          "rotation_deg": 7.898259329793626,
+          "translation_mm": 9.96067129875696,
+          "phase_map_cycles": 0.009673733411646679,
+          "phase_error_cycles": 0.005652726868421443
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 1.6248569546759761,
+          "heldout_cmr_p95_mm": 2.782161877443905,
+          "heldout_tee_mm": 2.3578054700776905,
+          "heldout_tee_p95_mm": 5.559092950271635,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.9354473547640624,
+          "heldout_tee_mm": 1.2970962364316547,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.6428772605709243,
+          "heldout_tee_mm": 1.0512342332773992,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "checks": {
+        "lf_bcpd": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "lf_ndp": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "gpmm": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_joint": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        },
+        "rooted4d_field_session": {
+          "heldout_cmr_mm": 0.0,
+          "heldout_tee_mm": 0.0,
+          "attachment_residual_mm": 0.0
+        }
+      },
+      "largest_check_mm": 0.0,
+      "passed": true,
+      "settings": {
+        "LF+BCPD": [
+          0.125,
+          1000.0
+        ],
+        "LF+NDP": 1,
+        "GPMM-G": [
+          8.0,
+          10.0,
+          0.5
+        ],
+        "field": {
+          "sharing": "shared",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        },
+        "per_modality_field": {
+          "sharing": "session",
+          "static": 4.0,
+          "dynamic": 0.5,
+          "width": 5.0
+        }
+      }
+    }
+  ]
+}

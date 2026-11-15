@@ -1,0 +1,14 @@
+CHAMBER: 300 frames / 150 patients in 231 s
+   fit_to_segmentation_symmetric_mm       median   1.872  p95   2.251
+   fit_to_segmentation_hausdorff_mm       median   7.114  p95   9.379
+   native_volume_ratio                    median   0.912  p95   0.941
+   EF error pp: bias +1.29  median|.| 1.43  p95|.| 3.52  LoA [-1.48, +4.06]  (n=150)
+
+VALVE: 175 cases in 2382 s
+   anterior_symmetric_mm        median   0.582  p95   0.682
+   posterior_symmetric_mm       median   0.578  p95   0.706
+   anterior_hausdorff_mm        median   3.916  p95   5.592
+   posterior_hausdorff_mm       median   5.030  p95  10.132
+   annulus_diameter_mm          median  43.998  p95  58.324
+   anterior_span_mm             median  17.517  p95  25.283
+   posterior_span_mm            median  17.397  p95  28.965

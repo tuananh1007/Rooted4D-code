@@ -1,0 +1,23 @@
+loading slices...
+train 1689 slices / 90 patients | val 590 / 30  (63 s)
+epoch  0  loss 0.4968  val dice fg 0.7472  (rv 0.720 myo 0.699 lv 0.823)  340s
+epoch  1  loss 0.1793  val dice fg 0.8260  (rv 0.809 myo 0.754 lv 0.914)  365s
+epoch  2  loss 0.1243  val dice fg 0.8501  (rv 0.785 myo 0.831 lv 0.934)  389s
+epoch  3  loss 0.1104  val dice fg 0.8165  (rv 0.761 myo 0.773 lv 0.915)  414s
+epoch  4  loss 0.1027  val dice fg 0.8307  (rv 0.732 myo 0.840 lv 0.920)  438s
+epoch  5  loss 0.0893  val dice fg 0.8710  (rv 0.845 myo 0.838 lv 0.930)  462s
+epoch  6  loss 0.0941  val dice fg 0.8747  (rv 0.840 myo 0.850 lv 0.934)  486s
+epoch  7  loss 0.0765  val dice fg 0.8821  (rv 0.863 myo 0.842 lv 0.942)  509s
+epoch  8  loss 0.0738  val dice fg 0.8806  (rv 0.850 myo 0.853 lv 0.938)  533s
+epoch  9  loss 0.0826  val dice fg 0.8574  (rv 0.812 myo 0.830 lv 0.930)  557s
+epoch 10  loss 0.0753  val dice fg 0.8807  (rv 0.850 myo 0.856 lv 0.936)  581s
+epoch 11  loss 0.0690  val dice fg 0.8881  (rv 0.862 myo 0.861 lv 0.941)  605s
+
+best epoch 11, val foreground dice 0.8881
+test dice: rv 0.883  myo 0.868  lv cavity 0.944  (563 slices / 30 patients)
+
+downstream, fitting from predicted labels instead of true ones:
+  frames fitted 60, failed 0
+  surface displacement: median 2.57 mm, p95 10.95, max 17.60
+  EF error: bias -5.34 points, median abs 4.50, LoA [-25.10, +14.42] (n=30)
+done

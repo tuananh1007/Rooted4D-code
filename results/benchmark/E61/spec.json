@@ -1,0 +1,39 @@
+{
+  "base_config": {
+    "fourier_order": 3,
+    "max_iterations": 40,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "models": {
+    "global": {
+      "builder": "global",
+      "n_modes": 32,
+      "n_motion": 4,
+      "n_phase_nodes": 8,
+      "n_session": 2
+    }
+  },
+  "purpose": "E61: re-score only the corrected (matched) soft-attachment arm on the E51 test samples in E51's exact configuration, with rooted4d_full and the historical soft arm re-run as a reproduction check against E51's own per-sample rows. Decided 2026-09-23 after E60; a bug-fix correction of a published arm, not a selection.",
+  "split": "test",
+  "start": "zero",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "global",
+      "name": "rooted4d_full"
+    },
+    {
+      "arm": "joint_soft_attachment",
+      "model": "global",
+      "name": "joint_soft_attachment",
+      "soft_attachment_weight": 10000.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "global",
+      "name": "joint_soft_attachment_matched",
+      "soft_attachment_weight": 10000.0
+    }
+  ]
+}

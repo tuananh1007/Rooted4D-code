@@ -1,0 +1,793 @@
+{
+  "experiment": "E92",
+  "preregistration": "Docs/E92_INTERVENTIONS_PREREGISTRATION_2026-09-28.md",
+  "factors": {
+    "session": {
+      "0": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 0.8947767766336183,
+            "heldout_tee_mm": 1.6050824365558376,
+            "rotation_deg": 0.49681818832465957,
+            "translation_mm": 0.718732089040633,
+            "phase_map_cycles": 0.006370712387857205,
+            "anatomy_rms_mm": 1.586045899566236
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 0.8965587859723214,
+            "heldout_tee_mm": 1.614300892886758,
+            "rotation_deg": 0.405688765957368,
+            "translation_mm": 0.4549876874056907,
+            "phase_map_cycles": 0.006432559101986091,
+            "anatomy_rms_mm": 1.5401489724234234
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 0.9005832468339816,
+            "heldout_tee_mm": 1.6666869558915434,
+            "rotation_deg": 0.3373218319844362,
+            "translation_mm": 0.35834391596665205,
+            "phase_map_cycles": 0.007225221430255141
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.001954907673942352,
+            "lower": -0.005559819808573896,
+            "upper": 0.0016289894463583643
+          },
+          "heldout_tee_mm": {
+            "observed": -0.0027435034752854026,
+            "lower": -0.015273754810327889,
+            "upper": 0.0014372452734741081
+          },
+          "rotation_deg": {
+            "observed": 0.129582220856388,
+            "lower": 0.05116859535671148,
+            "upper": 0.20704443740809741
+          },
+          "translation_mm": {
+            "observed": 0.21008150892254773,
+            "lower": 0.11569546277048844,
+            "upper": 0.40321741002205175
+          },
+          "phase_map_cycles": {
+            "observed": -0.00023340397021510972,
+            "lower": -0.0005780450132542719,
+            "upper": 8.681010906204427e-05
+          },
+          "anatomy_rms_mm": {
+            "observed": 0.037843318783680635,
+            "lower": 0.0028147933145035164,
+            "upper": 0.08882453416839176
+          }
+        }
+      },
+      "0.5": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 0.947036881044607,
+            "heldout_tee_mm": 1.6115443233885234,
+            "rotation_deg": 1.0649365541834412,
+            "translation_mm": 1.8500929417114351,
+            "phase_map_cycles": 0.006438992206703964,
+            "anatomy_rms_mm": 1.8250933944305205,
+            "session_recovered_fraction": 0.18439337334679384
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 0.968046834875431,
+            "heldout_tee_mm": 1.6602835630548198,
+            "rotation_deg": 1.1241864219439819,
+            "translation_mm": 1.7005876538575673,
+            "phase_map_cycles": 0.006569375182578385,
+            "anatomy_rms_mm": 1.9692544124159481
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 0.973358725738974,
+            "heldout_tee_mm": 1.6578962112534907,
+            "rotation_deg": 1.2178468204057677,
+            "translation_mm": 1.838924942070849,
+            "phase_map_cycles": 0.009759273574033361
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.0317816605147655,
+            "lower": -0.057442879371331856,
+            "upper": -0.0041504124259375
+          },
+          "heldout_tee_mm": {
+            "observed": -0.009810263091423632,
+            "lower": -0.04027366080206196,
+            "upper": 0.0028226534646567103
+          },
+          "rotation_deg": {
+            "observed": -0.16654051627508193,
+            "lower": -0.3954845984431865,
+            "upper": 0.007915043918909959
+          },
+          "translation_mm": {
+            "observed": 0.04546101420966786,
+            "lower": -0.21606088949174085,
+            "upper": 0.2392096341306198
+          },
+          "phase_map_cycles": {
+            "observed": -0.00027195465077582,
+            "lower": -0.0010017793225477745,
+            "upper": 0.0005282306588115585
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.09785313658465311,
+            "lower": -0.24306305379848991,
+            "upper": 0.05763091061246639
+          }
+        }
+      },
+      "1": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094627656737,
+            "heldout_tee_mm": 1.6569370869927695,
+            "rotation_deg": 1.772961650929131,
+            "translation_mm": 3.344937625970763,
+            "phase_map_cycles": 0.007817129042038212,
+            "anatomy_rms_mm": 2.33483789843884,
+            "session_recovered_fraction": 0.23443265324172402
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.152314746149254,
+            "heldout_tee_mm": 1.761383256627101,
+            "rotation_deg": 2.2710782925220308,
+            "translation_mm": 3.2684240371756266,
+            "phase_map_cycles": 0.00880391698090989,
+            "anatomy_rms_mm": 2.7571350378131516
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515661481931,
+            "rotation_deg": 2.393945324986358,
+            "translation_mm": 3.5369801685787317,
+            "phase_map_cycles": 0.012805094635487624
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101239240845,
+            "lower": -0.12760901426604643,
+            "upper": -0.030665266979621242
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06066393412214488,
+            "lower": -0.1300638550603943,
+            "upper": -0.02510701490642875
+          },
+          "rotation_deg": {
+            "observed": -0.4464548660068064,
+            "lower": -0.6708872104006058,
+            "upper": -0.2805408609415913
+          },
+          "translation_mm": {
+            "observed": 0.04629636610884713,
+            "lower": -0.49489295677093015,
+            "upper": 0.4115864500152595
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436591495957973,
+            "lower": -0.0033621031972743826,
+            "upper": 0.00015796416978831884
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.391753008206281,
+            "lower": -0.6315475468692155,
+            "upper": -0.19673377421547178
+          }
+        }
+      },
+      "2": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.4395765264494798,
+            "heldout_tee_mm": 1.7983235552798509,
+            "rotation_deg": 3.620973421219831,
+            "translation_mm": 6.513887925133671,
+            "phase_map_cycles": 0.011113668635743451,
+            "anatomy_rms_mm": 3.9435339489138217,
+            "session_recovered_fraction": 0.2492791241698374
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.5593449298186441,
+            "heldout_tee_mm": 2.0577006061955934,
+            "rotation_deg": 4.254220578109914,
+            "translation_mm": 6.45580994771122,
+            "phase_map_cycles": 0.014418024835865545,
+            "anatomy_rms_mm": 4.818848401905202
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.4241505104333148,
+            "heldout_tee_mm": 1.7917873624346483,
+            "rotation_deg": 4.722460181424105,
+            "translation_mm": 6.80648682180159,
+            "phase_map_cycles": 0.021464575754596676
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.1682531508764824,
+            "lower": -0.28890040891046675,
+            "upper": -0.09814827848015417
+          },
+          "heldout_tee_mm": {
+            "observed": -0.26891754292918746,
+            "lower": -0.3488406714261787,
+            "upper": -0.1787604524027374
+          },
+          "rotation_deg": {
+            "observed": -1.1501647878229013,
+            "lower": -1.409951746269737,
+            "upper": -0.7610741649039772
+          },
+          "translation_mm": {
+            "observed": 0.29989284496074387,
+            "lower": -1.0309301855316049,
+            "upper": 0.8414915348225362
+          },
+          "phase_map_cycles": {
+            "observed": -0.00447028939153718,
+            "lower": -0.007655823863023845,
+            "upper": -0.002030006217422102
+          },
+          "anatomy_rms_mm": {
+            "observed": -1.2176564058723356,
+            "lower": -1.5153011396778748,
+            "upper": -0.6876544326305157
+          }
+        }
+      }
+    },
+    "translation": {
+      "3": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094634411453,
+            "heldout_tee_mm": 1.656937086789327,
+            "rotation_deg": 1.7729616521529987,
+            "translation_mm": 3.344937623470166,
+            "phase_map_cycles": 0.00781712900133319,
+            "anatomy_rms_mm": 2.3348378835751675,
+            "session_recovered_fraction": 0.23443265083059564
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1523147459915337,
+            "heldout_tee_mm": 1.76138325660746,
+            "rotation_deg": 2.2710782967589243,
+            "translation_mm": 3.2684240368400204,
+            "phase_map_cycles": 0.008803917208067377,
+            "anatomy_rms_mm": 2.757133290055166
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515655913292,
+            "rotation_deg": 2.3814874189648823,
+            "translation_mm": 3.5082442800918736,
+            "phase_map_cycles": 0.012550066491862577
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101245345673,
+            "lower": -0.12761122387937407,
+            "upper": -0.030665268050584338
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06066392239454865,
+            "lower": -0.13006383920855247,
+            "upper": -0.025107014622990587
+          },
+          "rotation_deg": {
+            "observed": -0.4464548692067676,
+            "lower": -0.6708872156086807,
+            "upper": -0.2805408594288104
+          },
+          "translation_mm": {
+            "observed": 0.04629556557497061,
+            "lower": -0.4948924641019383,
+            "upper": 0.41158650699486987
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436591621197375,
+            "lower": -0.003362095431685634,
+            "upper": 0.00015796422197987547
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.3917517260618535,
+            "lower": -0.6315500676159829,
+            "upper": -0.19673390161843285
+          }
+        }
+      },
+      "9": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094627656737,
+            "heldout_tee_mm": 1.6569370869927695,
+            "rotation_deg": 1.772961650929131,
+            "translation_mm": 3.344937625970763,
+            "phase_map_cycles": 0.007817129042038212,
+            "anatomy_rms_mm": 2.33483789843884,
+            "session_recovered_fraction": 0.23443265324172402
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.152314746149254,
+            "heldout_tee_mm": 1.761383256627101,
+            "rotation_deg": 2.2710782925220308,
+            "translation_mm": 3.2684240371756266,
+            "phase_map_cycles": 0.00880391698090989,
+            "anatomy_rms_mm": 2.7571350378131516
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515661481931,
+            "rotation_deg": 2.393945324986358,
+            "translation_mm": 3.5369801685787317,
+            "phase_map_cycles": 0.012805094635487624
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101239240845,
+            "lower": -0.12760901426604643,
+            "upper": -0.030665266979621242
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06066393412214488,
+            "lower": -0.1300638550603943,
+            "upper": -0.02510701490642875
+          },
+          "rotation_deg": {
+            "observed": -0.4464548660068064,
+            "lower": -0.6708872104006058,
+            "upper": -0.2805408609415913
+          },
+          "translation_mm": {
+            "observed": 0.04629636610884713,
+            "lower": -0.49489295677093015,
+            "upper": 0.4115864500152595
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436591495957973,
+            "lower": -0.0033621031972743826,
+            "upper": 0.00015796416978831884
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.391753008206281,
+            "lower": -0.6315475468692155,
+            "upper": -0.19673377421547178
+          }
+        }
+      },
+      "18": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094629112143,
+            "heldout_tee_mm": 1.6569370869328233,
+            "rotation_deg": 1.7729616509324027,
+            "translation_mm": 3.3449376211001365,
+            "phase_map_cycles": 0.007817129189136823,
+            "anatomy_rms_mm": 2.3348379088534523,
+            "session_recovered_fraction": 0.23443265119151144
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1523147460462009,
+            "heldout_tee_mm": 1.7613832567198147,
+            "rotation_deg": 2.271078309126931,
+            "translation_mm": 3.268424033996447,
+            "phase_map_cycles": 0.00880391745448772,
+            "anatomy_rms_mm": 2.7571348666912483
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515637348096,
+            "rotation_deg": 2.3850048539487574,
+            "translation_mm": 3.508275778998911,
+            "phase_map_cycles": 0.012592375491727703
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101243528216,
+            "lower": -0.12760899867524755,
+            "upper": -0.030665267233201066
+          },
+          "heldout_tee_mm": {
+            "observed": -0.0606639333764909,
+            "lower": -0.13006375630968425,
+            "upper": -0.025107004717526138
+          },
+          "rotation_deg": {
+            "observed": -0.4464548143480771,
+            "lower": -0.670887160862121,
+            "upper": -0.2805408588387785
+          },
+          "translation_mm": {
+            "observed": 0.046296381519482566,
+            "lower": -0.4948929665694095,
+            "upper": 0.4115912071724419
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436592829896558,
+            "lower": -0.0033621516299524243,
+            "upper": 0.0001579641101756707
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.391752998789487,
+            "lower": -0.6315474653479769,
+            "upper": -0.19673373179620368
+          }
+        }
+      }
+    },
+    "rotation": {
+      "0.07": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1133632511701417,
+            "heldout_tee_mm": 1.658962813206426,
+            "rotation_deg": 1.7742921868620622,
+            "translation_mm": 3.347010403621743,
+            "phase_map_cycles": 0.007852946619440748,
+            "anatomy_rms_mm": 2.3346385859758834,
+            "session_recovered_fraction": 0.2343524402519222
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1522783971986192,
+            "heldout_tee_mm": 1.7615544728621157,
+            "rotation_deg": 2.2722027711313233,
+            "translation_mm": 3.2687920635185157,
+            "phase_map_cycles": 0.008751308316141376,
+            "anatomy_rms_mm": 2.7573871174263336
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6776207535150354,
+            "rotation_deg": 2.391634015834115,
+            "translation_mm": 3.5056718568131418,
+            "phase_map_cycles": 0.012529151405362718
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377172177894885,
+            "lower": -0.12762781056073536,
+            "upper": -0.030629799573721472
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06073042934237605,
+            "lower": -0.13021961105957125,
+            "upper": -0.02491485032156482
+          },
+          "rotation_deg": {
+            "observed": -0.44523805909411696,
+            "lower": -0.6697416582615798,
+            "upper": -0.2806423630210517
+          },
+          "translation_mm": {
+            "observed": 0.049466598762329284,
+            "lower": -0.4964110136886801,
+            "upper": 0.41563422646569936
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020700832649478557,
+            "lower": -0.003303470558040908,
+            "upper": 0.00018305556542816404
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.39256340324208416,
+            "lower": -0.6321123408262976,
+            "upper": -0.19704561444266605
+          }
+        }
+      },
+      "0.14": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094627656737,
+            "heldout_tee_mm": 1.6569370869927695,
+            "rotation_deg": 1.772961650929131,
+            "translation_mm": 3.344937625970763,
+            "phase_map_cycles": 0.007817129042038212,
+            "anatomy_rms_mm": 2.33483789843884,
+            "session_recovered_fraction": 0.23443265324172402
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.152314746149254,
+            "heldout_tee_mm": 1.761383256627101,
+            "rotation_deg": 2.2710782925220308,
+            "translation_mm": 3.2684240371756266,
+            "phase_map_cycles": 0.00880391698090989,
+            "anatomy_rms_mm": 2.7571350378131516
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515661481931,
+            "rotation_deg": 2.393945324986358,
+            "translation_mm": 3.5369801685787317,
+            "phase_map_cycles": 0.012805094635487624
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101239240845,
+            "lower": -0.12760901426604643,
+            "upper": -0.030665266979621242
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06066393412214488,
+            "lower": -0.1300638550603943,
+            "upper": -0.02510701490642875
+          },
+          "rotation_deg": {
+            "observed": -0.4464548660068064,
+            "lower": -0.6708872104006058,
+            "upper": -0.2805408609415913
+          },
+          "translation_mm": {
+            "observed": 0.04629636610884713,
+            "lower": -0.49489295677093015,
+            "upper": 0.4115864500152595
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436591495957973,
+            "lower": -0.0033621031972743826,
+            "upper": 0.00015796416978831884
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.391753008206281,
+            "lower": -0.6315475468692155,
+            "upper": -0.19673377421547178
+          }
+        }
+      },
+      "0.28": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134566096276302,
+            "heldout_tee_mm": 1.6523914085731097,
+            "rotation_deg": 1.7666424277631902,
+            "translation_mm": 3.3411475192768476,
+            "phase_map_cycles": 0.0076758768147293654,
+            "anatomy_rms_mm": 2.3354254137782933,
+            "session_recovered_fraction": 0.23446753892988031
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1523902628954183,
+            "heldout_tee_mm": 1.7611655633602723,
+            "rotation_deg": 2.2698733999606517,
+            "translation_mm": 3.2675391782431005,
+            "phase_map_cycles": 0.008841344331256731,
+            "anatomy_rms_mm": 2.7563932184348596
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.680320053734866,
+            "rotation_deg": 2.3869301450128555,
+            "translation_mm": 3.475113119013204,
+            "phase_map_cycles": 0.012342061302529655
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06378683284851361,
+            "lower": -0.12746292615059085,
+            "upper": -0.0312651051090751
+          },
+          "heldout_tee_mm": {
+            "observed": -0.0605539886720341,
+            "lower": -0.1299552350744605,
+            "upper": -0.025674788513684987
+          },
+          "rotation_deg": {
+            "observed": -0.44917095696058906,
+            "lower": -0.6700738106250193,
+            "upper": -0.2819596322194613
+          },
+          "translation_mm": {
+            "observed": 0.04120161217933127,
+            "lower": -0.49240875984386534,
+            "upper": 0.4093810485998075
+          },
+          "phase_map_cycles": {
+            "observed": -0.002155040636387065,
+            "lower": -0.0034690535264363664,
+            "upper": 0.00020381962602639137
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.3900693166540794,
+            "lower": -0.6292778495139721,
+            "upper": -0.19733637304092033
+          }
+        }
+      }
+    },
+    "phase": {
+      "0.1": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1162043452437198,
+            "heldout_tee_mm": 1.6529484166440707,
+            "rotation_deg": 1.7658753117018675,
+            "translation_mm": 3.295856573646633,
+            "phase_map_cycles": 0.007935737265379939,
+            "anatomy_rms_mm": 2.329566526469159,
+            "session_recovered_fraction": 0.24213579250722167
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1525222336098637,
+            "heldout_tee_mm": 1.764403950808247,
+            "rotation_deg": 2.269376517646558,
+            "translation_mm": 3.2491031058322966,
+            "phase_map_cycles": 0.009377240123997738,
+            "anatomy_rms_mm": 2.7653824999966594
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6825121617173289,
+            "rotation_deg": 2.390107382410445,
+            "translation_mm": 3.5170965327281474,
+            "phase_map_cycles": 0.013099041037964304
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.0662487738220805,
+            "lower": -0.12726818627486036,
+            "upper": -0.030691939311179972
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06060844122077813,
+            "lower": -0.12683558928152738,
+            "upper": -0.023858271292364286
+          },
+          "rotation_deg": {
+            "observed": -0.43799392379491087,
+            "lower": -0.6715045962411899,
+            "upper": -0.2850175505990471
+          },
+          "translation_mm": {
+            "observed": 0.0517896842646457,
+            "lower": -0.4981121780003246,
+            "upper": 0.411213938659845
+          },
+          "phase_map_cycles": {
+            "observed": -0.0030723977585459528,
+            "lower": -0.0034277373696992297,
+            "upper": -0.00025316644714747094
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.38709166658930805,
+            "lower": -0.61904925810583,
+            "upper": -0.19794024972959035
+          }
+        }
+      },
+      "0.2": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1134094627656737,
+            "heldout_tee_mm": 1.6569370869927695,
+            "rotation_deg": 1.772961650929131,
+            "translation_mm": 3.344937625970763,
+            "phase_map_cycles": 0.007817129042038212,
+            "anatomy_rms_mm": 2.33483789843884,
+            "session_recovered_fraction": 0.23443265324172402
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.152314746149254,
+            "heldout_tee_mm": 1.761383256627101,
+            "rotation_deg": 2.2710782925220308,
+            "translation_mm": 3.2684240371756266,
+            "phase_map_cycles": 0.00880391698090989,
+            "anatomy_rms_mm": 2.7571350378131516
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.6784515661481931,
+            "rotation_deg": 2.393945324986358,
+            "translation_mm": 3.5369801685787317,
+            "phase_map_cycles": 0.012805094635487624
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06377101239240845,
+            "lower": -0.12760901426604643,
+            "upper": -0.030665266979621242
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06066393412214488,
+            "lower": -0.1300638550603943,
+            "upper": -0.02510701490642875
+          },
+          "rotation_deg": {
+            "observed": -0.4464548660068064,
+            "lower": -0.6708872104006058,
+            "upper": -0.2805408609415913
+          },
+          "translation_mm": {
+            "observed": 0.04629636610884713,
+            "lower": -0.49489295677093015,
+            "upper": 0.4115864500152595
+          },
+          "phase_map_cycles": {
+            "observed": -0.0020436591495957973,
+            "lower": -0.0033621031972743826,
+            "upper": 0.00015796416978831884
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.391753008206281,
+            "lower": -0.6315475468692155,
+            "upper": -0.19673377421547178
+          }
+        }
+      },
+      "0.4": {
+        "medians": {
+          "S/joint": {
+            "heldout_cmr_mm": 1.1043499028878685,
+            "heldout_tee_mm": 1.6541720562238025,
+            "rotation_deg": 1.7832736362546873,
+            "translation_mm": 3.3035890528714376,
+            "phase_map_cycles": 0.007626795513660023,
+            "anatomy_rms_mm": 2.329747120385904,
+            "session_recovered_fraction": 0.22178007231981922
+          },
+          "S/joint_nosession": {
+            "heldout_cmr_mm": 1.1560160850457444,
+            "heldout_tee_mm": 1.7577899810106223,
+            "rotation_deg": 2.305790616165692,
+            "translation_mm": 3.231603774707188,
+            "phase_map_cycles": 0.008449996666723053,
+            "anatomy_rms_mm": 2.780537743341582
+          },
+          "S/late_fusion_trajectory": {
+            "heldout_cmr_mm": 1.112542722333647,
+            "heldout_tee_mm": 1.668332622865691,
+            "rotation_deg": 2.3964612881144456,
+            "translation_mm": 3.5039538120648284,
+            "phase_map_cycles": 0.01336001704291287
+          }
+        },
+        "with_minus_without_session": {
+          "heldout_cmr_mm": {
+            "observed": -0.06221214428842381,
+            "lower": -0.12136627341131566,
+            "upper": -0.030395015896096833
+          },
+          "heldout_tee_mm": {
+            "observed": -0.06500250855318335,
+            "lower": -0.1296759054025991,
+            "upper": -0.0253927504220397
+          },
+          "rotation_deg": {
+            "observed": -0.44500242402563783,
+            "lower": -0.6709576990359136,
+            "upper": -0.29300687288955896
+          },
+          "translation_mm": {
+            "observed": -0.035723887906272456,
+            "lower": -0.5391524292633401,
+            "upper": 0.37067420788544436
+          },
+          "phase_map_cycles": {
+            "observed": -0.002278079820560948,
+            "lower": -0.0030478951303888266,
+            "upper": -0.0004684264619922579
+          },
+          "anatomy_rms_mm": {
+            "observed": -0.33914457103219586,
+            "lower": -0.6068031196993999,
+            "upper": -0.19341300231067438
+          }
+        }
+      }
+    }
+  }
+}

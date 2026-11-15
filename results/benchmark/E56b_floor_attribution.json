@@ -1,0 +1,84 @@
+{
+  "experiment": "E56b_floor_attribution",
+  "question": "does the covariance gain survive a small floor, or is the floor itself the mechanism",
+  "modes": 48,
+  "floors": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "weights": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "sum_spread_mm": 0.3303449022089193,
+  "sum_at_smallest_floor_mm": 3.3681250916624745,
+  "clamped_at_smallest_floor": 0,
+  "rows": [
+    {
+      "floor": 0.005,
+      "clamped_modes": 0,
+      "of_modes": 48,
+      "best_weight": 4.0,
+      "weight_at_grid_edge": true,
+      "sum_mm": 3.3681250916624745,
+      "median_cmr_mm": 1.0800231044110284,
+      "median_tee_mm": 2.288101987251446
+    },
+    {
+      "floor": 0.01,
+      "clamped_modes": 0,
+      "of_modes": 48,
+      "best_weight": 4.0,
+      "weight_at_grid_edge": true,
+      "sum_mm": 3.3681250916624745,
+      "median_cmr_mm": 1.0800231044110284,
+      "median_tee_mm": 2.288101987251446
+    },
+    {
+      "floor": 0.02,
+      "clamped_modes": 8,
+      "of_modes": 48,
+      "best_weight": 2.0,
+      "weight_at_grid_edge": false,
+      "sum_mm": 3.3786199779692154,
+      "median_cmr_mm": 1.0611573744579006,
+      "median_tee_mm": 2.3174626035113146
+    },
+    {
+      "floor": 0.05,
+      "clamped_modes": 21,
+      "of_modes": 48,
+      "best_weight": 2.0,
+      "weight_at_grid_edge": false,
+      "sum_mm": 3.5192453144915357,
+      "median_cmr_mm": 1.091387567754055,
+      "median_tee_mm": 2.4278577467374807
+    },
+    {
+      "floor": 0.1,
+      "clamped_modes": 32,
+      "of_modes": 48,
+      "best_weight": 1.0,
+      "weight_at_grid_edge": false,
+      "sum_mm": 3.6232722278010536,
+      "median_cmr_mm": 1.0797971493213712,
+      "median_tee_mm": 2.5434750784796822
+    },
+    {
+      "floor": 0.2,
+      "clamped_modes": 40,
+      "of_modes": 48,
+      "best_weight": 0.5,
+      "weight_at_grid_edge": true,
+      "sum_mm": 3.698469993871394,
+      "median_cmr_mm": 1.0707673375354534,
+      "median_tee_mm": 2.6277026563359405
+    }
+  ]
+}

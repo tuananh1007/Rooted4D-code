@@ -1,0 +1,25 @@
+  20/60  1s
+  40/60  1s
+  60/60  2s
+
+median rotation error (deg), and fraction recovering below 5 deg
+arm                               slide 0       slide 30       slide 60       slide 90
+full                          0.18 (100%)   16.46 ( 23%)  179.77 (  0%)  147.18 (  0%)
+position_only_no_normals      0.18 (100%)   20.82 ( 25%)  179.80 (  2%)  147.18 (  2%)
+no_directed_arc               0.18 (100%)   23.64 ( 23%)  179.78 (  2%)  131.77 (  0%)
+neither                       0.18 (100%)   21.71 ( 23%)  179.80 (  2%)  136.21 (  2%)
+
+full minus ablation, rotation (negative = the term was helping)
+  slide   0.0  position_only_no_normals     -0.000  [  -0.000,   0.000]  p=1.0000
+  slide   0.0  no_directed_arc              -0.000  [  -0.000,   0.000]  p=1.0000
+  slide   0.0  neither                      -0.000  [  -0.000,   0.000]  p=1.0000
+  slide  30.0  position_only_no_normals      0.045  [  -0.965,   1.082]  p=0.9377
+  slide  30.0  no_directed_arc              -6.727  [ -14.398,  -1.208]  p=0.0008 *
+  slide  30.0  neither                      -1.142  [  -7.878,   6.244]  p=0.6491
+  slide  60.0  position_only_no_normals     -1.664  [  -6.760,   1.417]  p=0.7900
+  slide  60.0  no_directed_arc              -0.649  [  -1.591,   0.366]  p=0.2218
+  slide  60.0  neither                      -2.760  [  -7.802,   0.265]  p=0.1689
+  slide  90.0  position_only_no_normals     -0.266  [  -2.280,   1.186]  p=0.8879
+  slide  90.0  no_directed_arc              -2.514  [  -5.241,   0.312]  p=0.0756
+  slide  90.0  neither                      -1.973  [  -4.656,   0.802]  p=0.1817
+done

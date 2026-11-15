@@ -1,0 +1,1102 @@
+{
+  "experiment": "E31_segmentation_front_end",
+  "device": "cpu",
+  "split_source": "GLOBAL_SPLIT_LOCK.json via results/benchmark/acdc_patient_splits.json",
+  "n_train_slices": 1689,
+  "n_train_patients": 90,
+  "n_test_slices": 563,
+  "n_test_patients": 30,
+  "best_epoch": 11,
+  "val_dice_foreground": 0.8881143154324711,
+  "test_dice": {
+    "rv": 0.8832820935381783,
+    "myocardium": 0.8678076201015048,
+    "lv_cavity": 0.9438481264644198
+  },
+  "downstream": {
+    "frames_fitted": 60,
+    "frames_failed": 0,
+    "surface_displacement_mm": {
+      "median": 2.5715924080305177,
+      "p95": 10.950548700889476,
+      "max": 17.59764373793529
+    },
+    "ef_error_points": {
+      "n": 30,
+      "bias": -5.3392463626731175,
+      "median_absolute": 4.500204601237918,
+      "limits_of_agreement": [
+        -25.102424386517193,
+        14.42393166117096
+      ]
+    }
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "loss": 0.496819688484752,
+      "val_dice_per_class": [
+        0.9764861480609791,
+        0.7202302668545697,
+        0.6987009733109861,
+        0.8225332248855282
+      ],
+      "val_dice_foreground": 0.7471548216836946
+    },
+    {
+      "epoch": 1,
+      "loss": 0.17927568113842682,
+      "val_dice_per_class": [
+        0.9819249027484173,
+        0.8091472032907847,
+        0.7544631120320913,
+        0.9143258236549996
+      ],
+      "val_dice_foreground": 0.8259787129926252
+    },
+    {
+      "epoch": 2,
+      "loss": 0.1243027607502847,
+      "val_dice_per_class": [
+        0.9865852529938156,
+        0.7852541417688936,
+        0.8313070680644061,
+        0.9338053770967432
+      ],
+      "val_dice_foreground": 0.8501221956433476
+    },
+    {
+      "epoch": 3,
+      "loss": 0.11036476425830961,
+      "val_dice_per_class": [
+        0.9803800518448288,
+        0.7609911118004773,
+        0.7732997850791828,
+        0.9152574329762846
+      ],
+      "val_dice_foreground": 0.8165161099519817
+    },
+    {
+      "epoch": 4,
+      "loss": 0.10266123641483031,
+      "val_dice_per_class": [
+        0.9851377719157451,
+        0.7317880166543497,
+        0.8402022171664882,
+        0.9200986945951307
+      ],
+      "val_dice_foreground": 0.8306963094719895
+    },
+    {
+      "epoch": 5,
+      "loss": 0.08929025872333153,
+      "val_dice_per_class": [
+        0.9885935445089598,
+        0.8454519413612984,
+        0.8377607062056258,
+        0.9298272116764171
+      ],
+      "val_dice_foreground": 0.8710132864144472
+    },
+    {
+      "epoch": 6,
+      "loss": 0.09409540949875678,
+      "val_dice_per_class": [
+        0.9884912146104349,
+        0.8404001029762062,
+        0.8496985749618428,
+        0.9340509192363636
+      ],
+      "val_dice_foreground": 0.8747165323914708
+    },
+    {
+      "epoch": 7,
+      "loss": 0.07646909930019283,
+      "val_dice_per_class": [
+        0.9895287139995678,
+        0.8629011270162221,
+        0.8418031818157917,
+        0.9415100571271535
+      ],
+      "val_dice_foreground": 0.8820714553197225
+    },
+    {
+      "epoch": 8,
+      "loss": 0.07378349323079317,
+      "val_dice_per_class": [
+        0.9909095119785618,
+        0.8501925387898007,
+        0.8533710901801651,
+        0.9383039039534491
+      ],
+      "val_dice_foreground": 0.8806225109744718
+    },
+    {
+      "epoch": 9,
+      "loss": 0.08259478107738806,
+      "val_dice_per_class": [
+        0.9855022784825918,
+        0.8120283629443195,
+        0.8300357573741192,
+        0.9301256408562532
+      ],
+      "val_dice_foreground": 0.8573965870582306
+    },
+    {
+      "epoch": 10,
+      "loss": 0.07528445316515003,
+      "val_dice_per_class": [
+        0.9897302534129169,
+        0.85017033686509,
+        0.8555843862327369,
+        0.9364222594209619
+      ],
+      "val_dice_foreground": 0.8807256608395964
+    },
+    {
+      "epoch": 11,
+      "loss": 0.06904987057879382,
+      "val_dice_per_class": [
+        0.9900144902435509,
+        0.8618415094710685,
+        0.8612145314345488,
+        0.9412869053917963
+      ],
+      "val_dice_foreground": 0.8881143154324711
+    }
+  ],
+  "rows": [
+    {
+      "patient": "patient102",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 79.443359375,
+      "cavity_volume_pred_ml": 77.1484375,
+      "mesh_volume_truth_ml": 70.31982782925836,
+      "mesh_volume_pred_ml": 68.2828280746837,
+      "surface_displacement_median_mm": 1.2958568011697829,
+      "surface_displacement_p95_mm": 2.1518529332167713,
+      "ef": {
+        "truth": 73.83605745334779,
+        "pred": 69.3760611246054
+      }
+    },
+    {
+      "patient": "patient102",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 23.14453125,
+      "cavity_volume_pred_ml": 26.171875,
+      "mesh_volume_truth_ml": 18.39843935215191,
+      "mesh_volume_pred_ml": 20.910891531981918,
+      "surface_displacement_median_mm": 10.924433443798954,
+      "surface_displacement_p95_mm": 13.251688576863227
+    },
+    {
+      "patient": "patient104",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 141.66731262301096,
+      "cavity_volume_pred_ml": 135.25592744954574,
+      "mesh_volume_truth_ml": 129.7458102890205,
+      "mesh_volume_pred_ml": 125.07912673351674,
+      "surface_displacement_median_mm": 1.6623019407820006,
+      "surface_displacement_p95_mm": 4.0742731682105955,
+      "ef": {
+        "truth": 86.74562899561694,
+        "pred": 82.70290370594392
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 22.03796827847076,
+      "cavity_volume_pred_ml": 28.692350557635812,
+      "mesh_volume_truth_ml": 17.196991058349802,
+      "mesh_volume_pred_ml": 21.635056994860822,
+      "surface_displacement_median_mm": 17.59764373793529,
+      "surface_displacement_p95_mm": 21.33729820104321
+    },
+    {
+      "patient": "patient107",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 129.92868320920294,
+      "cavity_volume_pred_ml": 128.4893926600577,
+      "mesh_volume_truth_ml": 119.82956619511849,
+      "mesh_volume_pred_ml": 165.14285812747843,
+      "surface_displacement_median_mm": 1.6595792476774527,
+      "surface_displacement_p95_mm": 55.366960602484575,
+      "ef": {
+        "truth": 63.94266042526014,
+        "pred": 18.12721945307402
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 50.48732173040672,
+      "cavity_volume_pred_ml": 71.1233836298399,
+      "mesh_volume_truth_ml": 43.20735359391156,
+      "mesh_volume_pred_ml": 135.20704982363173,
+      "surface_displacement_median_mm": 8.046711128101467,
+      "surface_displacement_p95_mm": 73.5900296764168
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 222.36104380041408,
+      "cavity_volume_pred_ml": 210.86541149230592,
+      "mesh_volume_truth_ml": 205.41689749385392,
+      "mesh_volume_pred_ml": 192.9716252157404,
+      "surface_displacement_median_mm": 6.232463389690438,
+      "surface_displacement_p95_mm": 10.486055687422208,
+      "ef": {
+        "truth": 45.88754312755682,
+        "pred": 39.34868923670566
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 121.87239455100031,
+      "cavity_volume_pred_ml": 128.04078261876566,
+      "mesh_volume_truth_ml": 111.15613006507252,
+      "mesh_volume_pred_ml": 117.03982009457837,
+      "surface_displacement_median_mm": 11.446738585609427,
+      "surface_displacement_p95_mm": 15.601441746739082
+    },
+    {
+      "patient": "patient125",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 113.96569015490232,
+      "cavity_volume_pred_ml": 109.64773543474763,
+      "mesh_volume_truth_ml": 103.8830010865117,
+      "mesh_volume_pred_ml": 102.59154321076278,
+      "surface_displacement_median_mm": 1.4567061213074703,
+      "surface_displacement_p95_mm": 2.59635980353723,
+      "ef": {
+        "truth": 63.904687994043286,
+        "pred": 56.986150224143486
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 42.259327343153224,
+      "cavity_volume_pred_ml": 52.8489343289752,
+      "mesh_volume_truth_ml": 37.49689336332781,
+      "mesh_volume_pred_ml": 44.12857227941043,
+      "surface_displacement_median_mm": 7.15545514493007,
+      "surface_displacement_p95_mm": 40.622313150113975
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 285.03271833249477,
+      "cavity_volume_pred_ml": 293.1961286273494,
+      "mesh_volume_truth_ml": 260.3619595218567,
+      "mesh_volume_pred_ml": 267.82586561123253,
+      "surface_displacement_median_mm": 6.043803140343199,
+      "surface_displacement_p95_mm": 13.527776433303277,
+      "ef": {
+        "truth": 19.90932995398077,
+        "pred": 19.04548455371922
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 228.04143337682734,
+      "cavity_volume_pred_ml": 235.70893556965808,
+      "mesh_volume_truth_ml": 208.5256379260004,
+      "mesh_volume_pred_ml": 216.81713174538044,
+      "surface_displacement_median_mm": 5.925137753144893,
+      "surface_displacement_p95_mm": 19.727069242967694
+    },
+    {
+      "patient": "patient138",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 133.91009732566965,
+      "cavity_volume_pred_ml": 121.77893412573114,
+      "mesh_volume_truth_ml": 124.82814729582284,
+      "mesh_volume_pred_ml": 114.1524573503234,
+      "surface_displacement_median_mm": 1.6621146977873416,
+      "surface_displacement_p95_mm": 3.1537695483370163,
+      "ef": {
+        "truth": 72.21619644233705,
+        "pred": 77.66439073013382
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 41.496428819512374,
+      "cavity_volume_pred_ml": 30.89801659398827,
+      "mesh_volume_truth_ml": 34.68200722934156,
+      "mesh_volume_pred_ml": 25.496646845718892,
+      "surface_displacement_median_mm": 6.608575657587487,
+      "surface_displacement_p95_mm": 10.763523938003882
+    },
+    {
+      "patient": "patient144",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 110.564208984375,
+      "cavity_volume_pred_ml": 104.572265625,
+      "mesh_volume_truth_ml": 100.12575733798141,
+      "mesh_volume_pred_ml": 93.93378887912554,
+      "surface_displacement_median_mm": 1.4322317188101321,
+      "surface_displacement_p95_mm": 2.8019188414202296,
+      "ef": {
+        "truth": 73.09353112528352,
+        "pred": 67.55006775045615
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 32.431640625,
+      "cavity_volume_pred_ml": 36.683349609375,
+      "mesh_volume_truth_ml": 26.940305733718123,
+      "mesh_volume_pred_ml": 30.4814508507058,
+      "surface_displacement_median_mm": 10.848246702283202,
+      "surface_displacement_p95_mm": 12.365357423342475
+    },
+    {
+      "patient": "patient145",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 214.28428650178634,
+      "cavity_volume_pred_ml": 216.72530432927604,
+      "mesh_volume_truth_ml": 197.0776078993804,
+      "mesh_volume_pred_ml": 200.0171609657776,
+      "surface_displacement_median_mm": 2.3589979788750655,
+      "surface_displacement_p95_mm": 7.271356901595068,
+      "ef": {
+        "truth": 20.220503097319064,
+        "pred": 21.89452759810709
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 172.4779938360449,
+      "cavity_volume_pred_ml": 170.34596560697162,
+      "mesh_volume_truth_ml": 157.22752408996388,
+      "mesh_volume_pred_ml": 156.22434845717515,
+      "surface_displacement_median_mm": 2.7216624692305436,
+      "surface_displacement_p95_mm": 5.007579972180492
+    },
+    {
+      "patient": "patient146",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 146.39283326285738,
+      "cavity_volume_pred_ml": 143.48436637684034,
+      "mesh_volume_truth_ml": 132.89787495551576,
+      "mesh_volume_pred_ml": 130.6464608671409,
+      "surface_displacement_median_mm": 5.344402655768192,
+      "surface_displacement_p95_mm": 15.138559851980723,
+      "ef": {
+        "truth": 82.97911733969038,
+        "pred": 75.40159490258407
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 28.049078378027907,
+      "cavity_volume_pred_ml": 38.05244175872286,
+      "mesh_volume_truth_ml": 22.620391354223354,
+      "mesh_volume_pred_ml": 32.1369456895363,
+      "surface_displacement_median_mm": 6.5746730513631855,
+      "surface_displacement_p95_mm": 11.435971727514666
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 211.853759765625,
+      "cavity_volume_pred_ml": 221.5634765625,
+      "mesh_volume_truth_ml": 194.0622833374208,
+      "mesh_volume_pred_ml": 264.6058744856851,
+      "surface_displacement_median_mm": 5.334813362751133,
+      "surface_displacement_p95_mm": 64.99424651745775,
+      "ef": {
+        "truth": 42.65422224410462,
+        "pred": 22.62859736156971
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 123.853271484375,
+      "cavity_volume_pred_ml": 133.681640625,
+      "mesh_volume_truth_ml": 111.28652571069333,
+      "mesh_volume_pred_ml": 204.7292765532589,
+      "surface_displacement_median_mm": 10.440631565766655,
+      "surface_displacement_p95_mm": 61.1474797420218
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 309.7265625,
+      "cavity_volume_pred_ml": 308.28515625,
+      "mesh_volume_truth_ml": 286.0130449535308,
+      "mesh_volume_pred_ml": 285.46672960764187,
+      "surface_displacement_median_mm": 1.146583523143599,
+      "surface_displacement_p95_mm": 2.187858420463076,
+      "ef": {
+        "truth": 9.214574592629466,
+        "pred": 11.42491953648634
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 277.27734375,
+      "cavity_volume_pred_ml": 270.9140625,
+      "mesh_volume_truth_ml": 259.6581595816369,
+      "mesh_volume_pred_ml": 252.85238544652975,
+      "surface_displacement_median_mm": 1.3472545155631805,
+      "surface_displacement_p95_mm": 2.8852182400619513
+    },
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 321.735610307787,
+      "cavity_volume_pred_ml": 326.70724225514795,
+      "mesh_volume_truth_ml": 297.87283925629714,
+      "mesh_volume_pred_ml": 304.0320594014428,
+      "surface_displacement_median_mm": 1.3815745903702275,
+      "surface_displacement_p95_mm": 2.033971693969159,
+      "ef": {
+        "truth": 27.073309122808446,
+        "pred": 28.020850768128483
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 233.41603100761017,
+      "cavity_volume_pred_ml": 234.648494389519,
+      "mesh_volume_truth_ml": 217.2288046915535,
+      "mesh_volume_pred_ml": 218.83968974929675,
+      "surface_displacement_median_mm": 1.4851830203087455,
+      "surface_displacement_p95_mm": 2.4136980272589774
+    },
+    {
+      "patient": "patient022",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 71.7451171875,
+      "cavity_volume_pred_ml": 74.1181640625,
+      "mesh_volume_truth_ml": 58.51502385072698,
+      "mesh_volume_pred_ml": 81.19421633967572,
+      "surface_displacement_median_mm": 2.075094951789646,
+      "surface_displacement_p95_mm": 53.94019759999632,
+      "ef": {
+        "truth": 66.48915841605893,
+        "pred": 41.331572417737455
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 25.154296875,
+      "cavity_volume_pred_ml": 24.857666015625,
+      "mesh_volume_truth_ml": 19.608876945422452,
+      "mesh_volume_pred_ml": 47.635370014228236,
+      "surface_displacement_median_mm": 10.77402595174371,
+      "surface_displacement_p95_mm": 55.319406524830185
+    },
+    {
+      "patient": "patient023",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 75.45208740234375,
+      "cavity_volume_pred_ml": 73.11248779296875,
+      "mesh_volume_truth_ml": 69.50060828239306,
+      "mesh_volume_pred_ml": 66.90494775790532,
+      "surface_displacement_median_mm": 1.7372421605234234,
+      "surface_displacement_p95_mm": 3.893205756598088,
+      "ef": {
+        "truth": 71.74433208058835,
+        "pred": 75.8108645118238
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 24.189788818359375,
+      "cavity_volume_pred_ml": 19.427032470703125,
+      "mesh_volume_truth_ml": 19.637861078244086,
+      "mesh_volume_pred_ml": 16.183728461453224,
+      "surface_displacement_median_mm": 5.658513480840822,
+      "surface_displacement_p95_mm": 11.303842001177985
+    },
+    {
+      "patient": "patient027",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 130.97496032714844,
+      "cavity_volume_pred_ml": 140.24620056152344,
+      "mesh_volume_truth_ml": 119.81440731130324,
+      "mesh_volume_pred_ml": 129.77156395813918,
+      "surface_displacement_median_mm": 5.815707519889983,
+      "surface_displacement_p95_mm": 20.020550306154934,
+      "ef": {
+        "truth": 72.31365007198063,
+        "pred": 64.6564289358057
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 39.776611328125,
+      "cavity_volume_pred_ml": 53.533935546875,
+      "mesh_volume_truth_ml": 33.17223607238985,
+      "mesh_volume_pred_ml": 45.865904928661266,
+      "surface_displacement_median_mm": 5.834464825911932,
+      "surface_displacement_p95_mm": 15.042493522824408
+    },
+    {
+      "patient": "patient029",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 157.1063995361328,
+      "cavity_volume_pred_ml": 159.98497009277344,
+      "mesh_volume_truth_ml": 148.10487134726137,
+      "mesh_volume_pred_ml": 148.72220348163427,
+      "surface_displacement_median_mm": 6.010857767540007,
+      "surface_displacement_p95_mm": 13.782759659197062,
+      "ef": {
+        "truth": 84.81181181197333,
+        "pred": 80.27139893823988
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 28.48663330078125,
+      "cavity_volume_pred_ml": 32.87925720214844,
+      "mesh_volume_truth_ml": 22.494446575856838,
+      "mesh_volume_pred_ml": 29.340810215150718,
+      "surface_displacement_median_mm": 13.291640794669922,
+      "surface_displacement_p95_mm": 34.56956245915575
+    },
+    {
+      "patient": "patient030",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 76.2041015625,
+      "cavity_volume_pred_ml": 92.0799560546875,
+      "mesh_volume_truth_ml": 68.38453037897509,
+      "mesh_volume_pred_ml": 85.47099923575753,
+      "surface_displacement_median_mm": 7.152699270839211,
+      "surface_displacement_p95_mm": 33.71944755676752,
+      "ef": {
+        "truth": 79.30501230132892,
+        "pred": 69.45659932899173
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 19.364364624023438,
+      "cavity_volume_pred_ml": 24.941802978515625,
+      "mesh_volume_truth_ml": 14.152170149722885,
+      "mesh_volume_pred_ml": 26.105749754091832,
+      "surface_displacement_median_mm": 10.18347468775001,
+      "surface_displacement_p95_mm": 42.40127943534116
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 173.0966796875,
+      "cavity_volume_pred_ml": 172.0390625,
+      "mesh_volume_truth_ml": 161.77404826422423,
+      "mesh_volume_pred_ml": 161.0184318430162,
+      "surface_displacement_median_mm": 1.7063285422123928,
+      "surface_displacement_p95_mm": 8.155939040164126,
+      "ef": {
+        "truth": 75.76235276455363,
+        "pred": 69.53928129501463
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 46.8876953125,
+      "cavity_volume_pred_ml": 56.670654296875,
+      "mesh_volume_truth_ml": 39.21022313678341,
+      "mesh_volume_pred_ml": 49.04737158687975,
+      "surface_displacement_median_mm": 5.837920573314044,
+      "surface_displacement_p95_mm": 12.319958946663787
+    },
+    {
+      "patient": "patient039",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 148.36286399204621,
+      "cavity_volume_pred_ml": 139.7496353132627,
+      "mesh_volume_truth_ml": 135.5141822404765,
+      "mesh_volume_pred_ml": 127.49315770743719,
+      "surface_displacement_median_mm": 2.0464755109113097,
+      "surface_displacement_p95_mm": 3.712887547191456,
+      "ef": {
+        "truth": 74.31556084190123,
+        "pred": 73.62035592487007
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 41.962573469448486,
+      "cavity_volume_pred_ml": 39.80926629975261,
+      "mesh_volume_truth_ml": 34.80605768815028,
+      "mesh_volume_pred_ml": 33.63224122336601,
+      "surface_displacement_median_mm": 7.170619180769105,
+      "surface_displacement_p95_mm": 11.514010566872047
+    },
+    {
+      "patient": "patient040",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 148.26570966673196,
+      "cavity_volume_pred_ml": 147.11994998436163,
+      "mesh_volume_truth_ml": 135.9204131351488,
+      "mesh_volume_pred_ml": 134.50218502606165,
+      "surface_displacement_median_mm": 1.6282174035616095,
+      "surface_displacement_p95_mm": 2.9367529502484664,
+      "ef": {
+        "truth": 51.750017784661615,
+        "pred": 48.71714226015583
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 73.4387888719301,
+      "cavity_volume_pred_ml": 76.45742495817505,
+      "mesh_volume_truth_ml": 65.58157516472376,
+      "mesh_volume_pred_ml": 68.97656420389718,
+      "surface_displacement_median_mm": 2.1712880982930325,
+      "surface_displacement_p95_mm": 3.9580688718757027
+    },
+    {
+      "patient": "patient045",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 225.68359375,
+      "cavity_volume_pred_ml": 221.0693359375,
+      "mesh_volume_truth_ml": 206.85110117170083,
+      "mesh_volume_pred_ml": 202.06558579820023,
+      "surface_displacement_median_mm": 1.939596791635001,
+      "surface_displacement_p95_mm": 3.221966024047437,
+      "ef": {
+        "truth": 29.57486142203749,
+        "pred": 29.496718403820527
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 13,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 158.642578125,
+      "cavity_volume_pred_ml": 155.810546875,
+      "mesh_volume_truth_ml": 145.67517465021174,
+      "mesh_volume_pred_ml": 142.46286896427475,
+      "surface_displacement_median_mm": 1.5701395367078002,
+      "surface_displacement_p95_mm": 3.3172680681591507
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 260.19287109375,
+      "cavity_volume_pred_ml": 252.99644470214844,
+      "mesh_volume_truth_ml": 245.20986235543617,
+      "mesh_volume_pred_ml": 238.81278702188217,
+      "surface_displacement_median_mm": 5.264939871513112,
+      "surface_displacement_p95_mm": 15.101690649087537,
+      "ef": {
+        "truth": 16.983844211651917,
+        "pred": 15.096499803762086
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 217.40684509277344,
+      "cavity_volume_pred_ml": 207.57484436035156,
+      "mesh_volume_truth_ml": 203.5638013413828,
+      "mesh_volume_pred_ml": 202.76041509776496,
+      "surface_displacement_median_mm": 2.17130224617914,
+      "surface_displacement_p95_mm": 8.410644031319912
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 165.4961725823783,
+      "cavity_volume_pred_ml": 150.18265375069774,
+      "mesh_volume_truth_ml": 151.76227237208218,
+      "mesh_volume_pred_ml": 134.40200566091738,
+      "surface_displacement_median_mm": 6.06386615201828,
+      "surface_displacement_p95_mm": 15.629172754925204,
+      "ef": {
+        "truth": 33.08151056593331,
+        "pred": 35.90681124917382
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 109.77259110709744,
+      "cavity_volume_pred_ml": 93.99636163445959,
+      "mesh_volume_truth_ml": 101.55702020221133,
+      "mesh_volume_pred_ml": 86.14253117314786,
+      "surface_displacement_median_mm": 6.446495513480868,
+      "surface_displacement_p95_mm": 14.48775381969242
+    },
+    {
+      "patient": "patient053",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 154.17231752402617,
+      "cavity_volume_pred_ml": 148.82638119862952,
+      "mesh_volume_truth_ml": 137.71709793006264,
+      "mesh_volume_pred_ml": 132.9576462218331,
+      "surface_displacement_median_mm": 1.4916407235144074,
+      "surface_displacement_p95_mm": 3.2482199526110698,
+      "ef": {
+        "truth": 23.82222499099875,
+        "pred": 25.812717864644426
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 12,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 115.92831150388098,
+      "cavity_volume_pred_ml": 107.96548327094752,
+      "mesh_volume_truth_ml": 104.90982101008903,
+      "mesh_volume_pred_ml": 98.63766412311925,
+      "surface_displacement_median_mm": 1.583432440919092,
+      "surface_displacement_p95_mm": 2.8953880632169917
+    },
+    {
+      "patient": "patient055",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 151.0640073525211,
+      "cavity_volume_pred_ml": 152.76061303603103,
+      "mesh_volume_truth_ml": 138.80643719918464,
+      "mesh_volume_pred_ml": 140.46392325959545,
+      "surface_displacement_median_mm": 1.4300946433747574,
+      "surface_displacement_p95_mm": 2.788310252671113,
+      "ef": {
+        "truth": 28.701554961392027,
+        "pred": 29.820810964435594
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 108.53869606454475,
+      "cavity_volume_pred_ml": 108.14208694372425,
+      "mesh_volume_truth_ml": 98.96683133651055,
+      "mesh_volume_pred_ml": 98.5764422311216,
+      "surface_displacement_median_mm": 1.4339971876907167,
+      "surface_displacement_p95_mm": 2.372518597427663
+    },
+    {
+      "patient": "patient081",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 156.80173876786054,
+      "cavity_volume_pred_ml": 157.33377877238,
+      "mesh_volume_truth_ml": 147.47593041081151,
+      "mesh_volume_pred_ml": 147.4580454362193,
+      "surface_displacement_median_mm": 1.054373586368025,
+      "surface_displacement_p95_mm": 2.332765299243865,
+      "ef": {
+        "truth": 57.20453492561021,
+        "pred": 50.02041905832551
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 7,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 69.84730315742527,
+      "cavity_volume_pred_ml": 79.86056888350927,
+      "mesh_volume_truth_ml": 63.11301029209022,
+      "mesh_volume_pred_ml": 73.69891317380637,
+      "surface_displacement_median_mm": 3.5328297184302904,
+      "surface_displacement_p95_mm": 6.658374803040581
+    },
+    {
+      "patient": "patient085",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 85.05499433967523,
+      "cavity_volume_pred_ml": 80.23289750829757,
+      "mesh_volume_truth_ml": 78.77226268547871,
+      "mesh_volume_pred_ml": 74.67447129060184,
+      "surface_displacement_median_mm": 1.312260721280261,
+      "surface_displacement_p95_mm": 3.2868750800192723,
+      "ef": {
+        "truth": 59.981570184796425,
+        "pred": 51.613051680069944
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 9,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 34.146057807488994,
+      "cavity_volume_pred_ml": 37.550325248936325,
+      "mesh_volume_truth_ml": 31.523422656636093,
+      "mesh_volume_pred_ml": 36.13269783156452,
+      "surface_displacement_median_mm": 1.9138551883543409,
+      "surface_displacement_p95_mm": 3.7646636138027607
+    },
+    {
+      "patient": "patient087",
+      "frame": 1,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 171.9390863812099,
+      "cavity_volume_pred_ml": 162.5807203626481,
+      "mesh_volume_truth_ml": 155.09051993161967,
+      "mesh_volume_pred_ml": 145.73630965565,
+      "surface_displacement_median_mm": 1.7526171253012433,
+      "surface_displacement_p95_mm": 26.797040186003944,
+      "ef": {
+        "truth": 46.12320341387795,
+        "pred": 40.30771252051444
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 10,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 92.16319391494328,
+      "cavity_volume_pred_ml": 98.17928635544727,
+      "mesh_volume_truth_ml": 83.5578039479178,
+      "mesh_volume_pred_ml": 86.99333692164386,
+      "surface_displacement_median_mm": 7.17824866479941,
+      "surface_displacement_p95_mm": 12.867614846476474
+    },
+    {
+      "patient": "patient090",
+      "frame": 4,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 77.55064617902788,
+      "cavity_volume_pred_ml": 78.7623750255752,
+      "mesh_volume_truth_ml": 69.77265522407603,
+      "mesh_volume_pred_ml": 70.92553287528389,
+      "surface_displacement_median_mm": 2.4215223468304914,
+      "surface_displacement_p95_mm": 4.772686777973114,
+      "ef": {
+        "truth": 50.135314162198156,
+        "pred": 51.950643842284826
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 11,
+      "fit_failed": false,
+      "cavity_volume_truth_ml": 42.7612732426301,
+      "cavity_volume_pred_ml": 43.14392445732925,
+      "mesh_volume_truth_ml": 34.79191532817815,
+      "mesh_volume_pred_ml": 34.07926189800252,
+      "surface_displacement_median_mm": 2.0461739047483407,
+      "surface_displacement_p95_mm": 3.679762935476265
+    }
+  ],
+  "ef_rows": [
+    {
+      "patient": "patient102",
+      "ef_truth": 73.83605745334779,
+      "ef_pred": 69.3760611246054
+    },
+    {
+      "patient": "patient104",
+      "ef_truth": 86.74562899561694,
+      "ef_pred": 82.70290370594392
+    },
+    {
+      "patient": "patient107",
+      "ef_truth": 63.94266042526014,
+      "ef_pred": 18.12721945307402
+    },
+    {
+      "patient": "patient112",
+      "ef_truth": 45.88754312755682,
+      "ef_pred": 39.34868923670566
+    },
+    {
+      "patient": "patient125",
+      "ef_truth": 63.904687994043286,
+      "ef_pred": 56.986150224143486
+    },
+    {
+      "patient": "patient135",
+      "ef_truth": 19.90932995398077,
+      "ef_pred": 19.04548455371922
+    },
+    {
+      "patient": "patient138",
+      "ef_truth": 72.21619644233705,
+      "ef_pred": 77.66439073013382
+    },
+    {
+      "patient": "patient144",
+      "ef_truth": 73.09353112528352,
+      "ef_pred": 67.55006775045615
+    },
+    {
+      "patient": "patient145",
+      "ef_truth": 20.220503097319064,
+      "ef_pred": 21.89452759810709
+    },
+    {
+      "patient": "patient146",
+      "ef_truth": 82.97911733969038,
+      "ef_pred": 75.40159490258407
+    },
+    {
+      "patient": "patient149",
+      "ef_truth": 42.65422224410462,
+      "ef_pred": 22.62859736156971
+    },
+    {
+      "patient": "patient007",
+      "ef_truth": 9.214574592629466,
+      "ef_pred": 11.42491953648634
+    },
+    {
+      "patient": "patient019",
+      "ef_truth": 27.073309122808446,
+      "ef_pred": 28.020850768128483
+    },
+    {
+      "patient": "patient022",
+      "ef_truth": 66.48915841605893,
+      "ef_pred": 41.331572417737455
+    },
+    {
+      "patient": "patient023",
+      "ef_truth": 71.74433208058835,
+      "ef_pred": 75.8108645118238
+    },
+    {
+      "patient": "patient027",
+      "ef_truth": 72.31365007198063,
+      "ef_pred": 64.6564289358057
+    },
+    {
+      "patient": "patient029",
+      "ef_truth": 84.81181181197333,
+      "ef_pred": 80.27139893823988
+    },
+    {
+      "patient": "patient030",
+      "ef_truth": 79.30501230132892,
+      "ef_pred": 69.45659932899173
+    },
+    {
+      "patient": "patient031",
+      "ef_truth": 75.76235276455363,
+      "ef_pred": 69.53928129501463
+    },
+    {
+      "patient": "patient039",
+      "ef_truth": 74.31556084190123,
+      "ef_pred": 73.62035592487007
+    },
+    {
+      "patient": "patient040",
+      "ef_truth": 51.750017784661615,
+      "ef_pred": 48.71714226015583
+    },
+    {
+      "patient": "patient045",
+      "ef_truth": 29.57486142203749,
+      "ef_pred": 29.496718403820527
+    },
+    {
+      "patient": "patient050",
+      "ef_truth": 16.983844211651917,
+      "ef_pred": 15.096499803762086
+    },
+    {
+      "patient": "patient052",
+      "ef_truth": 33.08151056593331,
+      "ef_pred": 35.90681124917382
+    },
+    {
+      "patient": "patient053",
+      "ef_truth": 23.82222499099875,
+      "ef_pred": 25.812717864644426
+    },
+    {
+      "patient": "patient055",
+      "ef_truth": 28.701554961392027,
+      "ef_pred": 29.820810964435594
+    },
+    {
+      "patient": "patient081",
+      "ef_truth": 57.20453492561021,
+      "ef_pred": 50.02041905832551
+    },
+    {
+      "patient": "patient085",
+      "ef_truth": 59.981570184796425,
+      "ef_pred": 51.613051680069944
+    },
+    {
+      "patient": "patient087",
+      "ef_truth": 46.12320341387795,
+      "ef_pred": 40.30771252051444
+    },
+    {
+      "patient": "patient090",
+      "ef_truth": 50.135314162198156,
+      "ef_pred": 51.950643842284826
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "E40_valve_test40",
+  "n_cases": 40,
+  "resampling_unit": "case",
+  "resamples": 20000,
+  "seed": 20260911,
+  "intervals": {
+    "anterior_symmetric": [
+      0.5771188153091715,
+      0.5603592219592701,
+      0.5972172881401907
+    ],
+    "anterior_hausdorff": [
+      5.29119673316595,
+      4.819007658262644,
+      5.727279694001609
+    ],
+    "posterior_symmetric": [
+      0.5798539104898498,
+      0.5521791869013606,
+      0.5968171824572861
+    ],
+    "posterior_hausdorff": [
+      3.6531991649696787,
+      3.3501337342021142,
+      3.898881570484775
+    ]
+  },
+  "note": "MVSeg2023 ships a 105/30/40 split; nnU-Net must train on the 105 and be scored on the 40, so our fit-to-label figures are restricted to the same 40 for a like-for-like row. The 175-case figure remains valid for the representation-floor claim, which involves no training."
+}

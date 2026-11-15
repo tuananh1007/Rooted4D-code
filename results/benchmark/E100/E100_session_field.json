@@ -1,0 +1,82 @@
+{
+  "experiment": "E100",
+  "preregistration": "Docs/E100_ORIENTED_REBUILD_PREREGISTRATION_2026-09-29.md",
+  "split": "test",
+  "instances": {
+    "v4n96o": {
+      "samples": 60,
+      "all_vertices": {
+        "static_mm": 2.950535237947807,
+        "dynamic_mm": 0.9259982593164132
+      },
+      "cmr_visible": {
+        "static_mm": 3.610530953603594,
+        "dynamic_mm": 1.133131824777108
+      },
+      "tee_visible": {
+        "static_mm": 2.8156423819627765,
+        "dynamic_mm": 0.8698526931328628
+      }
+    },
+    "v3n96o": {
+      "samples": 60,
+      "all_vertices": {
+        "static_mm": 0.8349671981525071,
+        "dynamic_mm": 0.45161209021713994
+      },
+      "cmr_visible": {
+        "static_mm": 0.7375195372528346,
+        "dynamic_mm": 0.3907696528353827
+      },
+      "tee_visible": {
+        "static_mm": 1.0243956403129473,
+        "dynamic_mm": 0.55406901894433
+      }
+    },
+    "v4n48o": {
+      "samples": 60,
+      "all_vertices": {
+        "static_mm": 2.9476814019056894,
+        "dynamic_mm": 0.925630445108936
+      },
+      "cmr_visible": {
+        "static_mm": 3.6039493211813207,
+        "dynamic_mm": 1.131711592765223
+      },
+      "tee_visible": {
+        "static_mm": 2.8156423819627765,
+        "dynamic_mm": 0.8698526931328628
+      }
+    },
+    "v3n48o": {
+      "samples": 60,
+      "all_vertices": {
+        "static_mm": 0.827188465892214,
+        "dynamic_mm": 0.4508327762797651
+      },
+      "cmr_visible": {
+        "static_mm": 0.7339579823262661,
+        "dynamic_mm": 0.3897612133404584
+      },
+      "tee_visible": {
+        "static_mm": 1.016606435674396,
+        "dynamic_mm": 0.55406901894433
+      }
+    },
+    "v3o": {
+      "samples": 60,
+      "all_vertices": {
+        "static_mm": 0.815984976802996,
+        "dynamic_mm": 0.44928617557658
+      },
+      "cmr_visible": {
+        "static_mm": 0.7260996891618983,
+        "dynamic_mm": 0.3877675367708785
+      },
+      "tee_visible": {
+        "static_mm": 1.0062895769947549,
+        "dynamic_mm": 0.55406901894433
+      }
+    }
+  }
+}

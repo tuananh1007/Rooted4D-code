@@ -1,0 +1,68 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3-n96",
+  "experiment": "E85",
+  "frozen_from": "Codes/configs/e85/v3n96_test_template.json",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E85_RING96_PREREGISTRATION_2026-09-28.md",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=0.03125",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.03125
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "G",
+      "name": "G/joint/bs=0.015625",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.015625
+      }
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=0.03125",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.03125
+      },
+      "soft_attachment_weight": 1.0
+    },
+    {
+      "arm": "joint_soft_attachment_matched",
+      "model": "G",
+      "name": "G/soft_matched/bs=0.015625",
+      "overrides": {
+        "identity_prior_weight": 1.0,
+        "session_prior_weight": 0.015625
+      },
+      "soft_attachment_weight": 1.0
+    }
+  ]
+}

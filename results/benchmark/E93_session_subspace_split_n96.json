@@ -1,0 +1,54 @@
+{
+  "experiment": "E93",
+  "preregistration": "Docs/E93_REALISTIC_SESSION_96_PREREGISTRATION_2026-09-28.md",
+  "source": "results/benchmark/E25b_session_subspace_split.npz",
+  "method": "band-limited periodic interpolation per ring; apex copied; free edge zero",
+  "kinds": {
+    "static": {
+      "exact_at_measured_vertices_max_mm": 8.326672684688674e-17,
+      "per_vertex_rms_mm": {
+        "annulus": {
+          "n24": 3.774884456829797,
+          "n96": 3.7748777573890715
+        },
+        "lower": {
+          "n24": 3.0930862668194576,
+          "n96": 3.0930787723974897
+        },
+        "apex": {
+          "n24": 1.7639061957649993,
+          "n96": 1.7639061957649993
+        }
+      },
+      "coefficient_std": [
+        17.0058957039327,
+        12.409868450985618,
+        10.572191254737362,
+        4.443113893494417
+      ]
+    },
+    "dynamic": {
+      "exact_at_measured_vertices_max_mm": 8.326672684688674e-17,
+      "per_vertex_rms_mm": {
+        "annulus": {
+          "n24": 1.2107933393978323,
+          "n96": 1.2107730284124896
+        },
+        "lower": {
+          "n24": 1.0027884326682126,
+          "n96": 1.0027680022787688
+        },
+        "apex": {
+          "n24": 0.7947829902761778,
+          "n96": 0.7947829902761778
+        }
+      },
+      "coefficient_std": [
+        5.35198201084956,
+        4.377835127147808,
+        2.89317861831747,
+        1.941795373708611
+      ]
+    }
+  }
+}

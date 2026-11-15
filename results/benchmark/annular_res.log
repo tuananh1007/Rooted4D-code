@@ -1,0 +1,21 @@
+fitting ACDC basal rings at 128 nodes...
+  40 chamber rings (1 s)
+fitting MVSeg annuli at 128 nodes...
+  40 valve annuli (7 s)
+
+nodes    structure     p95 err mm    mean err mm    perimeter err       saddle err
+16       chamber           1.4169         0.5009           6.764%            0.00%
+16       valve             2.4160         0.8314          13.504%           21.12%
+24       chamber           0.9270         0.3392           6.056%            0.00%
+24       valve             1.6623         0.5400           9.666%           11.64%
+32       chamber           0.8245         0.2841           5.748%            0.00%
+32       valve             1.2104         0.3691           8.143%           10.45%
+48       chamber           0.6389         0.2184           5.032%            0.00%
+48       valve             0.7307         0.2481           6.622%            5.31%
+64       chamber           0.5760         0.1434           3.704%            0.00%
+64       valve             0.5621         0.1868           4.777%            4.14%
+96       chamber           0.3578         0.1145           2.999%            0.00%
+96       valve             0.4248         0.1337           3.759%            2.32%
+
+rule: p95 error < 0.50 mm and median saddle error < 5%
+selected annular density: 96

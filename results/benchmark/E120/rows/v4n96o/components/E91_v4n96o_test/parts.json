@@ -1,0 +1,17 @@
+{
+  "experiment": "E91",
+  "benchmark": "data/derived/e100-v4n96o",
+  "samples": 60,
+  "parts": {
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E91_v4n96o_image_search/E91_v4n96o_test": [
+      "image_search"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E91_v4n96o_commissures_search/E91_v4n96o_test": [
+      "commissures_search"
+    ],
+    "/work/nvme/bhio/avu2/Rooted4D/results/e120/parts/E91_v4n96o_image_uninformed+commissures_uninformed/E91_v4n96o_test": [
+      "image_uninformed",
+      "commissures_uninformed"
+    ]
+  }
+}

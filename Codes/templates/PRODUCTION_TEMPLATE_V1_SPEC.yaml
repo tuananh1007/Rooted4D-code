@@ -1,0 +1,127 @@
+schema_version: rooted4d-production-template-spec-v1
+template_id: rooted4d-mitral-v1
+status: candidate_not_frozen
+primary_valve: mitral
+units: mm
+coordinate_system: LPS_or_RAS_recorded_in_frozen_manifest
+
+scope:
+  included:
+    - lv_myocardial_tetrahedra
+    - lv_endocardium
+    - lv_epicardium
+    - proximal_left_atrium
+    - shared_mitral_annulus
+    - anterior_leaflet
+    - posterior_leaflet
+  optional:
+    - tetrahedrally_embedded_papillary_tips
+  excluded:
+    - aortic_valve
+    - tricuspid_valve
+    - explicit_chordae
+    - electrophysiology
+    - fluid_structure_interaction
+
+representation:
+  lv_myocardium: conforming_tetrahedra
+  chamber_boundaries: unstructured_triangular_surfaces
+  leaflets: open_triangular_manifolds
+  annulus: cyclic_unique_vertex_ring_without_duplicated_endpoint
+  subdivision: evaluation_only_never_changes_control_topology
+
+annulus:
+  shared_physical_ring: true
+  candidate_vertex_counts: [32, 64, 96]
+  # Selected by the prespecified resolution study, E22, recorded in
+  # docs/BENCHMARK_AND_COMPONENT_RESULTS_2026-09-01.md section 11 and
+  # results/benchmark/E22_annular_resolution.json. The rule was fixed before any
+  # result was inspected: the smallest density whose p95 ring representation
+  # error is below 0.50 mm and whose median saddle-amplitude error is below 5
+  # percent. At 64 the chamber passes at 0.489 mm but the valve fails both, at
+  # 0.530 mm and 5.30 percent, and the two share one physical ring so the harder
+  # of them governs. At 96 the valve reaches 0.358 mm and 3.30 percent.
+  selected_vertex_count: 96
+  selected_by: E22_annular_resolution_study
+  selection_note: >
+    The saddle criterion is what rules out 64. Perimeter error alone is blind to
+    the feature a coarse ring destroys, since a ring can reproduce annular
+    circumference while flattening the saddle. The chamber saddle column is
+    0.00 percent at every density and is uninformative rather than reassuring:
+    an ACDC basal ring is extracted from a single short-axis slice and is planar
+    by construction, so it has no saddle to lose.
+  canonical_direction: anterolateral_to_posteromedial_along_anterior_arc
+  landmarks:
+    - anterolateral_commissure
+    - posteromedial_commissure
+    - anterior_saddle_horn
+    - posterior_annular_midpoint
+  chamber_attachment: complete_ring
+  anterior_leaflet_attachment: tagged_anterior_arc
+  posterior_leaflet_attachment: tagged_posterior_arc
+
+assembly:
+  operator: A
+  scalar_form: local_occurrences_by_unique_physical_vertices
+  coordinate_form: scalar_A_kronecker_I3
+  sparse: true
+  binary: true
+  patient_independent: true
+  exactly_one_nonzero_per_local_vertex_row: true
+  patient_barycentric_weights_allowed: false
+  equality_form: Cx_equals_zero
+  nullspace_form: x_equals_x0_plus_Nz_with_CN_equals_zero
+
+patient_alignment:
+  correspondence: Pi_i
+  barycentric_projection: P_i_of_Pi_i
+  anatomy_block_restricted: true
+  rigid_initialization: landmark_SE3
+  surface_stage: robust_trimmed_point_to_triangle
+  features:
+    - additive_oriented_patch_normals
+    - directed_cyclic_annular_coordinates
+    - canonical_landmarks
+  nonrigid_stage: alternating_barycentric_ARAP
+  separate_barriers:
+    - triangle_flip
+    - self_collision
+    - inter_structure_collision
+    - tetrahedral_positive_jacobian
+
+papillary_tips:
+  primary_representation: optional_landmarks
+  attachment: fixed_barycentric_embedding_in_lv_tetrahedra
+  free_floating: false
+  single_vertex_weld: false
+  residual: disabled_then_bounded_only_if_supported_on_validation
+
+required_assets:
+  - name: template_arrays_npz
+    path: null
+    sha256: null
+  - name: frozen_template_manifest_yaml
+    path: null
+    sha256: null
+  - name: clinical_topology_review_record
+    path: null
+    sha256: null
+  - name: annular_resolution_study
+    path: null
+    sha256: null
+
+freeze_criteria:
+  - 32_64_96_annular_resolution_study_completed_on_training_only_donors
+  - topology_and_landmark_tags_reviewed_by_at_least_one_valve_imaging_expert
+  - every_training_donor_fits_without_patient_specific_remeshing
+  - all_surface_patches_are_manifold_with_consistent_orientation
+  - all_lv_tetrahedra_have_positive_signed_volume_above_locked_threshold
+  - exact_attachment_and_assembly_matrix_tests_pass
+  - asset_paths_versions_and_sha256_digests_are_recorded
+  - validation_and_test_subjects_were_not_used_to_choose_topology_or_resolution
+
+freeze_authorization:
+  authorized: false
+  frozen_utc: null
+  approvers: []
+  reason: production_asset_and_resolution_study_not_yet_available

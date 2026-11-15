@@ -1,0 +1,35 @@
+fitting shape space...
+  1/20  31s
+  2/20  60s
+  3/20  90s
+  4/20  118s
+  5/20  146s
+  6/20  174s
+  7/20  203s
+  8/20  232s
+  9/20  261s
+  10/20  291s
+  11/20  321s
+  12/20  350s
+  13/20  380s
+  14/20  407s
+  15/20  437s
+  16/20  465s
+  17/20  494s
+  18/20  524s
+  19/20  554s
+  20/20  583s
+
+arm                   rotation deg  translation mm   phase cycles    seconds
+point_lm                     3.971           4.643         0.0207        0.7
+image_lbfgs                 11.225          24.890         0.1844       14.4
+image_from_point            88.018           4.774         0.1799       13.6
+
+median difference from point_lm (negative favours the image arm)
+  image_lbfgs          rotation_deg          8.0478  p=0.0001 *
+  image_lbfgs          translation_mm       20.2839  p=0.0000 *
+  image_lbfgs          phase_map_cycles      0.1668  p=0.0000 *
+  image_from_point     rotation_deg         82.4079  p=0.0000 *
+  image_from_point     translation_mm       -0.0134  p=0.0997
+  image_from_point     phase_map_cycles      0.1619  p=0.0000 *
+done

@@ -1,0 +1,164 @@
+### checkpoint selection on our validation split (never trained on)
+--- iter_40000
+    174 meshes written, 174 non-empty
+  "status_counts": {
+    "scored": 48,
+    "withheld_extent_disagreement": 10
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 6.511453068048068,
+    "mean": 6.382196287025047,
+    "p95": 7.771227040291594,
+    "max": 8.10471509983914
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 6.050805572637714,
+    "mean": 6.213307938388984,
+    "p95": 7.925243088526415,
+    "max": 9.27626332971431
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 42.87722912104009,
+    "mean": 43.03437309650616,
+    "p95": 48.87923136847596,
+    "max": 50.79474710805854
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.939602673951995,
+    "mean": 47.20623250165183,
+    "p95": 53.74157431775486,
+    "max": 58.03838890665589
+  }
+}
+--- iter_60000
+    174 meshes written, 174 non-empty
+  "status_counts": {
+    "scored": 50,
+    "withheld_extent_disagreement": 8
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 5.9949218467059975,
+    "mean": 6.029948405080659,
+    "p95": 7.192161569007002,
+    "max": 7.591171653490033
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 5.771870536399226,
+    "mean": 5.995136049013752,
+    "p95": 7.953042923535102,
+    "max": 8.684429826768895
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 42.56057918170292,
+    "mean": 42.775219088812555,
+    "p95": 48.9367490787097,
+    "max": 50.87619315184771
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.72490909692204,
+    "mean": 47.02999665598661,
+    "p95": 52.97383038561954,
+    "max": 56.59432172161718
+  }
+}
+--- iter_80000
+    174 meshes written, 174 non-empty
+  "status_counts": {
+    "scored": 50,
+    "withheld_extent_disagreement": 8
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 6.329264790083653,
+    "mean": 6.309809335194449,
+    "p95": 7.605186168340788,
+    "max": 8.091345726135279
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 6.055798949273144,
+    "mean": 6.18089953034952,
+    "p95": 8.075106280353452,
+    "max": 9.098323935113143
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 42.904832975725,
+    "mean": 42.864257992798564,
+    "p95": 49.00346550314339,
+    "max": 50.71324395848366
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.601479366695926,
+    "mean": 47.07227681259412,
+    "p95": 53.44026472286039,
+    "max": 56.08197539994391
+  }
+}
+--- iter_100000
+    174 meshes written, 174 non-empty
+  "status_counts": {
+    "scored": 48,
+    "withheld_extent_disagreement": 10
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 6.250418661284588,
+    "mean": 6.22740851394057,
+    "p95": 7.477652905113966,
+    "max": 7.790556845114372
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 5.900923904335794,
+    "mean": 6.039712524026233,
+    "p95": 7.735865356854311,
+    "max": 8.814351348690487
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 42.3847342650825,
+    "mean": 42.652861379395645,
+    "p95": 48.8537275302145,
+    "max": 52.07543115051292
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.63786823173689,
+    "mean": 46.88688814145133,
+    "p95": 52.05296131005183,
+    "max": 54.83523411155701
+  }
+}
+### pick the best validation checkpoint, then touch test once
+selected: iter_60000
+--- test at iter_60000
+    132 meshes written, 132 non-empty
+  "status_counts": {
+    "scored": 37,
+    "withheld_extent_disagreement": 7
+  },
+  "extent_pick_disagreements": 0,
+  "symmetric_mm_with_endcaps": {
+    "median": 5.7646932671438185,
+    "mean": 5.999052468686266,
+    "p95": 7.603224463501366,
+    "max": 7.838648555409488
+  },
+  "symmetric_mm_no_endcaps": {
+    "median": 5.722102742077359,
+    "mean": 6.06567349341566,
+    "p95": 8.266554977623116,
+    "max": 8.913457400547902
+  },
+  "hausdorff_mm_with_endcaps": {
+    "median": 44.47717109728862,
+    "mean": 43.65021860652677,
+    "p95": 51.54666431061317,
+    "max": 53.28070443691882
+  },
+  "hausdorff_mm_no_endcaps": {
+    "median": 47.785528439576915,
+    "mean": 48.40247369578085,
+    "p95": 57.013103938625534,
+    "max": 61.189193776977085
+  }
+}
+finished 2026-09-16T03:00:07Z

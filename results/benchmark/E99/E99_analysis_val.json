@@ -1,0 +1,190 @@
+{
+  "experiment": "E99",
+  "preregistration": "Docs/E99_MITEA_FUSION_PREREGISTRATION_2026-09-29.md",
+  "split": "val",
+  "front_end_failures": [],
+  "medians": {
+    "same_scan": {
+      "late_fusion_trajectory": {
+        "rotation_deg": 3.6814916723764433,
+        "translation_mm": 3.255505951082318,
+        "phase_error_cycles": 0.010133492004261502,
+        "attachment_residual_mm": 4.310129745079925,
+        "alpha": NaN,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": NaN
+      },
+      "late_fusion_trajectory/cmr_ED": {
+        "rotation_deg": 3.39695099500467,
+        "translation_mm": 6.978324032104338,
+        "phase_error_cycles": 0.023637251110250057,
+        "attachment_residual_mm": 7.739110449010479,
+        "alpha": NaN,
+        "heldout_cmr_mm": 11.050289479101554,
+        "heldout_tee_mm": NaN
+      },
+      "late_fusion_trajectory/echo_ED": {
+        "rotation_deg": 4.615845234956942,
+        "translation_mm": 6.771949585290532,
+        "phase_error_cycles": 0.06273400018080183,
+        "attachment_residual_mm": 10.400595890463745,
+        "alpha": NaN,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": 11.371724065192808
+      },
+      "rooted4d_full": {
+        "rotation_deg": 3.626344803809408,
+        "translation_mm": 3.3526210311351026,
+        "phase_error_cycles": 0.058330504697349156,
+        "attachment_residual_mm": 0.0,
+        "alpha": 0.0,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": NaN
+      },
+      "rooted4d_full/cmr_ED": {
+        "rotation_deg": 3.3538847265964806,
+        "translation_mm": 3.304531046948757,
+        "phase_error_cycles": 0.04858023353383367,
+        "attachment_residual_mm": 0.0,
+        "alpha": 0.0,
+        "heldout_cmr_mm": 3.546440264998859,
+        "heldout_tee_mm": NaN
+      },
+      "rooted4d_full/echo_ED": {
+        "rotation_deg": 4.5889717610305425,
+        "translation_mm": 5.609060797669519,
+        "phase_error_cycles": 0.064964244865717,
+        "attachment_residual_mm": 0.0,
+        "alpha": 0.0,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": 5.139530155232283
+      }
+    },
+    "cross_scan": {
+      "late_fusion_trajectory": {
+        "rotation_deg": 5.08506254652562,
+        "translation_mm": 5.446678574842169,
+        "phase_error_cycles": 0.029736499282103424,
+        "attachment_residual_mm": 3.9265530171398413,
+        "alpha": NaN,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": NaN
+      },
+      "rooted4d_full": {
+        "rotation_deg": 4.512909424444157,
+        "translation_mm": 5.3596417287002796,
+        "phase_error_cycles": 0.06134718267936162,
+        "attachment_residual_mm": 0.0,
+        "alpha": 0.0,
+        "heldout_cmr_mm": NaN,
+        "heldout_tee_mm": NaN
+      }
+    }
+  },
+  "rooted4d_minus_late_fusion": {
+    "same_scan": {
+      "rotation_deg": {
+        "observed": -0.05514686856703532,
+        "subjects": 20,
+        "lower": -0.8678099283084797,
+        "upper": 0.8249897497133478
+      },
+      "translation_mm": {
+        "observed": 0.09711508005278446,
+        "subjects": 20,
+        "lower": -0.5003999011832847,
+        "upper": 0.6560323846800031
+      },
+      "phase_error_cycles": {
+        "observed": 0.048197012693087654,
+        "subjects": 20,
+        "lower": 0.035370036398740194,
+        "upper": 0.061134119989860465
+      }
+    },
+    "same_scan/echo_ED": {
+      "rotation_deg": {
+        "observed": -0.026873473926399605,
+        "subjects": 20,
+        "lower": -1.4852587501370556,
+        "upper": 0.18492538006806303
+      },
+      "translation_mm": {
+        "observed": -1.1628887876210126,
+        "subjects": 20,
+        "lower": -1.7350832393200584,
+        "upper": 0.6455262183041528
+      },
+      "phase_error_cycles": {
+        "observed": 0.0022302446849151725,
+        "subjects": 20,
+        "lower": -0.021938966699792062,
+        "upper": 0.03396021602232874
+      },
+      "heldout_tee_mm": {
+        "observed": -6.232193909960525,
+        "subjects": 20,
+        "lower": -7.313504206146576,
+        "upper": -4.585697581601411
+      }
+    },
+    "same_scan/cmr_ED": {
+      "rotation_deg": {
+        "observed": -0.0430662684081895,
+        "subjects": 20,
+        "lower": -3.1293819628809336,
+        "upper": 0.8603284773589506
+      },
+      "translation_mm": {
+        "observed": -3.6737929851555804,
+        "subjects": 20,
+        "lower": -5.183792822997101,
+        "upper": -1.0627794412921585
+      },
+      "phase_error_cycles": {
+        "observed": 0.024942982423583615,
+        "subjects": 20,
+        "lower": -0.005057318066783445,
+        "upper": 0.046550858882586005
+      },
+      "heldout_cmr_mm": {
+        "observed": -7.503849214102695,
+        "subjects": 20,
+        "lower": -8.631191127444414,
+        "upper": -6.599069963545023
+      }
+    },
+    "cross_scan": {
+      "rotation_deg": {
+        "observed": -0.5721531220814633,
+        "subjects": 20,
+        "lower": -1.1216495618332774,
+        "upper": -0.04331593214500096
+      },
+      "translation_mm": {
+        "observed": -0.08703684614188933,
+        "subjects": 20,
+        "lower": -0.6851232302800305,
+        "upper": 0.14635114903568436
+      },
+      "phase_error_cycles": {
+        "observed": 0.0316106833972582,
+        "subjects": 20,
+        "lower": 0.013847750104751921,
+        "upper": 0.04733852332925853
+      }
+    }
+  },
+  "session_recovery": {
+    "recovered_scan_rescan": -0.3030790398297539,
+    "scan_rescan_rms_mm": 3.530865165736077,
+    "recovered_total": 0.06464907738780606,
+    "total_rms_mm": 5.188367386534379,
+    "estimate_rms_mm": 1.8501462129288937
+  },
+  "alpha": {
+    "values": 40,
+    "nonzero": 0,
+    "max": 0.0
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "experiment": "E117",
+  "preregistration": "Docs/E117_FIELD_REPLICATION_AND_MITEA_PREREGISTRATION_2026-10-24.md",
+  "split": "test",
+  "selection": {
+    "reported": {
+      "R4D+GP": [
+        "shared",
+        0.0,
+        1.0,
+        80.0
+      ],
+      "R4D+GP-session": [
+        "session",
+        0.0,
+        4.0,
+        80.0
+      ]
+    },
+    "es_only": {
+      "R4D+GP": [
+        "shared",
+        2.0,
+        0.5,
+        40.0
+      ],
+      "R4D+GP-session": [
+        "session",
+        0.0,
+        0.5,
+        80.0
+      ]
+    }
+  },
+  "frozen": {
+    "R4D+GP-frozen": [
+      "shared",
+      4.0,
+      0.5,
+      5.0
+    ],
+    "R4D+GP-session-frozen": [
+      "session",
+      4.0,
+      0.5,
+      5.0
+    ]
+  },
+  "statistic": "E99's: per-subject values, difference of medians, 20000 resamples, seed 20260910",
+  "check": {
+    "compared": 40,
+    "not_comparable": 0,
+    "max_abs_difference": {
+      "joint_fit_mm": 0.0,
+      "joint_fit_pose": 0.0,
+      "late_fusion_mm": 0.0,
+      "transfer_mm": 0.0,
+      "gap_any_setting_mm": 0.0
+    },
+    "passed": true
+  },
+  "medians": {
+    "reported": {
+      "Rooted4D": {
+        "echo_ED": 5.98435836561916,
+        "cmr_ED": 3.5900483612537464
+      },
+      "Rooted4D, per-modality field": {
+        "echo_ED": 5.951028885102,
+        "cmr_ED": 4.269721284019658
+      },
+      "Rooted4D, selected field": {
+        "echo_ED": 5.978941145298883,
+        "cmr_ED": 3.3713388464966387
+      },
+      "Rooted4D, selected per-modality field": {
+        "echo_ED": 6.079701222863092,
+        "cmr_ED": 3.5364590214971328
+      },
+      "joint fit": {
+        "echo_ED": 6.049679306916607,
+        "cmr_ED": 3.5221977311895714
+      },
+      "late fusion, frame transfer": {
+        "echo_ED": 8.971397359675375,
+        "cmr_ED": 5.456607439405298
+      },
+      "late fusion, own fit": {
+        "echo_ED": 11.629138652809804,
+        "cmr_ED": 10.859082303494173
+      }
+    },
+    "es_only": {
+      "Rooted4D": {
+        "echo_ED": 6.071790978151307,
+        "cmr_ED": 4.992776648705367
+      },
+      "Rooted4D, per-modality field": {
+        "echo_ED": 5.879957593326715,
+        "cmr_ED": 5.204280833473557
+      },
+      "Rooted4D, selected field": {
+        "echo_ED": 6.051040229136367,
+        "cmr_ED": 5.052098079704365
+      },
+      "Rooted4D, selected per-modality field": {
+        "echo_ED": 6.062406616281888,
+        "cmr_ED": 5.101125219681604
+      },
+      "joint fit": {
+        "echo_ED": 6.01882869221491,
+        "cmr_ED": 5.091609766814997
+      },
+      "late fusion, frame transfer": {
+        "echo_ED": 8.730503835688467,
+        "cmr_ED": 6.068188819033244
+      },
+      "late fusion, own fit": {
+        "echo_ED": 11.653401089272027,
+        "cmr_ED": 12.047593731150624
+      }
+    }
+  },
+  "minus": {
+    "reported": {
+      "Rooted4D - joint fit": {
+        "echo_ED": {
+          "observed": -0.06532094129744692,
+          "subjects": 20,
+          "lower": -0.24858571597059598,
+          "upper": 0.18258591040951178
+        },
+        "cmr_ED": {
+          "observed": 0.06785063006417502,
+          "subjects": 20,
+          "lower": -0.1490720062406541,
+          "upper": 0.38878546305317085
+        }
+      },
+      "Rooted4D - late fusion, frame transfer": {
+        "echo_ED": {
+          "observed": -2.987038994056215,
+          "subjects": 20,
+          "lower": -5.000748946344121,
+          "upper": -1.889999377716152
+        },
+        "cmr_ED": {
+          "observed": -1.8665590781515515,
+          "subjects": 20,
+          "lower": -3.6589473253062224,
+          "upper": -1.338016837390751
+        }
+      },
+      "joint fit - late fusion, frame transfer": {
+        "echo_ED": {
+          "observed": -2.9217180527587683,
+          "subjects": 20,
+          "lower": -4.943188560140772,
+          "upper": -1.8629633505170364
+        },
+        "cmr_ED": {
+          "observed": -1.9344097082157266,
+          "subjects": 20,
+          "lower": -3.676866787487288,
+          "upper": -1.3657781698714735
+        }
+      },
+      "Rooted4D - Rooted4D, per-modality field": {
+        "echo_ED": {
+          "observed": 0.03332948051716045,
+          "subjects": 20,
+          "lower": -0.2728130036956973,
+          "upper": 0.42243539849277756
+        },
+        "cmr_ED": {
+          "observed": -0.6796729227659117,
+          "subjects": 20,
+          "lower": -1.2471170915307157,
+          "upper": 0.11594907376509767
+        }
+      },
+      "Rooted4D, per-modality field - joint fit": {
+        "echo_ED": {
+          "observed": -0.09865042181460737,
+          "subjects": 20,
+          "lower": -0.26976991727497523,
+          "upper": 0.09619986387040225
+        },
+        "cmr_ED": {
+          "observed": 0.7475235528300868,
+          "subjects": 20,
+          "lower": 0.08025462491925817,
+          "upper": 1.2468444890061914
+        }
+      },
+      "Rooted4D, selected field - joint fit": {
+        "echo_ED": {
+          "observed": -0.07073816161772406,
+          "subjects": 20,
+          "lower": -0.25558282252859676,
+          "upper": 0.17152743394654912
+        },
+        "cmr_ED": {
+          "observed": -0.15085888469293263,
+          "subjects": 20,
+          "lower": -0.3891665454929636,
+          "upper": 0.33175243846954894
+        }
+      },
+      "Rooted4D, selected per-modality field - joint fit": {
+        "echo_ED": {
+          "observed": 0.030021915946484512,
+          "subjects": 20,
+          "lower": -0.011662933725210323,
+          "upper": 0.17387247948927698
+        },
+        "cmr_ED": {
+          "observed": 0.014261290307561403,
+          "subjects": 20,
+          "lower": -0.24475559611122888,
+          "upper": 0.15077374620954886
+        }
+      },
+      "joint fit - late fusion, own fit": {
+        "echo_ED": {
+          "observed": -5.579459345893197,
+          "subjects": 20,
+          "lower": -7.375028048456626,
+          "upper": -3.611699499612275
+        },
+        "cmr_ED": {
+          "observed": -7.3368845723046014,
+          "subjects": 20,
+          "lower": -8.671020010262918,
+          "upper": -6.443340034720888
+        }
+      }
+    },
+    "es_only": {
+      "Rooted4D - joint fit": {
+        "echo_ED": {
+          "observed": 0.05296228593639629,
+          "subjects": 20,
+          "lower": -0.14627849061334963,
+          "upper": 0.2330237456894455
+        },
+        "cmr_ED": {
+          "observed": -0.09883311810963047,
+          "subjects": 20,
+          "lower": -0.20939142775188202,
+          "upper": 0.12630867154553815
+        }
+      },
+      "Rooted4D - late fusion, frame transfer": {
+        "echo_ED": {
+          "observed": -2.65871285753716,
+          "subjects": 20,
+          "lower": -6.2946763752719574,
+          "upper": -0.4848063432859483
+        },
+        "cmr_ED": {
+          "observed": -1.0754121703278772,
+          "subjects": 20,
+          "lower": -2.729721446321758,
+          "upper": 0.7171987860632338
+        }
+      },
+      "joint fit - late fusion, frame transfer": {
+        "echo_ED": {
+          "observed": -2.711675143473556,
+          "subjects": 20,
+          "lower": -6.319666955864322,
+          "upper": -0.5366466637397735
+        },
+        "cmr_ED": {
+          "observed": -0.9765790522182467,
+          "subjects": 20,
+          "lower": -2.5774777199745342,
+          "upper": 0.7059169248175374
+        }
+      },
+      "Rooted4D - Rooted4D, per-modality field": {
+        "echo_ED": {
+          "observed": 0.19183338482459167,
+          "subjects": 20,
+          "lower": -0.2091410356234844,
+          "upper": 0.49672316265959626
+        },
+        "cmr_ED": {
+          "observed": -0.21150418476818977,
+          "subjects": 20,
+          "lower": -0.34039921302885645,
+          "upper": 0.07893954826282723
+        }
+      },
+      "Rooted4D, per-modality field - joint fit": {
+        "echo_ED": {
+          "observed": -0.13887109888819538,
+          "subjects": 20,
+          "lower": -0.26844537826940496,
+          "upper": 0.0753601771961705
+        },
+        "cmr_ED": {
+          "observed": 0.1126710666585593,
+          "subjects": 20,
+          "lower": -0.03668570275403393,
+          "upper": 0.13100778527697443
+        }
+      },
+      "Rooted4D, selected field - joint fit": {
+        "echo_ED": {
+          "observed": 0.03221153692145684,
+          "subjects": 20,
+          "lower": -0.15494922004373102,
+          "upper": 0.2052121775800284
+        },
+        "cmr_ED": {
+          "observed": -0.039511687110632465,
+          "subjects": 20,
+          "lower": -0.23180035605983207,
+          "upper": 0.13033925968788918
+        }
+      },
+      "Rooted4D, selected per-modality field - joint fit": {
+        "echo_ED": {
+          "observed": 0.04357792406697758,
+          "subjects": 20,
+          "lower": -0.01582847926150599,
+          "upper": 0.0848816347646979
+        },
+        "cmr_ED": {
+          "observed": 0.009515452866606822,
+          "subjects": 20,
+          "lower": -0.020475079285501074,
+          "upper": 0.02866970647856526
+        }
+      },
+      "joint fit - late fusion, own fit": {
+        "echo_ED": {
+          "observed": -5.634572397057116,
+          "subjects": 20,
+          "lower": -7.507943372991211,
+          "upper": -3.3881074294681093
+        },
+        "cmr_ED": {
+          "observed": -6.955983964335626,
+          "subjects": 20,
+          "lower": -8.235181866751066,
+          "upper": -4.489799406417337
+        }
+      }
+    }
+  },
+  "between_conventions": {
+    "joint fit": {
+      "echo_ED": {
+        "observed": -0.0308506147016967,
+        "subjects": 20,
+        "lower": -0.9245002643661435,
+        "upper": 0.8993467252187894
+      },
+      "cmr_ED": {
+        "observed": 1.569412035625426,
+        "subjects": 20,
+        "lower": 0.7456549835942439,
+        "upper": 3.463504017826079
+      }
+    },
+    "late fusion, frame transfer": {
+      "echo_ED": {
+        "observed": -0.24089352398690878,
+        "subjects": 20,
+        "lower": -2.4305000823669047,
+        "upper": 2.7455813095559005
+      },
+      "cmr_ED": {
+        "observed": 0.6115813796279461,
+        "subjects": 20,
+        "lower": -0.254632887419314,
+        "upper": 1.0235622782883915
+      }
+    },
+    "Rooted4D": {
+      "echo_ED": {
+        "observed": 0.08743261253214651,
+        "subjects": 20,
+        "lower": -0.9010097284948699,
+        "upper": 0.9152558794158532
+      },
+      "cmr_ED": {
+        "observed": 1.4027282874516205,
+        "subjects": 20,
+        "lower": 0.7057982855838292,
+        "upper": 3.3222998184141694
+      }
+    }
+  },
+  "predictions": {
+    "M1_field_lower_than_joint_fit": {
+      "echo_ED": false,
+      "cmr_ED": false
+    },
+    "M2_field_lower_than_frame_transfer": {
+      "echo_ED": true,
+      "cmr_ED": false
+    },
+    "M3_joint_fit_lower_than_frame_transfer": {
+      "echo_ED": true,
+      "cmr_ED": false
+    }
+  }
+}

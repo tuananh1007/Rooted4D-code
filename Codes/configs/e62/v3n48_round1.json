@@ -1,0 +1,606 @@
+{
+  "experiment": "E62",
+  "preregistration": "Docs/E62_PREREGISTRATION_2026-09-24.md",
+  "benchmark": "data/derived/semisynthetic-real-v3-n48",
+  "split": "val",
+  "start": "input_derived",
+  "models": {
+    "G": {
+      "builder": "global",
+      "n_modes": 48
+    },
+    "S": {
+      "builder": "structured",
+      "interface_dim": 12,
+      "interior_dim": 12,
+      "coordinates": "covariance"
+    }
+  },
+  "base_config": {
+    "fourier_order": 3,
+    "session_order": 1,
+    "max_iterations": 40,
+    "covariance_aware_identity_prior": true,
+    "identity_prior_scale_floor": 0.005,
+    "session_includes_offset": false
+  },
+  "variants": [
+    {
+      "name": "G/joint/w=0.25",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "G/joint/w=0.5",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "G/joint/w=1",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "G/joint/w=2",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "G/joint/w=4",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "G/joint/w=8",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "G/joint/w=16",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "G/joint/w=32",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "G/joint/w=64",
+      "model": "G",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=0.25",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=0.5",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=1",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=2",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=4",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=8",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=16",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=32",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "G/exact_no_gauges/w=64",
+      "model": "G",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=0.25",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "G/cmr_only/w=0.5",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "G/cmr_only/w=1",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=2",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=4",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=8",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=16",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=32",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "G/cmr_only/w=64",
+      "model": "G",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=0.25",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "G/tee_only/w=0.5",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "G/tee_only/w=1",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=2",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=4",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=8",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=16",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=32",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "G/tee_only/w=64",
+      "model": "G",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "S/joint/w=0.25",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "S/joint/w=0.5",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "S/joint/w=1",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "S/joint/w=2",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "S/joint/w=4",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "S/joint/w=8",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "S/joint/w=16",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "S/joint/w=32",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "S/joint/w=64",
+      "model": "S",
+      "arm": "rooted4d_full",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=0.25",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=0.5",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=1",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=2",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=4",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=8",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=16",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=32",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "S/exact_no_gauges/w=64",
+      "model": "S",
+      "arm": "joint_exact_no_gauges",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=0.25",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "S/cmr_only/w=0.5",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "S/cmr_only/w=1",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=2",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=4",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=8",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=16",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=32",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "S/cmr_only/w=64",
+      "model": "S",
+      "arm": "cmr_only",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=0.25",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 0.25
+      }
+    },
+    {
+      "name": "S/tee_only/w=0.5",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 0.5
+      }
+    },
+    {
+      "name": "S/tee_only/w=1",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 1.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=2",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 2.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=4",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 4.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=8",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 8.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=16",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 16.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=32",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 32.0
+      }
+    },
+    {
+      "name": "S/tee_only/w=64",
+      "model": "S",
+      "arm": "tee_only",
+      "overrides": {
+        "identity_prior_weight": 64.0
+      }
+    }
+  ],
+  "round": "round1"
+}

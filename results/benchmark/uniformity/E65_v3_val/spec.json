@@ -1,0 +1,405 @@
+{
+  "base_config": {
+    "covariance_aware_identity_prior": true,
+    "fourier_order": 3,
+    "identity_prior_scale_floor": 0.005,
+    "max_iterations": 40,
+    "session_includes_offset": false,
+    "session_order": 1
+  },
+  "benchmark": "data/derived/semisynthetic-real-v3",
+  "experiment": "E65",
+  "models": {
+    "S": {
+      "builder": "structured",
+      "coordinates": "covariance",
+      "interface_dim": 12,
+      "interior_dim": 12
+    }
+  },
+  "preregistration": "Docs/E65_E72_UNIFORMITY_PREREGISTRATION_2026-09-24.md",
+  "split": "val",
+  "start": "input_derived",
+  "variants": [
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=2/wh=0.03",
+      "overrides": {
+        "fourier_order": 2,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=2/wh=0.1",
+      "overrides": {
+        "fourier_order": 2,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=2/wh=0.3",
+      "overrides": {
+        "fourier_order": 2,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=2/wh=1",
+      "overrides": {
+        "fourier_order": 2,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=3/wh=0.03",
+      "overrides": {
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=3/wh=0.1",
+      "overrides": {
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=3/wh=0.3",
+      "overrides": {
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=3/wh=1",
+      "overrides": {
+        "fourier_order": 3,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=4/wh=0.03",
+      "overrides": {
+        "fourier_order": 4,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=4/wh=0.1",
+      "overrides": {
+        "fourier_order": 4,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=4/wh=0.3",
+      "overrides": {
+        "fourier_order": 4,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=4/wh=1",
+      "overrides": {
+        "fourier_order": 4,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=6/wh=0.03",
+      "overrides": {
+        "fourier_order": 6,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=6/wh=0.1",
+      "overrides": {
+        "fourier_order": 6,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=6/wh=0.3",
+      "overrides": {
+        "fourier_order": 6,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/periodic/k=6/wh=1",
+      "overrides": {
+        "fourier_order": 6,
+        "identity_prior_weight": 2.0,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=4/wh=0.03",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 4,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=4/wh=0.1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 4,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=4/wh=0.3",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 4,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=4/wh=1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 4,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=6/wh=0.03",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 6,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=6/wh=0.1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 6,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=6/wh=0.3",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 6,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=6/wh=1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 6,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=8/wh=0.03",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 8,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=8/wh=0.1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 8,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=8/wh=0.3",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 8,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=8/wh=1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 8,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=12/wh=0.03",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 12,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=12/wh=0.1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 12,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=12/wh=0.3",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 12,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=12/wh=1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 12,
+        "motion_prior_weight": 1.0
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=16/wh=0.03",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 16,
+        "motion_prior_weight": 0.03
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=16/wh=0.1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 16,
+        "motion_prior_weight": 0.1
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=16/wh=0.3",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 16,
+        "motion_prior_weight": 0.3
+      }
+    },
+    {
+      "arm": "rooted4d_full",
+      "model": "S",
+      "name": "S/per_frame/n=16/wh=1",
+      "overrides": {
+        "identity_prior_weight": 2.0,
+        "motion_model": "per_frame",
+        "motion_nodes": 16,
+        "motion_prior_weight": 1.0
+      }
+    }
+  ]
+}

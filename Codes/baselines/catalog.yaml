@@ -1,0 +1,45 @@
+catalog_version: "2026-08-23"
+baselines:
+  ghdheart:
+    title: "GHDHeart"
+    url: "https://github.com/Luo-Yihao/GHDHeart"
+    status: "available"
+    license: "MIT"
+    role: "Differentiable CMR slicing and mesh fitting"
+  deepmitral:
+    title: "DeepMitral"
+    url: "https://github.com/pcarnah/DeepMitral"
+    status: "available"
+    license: "MIT"
+    role: "Static 3D TEE leaflet initializer"
+  tetheart:
+    title: "TetHeart"
+    url: "https://github.com/Scalsol/TetHeart"
+    status: "available"
+    license: "No explicit repository license identified in audit"
+    role: "Sparse/full-stack cine-CMR 4D mesh baseline"
+  vecheart:
+    title: "VecHeart"
+    url: "https://github.com/Scalsol/VecHeart"
+    status: "available"
+    license: "No explicit repository license identified in audit"
+    role: "Part-aware cardiac anatomy prior"
+  mesh4d:
+    title: "Mesh4D"
+    url: "https://github.com/MengyunQ/Mesh4D"
+    status: "available"
+    license: "MIT"
+    role: "Motion-aware multi-view CMR baseline"
+  mtcnet:
+    title: "MTCNet"
+    url: "https://github.com/crs524/MTCNet"
+    status: "placeholder_only_code_and_data_coming_soon"
+    license: "Not established"
+    role: "Release watch for 4D mitral segmentation"
+  cinemesh4d:
+    title: "CineMesh4D"
+    url: "https://arxiv.org/abs/2605.13994"
+    status: "paper_only_code_promised_after_acceptance"
+    license: "Not established"
+    role: "Release watch for sparse cine-MRI whole-heart reconstruction"
+

@@ -1,0 +1,6 @@
+fitting shape space from train split...
+offset_share_in_warp_span_raw              median       0.9242   p95       0.9492
+offset_share_explained_by_gauge_alone      median     0.002289   p95      0.05993
+offset_share_in_warp_span_after_gauge      median       0.9239   p95        0.949
+warp_condition_number_raw                  median    4.249e+09   p95    5.237e+09
+warp_condition_number_after_gauge          median         11.8   p95        21.71

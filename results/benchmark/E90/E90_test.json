@@ -1,0 +1,3482 @@
+{
+  "experiment": "E90",
+  "preregistration": "Docs/E90_RELATIONAL_MEASUREMENTS_PREREGISTRATION_2026-09-28.md",
+  "split": "test",
+  "rows": "/work/nvme/bhio/avu2/Rooted4D/results/e59/8f63afeccd74f4d2",
+  "joint_arm": "S/joint_rerun",
+  "summary": {
+    "samples": 60,
+    "identities": 30,
+    "median_absolute_error": {
+      "apex_distance_anterior_mm": {
+        "rooted4d": 0.6733811430138132,
+        "late_fusion": 1.2838575350442554
+      },
+      "apex_distance_posterior_mm": {
+        "rooted4d": 0.5146733256878662,
+        "late_fusion": 1.3334538954343387
+      },
+      "axis_angle_deg": {
+        "rooted4d": 2.0114362672238286,
+        "late_fusion": 2.774090571368717
+      },
+      "clearance_mm": {
+        "rooted4d": 0.7172548955415365,
+        "late_fusion": 1.1025605777596112
+      },
+      "area_mm2": {
+        "rooted4d": 29.98632936399696,
+        "late_fusion": 32.63056363970202,
+        "late_fusion_chamber_ring": 35.51211110728519,
+        "late_fusion_oracle": 20.178945856616963
+      },
+      "perimeter_mm": {
+        "rooted4d": 1.8269433426193586,
+        "late_fusion": 1.8658506750966595,
+        "late_fusion_chamber_ring": 1.8894410810480764,
+        "late_fusion_oracle": 1.0650862688490008
+      },
+      "intercommissural_mm": {
+        "rooted4d": 0.49263297721017807,
+        "late_fusion": 0.875502610872239,
+        "late_fusion_chamber_ring": 0.5401479263847229,
+        "late_fusion_oracle": 0.42413058610907584
+      },
+      "anteroposterior_mm": {
+        "rooted4d": 0.7796966812419477,
+        "late_fusion": 0.6749212743461861,
+        "late_fusion_chamber_ring": 0.7710757867154854,
+        "late_fusion_oracle": 0.4870909778235095
+      }
+    },
+    "illustrative_fractions": {
+      "apex_distance_anterior_mm": {
+        "rooted4d": {
+          ">3": 0.016666666666666666,
+          ">5": 0.0
+        },
+        "late_fusion": {
+          ">3": 0.11666666666666667,
+          ">5": 0.03333333333333333
+        }
+      },
+      "apex_distance_posterior_mm": {
+        "rooted4d": {
+          ">3": 0.0,
+          ">5": 0.0
+        },
+        "late_fusion": {
+          ">3": 0.1,
+          ">5": 0.0
+        }
+      },
+      "axis_angle_deg": {
+        "rooted4d": {
+          ">5": 0.15,
+          ">10": 0.0
+        },
+        "late_fusion": {
+          ">5": 0.23333333333333334,
+          ">10": 0.05
+        }
+      },
+      "clearance_mm": {
+        "rooted4d": {
+          ">3": 0.05,
+          ">5": 0.0
+        },
+        "late_fusion": {
+          ">3": 0.08333333333333333,
+          ">5": 0.016666666666666666
+        }
+      }
+    },
+    "paired": {
+      "apex_distance_anterior_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.767025536462377,
+          "lower": -1.3661794558791982,
+          "upper": -0.332255055817379,
+          "reading": "Rooted4D lower"
+        }
+      },
+      "apex_distance_posterior_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.9843898010412069,
+          "lower": -1.2154739738619682,
+          "upper": -0.6375266416337159,
+          "reading": "Rooted4D lower"
+        }
+      },
+      "axis_angle_deg": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.7844822974167585,
+          "lower": -1.8030037034369357,
+          "upper": -0.01724132958914737,
+          "reading": "Rooted4D lower"
+        }
+      },
+      "clearance_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.3834899748702636,
+          "lower": -0.9820400535922751,
+          "upper": -0.14241503190210505,
+          "reading": "Rooted4D lower"
+        }
+      },
+      "area_mm2": {
+        "rooted4d_minus_late_fusion": {
+          "observed": 1.1907811383117632,
+          "lower": -24.005108115892543,
+          "upper": 11.743044989452414,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_chamber_ring": {
+          "observed": -9.859744837619814,
+          "lower": -18.094579558974203,
+          "upper": 2.1735805849372127,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_oracle": {
+          "observed": 12.438578304106386,
+          "lower": 0.13964855515970953,
+          "upper": 23.039489493529707,
+          "reading": "Rooted4D higher"
+        }
+      },
+      "perimeter_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.06946160902874965,
+          "lower": -0.36183585893549264,
+          "upper": 0.438533128483769,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_chamber_ring": {
+          "observed": 0.21140264705804412,
+          "lower": -0.49688932762960647,
+          "upper": 0.8101248539336297,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_oracle": {
+          "observed": 1.093865061286877,
+          "lower": 0.3563558622451808,
+          "upper": 1.5259885292657387,
+          "reading": "Rooted4D higher"
+        }
+      },
+      "intercommissural_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": -0.4009129010430268,
+          "lower": -0.7218791832325854,
+          "upper": 0.02393155800521053,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_chamber_ring": {
+          "observed": -0.16172376813991463,
+          "lower": -0.4242205987837391,
+          "upper": 0.21857559423217232,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_oracle": {
+          "observed": 0.07706739532452467,
+          "lower": -0.10446639830015773,
+          "upper": 0.3754208896839941,
+          "reading": "no detectable difference"
+        }
+      },
+      "anteroposterior_mm": {
+        "rooted4d_minus_late_fusion": {
+          "observed": 0.0047699255594348955,
+          "lower": -0.2986218503865664,
+          "upper": 0.20028516555951548,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_chamber_ring": {
+          "observed": 0.012119614217978025,
+          "lower": -0.2579357635255253,
+          "upper": 0.23933122838452725,
+          "reading": "no detectable difference"
+        },
+        "rooted4d_minus_late_fusion_oracle": {
+          "observed": 0.25497871631507074,
+          "lower": 0.04354350490410641,
+          "upper": 0.4363301440409817,
+          "reading": "Rooted4D higher"
+        }
+      }
+    },
+    "spearman_late_fusion": {
+      "apex_distance_anterior_mm": {
+        "translation_mm": 0.20294526257293696,
+        "rotation_deg": 0.6272853570436233,
+        "phase_map_cycles": 0.14820783550986388
+      },
+      "apex_distance_posterior_mm": {
+        "translation_mm": 0.3424840233398167,
+        "rotation_deg": 0.6617393720477912,
+        "phase_map_cycles": 0.09858293970547376
+      },
+      "axis_angle_deg": {
+        "translation_mm": 0.25412614615170886,
+        "rotation_deg": 0.1060294526257294,
+        "phase_map_cycles": 0.07618782995276469
+      },
+      "clearance_mm": {
+        "translation_mm": 0.10197277021394835,
+        "rotation_deg": 0.2449569324812448,
+        "phase_map_cycles": 0.08702417338149487
+      }
+    },
+    "penetration_samples": {
+      "truth": 60,
+      "rooted4d": 60,
+      "late_fusion": 60
+    },
+    "code_check_cmr_noise_rms_mm": {
+      "median": 0.34993418813965516,
+      "max": 0.35850486653168073
+    }
+  },
+  "samples": [
+    {
+      "sample": "sample-019a43ff852a847f.npz",
+      "identity": "identity-246895936606db43",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        113.83440502503507,
+        157.42330444407656
+      ],
+      "cmr_noise_check_rms_mm": 0.35179223919321484,
+      "truth": {
+        "apex_distance_anterior_mm": 90.30568668773539,
+        "apex_distance_posterior_mm": 104.56322784131426,
+        "axis_angle_deg": 166.5248770302953,
+        "clearance_mm": 46.790168233753654,
+        "penetrating_vertices": 24,
+        "area_mm2": 2878.559019257555,
+        "perimeter_mm": 192.4285774680823,
+        "intercommissural_mm": 58.14231930068245,
+        "anteroposterior_mm": 63.96735085251633
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 91.60321182771112,
+        "apex_distance_posterior_mm": 105.10053896464451,
+        "axis_angle_deg": 161.8406879539247,
+        "clearance_mm": 46.253556100916384,
+        "penetrating_vertices": 24,
+        "area_mm2": 2992.6634537778446,
+        "perimeter_mm": 196.05549929509917,
+        "intercommissural_mm": 59.45055889343316,
+        "anteroposterior_mm": 64.85782230877298
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 88.99495007274074,
+        "apex_distance_posterior_mm": 102.8983313382138,
+        "axis_angle_deg": 165.47615724694012,
+        "clearance_mm": 44.40802135285456,
+        "penetrating_vertices": 24,
+        "area_mm2": 3085.0783808618075,
+        "perimeter_mm": 198.47064382774914,
+        "intercommissural_mm": 60.96549166237124,
+        "anteroposterior_mm": 65.88265881451879
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2964.5086355490766,
+        "perimeter_mm": 195.2572685525593,
+        "intercommissural_mm": 59.251116482422105,
+        "anteroposterior_mm": 64.29845923435492
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.8785571355912145,
+        "rotation_deg": 2.5448689099541815,
+        "phase_map_cycles": 0.008500092315070318
+      }
+    },
+    {
+      "sample": "sample-04595194ac6631f1.npz",
+      "identity": "identity-4bfc48d8928e4efc",
+      "tau_es": 0.015625,
+      "truth_volume_range_ml": [
+        57.22831049394287,
+        79.14594702295952
+      ],
+      "cmr_noise_check_rms_mm": 0.35396917124940513,
+      "truth": {
+        "apex_distance_anterior_mm": 73.1479281596045,
+        "apex_distance_posterior_mm": 88.78131405269637,
+        "axis_angle_deg": 139.27348735148288,
+        "clearance_mm": 40.6102072062706,
+        "penetrating_vertices": 24,
+        "area_mm2": 1492.9488818163804,
+        "perimeter_mm": 139.15058745331913,
+        "intercommissural_mm": 40.651055675022384,
+        "anteroposterior_mm": 45.36321606578984
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 74.4135651939922,
+        "apex_distance_posterior_mm": 90.16748097280284,
+        "axis_angle_deg": 136.576684351063,
+        "clearance_mm": 42.97345170205456,
+        "penetrating_vertices": 24,
+        "area_mm2": 1500.4772527999892,
+        "perimeter_mm": 138.71488459034526,
+        "intercommissural_mm": 41.34615662672969,
+        "anteroposterior_mm": 45.220738663942626
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 73.75604492375693,
+        "apex_distance_posterior_mm": 89.42842034379808,
+        "axis_angle_deg": 136.4070522059783,
+        "clearance_mm": 42.56146958952243,
+        "penetrating_vertices": 24,
+        "area_mm2": 1525.8394559990227,
+        "perimeter_mm": 139.71610481996956,
+        "intercommissural_mm": 42.0500244188259,
+        "anteroposterior_mm": 45.73548642858926
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1485.092145521488,
+        "perimeter_mm": 138.1665821108606,
+        "intercommissural_mm": 41.17298507210711,
+        "anteroposterior_mm": 44.81405416851513
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.5375498015924682,
+        "rotation_deg": 0.7719412393119641,
+        "phase_map_cycles": 0.008332100057866554
+      }
+    },
+    {
+      "sample": "sample-082fe8d96ea6c326.npz",
+      "identity": "identity-17b0926aeb9fe2dd",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        111.96269555237282,
+        154.2185214747131
+      ],
+      "cmr_noise_check_rms_mm": 0.3544176249264666,
+      "truth": {
+        "apex_distance_anterior_mm": 89.92405881236989,
+        "apex_distance_posterior_mm": 96.37253173477836,
+        "axis_angle_deg": 166.8498469513351,
+        "clearance_mm": 55.97891599869248,
+        "penetrating_vertices": 24,
+        "area_mm2": 2293.809378422971,
+        "perimeter_mm": 172.91140796976248,
+        "intercommissural_mm": 57.56716311941698,
+        "anteroposterior_mm": 52.498185159016565
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 89.88523756292909,
+        "apex_distance_posterior_mm": 94.88810217489585,
+        "axis_angle_deg": 165.65427897990077,
+        "clearance_mm": 55.66378550680312,
+        "penetrating_vertices": 24,
+        "area_mm2": 2344.32230224191,
+        "perimeter_mm": 174.52759743007,
+        "intercommissural_mm": 58.23742335225675,
+        "anteroposterior_mm": 52.85230080855466
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 91.41034637265058,
+        "apex_distance_posterior_mm": 96.69442276438437,
+        "axis_angle_deg": 167.5733377042218,
+        "clearance_mm": 57.108289961482704,
+        "penetrating_vertices": 24,
+        "area_mm2": 2313.968534496155,
+        "perimeter_mm": 173.4264483675189,
+        "intercommissural_mm": 57.655277038572436,
+        "anteroposterior_mm": 52.30429692617722
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2375.8965852138367,
+        "perimeter_mm": 175.4509339232469,
+        "intercommissural_mm": 58.43125977826385,
+        "anteroposterior_mm": 53.00965765221572
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.74778649968975,
+        "rotation_deg": 2.86306710635811,
+        "phase_map_cycles": 0.025957659105739106
+      }
+    },
+    {
+      "sample": "sample-0c157b134ccf1050.npz",
+      "identity": "identity-8a28fc5e96514ce7",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        84.44601775409129,
+        116.32767721576033
+      ],
+      "cmr_noise_check_rms_mm": 0.35146874569351594,
+      "truth": {
+        "apex_distance_anterior_mm": 87.97445396209218,
+        "apex_distance_posterior_mm": 99.6996486829479,
+        "axis_angle_deg": 151.1409837994454,
+        "clearance_mm": 48.5241536106577,
+        "penetrating_vertices": 24,
+        "area_mm2": 1364.5190231885695,
+        "perimeter_mm": 133.69176632260633,
+        "intercommissural_mm": 43.53318149170946,
+        "anteroposterior_mm": 41.391578312044075
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 87.25759155321256,
+        "apex_distance_posterior_mm": 98.92438511164715,
+        "axis_angle_deg": 151.27535832716617,
+        "clearance_mm": 48.65831312835991,
+        "penetrating_vertices": 24,
+        "area_mm2": 1365.1531431727315,
+        "perimeter_mm": 132.89023838475066,
+        "intercommissural_mm": 44.21858636516366,
+        "anteroposterior_mm": 40.72717349433936
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 86.78792059442497,
+        "apex_distance_posterior_mm": 98.41953931195954,
+        "axis_angle_deg": 151.87662599649508,
+        "clearance_mm": 48.530710881415814,
+        "penetrating_vertices": 24,
+        "area_mm2": 1403.6052176896465,
+        "perimeter_mm": 134.11001527417335,
+        "intercommissural_mm": 44.45188916099025,
+        "anteroposterior_mm": 41.08225039397668
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1339.134246244218,
+        "perimeter_mm": 131.8782228844521,
+        "intercommissural_mm": 43.72563930840007,
+        "anteroposterior_mm": 40.39423467478135
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.383534700241798,
+        "rotation_deg": 1.0085946398898444,
+        "phase_map_cycles": 0.015847710392835168
+      }
+    },
+    {
+      "sample": "sample-17f7d0016b81620e.npz",
+      "identity": "identity-4b5cd9c3407f48d9",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        125.15230899982117,
+        172.23684136971585
+      ],
+      "cmr_noise_check_rms_mm": 0.3444650095934418,
+      "truth": {
+        "apex_distance_anterior_mm": 90.7535960492021,
+        "apex_distance_posterior_mm": 106.33520046071762,
+        "axis_angle_deg": 149.33754352469919,
+        "clearance_mm": 50.006290117796766,
+        "penetrating_vertices": 24,
+        "area_mm2": 2315.0937812512057,
+        "perimeter_mm": 174.80660011710847,
+        "intercommissural_mm": 50.63288966667671,
+        "anteroposterior_mm": 57.57674060531925
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 91.30155217014753,
+        "apex_distance_posterior_mm": 106.0504424996618,
+        "axis_angle_deg": 148.3073669943861,
+        "clearance_mm": 49.03720508867979,
+        "penetrating_vertices": 24,
+        "area_mm2": 2389.1507151318874,
+        "perimeter_mm": 177.5359803337603,
+        "intercommissural_mm": 52.06127779559505,
+        "anteroposterior_mm": 58.74684637480462
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 92.74124036633879,
+        "apex_distance_posterior_mm": 107.5489481093342,
+        "axis_angle_deg": 147.47646184574185,
+        "clearance_mm": 50.54129975164433,
+        "penetrating_vertices": 24,
+        "area_mm2": 2407.1347855776007,
+        "perimeter_mm": 177.3102091115046,
+        "intercommissural_mm": 53.524201041720985,
+        "anteroposterior_mm": 58.27379953106544
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2395.8762490974887,
+        "perimeter_mm": 177.9106464838139,
+        "intercommissural_mm": 51.070083037033235,
+        "anteroposterior_mm": 59.43590668408792
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.7193982516227264,
+        "rotation_deg": 2.679452018158813,
+        "phase_map_cycles": 0.01713959847470159
+      }
+    },
+    {
+      "sample": "sample-1fdc05c124193ab4.npz",
+      "identity": "identity-aff18d874443ffe6",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        188.46303997265028,
+        261.9769611767906
+      ],
+      "cmr_noise_check_rms_mm": 0.3526771626566476,
+      "truth": {
+        "apex_distance_anterior_mm": 97.4840136246312,
+        "apex_distance_posterior_mm": 111.1328460319188,
+        "axis_angle_deg": 138.87001779217388,
+        "clearance_mm": 53.969800536579314,
+        "penetrating_vertices": 24,
+        "area_mm2": 2899.6418484267024,
+        "perimeter_mm": 193.1236265383293,
+        "intercommissural_mm": 57.76240059924384,
+        "anteroposterior_mm": 62.017273453676246
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 96.70295052800431,
+        "apex_distance_posterior_mm": 109.81998644364808,
+        "axis_angle_deg": 134.387434224097,
+        "clearance_mm": 54.308571122439396,
+        "penetrating_vertices": 24,
+        "area_mm2": 2920.779668456811,
+        "perimeter_mm": 192.98732075302178,
+        "intercommissural_mm": 57.35116729381853,
+        "anteroposterior_mm": 63.55558713124776
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 94.52956755650415,
+        "apex_distance_posterior_mm": 108.10387044831664,
+        "axis_angle_deg": 136.92564480306785,
+        "clearance_mm": 53.13648809947109,
+        "penetrating_vertices": 24,
+        "area_mm2": 2934.33255271318,
+        "perimeter_mm": 193.59744482108013,
+        "intercommissural_mm": 57.78044953175212,
+        "anteroposterior_mm": 63.74098341346737
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2895.8223835161325,
+        "perimeter_mm": 192.16930206225544,
+        "intercommissural_mm": 57.180587676130216,
+        "anteroposterior_mm": 62.774262205813606
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.942458360894942,
+        "rotation_deg": 3.4700458753027736,
+        "phase_map_cycles": 0.017459746690109385
+      }
+    },
+    {
+      "sample": "sample-2a9d33f2f9774e0d.npz",
+      "identity": "identity-4b5cd9c3407f48d9",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        125.15230899982117,
+        172.23684136971585
+      ],
+      "cmr_noise_check_rms_mm": 0.3518386344950512,
+      "truth": {
+        "apex_distance_anterior_mm": 90.7535960492021,
+        "apex_distance_posterior_mm": 106.33520046071762,
+        "axis_angle_deg": 149.33754352469919,
+        "clearance_mm": 50.006290117796766,
+        "penetrating_vertices": 24,
+        "area_mm2": 2315.0937812512057,
+        "perimeter_mm": 174.80660011710847,
+        "intercommissural_mm": 50.63288966667671,
+        "anteroposterior_mm": 57.57674060531925
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 90.59981097813967,
+        "apex_distance_posterior_mm": 105.91978687918828,
+        "axis_angle_deg": 148.40862732430432,
+        "clearance_mm": 50.657418154954385,
+        "penetrating_vertices": 24,
+        "area_mm2": 2412.8529871053533,
+        "perimeter_mm": 178.01089932022478,
+        "intercommissural_mm": 51.96972608684455,
+        "anteroposterior_mm": 59.14318606784765
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 91.01233805115089,
+        "apex_distance_posterior_mm": 106.25864668033303,
+        "axis_angle_deg": 152.62486454092834,
+        "clearance_mm": 51.5069763407056,
+        "penetrating_vertices": 24,
+        "area_mm2": 2528.393479280437,
+        "perimeter_mm": 180.94557695528482,
+        "intercommissural_mm": 54.41085599620108,
+        "anteroposterior_mm": 59.615407716919464
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2371.538863557287,
+        "perimeter_mm": 177.1278081987336,
+        "intercommissural_mm": 50.45103303171439,
+        "anteroposterior_mm": 59.34527508551942
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.270177839067551,
+        "rotation_deg": 1.0077804661454735,
+        "phase_map_cycles": 0.027494139927835448
+      }
+    },
+    {
+      "sample": "sample-2ad6a25c14919d6c.npz",
+      "identity": "identity-37e4e549d497ab16",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        96.19982150868506,
+        132.90580941008062
+      ],
+      "cmr_noise_check_rms_mm": 0.3485038665708981,
+      "truth": {
+        "apex_distance_anterior_mm": 98.1265929977947,
+        "apex_distance_posterior_mm": 106.86531879432448,
+        "axis_angle_deg": 173.25263339935756,
+        "clearance_mm": 58.40956874089227,
+        "penetrating_vertices": 24,
+        "area_mm2": 1644.67222460474,
+        "perimeter_mm": 146.50236666468675,
+        "intercommissural_mm": 43.27735250196171,
+        "anteroposterior_mm": 47.738948177876736
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.4221987387009,
+        "apex_distance_posterior_mm": 106.81930421741961,
+        "axis_angle_deg": 171.909566459473,
+        "clearance_mm": 57.00790559917366,
+        "penetrating_vertices": 24,
+        "area_mm2": 1649.285382031962,
+        "perimeter_mm": 146.31101027387194,
+        "intercommissural_mm": 43.09755329564564,
+        "anteroposterior_mm": 47.593667562134016
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 97.57579474460809,
+        "apex_distance_posterior_mm": 106.0600550106248,
+        "axis_angle_deg": 170.7100302379781,
+        "clearance_mm": 57.011203696679836,
+        "penetrating_vertices": 24,
+        "area_mm2": 1668.9637061664052,
+        "perimeter_mm": 146.74192462941852,
+        "intercommissural_mm": 43.34835495193396,
+        "anteroposterior_mm": 48.37813255045704
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1652.612859404433,
+        "perimeter_mm": 146.47375330721582,
+        "intercommissural_mm": 43.66741305719252,
+        "anteroposterior_mm": 47.64100193308389
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.996035862768687,
+        "rotation_deg": 1.3100038822409432,
+        "phase_map_cycles": 0.0047472183853245475
+      }
+    },
+    {
+      "sample": "sample-2c65d0608aa25ff1.npz",
+      "identity": "identity-47df841d29cf8640",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        90.2726024908109,
+        125.53891036469334
+      ],
+      "cmr_noise_check_rms_mm": 0.35455042219146354,
+      "truth": {
+        "apex_distance_anterior_mm": 112.0475005236994,
+        "apex_distance_posterior_mm": 120.01159773657476,
+        "axis_angle_deg": 170.68016439269206,
+        "clearance_mm": 64.89804563926666,
+        "penetrating_vertices": 24,
+        "area_mm2": 918.6915743473405,
+        "perimeter_mm": 114.5884339886662,
+        "intercommissural_mm": 38.83695730584468,
+        "anteroposterior_mm": 27.6421275802452
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 111.3395381800487,
+        "apex_distance_posterior_mm": 119.63215424960079,
+        "axis_angle_deg": 166.24268526583754,
+        "clearance_mm": 64.1353817465177,
+        "penetrating_vertices": 24,
+        "area_mm2": 888.4423630590743,
+        "perimeter_mm": 111.52951339192396,
+        "intercommissural_mm": 38.57432733015328,
+        "anteroposterior_mm": 26.924217982970266
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 112.23904038876404,
+        "apex_distance_posterior_mm": 119.80820354696081,
+        "axis_angle_deg": 166.68456725599407,
+        "clearance_mm": 65.80946468872861,
+        "penetrating_vertices": 24,
+        "area_mm2": 885.2805746705951,
+        "perimeter_mm": 109.6969970991696,
+        "intercommissural_mm": 38.45098716423254,
+        "anteroposterior_mm": 27.489641201139687
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 895.7962680442834,
+        "perimeter_mm": 113.81756959276561,
+        "intercommissural_mm": 38.811300841907894,
+        "anteroposterior_mm": 26.409455071806974
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.133613844951692,
+        "rotation_deg": 0.6313972517842653,
+        "phase_map_cycles": 0.006371844507894242
+      }
+    },
+    {
+      "sample": "sample-2d2ced6b94d54b1e.npz",
+      "identity": "identity-eb2daa5a48988981",
+      "tau_es": 0.984375,
+      "truth_volume_range_ml": [
+        42.27300120977904,
+        58.450828582575376
+      ],
+      "cmr_noise_check_rms_mm": 0.3527708504376764,
+      "truth": {
+        "apex_distance_anterior_mm": 77.55406004922082,
+        "apex_distance_posterior_mm": 83.6785459360216,
+        "axis_angle_deg": 174.09654975204393,
+        "clearance_mm": 47.50121940018588,
+        "penetrating_vertices": 24,
+        "area_mm2": 1950.1420747795685,
+        "perimeter_mm": 158.55126098036698,
+        "intercommissural_mm": 51.96309452022589,
+        "anteroposterior_mm": 46.89128462098184
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 76.93396477658342,
+        "apex_distance_posterior_mm": 83.27339672639124,
+        "axis_angle_deg": 177.67492538189947,
+        "clearance_mm": 46.77166105733165,
+        "penetrating_vertices": 24,
+        "area_mm2": 1996.0261920218454,
+        "perimeter_mm": 160.14192752931956,
+        "intercommissural_mm": 52.937758630739516,
+        "anteroposterior_mm": 47.056240536577604
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 78.778898259828,
+        "apex_distance_posterior_mm": 85.15291316258804,
+        "axis_angle_deg": 176.49015686513138,
+        "clearance_mm": 48.20431576395664,
+        "penetrating_vertices": 24,
+        "area_mm2": 1966.7510361669133,
+        "perimeter_mm": 158.89871095137124,
+        "intercommissural_mm": 52.895509842474965,
+        "anteroposterior_mm": 47.697019370807006
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2033.58152967765,
+        "perimeter_mm": 161.65407419717246,
+        "intercommissural_mm": 53.30791863827544,
+        "anteroposterior_mm": 47.39130144719454
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.5544873608359406,
+        "rotation_deg": 2.4550689542974062,
+        "phase_map_cycles": 0.026517018922878277
+      }
+    },
+    {
+      "sample": "sample-2f34d4f1f7e63b7b.npz",
+      "identity": "identity-37e4e549d497ab16",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        96.19982150868506,
+        132.90580941008062
+      ],
+      "cmr_noise_check_rms_mm": 0.3500042013266875,
+      "truth": {
+        "apex_distance_anterior_mm": 98.1265929977947,
+        "apex_distance_posterior_mm": 106.86531879432448,
+        "axis_angle_deg": 173.25263339935756,
+        "clearance_mm": 58.40956874089227,
+        "penetrating_vertices": 24,
+        "area_mm2": 1644.67222460474,
+        "perimeter_mm": 146.50236666468675,
+        "intercommissural_mm": 43.27735250196171,
+        "anteroposterior_mm": 47.738948177876736
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.85052971650717,
+        "apex_distance_posterior_mm": 106.69705156806812,
+        "axis_angle_deg": 171.43305390869287,
+        "clearance_mm": 58.71873867728526,
+        "penetrating_vertices": 24,
+        "area_mm2": 1635.2344505908436,
+        "perimeter_mm": 145.9090665371964,
+        "intercommissural_mm": 42.98507252461902,
+        "anteroposterior_mm": 47.55226183415172
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 96.53799313939274,
+        "apex_distance_posterior_mm": 104.54503652850202,
+        "axis_angle_deg": 171.99142134331814,
+        "clearance_mm": 57.482821858252336,
+        "penetrating_vertices": 24,
+        "area_mm2": 1663.4562244658596,
+        "perimeter_mm": 146.84425596483692,
+        "intercommissural_mm": 43.0663739793705,
+        "anteroposterior_mm": 48.8641519080868
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1620.4787320741577,
+        "perimeter_mm": 145.51760539916884,
+        "intercommissural_mm": 43.33643660504281,
+        "anteroposterior_mm": 46.84048291217705
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.7129362389489353,
+        "rotation_deg": 3.06335869769053,
+        "phase_map_cycles": 0.011623489335222836
+      }
+    },
+    {
+      "sample": "sample-2f6fa7d6ce256a81.npz",
+      "identity": "identity-dc8e895aec1513bf",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        88.66852241001725,
+        122.68473080498393
+      ],
+      "cmr_noise_check_rms_mm": 0.34613836126553754,
+      "truth": {
+        "apex_distance_anterior_mm": 78.45410556604786,
+        "apex_distance_posterior_mm": 81.50814594788858,
+        "axis_angle_deg": 176.52568495813995,
+        "clearance_mm": 49.87704634688874,
+        "penetrating_vertices": 24,
+        "area_mm2": 2275.30924077705,
+        "perimeter_mm": 170.6717240730431,
+        "intercommissural_mm": 54.30802161133916,
+        "anteroposterior_mm": 55.82154822781556
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 78.55598521251834,
+        "apex_distance_posterior_mm": 81.5765259047073,
+        "axis_angle_deg": 171.77707600002793,
+        "clearance_mm": 50.30969269463393,
+        "penetrating_vertices": 24,
+        "area_mm2": 2337.2298947791,
+        "perimeter_mm": 172.73747652614276,
+        "intercommissural_mm": 55.01508085836619,
+        "anteroposterior_mm": 56.61722012940481
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 76.40445870253869,
+        "apex_distance_posterior_mm": 79.42653148861297,
+        "axis_angle_deg": 173.39334032594712,
+        "clearance_mm": 48.701138560157446,
+        "penetrating_vertices": 24,
+        "area_mm2": 2356.9217756665553,
+        "perimeter_mm": 173.06755499185653,
+        "intercommissural_mm": 54.126647801694695,
+        "anteroposterior_mm": 56.50448201920291
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2347.2773793792103,
+        "perimeter_mm": 173.34318347377308,
+        "intercommissural_mm": 55.60879714493928,
+        "anteroposterior_mm": 56.523813832792314
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.459089518793575,
+        "rotation_deg": 4.039212753239564,
+        "phase_map_cycles": 0.008674526098672586
+      }
+    },
+    {
+      "sample": "sample-31a278fcd0fe908b.npz",
+      "identity": "identity-25fc3b4ceaaf13b2",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        44.171064515541765,
+        61.27786473726685
+      ],
+      "cmr_noise_check_rms_mm": 0.34271018753290106,
+      "truth": {
+        "apex_distance_anterior_mm": 71.8190809592806,
+        "apex_distance_posterior_mm": 80.11055066539353,
+        "axis_angle_deg": 168.9034022359786,
+        "clearance_mm": 40.24234898923147,
+        "penetrating_vertices": 24,
+        "area_mm2": 953.6780730476975,
+        "perimeter_mm": 114.79011119444189,
+        "intercommissural_mm": 36.81867214723095,
+        "anteroposterior_mm": 33.054182503641776
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 69.47571339595702,
+        "apex_distance_posterior_mm": 78.44310757744657,
+        "axis_angle_deg": 166.56562012852572,
+        "clearance_mm": 39.95175036787885,
+        "penetrating_vertices": 24,
+        "area_mm2": 915.6701999123868,
+        "perimeter_mm": 112.77771543634438,
+        "intercommissural_mm": 36.88736548324788,
+        "anteroposterior_mm": 31.87926852941456
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 72.07523469018277,
+        "apex_distance_posterior_mm": 79.81078253328653,
+        "axis_angle_deg": 178.15363555438782,
+        "clearance_mm": 40.95341423434259,
+        "penetrating_vertices": 24,
+        "area_mm2": 917.6261212529208,
+        "perimeter_mm": 111.74446408341251,
+        "intercommissural_mm": 36.96823852855396,
+        "anteroposterior_mm": 31.70708410458054
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 910.1755505798424,
+        "perimeter_mm": 113.03842824601283,
+        "intercommissural_mm": 36.35850750601074,
+        "anteroposterior_mm": 31.911757851368098
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.07758746484612,
+        "rotation_deg": 2.5327268911684904,
+        "phase_map_cycles": 0.01316738264861067
+      }
+    },
+    {
+      "sample": "sample-31a5d135b7df96c7.npz",
+      "identity": "identity-911c7aa41313a8db",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        161.51455228019253,
+        223.211784374529
+      ],
+      "cmr_noise_check_rms_mm": 0.3446992704655382,
+      "truth": {
+        "apex_distance_anterior_mm": 106.18528341698298,
+        "apex_distance_posterior_mm": 116.22507235873651,
+        "axis_angle_deg": 169.60696255134647,
+        "clearance_mm": 65.79249727993012,
+        "penetrating_vertices": 24,
+        "area_mm2": 2396.3265604944163,
+        "perimeter_mm": 177.8748012642028,
+        "intercommissural_mm": 56.31302806874946,
+        "anteroposterior_mm": 58.231265272314346
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 107.03091068910516,
+        "apex_distance_posterior_mm": 115.79376331519825,
+        "axis_angle_deg": 175.93962280731577,
+        "clearance_mm": 64.05178394597891,
+        "penetrating_vertices": 24,
+        "area_mm2": 2454.142757339702,
+        "perimeter_mm": 179.06645760443843,
+        "intercommissural_mm": 56.48160428877888,
+        "anteroposterior_mm": 59.04437117785721
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 104.76128770582085,
+        "apex_distance_posterior_mm": 113.76951724161296,
+        "axis_angle_deg": 171.6712012097797,
+        "clearance_mm": 63.8993548953972,
+        "penetrating_vertices": 24,
+        "area_mm2": 2428.697113591178,
+        "perimeter_mm": 177.0708165844092,
+        "intercommissural_mm": 54.76281683897516,
+        "anteroposterior_mm": 57.963777148192804
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2413.2241043116733,
+        "perimeter_mm": 177.78780640516908,
+        "intercommissural_mm": 56.46252826789304,
+        "anteroposterior_mm": 58.53076139427253
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.593223038422059,
+        "rotation_deg": 3.31609972138152,
+        "phase_map_cycles": 0.005006610038568615
+      }
+    },
+    {
+      "sample": "sample-3b91f07bb113bc62.npz",
+      "identity": "identity-246895936606db43",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        113.83440502503507,
+        157.42330444407656
+      ],
+      "cmr_noise_check_rms_mm": 0.3469565702796649,
+      "truth": {
+        "apex_distance_anterior_mm": 90.30568668773539,
+        "apex_distance_posterior_mm": 104.56322784131426,
+        "axis_angle_deg": 166.5248770302953,
+        "clearance_mm": 46.790168233753654,
+        "penetrating_vertices": 24,
+        "area_mm2": 2878.559019257555,
+        "perimeter_mm": 192.4285774680823,
+        "intercommissural_mm": 58.14231930068245,
+        "anteroposterior_mm": 63.96735085251633
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 88.94488468655452,
+        "apex_distance_posterior_mm": 103.06720443680008,
+        "axis_angle_deg": 160.49436533175827,
+        "clearance_mm": 45.43282397261219,
+        "penetrating_vertices": 24,
+        "area_mm2": 2991.9738243967868,
+        "perimeter_mm": 196.247732831977,
+        "intercommissural_mm": 59.276848108573176,
+        "anteroposterior_mm": 65.00578190341868
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 87.38299114558725,
+        "apex_distance_posterior_mm": 101.53152139619795,
+        "axis_angle_deg": 161.2652933884886,
+        "clearance_mm": 44.519077244438215,
+        "penetrating_vertices": 24,
+        "area_mm2": 3014.9663170367926,
+        "perimeter_mm": 196.46601947815304,
+        "intercommissural_mm": 59.79948176855686,
+        "anteroposterior_mm": 65.44926519027591
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2989.75503030823,
+        "perimeter_mm": 195.99257386126072,
+        "intercommissural_mm": 59.52762578701173,
+        "anteroposterior_mm": 64.9026548564713
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.311591520958634,
+        "rotation_deg": 2.3430551936327615,
+        "phase_map_cycles": 0.007373571916345967
+      }
+    },
+    {
+      "sample": "sample-48e7c15d00cb9489.npz",
+      "identity": "identity-7697f3e7dcd70481",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        45.29363320830083,
+        62.503658998830645
+      ],
+      "cmr_noise_check_rms_mm": 0.3525816331130021,
+      "truth": {
+        "apex_distance_anterior_mm": 69.08677864264853,
+        "apex_distance_posterior_mm": 74.77636870908258,
+        "axis_angle_deg": 169.2752189916162,
+        "clearance_mm": 40.99485296507617,
+        "penetrating_vertices": 24,
+        "area_mm2": 911.9083509708112,
+        "perimeter_mm": 108.19182883966329,
+        "intercommissural_mm": 33.38248031585915,
+        "anteroposterior_mm": 35.124799847256014
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 68.39575144036533,
+        "apex_distance_posterior_mm": 74.41375942333752,
+        "axis_angle_deg": 163.23699666107674,
+        "clearance_mm": 37.883331461521614,
+        "penetrating_vertices": 24,
+        "area_mm2": 834.0184861034791,
+        "perimeter_mm": 103.50424129068702,
+        "intercommissural_mm": 31.481054964440943,
+        "anteroposterior_mm": 33.77384749646319
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 68.19454632468444,
+        "apex_distance_posterior_mm": 73.97959446479109,
+        "axis_angle_deg": 156.06375768381187,
+        "clearance_mm": 38.12449503646077,
+        "penetrating_vertices": 24,
+        "area_mm2": 864.2715271584005,
+        "perimeter_mm": 104.84304699587585,
+        "intercommissural_mm": 32.37914126359353,
+        "anteroposterior_mm": 33.76599467038485
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 816.2277858068874,
+        "perimeter_mm": 102.32579063743019,
+        "intercommissural_mm": 30.73285293489162,
+        "anteroposterior_mm": 33.58451288677311
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.6321249810296923,
+        "rotation_deg": 1.779980555323944,
+        "phase_map_cycles": 0.008223435240776955
+      }
+    },
+    {
+      "sample": "sample-51e22b3ef843d222.npz",
+      "identity": "identity-911c7aa41313a8db",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        161.51455228019253,
+        223.211784374529
+      ],
+      "cmr_noise_check_rms_mm": 0.3480816973449639,
+      "truth": {
+        "apex_distance_anterior_mm": 106.18528341698298,
+        "apex_distance_posterior_mm": 116.22507235873651,
+        "axis_angle_deg": 169.60696255134647,
+        "clearance_mm": 65.79249727993012,
+        "penetrating_vertices": 24,
+        "area_mm2": 2396.3265604944163,
+        "perimeter_mm": 177.8748012642028,
+        "intercommissural_mm": 56.31302806874946,
+        "anteroposterior_mm": 58.231265272314346
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 106.68975447088282,
+        "apex_distance_posterior_mm": 117.04282991248544,
+        "axis_angle_deg": 168.24486914881004,
+        "clearance_mm": 66.15371856167201,
+        "penetrating_vertices": 24,
+        "area_mm2": 2468.8408506667392,
+        "perimeter_mm": 179.76790783549058,
+        "intercommissural_mm": 56.59601302112637,
+        "anteroposterior_mm": 59.695652268694005
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 106.758927861491,
+        "apex_distance_posterior_mm": 117.26813017817646,
+        "axis_angle_deg": 167.65064768454718,
+        "clearance_mm": 66.34348155922252,
+        "penetrating_vertices": 24,
+        "area_mm2": 2510.7073087205226,
+        "perimeter_mm": 180.26784273155045,
+        "intercommissural_mm": 56.77244192012638,
+        "anteroposterior_mm": 59.19567141924603
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2464.680354817341,
+        "perimeter_mm": 179.81867363627373,
+        "intercommissural_mm": 56.58626417493346,
+        "anteroposterior_mm": 59.88118682154079
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.342704333058124,
+        "rotation_deg": 1.5326978319118467,
+        "phase_map_cycles": 0.010281694466592828
+      }
+    },
+    {
+      "sample": "sample-521522c681de7414.npz",
+      "identity": "identity-efddc0dfcc66dc7a",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        90.56298970740195,
+        124.49236258153395
+      ],
+      "cmr_noise_check_rms_mm": 0.35205743834279435,
+      "truth": {
+        "apex_distance_anterior_mm": 86.02575726039753,
+        "apex_distance_posterior_mm": 102.61581911869989,
+        "axis_angle_deg": 131.84095625909043,
+        "clearance_mm": 49.235573736071466,
+        "penetrating_vertices": 24,
+        "area_mm2": 1603.1899278291517,
+        "perimeter_mm": 143.97521663684398,
+        "intercommissural_mm": 47.51966341940422,
+        "anteroposterior_mm": 42.27171489110389
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 84.54409819573057,
+        "apex_distance_posterior_mm": 101.54418099444867,
+        "axis_angle_deg": 130.70352837227765,
+        "clearance_mm": 48.33170796432635,
+        "penetrating_vertices": 24,
+        "area_mm2": 1565.094598734972,
+        "perimeter_mm": 141.86501127433613,
+        "intercommissural_mm": 47.235693708056175,
+        "anteroposterior_mm": 41.22033286478784
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 84.52942468348431,
+        "apex_distance_posterior_mm": 101.37389767210563,
+        "axis_angle_deg": 128.50389575652548,
+        "clearance_mm": 48.549753610071676,
+        "penetrating_vertices": 24,
+        "area_mm2": 1569.8917370365705,
+        "perimeter_mm": 141.75896107846887,
+        "intercommissural_mm": 46.92225373188263,
+        "anteroposterior_mm": 41.71252147616006
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1570.0120750054532,
+        "perimeter_mm": 142.0562192545242,
+        "intercommissural_mm": 47.244255580251895,
+        "anteroposterior_mm": 41.3396690224512
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.9753898072257834,
+        "rotation_deg": 0.49377692572276916,
+        "phase_map_cycles": 0.010198873873963954
+      }
+    },
+    {
+      "sample": "sample-523823085eda7639.npz",
+      "identity": "identity-57c7e3e9b3f1b3ac",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        139.8766565830606,
+        193.40938865291977
+      ],
+      "cmr_noise_check_rms_mm": 0.34892897912249043,
+      "truth": {
+        "apex_distance_anterior_mm": 104.67738787938724,
+        "apex_distance_posterior_mm": 112.27566539929008,
+        "axis_angle_deg": 165.3329196477136,
+        "clearance_mm": 62.97593011928672,
+        "penetrating_vertices": 24,
+        "area_mm2": 2528.6274909674335,
+        "perimeter_mm": 183.47750733234034,
+        "intercommissural_mm": 61.78056181897327,
+        "anteroposterior_mm": 52.16740991159908
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 104.3857335724532,
+        "apex_distance_posterior_mm": 111.52913013789993,
+        "axis_angle_deg": 164.78857064361358,
+        "clearance_mm": 63.50504474826022,
+        "penetrating_vertices": 24,
+        "area_mm2": 2487.611564174793,
+        "perimeter_mm": 181.08895494234133,
+        "intercommissural_mm": 61.08821656538414,
+        "anteroposterior_mm": 51.50633730681413
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 102.89647309741531,
+        "apex_distance_posterior_mm": 110.10678707322305,
+        "axis_angle_deg": 166.40781445189455,
+        "clearance_mm": 62.73719356718312,
+        "penetrating_vertices": 24,
+        "area_mm2": 2541.957005143806,
+        "perimeter_mm": 181.75463701825925,
+        "intercommissural_mm": 61.10871158291763,
+        "anteroposterior_mm": 52.669227984963435
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2473.136433082551,
+        "perimeter_mm": 182.00219298606262,
+        "intercommissural_mm": 61.73551990345304,
+        "anteroposterior_mm": 51.30974730063834
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 0.6063616734152574,
+        "rotation_deg": 1.0725234818232974,
+        "phase_map_cycles": 0.015952892152677617
+      }
+    },
+    {
+      "sample": "sample-5e31c39d39366c8a.npz",
+      "identity": "identity-17b0926aeb9fe2dd",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        111.96269555237282,
+        154.2185214747131
+      ],
+      "cmr_noise_check_rms_mm": 0.3491627390100279,
+      "truth": {
+        "apex_distance_anterior_mm": 89.92405881236989,
+        "apex_distance_posterior_mm": 96.37253173477836,
+        "axis_angle_deg": 166.8498469513351,
+        "clearance_mm": 55.97891599869248,
+        "penetrating_vertices": 24,
+        "area_mm2": 2293.809378422971,
+        "perimeter_mm": 172.91140796976248,
+        "intercommissural_mm": 57.56716311941698,
+        "anteroposterior_mm": 52.498185159016565
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 87.65544637710674,
+        "apex_distance_posterior_mm": 96.10636789079705,
+        "axis_angle_deg": 161.43265665889348,
+        "clearance_mm": 51.829576667668235,
+        "penetrating_vertices": 24,
+        "area_mm2": 2313.654530113182,
+        "perimeter_mm": 173.5018288287709,
+        "intercommissural_mm": 58.17829824531688,
+        "anteroposterior_mm": 52.31581567306708
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 85.27486347952677,
+        "apex_distance_posterior_mm": 93.30221456030685,
+        "axis_angle_deg": 157.83886286029465,
+        "clearance_mm": 50.526712414951426,
+        "penetrating_vertices": 24,
+        "area_mm2": 2329.573607978223,
+        "perimeter_mm": 172.98566950986304,
+        "intercommissural_mm": 57.22813671039456,
+        "anteroposterior_mm": 52.514834164364636
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2312.6484592802794,
+        "perimeter_mm": 174.68595305779905,
+        "intercommissural_mm": 58.32170957704681,
+        "anteroposterior_mm": 52.051604700827696
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.6314002773555973,
+        "rotation_deg": 4.431122925312845,
+        "phase_map_cycles": 0.010945595227398575
+      }
+    },
+    {
+      "sample": "sample-61747c9c9880f5e7.npz",
+      "identity": "identity-8423d9289dc30ad5",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        187.47012453291802,
+        258.58131710742543
+      ],
+      "cmr_noise_check_rms_mm": 0.3526881897624795,
+      "truth": {
+        "apex_distance_anterior_mm": 99.29838226987934,
+        "apex_distance_posterior_mm": 124.68433729691645,
+        "axis_angle_deg": 138.8361809702556,
+        "clearance_mm": 51.94262582654963,
+        "penetrating_vertices": 24,
+        "area_mm2": 3285.4823607355042,
+        "perimeter_mm": 205.0384085790486,
+        "intercommissural_mm": 67.09778391288836,
+        "anteroposterior_mm": 64.57114736289712
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 99.40945323316087,
+        "apex_distance_posterior_mm": 124.62196365596077,
+        "axis_angle_deg": 144.66556090396745,
+        "clearance_mm": 52.50447554885713,
+        "penetrating_vertices": 24,
+        "area_mm2": 3283.018239222196,
+        "perimeter_mm": 204.68768679848708,
+        "intercommissural_mm": 67.55823237840931,
+        "anteroposterior_mm": 63.76465123714207
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 98.79367218551567,
+        "apex_distance_posterior_mm": 124.54977955939331,
+        "axis_angle_deg": 144.94253224025528,
+        "clearance_mm": 52.48530781332983,
+        "penetrating_vertices": 24,
+        "area_mm2": 3291.9795324754205,
+        "perimeter_mm": 204.99931941928685,
+        "intercommissural_mm": 67.9612417015501,
+        "anteroposterior_mm": 63.917181939363445
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 3308.187152880529,
+        "perimeter_mm": 205.66485635888864,
+        "intercommissural_mm": 67.86627906912858,
+        "anteroposterior_mm": 64.22099828542315
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.3579028002870253,
+        "rotation_deg": 1.2114929399969423,
+        "phase_map_cycles": 0.00726777586413313
+      }
+    },
+    {
+      "sample": "sample-66fc7a9456bbb0f4.npz",
+      "identity": "identity-aff18d874443ffe6",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        188.46303997265028,
+        261.9769611767906
+      ],
+      "cmr_noise_check_rms_mm": 0.35850486653168073,
+      "truth": {
+        "apex_distance_anterior_mm": 97.4840136246312,
+        "apex_distance_posterior_mm": 111.1328460319188,
+        "axis_angle_deg": 138.87001779217388,
+        "clearance_mm": 53.969800536579314,
+        "penetrating_vertices": 24,
+        "area_mm2": 2899.6418484267024,
+        "perimeter_mm": 193.1236265383293,
+        "intercommissural_mm": 57.76240059924384,
+        "anteroposterior_mm": 62.017273453676246
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 97.14982492591882,
+        "apex_distance_posterior_mm": 111.13335244583695,
+        "axis_angle_deg": 135.27836833056415,
+        "clearance_mm": 54.56446144860869,
+        "penetrating_vertices": 24,
+        "area_mm2": 2921.704727847652,
+        "perimeter_mm": 192.91159657083273,
+        "intercommissural_mm": 57.9319253799796,
+        "anteroposterior_mm": 63.45943621671477
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 94.41328647376186,
+        "apex_distance_posterior_mm": 108.51237016187493,
+        "axis_angle_deg": 135.39684956677658,
+        "clearance_mm": 52.89405334385032,
+        "penetrating_vertices": 24,
+        "area_mm2": 2947.1258936603754,
+        "perimeter_mm": 193.79201707588032,
+        "intercommissural_mm": 58.89485377990424,
+        "anteroposterior_mm": 63.002125592131236
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2882.283276465957,
+        "perimeter_mm": 191.70477907946668,
+        "intercommissural_mm": 57.26766875564822,
+        "anteroposterior_mm": 62.57197919327205
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.346588222519041,
+        "rotation_deg": 4.281685708250408,
+        "phase_map_cycles": 0.008141688401747949
+      }
+    },
+    {
+      "sample": "sample-6bde699f12a1a6eb.npz",
+      "identity": "identity-e88211520fcc1a89",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        46.04391918569366,
+        63.49738000719625
+      ],
+      "cmr_noise_check_rms_mm": 0.35172736709934527,
+      "truth": {
+        "apex_distance_anterior_mm": 86.17853135447193,
+        "apex_distance_posterior_mm": 81.83690103689759,
+        "axis_angle_deg": 171.1672607524429,
+        "clearance_mm": 44.576350407610995,
+        "penetrating_vertices": 24,
+        "area_mm2": 608.2224693753693,
+        "perimeter_mm": 91.46072334002103,
+        "intercommissural_mm": 26.67336896197636,
+        "anteroposterior_mm": 30.98907220894048
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 84.7351012884855,
+        "apex_distance_posterior_mm": 81.09683530039351,
+        "axis_angle_deg": 168.3713427624992,
+        "clearance_mm": 46.198143571090746,
+        "penetrating_vertices": 24,
+        "area_mm2": 568.1137791200124,
+        "perimeter_mm": 87.2031640934654,
+        "intercommissural_mm": 24.81839740114974,
+        "anteroposterior_mm": 29.96244753083712
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 84.92155289937807,
+        "apex_distance_posterior_mm": 81.55675457873056,
+        "axis_angle_deg": 168.74403561762574,
+        "clearance_mm": 47.56741040241048,
+        "penetrating_vertices": 24,
+        "area_mm2": 605.0309478645142,
+        "perimeter_mm": 89.24291605681212,
+        "intercommissural_mm": 25.134234995034433,
+        "anteroposterior_mm": 29.7916044342274
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 548.9310391307835,
+        "perimeter_mm": 86.88393008139016,
+        "intercommissural_mm": 24.68972656127664,
+        "anteroposterior_mm": 30.273136154009006
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.167199951034604,
+        "rotation_deg": 1.8173678109975353,
+        "phase_map_cycles": 0.021297815876857862
+      }
+    },
+    {
+      "sample": "sample-6c7c0b64fb01fff5.npz",
+      "identity": "identity-47df841d29cf8640",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        90.2726024908109,
+        125.53891036469334
+      ],
+      "cmr_noise_check_rms_mm": 0.35824678551633693,
+      "truth": {
+        "apex_distance_anterior_mm": 112.0475005236994,
+        "apex_distance_posterior_mm": 120.01159773657476,
+        "axis_angle_deg": 170.68016439269206,
+        "clearance_mm": 64.89804563926666,
+        "penetrating_vertices": 24,
+        "area_mm2": 918.6915743473405,
+        "perimeter_mm": 114.5884339886662,
+        "intercommissural_mm": 38.83695730584468,
+        "anteroposterior_mm": 27.6421275802452
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 114.66616926272414,
+        "apex_distance_posterior_mm": 121.47364265542774,
+        "axis_angle_deg": 178.54959187808961,
+        "clearance_mm": 64.8032783098247,
+        "penetrating_vertices": 24,
+        "area_mm2": 892.7139254446857,
+        "perimeter_mm": 111.18262161699855,
+        "intercommissural_mm": 38.55670421108283,
+        "anteroposterior_mm": 27.354908674758658
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 117.54763834631815,
+        "apex_distance_posterior_mm": 122.81548903841801,
+        "axis_angle_deg": 169.26093048365905,
+        "clearance_mm": 60.84548194762444,
+        "penetrating_vertices": 24,
+        "area_mm2": 1012.4213788612299,
+        "perimeter_mm": 115.70973759598301,
+        "intercommissural_mm": 39.061581995439816,
+        "anteroposterior_mm": 32.38352740115256
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 857.7440425964664,
+        "perimeter_mm": 112.89194114823279,
+        "intercommissural_mm": 38.760564335298554,
+        "anteroposterior_mm": 25.232719070587155
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.590133772858884,
+        "rotation_deg": 7.970741959618353,
+        "phase_map_cycles": 0.029998689536346157
+      }
+    },
+    {
+      "sample": "sample-6dc18702e22b1c68.npz",
+      "identity": "identity-29161c9df426f701",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        87.0966440321087,
+        120.90970785463544
+      ],
+      "cmr_noise_check_rms_mm": 0.349007821284179,
+      "truth": {
+        "apex_distance_anterior_mm": 88.52866629819202,
+        "apex_distance_posterior_mm": 100.07153403725101,
+        "axis_angle_deg": 131.97255270906652,
+        "clearance_mm": 49.34403890969693,
+        "penetrating_vertices": 24,
+        "area_mm2": 1446.081825438019,
+        "perimeter_mm": 137.4201434622683,
+        "intercommissural_mm": 44.90336179955771,
+        "anteroposterior_mm": 39.3524914980477
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 86.87489533410528,
+        "apex_distance_posterior_mm": 98.48450393746009,
+        "axis_angle_deg": 131.37068946324283,
+        "clearance_mm": 49.68498616651068,
+        "penetrating_vertices": 24,
+        "area_mm2": 1440.8038823786042,
+        "perimeter_mm": 136.33362349397794,
+        "intercommissural_mm": 44.83531665165673,
+        "anteroposterior_mm": 40.22505686342338
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 89.11170721380286,
+        "apex_distance_posterior_mm": 100.52082289127885,
+        "axis_angle_deg": 129.92931197257792,
+        "clearance_mm": 51.69117743583102,
+        "penetrating_vertices": 24,
+        "area_mm2": 1418.1146725792478,
+        "perimeter_mm": 134.79469452686715,
+        "intercommissural_mm": 44.54690335175864,
+        "anteroposterior_mm": 39.94664052239274
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1477.792311722659,
+        "perimeter_mm": 138.44660618876088,
+        "intercommissural_mm": 44.80194899308215,
+        "anteroposterior_mm": 40.567603823738985
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 7.169704619350737,
+        "rotation_deg": 3.6158520277703117,
+        "phase_map_cycles": 0.00938149653382575
+      }
+    },
+    {
+      "sample": "sample-6f3aa5eafbe55b34.npz",
+      "identity": "identity-bd399286377fb657",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        85.73808656835128,
+        118.37468464843987
+      ],
+      "cmr_noise_check_rms_mm": 0.3463350314280134,
+      "truth": {
+        "apex_distance_anterior_mm": 78.11885400826317,
+        "apex_distance_posterior_mm": 87.850486524724,
+        "axis_angle_deg": 139.1488205373149,
+        "clearance_mm": 45.115512520181426,
+        "penetrating_vertices": 24,
+        "area_mm2": 1730.7509374625317,
+        "perimeter_mm": 148.93388932210044,
+        "intercommissural_mm": 45.024079106078,
+        "anteroposterior_mm": 46.14937190165526
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 79.49261004987275,
+        "apex_distance_posterior_mm": 88.77967662772899,
+        "axis_angle_deg": 135.05863092953354,
+        "clearance_mm": 44.410561071952586,
+        "penetrating_vertices": 24,
+        "area_mm2": 1703.1134793590609,
+        "perimeter_mm": 147.36505985789336,
+        "intercommissural_mm": 45.08465952808161,
+        "anteroposterior_mm": 46.191827431304674
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 75.4619900657632,
+        "apex_distance_posterior_mm": 84.91302769022549,
+        "axis_angle_deg": 130.72931857996846,
+        "clearance_mm": 41.198393944012885,
+        "penetrating_vertices": 24,
+        "area_mm2": 1756.321941725128,
+        "perimeter_mm": 149.72350166621004,
+        "intercommissural_mm": 45.91162653916074,
+        "anteroposterior_mm": 47.48203738130117
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1676.8375633585904,
+        "perimeter_mm": 146.6157453612115,
+        "intercommissural_mm": 44.42023043130529,
+        "anteroposterior_mm": 45.30895847271657
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.987128180681473,
+        "rotation_deg": 4.731757698842608,
+        "phase_map_cycles": 0.016789943633539584
+      }
+    },
+    {
+      "sample": "sample-6f62b7809154a2a9.npz",
+      "identity": "identity-31fea4899175b3ba",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        97.28548597378743,
+        134.4039997477411
+      ],
+      "cmr_noise_check_rms_mm": 0.3410866549231679,
+      "truth": {
+        "apex_distance_anterior_mm": 107.68064659583918,
+        "apex_distance_posterior_mm": 110.22249226064625,
+        "axis_angle_deg": 171.07446825964948,
+        "clearance_mm": 66.59355059948467,
+        "penetrating_vertices": 24,
+        "area_mm2": 1849.6647051935092,
+        "perimeter_mm": 158.48247843554242,
+        "intercommissural_mm": 50.43837582533434,
+        "anteroposterior_mm": 49.66896342895395
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 106.98748821216861,
+        "apex_distance_posterior_mm": 109.68080218895342,
+        "axis_angle_deg": 172.41562878985033,
+        "clearance_mm": 66.0093932142731,
+        "penetrating_vertices": 24,
+        "area_mm2": 1853.8885410436726,
+        "perimeter_mm": 157.51478997863364,
+        "intercommissural_mm": 49.462511956366555,
+        "anteroposterior_mm": 49.87062392159984
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 106.95770738359661,
+        "apex_distance_posterior_mm": 109.76741971119544,
+        "axis_angle_deg": 170.24529077893612,
+        "clearance_mm": 66.02625738593478,
+        "penetrating_vertices": 24,
+        "area_mm2": 1880.0574650728852,
+        "perimeter_mm": 157.2630134924416,
+        "intercommissural_mm": 49.64490534643837,
+        "anteroposterior_mm": 49.76254836836145
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1837.7783323277727,
+        "perimeter_mm": 157.3788968165524,
+        "intercommissural_mm": 49.09469399476849,
+        "anteroposterior_mm": 49.77338455466753
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.469512503668755,
+        "rotation_deg": 0.6077165543473761,
+        "phase_map_cycles": 0.008041749935990161
+      }
+    },
+    {
+      "sample": "sample-7b7fb5dd769df2c1.npz",
+      "identity": "identity-d8f2339dbcc80b72",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        194.14159569761654,
+        269.21968094304754
+      ],
+      "cmr_noise_check_rms_mm": 0.3465024417301654,
+      "truth": {
+        "apex_distance_anterior_mm": 105.76125364430777,
+        "apex_distance_posterior_mm": 117.7685654702114,
+        "axis_angle_deg": 164.2023593999569,
+        "clearance_mm": 62.48372180678197,
+        "penetrating_vertices": 24,
+        "area_mm2": 2899.723169569137,
+        "perimeter_mm": 192.9054974673857,
+        "intercommissural_mm": 63.26826406365685,
+        "anteroposterior_mm": 59.041006419736775
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 105.94952781757873,
+        "apex_distance_posterior_mm": 118.36864476706856,
+        "axis_angle_deg": 164.6307218253786,
+        "clearance_mm": 65.02903029568043,
+        "penetrating_vertices": 24,
+        "area_mm2": 3007.1071878942275,
+        "perimeter_mm": 196.2197710007979,
+        "intercommissural_mm": 65.18983022584413,
+        "anteroposterior_mm": 59.83215632210002
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 103.15071312877373,
+        "apex_distance_posterior_mm": 115.47627587553781,
+        "axis_angle_deg": 161.52390652796635,
+        "clearance_mm": 62.72118615792097,
+        "penetrating_vertices": 24,
+        "area_mm2": 3039.5365012375014,
+        "perimeter_mm": 196.65018866412115,
+        "intercommissural_mm": 64.6036517523969,
+        "anteroposterior_mm": 60.74592695544078
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2987.8780032920386,
+        "perimeter_mm": 196.21062836318976,
+        "intercommissural_mm": 65.41924571701242,
+        "anteroposterior_mm": 59.05609527082702
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.306401746517728,
+        "rotation_deg": 4.120796726213189,
+        "phase_map_cycles": 0.008976695768081966
+      }
+    },
+    {
+      "sample": "sample-82f4836473cfc1ed.npz",
+      "identity": "identity-65dd7adb52e793ff",
+      "tau_es": 0.015625,
+      "truth_volume_range_ml": [
+        76.88996894819343,
+        106.2369824760744
+      ],
+      "cmr_noise_check_rms_mm": 0.34793909833860426,
+      "truth": {
+        "apex_distance_anterior_mm": 75.090101494031,
+        "apex_distance_posterior_mm": 85.00078736791227,
+        "axis_angle_deg": 136.80500339975535,
+        "clearance_mm": 41.90219903302197,
+        "penetrating_vertices": 24,
+        "area_mm2": 1436.1977126886432,
+        "perimeter_mm": 137.13680812165376,
+        "intercommissural_mm": 44.06064349058114,
+        "anteroposterior_mm": 44.40122750671676
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 76.01208881570399,
+        "apex_distance_posterior_mm": 85.78835426497663,
+        "axis_angle_deg": 138.07614799786947,
+        "clearance_mm": 42.60267569940943,
+        "penetrating_vertices": 24,
+        "area_mm2": 1431.8590929962147,
+        "perimeter_mm": 135.74544288079252,
+        "intercommissural_mm": 43.58366799120989,
+        "anteroposterior_mm": 43.27187841250586
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 72.46509809206621,
+        "apex_distance_posterior_mm": 82.38722422032754,
+        "axis_angle_deg": 139.3550124621481,
+        "clearance_mm": 39.81457727744768,
+        "penetrating_vertices": 24,
+        "area_mm2": 1514.9658976006265,
+        "perimeter_mm": 139.05858389439496,
+        "intercommissural_mm": 44.169155039304954,
+        "anteroposterior_mm": 44.42376264801522
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1403.980263042353,
+        "perimeter_mm": 135.6742086374454,
+        "intercommissural_mm": 43.76177370384993,
+        "anteroposterior_mm": 43.03168423734767
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.5368087931072443,
+        "rotation_deg": 3.2312980970197955,
+        "phase_map_cycles": 0.016672388078883715
+      }
+    },
+    {
+      "sample": "sample-85ebb86d2c62c245.npz",
+      "identity": "identity-efddc0dfcc66dc7a",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        90.56298970740195,
+        124.49236258153395
+      ],
+      "cmr_noise_check_rms_mm": 0.35134450590693667,
+      "truth": {
+        "apex_distance_anterior_mm": 86.02575726039753,
+        "apex_distance_posterior_mm": 102.61581911869989,
+        "axis_angle_deg": 131.84095625909043,
+        "clearance_mm": 49.235573736071466,
+        "penetrating_vertices": 24,
+        "area_mm2": 1603.1899278291517,
+        "perimeter_mm": 143.97521663684398,
+        "intercommissural_mm": 47.51966341940422,
+        "anteroposterior_mm": 42.27171489110389
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 85.30443628145709,
+        "apex_distance_posterior_mm": 102.27122795086822,
+        "axis_angle_deg": 128.9542873044185,
+        "clearance_mm": 47.95294219539943,
+        "penetrating_vertices": 24,
+        "area_mm2": 1574.0868877548478,
+        "perimeter_mm": 142.22057177227478,
+        "intercommissural_mm": 47.17818108362322,
+        "anteroposterior_mm": 41.50347143098324
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 85.32988779638865,
+        "apex_distance_posterior_mm": 102.00476903213232,
+        "axis_angle_deg": 127.56227322759602,
+        "clearance_mm": 48.253127178544226,
+        "penetrating_vertices": 24,
+        "area_mm2": 1576.8044953944582,
+        "perimeter_mm": 141.98172416007145,
+        "intercommissural_mm": 47.02127940989663,
+        "anteroposterior_mm": 41.940721489877475
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1561.9945626191252,
+        "perimeter_mm": 141.59307693929838,
+        "intercommissural_mm": 46.989897782194575,
+        "anteroposterior_mm": 41.42153511462954
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.8174757421993704,
+        "rotation_deg": 0.289398184854056,
+        "phase_map_cycles": 0.00858403616768394
+      }
+    },
+    {
+      "sample": "sample-86e3884e30ad9228.npz",
+      "identity": "identity-be2e06c0289fcda6",
+      "tau_es": 0.984375,
+      "truth_volume_range_ml": [
+        78.94010197946244,
+        109.3438218592846
+      ],
+      "cmr_noise_check_rms_mm": 0.34694915616702604,
+      "truth": {
+        "apex_distance_anterior_mm": 96.8701287721454,
+        "apex_distance_posterior_mm": 107.76054019388278,
+        "axis_angle_deg": 153.6600637909314,
+        "clearance_mm": 54.440372992371145,
+        "penetrating_vertices": 24,
+        "area_mm2": 1330.5560071519799,
+        "perimeter_mm": 137.34167327976303,
+        "intercommissural_mm": 38.39863782675447,
+        "anteroposterior_mm": 46.58138267570359
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 97.00668016843598,
+        "apex_distance_posterior_mm": 108.27263346646734,
+        "axis_angle_deg": 146.8009694926814,
+        "clearance_mm": 54.36017398102897,
+        "penetrating_vertices": 24,
+        "area_mm2": 1348.0829221749718,
+        "perimeter_mm": 134.7699008640552,
+        "intercommissural_mm": 38.19764162958177,
+        "anteroposterior_mm": 46.83993141785894
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 98.77710952309106,
+        "apex_distance_posterior_mm": 110.11566286226726,
+        "axis_angle_deg": 149.72105236752535,
+        "clearance_mm": 56.09090462316634,
+        "penetrating_vertices": 24,
+        "area_mm2": 1438.811112394468,
+        "perimeter_mm": 137.69554157028375,
+        "intercommissural_mm": 40.91411788911876,
+        "anteroposterior_mm": 45.91447391839856
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1330.6399655553696,
+        "perimeter_mm": 135.3477266675808,
+        "intercommissural_mm": 37.393366013454816,
+        "anteroposterior_mm": 48.23339228017705
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.652209535000947,
+        "rotation_deg": 5.815333824057613,
+        "phase_map_cycles": 0.023022873230808427
+      }
+    },
+    {
+      "sample": "sample-871af31577b97c5b.npz",
+      "identity": "identity-7697f3e7dcd70481",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        45.29363320830083,
+        62.503658998830645
+      ],
+      "cmr_noise_check_rms_mm": 0.34353646384111114,
+      "truth": {
+        "apex_distance_anterior_mm": 69.08677864264853,
+        "apex_distance_posterior_mm": 74.77636870908258,
+        "axis_angle_deg": 169.2752189916162,
+        "clearance_mm": 40.99485296507617,
+        "penetrating_vertices": 24,
+        "area_mm2": 911.9083509708112,
+        "perimeter_mm": 108.19182883966329,
+        "intercommissural_mm": 33.38248031585915,
+        "anteroposterior_mm": 35.124799847256014
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 67.41079179798345,
+        "apex_distance_posterior_mm": 73.16165701746966,
+        "axis_angle_deg": 166.9976166443042,
+        "clearance_mm": 37.45628977886805,
+        "penetrating_vertices": 24,
+        "area_mm2": 838.6494078246785,
+        "perimeter_mm": 103.58272259995246,
+        "intercommissural_mm": 31.78915820711019,
+        "anteroposterior_mm": 33.47226740874092
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 70.23475414466193,
+        "apex_distance_posterior_mm": 76.1382870031387,
+        "axis_angle_deg": 161.66377480365253,
+        "clearance_mm": 40.02857529325574,
+        "penetrating_vertices": 24,
+        "area_mm2": 835.7005821076252,
+        "perimeter_mm": 103.7019451967922,
+        "intercommissural_mm": 32.127541773136564,
+        "anteroposterior_mm": 33.04161302419809
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 860.9586558360829,
+        "perimeter_mm": 105.36571468571861,
+        "intercommissural_mm": 31.503919381681005,
+        "anteroposterior_mm": 34.696182942485656
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 9.892295023185632,
+        "rotation_deg": 8.134688342042645,
+        "phase_map_cycles": 0.020673532282565382
+      }
+    },
+    {
+      "sample": "sample-925a033bfbf6e571.npz",
+      "identity": "identity-c0e85214b86ed9be",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        102.8941467002153,
+        141.68622077360615
+      ],
+      "cmr_noise_check_rms_mm": 0.35075672016919407,
+      "truth": {
+        "apex_distance_anterior_mm": 98.38623421009927,
+        "apex_distance_posterior_mm": 112.59997815222358,
+        "axis_angle_deg": 141.79975409035464,
+        "clearance_mm": 54.8693819593856,
+        "penetrating_vertices": 24,
+        "area_mm2": 1380.991756030445,
+        "perimeter_mm": 140.16008571440375,
+        "intercommissural_mm": 37.34198940812735,
+        "anteroposterior_mm": 45.50651641444905
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.4181499920164,
+        "apex_distance_posterior_mm": 112.08272477343242,
+        "axis_angle_deg": 140.22213603326082,
+        "clearance_mm": 55.07054448787132,
+        "penetrating_vertices": 24,
+        "area_mm2": 1338.8993630494938,
+        "perimeter_mm": 136.1274697345233,
+        "intercommissural_mm": 37.34948882228117,
+        "anteroposterior_mm": 44.878877600886156
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 96.83520983148797,
+        "apex_distance_posterior_mm": 110.22549597532772,
+        "axis_angle_deg": 139.42012132827242,
+        "clearance_mm": 54.00696225344368,
+        "penetrating_vertices": 24,
+        "area_mm2": 1402.9151786845948,
+        "perimeter_mm": 137.19154107156146,
+        "intercommissural_mm": 38.73987184504673,
+        "anteroposterior_mm": 46.069838323551295
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1299.947567533542,
+        "perimeter_mm": 135.78786645453107,
+        "intercommissural_mm": 36.785846203586374,
+        "anteroposterior_mm": 44.448721311448644
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 7.430586678894924,
+        "rotation_deg": 4.359145274031174,
+        "phase_map_cycles": 0.01723367014816979
+      }
+    },
+    {
+      "sample": "sample-94ebdaa43c84a9b0.npz",
+      "identity": "identity-83c945ebf25b4d02",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        66.9097252885491,
+        92.68730567050919
+      ],
+      "cmr_noise_check_rms_mm": 0.34633373867433787,
+      "truth": {
+        "apex_distance_anterior_mm": 84.98008416459022,
+        "apex_distance_posterior_mm": 92.53138032858206,
+        "axis_angle_deg": 172.18799898214647,
+        "clearance_mm": 50.28104712358133,
+        "penetrating_vertices": 24,
+        "area_mm2": 1511.8597840368764,
+        "perimeter_mm": 140.28925228418564,
+        "intercommissural_mm": 41.6719030415738,
+        "anteroposterior_mm": 47.0946562688418
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 84.50659484389861,
+        "apex_distance_posterior_mm": 92.25551315866156,
+        "axis_angle_deg": 173.34594858825872,
+        "clearance_mm": 51.949560211668924,
+        "penetrating_vertices": 24,
+        "area_mm2": 1488.4129053916602,
+        "perimeter_mm": 138.73109456672145,
+        "intercommissural_mm": 41.38633281545412,
+        "anteroposterior_mm": 47.00827005870209
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 82.19120475732393,
+        "apex_distance_posterior_mm": 89.66612342685737,
+        "axis_angle_deg": 178.00659558421327,
+        "clearance_mm": 50.36289423509365,
+        "penetrating_vertices": 24,
+        "area_mm2": 1512.4301226124355,
+        "perimeter_mm": 139.5752799600432,
+        "intercommissural_mm": 42.30551855793361,
+        "anteroposterior_mm": 45.94915845534437
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1463.3073090728858,
+        "perimeter_mm": 137.68937066929027,
+        "intercommissural_mm": 41.18831068525156,
+        "anteroposterior_mm": 46.759888390425154
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.806978884146404,
+        "rotation_deg": 4.222647899625366,
+        "phase_map_cycles": 0.01950846279426055
+      }
+    },
+    {
+      "sample": "sample-9769e064fd8c9f41.npz",
+      "identity": "identity-185c1773505d64ea",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        144.92882140620955,
+        199.67613521893296
+      ],
+      "cmr_noise_check_rms_mm": 0.34663041108459414,
+      "truth": {
+        "apex_distance_anterior_mm": 99.51916848105239,
+        "apex_distance_posterior_mm": 110.70107949589871,
+        "axis_angle_deg": 136.32514227216208,
+        "clearance_mm": 59.15572550728196,
+        "penetrating_vertices": 24,
+        "area_mm2": 2285.404135397613,
+        "perimeter_mm": 175.9148776251994,
+        "intercommissural_mm": 49.14100940450212,
+        "anteroposterior_mm": 59.91381618632228
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 99.17292085096125,
+        "apex_distance_posterior_mm": 110.63402177715355,
+        "axis_angle_deg": 135.56448615187637,
+        "clearance_mm": 57.68783684817683,
+        "penetrating_vertices": 24,
+        "area_mm2": 2297.4095745075183,
+        "perimeter_mm": 176.94982836730992,
+        "intercommissural_mm": 48.921935092878655,
+        "anteroposterior_mm": 60.385766568986874
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 98.28534628518,
+        "apex_distance_posterior_mm": 109.73994426977528,
+        "axis_angle_deg": 132.23228959762963,
+        "clearance_mm": 56.89428979180732,
+        "penetrating_vertices": 24,
+        "area_mm2": 2313.3031412104133,
+        "perimeter_mm": 175.92525129823142,
+        "intercommissural_mm": 49.05528599209409,
+        "anteroposterior_mm": 60.28543011145125
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2298.2808609109397,
+        "perimeter_mm": 177.77476240497577,
+        "intercommissural_mm": 49.46987111019408,
+        "anteroposterior_mm": 60.22206296158058
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.54271735657889,
+        "rotation_deg": 2.483516401376388,
+        "phase_map_cycles": 0.017523155650646105
+      }
+    },
+    {
+      "sample": "sample-a7356c2d2ab935b0.npz",
+      "identity": "identity-bd399286377fb657",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        85.73808656835128,
+        118.37468464843987
+      ],
+      "cmr_noise_check_rms_mm": 0.35672609817297174,
+      "truth": {
+        "apex_distance_anterior_mm": 78.11885400826317,
+        "apex_distance_posterior_mm": 87.850486524724,
+        "axis_angle_deg": 139.1488205373149,
+        "clearance_mm": 45.115512520181426,
+        "penetrating_vertices": 24,
+        "area_mm2": 1730.7509374625317,
+        "perimeter_mm": 148.93388932210044,
+        "intercommissural_mm": 45.024079106078,
+        "anteroposterior_mm": 46.14937190165526
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 78.26722963934887,
+        "apex_distance_posterior_mm": 87.64964107076673,
+        "axis_angle_deg": 138.8423879462161,
+        "clearance_mm": 45.41991776014253,
+        "penetrating_vertices": 24,
+        "area_mm2": 1700.710065384806,
+        "perimeter_mm": 147.26469477019316,
+        "intercommissural_mm": 45.31742432567496,
+        "anteroposterior_mm": 45.699741459803064
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 77.88478168012361,
+        "apex_distance_posterior_mm": 87.40727377857006,
+        "axis_angle_deg": 138.55552743758108,
+        "clearance_mm": 44.994755211293175,
+        "penetrating_vertices": 24,
+        "area_mm2": 1765.0777556962191,
+        "perimeter_mm": 149.65757305533634,
+        "intercommissural_mm": 47.30425582692331,
+        "anteroposterior_mm": 46.08639124863541
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1671.7912777354613,
+        "perimeter_mm": 146.45749450095377,
+        "intercommissural_mm": 43.781580274065114,
+        "anteroposterior_mm": 45.63499360730669
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.107527763045282,
+        "rotation_deg": 1.1254247272007702,
+        "phase_map_cycles": 0.015280639814589825
+      }
+    },
+    {
+      "sample": "sample-a942eb7bc383b6ea.npz",
+      "identity": "identity-eb2daa5a48988981",
+      "tau_es": 0.984375,
+      "truth_volume_range_ml": [
+        42.27300120977904,
+        58.450828582575376
+      ],
+      "cmr_noise_check_rms_mm": 0.3408119852578376,
+      "truth": {
+        "apex_distance_anterior_mm": 77.55406004922082,
+        "apex_distance_posterior_mm": 83.6785459360216,
+        "axis_angle_deg": 174.09654975204393,
+        "clearance_mm": 47.50121940018588,
+        "penetrating_vertices": 24,
+        "area_mm2": 1950.1420747795685,
+        "perimeter_mm": 158.55126098036698,
+        "intercommissural_mm": 51.96309452022589,
+        "anteroposterior_mm": 46.89128462098184
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 76.26114752218582,
+        "apex_distance_posterior_mm": 82.84523352974183,
+        "axis_angle_deg": 174.14220987310227,
+        "clearance_mm": 45.677689930667505,
+        "penetrating_vertices": 24,
+        "area_mm2": 2000.2393780533912,
+        "perimeter_mm": 160.31204109431792,
+        "intercommissural_mm": 53.123362119760166,
+        "anteroposterior_mm": 47.09585508761088
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 75.21782932493915,
+        "apex_distance_posterior_mm": 81.76362855764845,
+        "axis_angle_deg": 171.1854402318305,
+        "clearance_mm": 44.4698940175505,
+        "penetrating_vertices": 24,
+        "area_mm2": 1965.808491515447,
+        "perimeter_mm": 158.12224181142946,
+        "intercommissural_mm": 52.11488432182828,
+        "anteroposterior_mm": 47.88820339860228
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2054.020883337098,
+        "perimeter_mm": 163.13624029122838,
+        "intercommissural_mm": 54.89589249532248,
+        "anteroposterior_mm": 47.161359203328914
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.827370000537978,
+        "rotation_deg": 3.2272452497451956,
+        "phase_map_cycles": 0.022687120102845126
+      }
+    },
+    {
+      "sample": "sample-b0a5362d9ad0a167.npz",
+      "identity": "identity-8423d9289dc30ad5",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        187.47012453291802,
+        258.58131710742543
+      ],
+      "cmr_noise_check_rms_mm": 0.3523413209353634,
+      "truth": {
+        "apex_distance_anterior_mm": 99.29838226987934,
+        "apex_distance_posterior_mm": 124.68433729691645,
+        "axis_angle_deg": 138.8361809702556,
+        "clearance_mm": 51.94262582654963,
+        "penetrating_vertices": 24,
+        "area_mm2": 3285.4823607355042,
+        "perimeter_mm": 205.0384085790486,
+        "intercommissural_mm": 67.09778391288836,
+        "anteroposterior_mm": 64.57114736289712
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 100.17762300362892,
+        "apex_distance_posterior_mm": 125.44528827094297,
+        "axis_angle_deg": 138.48271984677072,
+        "clearance_mm": 52.865648223199834,
+        "penetrating_vertices": 23,
+        "area_mm2": 3289.1201906268093,
+        "perimeter_mm": 204.94855302886953,
+        "intercommissural_mm": 67.50308929636276,
+        "anteroposterior_mm": 63.74696287663928
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 96.4852286833372,
+        "apex_distance_posterior_mm": 121.24972315114121,
+        "axis_angle_deg": 136.04111394491002,
+        "clearance_mm": 50.06442843328791,
+        "penetrating_vertices": 22,
+        "area_mm2": 3314.370544397815,
+        "perimeter_mm": 206.34045285514128,
+        "intercommissural_mm": 67.13084867244044,
+        "anteroposterior_mm": 65.21766809195371
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 3275.158473648766,
+        "perimeter_mm": 204.69512520727832,
+        "intercommissural_mm": 68.6113812147203,
+        "anteroposterior_mm": 62.895834409209755
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 8.345681711590084,
+        "rotation_deg": 5.373016856589116,
+        "phase_map_cycles": 0.011609043682159259
+      }
+    },
+    {
+      "sample": "sample-b12aba209c7c5a60.npz",
+      "identity": "identity-d8f2339dbcc80b72",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        194.14159569761654,
+        269.21968094304754
+      ],
+      "cmr_noise_check_rms_mm": 0.3570674760647676,
+      "truth": {
+        "apex_distance_anterior_mm": 105.76125364430777,
+        "apex_distance_posterior_mm": 117.7685654702114,
+        "axis_angle_deg": 164.2023593999569,
+        "clearance_mm": 62.48372180678197,
+        "penetrating_vertices": 24,
+        "area_mm2": 2899.723169569137,
+        "perimeter_mm": 192.9054974673857,
+        "intercommissural_mm": 63.26826406365685,
+        "anteroposterior_mm": 59.041006419736775
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 106.8149725601586,
+        "apex_distance_posterior_mm": 117.83229633762674,
+        "axis_angle_deg": 164.93615170570928,
+        "clearance_mm": 61.25675214853393,
+        "penetrating_vertices": 24,
+        "area_mm2": 2989.068056902558,
+        "perimeter_mm": 195.5991936235622,
+        "intercommissural_mm": 64.96765416102826,
+        "anteroposterior_mm": 59.611303936038404
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 108.3535044478405,
+        "apex_distance_posterior_mm": 119.57646293974635,
+        "axis_angle_deg": 160.75446826435928,
+        "clearance_mm": 63.24009163502645,
+        "penetrating_vertices": 24,
+        "area_mm2": 3060.687110190861,
+        "perimeter_mm": 197.99909747514684,
+        "intercommissural_mm": 66.2234465035173,
+        "anteroposterior_mm": 59.82921475599327
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2952.082301157648,
+        "perimeter_mm": 194.22211851234266,
+        "intercommissural_mm": 63.59332188605472,
+        "anteroposterior_mm": 59.826169241030385
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.326339649766264,
+        "rotation_deg": 3.6885604588729466,
+        "phase_map_cycles": 0.021809035454296966
+      }
+    },
+    {
+      "sample": "sample-bb99c960710f8a06.npz",
+      "identity": "identity-634aa8ab9ec5a2e3",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        64.21757881860151,
+        88.74675653096685
+      ],
+      "cmr_noise_check_rms_mm": 0.352930583667131,
+      "truth": {
+        "apex_distance_anterior_mm": 94.05856213187603,
+        "apex_distance_posterior_mm": 102.86717986501215,
+        "axis_angle_deg": 174.3849038984624,
+        "clearance_mm": 55.30224013594878,
+        "penetrating_vertices": 24,
+        "area_mm2": 1126.1564711628193,
+        "perimeter_mm": 122.00919096011962,
+        "intercommissural_mm": 39.74456079439037,
+        "anteroposterior_mm": 37.0608243291648
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 93.992288584358,
+        "apex_distance_posterior_mm": 102.83750378475828,
+        "axis_angle_deg": 174.76183359556052,
+        "clearance_mm": 55.027391848921866,
+        "penetrating_vertices": 24,
+        "area_mm2": 1113.5156266169806,
+        "perimeter_mm": 120.28478155504342,
+        "intercommissural_mm": 40.22645226741104,
+        "anteroposterior_mm": 35.0496599166068
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 92.90167666507327,
+        "apex_distance_posterior_mm": 101.85072398868606,
+        "axis_angle_deg": 169.90976748003035,
+        "clearance_mm": 54.01254183431785,
+        "penetrating_vertices": 24,
+        "area_mm2": 1172.6506243317856,
+        "perimeter_mm": 122.94815269701394,
+        "intercommissural_mm": 41.69838513545549,
+        "anteroposterior_mm": 36.04311558361524
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1102.3668661533488,
+        "perimeter_mm": 119.94765474250431,
+        "intercommissural_mm": 40.07012278010673,
+        "anteroposterior_mm": 35.45432252010729
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.2451481242005653,
+        "rotation_deg": 0.7551835490634078,
+        "phase_map_cycles": 0.014078391689823694
+      }
+    },
+    {
+      "sample": "sample-beca31cd32c236b3.npz",
+      "identity": "identity-25fc3b4ceaaf13b2",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        44.171064515541765,
+        61.27786473726685
+      ],
+      "cmr_noise_check_rms_mm": 0.34762010688967426,
+      "truth": {
+        "apex_distance_anterior_mm": 71.8190809592806,
+        "apex_distance_posterior_mm": 80.11055066539353,
+        "axis_angle_deg": 168.9034022359786,
+        "clearance_mm": 40.24234898923147,
+        "penetrating_vertices": 24,
+        "area_mm2": 953.6780730476975,
+        "perimeter_mm": 114.79011119444189,
+        "intercommissural_mm": 36.81867214723095,
+        "anteroposterior_mm": 33.054182503641776
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 71.32645029557166,
+        "apex_distance_posterior_mm": 79.90805677017862,
+        "axis_angle_deg": 161.55276618321506,
+        "clearance_mm": 41.3541007732764,
+        "penetrating_vertices": 24,
+        "area_mm2": 909.8198143413238,
+        "perimeter_mm": 112.35409814448883,
+        "intercommissural_mm": 36.66980782058911,
+        "anteroposterior_mm": 31.84011452783011
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 76.19598331011424,
+        "apex_distance_posterior_mm": 83.14986748530708,
+        "axis_angle_deg": 156.514656144468,
+        "clearance_mm": 40.2956979200991,
+        "penetrating_vertices": 24,
+        "area_mm2": 921.9072497662096,
+        "perimeter_mm": 112.66367777954972,
+        "intercommissural_mm": 36.63189455266806,
+        "anteroposterior_mm": 32.438572066861965
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 911.2188743344736,
+        "perimeter_mm": 111.97931166481054,
+        "intercommissural_mm": 36.85353284533888,
+        "anteroposterior_mm": 31.086151974924537
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.481846459847949,
+        "rotation_deg": 4.365364833823366,
+        "phase_map_cycles": 0.004686260649947149
+      }
+    },
+    {
+      "sample": "sample-bfd2bd0432e2e759.npz",
+      "identity": "identity-be2e06c0289fcda6",
+      "tau_es": 0.984375,
+      "truth_volume_range_ml": [
+        78.94010197946244,
+        109.3438218592846
+      ],
+      "cmr_noise_check_rms_mm": 0.35321153096372354,
+      "truth": {
+        "apex_distance_anterior_mm": 96.8701287721454,
+        "apex_distance_posterior_mm": 107.76054019388278,
+        "axis_angle_deg": 153.6600637909314,
+        "clearance_mm": 54.440372992371145,
+        "penetrating_vertices": 24,
+        "area_mm2": 1330.5560071519799,
+        "perimeter_mm": 137.34167327976303,
+        "intercommissural_mm": 38.39863782675447,
+        "anteroposterior_mm": 46.58138267570359
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 97.52586385588984,
+        "apex_distance_posterior_mm": 108.28298294354116,
+        "axis_angle_deg": 148.98762055044466,
+        "clearance_mm": 54.23167014171485,
+        "penetrating_vertices": 24,
+        "area_mm2": 1318.0503286902867,
+        "perimeter_mm": 133.9791249460826,
+        "intercommissural_mm": 37.69727964479519,
+        "anteroposterior_mm": 46.499773836859404
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 99.43018684821995,
+        "apex_distance_posterior_mm": 110.36946362637613,
+        "axis_angle_deg": 149.59761160656367,
+        "clearance_mm": 56.052756791284345,
+        "penetrating_vertices": 24,
+        "area_mm2": 1306.3720609729958,
+        "perimeter_mm": 132.9781262416611,
+        "intercommissural_mm": 37.770307765275945,
+        "anteroposterior_mm": 45.78496703599583
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1335.29166655368,
+        "perimeter_mm": 135.41963994176407,
+        "intercommissural_mm": 37.933696864512754,
+        "anteroposterior_mm": 47.46722160865171
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.841098579069183,
+        "rotation_deg": 2.029380025499616,
+        "phase_map_cycles": 0.025703730248791662
+      }
+    },
+    {
+      "sample": "sample-c12efdfe04c38a84.npz",
+      "identity": "identity-c0e85214b86ed9be",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        102.8941467002153,
+        141.68622077360615
+      ],
+      "cmr_noise_check_rms_mm": 0.3452111431620304,
+      "truth": {
+        "apex_distance_anterior_mm": 98.38623421009927,
+        "apex_distance_posterior_mm": 112.59997815222358,
+        "axis_angle_deg": 141.79975409035464,
+        "clearance_mm": 54.8693819593856,
+        "penetrating_vertices": 24,
+        "area_mm2": 1380.991756030445,
+        "perimeter_mm": 140.16008571440375,
+        "intercommissural_mm": 37.34198940812735,
+        "anteroposterior_mm": 45.50651641444905
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.9926729684931,
+        "apex_distance_posterior_mm": 114.35493235390466,
+        "axis_angle_deg": 138.03971958941517,
+        "clearance_mm": 56.06913264710229,
+        "penetrating_vertices": 24,
+        "area_mm2": 1335.7378126601966,
+        "perimeter_mm": 136.57921178500982,
+        "intercommissural_mm": 37.30322307978181,
+        "anteroposterior_mm": 44.92515347798635
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 99.04851132994405,
+        "apex_distance_posterior_mm": 114.31994176573123,
+        "axis_angle_deg": 135.83232705414392,
+        "clearance_mm": 56.30314802392282,
+        "penetrating_vertices": 24,
+        "area_mm2": 1359.5099878348517,
+        "perimeter_mm": 136.03380875049902,
+        "intercommissural_mm": 38.25027793051363,
+        "anteroposterior_mm": 45.76210134893717
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1331.4414455225333,
+        "perimeter_mm": 137.33354752795196,
+        "intercommissural_mm": 36.88556859282624,
+        "anteroposterior_mm": 44.87300293207824
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.497806183746856,
+        "rotation_deg": 1.5613441126412761,
+        "phase_map_cycles": 0.015585660111017696
+      }
+    },
+    {
+      "sample": "sample-cc3d43d0916a20f3.npz",
+      "identity": "identity-83c945ebf25b4d02",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        66.9097252885491,
+        92.68730567050919
+      ],
+      "cmr_noise_check_rms_mm": 0.35714272707077344,
+      "truth": {
+        "apex_distance_anterior_mm": 84.98008416459022,
+        "apex_distance_posterior_mm": 92.53138032858206,
+        "axis_angle_deg": 172.18799898214647,
+        "clearance_mm": 50.28104712358133,
+        "penetrating_vertices": 24,
+        "area_mm2": 1511.8597840368764,
+        "perimeter_mm": 140.28925228418564,
+        "intercommissural_mm": 41.6719030415738,
+        "anteroposterior_mm": 47.0946562688418
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 84.8414341535864,
+        "apex_distance_posterior_mm": 92.73552103281608,
+        "axis_angle_deg": 173.51987065072316,
+        "clearance_mm": 52.99623892943794,
+        "penetrating_vertices": 24,
+        "area_mm2": 1515.3870301036982,
+        "perimeter_mm": 139.71607208009635,
+        "intercommissural_mm": 41.76817307614022,
+        "anteroposterior_mm": 47.15857748733524
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 84.17871065949052,
+        "apex_distance_posterior_mm": 92.24958763526202,
+        "axis_angle_deg": 174.78122531050053,
+        "clearance_mm": 52.76011292360057,
+        "penetrating_vertices": 24,
+        "area_mm2": 1525.041940575665,
+        "perimeter_mm": 139.8585756305681,
+        "intercommissural_mm": 42.258191373611595,
+        "anteroposterior_mm": 46.718885157574135
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1519.1041020575756,
+        "perimeter_mm": 140.06181982120262,
+        "intercommissural_mm": 42.04486546747513,
+        "anteroposterior_mm": 47.47585424825554
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.3927574938500777,
+        "rotation_deg": 1.161771077264096,
+        "phase_map_cycles": 0.012199452724613924
+      }
+    },
+    {
+      "sample": "sample-cc4a3d7b1cb56bd6.npz",
+      "identity": "identity-5793fa2e0c33b0d8",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        132.32661660712273,
+        183.28491961282234
+      ],
+      "cmr_noise_check_rms_mm": 0.34801447308532063,
+      "truth": {
+        "apex_distance_anterior_mm": 88.59407185819367,
+        "apex_distance_posterior_mm": 101.0787092636245,
+        "axis_angle_deg": 163.93430441109987,
+        "clearance_mm": 46.04659615037392,
+        "penetrating_vertices": 24,
+        "area_mm2": 3040.924161448214,
+        "perimeter_mm": 197.23840449912348,
+        "intercommissural_mm": 66.06006591234436,
+        "anteroposterior_mm": 57.864279920978355
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 88.61796910143606,
+        "apex_distance_posterior_mm": 100.77903534758119,
+        "axis_angle_deg": 163.83068113821085,
+        "clearance_mm": 46.03534163201777,
+        "penetrating_vertices": 24,
+        "area_mm2": 3138.687520458488,
+        "perimeter_mm": 200.08100320267928,
+        "intercommissural_mm": 67.49704215084294,
+        "anteroposterior_mm": 59.064586560266484
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 87.01991338053857,
+        "apex_distance_posterior_mm": 99.17385016510536,
+        "axis_angle_deg": 168.71469978155838,
+        "clearance_mm": 45.02639456179832,
+        "penetrating_vertices": 24,
+        "area_mm2": 3159.502165297133,
+        "perimeter_mm": 200.57753835190732,
+        "intercommissural_mm": 67.38949241291647,
+        "anteroposterior_mm": 60.1172319391372
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 3146.898316723691,
+        "perimeter_mm": 200.64142173013806,
+        "intercommissural_mm": 67.70635731426754,
+        "anteroposterior_mm": 58.538463052787264
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.970599766624942,
+        "rotation_deg": 1.15598297910353,
+        "phase_map_cycles": 0.020923822100066436
+      }
+    },
+    {
+      "sample": "sample-cc83409fcf619709.npz",
+      "identity": "identity-e88211520fcc1a89",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        46.04391918569366,
+        63.49738000719625
+      ],
+      "cmr_noise_check_rms_mm": 0.3417174084640356,
+      "truth": {
+        "apex_distance_anterior_mm": 86.17853135447193,
+        "apex_distance_posterior_mm": 81.83690103689759,
+        "axis_angle_deg": 171.1672607524429,
+        "clearance_mm": 44.576350407610995,
+        "penetrating_vertices": 24,
+        "area_mm2": 608.2224693753693,
+        "perimeter_mm": 91.46072334002103,
+        "intercommissural_mm": 26.67336896197636,
+        "anteroposterior_mm": 30.98907220894048
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 82.70553207155542,
+        "apex_distance_posterior_mm": 81.72372849607261,
+        "axis_angle_deg": 169.98210980149335,
+        "clearance_mm": 43.60710174364253,
+        "penetrating_vertices": 24,
+        "area_mm2": 563.8578650600516,
+        "perimeter_mm": 86.98038699241155,
+        "intercommissural_mm": 24.869796801146894,
+        "anteroposterior_mm": 30.09991196712981
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 80.67311382022419,
+        "apex_distance_posterior_mm": 79.19377387782376,
+        "axis_angle_deg": 168.78640223924089,
+        "clearance_mm": 43.68938887724584,
+        "penetrating_vertices": 24,
+        "area_mm2": 588.0237337353194,
+        "perimeter_mm": 88.36371137143337,
+        "intercommissural_mm": 24.388723405016613,
+        "anteroposterior_mm": 30.54889451657415
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 544.9984419131491,
+        "perimeter_mm": 86.24717723538839,
+        "intercommissural_mm": 25.358083343385292,
+        "anteroposterior_mm": 29.42080843981234
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 9.589640497720618,
+        "rotation_deg": 7.136135644459414,
+        "phase_map_cycles": 0.011458993905712478
+      }
+    },
+    {
+      "sample": "sample-ceb96568edcf4043.npz",
+      "identity": "identity-4bfc48d8928e4efc",
+      "tau_es": 0.015625,
+      "truth_volume_range_ml": [
+        57.22831049394287,
+        79.14594702295952
+      ],
+      "cmr_noise_check_rms_mm": 0.35158845748665657,
+      "truth": {
+        "apex_distance_anterior_mm": 73.1479281596045,
+        "apex_distance_posterior_mm": 88.78131405269637,
+        "axis_angle_deg": 139.27348735148288,
+        "clearance_mm": 40.6102072062706,
+        "penetrating_vertices": 24,
+        "area_mm2": 1492.9488818163804,
+        "perimeter_mm": 139.15058745331913,
+        "intercommissural_mm": 40.651055675022384,
+        "anteroposterior_mm": 45.36321606578984
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 73.41724771340965,
+        "apex_distance_posterior_mm": 88.80278842086422,
+        "axis_angle_deg": 141.47678039526585,
+        "clearance_mm": 40.24145505446122,
+        "penetrating_vertices": 24,
+        "area_mm2": 1506.1064423962475,
+        "perimeter_mm": 139.05904829340506,
+        "intercommissural_mm": 41.59264690209811,
+        "anteroposterior_mm": 45.44065424430943
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 73.32913155742523,
+        "apex_distance_posterior_mm": 88.7277742137625,
+        "axis_angle_deg": 141.86198418186825,
+        "clearance_mm": 40.95426804604336,
+        "penetrating_vertices": 24,
+        "area_mm2": 1519.814419164015,
+        "perimeter_mm": 139.1889016923207,
+        "intercommissural_mm": 42.55903833375446,
+        "anteroposterior_mm": 45.410374653651786
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1491.0384326161402,
+        "perimeter_mm": 138.69086223735155,
+        "intercommissural_mm": 40.859665924027176,
+        "anteroposterior_mm": 45.271392574353385
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.50745978595535,
+        "rotation_deg": 2.2404183034455336,
+        "phase_map_cycles": 0.013154706181773279
+      }
+    },
+    {
+      "sample": "sample-d15bb9aea07cdea9.npz",
+      "identity": "identity-6d01dd16cc3fee7b",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        48.94829189152283,
+        67.63834129406106
+      ],
+      "cmr_noise_check_rms_mm": 0.34986417495262273,
+      "truth": {
+        "apex_distance_anterior_mm": 87.08659401533575,
+        "apex_distance_posterior_mm": 92.537644476732,
+        "axis_angle_deg": 169.0065965420975,
+        "clearance_mm": 52.52846635906855,
+        "penetrating_vertices": 24,
+        "area_mm2": 970.2351829440933,
+        "perimeter_mm": 114.83384579736688,
+        "intercommissural_mm": 31.757509717481067,
+        "anteroposterior_mm": 39.668456263286004
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 85.66895154018788,
+        "apex_distance_posterior_mm": 91.56477389956369,
+        "axis_angle_deg": 170.24804997062256,
+        "clearance_mm": 49.832430927569085,
+        "penetrating_vertices": 24,
+        "area_mm2": 932.7074426061325,
+        "perimeter_mm": 111.18208371490337,
+        "intercommissural_mm": 31.302884166809303,
+        "anteroposterior_mm": 38.420057998739495
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 88.16734851071428,
+        "apex_distance_posterior_mm": 94.11671708879331,
+        "axis_angle_deg": 170.19916505582012,
+        "clearance_mm": 52.05819531723441,
+        "penetrating_vertices": 24,
+        "area_mm2": 957.5246719147148,
+        "perimeter_mm": 111.16839446058871,
+        "intercommissural_mm": 33.72983908554384,
+        "anteroposterior_mm": 36.392695711372355
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 932.59131665992,
+        "perimeter_mm": 113.20708053327995,
+        "intercommissural_mm": 29.5886092704249,
+        "anteroposterior_mm": 40.557982657547676
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 8.197181311378644,
+        "rotation_deg": 8.929871917271731,
+        "phase_map_cycles": 0.016462390390602988
+      }
+    },
+    {
+      "sample": "sample-d2330ab6d16611aa.npz",
+      "identity": "identity-5793fa2e0c33b0d8",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        132.32661660712273,
+        183.28491961282234
+      ],
+      "cmr_noise_check_rms_mm": 0.35082273188386487,
+      "truth": {
+        "apex_distance_anterior_mm": 88.59407185819367,
+        "apex_distance_posterior_mm": 101.0787092636245,
+        "axis_angle_deg": 163.93430441109987,
+        "clearance_mm": 46.04659615037392,
+        "penetrating_vertices": 24,
+        "area_mm2": 3040.924161448214,
+        "perimeter_mm": 197.23840449912348,
+        "intercommissural_mm": 66.06006591234436,
+        "anteroposterior_mm": 57.864279920978355
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 88.50863845412466,
+        "apex_distance_posterior_mm": 101.46072990989013,
+        "axis_angle_deg": 164.3435527752878,
+        "clearance_mm": 44.94753585190946,
+        "penetrating_vertices": 24,
+        "area_mm2": 3187.5354577139547,
+        "perimeter_mm": 201.60605218652773,
+        "intercommissural_mm": 68.0384386398687,
+        "anteroposterior_mm": 60.0473966952379
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 85.46872593485979,
+        "apex_distance_posterior_mm": 98.73409932955961,
+        "axis_angle_deg": 161.703862497251,
+        "clearance_mm": 43.52727552968105,
+        "penetrating_vertices": 24,
+        "area_mm2": 3259.3894947235253,
+        "perimeter_mm": 203.56124212356985,
+        "intercommissural_mm": 68.31440691597815,
+        "anteroposterior_mm": 61.95246625381427
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 3149.736986736927,
+        "perimeter_mm": 201.04576599652503,
+        "intercommissural_mm": 67.64772415764173,
+        "anteroposterior_mm": 58.76258028133831
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.1276369804223827,
+        "rotation_deg": 3.2580771185183104,
+        "phase_map_cycles": 0.00829189146339565
+      }
+    },
+    {
+      "sample": "sample-d649adef410dd353.npz",
+      "identity": "identity-dc8e895aec1513bf",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        88.66852241001725,
+        122.68473080498393
+      ],
+      "cmr_noise_check_rms_mm": 0.35186620470990504,
+      "truth": {
+        "apex_distance_anterior_mm": 78.45410556604786,
+        "apex_distance_posterior_mm": 81.50814594788858,
+        "axis_angle_deg": 176.52568495813995,
+        "clearance_mm": 49.87704634688874,
+        "penetrating_vertices": 24,
+        "area_mm2": 2275.30924077705,
+        "perimeter_mm": 170.6717240730431,
+        "intercommissural_mm": 54.30802161133916,
+        "anteroposterior_mm": 55.82154822781556
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 79.21011992018498,
+        "apex_distance_posterior_mm": 82.1265924425367,
+        "axis_angle_deg": 174.15074602238903,
+        "clearance_mm": 50.515143503082314,
+        "penetrating_vertices": 24,
+        "area_mm2": 2346.2898819016573,
+        "perimeter_mm": 172.91949509829487,
+        "intercommissural_mm": 54.81139609273884,
+        "anteroposterior_mm": 56.67648502833197
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 80.12506715902103,
+        "apex_distance_posterior_mm": 83.09318140991756,
+        "axis_angle_deg": 170.31324071535497,
+        "clearance_mm": 51.067195246053465,
+        "penetrating_vertices": 24,
+        "area_mm2": 2347.96476704282,
+        "perimeter_mm": 172.54140493412945,
+        "intercommissural_mm": 53.864686874113495,
+        "anteroposterior_mm": 55.95349323818856
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2379.756859069136,
+        "perimeter_mm": 174.27096780973017,
+        "intercommissural_mm": 55.55248893738677,
+        "anteroposterior_mm": 57.07039731627305
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 3.7408057039832165,
+        "rotation_deg": 1.3838523755919114,
+        "phase_map_cycles": 0.014288638088120975
+      }
+    },
+    {
+      "sample": "sample-d7e4029a89a13812.npz",
+      "identity": "identity-57c7e3e9b3f1b3ac",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        139.8766565830606,
+        193.40938865291977
+      ],
+      "cmr_noise_check_rms_mm": 0.344733355246275,
+      "truth": {
+        "apex_distance_anterior_mm": 104.67738787938724,
+        "apex_distance_posterior_mm": 112.27566539929008,
+        "axis_angle_deg": 165.3329196477136,
+        "clearance_mm": 62.97593011928672,
+        "penetrating_vertices": 24,
+        "area_mm2": 2528.6274909674335,
+        "perimeter_mm": 183.47750733234034,
+        "intercommissural_mm": 61.78056181897327,
+        "anteroposterior_mm": 52.16740991159908
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 104.21410757026855,
+        "apex_distance_posterior_mm": 111.10234277961254,
+        "axis_angle_deg": 167.56020722177624,
+        "clearance_mm": 64.21654498342156,
+        "penetrating_vertices": 24,
+        "area_mm2": 2483.13841724012,
+        "perimeter_mm": 180.79494350632638,
+        "intercommissural_mm": 60.49396219920953,
+        "anteroposterior_mm": 51.70167670938774
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 104.62758406473269,
+        "apex_distance_posterior_mm": 111.40043321008801,
+        "axis_angle_deg": 167.0070287788185,
+        "clearance_mm": 64.91257169287002,
+        "penetrating_vertices": 24,
+        "area_mm2": 2516.6584965951647,
+        "perimeter_mm": 180.46495260129834,
+        "intercommissural_mm": 60.74375895449867,
+        "anteroposterior_mm": 53.13524790667897
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2503.645708206088,
+        "perimeter_mm": 183.161478642625,
+        "intercommissural_mm": 61.36949401711164,
+        "anteroposterior_mm": 51.67554966526916
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 4.016174529504906,
+        "rotation_deg": 1.294557510285027,
+        "phase_map_cycles": 0.01231427008225619
+      }
+    },
+    {
+      "sample": "sample-d81ae1bc6f643f4f.npz",
+      "identity": "identity-65dd7adb52e793ff",
+      "tau_es": 0.015625,
+      "truth_volume_range_ml": [
+        76.88996894819343,
+        106.2369824760744
+      ],
+      "cmr_noise_check_rms_mm": 0.35151361779193047,
+      "truth": {
+        "apex_distance_anterior_mm": 75.090101494031,
+        "apex_distance_posterior_mm": 85.00078736791227,
+        "axis_angle_deg": 136.80500339975535,
+        "clearance_mm": 41.90219903302197,
+        "penetrating_vertices": 24,
+        "area_mm2": 1436.1977126886432,
+        "perimeter_mm": 137.13680812165376,
+        "intercommissural_mm": 44.06064349058114,
+        "anteroposterior_mm": 44.40122750671676
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 75.47831404283899,
+        "apex_distance_posterior_mm": 85.4182213542877,
+        "axis_angle_deg": 133.8081620364831,
+        "clearance_mm": 41.70993906546322,
+        "penetrating_vertices": 24,
+        "area_mm2": 1411.1490070523753,
+        "perimeter_mm": 134.4448974789394,
+        "intercommissural_mm": 43.54011089939342,
+        "anteroposterior_mm": 42.44400563564694
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 78.34748787886363,
+        "apex_distance_posterior_mm": 88.19321967898722,
+        "axis_angle_deg": 130.5838566361544,
+        "clearance_mm": 43.47117831753887,
+        "penetrating_vertices": 24,
+        "area_mm2": 1359.7848679128733,
+        "perimeter_mm": 131.85709951853192,
+        "intercommissural_mm": 43.24408027652142,
+        "anteroposterior_mm": 40.13615126279087
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1443.8027893887538,
+        "perimeter_mm": 137.18516573154898,
+        "intercommissural_mm": 43.879193344240896,
+        "anteroposterior_mm": 44.381728029679536
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.008441694327816,
+        "rotation_deg": 5.710502785367943,
+        "phase_map_cycles": 0.0380856520426304
+      }
+    },
+    {
+      "sample": "sample-dbacf27eae98f37a.npz",
+      "identity": "identity-634aa8ab9ec5a2e3",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        64.21757881860151,
+        88.74675653096685
+      ],
+      "cmr_noise_check_rms_mm": 0.3468101010456924,
+      "truth": {
+        "apex_distance_anterior_mm": 94.05856213187603,
+        "apex_distance_posterior_mm": 102.86717986501215,
+        "axis_angle_deg": 174.3849038984624,
+        "clearance_mm": 55.30224013594878,
+        "penetrating_vertices": 24,
+        "area_mm2": 1126.1564711628193,
+        "perimeter_mm": 122.00919096011962,
+        "intercommissural_mm": 39.74456079439037,
+        "anteroposterior_mm": 37.0608243291648
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 94.23161475534701,
+        "apex_distance_posterior_mm": 103.21814754463063,
+        "axis_angle_deg": 166.96709416457063,
+        "clearance_mm": 55.74740516124074,
+        "penetrating_vertices": 24,
+        "area_mm2": 1097.56344548663,
+        "perimeter_mm": 119.65496850825912,
+        "intercommissural_mm": 39.556775926415234,
+        "anteroposterior_mm": 35.02013618110186
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 95.27188172681537,
+        "apex_distance_posterior_mm": 104.1721693618247,
+        "axis_angle_deg": 163.75988933812246,
+        "clearance_mm": 56.79354453921011,
+        "penetrating_vertices": 24,
+        "area_mm2": 1086.4560709618188,
+        "perimeter_mm": 118.93657221203281,
+        "intercommissural_mm": 38.93331647242726,
+        "anteroposterior_mm": 35.88403783649484
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1127.9506246049914,
+        "perimeter_mm": 121.57226049901477,
+        "intercommissural_mm": 40.9485416460906,
+        "anteroposterior_mm": 35.32968503826017
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 5.739159347666209,
+        "rotation_deg": 2.272919003704854,
+        "phase_map_cycles": 0.02317526491688937
+      }
+    },
+    {
+      "sample": "sample-dfa5b5c7aa6898e1.npz",
+      "identity": "identity-8a28fc5e96514ce7",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        84.44601775409129,
+        116.32767721576033
+      ],
+      "cmr_noise_check_rms_mm": 0.34418861339153667,
+      "truth": {
+        "apex_distance_anterior_mm": 87.97445396209218,
+        "apex_distance_posterior_mm": 99.6996486829479,
+        "axis_angle_deg": 151.1409837994454,
+        "clearance_mm": 48.5241536106577,
+        "penetrating_vertices": 24,
+        "area_mm2": 1364.5190231885695,
+        "perimeter_mm": 133.69176632260633,
+        "intercommissural_mm": 43.53318149170946,
+        "anteroposterior_mm": 41.391578312044075
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 87.98630473699907,
+        "apex_distance_posterior_mm": 99.71543962889629,
+        "axis_angle_deg": 150.51763116030043,
+        "clearance_mm": 48.38000661407445,
+        "penetrating_vertices": 24,
+        "area_mm2": 1345.264869114629,
+        "perimeter_mm": 132.11516867968828,
+        "intercommissural_mm": 43.72982083957936,
+        "anteroposterior_mm": 40.6766590463146
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 87.56328995893541,
+        "apex_distance_posterior_mm": 99.08077828666147,
+        "axis_angle_deg": 148.44659285953406,
+        "clearance_mm": 48.84615932658949,
+        "penetrating_vertices": 24,
+        "area_mm2": 1356.4718177465415,
+        "perimeter_mm": 132.33333647130013,
+        "intercommissural_mm": 43.45238036887577,
+        "anteroposterior_mm": 40.90925660272698
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1353.5515800973408,
+        "perimeter_mm": 132.32341821516016,
+        "intercommissural_mm": 43.883551714768906,
+        "anteroposterior_mm": 40.516283388520414
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.0534539141874635,
+        "rotation_deg": 1.2757835540970466,
+        "phase_map_cycles": 0.011329066082397116
+      }
+    },
+    {
+      "sample": "sample-e73854be55665de8.npz",
+      "identity": "identity-6d01dd16cc3fee7b",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        48.94829189152283,
+        67.63834129406106
+      ],
+      "cmr_noise_check_rms_mm": 0.34707313720659566,
+      "truth": {
+        "apex_distance_anterior_mm": 87.08659401533575,
+        "apex_distance_posterior_mm": 92.537644476732,
+        "axis_angle_deg": 169.0065965420975,
+        "clearance_mm": 52.52846635906855,
+        "penetrating_vertices": 24,
+        "area_mm2": 970.2351829440933,
+        "perimeter_mm": 114.83384579736688,
+        "intercommissural_mm": 31.757509717481067,
+        "anteroposterior_mm": 39.668456263286004
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 86.95663888509107,
+        "apex_distance_posterior_mm": 92.61725738334142,
+        "axis_angle_deg": 170.77493364268722,
+        "clearance_mm": 51.19311574883541,
+        "penetrating_vertices": 24,
+        "area_mm2": 940.303396293825,
+        "perimeter_mm": 111.64651141919893,
+        "intercommissural_mm": 30.63223613977691,
+        "anteroposterior_mm": 38.839079308056974
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 87.83466425907069,
+        "apex_distance_posterior_mm": 93.57942176723283,
+        "axis_angle_deg": 171.75971065948934,
+        "clearance_mm": 52.676177797219786,
+        "penetrating_vertices": 24,
+        "area_mm2": 984.7592933893952,
+        "perimeter_mm": 112.97182530825991,
+        "intercommissural_mm": 32.333433170504,
+        "anteroposterior_mm": 38.60019950273536
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 936.8548270136961,
+        "perimeter_mm": 112.18472015178287,
+        "intercommissural_mm": 30.563076123752978,
+        "anteroposterior_mm": 39.389832657955004
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 0.9890479319478148,
+        "rotation_deg": 1.3469583140958425,
+        "phase_map_cycles": 0.007352606067597023
+      }
+    },
+    {
+      "sample": "sample-ed77d3eaae8eb5c1.npz",
+      "identity": "identity-29161c9df426f701",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        87.0966440321087,
+        120.90970785463544
+      ],
+      "cmr_noise_check_rms_mm": 0.3536226202097954,
+      "truth": {
+        "apex_distance_anterior_mm": 88.52866629819202,
+        "apex_distance_posterior_mm": 100.07153403725101,
+        "axis_angle_deg": 131.97255270906652,
+        "clearance_mm": 49.34403890969693,
+        "penetrating_vertices": 24,
+        "area_mm2": 1446.081825438019,
+        "perimeter_mm": 137.4201434622683,
+        "intercommissural_mm": 44.90336179955771,
+        "anteroposterior_mm": 39.3524914980477
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 87.40220841611102,
+        "apex_distance_posterior_mm": 99.27861315615235,
+        "axis_angle_deg": 127.21127784548997,
+        "clearance_mm": 50.5785337549671,
+        "penetrating_vertices": 24,
+        "area_mm2": 1446.2782743793323,
+        "perimeter_mm": 136.55379607216395,
+        "intercommissural_mm": 45.017590923790976,
+        "anteroposterior_mm": 40.225251858076426
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 89.24630486331856,
+        "apex_distance_posterior_mm": 101.0448112692465,
+        "axis_angle_deg": 124.1486814495893,
+        "clearance_mm": 52.350333592878194,
+        "penetrating_vertices": 24,
+        "area_mm2": 1462.309913679245,
+        "perimeter_mm": 136.88418474940892,
+        "intercommissural_mm": 45.81613324054658,
+        "anteroposterior_mm": 39.92176347268892
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1454.2388217820098,
+        "perimeter_mm": 137.34217169872687,
+        "intercommissural_mm": 44.21474163343271,
+        "anteroposterior_mm": 40.934250056643286
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.3202490124549247,
+        "rotation_deg": 5.367119439390957,
+        "phase_map_cycles": 0.018899814188806263
+      }
+    },
+    {
+      "sample": "sample-ef4f78bdfca8c630.npz",
+      "identity": "identity-31fea4899175b3ba",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        97.28548597378743,
+        134.4039997477411
+      ],
+      "cmr_noise_check_rms_mm": 0.347052401613348,
+      "truth": {
+        "apex_distance_anterior_mm": 107.68064659583918,
+        "apex_distance_posterior_mm": 110.22249226064625,
+        "axis_angle_deg": 171.07446825964948,
+        "clearance_mm": 66.59355059948467,
+        "penetrating_vertices": 24,
+        "area_mm2": 1849.6647051935092,
+        "perimeter_mm": 158.48247843554242,
+        "intercommissural_mm": 50.43837582533434,
+        "anteroposterior_mm": 49.66896342895395
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 107.57724473165996,
+        "apex_distance_posterior_mm": 110.74544828147698,
+        "axis_angle_deg": 167.09260827011684,
+        "clearance_mm": 65.36061210578399,
+        "penetrating_vertices": 24,
+        "area_mm2": 1864.990267285178,
+        "perimeter_mm": 158.18020860824294,
+        "intercommissural_mm": 49.93253411256212,
+        "anteroposterior_mm": 49.82053983398431
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 107.08600761161927,
+        "apex_distance_posterior_mm": 110.27579318648901,
+        "axis_angle_deg": 168.99525834331055,
+        "clearance_mm": 65.96636217330463,
+        "penetrating_vertices": 24,
+        "area_mm2": 1875.1058591785813,
+        "perimeter_mm": 157.19054766823103,
+        "intercommissural_mm": 49.43698533089749,
+        "anteroposterior_mm": 49.95146038688588
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1871.1289909522977,
+        "perimeter_mm": 158.87279541137798,
+        "intercommissural_mm": 50.57901868259569,
+        "anteroposterior_mm": 49.51251756727845
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.1572302271426778,
+        "rotation_deg": 1.594400146713527,
+        "phase_map_cycles": 0.005533302157669229
+      }
+    },
+    {
+      "sample": "sample-efb59a8a9814f2b3.npz",
+      "identity": "identity-cb3ed6133aa0ad8d",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        97.3717272065861,
+        134.98854863732734
+      ],
+      "cmr_noise_check_rms_mm": 0.35092126391836903,
+      "truth": {
+        "apex_distance_anterior_mm": 99.68456697692167,
+        "apex_distance_posterior_mm": 110.10572939278545,
+        "axis_angle_deg": 153.36687703346954,
+        "clearance_mm": 56.51226120106838,
+        "penetrating_vertices": 24,
+        "area_mm2": 1661.3065879039912,
+        "perimeter_mm": 146.18811870547438,
+        "intercommissural_mm": 45.53352313795617,
+        "anteroposterior_mm": 46.04532187815585
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 101.28003348912898,
+        "apex_distance_posterior_mm": 111.00902681941223,
+        "axis_angle_deg": 152.2778256932799,
+        "clearance_mm": 56.05905612581915,
+        "penetrating_vertices": 24,
+        "area_mm2": 1664.3503034558084,
+        "perimeter_mm": 146.07218112837754,
+        "intercommissural_mm": 46.18285126987792,
+        "anteroposterior_mm": 46.604357486985506
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 100.19794140995587,
+        "apex_distance_posterior_mm": 110.2953618706098,
+        "axis_angle_deg": 149.34878465604217,
+        "clearance_mm": 55.65684161258186,
+        "penetrating_vertices": 24,
+        "area_mm2": 1638.240682577996,
+        "perimeter_mm": 144.89436964998342,
+        "intercommissural_mm": 45.2264234084779,
+        "anteroposterior_mm": 46.43192483019198
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1729.0030719508336,
+        "perimeter_mm": 148.80922705399632,
+        "intercommissural_mm": 47.516218627494794,
+        "anteroposterior_mm": 46.46821024635491
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 2.862440123838962,
+        "rotation_deg": 0.3286061166953583,
+        "phase_map_cycles": 0.02838015206787725
+      }
+    },
+    {
+      "sample": "sample-fd56fa72b96095d5.npz",
+      "identity": "identity-185c1773505d64ea",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        144.92882140620955,
+        199.67613521893296
+      ],
+      "cmr_noise_check_rms_mm": 0.35305742192648687,
+      "truth": {
+        "apex_distance_anterior_mm": 99.51916848105239,
+        "apex_distance_posterior_mm": 110.70107949589871,
+        "axis_angle_deg": 136.32514227216208,
+        "clearance_mm": 59.15572550728196,
+        "penetrating_vertices": 24,
+        "area_mm2": 2285.404135397613,
+        "perimeter_mm": 175.9148776251994,
+        "intercommissural_mm": 49.14100940450212,
+        "anteroposterior_mm": 59.91381618632228
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.49086106232156,
+        "apex_distance_posterior_mm": 110.19824166211019,
+        "axis_angle_deg": 132.9485559264861,
+        "clearance_mm": 57.453330313877416,
+        "penetrating_vertices": 24,
+        "area_mm2": 2326.406857864341,
+        "perimeter_mm": 177.63822598326334,
+        "intercommissural_mm": 49.61410607811805,
+        "anteroposterior_mm": 60.67465523002824
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 97.91552660521182,
+        "apex_distance_posterior_mm": 109.92231643162282,
+        "axis_angle_deg": 136.97881631945134,
+        "clearance_mm": 56.83155059695606,
+        "penetrating_vertices": 24,
+        "area_mm2": 2362.8321274869563,
+        "perimeter_mm": 178.0678038702407,
+        "intercommissural_mm": 51.15298959811142,
+        "anteroposterior_mm": 59.80273734252112
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 2287.9411803304724,
+        "perimeter_mm": 176.9414685439074,
+        "intercommissural_mm": 48.59047918894232,
+        "anteroposterior_mm": 60.53083475457363
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 1.6250643486597598,
+        "rotation_deg": 2.1909428810747937,
+        "phase_map_cycles": 0.0053204448535836835
+      }
+    },
+    {
+      "sample": "sample-febf0b9ae0246455.npz",
+      "identity": "identity-cb3ed6133aa0ad8d",
+      "tau_es": 0.0,
+      "truth_volume_range_ml": [
+        97.3717272065861,
+        134.98854863732734
+      ],
+      "cmr_noise_check_rms_mm": 0.34717753390491085,
+      "truth": {
+        "apex_distance_anterior_mm": 99.68456697692167,
+        "apex_distance_posterior_mm": 110.10572939278545,
+        "axis_angle_deg": 153.36687703346954,
+        "clearance_mm": 56.51226120106838,
+        "penetrating_vertices": 24,
+        "area_mm2": 1661.3065879039912,
+        "perimeter_mm": 146.18811870547438,
+        "intercommissural_mm": 45.53352313795617,
+        "anteroposterior_mm": 46.04532187815585
+      },
+      "rooted4d": {
+        "apex_distance_anterior_mm": 98.5250232539412,
+        "apex_distance_posterior_mm": 110.92030564476161,
+        "axis_angle_deg": 153.04655613613195,
+        "clearance_mm": 56.45090674850159,
+        "penetrating_vertices": 24,
+        "area_mm2": 1679.3392734432875,
+        "perimeter_mm": 146.57643395495808,
+        "intercommissural_mm": 46.536943477335775,
+        "anteroposterior_mm": 46.444544850347334
+      },
+      "late_fusion": {
+        "apex_distance_anterior_mm": 98.7918113196045,
+        "apex_distance_posterior_mm": 110.437757715377,
+        "axis_angle_deg": 151.2798767040922,
+        "clearance_mm": 56.00849340935731,
+        "penetrating_vertices": 24,
+        "area_mm2": 1698.4564348781455,
+        "perimeter_mm": 147.3687500559194,
+        "intercommissural_mm": 46.47284938733816,
+        "anteroposterior_mm": 46.88867464261314
+      },
+      "late_fusion_chamber_ring": {
+        "area_mm2": 1677.4924014411413,
+        "perimeter_mm": 146.62983169468808,
+        "intercommissural_mm": 46.59834110138427,
+        "anteroposterior_mm": 45.786404766792366
+      },
+      "late_fusion_alignment": {
+        "translation_mm": 0.7861967293519242,
+        "rotation_deg": 0.37498149497064714,
+        "phase_map_cycles": 0.02101734359915053
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "experiment": "E96",
+  "preregistration": "Docs/E96_COMMISSURE_PRECISION_PREREGISTRATION_2026-09-29.md",
+  "statistics": "each study's own; E62's are identity-averaged, sum of modality medians, 20000 identity resamples, seed 20260910",
+  "samples": 60,
+  "arms": {
+    "noise_0mm": {
+      "rotation_deg": 11.300187208931245,
+      "translation_mm": 19.916168858866058,
+      "phase_map_cycles": 0.22395328890640726,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.18333333333333332,
+      "wrong_basin": 0.0
+    },
+    "noise_1mm": {
+      "rotation_deg": 10.086467885188036,
+      "translation_mm": 18.7856413635374,
+      "phase_map_cycles": 0.2177619117474438,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.18333333333333332,
+      "wrong_basin": 0.0
+    },
+    "noise_2mm": {
+      "rotation_deg": 9.93280009422713,
+      "translation_mm": 20.470891492029544,
+      "phase_map_cycles": 0.21445727313087007,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.23333333333333334,
+      "wrong_basin": 0.0
+    },
+    "noise_4mm": {
+      "rotation_deg": 11.0432995677451,
+      "translation_mm": 19.739550903349567,
+      "phase_map_cycles": 0.19298432629660722,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.15,
+      "wrong_basin": 0.0
+    },
+    "noise_8mm": {
+      "rotation_deg": 10.871324257639849,
+      "translation_mm": 19.093229264738603,
+      "phase_map_cycles": 0.16482179114320702,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.13333333333333333,
+      "wrong_basin": 0.0
+    },
+    "one_only": {
+      "rotation_deg": 17.327515647451392,
+      "translation_mm": 26.174990403920432,
+      "phase_map_cycles": 0.25808848374721083,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.08333333333333333,
+      "wrong_basin": 0.016666666666666666
+    },
+    "slide_one": {
+      "rotation_deg": 13.89477096201487,
+      "translation_mm": 25.60189270574223,
+      "phase_map_cycles": 0.22433705157285727,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.16666666666666666,
+      "wrong_basin": 0.0
+    },
+    "swap": {
+      "rotation_deg": 173.81953334584125,
+      "translation_mm": 158.66742767137058,
+      "phase_map_cycles": 0.29386524349066967,
+      "samples": 60,
+      "failures": 0,
+      "within_5deg": 0.0,
+      "wrong_basin": 1.0
+    }
+  },
+  "against_zero_error": {
+    "noise_1mm": {
+      "rotation_deg": {
+        "observed": -0.017977089814452896,
+        "lower": -1.881040750363539,
+        "upper": 2.370326708454707
+      },
+      "translation_mm": {
+        "observed": -1.4105910882749306,
+        "lower": -3.2202779639561214,
+        "upper": 1.672402271874443
+      },
+      "phase_map_cycles": {
+        "observed": 0.0022998139380823457,
+        "lower": -0.037202564013804645,
+        "upper": 0.04250777890947646
+      }
+    },
+    "noise_2mm": {
+      "rotation_deg": {
+        "observed": -0.5352456593986137,
+        "lower": -2.596158961528861,
+        "upper": 2.438532055295477
+      },
+      "translation_mm": {
+        "observed": -1.8287041291387638,
+        "lower": -3.5371233692786284,
+        "upper": 2.1721273414418896
+      },
+      "phase_map_cycles": {
+        "observed": -0.00545154947181592,
+        "lower": -0.03291968001403548,
+        "upper": 0.0249964312129293
+      }
+    },
+    "noise_4mm": {
+      "rotation_deg": {
+        "observed": 1.9777952145895146,
+        "lower": -1.6446109994848719,
+        "upper": 3.7939406149740904
+      },
+      "translation_mm": {
+        "observed": -1.3083722630398427,
+        "lower": -2.6835846894265565,
+        "upper": 6.452789694661302
+      },
+      "phase_map_cycles": {
+        "observed": -0.003797145879643554,
+        "lower": -0.05527706225194218,
+        "upper": 0.032243187082031805
+      }
+    },
+    "noise_8mm": {
+      "rotation_deg": {
+        "observed": 1.2734352231579216,
+        "lower": -2.352227964230128,
+        "upper": 4.00859361758272
+      },
+      "translation_mm": {
+        "observed": -1.721044095516099,
+        "lower": -4.611863289717906,
+        "upper": 3.5518581804690648
+      },
+      "phase_map_cycles": {
+        "observed": -0.04173289644898723,
+        "lower": -0.08672531063304961,
+        "upper": 0.012764752318047967
+      }
+    },
+    "one_only": {
+      "rotation_deg": {
+        "observed": 7.852488760858112,
+        "lower": 2.9027062991264603,
+        "upper": 10.219072530072209
+      },
+      "translation_mm": {
+        "observed": 5.48034173869388,
+        "lower": -1.9663416240957687,
+        "upper": 15.584786527941482
+      },
+      "phase_map_cycles": {
+        "observed": 0.0378003820467864,
+        "lower": -0.02488704510164086,
+        "upper": 0.08183740922013233
+      }
+    },
+    "slide_one": {
+      "rotation_deg": {
+        "observed": 3.6589382564233457,
+        "lower": -1.6173704101191333,
+        "upper": 6.4302524885327585
+      },
+      "translation_mm": {
+        "observed": 3.2948155401363834,
+        "lower": -1.8272826386870946,
+        "upper": 9.47307698434852
+      },
+      "phase_map_cycles": {
+        "observed": 0.003931556403973274,
+        "lower": -0.03211552725209002,
+        "upper": 0.05511675364277904
+      }
+    },
+    "swap": {
+      "rotation_deg": {
+        "observed": 162.2772660832453,
+        "lower": 155.00137811810504,
+        "upper": 165.74921139976203
+      },
+      "translation_mm": {
+        "observed": 137.52923703978377,
+        "lower": 130.94983994683062,
+        "upper": 147.1341240159163
+      },
+      "phase_map_cycles": {
+        "observed": 0.09807927739708519,
+        "lower": 0.015097779625520724,
+        "upper": 0.1577790446146744
+      }
+    }
+  },
+  "stops_placing_rotation_at": null,
+  "commissure_search_places_rotation": false,
+  "swap_detection": {
+    "samples": 60,
+    "fraction_detected": 0.6833333333333333,
+    "detected_by_rule": false
+  }
+}

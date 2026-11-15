@@ -1,0 +1,42 @@
+{
+  "experiment": "E39_ghdheart_comparison",
+  "n_frames": 60,
+  "n_patients": 30,
+  "ghdheart_basis": 64,
+  "ghdheart_source": "results/21959021_test/E37_test_B64.json",
+  "ours_source": "results/21931418/E36_image_input_chamber.json",
+  "medians": {
+    "ghdheart": {
+      "symmetric_mm": 3.1601784870612626,
+      "hausdorff_mm": 16.71157951464224
+    },
+    "rooted4d_label_input": {
+      "symmetric_mm": 1.894492883851019,
+      "hausdorff_mm": 7.319783380245738
+    },
+    "rooted4d_image_input": {
+      "symmetric_mm": 2.244888462574518,
+      "hausdorff_mm": 9.831797005993124
+    }
+  },
+  "paired": {
+    "ghdheart_minus_rooted4d_label_input": {
+      "difference": 1.246622069482546,
+      "ci_low": 1.0615839110982406,
+      "ci_high": 1.537378580235715,
+      "p_value": 4.9999750001249995e-06,
+      "n_frames": 60,
+      "n_patients": 30,
+      "analysis_unit": "patient"
+    },
+    "ghdheart_minus_rooted4d_image_input": {
+      "difference": 0.9642983906604816,
+      "ci_low": 0.42798320509310983,
+      "ci_high": 1.236484804712037,
+      "p_value": 0.00035999820000899997,
+      "n_frames": 60,
+      "n_patients": 30,
+      "analysis_unit": "patient"
+    }
+  }
+}

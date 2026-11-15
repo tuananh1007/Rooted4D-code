@@ -1,0 +1,190 @@
+{
+  "experiment": "E56_covariance_prior_control",
+  "question": "does covariance-aware shrinkage of the global PCA prior recover the benefit attributed to a structured representation",
+  "split": "shape space learned on train identities; measured on validation identities; test untouched",
+  "alignment": "frozen at truth (development diagnostic, not end to end)",
+  "selection_rule": "weight minimising median CMR + median TEE, identical for both arms, fixed before the run",
+  "scale_floor": 0.005,
+  "weights": [
+    0.001,
+    0.003,
+    0.01,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "modes": [
+    48
+  ],
+  "rows": [
+    {
+      "median_cmr_mm": 1.0403866144788825,
+      "median_tee_mm": 2.88032502501701,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 0.001,
+      "sum_mm": 3.9207116394958925,
+      "seconds": 13.0
+    },
+    {
+      "median_cmr_mm": 1.0405060571122495,
+      "median_tee_mm": 2.888572184125147,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 0.003,
+      "sum_mm": 3.929078241237397,
+      "seconds": 12.9
+    },
+    {
+      "median_cmr_mm": 1.0408051190889078,
+      "median_tee_mm": 2.9233385667682796,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 0.01,
+      "sum_mm": 3.9641436858571875,
+      "seconds": 12.8
+    },
+    {
+      "median_cmr_mm": 1.3396573467138144,
+      "median_tee_mm": 3.2993889747508023,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 1.0,
+      "sum_mm": 4.639046321464617,
+      "seconds": 11.4
+    },
+    {
+      "median_cmr_mm": 1.7772377047299506,
+      "median_tee_mm": 3.9909531995197964,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 2.0,
+      "sum_mm": 5.768190904249747,
+      "seconds": 11.3
+    },
+    {
+      "median_cmr_mm": 2.70724795449383,
+      "median_tee_mm": 5.4944684905772405,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 4.0,
+      "sum_mm": 8.201716445071071,
+      "seconds": 11.2
+    },
+    {
+      "median_cmr_mm": 4.3434863148040845,
+      "median_tee_mm": 7.598245038148675,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": false,
+      "weight": 8.0,
+      "sum_mm": 11.94173135295276,
+      "seconds": 11.2
+    },
+    {
+      "median_cmr_mm": 1.0403386877604,
+      "median_tee_mm": 2.8811593980348413,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 0.001,
+      "sum_mm": 3.9214980857952413,
+      "seconds": 13.5
+    },
+    {
+      "median_cmr_mm": 1.0403592279811829,
+      "median_tee_mm": 2.877697356500572,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 0.003,
+      "sum_mm": 3.918056584481755,
+      "seconds": 13.6
+    },
+    {
+      "median_cmr_mm": 1.0404324841931465,
+      "median_tee_mm": 2.8658630649137287,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 0.01,
+      "sum_mm": 3.906295549106875,
+      "seconds": 13.6
+    },
+    {
+      "median_cmr_mm": 1.0558499934978718,
+      "median_tee_mm": 2.4906705923736707,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 1.0,
+      "sum_mm": 3.5465205858715425,
+      "seconds": 13.0
+    },
+    {
+      "median_cmr_mm": 1.0579191025096157,
+      "median_tee_mm": 2.347720236303495,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 2.0,
+      "sum_mm": 3.4056393388131108,
+      "seconds": 12.8
+    },
+    {
+      "median_cmr_mm": 1.0800231044110284,
+      "median_tee_mm": 2.288101987251446,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 4.0,
+      "sum_mm": 3.3681250916624745,
+      "seconds": 12.4
+    },
+    {
+      "median_cmr_mm": 1.1655645048605259,
+      "median_tee_mm": 2.3757105273525365,
+      "n_identities": 30,
+      "modes": 48,
+      "covariance_aware": true,
+      "weight": 8.0,
+      "sum_mm": 3.541275032213062,
+      "seconds": 12.2
+    }
+  ],
+  "comparison": [
+    {
+      "modes": 48,
+      "isotropic": {
+        "median_cmr_mm": 1.0403866144788825,
+        "median_tee_mm": 2.88032502501701,
+        "n_identities": 30,
+        "modes": 48,
+        "covariance_aware": false,
+        "weight": 0.001,
+        "sum_mm": 3.9207116394958925,
+        "seconds": 13.0
+      },
+      "covariance_aware": {
+        "median_cmr_mm": 1.0800231044110284,
+        "median_tee_mm": 2.288101987251446,
+        "n_identities": 30,
+        "modes": 48,
+        "covariance_aware": true,
+        "weight": 4.0,
+        "sum_mm": 3.3681250916624745,
+        "seconds": 12.4
+      },
+      "cmr_change_mm": 0.03963648993214597,
+      "tee_change_mm": -0.5922230377655637,
+      "sum_change_mm": -0.552586547833418
+    }
+  ]
+}

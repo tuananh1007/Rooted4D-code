@@ -1,0 +1,27 @@
+{
+  "experiment": "E52_interface_vs_global",
+  "train_identities": 180,
+  "test_identities": 60,
+  "rows": [
+    {
+      "budget": 32,
+      "global_trig": 3.6566762475396724,
+      "global_laplacian": 2.0974166598539297,
+      "global_laplacian_dim": 30,
+      "interface_reduced": 2.1575631724565834,
+      "interface_reduced_ring_modes": 1,
+      "interface_reduced_interior_per_component": 3,
+      "interface_reduced_dim": 30
+    },
+    {
+      "budget": 33,
+      "global_trig": 3.6549235940402864,
+      "global_laplacian": 1.7981019997236678,
+      "global_laplacian_dim": 33,
+      "interface_reduced": 1.9537978372089246,
+      "interface_reduced_ring_modes": 2,
+      "interface_reduced_interior_per_component": 3,
+      "interface_reduced_dim": 33
+    }
+  ]
+}

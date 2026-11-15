@@ -1,0 +1,8 @@
+{
+  "benchmark": "data/derived/e100-v3n96o",
+  "experiment": "E97",
+  "frozen_from": "Codes/configs/e100/v3n96o/v3n96o_e88_test.json",
+  "iterations": 400,
+  "preregistration": "Docs/E97_IMAGE_LATE_FUSION_PREREGISTRATION_2026-09-29.md",
+  "smoke": false
+}

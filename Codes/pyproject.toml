@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rooted4d-starter"
+version = "0.16.0"
+description = "Executable attachment-exact chamber-valve reconstruction research package"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Rooted4D contributors"}]
+dependencies = [
+  "numpy>=1.24",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+download = ["huggingface_hub>=0.34"]
+medical = [
+  "nibabel>=5.2",
+  "pydicom>=2.4",
+  "SimpleITK>=2.3",
+]
+train = [
+  "torch>=2.2",
+  "monai>=1.3",
+  "hydra-core>=1.3",
+  "omegaconf>=2.3",
+]
+geometry = [
+  "trimesh>=4.4",
+  "pyvista>=0.43",
+]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+]
+
+[project.scripts]
+rooted4d-data = "rooted4d.data.cli:main"
+rooted4d-smoke = "rooted4d.synthetic.cli:main"
+rooted4d-semisynthetic = "rooted4d.synthetic.dataset_cli:main"
+rooted4d-experiments = "rooted4d.experiments.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rooted4d*"]
+
+[tool.setuptools.package-data]
+"rooted4d.data" = ["catalog.yaml"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

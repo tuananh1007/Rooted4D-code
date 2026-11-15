@@ -1,0 +1,286 @@
+{
+  "experiment": "E15_conformal_coverage",
+  "benchmark": "data/derived/semisynthetic-real-v2",
+  "calibration_split": "val",
+  "evaluation_split": "test",
+  "unit": "identity",
+  "why_identity_not_sample": "Each identity contributes two variants. Two variants of one donor are not exchangeable with a fresh donor, so calibrating on 60 samples treats 30 independent draws as 60 and overstates the calibration set. Both are reported; the identity-level figures are the honest ones.",
+  "quantities": {
+    "phase_offset_cycles": {
+      "target_0.8": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 0.11885870221862938,
+          "coverage": 0.9,
+          "target": 0.8,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.05163977794943222,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 0.23771740443725875,
+          "binomial_se": 0.05163977794943222
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 0.11885870221862938,
+          "coverage": 0.8666666666666667,
+          "target": 0.8,
+          "coverage_error": 0.06666666666666665,
+          "coverage_standard_error": 0.07302967433402215,
+          "within_one_standard_error": true,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 0.23771740443725875,
+          "binomial_se": 0.07302967433402215
+        },
+        "minimum_calibration_size": 4,
+        "circular": true
+      },
+      "target_0.9": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 0.16457145284961683,
+          "coverage": 0.9666666666666667,
+          "target": 0.9,
+          "coverage_error": 0.06666666666666665,
+          "coverage_standard_error": 0.03872983346207417,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 0.32914290569923366,
+          "binomial_se": 0.03872983346207417
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 0.16460858158566205,
+          "coverage": 0.9666666666666667,
+          "target": 0.9,
+          "coverage_error": 0.06666666666666665,
+          "coverage_standard_error": 0.054772255750516606,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 0.3292171631713241,
+          "binomial_se": 0.054772255750516606
+        },
+        "minimum_calibration_size": 9,
+        "circular": true
+      }
+    },
+    "pose_translation_mm": {
+      "target_0.8": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 3.5890474087952526,
+          "coverage": 0.9,
+          "target": 0.8,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.05163977794943222,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 7.178094817590505,
+          "binomial_se": 0.05163977794943222
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 4.591602929838377,
+          "coverage": 0.9,
+          "target": 0.8,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.07302967433402215,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 9.183205859676754,
+          "binomial_se": 0.07302967433402215
+        },
+        "minimum_calibration_size": 4,
+        "circular": false
+      },
+      "target_0.9": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 4.591602929838377,
+          "coverage": 0.9333333333333333,
+          "target": 0.9,
+          "coverage_error": 0.033333333333333326,
+          "coverage_standard_error": 0.03872983346207417,
+          "within_one_standard_error": true,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 9.183205859676754,
+          "binomial_se": 0.03872983346207417
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 5.072094219528125,
+          "coverage": 0.9666666666666667,
+          "target": 0.9,
+          "coverage_error": 0.06666666666666665,
+          "coverage_standard_error": 0.054772255750516606,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 10.14418843905625,
+          "binomial_se": 0.054772255750516606
+        },
+        "minimum_calibration_size": 9,
+        "circular": false
+      }
+    },
+    "pose_rotation_deg": {
+      "target_0.8": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 2.1097753970544346,
+          "coverage": 0.9,
+          "target": 0.8,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.05163977794943222,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 4.219550794108869,
+          "binomial_se": 0.05163977794943222
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 2.191093270366183,
+          "coverage": 0.9333333333333333,
+          "target": 0.8,
+          "coverage_error": 0.1333333333333333,
+          "coverage_standard_error": 0.07302967433402215,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 4.382186540732366,
+          "binomial_se": 0.07302967433402215
+        },
+        "minimum_calibration_size": 4,
+        "circular": false
+      },
+      "target_0.9": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 2.876167062775245,
+          "coverage": 1.0,
+          "target": 0.9,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.03872983346207417,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 5.75233412555049,
+          "binomial_se": 0.03872983346207417
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 2.876167062775245,
+          "coverage": 1.0,
+          "target": 0.9,
+          "coverage_error": 0.09999999999999998,
+          "coverage_standard_error": 0.054772255750516606,
+          "within_one_standard_error": false,
+          "meets_guarantee": true,
+          "under_covers": false,
+          "mean_width": 5.75233412555049,
+          "binomial_se": 0.054772255750516606
+        },
+        "minimum_calibration_size": 9,
+        "circular": false
+      }
+    },
+    "annulus_diameter_mm": {
+      "target_0.8": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 0.7487905635281678,
+          "coverage": 0.7166666666666667,
+          "target": 0.8,
+          "coverage_error": -0.08333333333333337,
+          "coverage_standard_error": 0.05163977794943222,
+          "within_one_standard_error": false,
+          "meets_guarantee": false,
+          "under_covers": false,
+          "mean_width": 1.4975811270563355,
+          "binomial_se": 0.05163977794943222
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 0.6986613331798566,
+          "coverage": 0.6333333333333333,
+          "target": 0.8,
+          "coverage_error": -0.16666666666666674,
+          "coverage_standard_error": 0.07302967433402215,
+          "within_one_standard_error": false,
+          "meets_guarantee": false,
+          "under_covers": true,
+          "mean_width": 1.3973226663597131,
+          "binomial_se": 0.07302967433402215
+        },
+        "minimum_calibration_size": 4,
+        "circular": false
+      },
+      "target_0.9": {
+        "sample": {
+          "n_calibration": 60,
+          "n_evaluation": 60,
+          "half_width": 0.968652667234295,
+          "coverage": 0.8333333333333334,
+          "target": 0.9,
+          "coverage_error": -0.06666666666666665,
+          "coverage_standard_error": 0.03872983346207417,
+          "within_one_standard_error": false,
+          "meets_guarantee": false,
+          "under_covers": false,
+          "mean_width": 1.93730533446859,
+          "binomial_se": 0.03872983346207417
+        },
+        "identity": {
+          "n_calibration": 30,
+          "n_evaluation": 30,
+          "half_width": 0.919778367826666,
+          "coverage": 0.7333333333333333,
+          "target": 0.9,
+          "coverage_error": -0.16666666666666674,
+          "coverage_standard_error": 0.054772255750516606,
+          "within_one_standard_error": false,
+          "meets_guarantee": false,
+          "under_covers": true,
+          "mean_width": 1.839556735653332,
+          "binomial_se": 0.054772255750516606
+        },
+        "minimum_calibration_size": 9,
+        "circular": false
+      }
+    }
+  },
+  "exchangeability_probe": {
+    "quantity": "annulus_diameter_mm",
+    "val_residual_mean": 0.3917488972940511,
+    "test_residual_mean": 0.5972636813573821,
+    "mean_difference": 0.20551478406333096,
+    "permutation_p": 0.02295,
+    "val_true_mean": 51.48950095815628,
+    "val_true_sd": 7.697452261983378,
+    "test_true_mean": 47.400953184166426,
+    "test_true_sd": 10.106224245996758,
+    "reading": "Validation and test cohorts differ in the anatomy itself, so residuals are not exchangeable in this realization and the marginal guarantee does not bind on this draw."
+  }
+}

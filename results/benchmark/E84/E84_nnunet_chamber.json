@@ -1,0 +1,1414 @@
+{
+  "experiment": "E84",
+  "preregistration": "Docs/E84_NNUNET_CHAMBER_PREREGISTRATION_2026-09-28.md",
+  "segmenters": {
+    "compact_unet": "/work/nvme/bhio/avu2/Rooted4D/results/21900728/E31_segmenter.pt",
+    "nnunet": "nnU-Net v2 3d_fullres fold 0 (project split), final checkpoint, --disable_tta; predictions /work/hdd/bhio/avu2/Rooted4D/data/nnunet/predictions_acdc_test"
+  },
+  "reproduction_of_e77_direct": {
+    "frames_compared": 60,
+    "largest_difference_mm": 0.0,
+    "passed": true
+  },
+  "summary": {
+    "patients": 30,
+    "frames": 60,
+    "arms": {
+      "compact_unet": {
+        "dice_lv_cavity_median": 0.9410896933658738,
+        "symmetric_mm": {
+          "median": 2.244888462574518,
+          "lower": 2.101730227922039,
+          "upper": 2.3797602084852265
+        },
+        "hausdorff_mm": {
+          "median": 9.831797005993124,
+          "lower": 8.291015235591958,
+          "upper": 10.727631901459462
+        },
+        "surface_displacement_median_mm": 2.112283088606523,
+        "ejection_fraction": {
+          "patients": 30,
+          "bias": -3.718397612240194,
+          "median_absolute": 4.489572284635464,
+          "limits_of_agreement": [
+            -13.731591274748983,
+            6.2947960502685945
+          ],
+          "width": 20.026387325017577
+        }
+      },
+      "nnunet": {
+        "dice_lv_cavity_median": 0.9566759059912225,
+        "symmetric_mm": {
+          "median": 2.0274364350927967,
+          "lower": 1.9366774053556672,
+          "upper": 2.127781283985807
+        },
+        "hausdorff_mm": {
+          "median": 8.123820039681805,
+          "lower": 7.39244740787358,
+          "upper": 9.029498608478773
+        },
+        "surface_displacement_median_mm": 1.1298955773578367,
+        "ejection_fraction": {
+          "patients": 30,
+          "bias": -2.1346693639713368,
+          "median_absolute": 1.8443680171608197,
+          "limits_of_agreement": [
+            -15.410023059315112,
+            11.140684331372437
+          ],
+          "width": 26.55070739068755
+        }
+      }
+    },
+    "paired_nnunet_minus_compact": {
+      "symmetric_mm_patient_means": {
+        "observed": -0.3362123704398363,
+        "lower": -0.6613651896136354,
+        "upper": -0.12960711160838395,
+        "verdict": "nnU-Net lower"
+      },
+      "ef_median_absolute_error": {
+        "observed": -2.6452042674746448,
+        "lower": -4.6390048235899775,
+        "upper": -0.13457986508072928,
+        "verdict": "nnU-Net lower"
+      },
+      "ef_limits_width": {
+        "observed": 6.524320065669972,
+        "lower": -11.741396745558216,
+        "upper": 23.3262076349104,
+        "verdict": "no detectable difference"
+      }
+    },
+    "rules": {
+      "F1_ef_interval": "no detectable difference",
+      "F2_surface": "nnU-Net lower"
+    }
+  },
+  "wall_seconds": 264.3064646720886,
+  "rows": [
+    {
+      "patient": "patient102",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 70.31982782925836,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9655385566373049,
+        "fitted": true,
+        "symmetric_mm": 1.8790307357003875,
+        "hausdorff_mm": 6.116494018723535,
+        "volume_ml": 69.14339182177466,
+        "surface_displacement_median_mm": 0.9785195207048494
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9754886751473782,
+        "fitted": true,
+        "symmetric_mm": 1.8347775080383515,
+        "hausdorff_mm": 6.6337244260998025,
+        "volume_ml": 68.30121674172958,
+        "surface_displacement_median_mm": 0.40280748198349864
+      }
+    },
+    {
+      "patient": "patient102",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 18.39843935215191,
+      "compact_unet": {
+        "dice_lv_cavity": 0.7865685372585096,
+        "fitted": true,
+        "symmetric_mm": 2.9856482842872234,
+        "hausdorff_mm": 14.68365565629435,
+        "volume_ml": 23.83617524867931,
+        "surface_displacement_median_mm": 5.950738869363196
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8715686274509804,
+        "fitted": true,
+        "symmetric_mm": 3.597865453826419,
+        "hausdorff_mm": 118.74913716939135,
+        "volume_ml": 40.277838586162595,
+        "surface_displacement_median_mm": 7.083118585100177
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 129.7458102890205,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9489537518326003,
+        "fitted": true,
+        "symmetric_mm": 2.1357976967213963,
+        "hausdorff_mm": 7.880342891063335,
+        "volume_ml": 127.30995829851543,
+        "surface_displacement_median_mm": 1.48645644767897
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.913718361068382,
+        "fitted": true,
+        "symmetric_mm": 2.5828567553026955,
+        "hausdorff_mm": 10.178181461714097,
+        "volume_ml": 118.73289451409555,
+        "surface_displacement_median_mm": 0.8869326258947201
+      }
+    },
+    {
+      "patient": "patient104",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 17.196991058349802,
+      "compact_unet": {
+        "dice_lv_cavity": 0.6925098554533509,
+        "fitted": true,
+        "symmetric_mm": 3.519546492306741,
+        "hausdorff_mm": 22.324564050330867,
+        "volume_ml": 28.507899260306235,
+        "surface_displacement_median_mm": 7.269394936648304
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8935496636327661,
+        "fitted": true,
+        "symmetric_mm": 2.040128941335884,
+        "hausdorff_mm": 6.436747552811105,
+        "volume_ml": 20.273115535280855,
+        "surface_displacement_median_mm": 5.394958976589923
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 119.82956619511849,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9419096372134431,
+        "fitted": true,
+        "symmetric_mm": 2.0705302897986013,
+        "hausdorff_mm": 49.88109527344915,
+        "volume_ml": 116.08704606425292,
+        "surface_displacement_median_mm": 1.4739652697323882
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9763779527559056,
+        "fitted": true,
+        "symmetric_mm": 1.98478030524078,
+        "hausdorff_mm": 8.885605132193792,
+        "volume_ml": 117.7131134254554,
+        "surface_displacement_median_mm": 5.574529875027395
+      }
+    },
+    {
+      "patient": "patient107",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 43.20735359391156,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9294836202109938,
+        "fitted": true,
+        "symmetric_mm": 3.557363972854429,
+        "hausdorff_mm": 40.748797381856605,
+        "volume_ml": 49.70151301177017,
+        "surface_displacement_median_mm": 10.742462193030821
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9562302104674986,
+        "fitted": true,
+        "symmetric_mm": 1.7907876356150436,
+        "hausdorff_mm": 7.243738620896568,
+        "volume_ml": 42.56703640673034,
+        "surface_displacement_median_mm": 0.7873992057895002
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 205.41689749385392,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9426942694269427,
+        "fitted": true,
+        "symmetric_mm": 2.3742393480341732,
+        "hausdorff_mm": 9.606742157722765,
+        "volume_ml": 194.92326753264982,
+        "surface_displacement_median_mm": 6.0285671472688716
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.962148753261195,
+        "fitted": true,
+        "symmetric_mm": 2.0148752758960633,
+        "hausdorff_mm": 7.847287726310164,
+        "volume_ml": 197.65628950347224,
+        "surface_displacement_median_mm": 0.8251239688187608
+      }
+    },
+    {
+      "patient": "patient112",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 111.15613006507252,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8658250146799765,
+        "fitted": true,
+        "symmetric_mm": 3.3762473744628867,
+        "hausdorff_mm": 13.784611545664793,
+        "volume_ml": 120.63197954099608,
+        "surface_displacement_median_mm": 6.265011108196593
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9508273129806571,
+        "fitted": true,
+        "symmetric_mm": 2.0968428714959964,
+        "hausdorff_mm": 8.082519911340038,
+        "volume_ml": 108.02564637268455,
+        "surface_displacement_median_mm": 0.9255021709850553
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 103.8830010865117,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9530911408540471,
+        "fitted": true,
+        "symmetric_mm": 1.391216078120909,
+        "hausdorff_mm": 5.133236166511519,
+        "volume_ml": 98.54266616255627,
+        "surface_displacement_median_mm": 3.0030403721457466
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9710190880842159,
+        "fitted": true,
+        "symmetric_mm": 1.2494478271476488,
+        "hausdorff_mm": 5.163092594046934,
+        "volume_ml": 99.14605107877846,
+        "surface_displacement_median_mm": 0.7547806146055125
+      }
+    },
+    {
+      "patient": "patient125",
+      "frame": 7,
+      "fitted": true,
+      "reference_volume_ml": 37.49689336332781,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8961606998218047,
+        "fitted": true,
+        "symmetric_mm": 1.9456069328885555,
+        "hausdorff_mm": 5.304127016788162,
+        "volume_ml": 40.833929409045346,
+        "surface_displacement_median_mm": 3.1790035349467973
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9073834196891192,
+        "fitted": true,
+        "symmetric_mm": 1.9222364122913413,
+        "hausdorff_mm": 6.001632356938069,
+        "volume_ml": 40.87701827871626,
+        "surface_displacement_median_mm": 2.970526656139543
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 260.3619595218567,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9577333952624245,
+        "fitted": true,
+        "symmetric_mm": 2.209210803467694,
+        "hausdorff_mm": 9.453620201741836,
+        "volume_ml": 263.51214271718334,
+        "surface_displacement_median_mm": 6.099916028381566
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9642039133564557,
+        "fitted": true,
+        "symmetric_mm": 2.176339567711489,
+        "hausdorff_mm": 8.225267181542044,
+        "volume_ml": 270.99319094084836,
+        "surface_displacement_median_mm": 1.2212888882790391
+      }
+    },
+    {
+      "patient": "patient135",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 208.5256379260004,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9569927774130007,
+        "fitted": true,
+        "symmetric_mm": 2.399718993134904,
+        "hausdorff_mm": 10.794808559290642,
+        "volume_ml": 216.0742637820944,
+        "surface_displacement_median_mm": 5.72614077330673
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9612696324315435,
+        "fitted": true,
+        "symmetric_mm": 2.3839248028923734,
+        "hausdorff_mm": 11.321091899483118,
+        "volume_ml": 215.28347584592925,
+        "surface_displacement_median_mm": 5.810465695750761
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 124.82814729582284,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9499210790644281,
+        "fitted": true,
+        "symmetric_mm": 1.7637952351060906,
+        "hausdorff_mm": 5.994586851845116,
+        "volume_ml": 117.77067166274863,
+        "surface_displacement_median_mm": 1.34681972432884
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9556210889736029,
+        "fitted": true,
+        "symmetric_mm": 1.768190342304767,
+        "hausdorff_mm": 7.391462899535036,
+        "volume_ml": 117.01985939219692,
+        "surface_displacement_median_mm": 1.1145329306584557
+      }
+    },
+    {
+      "patient": "patient138",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 34.68200722934156,
+      "compact_unet": {
+        "dice_lv_cavity": 0.7803617571059431,
+        "fitted": true,
+        "symmetric_mm": 2.662829713122804,
+        "hausdorff_mm": 11.89136401253106,
+        "volume_ml": 26.82078223959475,
+        "surface_displacement_median_mm": 7.251445148657974
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.7840327533265097,
+        "fitted": true,
+        "symmetric_mm": 4.535210622399836,
+        "hausdorff_mm": 15.73913383327582,
+        "volume_ml": 26.542970690802157,
+        "surface_displacement_median_mm": 10.592786318382247
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 100.12575733798141,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9608378870673953,
+        "fitted": true,
+        "symmetric_mm": 1.782681975608875,
+        "hausdorff_mm": 6.379778351952698,
+        "volume_ml": 95.67074529760676,
+        "surface_displacement_median_mm": 1.3355136593318826
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9698685171658145,
+        "fitted": true,
+        "symmetric_mm": 1.7352357124266529,
+        "hausdorff_mm": 7.280186714734945,
+        "volume_ml": 95.0452909091081,
+        "surface_displacement_median_mm": 0.6613623238288939
+      }
+    },
+    {
+      "patient": "patient144",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 26.940305733718123,
+      "compact_unet": {
+        "dice_lv_cavity": 0.7969661610268378,
+        "fitted": true,
+        "symmetric_mm": 3.2426753414106426,
+        "hausdorff_mm": 11.490629213067045,
+        "volume_ml": 29.632603279096628,
+        "surface_displacement_median_mm": 10.68111066389476
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9237206308336016,
+        "fitted": true,
+        "symmetric_mm": 1.7318649504401091,
+        "hausdorff_mm": 9.029498608478773,
+        "volume_ml": 23.079699911151852,
+        "surface_displacement_median_mm": 5.471801970697632
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 197.0776078993804,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9481364904499606,
+        "fitted": true,
+        "symmetric_mm": 2.7949423714305253,
+        "hausdorff_mm": 10.037288627482589,
+        "volume_ml": 199.99475197450676,
+        "surface_displacement_median_mm": 1.8057569802558657
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9515116942384484,
+        "fitted": true,
+        "symmetric_mm": 2.818866386474431,
+        "hausdorff_mm": 10.511308448973159,
+        "volume_ml": 200.99861678626993,
+        "surface_displacement_median_mm": 1.3856077133575768
+      }
+    },
+    {
+      "patient": "patient145",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 157.22752408996388,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9368156524860887,
+        "fitted": true,
+        "symmetric_mm": 2.6110829500541177,
+        "hausdorff_mm": 9.544478548782557,
+        "volume_ml": 155.512289505075,
+        "surface_displacement_median_mm": 2.205601477239677
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9597639484978541,
+        "fitted": true,
+        "symmetric_mm": 2.63653788018597,
+        "hausdorff_mm": 10.49580912053413,
+        "volume_ml": 157.08028360577774,
+        "surface_displacement_median_mm": 1.1983297608849877
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 132.89787495551576,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9566661633700739,
+        "fitted": true,
+        "symmetric_mm": 2.127373373261063,
+        "hausdorff_mm": 10.383072420505046,
+        "volume_ml": 131.79424927312178,
+        "surface_displacement_median_mm": 5.138824579682151
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9698011660935865,
+        "fitted": true,
+        "symmetric_mm": 2.1560812422011186,
+        "hausdorff_mm": 10.743845588099578,
+        "volume_ml": 134.9243529291929,
+        "surface_displacement_median_mm": 5.246955810704129
+      }
+    },
+    {
+      "patient": "patient146",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 22.620391354223354,
+      "compact_unet": {
+        "dice_lv_cavity": 0.7753424657534247,
+        "fitted": true,
+        "symmetric_mm": 3.3388850772475847,
+        "hausdorff_mm": 12.979426465904655,
+        "volume_ml": 30.753715940918,
+        "surface_displacement_median_mm": 6.04190557622908
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8740043446777698,
+        "fitted": true,
+        "symmetric_mm": 2.504458841035115,
+        "hausdorff_mm": 14.747227210629841,
+        "volume_ml": 26.678535678257653,
+        "surface_displacement_median_mm": 6.1804345244744185
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 194.0622833374208,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9140779038689042,
+        "fitted": true,
+        "symmetric_mm": 6.702712185805735,
+        "hausdorff_mm": 71.2332339390091,
+        "volume_ml": 269.6599777722056,
+        "surface_displacement_median_mm": 5.662343020932606
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9807288507302506,
+        "fitted": true,
+        "symmetric_mm": 1.9132517401767206,
+        "hausdorff_mm": 6.401554212476613,
+        "volume_ml": 193.87310311924224,
+        "surface_displacement_median_mm": 0.521879856427049
+      }
+    },
+    {
+      "patient": "patient149",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 111.28652571069333,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8505925507900677,
+        "fitted": true,
+        "symmetric_mm": 8.978099023480825,
+        "hausdorff_mm": 70.02577833546924,
+        "volume_ml": 203.8632741301205,
+        "surface_displacement_median_mm": 9.368397082772393
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9707039088209326,
+        "fitted": true,
+        "symmetric_mm": 5.390514983348727,
+        "hausdorff_mm": 67.47148703516308,
+        "volume_ml": 113.47801612024197,
+        "surface_displacement_median_mm": 5.169631483799299
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 286.0130449535308,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9709449929478138,
+        "fitted": true,
+        "symmetric_mm": 1.9535639949073598,
+        "hausdorff_mm": 6.232317148833871,
+        "volume_ml": 289.17897160216955,
+        "surface_displacement_median_mm": 1.119808137340582
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9779636117075375,
+        "fitted": true,
+        "symmetric_mm": 1.8940170561664658,
+        "hausdorff_mm": 6.957246118315076,
+        "volume_ml": 288.2911386690535,
+        "surface_displacement_median_mm": 0.6505416257807164
+      }
+    },
+    {
+      "patient": "patient007",
+      "frame": 7,
+      "fitted": true,
+      "reference_volume_ml": 259.6581595816369,
+      "compact_unet": {
+        "dice_lv_cavity": 0.964510990761389,
+        "fitted": true,
+        "symmetric_mm": 1.9757431164441783,
+        "hausdorff_mm": 7.175390805955045,
+        "volume_ml": 255.41734394311965,
+        "surface_displacement_median_mm": 1.2358503991105447
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.971421280939015,
+        "fitted": true,
+        "symmetric_mm": 1.9151092153387275,
+        "hausdorff_mm": 6.51874744353578,
+        "volume_ml": 254.25236762117459,
+        "surface_displacement_median_mm": 0.95263614068823
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 297.87283925629714,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9745792594967142,
+        "fitted": true,
+        "symmetric_mm": 2.0730624302254697,
+        "hausdorff_mm": 7.328314517313126,
+        "volume_ml": 306.58095558587746,
+        "surface_displacement_median_mm": 1.102061101513719
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.98371755602128,
+        "fitted": true,
+        "symmetric_mm": 2.003916276972604,
+        "hausdorff_mm": 7.334532939032015,
+        "volume_ml": 302.8106532224522,
+        "surface_displacement_median_mm": 0.45386539133699877
+      }
+    },
+    {
+      "patient": "patient019",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 217.2288046915535,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9740799716914367,
+        "fitted": true,
+        "symmetric_mm": 2.0287690719368974,
+        "hausdorff_mm": 6.700815514533054,
+        "volume_ml": 222.04554102686117,
+        "surface_displacement_median_mm": 0.8942511730653223
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9765520916600053,
+        "fitted": true,
+        "symmetric_mm": 2.0277682911285684,
+        "hausdorff_mm": 7.22325521683543,
+        "volume_ml": 220.49369732259544,
+        "surface_displacement_median_mm": 0.655369955428855
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 58.51502385072698,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9491101223581757,
+        "fitted": true,
+        "symmetric_mm": 4.667130390646789,
+        "hausdorff_mm": 54.32269047722828,
+        "volume_ml": 57.09594462757965,
+        "surface_displacement_median_mm": 1.503376693959271
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9598790876614455,
+        "fitted": true,
+        "symmetric_mm": 1.9080546538632104,
+        "hausdorff_mm": 7.39827395109826,
+        "volume_ml": 58.702358069611094,
+        "surface_displacement_median_mm": 5.926048647699621
+      }
+    },
+    {
+      "patient": "patient022",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 19.608876945422452,
+      "compact_unet": {
+        "dice_lv_cavity": 0.898042414355628,
+        "fitted": true,
+        "symmetric_mm": 2.38528106893628,
+        "hausdorff_mm": 10.026370071344866,
+        "volume_ml": 21.657373855402113,
+        "surface_displacement_median_mm": 1.4305811513585978
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9265321659687857,
+        "fitted": true,
+        "symmetric_mm": 2.0640489649204112,
+        "hausdorff_mm": 7.209905061885396,
+        "volume_ml": 20.469041896683635,
+        "surface_displacement_median_mm": 1.198406585531149
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 69.50060828239306,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9325337331334332,
+        "fitted": true,
+        "symmetric_mm": 2.495932401197403,
+        "hausdorff_mm": 14.746765827517072,
+        "volume_ml": 70.41293231658697,
+        "surface_displacement_median_mm": 5.511104603879934
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9498614958448753,
+        "fitted": true,
+        "symmetric_mm": 1.9609900496192947,
+        "hausdorff_mm": 6.764438394075804,
+        "volume_ml": 68.83981330910994,
+        "surface_displacement_median_mm": 1.1896153960620723
+      }
+    },
+    {
+      "patient": "patient023",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 19.637861078244086,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8732394366197183,
+        "fitted": true,
+        "symmetric_mm": 2.0819143044725927,
+        "hausdorff_mm": 7.119973642302432,
+        "volume_ml": 20.905935673186985,
+        "surface_displacement_median_mm": 5.518951984840909
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.879936178699641,
+        "fitted": true,
+        "symmetric_mm": 2.0687854306881555,
+        "hausdorff_mm": 6.69076389694073,
+        "volume_ml": 23.174048956272138,
+        "surface_displacement_median_mm": 1.4218126186665063
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 119.81440731130324,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9374829374829374,
+        "fitted": true,
+        "symmetric_mm": 2.2689440159857703,
+        "hausdorff_mm": 8.41808261777962,
+        "volume_ml": 131.6958279812189,
+        "surface_displacement_median_mm": 5.835193917204151
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9102302330493558,
+        "fitted": true,
+        "symmetric_mm": 2.5853014641410996,
+        "hausdorff_mm": 11.428272088844762,
+        "volume_ml": 126.59259137897745,
+        "surface_displacement_median_mm": 1.3300531154940045
+      }
+    },
+    {
+      "patient": "patient027",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 33.17223607238985,
+      "compact_unet": {
+        "dice_lv_cavity": 0.768206883437916,
+        "fitted": true,
+        "symmetric_mm": 3.625890881348043,
+        "hausdorff_mm": 19.654367478823804,
+        "volume_ml": 49.863523645890304,
+        "surface_displacement_median_mm": 6.039012929199302
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8136341343795979,
+        "fitted": true,
+        "symmetric_mm": 3.9902825715752868,
+        "hausdorff_mm": 14.807799905212722,
+        "volume_ml": 30.86404015595686,
+        "surface_displacement_median_mm": 5.699050096543269
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 148.10487134726137,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9435192733201351,
+        "fitted": true,
+        "symmetric_mm": 2.1965206919901252,
+        "hausdorff_mm": 14.947508924388687,
+        "volume_ml": 152.36561505201078,
+        "surface_displacement_median_mm": 1.2637277595775762
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9353435067720782,
+        "fitted": true,
+        "symmetric_mm": 3.0347743065294566,
+        "hausdorff_mm": 10.037544793047585,
+        "volume_ml": 135.8426717071888,
+        "surface_displacement_median_mm": 5.079050944237483
+      }
+    },
+    {
+      "patient": "patient029",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 22.494446575856838,
+      "compact_unet": {
+        "dice_lv_cavity": 0.6884176182707994,
+        "fitted": true,
+        "symmetric_mm": 3.9184808669064637,
+        "hausdorff_mm": 16.214289908460522,
+        "volume_ml": 31.934687875179254,
+        "surface_displacement_median_mm": 11.195474775833485
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8782115448782115,
+        "fitted": true,
+        "symmetric_mm": 1.9189878782380847,
+        "hausdorff_mm": 6.290337546222592,
+        "volume_ml": 22.279216531115043,
+        "surface_displacement_median_mm": 5.7179386510660475
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 68.38453037897509,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8847620218915263,
+        "fitted": true,
+        "symmetric_mm": 4.021092052992945,
+        "hausdorff_mm": 19.890968507063143,
+        "volume_ml": 85.90051634302272,
+        "surface_displacement_median_mm": 7.146484125857059
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9571216015149465,
+        "fitted": true,
+        "symmetric_mm": 1.7972905637768326,
+        "hausdorff_mm": 5.839034630232742,
+        "volume_ml": 69.70251872680826,
+        "surface_displacement_median_mm": 0.9127960665364849
+      }
+    },
+    {
+      "patient": "patient030",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 14.152170149722885,
+      "compact_unet": {
+        "dice_lv_cavity": 0.661722290894108,
+        "fitted": true,
+        "symmetric_mm": 3.908369154304822,
+        "hausdorff_mm": 16.356282630688597,
+        "volume_ml": 24.23175639027177,
+        "surface_displacement_median_mm": 10.578853763028143
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8056228793019874,
+        "fitted": true,
+        "symmetric_mm": 2.2873466492640855,
+        "hausdorff_mm": 12.406717297654936,
+        "volume_ml": 18.738892685342815,
+        "surface_displacement_median_mm": 7.398515316035315
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 161.77404826422423,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9484731617879497,
+        "fitted": true,
+        "symmetric_mm": 2.102189544164375,
+        "hausdorff_mm": 7.878727714496371,
+        "volume_ml": 163.46296709325398,
+        "surface_displacement_median_mm": 1.4139326384981996
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.961836916422847,
+        "fitted": true,
+        "symmetric_mm": 2.027104579057025,
+        "hausdorff_mm": 8.887784156180576,
+        "volume_ml": 161.35326727298371,
+        "surface_displacement_median_mm": 1.0641530054345791
+      }
+    },
+    {
+      "patient": "patient031",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 39.21022313678341,
+      "compact_unet": {
+        "dice_lv_cavity": 0.7999180831456072,
+        "fitted": true,
+        "symmetric_mm": 3.5261452208643087,
+        "hausdorff_mm": 16.50199810964996,
+        "volume_ml": 52.518825242451484,
+        "surface_displacement_median_mm": 5.814711019690158
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9323694029850746,
+        "fitted": true,
+        "symmetric_mm": 1.8163996056986529,
+        "hausdorff_mm": 6.131386223300313,
+        "volume_ml": 39.60441683537482,
+        "surface_displacement_median_mm": 1.0918068823830946
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 135.5141822404765,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9443202979515829,
+        "fitted": true,
+        "symmetric_mm": 2.060168761135453,
+        "hausdorff_mm": 7.109959006576002,
+        "volume_ml": 127.87581253869261,
+        "surface_displacement_median_mm": 1.6927950331218002
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9533389214864487,
+        "fitted": true,
+        "symmetric_mm": 2.0249570007412885,
+        "hausdorff_mm": 7.3866208646489,
+        "volume_ml": 127.52642040969776,
+        "surface_displacement_median_mm": 1.1884979919670806
+      }
+    },
+    {
+      "patient": "patient039",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 34.80605768815028,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8588273829020635,
+        "fitted": true,
+        "symmetric_mm": 2.3075074126576935,
+        "hausdorff_mm": 10.27426097529927,
+        "volume_ml": 33.733127330924546,
+        "surface_displacement_median_mm": 7.263208237486707
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8988910632746249,
+        "fitted": true,
+        "symmetric_mm": 2.0901478654053998,
+        "hausdorff_mm": 8.971501244332696,
+        "volume_ml": 33.08972062459994,
+        "surface_displacement_median_mm": 6.973056928833983
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 135.9204131351488,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9549107142857143,
+        "fitted": true,
+        "symmetric_mm": 2.319150306557229,
+        "hausdorff_mm": 9.63722394064138,
+        "volume_ml": 134.49913377068796,
+        "surface_displacement_median_mm": 1.2925013039352589
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9594644302214375,
+        "fitted": true,
+        "symmetric_mm": 2.361245561710086,
+        "hausdorff_mm": 9.857735606786092,
+        "volume_ml": 138.36532804785065,
+        "surface_displacement_median_mm": 0.8031168520655
+      }
+    },
+    {
+      "patient": "patient040",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 65.58157516472376,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9236141422959406,
+        "fitted": true,
+        "symmetric_mm": 2.5919160677560464,
+        "hausdorff_mm": 9.18183554384243,
+        "volume_ml": 69.70024545782444,
+        "surface_displacement_median_mm": 1.6573573954703082
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.8516228748068007,
+        "fitted": true,
+        "symmetric_mm": 3.470817106806048,
+        "hausdorff_mm": 15.707892123669001,
+        "volume_ml": 63.91206641216743,
+        "surface_displacement_median_mm": 1.5094398359469956
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 206.85110117170083,
+      "compact_unet": {
+        "dice_lv_cavity": 0.952596435075327,
+        "fitted": true,
+        "symmetric_mm": 2.1661386633935877,
+        "hausdorff_mm": 9.278087090262796,
+        "volume_ml": 198.36904829080441,
+        "surface_displacement_median_mm": 1.9411920338162933
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9737201551658198,
+        "fitted": true,
+        "symmetric_mm": 2.1250686775581418,
+        "hausdorff_mm": 9.040875935898569,
+        "volume_ml": 201.58064025098304,
+        "surface_displacement_median_mm": 0.8763583690479619
+      }
+    },
+    {
+      "patient": "patient045",
+      "frame": 13,
+      "fitted": true,
+      "reference_volume_ml": 145.67517465021174,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9518940274227283,
+        "fitted": true,
+        "symmetric_mm": 2.2374912482843508,
+        "hausdorff_mm": 8.524125603444073,
+        "volume_ml": 142.36912205092443,
+        "surface_displacement_median_mm": 1.6689118328177877
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9647772334966177,
+        "fitted": true,
+        "symmetric_mm": 2.155761582458781,
+        "hausdorff_mm": 9.641867009920894,
+        "volume_ml": 140.8450716303056,
+        "surface_displacement_median_mm": 0.9239229569623328
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 245.20986235543617,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9601878612716763,
+        "fitted": true,
+        "symmetric_mm": 2.016497596610349,
+        "hausdorff_mm": 7.525296049591586,
+        "volume_ml": 242.27603803527924,
+        "surface_displacement_median_mm": 5.266287980012402
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9715913187684765,
+        "fitted": true,
+        "symmetric_mm": 1.9706156612496164,
+        "hausdorff_mm": 7.9331592963602295,
+        "volume_ml": 242.61071413662881,
+        "surface_displacement_median_mm": 0.7405485365728334
+      }
+    },
+    {
+      "patient": "patient050",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 203.5638013413828,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9402697495183044,
+        "fitted": true,
+        "symmetric_mm": 1.9997489384294664,
+        "hausdorff_mm": 7.68260199664339,
+        "volume_ml": 196.0120827769544,
+        "surface_displacement_median_mm": 2.0189646999733695
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9716841830973681,
+        "fitted": true,
+        "symmetric_mm": 1.9253075577785888,
+        "hausdorff_mm": 7.949218921298052,
+        "volume_ml": 199.22051338563674,
+        "surface_displacement_median_mm": 0.7733590476438664
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 151.76227237208218,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9023242549550834,
+        "fitted": true,
+        "symmetric_mm": 2.0799552070848755,
+        "hausdorff_mm": 14.741391423308135,
+        "volume_ml": 132.07769587424107,
+        "surface_displacement_median_mm": 2.4807555833023365
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9560432094571643,
+        "fitted": true,
+        "symmetric_mm": 1.9480472529327457,
+        "hausdorff_mm": 7.828296568879793,
+        "volume_ml": 145.07121414622165,
+        "surface_displacement_median_mm": 1.4002981330009736
+      }
+    },
+    {
+      "patient": "patient052",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 101.55702020221133,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8262504272530478,
+        "fitted": true,
+        "symmetric_mm": 2.316087703490008,
+        "hausdorff_mm": 12.869578341249134,
+        "volume_ml": 82.36371474381188,
+        "surface_displacement_median_mm": 2.677159360370699
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9506323949408405,
+        "fitted": true,
+        "symmetric_mm": 2.1278512686875173,
+        "hausdorff_mm": 8.165120168023572,
+        "volume_ml": 97.38512592620084,
+        "surface_displacement_median_mm": 1.2528710380299901
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 137.71709793006264,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9597225602336334,
+        "fitted": true,
+        "symmetric_mm": 1.8015213870428626,
+        "hausdorff_mm": 6.3865626027231395,
+        "volume_ml": 135.99360555575754,
+        "surface_displacement_median_mm": 1.452291976884174
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9724502827951104,
+        "fitted": true,
+        "symmetric_mm": 1.7617175539663568,
+        "hausdorff_mm": 6.171990901827359,
+        "volume_ml": 136.20783386125845,
+        "surface_displacement_median_mm": 0.7171587067674962
+      }
+    },
+    {
+      "patient": "patient053",
+      "frame": 12,
+      "fitted": true,
+      "reference_volume_ml": 104.90982101008903,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9445356087955366,
+        "fitted": true,
+        "symmetric_mm": 1.8946826479892276,
+        "hausdorff_mm": 6.687296580747892,
+        "volume_ml": 101.67776597515326,
+        "surface_displacement_median_mm": 1.6645279504495316
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9639970609845702,
+        "fitted": true,
+        "symmetric_mm": 1.8321146141967781,
+        "hausdorff_mm": 7.510056098636281,
+        "volume_ml": 101.76744998558553,
+        "surface_displacement_median_mm": 0.7719668894525356
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 138.80643719918464,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9532120856556174,
+        "fitted": true,
+        "symmetric_mm": 1.9561832777557475,
+        "hausdorff_mm": 6.998246698400109,
+        "volume_ml": 136.6916444232654,
+        "surface_displacement_median_mm": 1.3019015707494126
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9630608797826247,
+        "fitted": true,
+        "symmetric_mm": 1.8822933886441011,
+        "hausdorff_mm": 7.327477330339217,
+        "volume_ml": 135.97394901908797,
+        "surface_displacement_median_mm": 0.7974235054263011
+      }
+    },
+    {
+      "patient": "patient055",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 98.96683133651055,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9481074481074481,
+        "fitted": true,
+        "symmetric_mm": 2.101730227922039,
+        "hausdorff_mm": 7.641764069633645,
+        "volume_ml": 97.6463809860866,
+        "surface_displacement_median_mm": 1.2590675812582734
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9621958576312085,
+        "fitted": true,
+        "symmetric_mm": 2.1554738019886157,
+        "hausdorff_mm": 8.177891715909832,
+        "volume_ml": 100.52603612422203,
+        "surface_displacement_median_mm": 0.704720828317909
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 147.47593041081151,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9659184648113576,
+        "fitted": true,
+        "symmetric_mm": 2.421311672669765,
+        "hausdorff_mm": 52.3124532740169,
+        "volume_ml": 162.45328859775833,
+        "surface_displacement_median_mm": 1.3109670827582063
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9423309584621589,
+        "fitted": true,
+        "symmetric_mm": 1.7647090364814213,
+        "hausdorff_mm": 11.061791827516362,
+        "volume_ml": 137.74989749807213,
+        "surface_displacement_median_mm": 0.9750448844550196
+      }
+    },
+    {
+      "patient": "patient081",
+      "frame": 7,
+      "fitted": true,
+      "reference_volume_ml": 63.11301029209022,
+      "compact_unet": {
+        "dice_lv_cavity": 0.8961868272213099,
+        "fitted": true,
+        "symmetric_mm": 2.2552141495349485,
+        "hausdorff_mm": 7.2666912869299,
+        "volume_ml": 72.62347782891155,
+        "surface_displacement_median_mm": 3.296912553491302
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9018181818181819,
+        "fitted": true,
+        "symmetric_mm": 2.3717927218836623,
+        "hausdorff_mm": 11.887798471198435,
+        "volume_ml": 75.46961543815543,
+        "surface_displacement_median_mm": 3.583073878120249
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 78.77226268547871,
+      "compact_unet": {
+        "dice_lv_cavity": 0.949796593499933,
+        "fitted": true,
+        "symmetric_mm": 1.4620125599886875,
+        "hausdorff_mm": 10.280229934787474,
+        "volume_ml": 74.27077266848315,
+        "surface_displacement_median_mm": 1.1744383446896047
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9666622627383626,
+        "fitted": true,
+        "symmetric_mm": 1.4843356708441,
+        "hausdorff_mm": 9.776310950996486,
+        "volume_ml": 77.02573621741249,
+        "surface_displacement_median_mm": 0.6457497877890832
+      }
+    },
+    {
+      "patient": "patient085",
+      "frame": 9,
+      "fitted": true,
+      "reference_volume_ml": 31.523422656636093,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9029942575881871,
+        "fitted": true,
+        "symmetric_mm": 1.789363934542672,
+        "hausdorff_mm": 6.69187908306718,
+        "volume_ml": 34.97841872351579,
+        "surface_displacement_median_mm": 1.8484141948359323
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9330696367232226,
+        "fitted": true,
+        "symmetric_mm": 1.6593531088203175,
+        "hausdorff_mm": 6.554932529778705,
+        "volume_ml": 33.88596887708988,
+        "surface_displacement_median_mm": 1.1452582240572178
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 1,
+      "fitted": true,
+      "reference_volume_ml": 155.09051993161967,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9534956110315632,
+        "fitted": true,
+        "symmetric_mm": 2.1680738502992307,
+        "hausdorff_mm": 10.317609094723386,
+        "volume_ml": 143.63250843625255,
+        "surface_displacement_median_mm": 6.673223825081957
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9723402944618986,
+        "fitted": true,
+        "symmetric_mm": 2.1277112992840967,
+        "hausdorff_mm": 8.882873210782892,
+        "volume_ml": 149.86195526275833,
+        "surface_displacement_median_mm": 0.8817638581325862
+      }
+    },
+    {
+      "patient": "patient087",
+      "frame": 10,
+      "fitted": true,
+      "reference_volume_ml": 83.5578039479178,
+      "compact_unet": {
+        "dice_lv_cavity": 0.936525129982669,
+        "fitted": true,
+        "symmetric_mm": 2.8460704916474757,
+        "hausdorff_mm": 10.541461810023126,
+        "volume_ml": 90.38452138621722,
+        "surface_displacement_median_mm": 1.7780106216716263
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9439374185136897,
+        "fitted": true,
+        "symmetric_mm": 2.7884899785480615,
+        "hausdorff_mm": 10.029790196751986,
+        "volume_ml": 90.25881974010383,
+        "surface_displacement_median_mm": 1.4093634761423925
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 4,
+      "fitted": true,
+      "reference_volume_ml": 69.77265522407603,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9372663066057333,
+        "fitted": true,
+        "symmetric_mm": 2.252285676864685,
+        "hausdorff_mm": 8.701687580120582,
+        "volume_ml": 67.70640776706242,
+        "surface_displacement_median_mm": 1.6986266252253472
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9623778840157972,
+        "fitted": true,
+        "symmetric_mm": 2.1454016349373815,
+        "hausdorff_mm": 8.818603693769424,
+        "volume_ml": 67.90345434529878,
+        "surface_displacement_median_mm": 0.7258100359541515
+      }
+    },
+    {
+      "patient": "patient090",
+      "frame": 11,
+      "fitted": true,
+      "reference_volume_ml": 34.79191532817815,
+      "compact_unet": {
+        "dice_lv_cavity": 0.9084870848708487,
+        "fitted": true,
+        "symmetric_mm": 1.8617880277861785,
+        "hausdorff_mm": 10.660455243628283,
+        "volume_ml": 34.281233718173866,
+        "surface_displacement_median_mm": 1.8801485308294652
+      },
+      "nnunet": {
+        "dice_lv_cavity": 0.9363636363636364,
+        "fitted": true,
+        "symmetric_mm": 1.6903850843943555,
+        "hausdorff_mm": 5.7827209750277575,
+        "volume_ml": 33.03587417380078,
+        "surface_displacement_median_mm": 0.7973432336100565
+      }
+    }
+  ]
+}

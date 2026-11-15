@@ -1,0 +1,17 @@
+seed: 7
+n_cmr_frames: 20
+n_tee_frames: 24
+fourier_order: 3
+cmr_noise_mm: 0.35
+tee_noise_mm: 0.45
+tee_dropout_fraction: 0.20
+tee_pose:
+  axis_angle_rad: [0.08, -0.12, 0.18]
+  translation_mm: [7.0, -4.0, 11.0]
+phase_warp:
+  offset_cycles: 0.13
+  logits: [-0.4, 0.2, 0.8, -0.1, 0.5, -0.6, 0.1, 0.4]
+acceptance:
+  attachment_residual_mm: 1.0e-10
+  periodic_seam_mm: 1.0e-10
+

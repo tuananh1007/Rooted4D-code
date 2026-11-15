@@ -1,0 +1,50 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+data/raw/
+data/interim/
+data/derived/
+externals/
+outputs/
+runs/
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.mhd
+*.nrrd
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+
+PROVENANCE.txt
+
+# Datasets are never committed: they are large, licensed, and regenerable
+# or re-downloadable from their provider.
+# Archives may sit at the top level or inside a per-dataset folder, so match
+# both. The flat-only pattern missed datasets/MVSeg2023/train.zip.
+datasets/**/*.zip
+datasets/**/*.zip.*
+datasets/**/*.tar
+datasets/**/*.tar.gz
+datasets/**/*.rar
+datasets/**/*.7z
+datasets/**/*.gz
+datasets/**/*.crdownload
+datasets/**/*.nii
+datasets/**/*.nii.gz
+
+# The linkage salt re-identifies the donor pool; it must never be committed.
+data/linkage_salt.json
+
+# Qualitative figure samples (E78, E81, E109): generated arrays and panels, regenerable
+results/qualitative/
+results/qualitative96/

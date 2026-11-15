@@ -1,0 +1,48 @@
+{
+  "experiment": "E53_structured_vs_learned",
+  "train_identities": 180,
+  "test_identities": 60,
+  "incumbent": "principal subspace of the whole displacement field, as fit_benchmark_model builds it",
+  "rows": [
+    {
+      "budget": 12,
+      "learned_global": 4.377974026845658,
+      "learned_structured": 5.687535895875289,
+      "interface_dim": 3,
+      "interior_dim_per_component": 3,
+      "dimensions_used": 12
+    },
+    {
+      "budget": 24,
+      "learned_global": 2.608949664121027,
+      "learned_structured": 2.657881487650474,
+      "interface_dim": 6,
+      "interior_dim_per_component": 6,
+      "dimensions_used": 24
+    },
+    {
+      "budget": 32,
+      "learned_global": 1.769885103531335,
+      "learned_structured": 1.807277990243675,
+      "interface_dim": 5,
+      "interior_dim_per_component": 9,
+      "dimensions_used": 32
+    },
+    {
+      "budget": 48,
+      "learned_global": 1.2059734307309724,
+      "learned_structured": 1.0353102035440296,
+      "interface_dim": 12,
+      "interior_dim_per_component": 12,
+      "dimensions_used": 48
+    },
+    {
+      "budget": 64,
+      "learned_global": 0.8888237525269302,
+      "learned_structured": 0.7552779362801534,
+      "interface_dim": 13,
+      "interior_dim_per_component": 17,
+      "dimensions_used": 64
+    }
+  ]
+}
